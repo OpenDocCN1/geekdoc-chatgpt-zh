@@ -6193,6 +6193,7 @@ def respond(message, chat_history):
 #点击后会先执行user函数，记录我们的问题，然后再执行respond函数并取回答
 msg.submit(user,[msg,chatbot],[msg,chatbot,msg_cache],then/respond, [msg_cache, chatbot], chatbot)
 clear.click(lambda: None, None, chatbot, queue=False) # 清空全部记录
+```
 
 # 312 || 法律人ChatGPT应用指南
 

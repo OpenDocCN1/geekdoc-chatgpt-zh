@@ -889,6 +889,7 @@ GPT - 4甚至能够在多种医疗数据标准之间进行互译，为实现互�
 {
   "resourceType": "Observation", 
   "id": "
+```
 
 ## 超越想象的GPT医疗
 
