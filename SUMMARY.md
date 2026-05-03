@@ -81,7 +81,7 @@
 +   [ChatGPT Excel 大师](docs/cgpt-xcl-ms.md)
 +   [思维链提示：使用思维链的 ChatGPT4 提示工程](docs/chain-of-thought-prompting.md)
 +   [ChatGPT 初学者指南：精通 AI 对话](docs/chatgp-mastering-ai-conversations-for-beginners.md)
-+   [ChatGPT 写作超简单](docs/ChatGPT 写作超简单.md)
++   [ChatGPT 写作超简单](docs/ChatGPT写作超简单.md)
 +   [ChatGPT：生成式 AI 入门指南](docs/chatgpt-a-beginner-s-guide-to-generative-ai.md)
 +   [ChatGPT 初学者指南：人工智能的简单解释及其如何为您带来益处](docs/chatgpt-a-guide-for-beginners.md)
 +   [ChatGPT AI 图书写作公式](docs/chatgpt-ai-book-writing-formula.md)
