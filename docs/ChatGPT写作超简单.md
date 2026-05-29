@@ -4,10 +4,6 @@
 
 安晓辉 著
 
-# WITH ChatGPT.
-
-WRITING IS SO EASY
-
 人民邮电出版社
 
 北京
