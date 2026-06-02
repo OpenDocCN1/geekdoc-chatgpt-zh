@@ -1,29 +1,5 @@
 # 扣子（Coze）Skills+OpenClaw实战：零基础玩转AI智能体
 
-邢云阳 · 著
-
-## 6大高频场景Skills搭建全流程
-
-不写一行代码，让AI替你打工 详解OpenClaw部署与实战
-
-中国工信出版集团 人民邮电出版社
-POSTS & TELECOM PRESS
-
-## 版权信息
-
-COPYRIGHT
-
-书名：扣子（Coze）Skills+OpenClaw实战：零基础玩转AI智能体
-
-作者：邢云阳
-
-出版社：人民邮电出版社
-
-出版时间：2026年3月
-
-ISBN：9787115694492
-
-字数：81千字
 
 ## 内容提要
 

@@ -1,29 +1,5 @@
 # AI爆款文案：AI时代的流量密码
 
-![](img/AI爆款文案：AI时代的流量密码_cover.jpg)
-
-![Cover Image](img/AI爆款文案：AI时代的流量密码_cover.jpg)
-
-# **版权信息**
-
-**COPYRIGHT**
-
-书名：AI 爆款文案：AI 时代的流量密码
-
-作者：李尚龙
-
-出版社：台海出版社
-
-出版时间：2025 年 4 月
-
-ISBN：9787516841907
-
-字数：55 千字
-
-![](img/AI爆款文案：AI时代的流量密码_tgchannels.jpg)
-
-感谢 Telegram 频道 @sharebooks4you 制作，欢迎大家扫码订阅
-
 # **前言**
 
 PREFACE

@@ -2,27 +2,6 @@
 
 # 零基础AI编程：Cursor助力Vibe Coding实践
 
-薛志荣 池志炜◎著
-
-Welcome back to the world of coding.
-
-清华大学出版社
-
-## 版权信息
-
-COPYRIGHT
-
-书名：零基础AI编程：Cursor助力Vibe Coding实践
-
-作者：薛志荣；池志炜
-
-出版社：清华大学出版社
-
-出版时间：2025年8月
-
-ISBN：9787302699156
-
-字数：183千字
 
 ## 作者简介
 

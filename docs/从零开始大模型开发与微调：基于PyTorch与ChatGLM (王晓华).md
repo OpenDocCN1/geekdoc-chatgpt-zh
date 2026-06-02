@@ -2,25 +2,6 @@
 
 # 从零开始大模型开发与微调：基于PyTorch与ChatGLM (王晓华)
 
-清华大学出版社
-
-详解大模型基本理论、算法、程序实现与应用实战
-揭示大模型开发与微调技术
-
-# 人工智能技术丛书
-
-# 从零开始
-大模型开发与微调
-
-## 基于PyTorch与ChatGLM
-
-Big Model Development and Fine-Tuning from Scratch
-
-王晓华 著
-
-![](img/b68572d31cd4cd569fe6258f5d05d352_0_0.png)
-
-清华大学出版社
 
 # 内容简介
 

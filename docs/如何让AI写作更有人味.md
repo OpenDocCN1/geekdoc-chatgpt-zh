@@ -1,30 +1,5 @@
 # 如何让AI写作更有人味
 
-![](img/如何让AI写作更有人味_cover.jpg)
-
-![Cover Image](img/如何让AI写作更有人味_cover.jpg)
-
-# **版权信息**
-
-**COPYRIGHT**
-
-书名：如何让 AI 写作更有“人味”
-
-作者：张金贵
-
-出版社：电子工业出版社
-
-出版时间：2025 年 08 月
-
-ISBN：9787121503962
-
-字数：143 千字
-
-![](img/如何让AI写作更有人味_tgchannels.jpg)
-
-感谢 Telegram 频道 @sharebooks4you 制作，欢迎大家扫码订阅
-
-![](img/如何让AI写作更有人味_image_000.jpg)
 
 **前言 AI 写作时代的新机遇与新挑战**
 

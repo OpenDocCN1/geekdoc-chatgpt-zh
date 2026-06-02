@@ -1,29 +1,5 @@
 # Deepseek文案变现
 
-![](img/Deepseek文案变现_cover.jpg)
-
-![Cover Image](img/Deepseek文案变现_cover.jpg)
-
-# **版权信息**
-
-**COPYRIGHT**
-
-书名：Deepseek 文案变现
-
-作者：秋叶；宋宋
-
-出版社：中国科学技术出版社
-
-出版时间：2025 年 5 月
-
-ISBN：9787523613504
-
-字数：85 千字
-
-![](img/Deepseek文案变现_tgchannels.jpg)
-
-感谢 Telegram 频道 @sharebooks4you 制作，欢迎大家扫码订阅
-
 # **前言**
 
 **用活 DeepSeek，人人都是文案高手**[2025]
