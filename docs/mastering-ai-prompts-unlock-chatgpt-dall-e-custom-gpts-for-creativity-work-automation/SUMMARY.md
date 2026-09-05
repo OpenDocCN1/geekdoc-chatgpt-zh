@@ -1,2 +1,0 @@
-+   [精通 AI 提示：解锁 ChatGPT、DALL·E 和自定义 GPT，用于创意、工作和自动化](README.md)
-+   [精通 AI 提示：解锁 ChatGPT、DALL·E 和自定义 GPT，用于创意、工作和自动化](mastering-ai-prompts-unlock-chatgpt-dall-e-custom-gpts-for-creativity-work-automation.md)

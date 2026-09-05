@@ -1,2 +1,0 @@
-+   [如何使用人工智能 ChatGPT 帮助您进行日内交易、震荡交易和长期投资，轻松掌握 100 个顶级股票市场投资提示。](README.md)
-+   [如何使用人工智能 ChatGPT 帮助您进行日内交易、震荡交易和长期投资，轻松掌握 100 个顶级股票市场投资提示。](how-to-use-artificial-intelligence-chatgpt-to-help-you-invest-day-trading.md)

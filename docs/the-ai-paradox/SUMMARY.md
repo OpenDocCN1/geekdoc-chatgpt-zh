@@ -1,2 +1,0 @@
-+   [人工智能悖论：探讨 ChatGPT 和人工智能对就业和劳动力焦虑的影响](README.md)
-+   [人工智能悖论：探讨 ChatGPT 和人工智能对就业和劳动力焦虑的影响](the-ai-paradox.md)
