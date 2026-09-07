@@ -1,0 +1,2 @@
++   [AI助力开发Trae+CodeWhisperer+DeepSeek+Tabnine+Mintlify+Kimi](README.md)
++   [AI助力开发Trae+CodeWhisperer+DeepSeek+Tabnine+Mintlify+Kimi](AI-助力开发-Trae+CodeWhisperer+DeepSeek+Tabnine+Mintlify+Kimi.md)
