@@ -1,2 +1,0 @@
-+   [DeepSeek 创作红利：普通人全平台 AI 内容变现实战](README.md)
-+   [DeepSeek 创作红利：普通人全平台 AI 内容变现实战](DeepSeek创作红利：普通人全平台AI内容变现实战.md)
