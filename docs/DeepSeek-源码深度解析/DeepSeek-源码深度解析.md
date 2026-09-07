@@ -61,7 +61,7 @@ DeepSeek 大模型的诞生既是对全球人工智能浪潮的深刻响应，�
 
 资源下载码：YM2025
 
-![](img/DeepSeek源码深度解析_image_000.jpg)
+![](img/DeepSeek-源码深度解析_image_000.jpg)
 
 博雅读书社
 
@@ -429,7 +429,7 @@ DeepSeek 模型在人工智能领域引起了广泛关注，其性能和特点�
 
 总体而言，DeepSeek 模型在性能、成本效益、开源策略、技术架构和应用领域等方面，与其他大语言模型相比，展现出独特的优势和差异。DeepSeek 官网展示了其与其他大模型的对比数据，如下图所示。
 
-![](img/DeepSeek源码深度解析_image_001.jpg)
+![](img/DeepSeek-源码深度解析_image_001.jpg)
 
 DeepSeek 与其他大模型的对比数据
 
@@ -481,7 +481,7 @@ MoE 架构优势：DeepSeek-V3 采用 MoE 架构，使得其在总参数量（6
 
 不同 DeepSeek 模型版本对硬件的配置建议
 
-![](img/DeepSeek源码深度解析_image_002.jpg)
+![](img/DeepSeek-源码深度解析_image_002.jpg)
 
 DeepSeek-V3 源码采用 FP8 训练，并开源了原生 FP8 权重。由于模型参数量巨大（约 700B），对显存的要求极高，可能需要数百 GB 的显存。因此，个人用户难以在普通硬件上运行该模型，建议使用高性能计算集群或云服务。
 
@@ -515,29 +515,29 @@ DeepSeek 的大部分代码是用 Python 编写的，因此需要配置合适的
 
 DeepSeek 模型基于 PyTorch 框架开发，因此需要安装 PyTorch。根据计算机的 GPU 情况选择合适的 PyTorch 版本，例如，使用的是 NVIDIA GPU 且 CUDA 版本为 11.7，可以使用以下命令安装：
 
-![](img/DeepSeek源码深度解析_image_003.jpg)
+![](img/DeepSeek-源码深度解析_image_003.jpg)
 
 **4．必要的依赖库**
 
 在分析源码前，需要安装项目依赖的库。通常，这些依赖项会列在项目的 requirements.txt 或 environment.yml 文件中。例如 DeepSeek-V3 项目中的依赖文件 requirements.txt 如图 2-1 所示，内容如下。
 
-![](img/DeepSeek源码深度解析_image_004.jpg)
+![](img/DeepSeek-源码深度解析_image_004.jpg)
 
 可以使用 pip 命令安装文件 requirements.txt 中列出的依赖库，例如：
 
-![](img/DeepSeek源码深度解析_image_005.jpg)
+![](img/DeepSeek-源码深度解析_image_005.jpg)
 
 图 2-1 DeepSeek-V3 项目中的依赖文件 requirements.txt
 
-![](img/DeepSeek源码深度解析_image_006.jpg)
+![](img/DeepSeek-源码深度解析_image_006.jpg)
 
 为了避免环境被污染，建议使用虚拟环境安装，在创建并激活虚拟环境后，运行以下命令安装依赖库：
 
-![](img/DeepSeek源码深度解析_image_007.jpg)
+![](img/DeepSeek-源码深度解析_image_007.jpg)
 
 如果使用 conda，则运行以下命令安装依赖库：
 
-![](img/DeepSeek源码深度解析_image_008.jpg)
+![](img/DeepSeek-源码深度解析_image_008.jpg)
 
 **5．开发工具**
 
@@ -619,7 +619,7 @@ DeepSeek 模型基于 PyTorch 框架开发，因此需要安装 PyTorch。根据
 
 （1）在目标仓库的页面，单击右上角绿色的“Code”按钮。在下拉菜单中，选择“Download ZIP”，如图 2-2 所示。
 
-![](img/DeepSeek源码深度解析_image_009.jpg)
+![](img/DeepSeek-源码深度解析_image_009.jpg)
 
 图 2-2 选择“Download ZIP”
 
@@ -631,13 +631,13 @@ DeepSeek 模型基于 PyTorch 框架开发，因此需要安装 PyTorch。根据
 
 （1）在目标仓库的页面，单击绿色的“Code”按钮。选择 HTTPS 或 SSH 链接，复制链接 https://github.com/deepseek-ai/DeepSeek-R1. git，如图 2-3 所示。
 
-![](img/DeepSeek源码深度解析_image_010.jpg)
+![](img/DeepSeek-源码深度解析_image_010.jpg)
 
 图 2-3 复制链接
 
 （2）在本地打开终端或命令提示符，导航到目标目录，然后运行以下命令：
 
-![](img/DeepSeek源码深度解析_image_011.jpg)
+![](img/DeepSeek-源码深度解析_image_011.jpg)
 
 这将在当前目录下创建一个与仓库同名的文件夹，并将仓库的所有内容下载到该文件夹中。
 
@@ -655,7 +655,7 @@ DeepSeek 模型基于 PyTorch 框架开发，因此需要安装 PyTorch。根据
 
 （1）在目标仓库的页面，单击右上角的“Fork”按钮，如图 2-4 所示。
 
-![](img/DeepSeek源码深度解析_image_012.jpg)
+![](img/DeepSeek-源码深度解析_image_012.jpg)
 
 图 2-4 单击右上角的“Fork”按钮
 
@@ -755,11 +755,11 @@ DeepSeek 项目在 GitHub 上的源码更新与同步遵循标准的版本控制
 
 （3）在弹出界面中点击“Install”按钮开始安装，如图 2-6 所示。这里需要注意的是，需要将 Ollama 安装在 C 盘的，不支持更改路径，因此 C 盘的空余空间必须大于 5GB。
 
-![](img/DeepSeek源码深度解析_image_013.jpg)
+![](img/DeepSeek-源码深度解析_image_013.jpg)
 
 图 2-5 Windows 系统版本的 Ollama
 
-![](img/DeepSeek源码深度解析_image_014.jpg)
+![](img/DeepSeek-源码深度解析_image_014.jpg)
 
 图 2-6 单击“Install”按钮
 
@@ -767,11 +767,11 @@ DeepSeek 项目在 GitHub 上的源码更新与同步遵循标准的版本控制
 
 （5）完成安装后，为了确保 Ollama 服务已启动，在终端中输入下面的 ollama 命令进行验证，若弹出如图 2-8 所示的界面则表示成功安装。
 
-![](img/DeepSeek源码深度解析_image_015.jpg)![](img/DeepSeek源码深度解析_image_016.jpg)
+![](img/DeepSeek-源码深度解析_image_015.jpg)![](img/DeepSeek-源码深度解析_image_016.jpg)
 
 图 2-7 “Installing”界面
 
-![](img/DeepSeek源码深度解析_image_017.jpg)
+![](img/DeepSeek-源码深度解析_image_017.jpg)
 
 图 2-8 成功安装并启动 Ollama
 
@@ -781,11 +781,11 @@ DeepSeek 项目在 GitHub 上的源码更新与同步遵循标准的版本控制
 
 （2）单击“deepseek-r1”链接来到 DeepSeek 的模型界面，在下拉列表中有多个不同大小的模型版本，如 1.5b、7b、8b、14b、32b、70b、671b。模型大小不同，可适配的计算机显存、显卡及内存配置也不同，如图 2-10 所示。
 
-![](img/DeepSeek源码深度解析_image_018.jpg)
+![](img/DeepSeek-源码深度解析_image_018.jpg)
 
 图 2-9 模型界面
 
-![](img/DeepSeek源码深度解析_image_019.jpg)
+![](img/DeepSeek-源码深度解析_image_019.jpg)
 
 图 2-10 下拉列表中的 DeepSeek 模型
 
@@ -793,17 +793,17 @@ DeepSeek 项目在 GitHub 上的源码更新与同步遵循标准的版本控制
 
 （4）在命令行界面输入刚刚复制的命令，按下回车键后开始安装 70b 版本的 DeepSeek 模型。安装时间可能会有点长，需要耐心等待（模型越大等待时间越长），安装成功的界面如图 2-12 所示。
 
-![](img/DeepSeek源码深度解析_image_020.jpg)
+![](img/DeepSeek-源码深度解析_image_020.jpg)
 
 图 2-11 安装 70b 版本
 
-![](img/DeepSeek源码深度解析_image_021.jpg)
+![](img/DeepSeek-源码深度解析_image_021.jpg)
 
 图 2-12 安装成功界面
 
 （5）安装成功后，在终端界面输入如下命令即可启动 DeepSeek 进行聊天，输入“/bye”命令可退出模型。
 
-![](img/DeepSeek源码深度解析_image_022.jpg)
+![](img/DeepSeek-源码深度解析_image_022.jpg)
 
 ### **2.3.3** **Chatbox 部署可视化**
 
@@ -815,11 +815,11 @@ Chatbox 是一款开源免费的 AI 客户端工具，专为本地部署的 AI �
 
 （2）下载完成后得到一个“.exe”格式的可安装文件，鼠标左键双击开始安装。在弹出的“安装选项”界面中勾选“仅为我安装”，然后单击“下一步”按钮，如图 2-14 所示。
 
-![](img/DeepSeek源码深度解析_image_023.jpg)
+![](img/DeepSeek-源码深度解析_image_023.jpg)
 
 图 2-13 Chatbox 官网
 
-![](img/DeepSeek源码深度解析_image_024.jpg)
+![](img/DeepSeek-源码深度解析_image_024.jpg)
 
 图 2-14 勾选“仅为我安装”
 
@@ -829,15 +829,15 @@ Chatbox 是一款开源免费的 AI 客户端工具，专为本地部署的 AI �
 
 （5）在弹出的“选择并配置 AI 模型提供方”界面中选择“Ollama API”，如图 2-17 所示。
 
-![](img/DeepSeek源码深度解析_image_025.jpg)
+![](img/DeepSeek-源码深度解析_image_025.jpg)
 
 图 2-15 “选定安装位置”界面
 
-![](img/DeepSeek源码深度解析_image_026.jpg)
+![](img/DeepSeek-源码深度解析_image_026.jpg)
 
 图 2-16 启动界面
 
-![](img/DeepSeek源码深度解析_image_027.jpg)
+![](img/DeepSeek-源码深度解析_image_027.jpg)
 
 图 2-17 选择“Ollama API”
 
@@ -845,11 +845,11 @@ Chatbox 是一款开源免费的 AI 客户端工具，专为本地部署的 AI �
 
 这样就把 DeepSeek 模型部署到本地了，并且能可视化使用 DeepSeek 进行对话，如图 2-19 所示。
 
-![](img/DeepSeek源码深度解析_image_028.jpg)
+![](img/DeepSeek-源码深度解析_image_028.jpg)
 
 图 2-18 选择部署好的 DeepSeek 模型
 
-![](img/DeepSeek源码深度解析_image_029.jpg)
+![](img/DeepSeek-源码深度解析_image_029.jpg)
 
 图 2-19 可视化使用 DeepSeek
 
@@ -857,7 +857,7 @@ Chatbox 是一款开源免费的 AI 客户端工具，专为本地部署的 AI �
 
 除了前面介绍的 Chatbox，还可以使用其他工具接入 DeepSeek 服务。DeepSeek 提供了开源项目 Awesome DeepSeek Integrations，如图 2-20 所示。Awesome DeepSeek Integrations 旨在整合 DeepSeek API 到各种流行的软件和工具，帮助开发者和用户更便捷地利用 DeepSeek 的强大功能。
 
-![](img/DeepSeek源码深度解析_image_030.jpg)
+![](img/DeepSeek-源码深度解析_image_030.jpg)
 
 图 2-20 开源项目 Awesome DeepSeek Integrations
 
@@ -907,7 +907,7 @@ Awesome DeepSeek Integrations 项目通过整合 DeepSeek API 到各种工具和
 
 在 Awesome DeepSeek Integrations 项目中，为上面的每种工具提供了简单的接入教程，例如，为 VS Code 插件 Continue 接入 DeepSeek 的教程在 awesome-deepseek-integration/docs/continue/README_cn.md 中，如图 2-21 所示。
 
-![](img/DeepSeek源码深度解析_image_031.jpg)
+![](img/DeepSeek-源码深度解析_image_031.jpg)
 
 图 2-21 为 VS Code 插件 Continue 接入 DeepSeek
 
@@ -935,7 +935,7 @@ MoE 架构通过动态路由机制实现高效的多模态信息处理，其核�
 
 （2）门控网络：根据输入特征动态选择最相关的专家模型，分配计算资源。其公式为
 
-![](img/DeepSeek源码深度解析_image_032.jpg)
+![](img/DeepSeek-源码深度解析_image_032.jpg)
 
 其中：
 
@@ -1047,7 +1047,7 @@ DeepSeek MoE 项目是一种基于 MoE 架构的大规模语言模型，旨在�
 
 文件 ds_config_zero2_no_offload.json 是 DeepSpeed 的配置文件，用于在训练过程中启用 BF16 精度并采用 ZeRO 优化的第二阶段（不使用 Offload 方案）。在配置中设定了自动调整梯度累积步数、梯度裁剪、训练批量大小等参数，同时通过设置如 allgather、reduce_scatter、overlap_comm 等选项来优化内存和通信效率，从而在保持高性能的同时降低计算资源的消耗。
 
-![](img/DeepSeek源码深度解析_image_033.jpg)![](img/DeepSeek源码深度解析_image_034.jpg)
+![](img/DeepSeek-源码深度解析_image_033.jpg)![](img/DeepSeek-源码深度解析_image_034.jpg)
 
 对上述各个参数的具体说明如下。
 
@@ -1087,7 +1087,7 @@ DeepSeek MoE 项目是一种基于 MoE 架构的大规模语言模型，旨在�
 
 文件 ds_config_zero3.json 也是一个 JSON 配置文件，用于 DeepSpeed 库的配置。它启用了 BF16 混合精度训练，设置了 AdamW 优化器和 WarmupLR 学习率调度器，并配置了 ZeRO 优化的第三阶段参数，包括优化器和参数的卸载、通信重叠、梯度连续性等，还设置了梯度累积步数、梯度裁剪、打印步数、训练批次大小等参数。
 
-![](img/DeepSeek源码深度解析_image_035.jpg)![](img/DeepSeek源码深度解析_image_036.jpg)
+![](img/DeepSeek-源码深度解析_image_035.jpg)![](img/DeepSeek-源码深度解析_image_036.jpg)
 
 ### **3.3.4** **优化总结**
 
@@ -1159,31 +1159,31 @@ DeepSeek MoE 项目是一种基于 MoE 架构的大规模语言模型，旨在�
 
 定义函数 build_instruction_prompt()，用于生成包含指令和响应格式的提示文本。它接受一个字符串参数 instruction，并返回一个多行字符串，其中包含预定义的上下文说明、指令部分及响应部分的模板。在生成的字符串中，instruction 的内容被插入指定位置，以构建完整的提示文本。
 
-![](img/DeepSeek源码深度解析_image_037.jpg)![](img/DeepSeek源码深度解析_image_038.jpg)
+![](img/DeepSeek-源码深度解析_image_037.jpg)![](img/DeepSeek-源码深度解析_image_038.jpg)
 
 ### **3.4.3 配置模型微调参数**
 
 定义一个名为 ModelArguments 的数据类，用于配置模型微调的参数。其中包括可训练的模型参数列表、LoRA（低秩适应）相关设置、需要保存的模块、是否使用 LoRA、预训练模型的路径、注意力机制的实现方式，以及量化相关的配置，如是否使用双量化、量化数据类型和位数等。这些配置有助于在微调过程中灵活地调整模型的各项参数，以满足不同的训练需求。
 
-![](img/DeepSeek源码深度解析_image_039.jpg)![](img/DeepSeek源码深度解析_image_040.jpg)
+![](img/DeepSeek-源码深度解析_image_039.jpg)![](img/DeepSeek-源码深度解析_image_040.jpg)
 
 ### **3.4.4 设置训练数据**
 
 定义数据类 DataArguments，用于指定训练数据的路径。它包含一个名为 data_path 的字段，用于存储训练数据的位置。
 
-![](img/DeepSeek源码深度解析_image_041.jpg)
+![](img/DeepSeek-源码深度解析_image_041.jpg)
 
 ### **3.4.5 配置超参数**
 
 TrainingArguments 类继承自 Hugging Face 的 transformers.TrainingArguments，用于配置训练过程中的超参数，如缓存目录、优化器类型和模型最大序列长度等。这些设置有助于控制训练过程的各个方面，确保模型以最佳方式进行微调。
 
-![](img/DeepSeek源码深度解析_image_042.jpg)![](img/DeepSeek源码深度解析_image_043.jpg)
+![](img/DeepSeek-源码深度解析_image_042.jpg)![](img/DeepSeek-源码深度解析_image_043.jpg)
 
 ### **3.4.6 保存模型**
 
 SavePeftModelCallback 是一个自定义的回调类，旨在与 Hugging Face 的 Trainer 一起使用，以在训练过程中正确保存 PEFT（Paramefer-Efficient Fine-Tuning，参数高效微调）模型。该回调在模型保存时，仅保存 PEFT 模型的适配器权重，而不是整个基础模型，从而节省存储空间并提高加载效率。此外，在训练结束时，它会创建一个名为 completed 的文件，指示训练已顺利完成。
 
-![](img/DeepSeek源码深度解析_image_044.jpg)
+![](img/DeepSeek-源码深度解析_image_044.jpg)
 
 在使用 PEFT 进行模型微调时，正确保存和加载适配器权重至关重要。根据 Hugging Face 的文档，建议在保存模型时，仅保存适配器权重，不必保存整个基础模型。
 
@@ -1193,37 +1193,37 @@ SavePeftModelCallback 是一个自定义的回调类，旨在与 Hugging Face �
 
 函数 get_last_checkpoint()用于获取指定目录中最新的检查点。首先，检查目录是否存在一个名为“completed”的文件，如果存在，则表示训练已完成，返回 None；否则，会遍历目录中以“checkpoint-”开头的子目录，找到其中编号最大的一个，认为其是最新的检查点，并返回其路径。如果未找到任何符合条件的子目录，同样返回 None。
 
-![](img/DeepSeek源码深度解析_image_045.jpg)
+![](img/DeepSeek-源码深度解析_image_045.jpg)
 
 ### **3.4.8 安全保存模型**
 
 函数 safe_save_model_for_hf_trainer()的主要功能是将 Hugging Face 的 Trainer 对象中的模型安全地保存到指定的目录中。在保存模型时，该函数首先将模型的状态字典（state_dict）从 GPU 内存转移到 CPU 内存，以减少 GPU 内存的占用。然后，它调用 Trainer 对象的 _save 方法，将模型的状态字典保存到指定的输出目录。这种方法确保了在使用分布式训练或混合精度训练时，模型能够被正确地保存，避免了可能出现的内存问题。
 
-![](img/DeepSeek源码深度解析_image_046.jpg)![](img/DeepSeek源码深度解析_image_047.jpg)
+![](img/DeepSeek-源码深度解析_image_046.jpg)![](img/DeepSeek-源码深度解析_image_047.jpg)
 
 ### **3.4.9 分词处理**
 
 函数 _tokenize_fn()的作用是对输入的一批字符串进行分词处理，并返回分词后的 ID 序列及相关的长度信息。该函数通过 tokenizer 将文本转换为模型可理解的 ID 序列，并返回这些序列及其长度信息，为后续的模型训练和推理提供数据支持。
 
-![](img/DeepSeek源码深度解析_image_048.jpg)
+![](img/DeepSeek-源码深度解析_image_048.jpg)
 
 ### **3.4.10 文本预处理**
 
 函数 preprocess()实现了对输入源文本和目标文本的预处理，主要用于为模型训练准备结构化的输入和标签数据。其核心功能是将源文本和目标文本拼接后进行分词，并通过标记源文本部分的标签为 -100（IGNORE_INDEX），使得模型在训练时仅对目标文本部分进行预测。
 
-![](img/DeepSeek源码深度解析_image_049.jpg)![](img/DeepSeek源码深度解析_image_050.jpg)
+![](img/DeepSeek-源码深度解析_image_049.jpg)![](img/DeepSeek-源码深度解析_image_050.jpg)
 
 ### **3.4.11 数据收集器**
 
 下列代码定义了一个名为 DataCollatorForSupervisedDataset 的数据收集器类，用于在监督微调过程中将多个数据实例整理成模型训练所需的批量数据格式。其主要功能是将输入的 input_ids 和 labels 转换为张量并进行填充（padding），以确保批量数据的维度一致，同时生成 attention_mask，用于指示模型哪些位置是有效的输入数据。
 
-![](img/DeepSeek源码深度解析_image_051.jpg)
+![](img/DeepSeek-源码深度解析_image_051.jpg)
 
 ### **3.4.12 训练数据的分词和预处理**
 
 下列代码定义了一个名为 train_tokenize_function()的函数，用于对训练数据进行分词和预处理。函数 train_tokenize_function()接收 examples 和 tokenizer 作为输入，examples 包含用户提供的指令和对应的输出。函数首先调用 build_instruction_prompt 为每个指令构建提示文本，然后将输出拼接上结束标记 Token（EOT_TOKEN）。接着，函数对这些提示和输出进行分词，并通过 preprocess 函数将分词后的 ID 序列转换为适合模型训练的格式。最后，函数返回一个包含输入 ID 和标签的数据字典，用于后续的训练过程。
 
-![](img/DeepSeek源码深度解析_image_052.jpg)
+![](img/DeepSeek-源码深度解析_image_052.jpg)
 
 ### **3.4.13 构建和配置模型**
 
@@ -1241,13 +1241,13 @@ SavePeftModelCallback 是一个自定义的回调类，旨在与 Hugging Face �
 
 ● 返回模型：返回配置好的模型。
 
-![](img/DeepSeek源码深度解析_image_053.jpg)![](img/DeepSeek源码深度解析_image_054.jpg)![](img/DeepSeek源码深度解析_image_055.jpg)
+![](img/DeepSeek-源码深度解析_image_053.jpg)![](img/DeepSeek-源码深度解析_image_054.jpg)![](img/DeepSeek-源码深度解析_image_055.jpg)
 
 ### **3.4.14 训练模型**
 
 函数 train()是 DeepSeek MoE 项目中的主训练函数，负责整个模型的训练流程。函数 train()实现了一个完整的训练流程，用于对预训练的 MoE 语言模型进行微调。首先加载用户提供的数据，通过分词和预处理将其转化为模型可接受的输入格式。构建模型时应用了 LoRA（低秩适应）和量化技术，以优化显存占用和训练效率。在训练过程中，使用了梯度累积、动态损失缩放等技术，并通过检查点机制支持从断点恢复训练。训练结束后，模型的权重会被保存下来，以便后续的评估或推理使用。
 
-![](img/DeepSeek源码深度解析_image_056.jpg)![](img/DeepSeek源码深度解析_image_057.jpg)![](img/DeepSeek源码深度解析_image_058.jpg)
+![](img/DeepSeek-源码深度解析_image_056.jpg)![](img/DeepSeek-源码深度解析_image_057.jpg)![](img/DeepSeek-源码深度解析_image_058.jpg)
 
 函数 train()的具体实现流程如下。
 
@@ -1279,7 +1279,7 @@ SavePeftModelCallback 是一个自定义的回调类，旨在与 Hugging Face �
 
 运行下面的命令，文件 finetune.py 将启动训练，加载指定的模型和数据，并按照配置进行微调。在训练过程中，检查点和日志将被保存到指定的输出目录，并且可以通过 TensorBoard 查看训练指标。
 
-![](img/DeepSeek源码深度解析_image_059.jpg)
+![](img/DeepSeek-源码深度解析_image_059.jpg)
 
 对上述各个命令参数的具体说明如下所示。
 
@@ -1341,7 +1341,7 @@ DeepSeekMoE 项目提供了两个版本的模型供用户下载，具体说明�
 
 DeepSeekMoE 16B Base 是一个开源的 MoE 语言模型，具有 16.4B 参数。该模型采用创新的 MoE 架构，通过细粒度专家分割和共享专家隔离两种主要策略，实现了专家的终极专业化。它在 2T 英文和中文 Token 上从零开始训练，性能与 DeepSeek 7B 和 LLaMA2 7B 相当，但所需计算资源仅为后面二者的 40% 左右。该模型可在单个 40GB 显存的 GPU 上部署，无须量化。DeepSeekMoE 16B Base 模型如图 3-1 所示。
 
-![](img/DeepSeek源码深度解析_image_060.jpg)
+![](img/DeepSeek-源码深度解析_image_060.jpg)
 
 图 3-1 DeepSeekMoE 16B Base 模型
 
@@ -1349,7 +1349,7 @@ DeepSeekMoE 16B Base 是一个开源的 MoE 语言模型，具有 16.4B 参�
 
 DeepSeekMoE 16B Chat 是基于 DeepSeekMoE 16B Base 微调得到的聊天模型。它在多个基准测试中表现出色，尤其是在语言理解、推理和代码生成方面。与 DeepSeek 7B Chat 和 LLaMA2 7B SFT 相比，DeepSeekMoE 16B Chat 在计算量仅为二者 40% 左右的情况下，仍能取得与二者相同甚至更好的性能。该模型同样可在单个 40GB 显存的 GPU 上部署，无须量化。DeepSeekMoE 16B Chat 模型如图 3-2 所示。
 
-![](img/DeepSeek源码深度解析_image_061.jpg)
+![](img/DeepSeek-源码深度解析_image_061.jpg)
 
 图 3-2 DeepSeekMoE 16B Chat 模型
 
@@ -1363,7 +1363,7 @@ DeepSeek MoE 项目的开源文件，介绍了利用 Hugging Face Transformer
 
 文本补全（Text Completion）是指给定一段输入文本，模型生成后续内容，实现对连续文本的自动扩展。例如下面的演示代码：
 
-![](img/DeepSeek源码深度解析_image_062.jpg)
+![](img/DeepSeek-源码深度解析_image_062.jpg)
 
 对上述代码的具体说明如下所示。
 
@@ -1383,7 +1383,7 @@ DeepSeek MoE 项目的开源文件，介绍了利用 Hugging Face Transformer
 
 对话生成（Chat Completion）是指模拟对话场景，使用专门为聊天任务微调的模型，通过“聊天模板”将用户消息格式化后生成回复。例如下面的演示代码：
 
-![](img/DeepSeek源码深度解析_image_063.jpg)
+![](img/DeepSeek-源码深度解析_image_063.jpg)
 
 对上述代码的具体说明如下所示。
 
@@ -1453,13 +1453,13 @@ DeepSeek-V3 的训练流程涵盖数据构建、模型架构设计、训练策�
 
 （1）DeepSeek-V4-Base：包含 671B 总参数和 37B 激活参数，支持 128K 上下文长度，如图 4-1 所示。
 
-![](img/DeepSeek源码深度解析_image_064.jpg)
+![](img/DeepSeek-源码深度解析_image_064.jpg)
 
 图 4-1 DeepSeek-V4-Base 模型
 
 （2）DeepSeek-V3：同样包含 671B 总参数和 37B 激活参数，支持 128K 上下文长度，如图 4-2 所示。
 
-![](img/DeepSeek源码深度解析_image_065.jpg)
+![](img/DeepSeek-源码深度解析_image_065.jpg)
 
 图 4-2 DeepSeek-V3 模型
 
@@ -1617,7 +1617,7 @@ MTP 模块的加载依赖 num_nextn_predict_layers 参数，该参数指定了 M
 
 假设文件 config.json 中的配置信息如下：
 
-![](img/DeepSeek源码深度解析_image_066.jpg)![](img/DeepSeek源码深度解析_image_067.jpg)
+![](img/DeepSeek-源码深度解析_image_066.jpg)![](img/DeepSeek-源码深度解析_image_067.jpg)
 
 主模型权重的加载过程如下：
 
@@ -1645,7 +1645,7 @@ DeepSeek-V3 模型原生支持 FP8 权重格式，采用 128×128 块缩放�
 
 FP8 权重文件引入了 quantization_config 字段，用于详细描述量化方法。下面是一个配置示例：
 
-![](img/DeepSeek源码深度解析_image_068.jpg)
+![](img/DeepSeek-源码深度解析_image_068.jpg)
 
 对上述配置的具体说明如下所示。
 
@@ -1663,7 +1663,7 @@ FP8 权重文件包含 weight_scale_inv 字段，用于存储每个权重块的
 
 ● 反量化公式：如果权重块未对齐到 128，则在计算尺度之前将其零填充到 128。量化后，移除填充部分，以确保权重块的尺寸正确。反量化过程如下。
 
-![](img/DeepSeek源码深度解析_image_069.jpg)
+![](img/DeepSeek-源码深度解析_image_069.jpg)
 
 通过上述反量化过程，模型在运行时能够实现每个 token、每 128 个通道的在线量化。这种方法不仅提高了模型的存储效率，还在一定程度上加速了计算过程。
 
@@ -1683,7 +1683,7 @@ DeepSeek-V3 模型采用了 MoE 架构，拥有总计 6710 亿个参数，每
 
 文件 config_16B.json 是 DeepSeek-V3 模型的 16B 版本配置文件，配置信息如下：
 
-![](img/DeepSeek源码深度解析_image_070.jpg)![](img/DeepSeek源码深度解析_image_071.jpg)
+![](img/DeepSeek-源码深度解析_image_070.jpg)![](img/DeepSeek-源码深度解析_image_071.jpg)
 
 对上述配置信息的具体说明如下。
 
@@ -1719,13 +1719,13 @@ DeepSeek-V3 模型采用了 MoE 架构，拥有总计 6710 亿个参数，每
 
 ● v_head_dim：指 value 投影中每个注意力头的维度，设置为 128。与 query 和 key 的维度设置相辅相成，共同决定了注意力机制的计算精度和表示能力。
 
-● mscale：这是一个缩放因子，用于归一化或初始化时对部分参数进行缩放处理。0.707 接近于 ![](img/DeepSeek源码深度解析_image_072.png)的数值，在深度学习中常用于保持梯度稳定和输出均值适中。
+● mscale：这是一个缩放因子，用于归一化或初始化时对部分参数进行缩放处理。0.707 接近于 ![](img/DeepSeek-源码深度解析_image_072.png)的数值，在深度学习中常用于保持梯度稳定和输出均值适中。
 
 ### **4.4.2 中规模版本（236B）的配置**
 
 文件 config_236B.json 是 DeepSeek-V3 模型的 236B 版本配置文件，与前面介绍的小规模版本（16B）配置文件 config_16B.json 相比，新增了 n_expert_groups 参数，用于定义 MoE 结构中专家的分组数量。配置信息如下：
 
-![](img/DeepSeek源码深度解析_image_073.jpg)![](img/DeepSeek源码深度解析_image_074.jpg)
+![](img/DeepSeek-源码深度解析_image_073.jpg)![](img/DeepSeek-源码深度解析_image_074.jpg)
 
 config_236B.json 文件定义了 DeepSeek-V3 模型 236B 版本的配置参数，这些参数与 16B 版本相比有显著的调整，特别是在模型的隐藏层维度、层数、注意力头数和 MoE 结构等方面。这些调整使得 236B 版本的模型具有更高的复杂度和更强的表达能力，能够处理更复杂的任务和数据。
 
@@ -1733,7 +1733,7 @@ config_236B.json 文件定义了 DeepSeek-V3 模型 236B 版本的配置参数
 
 文件 config_671B.json 是 DeepSeek-V3 模型的 671B 版本配置文件，与前面介绍的中规模版本（236B）配置文件 config_236B.json 相比，新增了 score_func 参数，在 MoE 模型中用于路由机制的评分函数。配置信息如下：
 
-![](img/DeepSeek源码深度解析_image_075.jpg)
+![](img/DeepSeek-源码深度解析_image_075.jpg)
 
 ## **4.5 模型架构**
 
@@ -1789,7 +1789,7 @@ DeepSeek-V3 模型通过这些创新的技术和架构设计，实现了高效�
 
 （1）下面代码定义了 DeepSeek-V3 模型的初始参数环境和硬件实现方式：
 
-![](img/DeepSeek源码深度解析_image_076.jpg)
+![](img/DeepSeek-源码深度解析_image_076.jpg)
 
 对上述代码的具体说明如下所示。
 
@@ -1805,7 +1805,7 @@ DeepSeek-V3 模型通过这些创新的技术和架构设计，实现了高效�
 
 （2）实现数据类 ModelArgs，用于定义模型的参数和超参数。ModelArgs 类包含了模型配置所需的各种属性，如最大批处理大小、最大序列长度、数据类型、词汇表大小、模型维度、层数等。这些参数用于控制模型的结构和行为，以适应不同的任务需求。
 
-![](img/DeepSeek源码深度解析_image_077.jpg)![](img/DeepSeek源码深度解析_image_078.jpg)![](img/DeepSeek源码深度解析_image_079.jpg)
+![](img/DeepSeek-源码深度解析_image_077.jpg)![](img/DeepSeek-源码深度解析_image_078.jpg)![](img/DeepSeek-源码深度解析_image_079.jpg)
 
 这些参数的设置对于模型的性能和适用性至关重要。例如，max_seq_len 决定了模型可以处理的最大序列长度，vocab_size 决定了模型的词汇表大小，dim 和 inter_dim 等参数则影响模型的容量和计算需求。通过调整这些参数，可以优化模型以满足特定任务的需求。
 
@@ -1813,7 +1813,7 @@ DeepSeek-V3 模型通过这些创新的技术和架构设计，实现了高效�
 
 类 ParallelEmbedding 是一个并行嵌入层，用于在分布式训练中分割词汇表（vocab_size）并进行嵌入操作。它将词汇表根据世界大小（world_size）分割成多个部分，每个部分由不同的进程处理。这样可以有效减少单个进程的内存占用，并提高训练效率。通过给每个进程分配较小的权重矩阵，在训练期间，可以利用分布式训练框架（如 PyTorch 的 DistributedDataParallel）来同步梯度和参数更新，从而实现高效的并行计算。
 
-![](img/DeepSeek源码深度解析_image_080.jpg)![](img/DeepSeek源码深度解析_image_081.jpg)
+![](img/DeepSeek-源码深度解析_image_080.jpg)![](img/DeepSeek-源码深度解析_image_081.jpg)
 
 上述代码定义了一个用于分布式训练的嵌入层，通过将词汇表分割为多个部分，每个部分由不同的进程处理，从而提高了训练效率。对上述代码的具体说明如下所示。
 
@@ -1825,7 +1825,7 @@ DeepSeek-V3 模型通过这些创新的技术和架构设计，实现了高效�
 
 定义函数 linear()，用于对输入张量 x 执行线性变换：*y*=*xA*^*T*+*b*。该函数根据权重张量 weight 的量化状态和全局变量 gemm_impl 的值，选择不同的计算路径。如果 weight 的元素大小大于 1，则直接使用 PyTorch 的线性函数 F.linear 进行计算。如果 gemm_impl 的值为 "bf16"，则对权重进行去量化处理，并使用 F.linear 进行计算。否则，首先对输入张量 x 进行量化处理，然后使用 fp8_gemm 函数进行计算。 如果提供了偏置张量 bias，则将其添加到结果中。
 
-![](img/DeepSeek源码深度解析_image_082.jpg)![](img/DeepSeek源码深度解析_image_083.jpg)
+![](img/DeepSeek-源码深度解析_image_082.jpg)![](img/DeepSeek-源码深度解析_image_083.jpg)
 
 ### **4.5.5 线性层**
 
@@ -1833,17 +1833,17 @@ DeepSeek-V3 模型通过这些创新的技术和架构设计，实现了高效�
 
 （1）下面的代码定义了一个自定义的线性层 Linear，该层支持量化权重和可选的偏置项。在初始化方法 __init__ 中，首先定义了输入特征数 in_features 和输出特征数 out_features。权重 weight 被初始化为一个形状为 (out_features, in_features) 的张量，并根据指定的数据类型 dtype 进行初始化。如果权重的元素大小为 1（量化权重），则计算输出特征和输入特征的块大小，并初始化相应的缩放因子 scale。 如果指定了偏置项，则初始化偏置 bias。在前向传播方法 forward 中，调用之前定义的 linear 函数，传入输入张量 x、权重 weight 和偏置 bias，返回线性变换后的结果。
 
-![](img/DeepSeek源码深度解析_image_084.jpg)![](img/DeepSeek源码深度解析_image_085.jpg)
+![](img/DeepSeek-源码深度解析_image_084.jpg)![](img/DeepSeek-源码深度解析_image_085.jpg)
 
 （2）类 ColumnParallelLinear 是 DeepSeek-V3 模型中的一个线性层，支持列并行，即将输出特征分割到多个分布式进程中。类 ColumnParallelLinear 继承自 Linear 类，并重写了初始化方法和前向传播方法，以确保输出特征能够在分布式环境中被均匀分割。
 
-![](img/DeepSeek源码深度解析_image_086.jpg)
+![](img/DeepSeek-源码深度解析_image_086.jpg)
 
 类 ColumnParallelLinear 通过列并行技术，将线性层的输出特征分割到不同的进程中，从而实现分布式计算，提高训练和推理的效率。
 
 （3）类 RowParallelLinear 是 PyTorch 中的自定义线性层，实现了行并行。它将输入特征分割到多个分布式进程中，从而允许在分布式环境下高效地计算线性变换。该类继承了 Linear 的属性和方法，并在初始化和前向传播过程中进行了扩展。
 
-![](img/DeepSeek源码深度解析_image_087.jpg)![](img/DeepSeek源码深度解析_image_088.jpg)
+![](img/DeepSeek-源码深度解析_image_087.jpg)![](img/DeepSeek-源码深度解析_image_088.jpg)
 
 ### **4.5.6 RMSNorm（均方根层归一化）**
 
@@ -1851,7 +1851,7 @@ RMSNorm 是对传统 LayerNorm 的改进，旨在降低计算开销，同时保�
 
 在下面的实现代码中，类 RMSNorm 继承自 nn.Module，包含一个可学习的参数 weight，用于对归一化后的输入进行缩放。在前向传播方法中，使用 F.rms_norm 函数对输入张量进行归一化处理。这种实现方式使得 RMSNorm 可以方便地集成到 PyTorch 模型中。
 
-![](img/DeepSeek源码深度解析_image_089.jpg)![](img/DeepSeek源码深度解析_image_090.jpg)
+![](img/DeepSeek-源码深度解析_image_089.jpg)![](img/DeepSeek-源码深度解析_image_090.jpg)
 
 ### **注意**
 
@@ -1865,13 +1865,13 @@ RMSNorm 是对传统 LayerNorm 的改进，旨在降低计算开销，同时保�
 
 （1）函数 precompute_freqs_cis()用于预计算 RoPE 所需的频率复数指数值。RoPE 是一种将相对位置信息集成到自注意力机制中的位置编码方法，能够提升 Transformer 架构的性能。这些值在后续的注意力机制中用于对查询和键进行旋转操作，以引入位置信息。
 
-![](img/DeepSeek源码深度解析_image_091.jpg)![](img/DeepSeek源码深度解析_image_092.jpg)![](img/DeepSeek源码深度解析_image_093.jpg)
+![](img/DeepSeek-源码深度解析_image_091.jpg)![](img/DeepSeek-源码深度解析_image_092.jpg)![](img/DeepSeek-源码深度解析_image_093.jpg)
 
 函数 precompute_freqs_cis()首先根据模型参数计算频率，然后生成一个时间序列，并计算频率和时间的外积。最后使用这些值计算复数形式的旋转位置嵌入。
 
 （2）函数 apply_rotary_emb()用于将 RoPE 应用到输入张量上。通过将输入张量与预计算的复数指数值相乘，为模型引入位置信息，提高模型对序列中位置关系的感知能力。
 
-![](img/DeepSeek源码深度解析_image_094.jpg)![](img/DeepSeek源码深度解析_image_095.jpg)
+![](img/DeepSeek-源码深度解析_image_094.jpg)![](img/DeepSeek-源码深度解析_image_095.jpg)
 
 函数 apply_rotary_emb()首先将输入张量 x 转换为复数表示，然后与预先计算的旋转位置嵌入 freqs_cis 相乘，最后将结果转换回实数表示并返回。这种方法有效地将位置信息融入输入张量中，有助于模型更好地捕捉序列数据的位置信息。
 
@@ -1879,13 +1879,13 @@ RMSNorm 是对传统 LayerNorm 的改进，旨在降低计算开销，同时保�
 
 类 MLA 实现了 DeepSeek-V3 模型中的多头注意力层，负责处理输入序列的注意力机制。MLA 层通过低秩联合压缩技术，减少了推理时的键值缓存，从而在保持性能的同时显著降低了内存占用。MLA 层支持多种注意力头的并行计算，能够捕捉输入序列中的不同特征，并通过 RoPE 提高模型对位置信息的感知能力。
 
-![](img/DeepSeek源码深度解析_image_096.jpg)![](img/DeepSeek源码深度解析_image_097.jpg)![](img/DeepSeek源码深度解析_image_098.jpg)
+![](img/DeepSeek-源码深度解析_image_096.jpg)![](img/DeepSeek-源码深度解析_image_097.jpg)![](img/DeepSeek-源码深度解析_image_098.jpg)
 
 ### **4.5.9 多层感知器**
 
 多层感知器（Multilayer Perceptron,MLP）类实现了一个前馈神经网络层，用于实现神经网络中的非线性特征变换。类 MLP 包含三个线性层：w1、w2 和 w3，其中 w1 和 w3 将输入特征映射到隐藏层空间，w2 将隐藏层特征映射回原始维度。在前向传播过程中，输入首先经过 w1 线性变换，然后应用 SiLU 激活函数，并与 w3 的输出逐元素相乘，最后通过 w2 线性变换得到输出。
 
-![](img/DeepSeek源码深度解析_image_099.jpg)
+![](img/DeepSeek-源码深度解析_image_099.jpg)
 
 在上述代码中，ColumnParallelLinear 和 RowParallelLinear 是自定义的线性层，用于在分布式训练中实现列并行和行并行，以提高计算效率。在前向传播函数中，输入 x 首先经过 w1 线性变换，然后应用 SiLU 激活函数（F.silu），并与 w3 的输出逐元素相乘，最后通过 w2 线性变换得到最终输出。
 
@@ -1935,7 +1935,7 @@ DeepSeek-V3 是一款采用 MoE 架构的语言模型，总参数量达到 671
 
 类 Gate 实现了一个用于 MoE 模型的门控机制。在 MoE 模型中，输入数据通过门控网络被路由到不同的专家网络，以实现模型容量的扩展和计算效率的提升。该类根据输入特征计算得分，并选择最适合的专家进行处理，从而实现高效的路由和计算。
 
-![](img/DeepSeek源码深度解析_image_100.jpg)![](img/DeepSeek源码深度解析_image_101.jpg)
+![](img/DeepSeek-源码深度解析_image_100.jpg)![](img/DeepSeek-源码深度解析_image_101.jpg)
 
 对上述代码的具体说明如下所示。
 
@@ -1947,7 +1947,7 @@ DeepSeek-V3 是一款采用 MoE 架构的语言模型，总参数量达到 671
 
 类 Expert 用于实现 MoE 模型中的专家层。在 MoE 模型中，多个专家网络共同处理输入数据，每个专家专注于特定的子任务。Expert 类实现了一个包含三个线性层的神经网络，用于对输入数据进行特定的变换和处理。
 
-![](img/DeepSeek源码深度解析_image_102.jpg)
+![](img/DeepSeek-源码深度解析_image_102.jpg)
 
 在上述代码中，类 Expert 包含三个线性层：w1、w2 和 w3。它们是专家层（Expert）中的三个线性变换层，也是 nn.Module 的子模块。这些线性层用于对输入数据进行特定的线性变换，以实现专家层的前向传播。在前向传播过程中，输入 x 首先经过线性变换 w1，然后应用 SiLU 激活函数。同时，输入 x 也经过线性变换 w3。这两个结果相乘后，再经过线性变换 w2，最终得到输出。这种结构使得专家层能够对输入数据进行复杂的特征变换，从而在 MoE 模型中发挥特定的作用。
 
@@ -1955,7 +1955,7 @@ DeepSeek-V3 是一款采用 MoE 架构的语言模型，总参数量达到 671
 
 类 MoE 实现了混合专家模型的结构。在这种模型中，输入数据通过一个门控机制被路由到多个专家网络中的一个或多个，以实现条件计算。该模块包含一个门控机制和一组专家网络，每个专家网络都可以独立处理输入数据。
 
-![](img/DeepSeek源码深度解析_image_103.jpg)![](img/DeepSeek源码深度解析_image_104.jpg)
+![](img/DeepSeek-源码深度解析_image_103.jpg)![](img/DeepSeek-源码深度解析_image_104.jpg)
 
 MoE 是一种用于 DeepSeek-V3 模型的混合专家架构，旨在通过多个专家网络的组合来提高模型的表达能力和推理性能。每个专家网络可以专注于处理输入数据的不同方面，从而实现高效的特征提取和知识分割。
 
@@ -1963,7 +1963,7 @@ MoE 是一种用于 DeepSeek-V3 模型的混合专家架构，旨在通过多�
 
 类 Transformer 是一个基于 Transformer 架构的模型，适用于自然语言处理中的任务。类 Transformer 包含嵌入层、多个 Transformer 层和一个输出投影层，其中嵌入层用于将输入的 token 映射到高维向量空间。Transformer 块执行自注意力机制，以便模型能够关注输入序列的不同部分。最后，输出投影层将 Transformer 块的输出映射回词汇表空间，生成最终的 logits。
 
-![](img/DeepSeek源码深度解析_image_105.jpg)![](img/DeepSeek源码深度解析_image_106.jpg)![](img/DeepSeek源码深度解析_image_107.jpg)
+![](img/DeepSeek-源码深度解析_image_105.jpg)![](img/DeepSeek-源码深度解析_image_106.jpg)![](img/DeepSeek-源码深度解析_image_107.jpg)
 
 上述 Transformer 模型的设计结合了并行嵌入、RMS 归一化、列并行线性层和 Dilated RoPE，能够高效地处理大规模的输入序列，并在分布式训练中实现高效的通信和计算。
 
@@ -1971,7 +1971,7 @@ MoE 是一种用于 DeepSeek-V3 模型的混合专家架构，旨在通过多�
 
 下面的代码用于测试和验证 Transformer 模型的功能。当直接运行 model.py 文件时，代码会设置默认的张量数据类型为 bfloat16，默认设备为 GPU，并设置随机种子以确保结果的可重复性。然后，代码创建一个包含随机整数的输入张量 x，并实例化一个 Transformer 模型。最后，代码打印模型对输入 x 的输出张量的尺寸，以验证模型的输出是否符合预期。
 
-![](img/DeepSeek源码深度解析_image_108.jpg)
+![](img/DeepSeek-源码深度解析_image_108.jpg)
 
 ### **注意**
 
@@ -1987,31 +1987,31 @@ torch.set_default_dtype 用于设置默认的浮点数数据类型，而 torch.s
 
 下面的代码定义了一个名为 act_quant_kernel()的 Triton 内核函数，用于对输入张量进行量化处理。具体而言，函数 act_quant_kernel()将输入张量的每个块（由 BLOCK_SIZE 指定）进行处理，计算每个块的最大绝对值并据此确定缩放因子 s，然后使用该缩放因子对块内的元素进行量化，最终将量化后的值和对应的缩放因子分别存储在输出指针 y_ptr 和 s_ptr 所指向的内存位置。这种方法有助于在保持数值精度的同时减少存储和计算的开销。
 
-![](img/DeepSeek源码深度解析_image_109.jpg)
+![](img/DeepSeek-源码深度解析_image_109.jpg)
 
 ### **4.6.2 块级量化处理**
 
 下面的代码定义了函数 act_quant()，用于对输入的 PyTorch 张量 x 进行块级量化。首先，函数 act_quant()检查输入张量是否连续，并确保其最后一维的大小可以被指定的块大小 block_size 整除。然后，它初始化一个与输入张量形状相同但数据类型为 torch.float8_e4m3fn 的空张量 y，用于存储量化后的值。同时，初始化一个用于存储缩放因子的张量 s。接着，函数计算网格大小，并调用之前定义的 act_quant_kernel 内核函数，对输入张量进行量化处理。最后，函数返回量化后的张量 y 和对应的缩放因子 s。
 
-![](img/DeepSeek源码深度解析_image_110.jpg)
+![](img/DeepSeek-源码深度解析_image_110.jpg)
 
 ### **4.6.3 权重矩阵的反量化**
 
 下面的代码定义了一个名为 weight_dequant_kernel()的 Triton 内核函数，用于对量化后的权重矩阵进行反量化。函数接受量化权重指针 x_ptr、缩放因子指针 s_ptr、输出缓冲区指针 y_ptr，以及权重矩阵的行数 M、列数 N 和块大小 BLOCK_SIZE。在执行过程中，函数根据程序 ID 计算当前处理的块在矩阵中的位置，加载对应的量化权重和缩放因子，将量化值乘以缩放因子以恢复原始权重值，并将结果存储到输出缓冲区。这种方法通过块级处理提高了反量化操作的并行效率。
 
-![](img/DeepSeek源码深度解析_image_111.jpg)![](img/DeepSeek源码深度解析_image_112.jpg)
+![](img/DeepSeek-源码深度解析_image_111.jpg)![](img/DeepSeek-源码深度解析_image_112.jpg)
 
 ### **4.6.4 对激活值和权重的量化与反量化**
 
 定义函数 weight_dequant()，使用 Triton 库对神经网络的激活值和权重进行量化和反量化操作，以提高模型的计算效率。具体而言，act_quant_kernel 函数对输入张量进行块级量化，将结果存储在输出张量和对应的缩放因子中；act_quant 函数是其对应的 Python 接口。类似地，weight_dequant_kernel 函数使用提供的缩放因子对量化后的权重进行反量化，而 weight_dequant 函数提供了相应的 Python 接口。这些操作有助于在保持模型性能的同时降低计算资源的消耗。
 
-![](img/DeepSeek源码深度解析_image_113.jpg)![](img/DeepSeek源码深度解析_image_114.jpg)
+![](img/DeepSeek-源码深度解析_image_113.jpg)![](img/DeepSeek-源码深度解析_image_114.jpg)
 
 ### **4.6.5 调优参数**
 
 下面的代码定义了一个名为 fp8_gemm_configs 的列表，其中包含多个 triton.Config 对象。每个 Config 对象指定了用于矩阵乘法（General Matrix Multiplication,GEMM）运算的不同块大小（BLOCK_SIZE_M 和 BLOCK_SIZE_N）、流水线阶段数（num_stages）和使用的 warps 数量（num_warps）。这些配置将用于自动调优，以确定在特定硬件上执行 FP8 精度矩阵乘法的最佳参数组合。
 
-![](img/DeepSeek源码深度解析_image_115.jpg)
+![](img/DeepSeek-源码深度解析_image_115.jpg)
 
 在高性能计算中，选择合适的块大小和其他参数对于优化矩阵乘法的性能至关重要。通过定义不同的配置，程序可以在运行时测试并选择最适合当前硬件和问题规模的参数组合，从而实现最佳性能。
 
@@ -2023,7 +2023,7 @@ torch.set_default_dtype 用于设置默认的浮点数数据类型，而 torch.s
 
 下面的代码定义了一个使用 Triton 编写的 FP8 矩阵乘法内核函数 fp8_gemm_kernel，并通过@triton.autotune 装饰器对其进行自动调优，以优化性能。通过使用 @triton.autotune 装饰器，Triton 会自动尝试不同的配置参数，以确定在特定硬件上执行该内核函数时的最佳性能配置。
 
-![](img/DeepSeek源码深度解析_image_116.jpg)![](img/DeepSeek源码深度解析_image_117.jpg)![](img/DeepSeek源码深度解析_image_118.jpg)
+![](img/DeepSeek-源码深度解析_image_116.jpg)![](img/DeepSeek-源码深度解析_image_117.jpg)![](img/DeepSeek-源码深度解析_image_118.jpg)
 
 ### **4.6.7 FP8 矩阵乘法实现**
 
@@ -2039,7 +2039,7 @@ torch.set_default_dtype 用于设置默认的浮点数数据类型，而 torch.s
 
 首先，该函数验证输入张量和缩放因子张量是否连续。然后，计算矩阵乘法的维度，并创建一个新的张量 c 来存储结果。 接下来，使用 Triton 的 JIT 编译内核 fp8_gemm_kernel 执行矩阵乘法操作。最后，返回计算得到的结果张量 c。
 
-![](img/DeepSeek源码深度解析_image_119.jpg)![](img/DeepSeek源码深度解析_image_120.jpg)
+![](img/DeepSeek-源码深度解析_image_119.jpg)![](img/DeepSeek-源码深度解析_image_120.jpg)
 
 ## **4.7 权重转换**
 
@@ -2049,11 +2049,11 @@ DeepSeek-V3 模型采用了 FP8（8 位浮点数）训练，以提高训练速�
 
 文件 convert.py 的功能是将 Hugging Face 格式的 DeepSeek-V3 模型权重转换为特定格式，以便在不同的推理框架中使用。该脚本通过解析输入的模型权重文件，按照预定义的映射关系，将模型参数重命名并拆分，以适应模型并行和专家模型的需求。 转换后的权重文件将被保存到指定的目录中，供后续推理使用。
 
-![](img/DeepSeek源码深度解析_image_121.jpg)![](img/DeepSeek源码深度解析_image_122.jpg)![](img/DeepSeek源码深度解析_image_123.jpg)
+![](img/DeepSeek-源码深度解析_image_121.jpg)![](img/DeepSeek-源码深度解析_image_122.jpg)![](img/DeepSeek-源码深度解析_image_123.jpg)
 
 在模型权重转换过程中，用户需要下载 Hugging Face 上的模型权重，并将其放入指定文件夹。然后，运行转换脚本，将 HuggingFace 模型权重转换为 DeepSeek-V3 特定格式。转换命令如下：
 
-![](img/DeepSeek源码深度解析_image_124.jpg)
+![](img/DeepSeek-源码深度解析_image_124.jpg)
 
 对上述命令参数的具体说明如下所示。
 
@@ -2073,11 +2073,11 @@ DeepSeek-V3 模型采用了 FP8（8 位浮点数）训练，以提高训练速�
 
 文件 fp8_cast_bf16.py 的功能是将 FP8 权重转换为 BF16 格式，并保存转换后的权重。它会读取指定目录中的 FP8 权重，将其转换为 BF16，然后保存到另一个指定目录。此外，它还会更新模型索引文件，以反映这些更改。如果缺少某个权重的 scale_inv 张量，脚本会引发 KeyError 异常。请注意，脚本假设 FP8 权重存储在 safetensor 文件中，并会缓存已加载的 safetensor 文件以优化内存使用。它还会更新模型索引文件，移除对 scale_inv 张量的引用。
 
-![](img/DeepSeek源码深度解析_image_125.jpg)![](img/DeepSeek源码深度解析_image_126.jpg)![](img/DeepSeek源码深度解析_image_127.jpg)
+![](img/DeepSeek-源码深度解析_image_125.jpg)![](img/DeepSeek-源码深度解析_image_126.jpg)![](img/DeepSeek-源码深度解析_image_127.jpg)
 
 通过运行如下命令，可以将 DeepSeek-V3 模型的 FP8 权重转换为 BF16 格式，以便在支持 BF16 的硬件上进行推理。
 
-![](img/DeepSeek源码深度解析_image_128.jpg)
+![](img/DeepSeek-源码深度解析_image_128.jpg)
 
 具体来说，cd inference 命令将当前工作目录切换到 inference 目录， 然后执行 python fp8_cast_bf16.py 脚本， 并通过 --input-fp8-hf-path 和 --output-bf16-hf-path 参数指定输入和输出路径。 以下是各个参数的含义。
 
@@ -2097,11 +2097,11 @@ DeepSeek-V3 模型的权重转换是模型部署和推理过程中的关键步�
 
 （1）克隆仓库，命令如下：
 
-![](img/DeepSeek源码深度解析_image_129.jpg)
+![](img/DeepSeek-源码深度解析_image_129.jpg)
 
 （2）执行权重转换脚本，命令如下：
 
-![](img/DeepSeek源码深度解析_image_130.jpg)
+![](img/DeepSeek-源码深度解析_image_130.jpg)
 
 **2. NPU 权重转换**
 
@@ -2109,11 +2109,11 @@ DeepSeek-V3 模型的权重转换是模型部署和推理过程中的关键步�
 
 （1）克隆仓库，命令如下：
 
-![](img/DeepSeek源码深度解析_image_131.jpg)
+![](img/DeepSeek-源码深度解析_image_131.jpg)
 
 （2）执行权重转换脚本，命令如下：
 
-![](img/DeepSeek源码深度解析_image_132.jpg)
+![](img/DeepSeek-源码深度解析_image_132.jpg)
 
 “/path/to/DeepSeek-V3”表示 DeepSeek-V3 原始权重路径，“/path/to/deepseek-v4-bf16”表示权重转换后的新权重路径。
 
@@ -2127,11 +2127,11 @@ DeepSeek-V3 模型的权重转换是模型部署和推理过程中的关键步�
 
 （1）下载镜像包，命令如下：
 
-![](img/DeepSeek源码深度解析_image_133.jpg)
+![](img/DeepSeek-源码深度解析_image_133.jpg)
 
 （2）确认镜像名称与标签，命令如下：
 
-![](img/DeepSeek源码深度解析_image_134.jpg)
+![](img/DeepSeek-源码深度解析_image_134.jpg)
 
 （3）启动容器：将转换后的权重放置在模型代码的主目录下，修改模型文件夹的属组和执行权限。
 
@@ -2151,7 +2151,7 @@ DeepSeek-V3 是一款基于 PyTorch 的深度学习模型，主要用于文本�
 
 在 DeepSeek-V3 项目中，脚本文件 generate.py 用于加载模型并执行文本生成任务。该脚本提供了交互式和批量处理两种模式，允许用户根据输入提示生成相应的文本。在交互式模式下，用户可以输入提示，模型将生成相应的文本；在批量处理模式下，脚本从指定的文件中读取多个提示，并生成对应的文本。 此外，脚本还支持设置生成文本的最大长度和温度参数，以控制生成文本的多样性和随机性。
 
-![](img/DeepSeek源码深度解析_image_135.jpg)![](img/DeepSeek源码深度解析_image_136.jpg)![](img/DeepSeek源码深度解析_image_137.jpg)![](img/DeepSeek源码深度解析_image_138.jpg)
+![](img/DeepSeek-源码深度解析_image_135.jpg)![](img/DeepSeek-源码深度解析_image_136.jpg)![](img/DeepSeek-源码深度解析_image_137.jpg)![](img/DeepSeek-源码深度解析_image_138.jpg)
 
 文件 generate.py 实现了基于给定提示词生成新文本的功能，主要实现流程如下所示。
 
@@ -2179,7 +2179,7 @@ DeepSeek-V3 模型提供了如下两种对话模式。
 
 通过下面的命令启动 DeepSeek-V3 模型的文本生成任务，实现交互式对话模式功能。在这种模式下，用户可以输入提示，模型将生成相应的文本回复。
 
-![](img/DeepSeek源码深度解析_image_139.jpg)
+![](img/DeepSeek-源码深度解析_image_139.jpg)
 
 对上述命令的具体说明如下所示。
 
@@ -2205,13 +2205,13 @@ DeepSeek-V3 模型提供了如下两种对话模式。
 
 如果在命令行中运行了文件 generate.py 并启用了交互模式，会显示提示符 ＞＞＞ 等待用户输入。用户可以输入提示，脚本会生成响应。下面是一个交互的示例：
 
-![](img/DeepSeek源码深度解析_image_140.jpg)
+![](img/DeepSeek-源码深度解析_image_140.jpg)
 
 **2．批量推理模式**
 
 通过下面的命令启动 DeepSeek-V3 模型的批量推理模式，模型将读取指定文件中的每一行作为输入提示，生成相应的文本输出。
 
-![](img/DeepSeek源码深度解析_image_141.jpg)![](img/DeepSeek源码深度解析_image_142.jpg)
+![](img/DeepSeek-源码深度解析_image_141.jpg)![](img/DeepSeek-源码深度解析_image_142.jpg)
 
 对上述命令的具体说明如下所示。
 
@@ -2235,11 +2235,11 @@ DeepSeek-V3 模型提供了如下两种对话模式。
 
 如果在命令行中运行了文件 generate.py 并启用了参数 input_file，会从文件中读取输入提示并生成响应。假设 input_file 的内容如下：
 
-![](img/DeepSeek源码深度解析_image_143.jpg)
+![](img/DeepSeek-源码深度解析_image_143.jpg)
 
 运行后可能得到下面的交互信息：
 
-![](img/DeepSeek源码深度解析_image_144.jpg)
+![](img/DeepSeek-源码深度解析_image_144.jpg)
 
 ## **4.9** **DeepSeek-V3** **模型总结**
 
@@ -2523,7 +2523,7 @@ Janus、Janus-Pro 和 JanusFlow 的核心技术对比如表 5-1 所示。
 
 表 5-1 Janus、Janus-Pro 和 JanusFlow 的核心技术对比
 
-![](img/DeepSeek源码深度解析_image_145.jpg)
+![](img/DeepSeek-源码深度解析_image_145.jpg)
 
 经过测试证明，Janus-Pro 和 JanusFlow 在多个任务上超越了 Janus，并在某些任务上比 DALL·E 3、Stable Diffusion 3 Medium 表现更优。
 
@@ -2531,17 +2531,17 @@ Janus、Janus-Pro 和 JanusFlow 的核心技术对比如表 5-1 所示。
 
 表 5-2 多模态理解任务的评测结果
 
-![](img/DeepSeek源码深度解析_image_146.jpg)
+![](img/DeepSeek-源码深度解析_image_146.jpg)
 
 续表
 
-![](img/DeepSeek源码深度解析_image_147.jpg)
+![](img/DeepSeek-源码深度解析_image_147.jpg)
 
 （2）文本—图像生成任务的评测结果如表 5-3 所示。
 
 表 5-3 文本—图像生成任务的评测结果
 
-![](img/DeepSeek源码深度解析_image_148.jpg)
+![](img/DeepSeek-源码深度解析_image_148.jpg)
 
 上述评测结果说明 JanusFlow 在文本到图像任务上的表现比 Janus-Pro 更优，这主要得益于 Rectified Flow 生成方法，能够更精准地生成符合文本描述的高质量图像。
 
@@ -2595,7 +2595,7 @@ Janus、Janus-Pro 和 JanusFlow 的核心技术对比如表 5-1 所示。
 
 Janus-1.3B（4096 词序列长度）模型的展示如图 5-1 所示，大家可以从 Hugging Face 平台获取并部署。
 
-![](img/DeepSeek源码深度解析_image_149.jpg)
+![](img/DeepSeek-源码深度解析_image_149.jpg)
 
 图 5-1 Hugging Face 中的 Janus-1.3B（4096 词序列长度）模型
 
@@ -2613,11 +2613,11 @@ Janus-1.3B（4096 词序列长度）模型的展示如图 5-1 所示，大家可
 
 （1）下面的代码定义了 SeparatorStyle 枚举类，用于表示不同的分隔符风格类型。这些风格用于在对话系统中区分不同角色的消息格式，例如，在消息前后添加冒号、换行符或其他特定标记。枚举类中的每个成员（如 ADD_COLON_SINGLE、LLAMA2、DeepSeek 等）代表一种特定的分隔符风格，这些风格可以被对话管理系统用来生成符合特定格式要求的对话提示（prompt），从而适应不同的语言模型或应用场景的需求。
 
-![](img/DeepSeek源码深度解析_image_150.jpg)
+![](img/DeepSeek-源码深度解析_image_150.jpg)
 
 （2）下面的代码定义了一个名为 Conversation 的数据类，用于管理提示模板并保存所有对话历史。它提供了多种方法来设置系统消息、追加新消息、重置消息、更新最后一条消息，以及将对话转换为不同格式。此外，还可以根据不同的分隔符风格和配置，生成用于模型生成的提示。
 
-![](img/DeepSeek源码深度解析_image_151.jpg)![](img/DeepSeek源码深度解析_image_152.jpg)![](img/DeepSeek源码深度解析_image_153.jpg)![](img/DeepSeek源码深度解析_image_154.jpg)![](img/DeepSeek源码深度解析_image_155.jpg)
+![](img/DeepSeek-源码深度解析_image_151.jpg)![](img/DeepSeek-源码深度解析_image_152.jpg)![](img/DeepSeek-源码深度解析_image_153.jpg)![](img/DeepSeek-源码深度解析_image_154.jpg)![](img/DeepSeek-源码深度解析_image_155.jpg)
 
 类 Conversation 中各个成员方法的具体说明如下所示。
 
@@ -2643,35 +2643,35 @@ Janus-1.3B（4096 词序列长度）模型的展示如图 5-1 所示，大家可
 
 （3）下面的代码定义了一个全局注册表 conv_templates，用于存储所有的对话模板。通过 register_conv_template 函数，可以在该注册表中添加新的对话模板。在添加时，如果未设置 override 参数或将其设为 False，则函数会检查模板名称是否已存在，防止重复注册。
 
-![](img/DeepSeek源码深度解析_image_156.jpg)
+![](img/DeepSeek-源码深度解析_image_156.jpg)
 
 （4）函数 get_conv_template()的功能是从全局注册表 conv_templates 中获取指定名称的对话模板，并返回其副本。通过返回副本，确保对返回的模板进行的修改不会影响全局注册表中的原始模板。
 
-![](img/DeepSeek源码深度解析_image_157.jpg)
+![](img/DeepSeek-源码深度解析_image_157.jpg)
 
 （5）下面的代码定义了一个全局注册表 conv_templates，用于存储所有的对话模板。通过函数 register_conv_template()，可以在该注册表中添加新的对话模板。在添加模板时，如果未设置 override 参数或将其设置为 False，则函数 register_conv_template()会检查模板名称是否已存在于注册表中，若存在则抛出异常。否则，函数 register_conv_template()会将模板添加到注册表中。
 
-![](img/DeepSeek源码深度解析_image_158.jpg)![](img/DeepSeek源码深度解析_image_159.jpg)
+![](img/DeepSeek-源码深度解析_image_158.jpg)![](img/DeepSeek-源码深度解析_image_159.jpg)
 
 （6）下面代码的功能是注册一个名为 llama-2 的对话模板，该模板用于管理对话中的系统信息、角色及消息格式。该模板为基于 llama-2 结构的对话提供了格式化支持，并能够按预定格式生成对话消息。
 
-![](img/DeepSeek源码深度解析_image_160.jpg)
+![](img/DeepSeek-源码深度解析_image_160.jpg)
 
 （7）下面代码的功能是注册一个名为 "deepseek_old" 的对话模板，模板包括系统消息的格式化（通过 system_message 变量进行配置）、对话角色（设置为 User 和 Assistant）、消息分隔符的样式（使用 SeparatorStyle.DeepSeek），以及特定的停止标识符（stop_token_ids 和 stop_str）。在此模板下，对话的每轮消息之间会通过\n\n 分隔，并且每个对话结束时会插入一个标记 ＜｜end▁of▁sentence｜＞。此模板用于处理用户和助手之间的对话，且通过该模板创建的对话会遵循特定的结构和停止条件。
 
-![](img/DeepSeek源码深度解析_image_161.jpg)![](img/DeepSeek源码深度解析_image_162.jpg)
+![](img/DeepSeek-源码深度解析_image_161.jpg)![](img/DeepSeek-源码深度解析_image_162.jpg)
 
 （8）下面的代码注册了一个名为 "deepseek" 的对话模板，配置了系统消息格式（通过 system_message），定义了对话角色为"＜|User|＞"和"＜|Assistant|＞"，并设置了消息分隔符为“\n\n”及对话结束标记为“＜｜end▁of▁sentence｜＞”。该模板还使用了 SeparatorStyle.DeepSeek 样式，确保每轮对话中的消息都按此格式分隔。
 
-![](img/DeepSeek源码深度解析_image_163.jpg)
+![](img/DeepSeek-源码深度解析_image_163.jpg)
 
 （9）下面的代码注册了一个名为 "plain" 的对话模板，适用于 plain（简单）风格的对话。
 
-![](img/DeepSeek源码深度解析_image_164.jpg)![](img/DeepSeek源码深度解析_image_165.jpg)
+![](img/DeepSeek-源码深度解析_image_164.jpg)![](img/DeepSeek-源码深度解析_image_165.jpg)
 
 （10）下面的代码注册了一个名为 "alignment" 的对话模板，适用于 ALIGNMENT（对齐）风格的对话。
 
-![](img/DeepSeek源码深度解析_image_166.jpg)
+![](img/DeepSeek-源码深度解析_image_166.jpg)
 
 （11）下面代码的功能是测试 "deepseek" 对话模板的行为，并打印出最终生成的对话提示。首先，通过 get_conv_template("deepseek") 获取 DeepSeek 风格的对话模板，然后，使用 append_message(role, message) 依次在对话中添加用户（＜|User|＞） 和助手（＜|Assistant|＞） 的消息：
 
@@ -2683,7 +2683,7 @@ Janus-1.3B（4096 词序列长度）模型的展示如图 5-1 所示，大家可
 
 最后，通过 conv.get_prompt() 生成并打印最终的对话提示，用于输入大模型中进行推理。
 
-![](img/DeepSeek源码深度解析_image_167.jpg)
+![](img/DeepSeek-源码深度解析_image_167.jpg)
 
 ### **5.4.2 数据加载**
 
@@ -2695,7 +2695,7 @@ Janus-1.3B（4096 词序列长度）模型的展示如图 5-1 所示，大家可
 
 ● 读取 JSON 数据：提供从文件中加载 JSON 数据的函数。
 
-![](img/DeepSeek源码深度解析_image_168.jpg)![](img/DeepSeek源码深度解析_image_169.jpg)
+![](img/DeepSeek-源码深度解析_image_168.jpg)![](img/DeepSeek-源码深度解析_image_169.jpg)
 
 ## **5.5** **构建多模态模型**
 
@@ -2709,7 +2709,7 @@ Janus-1.3B（4096 词序列长度）模型的展示如图 5-1 所示，大家可
 
 （1）ModelArgs 类主要用于定义 VQ-VAE 模型的关键超参数，包括码本（Codebook）相关参数（如大小、嵌入维度、是否归一化等）、损失函数超参数（如提交损失权重、熵损失比例等），以及编码器与解码器结构（如通道倍增因子、中间特征通道数等）。这些参数共同决定了模型的编码能力、离散化策略及重建质量，并可通过调整超参数来优化模型性能。
 
-![](img/DeepSeek源码深度解析_image_170.jpg)
+![](img/DeepSeek-源码深度解析_image_170.jpg)
 
 （2）Encoder 类是 VQ-VAE（或类似自编码器）中的编码器，负责将输入图像转换为紧凑的特征表示（潜变量）。整个过程包括特征提取、分辨率逐步降低（下采样）、残差学习、注意力机制等，以提取关键信息并减少冗余，为后续的离散化和解码提供高质量的潜在特征。
 
@@ -2729,7 +2729,7 @@ Encoder 的结构如下。
 
 ● conv_out 层：编码器的最后一层卷积层，它将经过多次处理后的特征图进行归一化、非线性激活，并通过 3×3 的卷积层生成 z_channels 维度的输出，作为最终的潜在特征图供后续解码使用。
 
-![](img/DeepSeek源码深度解析_image_171.jpg)![](img/DeepSeek源码深度解析_image_172.jpg)![](img/DeepSeek源码深度解析_image_173.jpg)
+![](img/DeepSeek-源码深度解析_image_171.jpg)![](img/DeepSeek-源码深度解析_image_172.jpg)![](img/DeepSeek-源码深度解析_image_173.jpg)
 
 （3）类 Decoder 是一种神经网络解码器结构，主要用于将编码器产生的潜在空间特征图 z 转换为最终的输出图像。它通过若干残差块和注意力机制模块逐层恢复图像的分辨率，同时保持输入特征图的语义信息。解码器的核心目标是利用输入的潜在特征图 z 生成和输入图像维度相同的输出，通常用于图像生成任务。
 
@@ -2741,7 +2741,7 @@ Encoder 的结构如下。
 
 ● forward()方法（前向传播）:forward 方法定义了解码器的前向传播流程。首先，潜在特征图 z 通过输入卷积层 (conv_in) 转换为初始特征图。接下来，特征图经过中间层的处理，这些层包括残差块和注意力机制模块。然后，特征图通过一系列上采样模块逐渐恢复分辨率。最后，经过输出层生成最终的输出图像。该方法是解码器的核心操作，确保特征图从潜在空间恢复到图像空间。
 
-![](img/DeepSeek源码深度解析_image_174.jpg)![](img/DeepSeek源码深度解析_image_175.jpg)![](img/DeepSeek源码深度解析_image_176.jpg)
+![](img/DeepSeek-源码深度解析_image_174.jpg)![](img/DeepSeek-源码深度解析_image_175.jpg)![](img/DeepSeek-源码深度解析_image_176.jpg)
 
 （4）VectorQuantizer 是一种用于量化的神经网络模块，主要用于将连续的向量表示映射到一个离散的码本空间。这种技术通常用于变分自编码器（VAE）和生成模型中，通过向量量化来提高模型的表达能力。该模块使用嵌入式码本来实现向量量化，同时支持可调的损失函数和不同的正则化策略，帮助模型在训练过程中有效地逼近目标分布。
 
@@ -2753,7 +2753,7 @@ VectorQuantizer 中的成员如下所示。
 
 ● get_codebook_entry()方法（获取码本项）：用于根据给定的索引从码本中提取对应的向量。它可以接收索引 indices 和目标形状 shape，并根据 channel_first 参数来决定如何重塑输出的形状。如果启用了 L2 归一化，则嵌入向量会进行归一化处理。这一方法通常用于检索特定的码本向量，在推理和生成过程中可能被调用以获取相应的离散表示。
 
-![](img/DeepSeek源码深度解析_image_177.jpg)![](img/DeepSeek源码深度解析_image_178.jpg)![](img/DeepSeek源码深度解析_image_179.jpg)
+![](img/DeepSeek-源码深度解析_image_177.jpg)![](img/DeepSeek-源码深度解析_image_178.jpg)![](img/DeepSeek-源码深度解析_image_179.jpg)
 
 （5）ResnetBlock 类是一种常见的神经网络模块，常用于构建残差网络（ResNet）。它通过引入快捷连接（Skip Connection）来解决深度网络中的梯度消失问题，从而加速训练。该模块由两个卷积层、两个归一化层、一个激活函数和一个可选的快捷连接组成。通过添加快捷连接，网络的每一层都可以直接接收前一层的输出，这有助于信息的流动并增强网络的表现力。
 
@@ -2763,15 +2763,15 @@ ResnetBlock 类中的成员如下所示。
 
 ● forward()方法：定义了 ResnetBlock 的前向传播过程。首先，对输入进行归一化处理，然后通过非线性激活函数激活，并传递至第一个卷积层。接着对输出进行归一化、激活、dropout 并通过第二个卷积层得到结果。如果输入和输出通道数不一致，则使用快捷连接对输入进行处理，最后将输入和卷积后的结果相加，这就是残差连接的核心。最终输出是两者的和，即 x + h。这种结构有助于解决梯度消失问题，并加速训练过程。
 
-![](img/DeepSeek源码深度解析_image_180.jpg)![](img/DeepSeek源码深度解析_image_181.jpg)
+![](img/DeepSeek-源码深度解析_image_180.jpg)![](img/DeepSeek-源码深度解析_image_181.jpg)
 
 （6）AttnBlock 是一个实现自注意力机制的神经网络模块，该模块通过使用三个卷积层（分别用于查询、键、值）来计算输入特征图的注意力权重。首先，输入特征图经过归一化处理，生成查询（Q）、键（K）和值（V）。然后，计算查询和键之间的相似度，生成注意力权重，并使用 softmax 函数进行归一化。接着，将这些权重与值进行加权平均，得到加权后的特征图，并通过一个卷积层进行最终的输出投影。最后，将输出结果与原始输入特征图相加，形成残差连接。该模块的主要目的是使网络能够捕捉不同空间位置之间的依赖关系，从而提高特征的表达能力。
 
-![](img/DeepSeek源码深度解析_image_182.jpg)![](img/DeepSeek源码深度解析_image_183.jpg)
+![](img/DeepSeek-源码深度解析_image_182.jpg)![](img/DeepSeek-源码深度解析_image_183.jpg)
 
 （7）Nonlinearity()是一个自定义的激活函数，该函数通过将输入值与 Sigmoid 函数的输出相乘来提供非线性变换，通常可以改善梯度流动并在某些情况下提升模型性能。
 
-![](img/DeepSeek源码深度解析_image_184.jpg)
+![](img/DeepSeek-源码深度解析_image_184.jpg)
 
 （8）Normalize()是一个归一化层的构造函数，根据指定的 norm_type 类型选择不同的归一化方法。它支持两种归一化方式。
 
@@ -2779,7 +2779,7 @@ ResnetBlock 类中的成员如下所示。
 
 ● BatchNorm：使用批量归一化（Batch Normalization），通过计算批量数据的均值和方差来进行归一化，通常用于训练深度神经网络。
 
-![](img/DeepSeek源码深度解析_image_185.jpg)
+![](img/DeepSeek-源码深度解析_image_185.jpg)
 
 （9）类 Upsample 是一个上采样层，用于对输入的张量进行上采样（增加空间分辨率）。类 Upsample 支持两种方式。
 
@@ -2789,15 +2789,15 @@ ResnetBlock 类中的成员如下所示。
 
 此外，类 Upsample 会根据输入的数据类型进行转换，确保在采样过程中数据格式的兼容性。
 
-![](img/DeepSeek源码深度解析_image_186.jpg)![](img/DeepSeek源码深度解析_image_187.jpg)
+![](img/DeepSeek-源码深度解析_image_186.jpg)![](img/DeepSeek-源码深度解析_image_187.jpg)
 
 （10）类 Downsample 是一个下采样层，用于降低输入张量的空间分辨率。
 
-![](img/DeepSeek源码深度解析_image_188.jpg)
+![](img/DeepSeek-源码深度解析_image_188.jpg)
 
 （11）函数 compute_entropy_loss()用于计算熵损失，主要用于量化学习中的熵正则化。熵损失有助于控制模型的输出分布，使其更具不确定性。
 
-![](img/DeepSeek源码深度解析_image_189.jpg)![](img/DeepSeek源码深度解析_image_190.jpg)
+![](img/DeepSeek-源码深度解析_image_189.jpg)![](img/DeepSeek-源码深度解析_image_190.jpg)
 
 （12）类 VQModel 是一个向量量化模型，主要用于图像或其他数据的编码和解码过程。该模型包括编码器、解码器及向量量化模块，具体说明如下。
 
@@ -2813,11 +2813,11 @@ ResnetBlock 类中的成员如下所示。
 
 VQModel 模型通过向量量化将连续的输入映射到离散的编码空间，在图像生成和重建任务中起重要作用。
 
-![](img/DeepSeek源码深度解析_image_191.jpg)![](img/DeepSeek源码深度解析_image_192.jpg)
+![](img/DeepSeek-源码深度解析_image_191.jpg)![](img/DeepSeek-源码深度解析_image_192.jpg)
 
 （13）下面的代码定义了一个名为 VQ_16()的模型配置函数，用于创建一个带有特定参数的 VQModel 实例。配置包括编码器和解码器的通道倍增参数，均是 [1, 1, 2, 2, 4]。此外，还允许通过关键字参数 (**kwargs) 来传入其他配置。
 
-![](img/DeepSeek源码深度解析_image_193.jpg)![](img/DeepSeek源码深度解析_image_194.jpg)
+![](img/DeepSeek-源码深度解析_image_193.jpg)![](img/DeepSeek-源码深度解析_image_194.jpg)
 
 VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的字符串作为键，将函数 VQ_16 作为值，存储在字典 VQ_models 中。这样做的好处是，可以通过名字来动态选择不同的模型配置，而无须直接调用 VQ_16() 函数。
 
@@ -2825,7 +2825,7 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 文件 clip_encoder.py 定义了一个名为 CLIPVisionTower 的类，用于构建并使用不同类型的视觉模型（如 siglip、sam 或 HuggingFace 的 CLIP）。这个类包括图像预处理（如像素均值和标准差归一化）、选择不同层输出的功能，以及根据不同模型配置生成相应的视觉模型。具体来说， CLIPVisionTower 将图像通过视觉塔（vision tower）进行特征提取，提取指定层的特征，并根据 select_feature 参数选择合适的特征（如“patch”或“cls_patch”）。它还支持自定义图像归一化。
 
-![](img/DeepSeek源码深度解析_image_195.jpg)![](img/DeepSeek源码深度解析_image_196.jpg)![](img/DeepSeek源码深度解析_image_197.jpg)
+![](img/DeepSeek-源码深度解析_image_195.jpg)![](img/DeepSeek-源码深度解析_image_196.jpg)![](img/DeepSeek-源码深度解析_image_197.jpg)
 
 总之，类 CLIPVisionTower 为多模态模型提供了图像特征提取功能，这些特征可以用于和文本特征的对齐与融合。
 
@@ -2833,7 +2833,7 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 文件 projector.py 定义了一个名为 MlpProjector 的类，其作为一个多层感知机（MLP）投影器，用于将输入数据映射到指定的嵌入空间。在多模态模型中，投影器是连接不同模态特征的关键组件。MlpProjector 投影器根据配置（cfg）的不同，支持多种类型的投影方式：identity、linear、mlp_gelu、和 low_high_hybrid_split_mlp_gelu。如果配置为 low_high_hybrid_split_mlp_gelu，则会将输入分为两部分（高分辨率和低分辨率），分别进行投影后合并。前向传播方法接收一个输入（可以是元组，也可以是单一张量），并通过配置的投影器进行转换，返回投影后的结果。
 
-![](img/DeepSeek源码深度解析_image_198.jpg)![](img/DeepSeek源码深度解析_image_199.jpg)![](img/DeepSeek源码深度解析_image_200.jpg)
+![](img/DeepSeek-源码深度解析_image_198.jpg)![](img/DeepSeek-源码深度解析_image_199.jpg)![](img/DeepSeek-源码深度解析_image_200.jpg)
 
 ### **5.5.4** **Vision** **Transformer 视觉模型**
 
@@ -2859,19 +2859,19 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 （1）下面的代码实现了梯度截断正态分布初始化操作，用于在区间[a,b]内按照给定均值 mean 和标准差 std 生成符合截断正态分布的随机数，并填充到 tensor 中。核心逻辑包括：检查均值是否超出截断范围的两倍标准差（防止分布偏移），使用逆误差函数 erfinv_()将均匀分布转换为截断正态分布，并最终调整均值、标准差和范围约束 clamp_()。该方法可用于深度学习模型参数的合理初始化，以避免极端值影响训练的稳定性。
 
-![](img/DeepSeek源码深度解析_image_201.jpg)
+![](img/DeepSeek-源码深度解析_image_201.jpg)
 
 （2）下面的代码实现了截断正态分布初始化操作，用于在区间 [a, b] 内按照均值 mean 和标准差 std 随机填充 tensor，并确保数值不会超出指定范围。其核心逻辑是，先将 tensor 转换为 float32 进行计算（以兼容 bfloat16），然后调用 _no_grad_trunc_normal_()生成符合截断正态分布的值，最后转换回原始数据类型并复制回 tensor。
 
-![](img/DeepSeek源码深度解析_image_202.jpg)![](img/DeepSeek源码深度解析_image_203.jpg)
+![](img/DeepSeek-源码深度解析_image_202.jpg)![](img/DeepSeek-源码深度解析_image_203.jpg)
 
 （3）函数 init_weights ()用于初始化模型的权重，具体来说，对位置编码 (pos_embed) 和潜在表示 (latent) 进行截断正态分布初始化。如果 pos_embed 存在，则按照标准差 std = 1 / sqrt(embedding_dim) 进行初始化，而 latent 的标准差为 1 / sqrt(latent_dim)，这种初始化方式有助于控制参数的尺度，防止梯度消失或爆炸，提高训练的稳定性。
 
-![](img/DeepSeek源码深度解析_image_204.jpg)
+![](img/DeepSeek-源码深度解析_image_204.jpg)
 
 （4）函数 init_weights_vit_timm()用于初始化 Vision Transformer 的权重，并遵循 timm 库的初始化方式，以保证可复现性。具体而言，它对 nn.Linear 层的 weight 采用标准差为 0.02 的截断正态分布进行初始化，并将 bias 置为零。此外，如果 module 具有 init_weights 方法，则调用该方法执行自定义初始化，以确保不同模块的权重初始化符合预期。
 
-![](img/DeepSeek源码深度解析_image_205.jpg)
+![](img/DeepSeek-源码深度解析_image_205.jpg)
 
 （5）类 Attention 实现了多头自注意力机制（Multi-Head Self-Attention,MHSA），用于处理输入特征并计算注意力加权的输出。类 Attention 的核心功能包括：
 
@@ -2885,7 +2885,7 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 该 Attention 机制用于 Transformer 结构，帮助模型在不同位置间建立长距离依赖，从而提高对全局信息的捕捉能力。
 
-![](img/DeepSeek源码深度解析_image_206.jpg)![](img/DeepSeek源码深度解析_image_207.jpg)
+![](img/DeepSeek-源码深度解析_image_206.jpg)![](img/DeepSeek-源码深度解析_image_207.jpg)
 
 （6）类 LayerScale 实现了一种层级缩放（Layer Scaling）技术，用于调整输入张量的尺度，通过一个可学习的参数 gamma。类 LayerScale 的核心功能如下：
 
@@ -2895,7 +2895,7 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 该技术可以调整激活值的尺度，在训练深度神经网络时帮助稳定训练过程。
 
-![](img/DeepSeek源码深度解析_image_208.jpg)
+![](img/DeepSeek-源码深度解析_image_208.jpg)
 
 （7）类 Block 实现了一个 Transformer 模块的基础构建块，包含注意力层（Attention）和前馈神经网络层（MLP）。类 Block 的核心功能如下。
 
@@ -2907,79 +2907,79 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 类 Block 提供了 Transformer 网络中的多头自注意力和前馈网络功能，并结合了层级缩放和路径丢弃技术来优化训练过程和防止过拟合。
 
-![](img/DeepSeek源码深度解析_image_209.jpg)![](img/DeepSeek源码深度解析_image_210.jpg)
+![](img/DeepSeek-源码深度解析_image_209.jpg)![](img/DeepSeek-源码深度解析_image_210.jpg)
 
 （8）类 VisionTransformer 是一个基于 Transformer 的视觉模型，专门用于图像分类任务。其核心思想是将输入图像划分为固定大小的块（patches），并将这些块嵌入向量，作为 Transformer 模型的输入。该模型支持动态调整输入图像大小、位置嵌入的处理、块的丢弃等多种配置。其结构包括图像块嵌入、多个 Transformer 层以及一个分类头。VisionTransformer 通过学习图像块之间的关系，利用自注意力机制进行特征提取，最后输出类别预测结果。模型的不同配置选项（如注意力池化、位置嵌入等）允许在不同应用场景中灵活调整性能与效率。
 
 ● 方法 __init__()：功能是初始化 VisionTransformer 类的各个成员变量，包括图像尺寸、嵌入维度、Transformer 层的深度、注意力头的数量等，构建模型所需的各个组件，并设定模型的基本结构。
 
-![](img/DeepSeek源码深度解析_image_211.jpg)![](img/DeepSeek源码深度解析_image_212.jpg)![](img/DeepSeek源码深度解析_image_213.jpg)![](img/DeepSeek源码深度解析_image_214.jpg)![](img/DeepSeek源码深度解析_image_215.jpg)
+![](img/DeepSeek-源码深度解析_image_211.jpg)![](img/DeepSeek-源码深度解析_image_212.jpg)![](img/DeepSeek-源码深度解析_image_213.jpg)![](img/DeepSeek-源码深度解析_image_214.jpg)![](img/DeepSeek-源码深度解析_image_215.jpg)
 
 ● 方法 init_weights()：功能是初始化模型的权重，根据不同的初始化方案（如 "jax" "moco" 等）进行权重初始化，并对位置嵌入、类别令牌等进行初始化。
 
-![](img/DeepSeek源码深度解析_image_216.jpg)
+![](img/DeepSeek-源码深度解析_image_216.jpg)
 
 ● 方法 no_weight_decay()：功能是返回一个不参与权重衰减的参数集合，通常用于控制某些参数在优化过程中不进行权重衰减。
 
-![](img/DeepSeek源码深度解析_image_217.jpg)
+![](img/DeepSeek-源码深度解析_image_217.jpg)
 
 ● 方法 group_matcher()：功能是返回一个字典，用于匹配不同组的参数，主要用于模型的优化器设置。
 
-![](img/DeepSeek源码深度解析_image_218.jpg)
+![](img/DeepSeek-源码深度解析_image_218.jpg)
 
 ● 方法 set_grad_checkpointing()：功能是启用或禁用梯度检查点，它允许在训练过程中保存中间计算的梯度，从而减少显存的占用。
 
-![](img/DeepSeek源码深度解析_image_219.jpg)
+![](img/DeepSeek-源码深度解析_image_219.jpg)
 
 ● 方法 get_classifier()：功能是返回分类器头部模块，通常用于模型的推理或训练过程中的分类任务。
 
-![](img/DeepSeek源码深度解析_image_220.jpg)
+![](img/DeepSeek-源码深度解析_image_220.jpg)
 
 ● 方法 reset_classifier()：功能是重置模型的分类头部，将其更新为指定的类别数，并可以选择添加或删除全局池化层。
 
-![](img/DeepSeek源码深度解析_image_221.jpg)
+![](img/DeepSeek-源码深度解析_image_221.jpg)
 
 ● 方法 _pos_embed()：功能是对输入进行位置嵌入操作，并根据动态图像大小设置对位置嵌入的采样方式，最终将其添加到输入特征中。
 
-![](img/DeepSeek源码深度解析_image_222.jpg)
+![](img/DeepSeek-源码深度解析_image_222.jpg)
 
 ● 方法 _intermediate_layers()：功能是获取模型中的中间层输出，允许用户选择返回指定层的输出，支持多层的中间结果提取。
 
-![](img/DeepSeek源码深度解析_image_223.jpg)![](img/DeepSeek源码深度解析_image_224.jpg)
+![](img/DeepSeek-源码深度解析_image_223.jpg)![](img/DeepSeek-源码深度解析_image_224.jpg)
 
 ● 方法 get_intermediate_layers()：功能是获取中间层输出的接口，提供更多选项来提取指定的层输出，包括是否规范化、是否返回类别令牌等。
 
-![](img/DeepSeek源码深度解析_image_225.jpg)![](img/DeepSeek源码深度解析_image_226.jpg)
+![](img/DeepSeek-源码深度解析_image_225.jpg)![](img/DeepSeek-源码深度解析_image_226.jpg)
 
 ● 方法 forward_features()：功能是执行模型的前向传播，计算特征表示。在这一过程中，图像输入经过嵌入、位置嵌入、注意力层等，输出最终的特征表示。
 
-![](img/DeepSeek源码深度解析_image_227.jpg)
+![](img/DeepSeek-源码深度解析_image_227.jpg)
 
 ● 方法 forward_head()：功能是执行分类头部的前向传播，包括池化操作（如全局平均池化）和分类输出。如果设置了分类头，它就会输出类别预测结果。
 
-![](img/DeepSeek源码深度解析_image_228.jpg)
+![](img/DeepSeek-源码深度解析_image_228.jpg)
 
 ● 方法 forward()：功能是执行模型的前向传播，包括特征提取和分类头部的计算，最终输出类别预测结果。
 
-![](img/DeepSeek源码深度解析_image_229.jpg)
+![](img/DeepSeek-源码深度解析_image_229.jpg)
 
 （9）下面的代码定义了一个名为 SigLIPVisionCfg 的数据类，用于配置视觉模型的各种超参数。该类包含了多个参数：模型宽度、层数、头部数量、图像分块大小、输入图像尺寸、全局池化方式、MLP 比例、是否使用类别令牌、类别数量和是否使用检查点等。这些参数用于控制视觉模型的结构和训练过程，便于在不同配置下灵活调整模型的性能与特性。
 
-![](img/DeepSeek源码深度解析_image_230.jpg)
+![](img/DeepSeek-源码深度解析_image_230.jpg)
 
 （10）下面的代码定义了 SigLIP 模型的配置字典，其中包含多个 SigLIP 模型的参数设置。这些配置用于初始化不同版本的 SigLIP 模型，以适应不同的输入图像尺寸和计算需求。
 
-![](img/DeepSeek源码深度解析_image_231.jpg)![](img/DeepSeek源码深度解析_image_232.jpg)
+![](img/DeepSeek-源码深度解析_image_231.jpg)![](img/DeepSeek-源码深度解析_image_232.jpg)
 
 （11）下面代码定义了一个名为 SigLIP_MODEL_CONFIG 的字典，存储了不同视觉模型配置的超参数设置。每个配置以模型名称为键，包含图像尺寸、图像分块大小、宽度、层数、头部数量、MLP 比例、全局池化方式及是否使用检查点等参数。此字典提供了多种模型配置的选项，便于根据不同需求选择合适的视觉模型，并进行灵活调整。
 
-![](img/DeepSeek源码深度解析_image_233.jpg)![](img/DeepSeek源码深度解析_image_234.jpg)
+![](img/DeepSeek-源码深度解析_image_233.jpg)![](img/DeepSeek-源码深度解析_image_234.jpg)
 
 ### **5.5.5** **图像处理器**
 
 文件 image_processing_vlm.py 定义了一个图像处理器（VLMImageProcessor），用于对输入图像进行预处理，包括调整大小、归一化等操作。此文件能够确保输入图像符合模型的要求，为图像特征提取提供了标准化的输入。
 
-![](img/DeepSeek源码深度解析_image_235.jpg)![](img/DeepSeek源码深度解析_image_236.jpg)![](img/DeepSeek源码深度解析_image_237.jpg)![](img/DeepSeek源码深度解析_image_238.jpg)![](img/DeepSeek源码深度解析_image_239.jpg)
+![](img/DeepSeek-源码深度解析_image_235.jpg)![](img/DeepSeek-源码深度解析_image_236.jpg)![](img/DeepSeek-源码深度解析_image_237.jpg)![](img/DeepSeek-源码深度解析_image_238.jpg)![](img/DeepSeek-源码深度解析_image_239.jpg)
 
 在上述代码中，VLMImageProcessor 继承自 BaseImageProcessor，用于对输入图像进行标准化处理，包括调整大小、填充和归一化，以确保符合模型输入要求。同时，VLMImageProcessorConfig 负责配置相关超参数，如图像尺寸、最小尺寸、均值和标准差等。
 
@@ -2991,11 +2991,11 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 （1）类 vision_head 是一个神经网络模块，用于处理视觉信息。它包含三个主要组件：一个线性层（output_mlp_projector）将输入嵌入（embedding）转换为图像令牌嵌入，接着通过 GELU 激活函数（vision_activation）先进行非线性转换，最后通过另一个线性层（vision_head）将嵌入转换为最终的图像特征输出。该模块的目的是将输入的特征映射到一个特定尺寸的图像表示。
 
-![](img/DeepSeek源码深度解析_image_240.jpg)![](img/DeepSeek源码深度解析_image_241.jpg)
+![](img/DeepSeek-源码深度解析_image_240.jpg)![](img/DeepSeek-源码深度解析_image_241.jpg)
 
 （2）函数 model_name_to_cls()根据传入的类名（cls_name）返回对应的模型类。如果类名包含"MlpProjector" "CLIPVisionTower" "VQ" 或 "vision_head"，则分别返回相应的类。如果类名不匹配这些条件，则会抛出一个 ValueError 错误。
 
-![](img/DeepSeek源码深度解析_image_242.jpg)
+![](img/DeepSeek-源码深度解析_image_242.jpg)
 
 （3）类 VisionConfig 是一个配置类，继承自 PretrainedConfig，用于定义和初始化与视觉模型相关的配置信息。它包含以下两个主要属性。
 
@@ -3005,39 +3005,39 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 在 __init__()方法中，cls 和 params 会根据传入的关键字参数（kwargs）进行初始化，并处理 cls 为字符串类型的情况。
 
-![](img/DeepSeek源码深度解析_image_243.jpg)![](img/DeepSeek源码深度解析_image_244.jpg)
+![](img/DeepSeek-源码深度解析_image_243.jpg)![](img/DeepSeek-源码深度解析_image_244.jpg)
 
 （4）类 AlignerConfig 是一个配置类，继承自 PretrainedConfig，用于定义和初始化与对齐模型（Aligner）相关的配置信息。在 __init__()方法中，cls 和 params 会根据传入的关键字参数（kwargs）进行初始化，并处理 cls 为字符串类型的情况。
 
-![](img/DeepSeek源码深度解析_image_245.jpg)
+![](img/DeepSeek-源码深度解析_image_245.jpg)
 
 （5）类 GenVisionConfig 是一个配置类，继承自 PretrainedConfig，用于定义和初始化生成视觉模型（GenVision）相关的配置信息。
 
-![](img/DeepSeek源码深度解析_image_246.jpg)
+![](img/DeepSeek-源码深度解析_image_246.jpg)
 
 （6）类 GenAlignerConfig 是一个配置类，继承自 PretrainedConfig，用于定义和初始化生成对齐模型（GenAligner）相关的配置信息。
 
-![](img/DeepSeek源码深度解析_image_247.jpg)![](img/DeepSeek源码深度解析_image_248.jpg)
+![](img/DeepSeek-源码深度解析_image_247.jpg)![](img/DeepSeek-源码深度解析_image_248.jpg)
 
 （7）类 GenHeadConfig 是一个配置类，继承自 PretrainedConfig，用于定义和初始化生成头模型（GenHead）相关的配置信息。
 
-![](img/DeepSeek源码深度解析_image_249.jpg)
+![](img/DeepSeek-源码深度解析_image_249.jpg)
 
 （8）类 MultiModalityConfig 是一个配置类，继承自 PretrainedConfig，用于实现多模态模型的配置信息。类 MultiModalityConfig 整合了多个子模块的配置，包括视觉模型（vision_config）、对齐模型（aligner_config）、生成视觉模型（gen_vision_config）、生成对齐模型（gen_aligner_config）、生成头模型（gen_head_config）及语言模型（language_config）。在初始化时，类会根据传入的关键字参数（kwargs）初始化这些子模块的配置。如果 language_config 传入的是 LlamaConfig 实例，则直接使用该实例，否则会创建新的 LlamaConfig 实例。
 
-![](img/DeepSeek源码深度解析_image_250.jpg)![](img/DeepSeek源码深度解析_image_251.jpg)
+![](img/DeepSeek-源码深度解析_image_250.jpg)![](img/DeepSeek-源码深度解析_image_251.jpg)
 
 （9）类 MultiModalityPreTrainedModel 继承自 PreTrainedModel，为多模态模型提供了基础配置。它指定了配置类 MultiModalityConfig，并为模型设置了前缀 multi_modality。此外，类中定义了两个空的列表 _no_split_modules 和 _skip_keys_device_placement，后者用于指定某些键（如 past_key_values）在设备放置时不被处理。
 
-![](img/DeepSeek源码深度解析_image_252.jpg)
+![](img/DeepSeek-源码深度解析_image_252.jpg)
 
 （10）类 MultiModalityCausalLM 继承自 MultiModalityPreTrainedModel，实现了一个多模态因果语言模型。类 MultiModalityCausalLM 通过配置对象初始化多个子模块，包括视觉模型、对齐器、生成视觉模型、生成对齐器、生成头部和语言模型。该模型主要包括两个方法：prepare_inputs_embeds 用于将图像和语言输入转换为嵌入表示，并支持图像和语言输入结合；prepare_gen_img_embeds 用于处理生成图像的嵌入。该模型能够处理多模态输入，支持图像与文本结合，并能通过多个嵌入层和对齐机制生成输出。
 
-![](img/DeepSeek源码深度解析_image_253.jpg)![](img/DeepSeek源码深度解析_image_254.jpg)![](img/DeepSeek源码深度解析_image_255.jpg)
+![](img/DeepSeek-源码深度解析_image_253.jpg)![](img/DeepSeek-源码深度解析_image_254.jpg)![](img/DeepSeek-源码深度解析_image_255.jpg)
 
 （11）下面这段代码的功能是使用 AutoConfig 和 AutoModelForCausalLM 进行注册，将不同的配置类（如 VisionConfig、AlignerConfig 等）与对应的模型类型关联起来。通过这些注册操作，系统可以自动加载和实例化相关的配置和模型，使不同模块和模型的配置管理变得更加灵活和可扩展。
 
-![](img/DeepSeek源码深度解析_image_256.jpg)
+![](img/DeepSeek-源码深度解析_image_256.jpg)
 
 ### **5.5.7** **多模态处理器**
 
@@ -3047,7 +3047,7 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 （1）类 DictOutput 的作用是提供一个类似于字典的对象接口，使其实例可以像字典一样访问和修改属性。它通过重载 keys()、__getitem__() 和 __setitem__() 方法，使对象能够通过 obj["key"] 方式读取和赋值，同时保留类的属性访问方式（如 obj.key）。这为数据处理和存储提供了更灵活的访问方式。
 
-![](img/DeepSeek源码深度解析_image_257.jpg)
+![](img/DeepSeek-源码深度解析_image_257.jpg)
 
 （2）类 VLChatProcessorOutput 继承自 DictOutput，并使用 @dataclass 装饰器，使其自动生成 __init__ 等方法。类 VLChatProcessorOutput 用于存储多模态聊天处理后的输出，包括以下几种。
 
@@ -3063,11 +3063,11 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 由于继承了 DictOutput，类 VLChatProcessorOutput 的实例可以像字典一样访问和修改属性，兼具面向对象和字典风格的访问方式，方便数据处理。
 
-![](img/DeepSeek源码深度解析_image_258.jpg)
+![](img/DeepSeek-源码深度解析_image_258.jpg)
 
 （3）类 BatchedVLChatProcessorOutput 继承自 DictOutput，使用 @dataclass 进行结构化定义，用于存储批量处理后的多模态聊天数据。其主要功能是管理和转换多模态输入，包括文本和图像数据，适用于大模型的批量输入处理。
 
-![](img/DeepSeek源码深度解析_image_259.jpg)![](img/DeepSeek源码深度解析_image_260.jpg)
+![](img/DeepSeek-源码深度解析_image_259.jpg)![](img/DeepSeek-源码深度解析_image_260.jpg)
 
 （4）类 VLChatProcessor 继承自 ProcessorMixin，是一个用于处理多模态对话的处理器，结合文本和图像信息，并支持格式化、多轮对话处理及数据批量化。类 VLChatProcessor 的主要功能包括：
 
@@ -3111,7 +3111,7 @@ VQ_models = {"VQ-16": VQ_16} 这行代码的意思是将一个名为 "VQ-16" 的
 
 ● batchify()：将多个 VLChatProcessorOutput 结果进行批量处理，统一数据格式，确保 batch 之间的对齐，适用于批量推理或训练。
 
-![](img/DeepSeek源码深度解析_image_261.jpg)![](img/DeepSeek源码深度解析_image_262.jpg)![](img/DeepSeek源码深度解析_image_263.jpg)![](img/DeepSeek源码深度解析_image_264.jpg)![](img/DeepSeek源码深度解析_image_265.jpg)![](img/DeepSeek源码深度解析_image_266.jpg)
+![](img/DeepSeek-源码深度解析_image_261.jpg)![](img/DeepSeek-源码深度解析_image_262.jpg)![](img/DeepSeek-源码深度解析_image_263.jpg)![](img/DeepSeek-源码深度解析_image_264.jpg)![](img/DeepSeek-源码深度解析_image_265.jpg)![](img/DeepSeek-源码深度解析_image_266.jpg)
 
 ## **5.6** **JanusFlow 模型架构**
 
@@ -3121,7 +3121,7 @@ janus\janusflow\models 目录包含 JanusFlow 模型的核心架构与相关实�
 
 文件 modeling_vlm.py 实现了一个多模态模型，结合了视觉理解、视觉生成和语言模型，此文件包含三个主要的配置类：VisionUnderstandEncoderConfig、VisionGenerationEncoderConfig 和 VisionGenerationDecoderConfig，每个类负责不同部分的配置。在类 MultiModalityCausalLM 中，模型集成了视觉理解编码器、视觉生成编码器和解码器以及语言模型。该类通过将视觉输入转化为特征嵌入，并结合语言输入，进行多模态处理。此外，还定义了 prepare_inputs_embeds ()方法，用于处理图像和文本的嵌入，并生成合适的输入格式。
 
-![](img/DeepSeek源码深度解析_image_267.jpg)![](img/DeepSeek源码深度解析_image_268.jpg)![](img/DeepSeek源码深度解析_image_269.jpg)![](img/DeepSeek源码深度解析_image_270.jpg)![](img/DeepSeek源码深度解析_image_271.jpg)
+![](img/DeepSeek-源码深度解析_image_267.jpg)![](img/DeepSeek-源码深度解析_image_268.jpg)![](img/DeepSeek-源码深度解析_image_269.jpg)![](img/DeepSeek-源码深度解析_image_270.jpg)![](img/DeepSeek-源码深度解析_image_271.jpg)
 
 ### **5.6.2** **数据预处理**
 
@@ -3161,11 +3161,11 @@ janus\janusflow\models 目录包含 JanusFlow 模型的核心架构与相关实�
 
 （1）类 ImageHead 继承自 nn.Module，主要功能是对输入的图像特征进行归一化处理，然后通过一个线性层将这些特征映射到指定的输出空间。类 ImageHead 在多模态模型中用于将视觉特征与语言模型的嵌入空间对齐，以实现图像和文本的联合处理。
 
-![](img/DeepSeek源码深度解析_image_272.jpg)![](img/DeepSeek源码深度解析_image_273.jpg)![](img/DeepSeek源码深度解析_image_274.jpg)![](img/DeepSeek源码深度解析_image_275.jpg)
+![](img/DeepSeek-源码深度解析_image_272.jpg)![](img/DeepSeek-源码深度解析_image_273.jpg)![](img/DeepSeek-源码深度解析_image_274.jpg)![](img/DeepSeek-源码深度解析_image_275.jpg)
 
 （2）类 GlobalResponseNorm（GRN）是一个全局响应归一化模块，用于标准化输入特征的全局响应。通过计算输入张量在 (H, W) 维度（空间维度）的 L2 范数，进一步进行归一化，并应用可学习的 weight 和 bias 参数，以增强模型的稳定性和特征表达能力。GRN 主要用于计算机视觉任务，特别是在多模态模型和视觉 Transformer 结构中，用于特征归一化和自适应缩放。
 
-![](img/DeepSeek源码深度解析_image_276.jpg)![](img/DeepSeek源码深度解析_image_277.jpg)
+![](img/DeepSeek-源码深度解析_image_276.jpg)![](img/DeepSeek-源码深度解析_image_277.jpg)
 
 （3）类 Downsample2D 是一个 二维降采样（下采样）模块，用于对输入的 2D 特征图进行尺寸缩减，同时支持可选的卷积（use_conv=True）或均值池化（use_conv=False）。类 Downsample2D 支持可选的归一化层（LayerNorm 或 RMSNorm），用于实现标准化输入特征。支持如下两种降采样方式：
 
@@ -3175,7 +3175,7 @@ janus\janusflow\models 目录包含 JanusFlow 模型的核心架构与相关实�
 
 类 Downsample2D 特别适用于计算机视觉和多模态任务，在 CNN 和 Transformer 结构中可用于减少计算量，提高效率。
 
-![](img/DeepSeek源码深度解析_image_278.jpg)![](img/DeepSeek源码深度解析_image_279.jpg)![](img/DeepSeek源码深度解析_image_280.jpg)
+![](img/DeepSeek-源码深度解析_image_278.jpg)![](img/DeepSeek-源码深度解析_image_279.jpg)![](img/DeepSeek-源码深度解析_image_280.jpg)
 
 （4）类 Upsample2D 是一个二维上采样（Upsampling）模块，用于将低分辨率的 2D 特征图进行上采样，恢复更高的分辨率，同时支持可选的卷积或反卷积（转置卷积）操作。类 Upsample2D 支持如下三种上采样方式：
 
@@ -3189,19 +3189,19 @@ janus\janusflow\models 目录包含 JanusFlow 模型的核心架构与相关实�
 
 类 Upsample2D 很适用于计算机视觉和多模态任务，可用于恢复高分辨率特征图，例如 Stable Diffusion、DALL·E 或 JanusFlow 中的文本-图像生成任务。
 
-![](img/DeepSeek源码深度解析_image_281.jpg)![](img/DeepSeek源码深度解析_image_282.jpg)![](img/DeepSeek源码深度解析_image_283.jpg)![](img/DeepSeek源码深度解析_image_284.jpg)
+![](img/DeepSeek-源码深度解析_image_281.jpg)![](img/DeepSeek-源码深度解析_image_282.jpg)![](img/DeepSeek-源码深度解析_image_283.jpg)![](img/DeepSeek-源码深度解析_image_284.jpg)
 
 （5）类 ConvNextBlock 是 ConvNeXt 结构的基础块，用于实现图像特征提取和变换操作，结合深度卷积（Depthwise Convolution）和通道线性变换（Channel-wise Linear Transformation），实现高效的特征处理。该模块包含前馈网络（FFN），通过 GELU 激活函数和全局响应归一化（GlobalResponseNorm）提高数值稳定性，并使用残差连接以增强梯度传播。此外，该模块支持条件缩放（Scale）+偏移（Shift），使其能够结合外部条件（如文本信息）进行特征调整，在多模态学习和生成任务（如文本到图像生成）中具有重要应用。
 
-![](img/DeepSeek源码深度解析_image_285.jpg)![](img/DeepSeek源码深度解析_image_286.jpg)![](img/DeepSeek源码深度解析_image_287.jpg)
+![](img/DeepSeek-源码深度解析_image_285.jpg)![](img/DeepSeek-源码深度解析_image_286.jpg)![](img/DeepSeek-源码深度解析_image_287.jpg)
 
 （6）下列代码定义了一个名为 Patchify 的 PyTorch 模块，其主要功能是将输入的图像数据划分为多个不重叠的 patch，并通过卷积操作和归一化处理将这些块转换为嵌入向量（embeddings）。具体来说，Patchify 使用一个卷积层（self.patch_conv）来提取图像块，并通过自定义的 RMSNorm 归一化层（self.norm）对提取的块进行归一化处理。
 
-![](img/DeepSeek源码深度解析_image_288.jpg)
+![](img/DeepSeek-源码深度解析_image_288.jpg)
 
 （7）类 unpatchify 是一个图像切片（Patchification）模块，用于将输入图像转换为非重叠的 patch，然后进行归一化处理，以适应 Transformer 或 CNN 结构。
 
-![](img/DeepSeek源码深度解析_image_289.jpg)![](img/DeepSeek源码深度解析_image_290.jpg)
+![](img/DeepSeek-源码深度解析_image_289.jpg)![](img/DeepSeek-源码深度解析_image_290.jpg)
 
 （8）类 UVitBlock 是 U-ViT（U-Net 结合 Vision Transformer）结构中的残差块，用于特征提取、变换和上/下采样。类 UVitBlock 的主要功能如下：
 
@@ -3211,7 +3211,7 @@ janus\janusflow\models 目录包含 JanusFlow 模型的核心架构与相关实�
 
 类 UVitBlock 适用于多模态学习和生成任务。该结构适用于 JanusFlow、Stable Dif fusion、DALL·E 等模型，在图像理解、生成、编辑任务中发挥关键作用。
 
-![](img/DeepSeek源码深度解析_image_291.jpg)![](img/DeepSeek源码深度解析_image_292.jpg)![](img/DeepSeek源码深度解析_image_293.jpg)![](img/DeepSeek源码深度解析_image_294.jpg)
+![](img/DeepSeek-源码深度解析_image_291.jpg)![](img/DeepSeek-源码深度解析_image_292.jpg)![](img/DeepSeek-源码深度解析_image_293.jpg)![](img/DeepSeek-源码深度解析_image_294.jpg)
 
 （9）类 ShallowUViTEncoder 是 U-ViT（U-Net + Vision Transformer）结构中的浅层（Shallow）编码器，用于提取图像特征并结合时间步嵌入。类 ShallowUViTEncoder 的主要功能如下。
 
@@ -3223,7 +3223,7 @@ janus\janusflow\models 目录包含 JanusFlow 模型的核心架构与相关实�
 
 类 ShallowUViTEncoder 适用于多模态任务，可以用于图像理解、生成任务，如 Stable Diffusion、DALL·E 、JanusFlow，能够融合时间和视觉特征。
 
-![](img/DeepSeek源码深度解析_image_295.jpg)![](img/DeepSeek源码深度解析_image_296.jpg)![](img/DeepSeek源码深度解析_image_297.jpg)![](img/DeepSeek源码深度解析_image_298.jpg)
+![](img/DeepSeek-源码深度解析_image_295.jpg)![](img/DeepSeek-源码深度解析_image_296.jpg)![](img/DeepSeek-源码深度解析_image_297.jpg)![](img/DeepSeek-源码深度解析_image_298.jpg)
 
 （10）类 ShallowUViTDecoder 是一个浅层的 U-ViT（U 型视觉变换器）解码器模块，主要用于处理输入的特征并通过多个层级进行处理，最终生成输出。该解码器支持可配置的中间块（mid_block）和上采样操作（out_convs）。在实现中，mid_block 是一个可选的块，可以在解码过程的中间阶段进行额外处理，处理后的特征经过上采样层逐步生成输出图像。
 
@@ -3237,7 +3237,7 @@ janus\janusflow\models 目录包含 JanusFlow 模型的核心架构与相关实�
 
 ShallowUViTDecoder 解码器可以应用于视觉变换器（Vision Transformer）架构，特别是在图像生成、分割等任务中，作为解码模块与编码器部分进行结合。
 
-![](img/DeepSeek源码深度解析_image_299.jpg)![](img/DeepSeek源码深度解析_image_300.jpg)![](img/DeepSeek源码深度解析_image_301.jpg)
+![](img/DeepSeek-源码深度解析_image_299.jpg)![](img/DeepSeek-源码深度解析_image_300.jpg)![](img/DeepSeek-源码深度解析_image_301.jpg)
 
 ## **5.7** **模型推理**
 
@@ -3247,17 +3247,17 @@ ShallowUViTDecoder 解码器可以应用于视觉变换器（Vision Transformer�
 
 文件 inference.py 的功能是通过使用 Janus-1.3B 模型进行推理，处理一个多模态的对话任务。在这个例子中，用户提供了一张包含数学公式的图像，并要求助手将该公式转换为 LaTeX 代码。
 
-![](img/DeepSeek源码深度解析_image_302.jpg)![](img/DeepSeek源码深度解析_image_303.jpg)
+![](img/DeepSeek-源码深度解析_image_302.jpg)![](img/DeepSeek-源码深度解析_image_303.jpg)
 
 执行后会输出输出一个 LaTeX 代码字符串，表示用户提供的数学公式，例如：
 
-![](img/DeepSeek源码深度解析_image_304.jpg)
+![](img/DeepSeek-源码深度解析_image_304.jpg)
 
 ### **5.7.2** **文生图推理**
 
 文件 generation_inference.py 的功能是使用 Janus-1.3B 多模态语言模型根据文本提示生成图像，输入文本描述场景或对象后，模型会基于这些描述生成相应的图像。生成过程包括编码输入提示、生成表示图像的 token、将这些 token 解码成图像，并将生成的图像保存为 JPEG 文件。文件 generation_inference.py 使用了 MultiModalityCausalLM 模型和 VLChatProcessor 来处理文本和图像的多模态输入。
 
-![](img/DeepSeek源码深度解析_image_305.jpg)![](img/DeepSeek源码深度解析_image_306.jpg)![](img/DeepSeek源码深度解析_image_307.jpg)
+![](img/DeepSeek-源码深度解析_image_305.jpg)![](img/DeepSeek-源码深度解析_image_306.jpg)![](img/DeepSeek-源码深度解析_image_307.jpg)
 
 执行后将会生成与用户提供的文本描述相对应的图像，并将其保存在 generated_samples 文件夹下。每个生成的图像将保存为 img_x.jpg 格式，其中 x 是图像的索引。
 
@@ -3265,7 +3265,7 @@ ShallowUViTDecoder 解码器可以应用于视觉变换器（Vision Transformer�
 
 文件 interactivechat.py 实现了一个交互式图像生成器，允许用户通过输入描述来生成图像。用户可以指定每次生成多少张图像，程序根据用户的描述生成相应的图像，并将这些图像保存在本地的 generated_samples 文件夹中。图像生成的过程依赖预训练的 Janus-1.3B 模型，并结合了多模态的生成方法，其中输入不仅包含文本描述，还可以包括图像信息。
 
-![](img/DeepSeek源码深度解析_image_308.jpg)![](img/DeepSeek源码深度解析_image_309.jpg)![](img/DeepSeek源码深度解析_image_310.jpg)![](img/DeepSeek源码深度解析_image_311.jpg)
+![](img/DeepSeek-源码深度解析_image_308.jpg)![](img/DeepSeek-源码深度解析_image_309.jpg)![](img/DeepSeek-源码深度解析_image_310.jpg)![](img/DeepSeek-源码深度解析_image_311.jpg)
 
 ## **5.8 Web 交互测试**
 
@@ -3279,7 +3279,7 @@ ShallowUViTDecoder 解码器可以应用于视觉变换器（Vision Transformer�
 
 ● 文本生成图像（Text-to-Image Generation）：通过 generate_images()函数向 http://localhost:8000/generate_images/ 端点发送文本提示（prompt），并接收模型生成的图像，最终将其保存为本地文件。
 
-![](img/DeepSeek源码深度解析_image_312.jpg)![](img/DeepSeek源码深度解析_image_313.jpg)![](img/DeepSeek源码深度解析_image_314.jpg)
+![](img/DeepSeek-源码深度解析_image_312.jpg)![](img/DeepSeek-源码深度解析_image_313.jpg)![](img/DeepSeek-源码深度解析_image_314.jpg)
 
 （2）文件 fastapi_client.py 作为 fastapi_app.py 的客户端，用于测试 API 服务器的功能。执行后调用项目的两个 API 端点，以测试和展示模型的多模态能力
 
@@ -3299,7 +3299,7 @@ ShallowUViTDecoder 解码器可以应用于视觉变换器（Vision Transformer�
 
 ● generate_image 函数使用 DeepSeek 的 VLChatProcessor 处理输入文本，并通过 generate()函数生成图像的 token，再由 unpack 进行解码，最终输出一组高质量图像。
 
-![](img/DeepSeek源码深度解析_image_315.jpg)![](img/DeepSeek源码深度解析_image_316.jpg)![](img/DeepSeek源码深度解析_image_317.jpg)![](img/DeepSeek源码深度解析_image_318.jpg)
+![](img/DeepSeek-源码深度解析_image_315.jpg)![](img/DeepSeek-源码深度解析_image_316.jpg)![](img/DeepSeek-源码深度解析_image_317.jpg)![](img/DeepSeek-源码深度解析_image_318.jpg)
 
 除了上述代码，DeepSeek 还提供了如下两个 Web 测试文件。
 
@@ -3309,7 +3309,7 @@ ShallowUViTDecoder 解码器可以应用于视觉变换器（Vision Transformer�
 
 执行后可以通过 Web 页面调用多模态模型，使用 Janus-Pro 版多模态模型实现文生图测试的效果如图 5-2 所示。
 
-![](img/DeepSeek源码深度解析_image_319.jpg)
+![](img/DeepSeek-源码深度解析_image_319.jpg)
 
 图 5-2 文生图测试
 
@@ -3477,19 +3477,19 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 （1）DeepSeek-VL2-Tiny：拥有约 10 亿个激活参数，适合资源受限场景。如图 6-1 所示，大家可以从 Hugging Face 获取并部署。
 
-![](img/DeepSeek源码深度解析_image_320.jpg)
+![](img/DeepSeek-源码深度解析_image_320.jpg)
 
 图 6-1 DeepSeek-VL2-Tiny 模型
 
 （2）DeepSeek-VL2-Small：拥有约 28 亿个激活参数，实现性能与资源消耗之间的较好平衡。如图 6-2 所示，大家可以从 Hugging Face 获取并部署。
 
-![](img/DeepSeek源码深度解析_image_321.jpg)
+![](img/DeepSeek-源码深度解析_image_321.jpg)
 
 图 6-2 DeepSeek-VL2-Small 模型
 
 （3）DeepSeek-VL2：拥有约 45 亿个激活参数，适用于追求更高性能和复杂任务的场景。如图 6-3 所示，大家可以从 Hugging Face 获取并部署。
 
-![](img/DeepSeek源码深度解析_image_322.jpg)
+![](img/DeepSeek-源码深度解析_image_322.jpg)
 
 图 6-3 DeepSeek-VL2 模型
 
@@ -3531,7 +3531,7 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 在 DeepSeek-VL2 项目的“utils”目录中提供一些通用工具和辅助函数，文件 io.py 提供了加载预训练模型、加载图像及读取 JSON 文件的功能。具体来说，文件 io.py 包含了从指定路径加载预训练的 DeepSeek-VL2 模型、从对话数据加载图像，以及从指定文件路径加载 JSON 数据的函数。
 
-![](img/DeepSeek源码深度解析_image_323.jpg)![](img/DeepSeek源码深度解析_image_324.jpg)![](img/DeepSeek源码深度解析_image_325.jpg)
+![](img/DeepSeek-源码深度解析_image_323.jpg)![](img/DeepSeek-源码深度解析_image_324.jpg)![](img/DeepSeek-源码深度解析_image_325.jpg)
 
 在上述代码中包含以下函数。
 
@@ -3549,7 +3549,7 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 文件 configuration_deepseek.py 定义了 DeepSeek-V2 模型的配置类 DeepseekV2Config，该类继承自 PretrainedConfig，用于存储和管理模型的配置信息。它包含了模型的各种超参数和结构设置，如词汇表大小、隐藏层维度、注意力头数量等，并提供了默认值。通过这个配置类，可以方便地实例化 DeepSeek-V2 模型，并根据需要调整模型的参数。
 
-![](img/DeepSeek源码深度解析_image_326.jpg)![](img/DeepSeek源码深度解析_image_327.jpg)![](img/DeepSeek源码深度解析_image_328.jpg)![](img/DeepSeek源码深度解析_image_329.jpg)![](img/DeepSeek源码深度解析_image_330.jpg)![](img/DeepSeek源码深度解析_image_331.jpg)
+![](img/DeepSeek-源码深度解析_image_326.jpg)![](img/DeepSeek-源码深度解析_image_327.jpg)![](img/DeepSeek-源码深度解析_image_328.jpg)![](img/DeepSeek-源码深度解析_image_329.jpg)![](img/DeepSeek-源码深度解析_image_330.jpg)![](img/DeepSeek-源码深度解析_image_331.jpg)
 
 ### **6.5.2** **多模态模型架构**
 
@@ -3567,71 +3567,71 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 （1）类类是 DeepSeek-VL2 用于将视觉特征投影到语言模型的嵌入空间，此类支持多种类型的投影器，包括恒等投影、线性投影、带有 GELU 激活函数的多层感知机投影，以及下采样多层感知机投影等。
 
-![](img/DeepSeek源码深度解析_image_332.jpg)![](img/DeepSeek源码深度解析_image_333.jpg)![](img/DeepSeek源码深度解析_image_334.jpg)
+![](img/DeepSeek-源码深度解析_image_332.jpg)![](img/DeepSeek-源码深度解析_image_333.jpg)![](img/DeepSeek-源码深度解析_image_334.jpg)
 
 （2）下列代码定义了视觉编码器的配置类 VisionEncoderConfig，该类继承自 PretrainedConfig。它用于存储模型的超参数和结构设置，如模型名称、图像尺寸、注意力头数量等，以便根据这些参数实例化模型并进行训练。
 
-![](img/DeepSeek源码深度解析_image_335.jpg)![](img/DeepSeek源码深度解析_image_336.jpg)
+![](img/DeepSeek-源码深度解析_image_335.jpg)![](img/DeepSeek-源码深度解析_image_336.jpg)
 
 类 DeepseekVLV2ForCausalLM 是一个多模态模型，旨在处理视觉和语言输入。DeepseekVLV2ForCausalLM 结合了视觉编码器、视觉—语言投影器和语言模型，以实现图像和文本的联合处理。其中，视觉编码器使用 VisionTransformer 对图像进行特征提取，投影器将视觉特征映射到与语言模型兼容的嵌入空间，语言模型则基于处理后的视觉和文本输入生成输出。该类还包含处理图像和文本输入的函数，如 prepare_inputs_embeds 和 incremental_prefilling，以确保模型能够有效地处理多模态数据。
 
 （3）MlpProjectorConfig 是一个继承自 PretrainedConfig 的配置类，用于定义多层感知器（MLP）投影器的参数。类 MlpProjectorConfig 包含了模型类型、投影器类型、输入维度、嵌入维度、深度、MLP 比例、下采样比例等参数。通过初始化方法，用户可以自定义这些参数，以配置特定的 MLP 投影器结构。这使得模型的配置更加灵活和可定制。
 
-![](img/DeepSeek源码深度解析_image_337.jpg)
+![](img/DeepSeek-源码深度解析_image_337.jpg)
 
 （4）下列代码定义了一个名为 DeepSeekVLV2CausalLMOutputWithPast 的数据类，该类继承自 ModelOutput，用于表示 DeepSeek-VL2 自回归语言模型的输出结果。该数据类包含多个可选属性，如 loss、logits、past_key_values、hidden_states、attentions 和 rope_deltas，分别用于存储语言模型的损失值、预测得分、过去的键值对、隐藏状态、注意力权重及序列长度与多模态旋转位置编码（rope）之间的索引差异。这些属性有助于在模型训练和推理过程中获取模型的输出信息和内部状态。
 
-![](img/DeepSeek源码深度解析_image_338.jpg)![](img/DeepSeek源码深度解析_image_339.jpg)
+![](img/DeepSeek-源码深度解析_image_338.jpg)![](img/DeepSeek-源码深度解析_image_339.jpg)
 
 （5）类 DeepseekVLV2Config 是一个配置类，继承自 PretrainedConfig，用于存储和管理 DeepseekVLV2 模型的配置参数。DeepseekVLV2Config 包含视觉编码器 (vision_config)、多层感知器投影器 (projector_config) 和语言模型 (language_config) 的配置。此外，该类还定义了图像标记方式 (tile_tag)、全局视图位置 (global_view_pos) 和候选分辨率 (candidate_resolutions) 等参数。在初始化时，DeepseekVLV2Config 会从传入的关键字参数中提取各个子配置的参数，并实例化相应的配置对象。
 
-![](img/DeepSeek源码深度解析_image_340.jpg)![](img/DeepSeek源码深度解析_image_341.jpg)
+![](img/DeepSeek-源码深度解析_image_340.jpg)![](img/DeepSeek-源码深度解析_image_341.jpg)
 
 （6）下列代码定义的 DeepseekVLV2PreTrainedModel 是一个预训练模型的基类，继承自 PreTrainedModel。它指定了模型的配置类为 DeepseekVLV2Config，并将模型的前缀设置为"deepseek_vl_v2"。此外，它定义了 _no_split_modules 和 _skip_keys_device_placement 等属性，以控制模型在保存、加载和分布式训练时的行为。该类为 DeepSeek-VL2 模型的具体实现提供了基础设施。
 
-![](img/DeepSeek源码深度解析_image_342.jpg)
+![](img/DeepSeek-源码深度解析_image_342.jpg)
 
 （7）类 DeepseekVLV2ForCausalLM 实现了一个多模态自回归语言模型，集成了视觉编码器、视觉投影器和语言模型，从而能够将图像信息和文本输入联合处理。具体来说，类 DeepseekVLV2ForCausalLM 首先利用 VisionTransformer 对输入图像进行特征提取，再通过 MLP 投影器将视觉特征映射到与文本嵌入空间一致的表示，之后将这些视觉嵌入与文本标记结合起来，传递给语言模型进行生成。此外，该类还支持增量预填充机制，通过分块前向计算和缓存 past key values 来加速自回归生成过程，同时提供辅助函数以管理 CUDA 内存和调整缓存状态，实现高效的多模态推理和生成任务。
 
 ● 方法 __init__()：用于初始化 DeepseekVLV2ForCausalLM 类的实例。在初始化过程中，它根据传入的配置构建各个子模块，包括使用 VisionTransformer 构建视觉编码器、使用 MlpProjector 构建视觉投影器，并根据配置确定图像标记的格式（如 2D 或 1D）。同时，它还实例化语言模型部分（DeepseekV2ForCausalLM），为多模态输入构建整体模型结构，并设置一些用于图像 token 格式化的特殊参数（例如 ＜|view_separator|＞ 和 ＜tile_newline＞）。
 
-![](img/DeepSeek源码深度解析_image_343.jpg)![](img/DeepSeek源码深度解析_image_344.jpg)![](img/DeepSeek源码深度解析_image_345.jpg)
+![](img/DeepSeek-源码深度解析_image_343.jpg)![](img/DeepSeek-源码深度解析_image_344.jpg)![](img/DeepSeek-源码深度解析_image_345.jpg)
 
 ● 方法 prepare_inputs_embeds()：负责生成输入嵌入，将文本 token 嵌入与经过视觉编码器和投影器处理后的图像 token 嵌入结合起来。首先，检查是否提供图像输入；若未提供，则直接返回文本嵌入。否则，根据图像空间切分信息计算每个 batch 中的平铺数量，从图像中提取视觉特征，并通过投影器获得图像嵌入。其次，根据预设的 tile 格式（2D 或 1D）对全局和局部视觉特征进行格式化，并利用 masked_scatter_ 方法将图像 token 嵌入填充到对应的文本嵌入序列中，最终返回融合了视觉信息的输入嵌入。
 
-![](img/DeepSeek源码深度解析_image_346.jpg)![](img/DeepSeek源码深度解析_image_347.jpg)![](img/DeepSeek源码深度解析_image_348.jpg)![](img/DeepSeek源码深度解析_image_349.jpg)
+![](img/DeepSeek-源码深度解析_image_346.jpg)![](img/DeepSeek-源码深度解析_image_347.jpg)![](img/DeepSeek-源码深度解析_image_348.jpg)![](img/DeepSeek-源码深度解析_image_349.jpg)
 
 ● 方法 incremental_prefilling()：用于实现增量预填充，以减少显存占用并提高推理效率。在该方法中，如果未提供 inputs_embeds，则调用 prepare_inputs_embeds 生成融合视觉信息的嵌入；然后，将输入嵌入按指定的块大小分块处理，逐块进行前向计算，并逐步更新和缓存过去键值对（past key values）。该方法最终返回处理后的输入嵌入以及对应的预填充的过去键值对，供后续自回归生成使用。
 
-![](img/DeepSeek源码深度解析_image_350.jpg)![](img/DeepSeek源码深度解析_image_351.jpg)![](img/DeepSeek源码深度解析_image_352.jpg)
+![](img/DeepSeek-源码深度解析_image_350.jpg)![](img/DeepSeek-源码深度解析_image_351.jpg)![](img/DeepSeek-源码深度解析_image_352.jpg)
 
 ● 方法 forward()：模型的标准前向传播方法，用于处理输入数据并生成模型输出。该方法首先检查是否提供了融合视觉信息的嵌入，如未提供则调用 prepare_inputs_embeds 生成；接着，将输入（包括 attention_mask、position_ids、past_key_values、labels 等）传递给语言模型的 forward 方法进行处理，最终返回包含 logits、隐藏状态、注意力权重等信息的输出结果，支持自回归生成和条件生成任务。
 
-![](img/DeepSeek源码深度解析_image_353.jpg)![](img/DeepSeek源码深度解析_image_354.jpg)![](img/DeepSeek源码深度解析_image_355.jpg)
+![](img/DeepSeek-源码深度解析_image_353.jpg)![](img/DeepSeek-源码深度解析_image_354.jpg)![](img/DeepSeek-源码深度解析_image_355.jpg)
 
 ● 方法 _clear_cuda_cache()：用于清理 CUDA 内存缓存，以确保显存得到及时释放。它通过调用 Python 垃圾回收机制[gc.collect()]、torch.cuda.empty_cache()和 torch.cuda.synchronize()清空和同步 GPU 缓存，从而降低显存占用，保证长时间运行时的稳定性。
 
-![](img/DeepSeek源码深度解析_image_356.jpg)
+![](img/DeepSeek-源码深度解析_image_356.jpg)
 
 ● 方法 _move_past_key_values_to_cpu()：将模型中缓存的 past key values 从 GPU 移动到 CPU，以释放 GPU 内存。它接收一个包含 past key values 的数据结构，对每一层中的每个 tensor 调用 ．cpu()方法，将其转移到 CPU 上，然后返回转移后的缓存数据，常用于增量预填充或分布式训练过程中内存管理。
 
-![](img/DeepSeek源码深度解析_image_357.jpg)
+![](img/DeepSeek-源码深度解析_image_357.jpg)
 
 ● 方法 _move_past_key_values_to_gpu()：与上面的方法 _move_past_key_values_to_cpu()相反，该方法将缓存的 past key values 从 CPU 移动到 GPU，以便在模型前向传播时使用。它对传入的 past_key_values 中的每个 tensor 调用 ．to(device) 方法，将数据转移到指定的 GPU 上，确保后续计算在 GPU 上高效进行。
 
-![](img/DeepSeek源码深度解析_image_358.jpg)
+![](img/DeepSeek-源码深度解析_image_358.jpg)
 
 ● 方法 prepare_inputs_for_generation()：用于为生成任务准备输入数据。它首先调用语言模型对应的 prepare_inputs_for_generation 方法生成基础输入，其次根据当前的缓存位置（cache_position）判断是否需要传递图像相关输入（如 images、images_seq_mask、images_spatial_crop）。在缓存解码阶段，如果当前缓存位置为 0，则将图像信息添加到模型输入中，最终返回包含所有必要输入数据的字典，确保生成过程能够融合视觉信息。
 
-![](img/DeepSeek源码深度解析_image_359.jpg)![](img/DeepSeek源码深度解析_image_360.jpg)
+![](img/DeepSeek-源码深度解析_image_359.jpg)![](img/DeepSeek-源码深度解析_image_360.jpg)
 
 ● 静态方法 _reorder_cache()：用于在 Beam Search 解码过程中对 cached past key values 进行重新排序。它根据提供的 beam 索引（beam_idx）对每一层的缓存进行 index_select 操作，重新排列缓存中的 tensor，使其顺序与当前 beam 的排列一致，从而保证解码过程中缓存数据的正确性和一致性。
 
-![](img/DeepSeek源码深度解析_image_361.jpg)![](img/DeepSeek源码深度解析_image_362.jpg)
+![](img/DeepSeek-源码深度解析_image_361.jpg)![](img/DeepSeek-源码深度解析_image_362.jpg)
 
 （8）下面这段代码利用 Transformers 库提供的注册机制，将自定义的配置类和模型类注册到 AutoConfig 和 AutoModelForCausalLM 中，从而使得用户可以通过 Transformers 的自动化 API 来加载和使用 DeepSeek-VL2 模型。
 
-![](img/DeepSeek源码深度解析_image_363.jpg)
+![](img/DeepSeek-源码深度解析_image_363.jpg)
 
 ### **6.5.3** **数据处理**
 
@@ -3641,23 +3641,23 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 （1）函数 select_best_resolution()的功能是，在给定的候选分辨率中选择一个最佳的分辨率，以在尽量减少分辨率浪费的前提下，最大限度地保留原始图像的有效分辨率。具体来说，函数会计算每个候选分辨率的缩放比例、有效分辨率和浪费的分辨率，然后选择最佳分辨率。
 
-![](img/DeepSeek源码深度解析_image_364.jpg)![](img/DeepSeek源码深度解析_image_365.jpg)
+![](img/DeepSeek-源码深度解析_image_364.jpg)![](img/DeepSeek-源码深度解析_image_365.jpg)
 
 （2）DictOutput 是一个简单的封装类，用于将对象的属性以字典的形式进行访问和操作。此类通过重写 keys、__getitem__ 和 __setitem__ 方法，使得对象的属性可以通过字典的接口进行访问和修改。这使得对象在某些场景下可以像字典一样使用，提供了更灵活的属性访问方式。
 
-![](img/DeepSeek源码深度解析_image_366.jpg)
+![](img/DeepSeek-源码深度解析_image_366.jpg)
 
 （3）VLChatProcessorOutput 是一个使用 dataclass 装饰器定义的数据类，用于存储与视觉语言处理相关的输出数据。VLChatProcessorOutput 继承自 DictOutput 类，从而可以像字典一样访问其属性。
 
-![](img/DeepSeek源码深度解析_image_367.jpg)
+![](img/DeepSeek-源码深度解析_image_367.jpg)
 
 （4）BatchCollateOutput 是一个使用 dataclass 装饰器定义的数据类，用于封装批量处理后的多模态数据。BatchCollateOutput 继承自 DictOutput 类，从而可以像字典一样访问其属性。该类的主要功能是存储和管理批量数据，包括文本和图像的处理结果，以及相关的掩码和元数据。此外，它还提供了一个 to 方法，用于将所有张量移动到指定的设备（如 GPU）上，并可以指定数据类型（如 torch.bfloat16），以便进行高效的计算。
 
-![](img/DeepSeek源码深度解析_image_368.jpg)![](img/DeepSeek源码深度解析_image_369.jpg)
+![](img/DeepSeek-源码深度解析_image_368.jpg)![](img/DeepSeek-源码深度解析_image_369.jpg)
 
 （5）类 ImageTransform 是一个图像处理工具类，用于对输入的 PIL 图像执行一系列预定义的转换操作。ImageTransform 支持将图像转换为张量，并可选地对图像进行归一化处理。归一化操作会使用指定的均值和标准差对图像的每一个通道进行标准化。这个类的主要功能是将图像数据转换为适合深度学习模型输入的格式。
 
-![](img/DeepSeek源码深度解析_image_370.jpg)![](img/DeepSeek源码深度解析_image_371.jpg)
+![](img/DeepSeek-源码深度解析_image_370.jpg)![](img/DeepSeek-源码深度解析_image_371.jpg)
 
 （6）DeepseekVLV2Processor 是一个用于处理视觉语言模型输入的处理器类，它集成了文本和图像数据的预处理功能。该类的主要功能包括：
 
@@ -3675,43 +3675,43 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 ● 方法 __init__ ()：功能是初始化 DeepseekVLV2Processor 类实例，配置候选图像分辨率、补丁大小、图像均值和标准差，以及是否归一化等参数。同时，它创建图像变换对象 ImageTransform 和初始化 LlamaTokenizerFast 分词器，并添加 pad_token 作为特殊符号来支持填充。
 
-![](img/DeepSeek源码深度解析_image_372.jpg)![](img/DeepSeek源码深度解析_image_373.jpg)![](img/DeepSeek源码深度解析_image_374.jpg)
+![](img/DeepSeek-源码深度解析_image_372.jpg)![](img/DeepSeek-源码深度解析_image_373.jpg)![](img/DeepSeek-源码深度解析_image_374.jpg)
 
 ● 方法 new_chat_template()：通过调用 get_conv_template 函数返回一个新的对话模板实例，供后续格式化对话时使用。
 
-![](img/DeepSeek源码深度解析_image_375.jpg)
+![](img/DeepSeek-源码深度解析_image_375.jpg)
 
 ● 方法 format_messages()：将提供的多轮对话数据按照 SFT（Supervised Fine-Tuning，监督微调）模板进行格式化。它通过设置系统提示信息并逐条添加用户与助手消息，生成一个格式化后的对话字符串，用于模型输入。
 
-![](img/DeepSeek源码深度解析_image_376.jpg)![](img/DeepSeek源码深度解析_image_377.jpg)
+![](img/DeepSeek-源码深度解析_image_376.jpg)![](img/DeepSeek-源码深度解析_image_377.jpg)
 
 ● 方法 format_messages_v2()：对多模态会话进行格式化操作，同时处理文本和图像信息。该方法将图像与对话内容关联起来，生成包含文本、图像标记和图像裁剪信息的嵌入序列，确保模型能够正确解析多模态输入。
 
-![](img/DeepSeek源码深度解析_image_378.jpg)![](img/DeepSeek源码深度解析_image_379.jpg)![](img/DeepSeek源码深度解析_image_380.jpg)
+![](img/DeepSeek-源码深度解析_image_378.jpg)![](img/DeepSeek-源码深度解析_image_379.jpg)![](img/DeepSeek-源码深度解析_image_380.jpg)
 
 ● 方法 format_prompts()：将提供的提示字符串格式化为 SFT 模板格式，添加用户和助手的角色标签，方便模型直接使用该格式进行推理。
 
-![](img/DeepSeek源码深度解析_image_381.jpg)![](img/DeepSeek源码深度解析_image_382.jpg)
+![](img/DeepSeek-源码深度解析_image_381.jpg)![](img/DeepSeek-源码深度解析_image_382.jpg)
 
 ● 方法 encode()：将输入字符串编码为 token 序列，可选地在序列开头添加 bos 标记和结尾添加 eos 标记，便于模型理解序列边界。方法 decode()用于将 token 序列解码为字符串，支持参数化选项以处理特殊标记或裁剪输出。
 
-![](img/DeepSeek源码深度解析_image_383.jpg)
+![](img/DeepSeek-源码深度解析_image_383.jpg)
 
 ● 方法 process_one()：用于处理单次对话输入，将文本和图像数据转换为模型需要的格式，包括生成 token 序列、图像嵌入、掩码等信息，并将其封装为 VLChatProcessorOutput 结构返回。
 
-![](img/DeepSeek源码深度解析_image_384.jpg)![](img/DeepSeek源码深度解析_image_385.jpg)![](img/DeepSeek源码深度解析_image_386.jpg)![](img/DeepSeek源码深度解析_image_387.jpg)
+![](img/DeepSeek-源码深度解析_image_384.jpg)![](img/DeepSeek-源码深度解析_image_385.jpg)![](img/DeepSeek-源码深度解析_image_386.jpg)![](img/DeepSeek-源码深度解析_image_387.jpg)
 
 ● 方法 __call__ ()：类的主入口方法，支持直接调用对象来处理多模态输入。它调用 process_one 进行单次处理，并根据 force_batchify 参数决定是否将输出转换为批次输入。
 
-![](img/DeepSeek源码深度解析_image_388.jpg)![](img/DeepSeek源码深度解析_image_389.jpg)
+![](img/DeepSeek-源码深度解析_image_388.jpg)![](img/DeepSeek-源码深度解析_image_389.jpg)
 
 ● 方法 tokenize_with_images()：用于处理包含图像标记的对话，将图像和文本联合编码为 token 序列，同时生成图像裁剪信息和掩码。该方法确保模型能够理解图像位置及其在序列中的顺序。
 
-![](img/DeepSeek源码深度解析_image_390.jpg)![](img/DeepSeek源码深度解析_image_391.jpg)![](img/DeepSeek源码深度解析_image_392.jpg)
+![](img/DeepSeek-源码深度解析_image_390.jpg)![](img/DeepSeek-源码深度解析_image_391.jpg)![](img/DeepSeek-源码深度解析_image_392.jpg)
 
 ● 方法 batchify()：功能是将多个 VLChatProcessorOutput 样本转换为批次数据，为模型的多模态推理准备输入。该方法对文本序列、图像、裁剪信息进行填充与对齐，确保不同长度的样本能够在同一批次中处理。
 
-![](img/DeepSeek源码深度解析_image_393.jpg)![](img/DeepSeek源码深度解析_image_394.jpg)![](img/DeepSeek源码深度解析_image_395.jpg)
+![](img/DeepSeek-源码深度解析_image_393.jpg)![](img/DeepSeek-源码深度解析_image_394.jpg)![](img/DeepSeek-源码深度解析_image_395.jpg)
 
 上述方法共同确保 DeepSeek-VL2 模型能够高效、准确地处理多模态输入数据，为训练与推理提供一致的数据接口。
 
@@ -3723,11 +3723,11 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 （1）函数 _get_unpad_data()的主要功能是处理输入的 attention_mask，用于提取与非填充部分相关的索引、累积序列长度及最大序列长度。
 
-![](img/DeepSeek源码深度解析_image_396.jpg)
+![](img/DeepSeek-源码深度解析_image_396.jpg)
 
 （2）DeepseekV2RMSNorm 是一个基于 PyTorch 的归一化层，主要功能是对输入的隐藏状态（hidden_states）进行归一化处理。
 
-![](img/DeepSeek源码深度解析_image_397.jpg)
+![](img/DeepSeek-源码深度解析_image_397.jpg)
 
 （3）DeepseekV2RotaryEmbedding 是一个实现旋转位置嵌入（Rotary Position Embedding, RoPE）的 PyTorch 模块。旋转位置嵌入是一种用于处理序列数据（如自然语言处理中的文本）的位置编码方法，特别适用于 Transformer 架构。DeepseekV2RotaryEmbedding 的主要功能包括：
 
@@ -3737,39 +3737,39 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 ● 前向传播：根据输入序列长度，返回对应的余弦和正弦值，用于后续的旋转位置嵌入计算。
 
-![](img/DeepSeek源码深度解析_image_398.jpg)![](img/DeepSeek源码深度解析_image_399.jpg)![](img/DeepSeek源码深度解析_image_400.jpg)
+![](img/DeepSeek-源码深度解析_image_398.jpg)![](img/DeepSeek-源码深度解析_image_399.jpg)![](img/DeepSeek-源码深度解析_image_400.jpg)
 
 （4）DeepseekV2LinearScalingRotaryEmbedding 是继承自 DeepseekV2RotaryEmbedding 的线性缩放位置嵌入类，借鉴了 transformers 库中 LlamaLinearScalingRotaryEmbedding 的实现。它引入了一个线性缩放因子 scaling_factor，以控制位置嵌入的频率缩放。主要功能包括生成和缓存旋转嵌入的 cos 值和 sin 值，用于优化 Transformer 模型的自注意力计算。
 
-![](img/DeepSeek源码深度解析_image_401.jpg)![](img/DeepSeek源码深度解析_image_402.jpg)
+![](img/DeepSeek-源码深度解析_image_401.jpg)![](img/DeepSeek-源码深度解析_image_402.jpg)
 
 （5）DeepseekV2DynamicNTKScalingRotaryEmbedding 是 DeepseekV2RotaryEmbedding 的扩展类，参考了 transformers 库中 LlamaDynamicNTKScalingRotaryEmbedding 实现。其主要功能是通过动态 NTK（Neural Tangent Kernel）缩放策略计算旋转位置嵌入，用于处理超出预定义最大位置的长序列输入。该类动态调整频率基数 inv_freq，从而在更长序列上保持模型性能。
 
-![](img/DeepSeek源码深度解析_image_403.jpg)![](img/DeepSeek源码深度解析_image_404.jpg)
+![](img/DeepSeek-源码深度解析_image_403.jpg)![](img/DeepSeek-源码深度解析_image_404.jpg)
 
 （6）下列代码主要涉及旋转嵌入维度与频率的动态调整与计算功能，提供了基于数学公式计算位置嵌入频率、维度校正范围的工具函数。代码的功能包括根据旋转数量推导嵌入维度、计算维度范围、根据比例获取缩放因子，以及生成线性增长掩码。这些方法可用于优化模型中位置编码策略，以适应不同规模和输入条件。
 
-![](img/DeepSeek源码深度解析_image_405.jpg)![](img/DeepSeek源码深度解析_image_406.jpg)
+![](img/DeepSeek-源码深度解析_image_405.jpg)![](img/DeepSeek-源码深度解析_image_406.jpg)
 
 （7）类 DeepseekV2YarnRotaryEmbedding 是对旋转位置编码机制的进一步扩展，结合 Yarn 机制进行频率调整与嵌入优化。它通过引入额外参数（如 beta_fast 和 beta_slow），动态调整频率的计算方式，并采用多尺度缩放 (mscale) 来控制编码的幅度变化，从而优化不同位置和序列长度下的模型性能。这种改进有助于更高效地进行位置嵌入计算，尤其适用于长序列输入的情况。
 
-![](img/DeepSeek源码深度解析_image_407.jpg)![](img/DeepSeek源码深度解析_image_408.jpg)![](img/DeepSeek源码深度解析_image_409.jpg)
+![](img/DeepSeek-源码深度解析_image_407.jpg)![](img/DeepSeek-源码深度解析_image_408.jpg)![](img/DeepSeek-源码深度解析_image_409.jpg)
 
 （8）函数 rotate_half()用于旋转输入张量的一半维度。它将输入张量的最后一个维度拆分为两部分，然后将后半部分取反与前半部分交换位置并拼接。该操作在位置嵌入的旋转编码中常用于构建旋转不变性特征。
 
-![](img/DeepSeek源码深度解析_image_410.jpg)
+![](img/DeepSeek-源码深度解析_image_410.jpg)
 
 （9）函数 apply_rotary_pos_emb()的功能是将旋转位置嵌入（Rotary Position Embedding）应用于查询（query）和键（key）张量。这种嵌入方式通过结合正弦和余弦函数实现对序列位置的建模，从而使模型能够更好地捕捉序列顺序信息。
 
-![](img/DeepSeek源码深度解析_image_411.jpg)![](img/DeepSeek源码深度解析_image_412.jpg)
+![](img/DeepSeek-源码深度解析_image_411.jpg)![](img/DeepSeek-源码深度解析_image_412.jpg)
 
 （10）DeepseekV2MLP 是一个自定义的前馈全连接层模块，该模块包括三个线性投影层：gate_proj、up_proj 和 down_proj，以及一个激活函数。其主要功能是对输入特征进行非线性变换和维度映射，以增强模型的表达能力。
 
-![](img/DeepSeek源码深度解析_image_413.jpg)![](img/DeepSeek源码深度解析_image_414.jpg)
+![](img/DeepSeek-源码深度解析_image_413.jpg)![](img/DeepSeek-源码深度解析_image_414.jpg)
 
 （11）类 MoEGate 实现了混合专家网络中的门控模块，用于为输入的特征选择最合适的专家网络。该模块通过计算门控得分（gating scores）并选择 Top-K 专家来高效处理不同的输入。它支持多种专家选择策略（如贪婪选择和分组选择），并具有辅助损失计算功能，用于优化专家选择过程。
 
-![](img/DeepSeek源码深度解析_image_415.jpg)![](img/DeepSeek源码深度解析_image_416.jpg)![](img/DeepSeek源码深度解析_image_417.jpg)![](img/DeepSeek源码深度解析_image_418.jpg)
+![](img/DeepSeek-源码深度解析_image_415.jpg)![](img/DeepSeek-源码深度解析_image_416.jpg)![](img/DeepSeek-源码深度解析_image_417.jpg)![](img/DeepSeek-源码深度解析_image_418.jpg)
 
 对上述代码的具体说明如下所示。
 
@@ -3783,27 +3783,27 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 （12）AddAuxiliaryLoss 是一个自定义的 torch.autograd.Function 类，用于在模型训练时动态添加辅助损失（auxiliary loss）。它通过在前向传播中保存辅助损失信息，并在反向传播阶段计算辅助损失的梯度，确保辅助损失能够影响模型参数的更新，从而优化模型训练效果。
 
-![](img/DeepSeek源码深度解析_image_419.jpg)![](img/DeepSeek源码深度解析_image_420.jpg)
+![](img/DeepSeek-源码深度解析_image_419.jpg)![](img/DeepSeek-源码深度解析_image_420.jpg)
 
 （13）类 DeepseekV2MoE 是一个可实现 MoE 机制的深度学习模块，该模块通过门控策略将输入分配给不同的专家网络，并通过辅助损失来优化专家选择和权重分配，从而提升模型的表达能力与计算效率。模型支持多 GPU 分布式训练环境下的专家网络分布与通信。
 
-![](img/DeepSeek源码深度解析_image_421.jpg)![](img/DeepSeek源码深度解析_image_422.jpg)![](img/DeepSeek源码深度解析_image_423.jpg)![](img/DeepSeek源码深度解析_image_424.jpg)![](img/DeepSeek源码深度解析_image_425.jpg)![](img/DeepSeek源码深度解析_image_426.jpg)
+![](img/DeepSeek-源码深度解析_image_421.jpg)![](img/DeepSeek-源码深度解析_image_422.jpg)![](img/DeepSeek-源码深度解析_image_423.jpg)![](img/DeepSeek-源码深度解析_image_424.jpg)![](img/DeepSeek-源码深度解析_image_425.jpg)![](img/DeepSeek-源码深度解析_image_426.jpg)
 
 （14）函数 repeat_kv()用于在注意力机制中通过重复 n_rep 次扩展键值张量。它接受一个形状为 (batch, num_key_value_heads, seqlen, head_dim) 的张量，并返回一个形状为 (batch, num_attention_heads, seqlen, head_dim) 的张量，其中注意力头的数量会被乘以 n_rep。
 
-![](img/DeepSeek源码深度解析_image_427.jpg)
+![](img/DeepSeek-源码深度解析_image_427.jpg)
 
 （15）类 DeepseekV2Attention 实现了多头自注意力机制，设计理念来源于*Attention* *Is* *All* *You* *Need*论文的结构，并进行了深度定制。类 DeepseekV2Attention 支持多种参数配置，如 LoRA（低秩适应）和 RoPE（旋转位置编码）。该类包含了对查询、键值对的处理、位置编码、注意力权重计算和最终输出的多个阶段。它还支持缓存机制（用于自回归推理）和不同的注意力缩放策略，如线性、动态和 yarn 缩放等。
 
-![](img/DeepSeek源码深度解析_image_428.jpg)![](img/DeepSeek源码深度解析_image_429.jpg)![](img/DeepSeek源码深度解析_image_430.jpg)![](img/DeepSeek源码深度解析_image_431.jpg)![](img/DeepSeek源码深度解析_image_432.jpg)![](img/DeepSeek源码深度解析_image_433.jpg)
+![](img/DeepSeek-源码深度解析_image_428.jpg)![](img/DeepSeek-源码深度解析_image_429.jpg)![](img/DeepSeek-源码深度解析_image_430.jpg)![](img/DeepSeek-源码深度解析_image_431.jpg)![](img/DeepSeek-源码深度解析_image_432.jpg)![](img/DeepSeek-源码深度解析_image_433.jpg)
 
 （16）类 DeepseekV2FlashAttention2 是一个用于深度学习模型的注意力机制模块，继承自 DeepseekV2Attention。DeepseekV2FlashAttention2 集成了 Flash Attention 的优化，在处理序列数据时能显著提高性能，尤其是在大型模型和复杂计算中。该模块通过对查询（Q）、键（K）和值（V）向量进行旋转位置编码（RoPE），增强了对序列顺序的理解，同时使用了 Flash Attention 来高效计算注意力得分。此外，还处理了 padding tokens 和缓存（cache）机制，以提高计算效率。此模块特别适用于处理包含 padding 的输入序列，并且支持低精度训练与推理的优化。
 
-![](img/DeepSeek源码深度解析_image_434.jpg)![](img/DeepSeek源码深度解析_image_435.jpg)![](img/DeepSeek源码深度解析_image_436.jpg)![](img/DeepSeek源码深度解析_image_437.jpg)![](img/DeepSeek源码深度解析_image_438.jpg)![](img/DeepSeek源码深度解析_image_439.jpg)![](img/DeepSeek源码深度解析_image_440.jpg)
+![](img/DeepSeek-源码深度解析_image_434.jpg)![](img/DeepSeek-源码深度解析_image_435.jpg)![](img/DeepSeek-源码深度解析_image_436.jpg)![](img/DeepSeek-源码深度解析_image_437.jpg)![](img/DeepSeek-源码深度解析_image_438.jpg)![](img/DeepSeek-源码深度解析_image_439.jpg)![](img/DeepSeek-源码深度解析_image_440.jpg)
 
 （17）下列代码定义了字典 ATTENTION_CLASSES，用于映射不同的注意力机制类型到具体的实现类。它支持多种注意力机制，包括普通注意力（eager）、Flash Attention 2（flash_attention_2），以及针对多语言模型（MLA）和多头注意力（MHA）的变体。通过这种方式，用户可以根据需要选择不同的注意力机制，而无须修改代码逻辑。
 
-![](img/DeepSeek源码深度解析_image_441.jpg)![](img/DeepSeek源码深度解析_image_442.jpg)
+![](img/DeepSeek-源码深度解析_image_441.jpg)![](img/DeepSeek-源码深度解析_image_442.jpg)
 
 （18）DeepseekV2DecoderLayer 是一个基于 PyTorch 的 Transformer 解码器层，用于构建深度学习模型中的解码器部分。它包含以下主要组件：
 
@@ -3817,7 +3817,7 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 ● 输出：返回解码器层的输出，以及可选的注意力权重和缓存的键值对。
 
-![](img/DeepSeek源码深度解析_image_443.jpg)![](img/DeepSeek源码深度解析_image_444.jpg)![](img/DeepSeek源码深度解析_image_445.jpg)
+![](img/DeepSeek-源码深度解析_image_443.jpg)![](img/DeepSeek-源码深度解析_image_444.jpg)![](img/DeepSeek-源码深度解析_image_445.jpg)
 
 （19）DeepseekV2PreTrainedModel 是一个基于 Hugging Face PreTrainedModel 的基类，用于定义 DeepseekV2 模型的预训练模型结构。其提供了以下功能。
 
@@ -3835,15 +3835,15 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 ● 权重初始化：在 _init_weights 方法中，对线性层和嵌入层的权重进行初始化，使用正态分布（均值为 0，标准差为 config.initializer_range），并对偏置项进行零初始化。
 
-![](img/DeepSeek源码深度解析_image_446.jpg)
+![](img/DeepSeek-源码深度解析_image_446.jpg)
 
 （20）下列代码定义了 DeepseekV2_INPUTS_DOCSTRING，这是一个多行字符串文档，详细描述了 DeepSeek V2 模型的输入参数，包括 input_ids, attention_mask, position_ids, past_key_values, inputs_embeds 等。它用于为模型的输入提供清晰的说明，帮助开发者理解各参数的作用及使用方法。
 
-![](img/DeepSeek源码深度解析_image_447.jpg)![](img/DeepSeek源码深度解析_image_448.jpg)![](img/DeepSeek源码深度解析_image_449.jpg)
+![](img/DeepSeek-源码深度解析_image_447.jpg)![](img/DeepSeek-源码深度解析_image_448.jpg)![](img/DeepSeek-源码深度解析_image_449.jpg)
 
 （21）定义模型类 DeepseekV2Model，是一个基于 Transformer 结构的解码器模型。DeepseekV2Model 继承自 DeepseekV2PreTrainedModel，包括嵌入层、多个解码器层、RMS 归一化层。其主要功能是接收输入序列的 token、注意力掩码和位置编码，并通过多层解码器进行处理，输出模型的隐藏状态及相关信息。该模型支持缓存机制来优化解码过程，同时能够选择输出注意力权重和隐藏状态。
 
-![](img/DeepSeek源码深度解析_image_450.jpg)![](img/DeepSeek源码深度解析_image_451.jpg)![](img/DeepSeek源码深度解析_image_452.jpg)![](img/DeepSeek源码深度解析_image_453.jpg)![](img/DeepSeek源码深度解析_image_454.jpg)
+![](img/DeepSeek-源码深度解析_image_450.jpg)![](img/DeepSeek-源码深度解析_image_451.jpg)![](img/DeepSeek-源码深度解析_image_452.jpg)![](img/DeepSeek-源码深度解析_image_453.jpg)![](img/DeepSeek-源码深度解析_image_454.jpg)
 
 （22）下列代码定义了一个名为 DeepseekV2ForCausalLM 的模型类，继承自 DeepseekV2Pre TrainedModel。DeepseekV2ForCausalLM 用于自回归语言建模任务（Causal Language Modeling），支持条件文本生成、语言建模任务及模型微调。主要功能包括：
 
@@ -3857,11 +3857,11 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 ● 注重位置编码与缓存优化，适配不同的缓存机制。
 
-![](img/DeepSeek源码深度解析_image_455.jpg)![](img/DeepSeek源码深度解析_image_456.jpg)![](img/DeepSeek源码深度解析_image_457.jpg)![](img/DeepSeek源码深度解析_image_458.jpg)![](img/DeepSeek源码深度解析_image_459.jpg)![](img/DeepSeek源码深度解析_image_460.jpg)
+![](img/DeepSeek-源码深度解析_image_455.jpg)![](img/DeepSeek-源码深度解析_image_456.jpg)![](img/DeepSeek-源码深度解析_image_457.jpg)![](img/DeepSeek-源码深度解析_image_458.jpg)![](img/DeepSeek-源码深度解析_image_459.jpg)![](img/DeepSeek-源码深度解析_image_460.jpg)
 
 （23）下列代码定义了 DeepseekV2ForSequenceClassification 模型，这是一个基于 DeepseekV2 模型结构的序列分类模型。该模型使用序列中的最后一个 token 来进行分类预测（类似 GPT-2 等因果模型的设计）。模型需要准确定位最后一个 token 的位置。如果配置中定义了 pad_token_id，模型就会跳过填充 token；如果没有定义，则默认使用序列中的最后一个值。当传入的是 inputs_embeds 而非 input_ids 时，模型也只能直接使用每行最后一个 token。
 
-![](img/DeepSeek源码深度解析_image_461.jpg)
+![](img/DeepSeek-源码深度解析_image_461.jpg)
 
 （24）下列代码定义了模型类 DeepseekV2ForSequenceClassification，其继承自 DeepseekV2Pre TrainedModel。该模型主要用于序列分类任务，核心功能如下所示。
 
@@ -3875,7 +3875,7 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 ● 兼容性处理：考虑填充 token 的处理逻辑，确保对批量输入有效。
 
-![](img/DeepSeek源码深度解析_image_462.jpg)![](img/DeepSeek源码深度解析_image_463.jpg)![](img/DeepSeek源码深度解析_image_464.jpg)
+![](img/DeepSeek-源码深度解析_image_462.jpg)![](img/DeepSeek-源码深度解析_image_463.jpg)![](img/DeepSeek-源码深度解析_image_464.jpg)
 
 ### **注意**
 
@@ -3933,35 +3933,35 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 （1）下列代码用于检测 flash_attn 库版本是否可用，并在可用时导入 flash_attn_qkvpacked_func 函数。 flash_attn 是一种优化的注意力计算库，可以显著加速 Transformer 模型中的注意力计算过程，通过更高效的内存管理和计算路径提升性能。如果 Flash Attention 2 可用，该功能将被引入以替代传统的注意力计算，从而优化模型的计算速度与内存使用。
 
-![](img/DeepSeek源码深度解析_image_465.jpg)
+![](img/DeepSeek-源码深度解析_image_465.jpg)
 
 （2）下列代码实现了一个无梯度截断正态分布初始化函数 _no_grad_trunc_normal_()，用于在给定范围 [a, b] 内初始化张量的权重值。其实现基于截断正态分布，通过截断后的均值、标准差及正态分布的累积分布函数（CDF）进行反变换采样。该方法有效避免了传统正态分布在极端值区间采样时的数值不稳定问题，使模型参数更加符合截断范围要求。
 
-![](img/DeepSeek源码深度解析_image_466.jpg)![](img/DeepSeek源码深度解析_image_467.jpg)
+![](img/DeepSeek-源码深度解析_image_466.jpg)![](img/DeepSeek-源码深度解析_image_467.jpg)
 
 （3）函数 trunc_normal_()用于将张量中的元素通过截断正态分布进行初始化。相比标准的 torch.nn.init.trunc_normal_，该实现额外处理了 bfloat16 数据类型的兼容性问题。具体做法是将输入张量临时转换为 float32 类型，在其上应用截断正态分布初始化，再将结果还原为原始数据类型。
 
-![](img/DeepSeek源码深度解析_image_468.jpg)![](img/DeepSeek源码深度解析_image_469.jpg)
+![](img/DeepSeek-源码深度解析_image_468.jpg)![](img/DeepSeek-源码深度解析_image_469.jpg)
 
 （4）函数 init_weights()用于为模型中位置嵌入 (pos_embed) 和潜在变量 (latent) 张量进行权重初始化操作。它使用截断正态分布初始化权重，并依据维度大小调整标准差，以确保权重初始化的数值在合理范围内，从而避免训练过程中的梯度爆炸或消失。
 
-![](img/DeepSeek源码深度解析_image_470.jpg)
+![](img/DeepSeek-源码深度解析_image_470.jpg)
 
 （5）函数 init_weights_vit_timm()用于初始化 ViT 模型的权重。它支持线性层 (nn.Linear) 的标准初始化，以及模块自身定义的权重初始化方法。此方法基于 timm 库实现，用于保证权重初始化过程的可复现性。
 
-![](img/DeepSeek源码深度解析_image_471.jpg)![](img/DeepSeek源码深度解析_image_472.jpg)
+![](img/DeepSeek-源码深度解析_image_471.jpg)![](img/DeepSeek-源码深度解析_image_472.jpg)
 
 （6）类 Attention 实现了一个多头自注意力模块，支持标准和高效注意力计算方式。Attention 提供了对查询（query）、键（key）、值（value）的线性变换和注意力计算，支持标准、FlashAttention 2 和高效内存注意力计算等多种实现方式。此外，类 Attention 支持查询和键的归一化操作，从而提升注意力计算的数值稳定性。
 
-![](img/DeepSeek源码深度解析_image_473.jpg)![](img/DeepSeek源码深度解析_image_474.jpg)![](img/DeepSeek源码深度解析_image_475.jpg)
+![](img/DeepSeek-源码深度解析_image_473.jpg)![](img/DeepSeek-源码深度解析_image_474.jpg)![](img/DeepSeek-源码深度解析_image_475.jpg)
 
 （7）类 LayerScale 实现了一种层缩放机制，通过一个可学习参数 gamma 对输入张量进行缩放操作。这种机制在 Transformer 模型中可以用于增强模型的稳定性，并通过调节每一层的输出幅度改善模型的收敛性能。
 
-![](img/DeepSeek源码深度解析_image_476.jpg)![](img/DeepSeek源码深度解析_image_477.jpg)
+![](img/DeepSeek-源码深度解析_image_476.jpg)![](img/DeepSeek-源码深度解析_image_477.jpg)
 
 （8）类 Block 实现了一个基础的 Transformer 编码块，包括多头注意力 （Attention）、前馈网络（MLP）、残差连接 （Residual Connection）、层缩放 （LayerScale） 及丢弃路径 （DropPath） 等组件。这种模块是 Transformer 和 ViT 模型的核心构建单元，用于对输入特征进行编码。
 
-![](img/DeepSeek源码深度解析_image_478.jpg)![](img/DeepSeek源码深度解析_image_479.jpg)
+![](img/DeepSeek-源码深度解析_image_478.jpg)![](img/DeepSeek-源码深度解析_image_479.jpg)
 
 （9）类 VisionTransformer 实现了一个基于 ViT 的图像分类模型，此模型的核心思想是将图像划分为若干个小块（patches），然后通过 Transformer 架构对这些小块进行处理和学习。该实现基于论文 An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale。VisionTransformer 模型的主要组件包括以下内容。
 
@@ -3985,55 +3985,55 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 ● 方法 __init__ 是 VisionTransformer 类的初始化方法，负责设置和初始化该模型的各个组件和参数。该方法接受多个参数，用于控制模型的不同方面，例如输入图像的大小、补丁大小、嵌入维度、注意力头的数量、Transformer 层数等。它会初始化图像补丁嵌入层、位置嵌入、Transformer 层、归一化层、激活层、分类头等，并根据给定的配置选项调整相应的超参数。此外，__init__ 方法还处理一些模型行为的控制，如是否使用类 token、是否启用动态图像大小、是否启用梯度检查点等。
 
-![](img/DeepSeek源码深度解析_image_480.jpg)![](img/DeepSeek源码深度解析_image_481.jpg)![](img/DeepSeek源码深度解析_image_482.jpg)![](img/DeepSeek源码深度解析_image_483.jpg)![](img/DeepSeek源码深度解析_image_484.jpg)
+![](img/DeepSeek-源码深度解析_image_480.jpg)![](img/DeepSeek-源码深度解析_image_481.jpg)![](img/DeepSeek-源码深度解析_image_482.jpg)![](img/DeepSeek-源码深度解析_image_483.jpg)![](img/DeepSeek-源码深度解析_image_484.jpg)
 
 ● 方法 init_weights()负责初始化模型的权重。它首先检查传入的初始化模式是否有效（'jax','jax_nlhb','moco’ 或空字符串）。其次根据指定的模式为类头（head）设置偏置值，并使用截断正态分布初始化位置嵌入。对于类 token（如果存在），它会用一个非常小的标准差进行正态初始化。最后通过 named_apply 函数调用 init_weights_vit_timm，进一步初始化 Vision Transformer 模型的其他权重。
 
-![](img/DeepSeek源码深度解析_image_485.jpg)
+![](img/DeepSeek-源码深度解析_image_485.jpg)
 
 ● 方法 no_weight_decay()用来指定哪些参数在训练过程中不参与权重衰减。该方法返回一个包含不需要进行权重衰减的参数名称的集合（pos_embed, cls_token, dist_token）。这些参数通常是模型中的嵌入、类 token 或其他特殊 token，在一些情况下，它们可能不需要通过正则化来更新。
 
-![](img/DeepSeek源码深度解析_image_486.jpg)![](img/DeepSeek源码深度解析_image_487.jpg)
+![](img/DeepSeek-源码深度解析_image_486.jpg)![](img/DeepSeek-源码深度解析_image_487.jpg)
 
 ● 方法 group_matcher()用于匹配不同部分的模型参数组。它根据正则表达式匹配模型中的各个部分，返回一个字典，其中包含了模型的不同子模块的参数组。通过这个方法，能够方便地对模型的不同层或部分应用不同的策略（例如学习率调度或权重衰减）。
 
-![](img/DeepSeek源码深度解析_image_488.jpg)
+![](img/DeepSeek-源码深度解析_image_488.jpg)
 
 ● 方法 set_grad_checkpointing()用于启用或禁用梯度检查点（gradient checkpointing），这一策略可以在训练过程中减少内存消耗，通过在反向传播时重新计算某些中间结果。get_classifier 方法返回模型的分类器部分（最后的全连接层 self.head），通常用于模型的最终预测。
 
-![](img/DeepSeek源码深度解析_image_489.jpg)
+![](img/DeepSeek-源码深度解析_image_489.jpg)
 
 ● 方法 reset_classifier()用于重置模型的分类头。它接受两个参数：num_classes（分类的类别数量）和 global_pool（全局池化策略）。根据 global_pool 的值，方法会选择是否启用全局池化，并调整分类头的结构。如果 num_classes 大于 0，则会创建一个新的线性分类器；否则，将使用一个身份层。
 
-![](img/DeepSeek源码深度解析_image_490.jpg)
+![](img/DeepSeek-源码深度解析_image_490.jpg)
 
 ● 方法 _pos_embed()用于计算并应用位置嵌入功能。根据 dynamic_img_size 的标志，决定是使用静态位置嵌入还是动态调整位置嵌入。在动态模式下，会根据输入图像的大小重新调整位置嵌入的尺寸。如果有类别令牌 (cls_token) 或回归令牌 (reg_token)，将被添加到输入张量 x 中，并与位置嵌入一起使用。最后，返回添加了位置嵌入和可能的类别令牌的张量，并应用丢弃层。
 
-![](img/DeepSeek源码深度解析_image_491.jpg)
+![](img/DeepSeek-源码深度解析_image_491.jpg)
 
 ● 方法 _intermediate_layers()的主要功能是从一个深度神经网络（如 Transformer 架构）中提取指定数量或指定索引的中间层输出。
 
-![](img/DeepSeek源码深度解析_image_492.jpg)
+![](img/DeepSeek-源码深度解析_image_492.jpg)
 
 ● 方法 _intermediate_layers()用于提取 Transformer 模型中的中间层输出。首先，通过 patch_embed()和 _pos_embed()方法处理输入数据。其次，在通过各个 Transformer block 进行前向传播时，根据指定的层索引 (n) 收集并返回特定的中间层输出。n 可以是一个整数或一个索引序列，表示需要提取的块的数量或特定块的索引。最后，返回一个包含所选中间层输出的列表。
 
-![](img/DeepSeek源码深度解析_image_493.jpg)![](img/DeepSeek源码深度解析_image_494.jpg)
+![](img/DeepSeek-源码深度解析_image_493.jpg)![](img/DeepSeek-源码深度解析_image_494.jpg)
 
 ● 方法 forward_features()用于处理输入张量 x 并通过网络的不同层进行前向传播。首先，如果 is_first_stage 属性为 True，则对输入进行 patch 嵌入、位置嵌入、patch 丢弃和预归一化处理。其次，如果启用了梯度检查点，并且脚本化未启用，则使用 checkpoint_seq 对 Transformer block 层进行梯度检查点处理，否则直接通过所有 block 进行前向传播。最后，如果 is_last_stage 为 True，则对输出进行归一化。该方法返回最后的输出特征张量。
 
-![](img/DeepSeek源码深度解析_image_495.jpg)
+![](img/DeepSeek-源码深度解析_image_495.jpg)
 
 ● 方法 forward_head()负责处理网络的头部部分。首先，根据 is_last_stage 属性判断是否进行头部处理，如果是最后阶段并且 attn_pool 存在，则应用该池化方法。否则，根据 global_pool 设置的类型决定如何进行池化：如果是 ’avg'，则对输入的后缀部分（不包括前缀 tokens）进行均值池化；如果是其他值，则使用类标记 class token。其次，进行归一化处理和丢弃操作。最后，根据 pre_logits 参数的值决定是否输出头部计算前的特征向量或通过头部线性层计算输出。
 
-![](img/DeepSeek源码深度解析_image_496.jpg)![](img/DeepSeek源码深度解析_image_497.jpg)
+![](img/DeepSeek-源码深度解析_image_496.jpg)![](img/DeepSeek-源码深度解析_image_497.jpg)
 
 ● 方法 forward()负责调用 forward_features 和 forward_head 完成网络的前向传播。如果 ignore_head 为 False，则会进一步处理头部部分。
 
-![](img/DeepSeek源码深度解析_image_498.jpg)
+![](img/DeepSeek-源码深度解析_image_498.jpg)
 
 ● 方法 to_pipeline()用于在分布式训练中将模型的各个部分分配到不同的计算节点上。它根据 pp_rank（当前设备的排名）和 pp_size（总设备数量）决定模型是否属于管道的第一阶段或最后阶段，并根据这些信息对模型进行裁剪，删除不需要的模块。
 
-![](img/DeepSeek源码深度解析_image_499.jpg)
+![](img/DeepSeek-源码深度解析_image_499.jpg)
 
 对上述代码的具体说明如下所示：
 
@@ -4047,15 +4047,15 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 （10）SigLIPVisionCfg 是一个数据类，用于配置 SigLIP 模型的视觉部分的超参数。类 SigLIPVisionCfg 包含了模型的各类设置，比如网络宽度（width）、层数（layers）、注意力头数（heads）、图像大小（image_size）、全局池化方式（global_pool）等。这些配置可以帮助构建一个视觉模型的架构，并且可以根据需要进行调整。通过这个类，可以轻松管理和传递超参数设置。
 
-![](img/DeepSeek源码深度解析_image_500.jpg)
+![](img/DeepSeek-源码深度解析_image_500.jpg)
 
 （11）下列代码中的 SigLIP_MODEL_CONFIG 是一个字典，包含了多个 SigLIP 模型配置的超参数设置。每个配置项代表一个不同版本的 SigLIP 模型，键值对应模型的名称，值是一个字典，包含该模型的图像大小、图像块大小、网络宽度、层数、注意力头数、MLP 比例（mlp_ratio）、全局池化方式及是否使用检查点（use_checkpoint）等超参数。这些配置可以用于构建和调整不同版本的 SigLIP 模型。
 
-![](img/DeepSeek源码深度解析_image_501.jpg)![](img/DeepSeek源码深度解析_image_502.jpg)
+![](img/DeepSeek-源码深度解析_image_501.jpg)![](img/DeepSeek-源码深度解析_image_502.jpg)
 
 （12）下列代码定义了函数 create_siglip_vit()，用于创建并返回一个 SigLIP 版本的 ViT 模型。该函数接受多个参数，用于根据给定的模型配置（例如模型名称、图像大小、选择的层数等）来初始化一个 ViT 模型。
 
-![](img/DeepSeek源码深度解析_image_503.jpg)![](img/DeepSeek源码深度解析_image_504.jpg)
+![](img/DeepSeek-源码深度解析_image_503.jpg)![](img/DeepSeek-源码深度解析_image_504.jpg)
 
 ### **6.5.6** **对话模板和历史记录管理**
 
@@ -4063,77 +4063,77 @@ Janus：侧重于构建统一的多模态平台，解耦视觉编码以同时支
 
 （1）定义枚举类型 SeparatorStyle，用于表示不同的分隔符样式。DeepSeek、DeepSeekV2、PLAIN 和 ALIGNMENT 分别代表四种不同的分隔符样式，它们可以用于格式化对话或文本的分隔方式，以满足不同的处理需求。
 
-![](img/DeepSeek源码深度解析_image_505.jpg)
+![](img/DeepSeek-源码深度解析_image_505.jpg)
 
 （2）定义类 Conversation，用于管理对话的历史记录和生成提示模板。类 Conversation 中包含了多个功能，如设置和更新系统消息、追加新消息、重置消息、转换为不同格式的对话数据（如 Gradio 或 OpenAI API 格式），以及复制或字典化对话内容。
 
 ● 下列代码定义了类 Conversation，用于管理对话历史和生成提示模板。包含了多个属性来存储对话的不同元素，如系统提示、角色名称、消息列表、分隔符样式等。该类提供了方法来设置系统消息、追加新消息、更新最后一条消息、重置消息，以及将对话转换为不同格式（如 Gradio 或 OpenAI API 格式）。此外，还支持自定义分隔符样式，并允许控制生成的停止条件。
 
-![](img/DeepSeek源码深度解析_image_506.jpg)
+![](img/DeepSeek-源码深度解析_image_506.jpg)
 
 ● 方法 get_prompt(self)用于生成对话提示字符串，依据不同的分隔符样式（如 DeepSeek、DeepSeekV2、PLAIN、ALIGNMENT）构建系统消息和角色消息的提示内容，返回一个格式化的字符串用于生成对话。
 
-![](img/DeepSeek源码深度解析_image_507.jpg)![](img/DeepSeek源码深度解析_image_508.jpg)![](img/DeepSeek源码深度解析_image_509.jpg)
+![](img/DeepSeek-源码深度解析_image_507.jpg)![](img/DeepSeek-源码深度解析_image_508.jpg)![](img/DeepSeek-源码深度解析_image_509.jpg)
 
 ● 方法 set_system_message(self, system_message: str)用于设置系统消息、更新 system_message 属性，从而在生成提示时使用新的系统消息内容。
 
-![](img/DeepSeek源码深度解析_image_510.jpg)
+![](img/DeepSeek-源码深度解析_image_510.jpg)
 
 ● 方法 append_message(self, role: str, message: str)用于向对话中添加一条新消息，并指定消息的角色（如 USER 或 ASSISTANT），将其追加到 messages 列表中。
 
-![](img/DeepSeek源码深度解析_image_511.jpg)
+![](img/DeepSeek-源码深度解析_image_511.jpg)
 
 ● 方法 update_last_message(self, message: str)用于更新最后一条消息的内容，通常用于更新模型响应后，修改 messages 列表中的最后一条消息。
 
-![](img/DeepSeek源码深度解析_image_512.jpg)
+![](img/DeepSeek-源码深度解析_image_512.jpg)
 
 ● 方法 reset_message(self)用于清空当前所有的消息，将 messages 列表重置为空列表，便于开始新的对话。
 
-![](img/DeepSeek源码深度解析_image_513.jpg)
+![](img/DeepSeek-源码深度解析_image_513.jpg)
 
 ● 方法 to_gradio_chatbot(self)的功能是将对话格式化为适用于 Gradio 聊天机器人的格式，将消息按角色分配为 [用户消息， 助手消息] 格式的对话记录列表。
 
-![](img/DeepSeek源码深度解析_image_514.jpg)![](img/DeepSeek源码深度解析_image_515.jpg)
+![](img/DeepSeek-源码深度解析_image_514.jpg)![](img/DeepSeek-源码深度解析_image_515.jpg)
 
 ● 方法 to_openai_api_messages(self)的功能是将对话转换为适合 OpenAI API 的聊天完成格式，生成一个包含系统消息和按角色排列的用户及助手消息的字典列表。
 
-![](img/DeepSeek源码深度解析_image_516.jpg)
+![](img/DeepSeek-源码深度解析_image_516.jpg)
 
 ● 方法 copy(self)的功能是创建并返回当前 Conversation 对象的一个副本，所有属性都被复制到新的实例中，方便保留对话的原始状态。
 
-![](img/DeepSeek源码深度解析_image_517.jpg)
+![](img/DeepSeek-源码深度解析_image_517.jpg)
 
 ● 方法 dict(self)的功能是将 Conversation 对象的主要属性（如 name、system_message、roles、messages 等）转换为字典格式，便于序列化或进一步处理。
 
-![](img/DeepSeek源码深度解析_image_518.jpg)![](img/DeepSeek源码深度解析_image_519.jpg)
+![](img/DeepSeek-源码深度解析_image_518.jpg)![](img/DeepSeek-源码深度解析_image_519.jpg)
 
 （3）下列代码的功能是定义一个全局的对话模板注册表 conv_templates，并提供一个函数 register_conv_template()用于注册新的对话模板。该函数可以选择性地覆盖已有的模板，如果 override 参数为 False，则会检查模板名是否已存在，若存在则抛出异常，若模板名不存在则将新的模板添加到注册表中。
 
-![](img/DeepSeek源码深度解析_image_520.jpg)
+![](img/DeepSeek-源码深度解析_image_520.jpg)
 
 （4）定义函数 get_conv_template()，用于根据给定的模板名称从全局注册表 conv_templates 中获取对应的对话模板，并返回该模板的副本。
 
-![](img/DeepSeek源码深度解析_image_521.jpg)
+![](img/DeepSeek-源码深度解析_image_521.jpg)
 
 （5）下列代码的功能是注册一个新的对话模板，模板的名称为 "deepseek"，并定义了相关的系统消息、角色、消息分隔符等配置。此模板用于构建对话，并配置了停止标记和停止符号的设定。
 
-![](img/DeepSeek源码深度解析_image_522.jpg)
+![](img/DeepSeek-源码深度解析_image_522.jpg)
 
 （6）下列代码的功能是注册一个新的对话模板，名为 "deepseekv2"，用于构建对话。该模板定义了系统消息、角色及消息分隔符。此模版采用了 "DeepSeekV2" 的分隔符样式，并配置了停止标记和停止符号。
 
-![](img/DeepSeek源码深度解析_image_523.jpg)
+![](img/DeepSeek-源码深度解析_image_523.jpg)
 
 （7）下列代码的功能是注册一个新的对话模板，名为 "plain"，用于构建简单对话。该模板没有系统消息和角色名称，采用 "PLAIN" 的分隔符样式，且配置了停止标记和停止符号。
 
-![](img/DeepSeek源码深度解析_image_524.jpg)
+![](img/DeepSeek-源码深度解析_image_524.jpg)
 
 （8）下列代码的功能是注册一个新的对话模板，名为 "alignment"，用于构建具有对齐样式的对话。该模板没有系统消息和角色名称，采用 "ALIGNMENT" 的分隔符样式，且配置了停止标记和停止符号。
 
-![](img/DeepSeek源码深度解析_image_525.jpg)![](img/DeepSeek源码深度解析_image_526.jpg)
+![](img/DeepSeek-源码深度解析_image_525.jpg)![](img/DeepSeek-源码深度解析_image_526.jpg)
 
 （9）下列代码演示了使用不同的对话模板（"deepseek" 和 "deepseekv2"）来创建并生成对话提示的用法。通过获取这些模板的信息，追加对话消息，并打印输出生成的提示信息。
 
-![](img/DeepSeek源码深度解析_image_527.jpg)
+![](img/DeepSeek-源码深度解析_image_527.jpg)
 
 上述代码展示了如何使用已注册的对话模板生成实际的对话历史，并且根据不同模板的样式生成适当输出的用法。
 
@@ -4239,7 +4239,7 @@ DeepSeek-VL2 模型通过模块化设计，将模型的各个部分分解为配�
 
 文件 presets.py 定义了部署 DeepSeek-VL2 模型时的默认界面配置和参数设置，这些配置包括页面标题、顶部描述、并发请求数、事件最大数、图像尺寸限制，以及一组用于标记边框颜色的预设颜色映射。此外，还定义了一个标记用于表示已由解析器转换的内容，并且设置了一个名为 “small_and_beautiful_theme” 的 Gradio 主题，涵盖了按钮背景、边框、文本颜色、输入框背景等 UI 风格参数，旨在为模型的 Web Demo 提供一致且美观的前端展示。
 
-![](img/DeepSeek源码深度解析_image_528.jpg)![](img/DeepSeek源码深度解析_image_529.jpg)![](img/DeepSeek源码深度解析_image_530.jpg)
+![](img/DeepSeek-源码深度解析_image_528.jpg)![](img/DeepSeek-源码深度解析_image_529.jpg)![](img/DeepSeek-源码深度解析_image_530.jpg)
 
 对上述代码的具体说明如下所示：
 
@@ -4265,67 +4265,67 @@ DeepSeek-VL2 模型通过模块化设计，将模型的各个部分分解为配�
 
 （1）函数 configure_logger() 的功能是配置并返回日志记录器（logger），该记录器名为 "gradio_logger"，设置了 DEBUG 级别，并将日志同时输出到控制台和文件。日志文件存放在 “deepseek_vl2/serve/logs” 目录下，并以当前时间戳命名，确保记录的日志格式统一且便于追踪调试信息。
 
-![](img/DeepSeek源码深度解析_image_531.jpg)![](img/DeepSeek源码深度解析_image_532.jpg)
+![](img/DeepSeek-源码深度解析_image_531.jpg)![](img/DeepSeek-源码深度解析_image_532.jpg)
 
 （2）函数 strip_stop_words(x, stop_words) 的功能是检查输入字符串 x 中是否包含停用词列表 stop_words 中的任意一个单词，如果存在，则返回停用词首次出现位置之前的子字符串，并去除首尾空白；否则直接返回去除首尾空白后的整个字符串。
 
-![](img/DeepSeek源码深度解析_image_533.jpg)
+![](img/DeepSeek-源码深度解析_image_533.jpg)
 
 （3）函数 format_output(history, text, x) 的功能是将当前对话中的新问答对 [text, x] 添加到已有的对话历史 history 中，并将每个回复内容转换为 Markdown 格式。函数返回格式化后的对话输出和更新后的对话历史，便于后续展示和进一步处理。
 
-![](img/DeepSeek源码深度解析_image_534.jpg)![](img/DeepSeek源码深度解析_image_535.jpg)
+![](img/DeepSeek-源码深度解析_image_534.jpg)![](img/DeepSeek-源码深度解析_image_535.jpg)
 
 （4）函数 markdown_to_html_with_syntax_highlight(md_str) 目前已经被废弃，功能是将 Markdown 格式的字符串 md_str 转换为 HTML，并对代码块应用语法高亮。它通过正则表达式提取代码块，使用 Pygments 库对代码进行高亮处理，最后将转换后的文本通过 Markdown 转换器生成 HTML。
 
-![](img/DeepSeek源码深度解析_image_536.jpg)
+![](img/DeepSeek-源码深度解析_image_536.jpg)
 
 （5）函数 normalize_markdown(md_text) 目前已经被废弃，功能是对输入的 Markdown 文本 md_text 进行归一化处理，主要针对列表项的格式调整，确保列表前后空行合理，使得 Markdown 格式更加统一和规范。
 
-![](img/DeepSeek源码深度解析_image_537.jpg)
+![](img/DeepSeek-源码深度解析_image_537.jpg)
 
 （6）函数 convert_mdtext(md_text) 的功能是将 Markdown 文本 md_text 转换为 HTML 格式，同时处理代码块和内联代码，调用归一化和高亮函数对文本进行格式化，并在最终结果后附加转换标记，表明文本已被转换。
 
-![](img/DeepSeek源码深度解析_image_538.jpg)![](img/DeepSeek源码深度解析_image_539.jpg)
+![](img/DeepSeek-源码深度解析_image_538.jpg)![](img/DeepSeek-源码深度解析_image_539.jpg)
 
 （7）函数 convert_asis(userinput) 的功能是将用户输入的文本直接转换为 HTML 格式的段落（使用 ＜p＞ 标签，设置 white-space: pre-wrap），同时对文本进行 HTML 转换，并在末尾附加转换标记，确保原样显示用户输入内容。
 
-![](img/DeepSeek源码深度解析_image_540.jpg)
+![](img/DeepSeek-源码深度解析_image_540.jpg)
 
 （8）函数 is_stop_word_or_prefix(s, stop_words) 的功能是判断字符串 s 是否以停用词列表 stop_words 中的任一停用词结尾，若是则返回 True，否则返回 False，用于辅助判断文本是否应被截断或停止处理。
 
-![](img/DeepSeek源码深度解析_image_541.jpg)
+![](img/DeepSeek-源码深度解析_image_541.jpg)
 
 （9）函数 detect_converted_mark(userinput) 的功能是检查用户输入的文本是否以预定义的转换标记（ALREADY_CONVERTED_MARK）结尾，从而判断文本是否已经格式转换，若是则返回 True，否则返回 False。
 
-![](img/DeepSeek源码深度解析_image_542.jpg)
+![](img/DeepSeek-源码深度解析_image_542.jpg)
 
 （10）函数 detect_language(code) 的功能是从给定的代码字符串中提取第一行，判断该行内容是否为语言提示（通常代表代码语言），然后返回检测到的语言（以小写形式）和去除语言提示后的代码文本。
 
-![](img/DeepSeek源码深度解析_image_543.jpg)![](img/DeepSeek源码深度解析_image_544.jpg)
+![](img/DeepSeek-源码深度解析_image_543.jpg)![](img/DeepSeek-源码深度解析_image_544.jpg)
 
 （11）函数 convert_to_markdown(text) 的功能是将输入文本 text 转换为 Markdown 格式。它先替换特殊字符（如将 $ 转义为 HTML 实体），处理换行符，并对每行的前导空格和制表符进行转换，然后对部分 Markdown 语法（如标题标记）进行转义，生成规范的 Markdown 文本。
 
-![](img/DeepSeek源码深度解析_image_545.jpg)![](img/DeepSeek源码深度解析_image_546.jpg)
+![](img/DeepSeek-源码深度解析_image_545.jpg)![](img/DeepSeek-源码深度解析_image_546.jpg)
 
 （12）函数 add_language_tag(text) 的功能是为输入文本中的代码块自动添加语言标签。通过正则表达式匹配代码块，并利用 Pygments 库猜测代码语言，将相应的语言标识添加到代码块的 Markdown 语法中，从而增强语法高亮效果。
 
-![](img/DeepSeek源码深度解析_image_547.jpg)![](img/DeepSeek源码深度解析_image_548.jpg)
+![](img/DeepSeek-源码深度解析_image_547.jpg)![](img/DeepSeek-源码深度解析_image_548.jpg)
 
 （13）函数 is_variable_assigned(var_name) 的功能是检查当前局部变量作用域中是否存在名称为 var_name 的变量，若存在则返回 True，否则返回 False，主要用于调试或动态检测变量状态。
 
-![](img/DeepSeek源码深度解析_image_549.jpg)
+![](img/DeepSeek-源码深度解析_image_549.jpg)
 
 （14）函数 pil_to_base64()的功能是将 PIL 图像转换为 Base64 编码的 HTML ＜img＞ 标签字符串。它可根据参数选择是否调整图像大小，然后将图像保存到内存缓冲区，进行 Base64 编码，并生成包含指定替代文本（alt）的 HTML 图像标签。
 
-![](img/DeepSeek源码深度解析_image_550.jpg)![](img/DeepSeek源码深度解析_image_551.jpg)
+![](img/DeepSeek-源码深度解析_image_550.jpg)![](img/DeepSeek-源码深度解析_image_551.jpg)
 
 （15）函数 parse_ref_bbox(response, image) 的功能是解析模型响应 response 中的视觉定位标记（如 ＜|ref|＞ 与 ＜|det|＞），提取边界框坐标和对应的标签，并在传入的图像上绘制边界框和标签的图像；如果解析失败，则返回 None。
 
-![](img/DeepSeek源码深度解析_image_552.jpg)![](img/DeepSeek源码深度解析_image_553.jpg)
+![](img/DeepSeek-源码深度解析_image_552.jpg)![](img/DeepSeek-源码深度解析_image_553.jpg)
 
 （16）函数 display_example(image_list) 的功能是接收图片路径列表 image_list，依次打开每张图片，将图片转换为 Base64 编码的 HTML ＜img＞ 标签，并将所有标签组合成 flex 布局的 HTML 字符串，用于在前端界面中展示示例图片。
 
-![](img/DeepSeek源码深度解析_image_554.jpg)
+![](img/DeepSeek-源码深度解析_image_554.jpg)
 
 上述函数共同构成了 DeepSeek-VL2 项目中前端展示和数据预处理的辅助工具，涵盖日志记录、文本和 Markdown 格式转换、图像处理与转换，以及视觉定位结果的解析与可视化。
 
@@ -4333,7 +4333,7 @@ DeepSeek-VL2 模型通过模块化设计，将模型的各个部分分解为配�
 
 文件 gradio_utils.py 实现了 Gradio 应用程序中的辅助功能与状态管理工具，包括生成函数包装、对话历史的管理与重置、文本框内容的重置，以及输出中断的状态控制。其中， State 类用于控制全局中断状态。通过这些功能，能够有效地简化交互界面中各组件的逻辑与操作。
 
-![](img/DeepSeek源码深度解析_image_555.jpg)![](img/DeepSeek源码深度解析_image_556.jpg)![](img/DeepSeek源码深度解析_image_557.jpg)![](img/DeepSeek源码深度解析_image_558.jpg)
+![](img/DeepSeek-源码深度解析_image_555.jpg)![](img/DeepSeek-源码深度解析_image_556.jpg)![](img/DeepSeek-源码深度解析_image_557.jpg)![](img/DeepSeek-源码深度解析_image_558.jpg)
 
 通过上述代码封装了与 Gradio 相关的工具函数，简化了前端组件的调用和配置，帮助快速构建交互式界面。
 
@@ -4349,7 +4349,7 @@ DeepSeek-VL2 模型通过模块化设计，将模型的各个部分分解为配�
 
 ● 覆盖 Gradio 模型响应（GradioTemplateResponseOriginal）：以重新定义模板响应方法来支持自定义 JavaScript。
 
-![](img/DeepSeek源码深度解析_image_559.jpg)![](img/DeepSeek源码深度解析_image_560.jpg)![](img/DeepSeek源码深度解析_image_561.jpg)
+![](img/DeepSeek-源码深度解析_image_559.jpg)![](img/DeepSeek-源码深度解析_image_560.jpg)![](img/DeepSeek-源码深度解析_image_561.jpg)
 
 ### **6.6.5 Web 前端**
 
@@ -4357,13 +4357,13 @@ DeepSeek-VL2 模型通过模块化设计，将模型的各个部分分解为配�
 
 其中，文件 Kelpy-Codos.js 的主要功能是为网页中的 ＜pre＞ 代码块动态添加“复制”按钮，用户单击按钮即可将代码块内容复制到剪贴板。该脚本通过 MutationObserver 监听 DOM 变化，确保在新添加的代码块中也能自动插入复制按钮，并提供图标提示复制状态的反馈。
 
-![](img/DeepSeek源码深度解析_image_562.jpg)![](img/DeepSeek源码深度解析_image_563.jpg)![](img/DeepSeek源码深度解析_image_564.jpg)
+![](img/DeepSeek-源码深度解析_image_562.jpg)![](img/DeepSeek-源码深度解析_image_563.jpg)![](img/DeepSeek-源码深度解析_image_564.jpg)
 
 ### **6.6.6 模型推理**
 
 文件 inference.py 的主要功能是为 DeepSeek-VL2 模型提供推理生成的逻辑，包括加载模型、转换对话为模型输入格式、定义停止条件，以及进行多模态推理生成文本的核心过程。代码通过调用 generate 函数支持流式输出文本，结合图像输入和多种生成参数控制文本生成。
 
-![](img/DeepSeek源码深度解析_image_565.jpg)![](img/DeepSeek源码深度解析_image_566.jpg)![](img/DeepSeek源码深度解析_image_567.jpg)![](img/DeepSeek源码深度解析_image_568.jpg)
+![](img/DeepSeek-源码深度解析_image_565.jpg)![](img/DeepSeek-源码深度解析_image_566.jpg)![](img/DeepSeek-源码深度解析_image_567.jpg)![](img/DeepSeek-源码深度解析_image_568.jpg)
 
 上述代码实现了 DeepSeek-VL2 模型的推理功能，其核心功能如下所示。
 
@@ -4383,7 +4383,7 @@ DeepSeek-VL2 模型通过模块化设计，将模型的各个部分分解为配�
 
 在 DeepSeek-VL2 项目根目录下，也有一个推理文件 inference.py，其主要功能是通过 DeepSeek-VL2 模型进行图文对话推理。它包括模型加载、会话输入处理、多模态生成和结果展示等功能。其中，通过对输入图像及文本的处理，结合模型生成新的对话输出，并支持视觉目标定位等高级功能。
 
-![](img/DeepSeek源码深度解析_image_569.jpg)![](img/DeepSeek源码深度解析_image_570.jpg)![](img/DeepSeek源码深度解析_image_571.jpg)![](img/DeepSeek源码深度解析_image_572.jpg)
+![](img/DeepSeek-源码深度解析_image_569.jpg)![](img/DeepSeek-源码深度解析_image_570.jpg)![](img/DeepSeek-源码深度解析_image_571.jpg)![](img/DeepSeek-源码深度解析_image_572.jpg)
 
 ### **注意**
 
@@ -4401,59 +4401,59 @@ DeepSeek-VL2 提供了模型的 Web 体验功能，通过文件 web_demo.py，�
 
 （1）下列代码定义了一个名为 MODELS 的列表，其中包含了 DeepSeek-VL2 模型的多种变体名称。这些变体包括不同大小的模型（如 tiny、small 和标准版），以及它们在 Hugging Face 模型库中的完整路径。这个列表的作用是提供一个集中管理的模型名称集合，方便在代码中动态选择和加载不同的模型版本。通过这种方式，用户可以根据需要轻松切换不同的模型，而无须修改代码逻辑。
 
-![](img/DeepSeek源码深度解析_image_573.jpg)
+![](img/DeepSeek-源码深度解析_image_573.jpg)
 
 （2）下列两行代码定义了两个全局变量，其中 DEPLOY_MODELS 是一个空字典，用于存储已部署的模型；IMAGE_TOKEN 被赋值为字符串 "＜image＞"，它可能是一个占位符，用于表示与图像相关的特殊标记或符号。
 
-![](img/DeepSeek源码深度解析_image_574.jpg)
+![](img/DeepSeek-源码深度解析_image_574.jpg)
 
 （3）下列代码定义了一个名为 examples_list 的列表，包含多个示例，主要用于视觉引导和视觉问答任务。每个元素是一个列表，其中包含一组图像路径和与之相关的文本描述或指令。
 
-![](img/DeepSeek源码深度解析_image_575.jpg)![](img/DeepSeek源码深度解析_image_576.jpg)
+![](img/DeepSeek-源码深度解析_image_575.jpg)![](img/DeepSeek-源码深度解析_image_576.jpg)
 
 （4）下列代码的功能是根据提供的模型名称 model_name 加载并返回模型。如果模型已经加载（在 DEPLOY_MODELS 中存在），则直接返回该模型的信息；如果没有则加载模型并将其存储在 DEPLOY_MODELS 中，以便后续使用。该函数支持通过 args.local_path 来指定本地路径加载模型，或者使用默认的模型名称。加载过程中会显示相应的提示信息。
 
-![](img/DeepSeek源码深度解析_image_577.jpg)![](img/DeepSeek源码深度解析_image_578.jpg)
+![](img/DeepSeek-源码深度解析_image_577.jpg)![](img/DeepSeek-源码深度解析_image_578.jpg)
 
 （5）下列代码的功能是生成一个包含历史对话的提示（prompt），它根据提供的文本、图片、历史对话信息及预设的最大长度（max_length）来构建对话。如果提供了图片，则会调整文本中的图片标记（＜image＞）与图片数量的匹配情况，确保生成的提示可以被有效处理。该函数会在生成的提示长度超过最大限制时，尝试通过移除较早的对话历史来缩短提示。若最终无法生成合适的提示，则返回 None。
 
-![](img/DeepSeek源码深度解析_image_579.jpg)![](img/DeepSeek源码深度解析_image_580.jpg)![](img/DeepSeek源码深度解析_image_581.jpg)
+![](img/DeepSeek-源码深度解析_image_579.jpg)![](img/DeepSeek-源码深度解析_image_580.jpg)![](img/DeepSeek-源码深度解析_image_581.jpg)
 
 （6）下列代码的功能是将一个对话（conv）转换为 Gradio 聊天机器人格式，它遍历对话中的每条消息，并根据消息的角色（用户或助手）及消息内容进行处理。如果消息中包含图片，则会将图片转为 Base64 编码的字符串，并将其嵌入消息中。最终，函数返回一个适用于 Gradio 聊天框架的格式，供其展示对话。
 
-![](img/DeepSeek源码深度解析_image_582.jpg)
+![](img/DeepSeek-源码深度解析_image_582.jpg)
 
 （7）下列代码的功能是将对话（conv）转换为 Gradio 历史记录的状态，它通过返回对话中的所有消息（从偏移量开始），来创建一个适用于 Gradio 历史记录格式的输出。
 
-![](img/DeepSeek源码深度解析_image_583.jpg)
+![](img/DeepSeek-源码深度解析_image_583.jpg)
 
 （8）下列代码的功能是生成一个用于生成的提示（prompt）。根据对话对象（conv）中的设置，构建并返回一个提示字符串。如果使用的是 DeepSeek 风格的分隔符（SeparatorStyle.DeepSeek），那么，它会根据消息的角色和内容拼接提示，并加上分隔符；如果没有特定的风格，则会调用 get_prompt 方法获取默认的提示。
 
-![](img/DeepSeek源码深度解析_image_584.jpg)
+![](img/DeepSeek-源码深度解析_image_584.jpg)
 
 （9）下列代码的功能是将输入的文本和图片进行转换，并返回多个值，包括更新后的文本框和按钮的状态。具体来说，将输入的文本和图像传递并返回一个元组，其中包括输入文本、输入图像、清空文本框、清空图像框，以及将按钮设置为可见。
 
-![](img/DeepSeek源码深度解析_image_585.jpg)
+![](img/DeepSeek-源码深度解析_image_585.jpg)
 
 （10）下列代码定义了一个用于预测用户输入的响应函数 predict()。其会根据用户提供的文本、图像及选择的模型进行处理，并生成相应的聊天机器人输出。首先加载并处理图像、生成包含历史记录的提示，其次通过调用生成模型生成聊天机器人的响应。会不断更新生成的内容，并在过程中将结果传递给 Gradio 界面，以便及时显示对话信息。
 
-![](img/DeepSeek源码深度解析_image_586.jpg)![](img/DeepSeek源码深度解析_image_587.jpg)![](img/DeepSeek源码深度解析_image_588.jpg)
+![](img/DeepSeek-源码深度解析_image_586.jpg)![](img/DeepSeek-源码深度解析_image_587.jpg)![](img/DeepSeek-源码深度解析_image_588.jpg)
 
 （11）下列代码定义了一个名为 retry()的函数，用于重新预测聊天机器人的响应。当聊天记录为空时，函数 retry()会返回一个提示消息；如果聊天记录中有内容，则会删除最后的历史记录并将其重置为上一个有效的输入，然后调用 predict()函数重新生成响应。
 
-![](img/DeepSeek源码深度解析_image_589.jpg)![](img/DeepSeek源码深度解析_image_590.jpg)
+![](img/DeepSeek-源码深度解析_image_589.jpg)![](img/DeepSeek-源码深度解析_image_590.jpg)
 
 （12）下列代码的功能是接收一组文件，并返回每个文件的路径。具体来说，它会遍历所有文件，提取每个文件的路径，并将路径保存到一个列表中，最后返回该列表，以便进行图片预览。
 
-![](img/DeepSeek源码深度解析_image_591.jpg)
+![](img/DeepSeek-源码深度解析_image_591.jpg)
 
 （13）下列代码构建了一个 Gradio 应用函数 build_demo()，主要的功能是为聊天机器人创建图形用户界面（GUI），包括用户输入、图片上传、聊天记录显示、模型选择、参数设置等功能。用户可以输入文本、上传图片，调整模型生成的参数，并与聊天机器人交互。通过 Gradio 组件，用户可以查看生成的聊天记录、图片预览，设置生成文本的参数并执行操作，如发送消息、重试生成、清空对话等。
 
-![](img/DeepSeek源码深度解析_image_592.jpg)![](img/DeepSeek源码深度解析_image_593.jpg)![](img/DeepSeek源码深度解析_image_594.jpg)![](img/DeepSeek源码深度解析_image_595.jpg)![](img/DeepSeek源码深度解析_image_596.jpg)
+![](img/DeepSeek-源码深度解析_image_592.jpg)![](img/DeepSeek-源码深度解析_image_593.jpg)![](img/DeepSeek-源码深度解析_image_594.jpg)![](img/DeepSeek-源码深度解析_image_595.jpg)![](img/DeepSeek-源码深度解析_image_596.jpg)
 
 （14）下列代码是应用的主入口。首先，通过解析命令行参数来配置应用的启动选项，例如模型名称、IP 地址、端口、根路径等。其次，调用函数 build_demo()创建 Gradio 应用，并设置其标题。最后，通过调用 demo.queue() 和 demo.launch()来启动 Gradio 应用，并设置一些运行参数，例如并发请求数、最大事件队列等。
 
-![](img/DeepSeek源码深度解析_image_597.jpg)![](img/DeepSeek源码深度解析_image_598.jpg)
+![](img/DeepSeek-源码深度解析_image_597.jpg)![](img/DeepSeek-源码深度解析_image_598.jpg)
 
 ### **6.8.2** **启动 Web 测试**
 
@@ -4463,7 +4463,7 @@ DeepSeek-VL2 提供了模型的 Web 体验功能，通过文件 web_demo.py，�
 
 deepseek-vl2-tiny 模型总共有 3.37B 参数，激活 1B 参数，可以在单个 GPU（＜ 40GB）上运行。使用 deepseek-vl2-tiny 模型启动 Web 测试的命令如下：
 
-![](img/DeepSeek源码深度解析_image_599.jpg)
+![](img/DeepSeek-源码深度解析_image_599.jpg)
 
 对上述参数的具体说明如下：
 
@@ -4479,35 +4479,35 @@ deepseek-vl2-small 模型总共有 16.1B 参数，激活 2.4B 参数。
 
 （1）如果在 A100 40GB GPU 上运行：需要设置 --chunk_size 512 以节省内存，但可能会比较慢。使用 deepseek-vl2-small 模型启动 Web 测试的命令如下：
 
-![](img/DeepSeek源码深度解析_image_600.jpg)
+![](img/DeepSeek-源码深度解析_image_600.jpg)
 
 可选参数--chunk_size 用于设置增量预填充的块大小，以节省内存。注意，仅在 GPU 内存有限时需要设置。
 
 （2）如果在 ＞ 40GB 的 GPU 上运行：可以忽略 --chunk_size 参数，以获得更快的响应。使用 deepseek-vl2-small 模型启动 Web 测试的命令如下：
 
-![](img/DeepSeek源码深度解析_image_601.jpg)
+![](img/DeepSeek-源码深度解析_image_601.jpg)
 
 **3．使用 deepseek-vl2** **模型**
 
 deepseek-vl2 模型总共有 7.5B 参数，激活 4.2B 参数。使用 deepseek-vl2 模型启动 Web 测试的命令如下：
 
-![](img/DeepSeek源码深度解析_image_602.jpg)
+![](img/DeepSeek-源码深度解析_image_602.jpg)
 
 **4．访问 Web 界面**
 
 运行上述命令后，Web 服务器将启动。你可以通过以下地址访问 Web 界面：
 
-![](img/DeepSeek源码深度解析_image_603.jpg)
+![](img/DeepSeek-源码深度解析_image_603.jpg)
 
 如果你使用的是远程服务器，可以将 localhost 替换为服务器的 IP 地址。
 
 下列代码展示了使用 deepseek-vl2-small 模型启动 Web 测试方法。
 
-![](img/DeepSeek源码深度解析_image_604.jpg)![](img/DeepSeek源码深度解析_image_605.jpg)
+![](img/DeepSeek-源码深度解析_image_604.jpg)![](img/DeepSeek-源码深度解析_image_605.jpg)
 
 通过这些步骤，可以启动 DeepSeek-VL2 的 Web 测试界面，并通过浏览器与模型进行交互，效果如图 6-4 所示。
 
-![](img/DeepSeek源码深度解析_image_606.jpg)
+![](img/DeepSeek-源码深度解析_image_606.jpg)
 
 图 6-4 Web 测试界面
 
@@ -4617,7 +4617,7 @@ DeepSeek 团队发现，在强化学习前引入少量高质量的冷启动数�
 
 DeepSeek-R1-Zero 是 DeepSeek AI 开源的第一代推理模型，其训练过程完全基于大规模强化学习，没有使用监督微调作为初始步骤。该模型在数学、代码和逻辑推理等任务上展现了卓越的性能，并在训练过程中自然涌现出多种强大而有趣的推理行为。DeepSeek-R1-Zero 模型在 HuggingFace 发布，如图 7-1 所示，大家可以从 Hugging Face 上获取并部署。
 
-![](img/DeepSeek源码深度解析_image_607.jpg)
+![](img/DeepSeek-源码深度解析_image_607.jpg)
 
 图 7-1 DeepSeek-R1-Zero 模型
 
@@ -4625,7 +4625,7 @@ DeepSeek-R1-Zero 是 DeepSeek AI 开源的第一代推理模型，其训练过�
 
 虽然 DeepSeek-R1-Zero 模型展示出了强大的推理能力，但是也暴露出了重复、可读性差和语言混杂等问题。为了解决这些挑战并进一步提升性能，DeepSeek 团队发布了 DeepSeek-R1 模型，在进行强化学习训练前引入了少量冷启动数据，从而实现了在数学、编程和逻辑推理等任务上与 OpenAI-o1 相媲美的效果。DeepSeek-R1 模型在 Hugging Face 发布，如图 7-2 所示，大家可以从 Hugging Face 上获取并部署。
 
-![](img/DeepSeek源码深度解析_image_608.jpg)
+![](img/DeepSeek-源码深度解析_image_608.jpg)
 
 图 7-2 DeepSeek-R1 模型
 
@@ -4655,9 +4655,9 @@ DeepSeek-R1-Zero 是 DeepSeek AI 开源的第一代推理模型，其训练过�
 
 **2．设计采样函数与目标函数**
 
-![](img/DeepSeek源码深度解析_image_609.png)
+![](img/DeepSeek-源码深度解析_image_609.png)
 
-具体来说，对于每个问题（记为*i*）,GRPO 从旧策略（π*θ**[o][l][d]*）中采样出一组候选输出  ![](img/DeepSeek源码深度解析_image_610.png)。接下来，通过最大化下面的目标函数来对当前策略 π*θ* 进行优化：
+具体来说，对于每个问题（记为*i*）,GRPO 从旧策略（π*θ**[o][l][d]*）中采样出一组候选输出  ![](img/DeepSeek-源码深度解析_image_610.png)。接下来，通过最大化下面的目标函数来对当前策略 π*θ* 进行优化：
 
 ● 对每个候选输出*a**[i]*，根据其在旧策略下的概率和当前策略下的概率之比，采用剪切策略来控制更新幅度，确保新策略不会偏离旧策略太远。
 
@@ -4667,7 +4667,7 @@ DeepSeek-R1-Zero 是 DeepSeek AI 开源的第一代推理模型，其训练过�
 
 优势*A**[i]* 的计算公式如下：
 
-![](img/DeepSeek源码深度解析_image_611.jpg)
+![](img/DeepSeek-源码深度解析_image_611.jpg)
 
 这意味着，每一组候选输出的离散程度（标准差）与其平均水平之间的关系，会影响策略的更新方向，从而使模型在没有任何监督信息的情况下，通过内部比较不断改进自身的推理策略。
 
@@ -4695,7 +4695,7 @@ DeepSeek-R1-Zero 是 DeepSeek AI 开源的第一代推理模型，其训练过�
 
 在训练模板中规定了严格的结构格式，具体格式如下：
 
-![](img/DeepSeek源码深度解析_image_612.jpg)
+![](img/DeepSeek-源码深度解析_image_612.jpg)
 
 这种设计有两个主要目的。
 
@@ -4725,7 +4725,7 @@ DeepSeek-R1-Zero 是 DeepSeek AI 开源的第一代推理模型，其训练过�
 
 如图 7-3 所示，训练过程中模型的“思考时间”呈现出明显且持续的提升趋势。
 
-![](img/DeepSeek源码深度解析_image_613.jpg)
+![](img/DeepSeek-源码深度解析_image_613.jpg)
 
 图 7-3 训练过程可视化
 
@@ -4865,15 +4865,15 @@ DeepSeek 提供了如表 7-1 所示的蒸馏模型（Distill Models），这些�
 
 表 7-1 蒸馏模型
 
-![](img/DeepSeek源码深度解析_image_614.jpg)
+![](img/DeepSeek-源码深度解析_image_614.jpg)
 
 续表
 
-![](img/DeepSeek源码深度解析_image_615.jpg)
+![](img/DeepSeek-源码深度解析_image_615.jpg)
 
 上述蒸馏模型在 Hugging Face 平台公开发布，例如 DeepSeek-R1-Distill-Qwen-1.5B 在 Hugging Face 平台的信息如图 7-4 所示，大家可以选择需要的模型部署到本地或云服务器中进行测试。
 
-![](img/DeepSeek源码深度解析_image_616.jpg)
+![](img/DeepSeek-源码深度解析_image_616.jpg)
 
 图 7-4 DeepSeek-R1-Distill-Qwen-1.5B 模型
 

@@ -78,11 +78,11 @@
 
 例如，以下命令在 Linux 系统中运行正常。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_002.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_002.jpg)
 
 该命令如果要在 Windows 系统上正常运行，则需要把首行行尾的“\”替换成“^”。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_003.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_003.jpg)
 
 在操作系统命令行中执行的命令，如果以“#”开头，则为注释，无须执行。笔者一般会将多条命令使用注释作为区隔，以免误认。
 
@@ -192,7 +192,7 @@ DeepSeek-R1 中的“R”是 Reasoning 的缩写，旨在表达模型在逻辑�
 
 **表 1-1** **大模型领域中翻译为“推理”的英文单词情况**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_005.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_005.jpg)
 
 **3.DeepSeek 蒸馏模型**
 
@@ -278,7 +278,7 @@ GPU 内存最低需求=参数量×2×1.3
 
 GPU 内存最低需求=14×2×1.3≈37GB
 
-在具体部署过程中，由于部署工具的不同以及各种优化参数的应用，内存使用可能会有所差异。但在对算力支撑的大致估算方面，可以参考以上经验公式。 ![](img/企业级DeepSeek实战：应用开发与模型训练_image_006.jpg)
+在具体部署过程中，由于部署工具的不同以及各种优化参数的应用，内存使用可能会有所差异。但在对算力支撑的大致估算方面，可以参考以上经验公式。 ![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_006.jpg)
 
 **注意**
 
@@ -296,7 +296,7 @@ GPU 内存最低需求=14×2×1.3≈37GB
 
 **表 1-2** **基础实验条件**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_007.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_007.jpg)
 
 **1.3.1** **硬件准备**
 
@@ -306,11 +306,11 @@ GPU 内存最低需求=14×2×1.3≈37GB
 
 使用 Ubuntu22.04 操作系统，并安装 GCC 编译环境，因为后续的推理卡驱动安装以及 Python 的一些开发库需要通过编译方式安装。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_008.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_008.jpg)
 
 成功安装后，GCC 编译环境验证结果如图 1-1 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_009.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_009.jpg)
 
 图 1-1 GCC 编译环境验证结果
 
@@ -318,11 +318,11 @@ GPU 内存最低需求=14×2×1.3≈37GB
 
 从 NVIDIA 官网查找推理卡的驱动程序，下载到算力机器上进行安装，具体步骤如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_010.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_010.jpg)
 
 成功安装后，推理卡驱动安装验证结果如图 1-2 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_011.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_011.jpg)
 
 图 1-2 推理卡驱动安装验证结果
 
@@ -330,11 +330,11 @@ GPU 内存最低需求=14×2×1.3≈37GB
 
 从 NVIDIA 官网下载 CUDA。以 CUDA 12.4.0 为例，下载到算力机器上进行安装，具体步骤如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_012.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_012.jpg)
 
 成功安装后，CUDA 环境验证结果如图 1-3 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_013.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_013.jpg)
 
 图 1-3 CUDA 环境验证结果
 
@@ -342,13 +342,13 @@ GPU 内存最低需求=14×2×1.3≈37GB
 
 Python 虚拟环境 Anaconda（此处使用精简版本 Miniconda），按照以下步骤进行下载及安装。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_014.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_014.jpg)
 
 **1.3.6** **环境验证**
 
 为了确认实战工作环境，包括硬件、推理卡驱动、CUDA 和 Python 虚拟环境等是否正常，我们在 Python 虚拟环境下安装 PyTorch 库 ^(![Meta 公司开源的一种 AI 计算库，https://pytorch.org/。](img/企业级DeepSeek实战：应用开发与模型训练_#chapter4_split_001.xhtml_footnote-5-67))，然后调用 PyTorch 相关函数的方法进行整体校验，操作方法如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_015.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_015.jpg)
 
 如果执行最后一句代码，显示的结果是 True，则说明实战环境准备就绪；如果为 False 或报错，则要根据具体情况进行处理。
 
@@ -370,19 +370,19 @@ LLM 是一个实践性很强的技术领域。掌握相关知识，需要通过�
 
 以机器翻译为例，如将英文翻译成中文：
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_016.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_016.jpg)
 
 反之，从中文翻译成英文：
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_017.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_017.jpg)
 
 从上述翻译过程可以看出，采用最简单的规则，如逐词查字典式翻译，在一些情况下也能达成基本上可读的效果。但是，基于规则的方法具有不可避免的缺点，因为规则不可能覆盖所有语法。例如，对于下面的例子，还是按照逐词查字典式翻译的规则，就会出现令人困惑的结果。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_018.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_018.jpg)
 
 这种基于规则的自然语言处理方法，可以用输入法联想的场景来类比。如图 2-1 所示，医生在书写一份病历时，输入“住”字后，其输入法工具大概率会提示“本”字，完整补全为“入住本院”。但如果按照固定的规则，则预测准确的可能性就比较低。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_019.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_019.jpg)
 
 图 2-1 基于规则的自然语言处理方法的类比场景
 
@@ -394,7 +394,7 @@ LLM 是一个实践性很强的技术领域。掌握相关知识，需要通过�
 
 基于统计的自然语言处理方法，可以用带有动态词频的输入法来类比，如图 2-2 所示，经过优化的输入法，其预测结果将更为准确，而统计方法的本质是一种概率计算。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_020.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_020.jpg)
 
 图 2-2 基于统计的自然语言处理方法的类比场景
 
@@ -406,11 +406,11 @@ N-Gram 模型实现了通过前一个词预测下一个词。如图 2-3 所示�
 
 RNN 等循环神经网络则更进一步，实现了对较长距离上下文的依赖预测。如图 2-4 所示，使用前一句来预测下一个词。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_021.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_021.jpg)
 
 图 2-3 N-Gram 模型预测场景示例
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_022.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_022.jpg)
 
 图 2-4 循环神经网络预测场景示例
 
@@ -422,7 +422,7 @@ Google 翻译团队于 2017 年发表了业界著名的论文“Attention Is All
 
 大语言模型的一项核心技术是自注意力机制。这种算法在理解一段文本的含义时，会计算每个词与上下文中其他词的相关程度。再结合多头注意力机制，整体上改进了自然语言处理中对语义的理解和对新内容的预测能力。其工作场景示例如图 2-5 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_024.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_024.jpg)
 
 图 2-5 大语言模型自注意力机制的工作场景示例
 
@@ -430,7 +430,7 @@ Google 翻译团队于 2017 年发表了业界著名的论文“Attention Is All
 
 DeepSeek 系列模型基于 GPT 架构，但进行了诸多创新，其中开放权重、671B 超大规模参数、专家混合模型以及思维链的加入，使得 DeepSeek 处于领先位置。当时，无论是在技术上还是在应用推广方面，其他开源模型普遍处于追赶 DeepSeek 的态势。思维链（Chain-of-Thought，CoT）是一种通过逐步推理来解决问题的技术，在 AI Agent 中作为一种思考框架被广泛应用。DeepSeek 把这种技术集成到大模型的生成能力中，改进了模型处理复杂问题的能力。例如，在求解数学问题、生成代码时，DeepSeek 可以模仿人类的思考过程，将问题分解为多个中间步骤，从而提高答案的准确性和可解释性。DeepSeek 的思考过程如图 2-6 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_025.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_025.jpg)
 
 图 2-6 DeepSeek 思考过程示例
 
@@ -444,7 +444,7 @@ DeepSeek 是一种大语言模型，而大语言模型是一种大型神经网�
 
 从大语言模型的应用方面来看，神经网络可以被视为一个黑盒，输入一些文本后，预测出后续的文字。例如，原始输入是“你好”，大模型给出的答案大概率是“你好，……”。推理（推理、预测、生成，这三个词在此语境下的含义是一样的）产生的第一个词（Token），概率最大的是“你”。在图 2-7 中，我们可看到神经网络工作原理的示意。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_026.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_026.jpg)
 
 图 2-7 神经网络工作原理示意
 
@@ -460,7 +460,7 @@ DeepSeek 是一种大语言模型，而大语言模型是一种大型神经网�
 
 在理解神经网络的基本工作过程后，我们再讲解神经网络黑盒内部的工作原理。神经网络由多个神经元组成，每个神经元内包括权重、算法和激活函数。我们仍以输入文字预测下一个词元为例。图 2-8 展示了神经网络内部工作结构的概览。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_027.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_027.jpg)
 
 图 2-8 神经网络内部工作结构概览
 
@@ -482,7 +482,7 @@ DeepSeek 是一种大语言模型，而大语言模型是一种大型神经网�
 
 ⑤激活函数包括 Sigmoid、线性整流函数（ReLU）、双曲正切函数（tanh）、符号函数（sign）等，见图 2-9。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_028.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_028.jpg)
 
 图 2-9 常用的激活函数
 
@@ -508,11 +508,11 @@ DeepSeek 是一种大语言模型，而大语言模型是一种大型神经网�
 
 ⑤参数调整并非随机设定，而是基于算法和方法论的。常用的方法为梯度下降法，如图 2-11 所示。首先设定一个初始值，根据每次损失值的下降速度（下降曲线的斜率），设定每次修改参数的增量。Loss 下降快，就多改一些；下降慢，就少改一些。如果方向错误，就乘以负数。当修改量过大时，可以乘以学习率常量进行调整。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_029.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_029.jpg)
 
 图 2-10 正向传播与反向传播的示意
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_030.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_030.jpg)
 
 图 2-11 神经网络训练的梯度下降法
 
@@ -522,7 +522,7 @@ DeepSeek 是一种大语言模型，而大语言模型是一种大型神经网�
 
 以 DeepSeek-R1 为例，为了简化描述，暂不考虑多 Token 预测。基于神经网络，大语言模型的推理过程如图 2-12 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_031.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_031.jpg)
 
 图 2-12 大语言模型的推理过程
 
@@ -554,7 +554,7 @@ Transformer 架构采用“编码器-解码器”结构，通过堆叠多层自�
 
 自注意力机制将一个序列的不同位置联系起来，以计算序列的表示形式。自注意力允许模型查看输入序列中的其他部分，从而更好地理解序列中的某个词元。自注意力机制引入了三个关键组件：查询（Query）、键（Key）和值（Value）。每个输入向量首先生成对应的查询、键和值向量。查询向量用于计算与所有键的相似度，反映当前输入对其他输入的关注程度。每个键与对应的值向量一一对应，相似度高的键会影响值的加权计算。通过这种方式，模型能够动态地在长序列中选择重要信息，从而捕捉上下文关系。自注意力计算的公式如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_032.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_032.jpg)
 
 公式中，***Q***、***K***、***V***分别是查询、键和值的矩阵表示，*d*[k]是键向量的维度，用于缩放以防止数值过大。为了帮助读者直观理解这种机制，我们以输入“你是谁训练的？”为例，讲解***Q***、***K***、***V***的含义和计算过程。
 
@@ -626,13 +626,13 @@ Transformer 架构采用“编码器-解码器”结构，通过堆叠多层自�
 
 按以上步骤设定好输入参数，其中模拟了***W******^Q***、***W******^K***、***W******^V***三个权重，后续对***Q***、***K***、***V***、自注意力分数等进行计算。为了便于开发人员理解，下面使用一段程序进行展示。将计算自注意力分数的程序命名为 self-attention.py。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_033.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_034.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_035.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_033.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_034.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_035.jpg)
 
 **4.计算自注意力分数**
 
 按以下步骤创建 Python 虚拟环境，安装用于向量计算的 PyTorch 库后，运行计算程序。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_036.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_036.jpg)
 
 （1）计算***Q***、***K***、***V***
 
@@ -790,11 +790,11 @@ DeepSeek-AI 拥有众多模型，以下重点介绍 2024 年底之后随着预�
 
 **表 3-1 DeepSeek 系列模型分类**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_038.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_038.jpg)
 
 （续）
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_039.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_039.jpg)
 
 在企业级应用中，DeepSeek 的具体部署方面，知名度较高的是 671B 的 DeepSeek-V3 以及 DeepSeek-R1，这些通常被业界称为“满血”版 DeepSeek。然而，由于部署这些“满血”模型需要较高的算力，因此在许多企业级应用场景中，更轻量级的蒸馏模型（如 DeepSeek-R1-Distill-Qwen-32B 和 DeepSeek-R1-Distill-Llama-70B）往往更为常见。
 
@@ -812,7 +812,7 @@ DeepSeek-AI 拥有众多模型，以下重点介绍 2024 年底之后随着预�
 
 **表 3-2 计算机数据处理过程中的位数与占用空间**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_040.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_040.jpg)
 
 **2.数据格式**
 
@@ -820,7 +820,7 @@ DeepSeek-AI 拥有众多模型，以下重点介绍 2024 年底之后随着预�
 
 **表 3-3 机器学习中常用的数据格式**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_041.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_041.jpg)
 
 **3.2.2 大模型量化技术**
 
@@ -832,7 +832,7 @@ DeepSeek-AI 拥有众多模型，以下重点介绍 2024 年底之后随着预�
 
 大模型的权重如果以 FP16 量化成 INT8，存储空间从 2 字节降为 1 字节，GPU 内存需求下降一半。实现过程如图 3-1 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_042.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_042.jpg)
 
 图 3-1 INT8 量化实现过程
 
@@ -848,7 +848,7 @@ DeepSeek-AI 拥有众多模型，以下重点介绍 2024 年底之后随着预�
 
 大模型的权重如果以 FP16 量化为 INT4，存储空间从 2 字节降为半个字节。降到这样的精度后，通过数学等价方法，可以将浮点计算拆解为整数矩阵相乘和缩放因子校正的步骤，从而实现在 CPU 上进行计算。例如，llama.cpp 的 Q4 量化模型可直接在 CPU 上运行 INT4 计算。INT4 量化实现过程如图 3-2 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_043.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_043.jpg)
 
 图 3-2 INT4 量化实现过程
 
@@ -872,13 +872,13 @@ DeepSeek-AI 拥有众多模型，以下重点介绍 2024 年底之后随着预�
 
 计算公式如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_044.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_044.jpg)
 
 通过以上公式计算可知，671B 模型的权重占用的内存空间约为 625GB。再加上 KV 缓存和框架开销等约占 30%的额外空间，总内存占用为 625GB×1.3，约等于 812.5GB。由于这是估算值，通常取整数约为 800GB。这 30%的额外空间是经验值，与使用的工具和优化方法有关，并非精确值，比如，直接使用 transformers 库编写推理程序，7B 模型在半精度下仅需要约 15GB 内存即可正常运行，而使用 vLLM 工具，则可能占用约 18GB 内存。表 3-4 是 DeepSeek 各种模型在不同精度下占用内存的估算情况。
 
 **表 3-4 DeepSeek 各种模型在不同精度下占用内存的估算情况**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_045.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_045.jpg)
 
 此算法同样适用于其他模型。例如，GLM-4-9B 模型在半精度下约占用 22GB 内存，FP8/INT8 精度下占用 11GB 内存，INT4 精度下占用 5.5GB 内存。
 
@@ -888,7 +888,7 @@ DeepSeek-AI 拥有众多模型，以下重点介绍 2024 年底之后随着预�
 
 **表 3-5 DeepSeek 模型部署设备估算示例**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_046.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_046.jpg)
 
 如果采用量化部署的方法，且在 CPU 上运行，则机器的物理总内存大于最低运行内存要求即可。例如，DeepSeek-R1 的 4Bit 量化模型在未安装 GPU 的情况下，需要物理内存的峰值最大为 400GB。如果机器有 512GB 内存，就可以运行起来。在实际应用中，由于 Ollama 等量化工具对权重装入内存的方式进行了优化，用到的物理内存比按权重整体装入内存的测算结果小得多。量化模型运行的性能与 CPU 的核数和计算能力有关。
 
@@ -912,7 +912,7 @@ Ollama 是一款大语言模型推理工具，可以在本地运行 Llama 3.3�
 
 Ollama 的 Windows 安装包可从其官网（https://ollama.com/download）下载，如图 3-3 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_047.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_047.jpg)
 
 图 3-3 下载 Ollama 的 Windows 安装程序
 
@@ -922,11 +922,11 @@ Ollama 的 Windows 安装包可从其官网（https://ollama.com/download）下�
 
 在 Linux 安装 Ollama 的最简单方法是使用官网上介绍的命令。该命令只有一句，如下所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_048.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_048.jpg)
 
 但在执行 install.sh 的过程中，下载安装包的速度往往较慢，建议更换安装源，比如使用以下命令安装。这样会从 aliendao.cn 下载安装包，下载速度明显快于官网。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_049.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_049.jpg)
 
 需要注意的是，以上方法所使用的链接可能会失效，读者可自行通过搜索引擎搜索等方法找到安装包下载速度快的路径
 
@@ -934,37 +934,37 @@ Ollama 的 Windows 安装包可从其官网（https://ollama.com/download）下�
 
 为了让其他机器能够访问 Ollama 提供的大模型服务，需要按照以下步骤修改配置。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_050.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_050.jpg)
 
 使用以下命令查看 Ollama 服务的日志：
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_051.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_051.jpg)
 
 **3.4.3 DeepSeek 在 CPU 上的部署**
 
 先从 Ollama 的官网上搜索 DeepSeek 的量化模型，如图 3-4 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_052.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_052.jpg)
 
 图 3-4 搜索 DeepSeek 量化模型
 
 选择要运行的模型后，再选择模型的类型，如图 3-5 的①处所示，②处为具体执行的命令，命令代码示例如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_053.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_053.jpg)
 
 图 3-5 中还有两个地方也要关注：③处显示的是模型下载后占用硬盘的大小，④处显示的是量化算法，常见的有 Q4、Q8 等。量化算法不同，推理计算误差也不同。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_054.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_054.jpg)
 
 图 3-5 选择模型的类型
 
 以 DeepSeek-R1-Distill-Qwen-7B 模型的 Q4 量化版本为例，运行以下命令。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_055.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_055.jpg)
 
 首次运行该命令时，会从 Ollama 官网自动下载模型权重文件。下载完成后，模型会被装入内存，提供交互式服务。输入问题后，Ollama 开始推理并形成答案。运行结果如图 3-6 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_056.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_056.jpg)
 
 图 3-6 Ollama 运行结果
 
@@ -978,11 +978,11 @@ vLLM 是一个高效的大语言模型推理和服务框架，由加州大学伯
 
 **1.建立虚拟环境**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_057.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_058.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_057.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_058.jpg)
 
 **2.安装依赖库**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_059.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_059.jpg)
 
 **3.5.2 DeepSeek 在 GPU 上的部署**
 
@@ -990,11 +990,11 @@ vLLM 是一个高效的大语言模型推理和服务框架，由加州大学伯
 
 **1.下载模型**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_060.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_060.jpg)
 
 **2.运行模型服务**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_061.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_061.jpg)
 
 “vllm serve”命令的参数解释如下。
 
@@ -1016,7 +1016,7 @@ vLLM 是一个高效的大语言模型推理和服务框架，由加州大学伯
 
 运行结果如图 3-7 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_062.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_062.jpg)
 
 图 3-7 vLLM 运行 DeepSeek 模型的结果
 
@@ -1030,17 +1030,17 @@ vLLM 是一个高效的大语言模型推理和服务框架，由加州大学伯
 
 **1.Chat_bot 源代码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_063.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_064.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_063.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_064.jpg)
 
 **2.运行 Chat_bot**
 
 先启动 vLLM 服务，然后进行以下操作，运行 Chat_bot。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_065.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_066.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_065.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_066.jpg)
 
 运行结果如图 3-8 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_067.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_067.jpg)
 
 图 3-8 Chat_bot 运行结果
 
@@ -1098,31 +1098,31 @@ Docker 是一种基于 Linux 操作系统的虚拟化技术，通过将所有依
 
 （1）安装依赖包
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_069.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_069.jpg)
 
 （2）设置安装镜像
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_070.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_070.jpg)
 
 （3）安装
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_071.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_071.jpg)
 
 （4）验证安装
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_072.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_072.jpg)
 
 （5）修改 Docker 镜像
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_073.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_073.jpg)
 
 （6）重启 Docker
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_074.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_075.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_074.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_075.jpg)
 
 （7）验证 DockerCompose 安装
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_076.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_076.jpg)
 
 **2.LibreChat 安装**
 
@@ -1132,31 +1132,31 @@ Docker 是一种基于 Linux 操作系统的虚拟化技术，通过将所有依
 
 （2）下载源码
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_077.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_077.jpg)
 
 （3）LibreChat 配置
 
 为了让 LibreChat 支持本地部署的 DeepSeek 大模型服务，需要对配置文件进行以下修改。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_078.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_079.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_078.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_079.jpg)
 
 以上配置针对使用 vLLM 部署的 DeepSeek 服务。如果部署工具换成 Ollama，则需要将端口从 8000 换成 11434，然后将“models→default→deepseek”处的相应代码更换成 Ollama 加载的模型名称。
 
 （4）启动 LibreChat 服务
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_080.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_080.jpg)
 
 **3.LibreChat 应用**
 
 在浏览器中输入 http://deepseek-dev:3080，注册一个用户并登录，如图 4-1 所示，设定 DeepSeek 为默认大模型服务。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_081.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_081.jpg)
 
 图 4-1 配置 LibreChat 的默认模型服务
 
 用户输入问题，LibreChat 会调用 DeepSeek 推理生成答案。用户也可上传文件，以供模型分析和作为知识库使用。结果如图 4-2 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_082.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_082.jpg)
 
 图 4-2 用户与 LibreChat 的问答过程
 
@@ -1172,7 +1172,7 @@ Open WebUI 通过 Python 库 open-webui 和“open-webui serve”命令启动�
 
 **1.Open WebUI 安装**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_083.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_083.jpg)
 
 **2.启动大语言模型服务**
 
@@ -1180,7 +1180,7 @@ Open WebUI 通过 Python 库 open-webui 和“open-webui serve”命令启动�
 
 **3.Open WebUI 应用**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_084.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_084.jpg)
 
 上述代码中，OPENAI_API_BASE_URL 的配置项指向 vLLM 启动的大语言模型服务。如果大语言模型服务是用 Ollama 启动的，则将端口从 8000 修改为 11434，DEFAULT_MODELS 设置为模型名称。
 
@@ -1190,7 +1190,7 @@ Open WebUI 通过 Python 库 open-webui 和“open-webui serve”命令启动�
 
 在 Open WebUI 安装并配置完成后，默认会在本地机器的 8080 端口上提供服务。如果直接将这个端口暴露给外部网络，允许企业用户进行访问，那么将会面临许多安全隐患和性能瓶颈。为了确保数据传输的安全性，特别是在公网上运行此应用时，使用 SSL 证书是至关重要的。基于这些考虑，作为企业应用，一般需要在 8080 端口的前端额外部署一个应用服务器，用作反向代理。通过这种方式，不仅可以利用负载均衡技术来提升应用的性能，还可以通过配置 SSL 证书来加密数据链路，确保通信的安全。此外，还可以设置访问白名单来限制只有授权的用户才能访问应用，以及配置流量控制策略来管理访问流量，从而进一步加强应用的整体安全性。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_085.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_085.jpg)
 
 图 4-3 Open WebUI 运行效果
 
@@ -1204,7 +1204,7 @@ Nginx 作为一个高性能的 HTTP 和反向代理服务器，被广泛用于�
 
 （2）Nginx 在 Ubuntu 上的安装
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_086.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_087.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_086.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_087.jpg)
 
 （3）Nginx 配置
 
@@ -1212,7 +1212,7 @@ Nginx 作为一个高性能的 HTTP 和反向代理服务器，被广泛用于�
 
 以下是一个简单的 Nginx 配置示例，用于将 HTTP 请求转发到 Open WebUI。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_088.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_088.jpg)
 
 如果需要使用 HTTPS，那么还需要配置 SSL 证书。通常将证书文件（.crt）和私钥文件（.key）的路径添加到 Nginx 配置中，并在 server 块中启用 SSL 参数。
 
@@ -1224,7 +1224,7 @@ Nginx 默认配置的并发连接数较小，如果用于企业级服务，则�
 
 完成配置后，需要测试 Nginx 配置的正确性，并重启 Nginx 服务以使更改生效。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_089.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_089.jpg)
 
 至此，Nginx 已经被成功配置为 Open WebUI 的反向代理。可以通过配置的域名或 IP 地址访问 Open WebUI，所有的请求都将通过 Nginx 进行转发和处理。这样操作可以提升应用的安全性和性能。
 
@@ -1244,7 +1244,7 @@ DeepSeek 可以生成文本数据，但如果需要制作图表，则必须与�
 
 工具加载。XML 的格式举例如下：
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_090.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_091.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_090.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_091.jpg)
 
 注意：mxCell 元素的属性不能重复定义
 
@@ -1258,7 +1258,7 @@ DeepSeek 可以生成文本数据，但如果需要制作图表，则必须与�
 
 用 draw.io 软件打开此 XML 文件，然后在此基础上进行简单的加工修改，使其更加美观和真实表达使用者的意图。打开 DeepSeek 生成的 draw.io 图表示例，结果如图 4-4 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_092.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_092.jpg)
 
 图 4-4 DeepSeek 生成的 draw.io 图表示例
 
@@ -1268,7 +1268,7 @@ DeepSeek 可以生成文本数据，但如果需要制作图表，则必须与�
 
 **1.克隆 draw.io 的源码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_093.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_093.jpg)
 
 在 examples 目录下找到合适的例子，然后通过“文件→导出→XML”的操作导出为 XML 文件。
 
@@ -1276,7 +1276,7 @@ DeepSeek 可以生成文本数据，但如果需要制作图表，则必须与�
 
 用于提示词的示例，可以按前述例子中的 XML 内容进行设定。目前大模型允许的输入窗口长度都超过 8K，所以提示词只要不超过 8K 就能被大模型接受。如果确实过长，则可以删除中间部分内容。如图 4-5 所示是以 infographic-project-steps.drawio 为例生成的结果。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_094.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_094.jpg)
 
 图 4-5 draw.io 图表优化结果
 
@@ -1316,11 +1316,11 @@ camel-ai/owl 支持通过搜索引擎进行实时信息检索与知识获取，�
 
 **1.下载源码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_096.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_096.jpg)
 
 **2.安装**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_097.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_097.jpg)
 
 **3.运行大模型服务**
 
@@ -1328,7 +1328,7 @@ camel-ai/owl 支持本地部署的大语言模型服务，但需要依赖大语�
 
 首先，参考 3.5 节的步骤建立 vLLM 的基础运行环境。但在运行 DeepSeek 大模型时，所需方法与 3.5 节稍有区别，就是为了支持模型的工具调用特性新增了两个参数，命令如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_098.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_098.jpg)
 
 其中，需要注意以下几个参数。
 
@@ -1348,37 +1348,37 @@ camel-ai/owl 支持本地部署的大语言模型服务，但需要依赖大语�
 
 与大部分由 Python 开发的 Agent 相类似，camel-ai/owl 可以通过修改.env 文件的方法设置应用运行的参数。还有一种设置参数的方法是在运行应用程序前设置系统环境变量。应用程序启动时会加载这些变量，使用效果等同于修改.env 文件。环境变量的设置方法在 Linux 和 Windows 上稍有区别。camel-ai/owl 连接 DeepSeek 需要配置 DEEPSEEK_API_KEY 和 DEEPSEEK_API_BASE_URL 两个参数，调用的模型为固定值 deepseek-chat，不需要额外配置。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_099.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_099.jpg)
 
 **2.验证 DeepSeek 测试程序**
 
 camel-ai/owl 对 DeepSeek 进行了良好的支持，为其开发了专用例程 examples/run_deepseek_zh.py。在已设定环境变量的前提下，执行以下命令，完成一个目标为“搜索 OWL 项目最近的新闻并生成一篇报告，最后保存到本地”的任务。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_100.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_100.jpg)
 
 运行过程如图 5-1 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_101.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_101.jpg)
 
 图 5-1 camel-ai/owl 的 DeepSeek 例程运行情况
 
 运行 examples/run_deepseek_zh.py 时，也可以将目标任务以参数形式传入，示例如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_102.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_102.jpg)
 
 **3.运行 WebUI 应用**
 
 以命令行方式使用 camel-ai/owl，适合将其作为一个工具，但对于非专业人员来说，有一定的使用门槛，不便于在企业中推广。为此，owl/webapp_zh.py 提供了 WebUI 供用户使用。该程序启动后，默认在 localhost:7860 上提供服务。这在本机上访问不存在问题，但当应用在 Linux 上运行时，若需要从其他机器（如 Windows）通过浏览器访问应用，就会存在问题。而在企业应用中，Web 访问是一种最常见的操作方式。为了实现异机访问，需要对 owl/webapp_zh.py 进行微小的调整，修改内容如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_103.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_103.jpg)
 
 在完成 DeepSeek 相关环境变量设置后，运行以下命令启动 WebUI 服务。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_104.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_104.jpg)
 
 在浏览器中访问 http://deepseek-dev:7860，输入设定的目标任务“通过百度搜索采集相关信息，总结一下 DeepSeek 的技术特点和优势，形成一篇 3000 字的总结报告”，并将 run_deepseek_zh 作为中文处理的功能模块，单击“运行”。运行过程如图 5-2 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_105.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_105.jpg)
 
 图 5-2 camel-ai/owl 的 WebUI 运行过程
 
@@ -1394,23 +1394,23 @@ OpenManus 是一个与 Manus 类似的产品，由 MetaGPT 团队开发，是一
 
 **1.下载源码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_106.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_106.jpg)
 
 **2.安装**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_107.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_107.jpg)
 
 **3.配置**
 
 （1）复制配置文件
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_108.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_108.jpg)
 
 （2）修改配置文件
 
 修改配置文件 config/config.toml，代码如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_109.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_109.jpg)
 
 **5.3.3 运行 OpenManus 应用**
 
@@ -1418,11 +1418,11 @@ OpenManus 是一个与 Manus 类似的产品，由 MetaGPT 团队开发，是一
 
 首先运行一个简单的 OpenManus 单智能体应用。执行以下命令。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_110.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_110.jpg)
 
 输入任务，例如“用 Spring MVC 开发一个图书管理信息系统”，结果如图 5-3 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_111.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_111.jpg)
 
 图 5-3 OpenManus 单智能体应用运行结果
 
@@ -1430,11 +1430,11 @@ OpenManus 是一个与 Manus 类似的产品，由 MetaGPT 团队开发，是一
 
 OpenManus 多智能体应用由多个角色的 Agent 协同完成任务。执行以下命令。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_112.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_112.jpg)
 
 输入任务，例如“撰写一份在型材生产企业中实施 DeepSeek 的项目建议书，使用中文书写”，结果如图 5-4 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_113.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_113.jpg)
 
 图 5-4 OpenManus 多智能体应用运行结果
 
@@ -1444,7 +1444,7 @@ OpenManus 多智能体应用由多个角色的 Agent 协同完成任务。执行
 
 **1.下载源码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_114.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_115.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_114.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_115.jpg)
 
 **2.配置**
 
@@ -1454,21 +1454,21 @@ OpenManusWeb 的配置方法与 OpenManus 相同，也是修改 config/config.to
 
 OpenManusWeb 使用的环境与 OpenManus 基本相同，使用同一个 Python 虚拟环境 open_manus。使用前需要先激活虚拟环境。为了实现 WebUI 的特性，需要增加 watchdog 和 websockets 两个库，安装方法如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_116.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_116.jpg)
 
 **4.运行应用**
 
 OpenManusWeb 默认要经过 30 次迭代后生成最终结果。若用于测试，等待时间过长，因此可以通过修改程序适当减少迭代次数。如果用于生产环境，则要根据结果的准确程度、算力情况和等待时长等综合因素，设置一个适中的迭代次数。修改方法如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_117.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_117.jpg)
 
 使用以下命令打开 WebUI 程序。由于 web_run.py 默认监听在 8000 端口，与 vLLM 的服务端口 8000 相同，如果此程序与大模型服务处于同一台机器，就会发生端口冲突。为了避免端口抢占，使用“-port 7860”错开端口号。而“-no-browser”的作用是当程序启动时，默认不自动打开浏览器。这一特性在 Windows 上有一定的方便性，但在 Linux 上运行时，如不设此参数，则会出现提示，但不影响使用。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_118.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_118.jpg)
 
 访问 http://deepseek-dev:7860。输入任务，例如“请撰写一个螺纹钢的热处理工艺流程”，结果如图 5-5 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_119.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_119.jpg)
 
 图 5-5 OpenManusWeb 应用运行结果
 
@@ -1532,7 +1532,7 @@ Dify 是一款功能全面的应用，其安装和配置过程具有一定复杂
 
 本节使用 Dify 将知识库与大模型整合，因此除了需要提供用于 Chat 环节的推理模型外，还需要提供用于知识库检索的嵌入模型。在一些定制访问知识库的工作流应用中，还需要使用 OpenAI 的服务，模型指定为 gpt-3.5-turbo 或 gpt-4o-mini。这么复杂的模型需求，在本地使用 vLLM 实现较为困难，使用线上模型服务往往不符合企业场景需求，如果使用 Ollama 加载模型，则较为灵活，也容易实现。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_121.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_122.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_121.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_122.jpg)
 
 **注意**
 
@@ -1542,13 +1542,13 @@ Dify 是一款功能全面的应用，其安装和配置过程具有一定复杂
 
 Dify 仍在持续迭代开发中，很多功能和配置可能随时发生变化。为了减少版本更新导致书中所述操作步骤与实际代码不符的情况，建议在获取代码后通过“git checkout”命令将源码签出到一个特定的版本上。这样，无论 Dify 后续如何发展，都不会影响书中实践操作的准确性。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_123.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_123.jpg)
 
 **4.安装**
 
 在以下过程中，修改.env 文件中的 pip 镜像配置至关重要。如果不修改，则后续会有很多 Dify 配置操作无法顺利完成，并且前端不会显示错误信息，导致排查问题变得困难。具体的修改方法是将 PIP_MIRROR_URL 设置为一个可用的 pip 镜像地址。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_124.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_125.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_124.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_125.jpg)
 
 **5.配置**
 
@@ -1558,7 +1558,7 @@ Dify 仍在持续迭代开发中，很多功能和配置可能随时发生变化
 
 如图 6-1 所示，单击右上角的用户图标，选择“设置”→“模型供应商”，分别安装 Ollama 和 OpenAI。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_126.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_126.jpg)
 
 图 6-1 安装模型供应商
 
@@ -1570,25 +1570,25 @@ Dify 仍在持续迭代开发中，很多功能和配置可能随时发生变化
 
 Ollama 模型的配置需要分为推理模型和嵌入模型，具体配置方法如图 6-4 和图 6-5 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_127.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_127.jpg)
 
 图 6-2 安装模型供应商的结果
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_128.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_128.jpg)
 
 图 6-3 OpenAI 模型配置
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_129.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_129.jpg)
 
 图 6-4 Ollama 模型配置（1）
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_130.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_130.jpg)
 
 图 6-5 Ollama 模型配置（2）
 
 配置好 OpenAI 和 Ollama 模型后，还需要进行系统模型设置。设置全局默认的推理模型和嵌入模型，如图 6-6 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_131.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_131.jpg)
 
 图 6-6 系统模型设置
 
@@ -1600,13 +1600,13 @@ Ollama 模型的配置需要分为推理模型和嵌入模型，具体配置方�
 
 从工具栏中选择“知识库”，然后创建知识库，并导入一些文本文件用于测试。由于我们已配置过嵌入模型 nomic-embed-text，因此索引方式默认设置为“高质量”，而其他配置项使用默认值即可，如图 6-7 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_132.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_132.jpg)
 
 图 6-7 知识库索引设置
 
 知识库建立完成后，可以进行“召回测试”，输入与导入文本文件内容相关的问题，查看是否能命中知识库的内容。运行效果如图 6-8 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_133.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_133.jpg)
 
 图 6-8 知识库召回测试
 
@@ -1614,13 +1614,13 @@ Ollama 模型的配置需要分为推理模型和嵌入模型，具体配置方�
 
 先单击工具栏中的“工作室”，然后单击“创建空白应用”，建立一个“Chat Bot”应用。接着，添加一个知识库，在弹出窗口中选中已建立的知识库，如图 6-9 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_134.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_134.jpg)
 
 图 6-9 ChatBot 的知识库引用设置
 
 单击工具栏中的“探索”，选择上一步定义的 ChatBot 应用。在与“ChatBot”交互时，知识库的内容会被引用来增强模型的生成内容。如图 6-10 所示，单击引用的文件，还可以跳转到知识库中查看引用文件的详细内容。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_135.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_135.jpg)
 
 图 6-10 与 ChatBot 交互时使用知识库
 
@@ -1628,31 +1628,31 @@ Ollama 模型的配置需要分为推理模型和嵌入模型，具体配置方�
 
 先单击工具栏中的“工作室”，然后单击“从应用模板创建”，建立一个“Knowledge Retrieval+Chatbot”应用，如图 6-11 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_136.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_136.jpg)
 
 图 6-11 从应用模板创建“Knowledge Retrieval+Chatbot”应用
 
 流程图的配置是通过 Dify 的图形化界面实现的。在 Knowledge Retrieval 组件的配置中，需要挂载知识库，如图 6-12 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_137.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_137.jpg)
 
 图 6-12 Knowledge Retrieval 组件挂载知识库
 
 配置完成知识库后，可以测试验证，如图 6-13 所示。需要注意的是，这个组件依赖于 OpenAI 模型服务。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_138.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_138.jpg)
 
 图 6-13 测试运行 Knowledge Retrieval 组件
 
 接下来配置 LLM 组件，将模型设置为 deepseek-r1，如图 6-14 所示。配置完成后，单击右上角的“发布”使配置生效。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_139.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_139.jpg)
 
 图 6-14 配置 LLM 组件
 
 从工具栏选择“探索”，然后在工作区中找到“Knowledge Retrieval+Chatbot”应用，就可以与支持工作流的 RAG 应用对话了。工作流应用提供对每个子流程的监控，可查看工作流中每个组件执行的用时，如图 6-15 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_140.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_140.jpg)
 
 图 6-15 “Knowledge Retrieval+Chatbot”应用运行情况
 
@@ -1664,13 +1664,13 @@ Dify 的安装和配置步骤较多，如果是首次使用 Dify，操作起来�
 
 首先参考 3.5 节，建立 vLLM 的基础运行环境。然后用 vLLM 命令启动大模型服务。需要注意的是，served-model-name 必须设置为 deepseek-chat，以便模型名称与 Dify 的模型提供商所支持的模型名称列表保持一致。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_141.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_142.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_141.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_142.jpg)
 
 **2.配置模型参数**
 
 在“设置”→“模型服务商”→“安装模型服务商”中，增加“深度求索”，并进行配置。配置项目包括两项：一项是“API Key”，可填写任意值；另一项是“自定义 API endpoint 地址”，需要设置为 vLLM 提供的大模型服务地址，如图 6-16 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_143.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_143.jpg)
 
 图 6-16 “深度求索”模型参数设置
 
@@ -1684,7 +1684,7 @@ Dify 的安装和配置步骤较多，如果是首次使用 Dify，操作起来�
 
 Dify 还在快速进化中，如果需要跟进新的特性，则可按以下步骤对其升级。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_144.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_145.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_144.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_145.jpg)
 
 图 6-17 修改应用的推理模型设置
 
@@ -1702,7 +1702,7 @@ SearXNG 是一个完全免费的互联网元搜索引擎 ^(¹⁰)，汇集多达
 
 **1.下载源码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_146.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_146.jpg)
 
 **2.配置**
 
@@ -1710,19 +1710,19 @@ SearXNG 是一个完全免费的互联网元搜索引擎 ^(¹⁰)，汇集多达
 
 在.env 文件中，只需要修改一处主机名配置。如果不修改，则外部只能通过 https://localhost 访问 SearXNG。由于用户需要在企业内网中访问，将主机名设为 IP 地址则更方便处于 Docker 容器中的 Open WebUI 应用访问。配置修改如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_147.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_147.jpg)
 
 （2）修改 docker-compose.yaml
 
 对 docker-compose.yaml 的第一处修改在于 cap_drop 配置。这是 Docker 中一个与安全相关的功能，用于减少容器拥有的 Linux 内核能力，从而遵循最小权限原则，增强容器安全性。docker-compose.yaml 中 searxng 段中的“cap_drop:-ALL”配置会导致 SearXNG 服务在首次启动并创建/etc/searxng/uwsgi.ini 文件时发生“Permission denied”而失败，所以需要修改配置如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_148.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_148.jpg)
 
 注意，这个配置项在 docker-compose.yaml 文件中不只存在一处，而只需要修改 searxng 部分的那一处配置。基于安全的考虑，在 SearXNG 正常运行后，应该将这些选项再加回来。
 
 对 docker-compose.yaml 的第二处修改是将 SearXNG 只在 127.0.0.1:8080 监听的 HTTP 服务对外开放。这样做的目的是，SearXNG 默认使用 Caddy 作为反向代理支持 HTTPS，在未配置 SSL 证书的情况下访问会有 SSL 安全警告。这在通过网页访问时可以手动选择忽略，但在 Open WebUI 调用时，会出现无法忽略的 SSL 校验错误。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_149.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_150.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_149.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_150.jpg)
 
 （3）修改 searxng/settings.yml
 
@@ -1730,31 +1730,31 @@ SearXNG 是一个完全免费的互联网元搜索引擎 ^(¹⁰)，汇集多达
 
 第一处，用 sed 命令新生成一个 secret_key 替代默认的 ultrasecretkey，配置如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_151.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_151.jpg)
 
 第二处，修改的目的是禁用流量控制。因为本地部署的 SearXNG 不太可能由于流量过大出现“Too many requests”之类的问题，打开这个参数还需要其他更精细的参数支持。修改结果如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_152.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_152.jpg)
 
 第三处，将 Bing 配置为默认的搜索引擎，禁用其他，以改善搜索效率。对此，engines 部分修改如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_153.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_153.jpg)
 
 第四处，配置搜索结果数据格式，增加以下配置。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_154.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_154.jpg)
 
 由于该文件的配置项较多，修改时容易出现遗漏，下面列出完整的代码，供读者参考。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_155.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_156.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_155.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_156.jpg)
 
 **3.运行与测试**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_157.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_157.jpg)
 
 首次运行时需要拉取 Docker 镜像，因此等待时间较长。运行过程中，可以使用以下命令查看日志以排查问题。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_158.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_158.jpg)
 
 在浏览器中访问 https://172.16.62.167/，然后进行搜索测试。首次运行时可能会出现一个错误提示：“searx.preferences.ValidationException:Invalid value:"zh-Hans"”。需要将“Preferences（首选项）”中的搜索语言修改为“自动检测[auto]”。
 
@@ -1762,17 +1762,17 @@ SearXNG 是一个完全免费的互联网元搜索引擎 ^(¹⁰)，汇集多达
 
 完成所有配置后，输入问题进行搜索，结果如图 6-18 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_159.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_159.jpg)
 
 图 6-18 使用 SearXNG 搜索
 
 SearXNG 搜索的结果默认以网页方式显示，这样不便于向 RAG 系统提供数据。通过 URL 参数拼接，可以将搜索结果以 JSON 格式返回，示例如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_160.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_160.jpg)
 
 按此 URL 请求的结果如图 6-19 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_161.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_161.jpg)
 
 图 6-19 以 JSON 格式显示 SearXNG 搜索结果
 
@@ -1782,17 +1782,17 @@ SearXNG 搜索的结果默认以网页方式显示，这样不便于向 RAG 系�
 
 然后，在浏览器中访问 http://deepseek-dev:3000，注册后登录 Open WebUI 应用。单击右上角的用户图标，依次选择“设置”→“管理员设置”→“联网搜索”，然后打开“联网搜索”选项。在“联网搜索引擎”中选择“searxng”，并将“Searxng 查询 URL”设置如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_162.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_162.jpg)
 
 由于 SearXNG 是本地部署的，因此不应使用 HTTPS 协议，设置完成后保存，设置立即生效。设置过程如图 6-20 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_163.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_163.jpg)
 
 图 6-20 Open WebUI 设置 SearXNG 参数
 
 在与大语言模型对话时，勾选“联网搜索”，即可将 SearXNG 的搜索结果与大语言模型的推理功能整合，结果如图 6-21 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_164.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_164.jpg)
 
 图 6-21 Open WebUI 与 SearXNG 整合
 
@@ -1824,7 +1824,7 @@ Janus-Pro 是 Janus 的高级版本。相比 Janus，Janus-Pro 优化了训练�
 
 **1.下载源码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_166.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_166.jpg)
 
 **2.修改源码**
 
@@ -1832,25 +1832,25 @@ Python 的库依赖关系管理通常采用 requirements.txt 或 pyproject.toml 
 
 但在实践中，由于库之间依赖的复杂性，并非所有库的新版本都能兼容旧版本。因此，会出现以下现象：在应用程序开发的某个时间点，设置最低版本的依赖项，应用程序正常工作，但经过一段时间，再以此依赖关系安装库时，应用程序可能由于库之间的兼容性问题而无法正常工作。解决该问题的方法是在 requirements.txt 或 pyproject.toml 文件中为每个库设定固定的版本号，将库依赖关系固定在某些版本上。使用这种方法，基本上可以解决 Python 库冲突的问题，但仍不彻底。因为固定版本的库，可能未在其自身的 requirements.txt 文件中指定某个依赖库的版本，这样随着时间的推移也会导致库冲突问题。虽然无法彻底解决这一问题，但为了尽量减少库冲突，可以对 requirements.txt 进行如下修改。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_167.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_167.jpg)
 
 在本节中，我们将使用 demo/app_januspro.py 例程。在该例程中，当运行程序时，系统会自动从 Hugging Face 网站（huggingface.co）下载所需的模型文件。
 
 为了提升程序的运行效率，我们采取本地加载模型的方法，即先将模型文件从 aliendao.cn 下载到本地计算机，然后让程序从本地加载模型文件。为实现这一方案，需要对例程中的模型名称进行一些细微调整。此外，例程中的 WebUI 服务默认监听的地址是 127.0.0.1，这意味着该服务只能在本机上使用，无法从其他计算机访问。对此，我们还需要对例程进行一处修改，以便实现从其他计算机的浏览器访问该 WebUI 服务。具体修改如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_168.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_168.jpg)
 
 **3.安装依赖库**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_169.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_169.jpg)
 
 **4.下载模型**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_170.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_170.jpg)
 
 **5.运行 WebUI 服务**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_171.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_171.jpg)
 
 **7.2.3 Janus 应用**
 
@@ -1872,7 +1872,7 @@ English Version
 
 在浏览器中访问 http://deepseek-dev:7860，在“Text-to-Image Generation”功能区，分别输入中英文版本的文生图提示词，生成图片。操作过程如图 7-1 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_172.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_172.jpg)
 
 图 7-1 Janus-Pro 文生图过程
 
@@ -1880,7 +1880,7 @@ English Version
 
 从上一步文生图的结果中选取一张效果较好的图片，保存到本地。然后在“Multimodal Understanding”功能区，从本地上传这张图片，并输入提示词“先解释这幅图的含义，然后根据这幅图的内容生成一句 Al Agent 的广告词”，点击“Chat”生成文本。操作过程如图 7-2 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_173.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_173.jpg)
 
 图 7-2 Janus-Pro 图生文过程
 
@@ -1896,25 +1896,25 @@ DeepSeek-VL2 系列由三个变体模型组成，包括 DeepSeek-VL2-Tiny、Deep
 
 **1.下载源码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_174.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_174.jpg)
 
 **2.安装依赖库**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_175.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_175.jpg)
 
 **3.下载模型**
 
 本节选用 DeepSeek-VL2-Tiny 模型，以便在 24GB 或以下规格的推理卡上实践。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_176.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_176.jpg)
 
 **4.运行 WebUI 服务**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_177.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_178.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_177.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_178.jpg)
 
 在浏览器中访问 http://deepseek-dev:7860，加载用于测试的图片，并输入提示词“分析此图片的内容”，单击“Send”，结果如图 7-3 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_179.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_179.jpg)
 
 图 7-3 DeepSeek-VL2 图生文过程
 
@@ -1932,15 +1932,15 @@ FramePack 通过结合使用以下三个模型来生成视频：hunyuanvideo-com
 
 **1.下载源码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_180.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_180.jpg)
 
 **2.安装依赖库**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_181.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_182.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_181.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_182.jpg)
 
 **3.运行 WebUI 服务**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_183.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_183.jpg)
 
 为了制作剧情连贯且内容丰富的长视频，所使用的提示词应足够详细，并且最好按照场景和镜头进行划分。对于这样的提示词，可以借助 DeepSeek 生成一个基础蓝本，之后再进行调整和优化。
 
@@ -1948,7 +1948,7 @@ FramePack 通过结合使用以下三个模型来生成视频：hunyuanvideo-com
 
 在浏览器中访问 http://deepseek-dev:7860/，选择一张合适的图片作为视频的背景或主题元素，输入准备好的提示词，并设定视频的总时长，然后开始生成视频。过程如图 7-4 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_184.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_184.jpg)
 
 图 7-4 FramePack 生成长视频
 
@@ -2022,7 +2022,7 @@ DeepSeek 在文本生成与理解方面具有显著优势。辅助软件开发�
 
 code-llm 采用 React.js 开发。在开发阶段，开发者通过运行“npm start”命令，启动一个监听在本机 3000 端口的开发服务器（Development Server）来调试程序，从而实现热模块替换和实时重新加载等开发便利方式。在部署阶段，源代码通过“npm run build”命令被编译成静态文件，并部署到 Nginx 应用服务器，使得应用可以被最终用户访问。为了简化应用开发过程，code-llm 采用了前端直连 LLM 服务的两层结构。由于根据提示词生成代码的场景对大语言模型的要求较高，因此建议使用 vLLM 加载与 GPU 内存相匹配的 DeepSeek 模型来提供 API 服务。不采用 Ollama 的原因之一是，程序调试涉及的“http://localhost:3000”和访问 Ollama 涉及的“http://deepseek-dev:11434/v1”存在跨域问题。这增加了程序调试的复杂性。code-llm 的架构如图 8-1 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_185.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_185.jpg)
 
 图 8-1 code-llm 的架构
 
@@ -2044,7 +2044,7 @@ code-llm 使用提示词调用大模型生成程序和流程图。大模型生�
 
 ⑦大模型生成 Mermaid 格式的流程图文本，并显示在页面上。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_186.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_186.jpg)
 
 图 8-2 code-llm 的运行流程
 
@@ -2054,19 +2054,19 @@ code-llm 使用提示词调用大模型生成程序和流程图。大模型生�
 
 code-llm 使用 React.js 进行开发，而 Node.js 为 React.js 开发过程提供了诸如依赖库管理、开发工具链等基础设施支持，因此首先需要安装 Node.js。为了便于编写代码，建议在 Windows 系统上进行开发。Windows 系统上安装 Node.js 比较简单，可以从官网 https://nodejs.org 下载安装包并进行安装。安装完成后，验证是否安装成功，然后使用 npm ^(![Node Package Manager，Node.js 的包管理器，见 https://npmjs.com/。](img/企业级DeepSeek实战：应用开发与模型训练_#chapter11_split_001.xhtml_footnote-12-191))命令安装用于创建 React.js 项目的工具 create-react-app。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_188.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_188.jpg)
 
 **8.4.2** **新建 React.js 项目**
 
 使用 reate-react-app 创建一个名为 code-llm 的 React.js 基础应用，并用“npm start”启动一个开发服务器进行调试。当服务器启动完成后，会自动打开浏览器跳转到“http://localhost:3000”。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_189.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_189.jpg)
 
 **8.4.3** **文件结构**
 
 下面列出 code-llm 目录中新增或修改的文件列表。其中，程序的主要业务逻辑、页面控制等在入口文件 App.js 中实现。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_190.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_190.jpg)
 
 **8.4.4** **源代码**
 
@@ -2076,19 +2076,19 @@ code-llm 使用 React.js 进行开发，而 Node.js 为 React.js 开发过程提
 
 在 package.json 的 dependencies 配置中，增加以下组件配置信息。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_191.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_191.jpg)
 
 这些第三方包的主要用途见表 8-1。
 
 **表 8-1** **code-llm 使用的第三方包及用途**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_192.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_192.jpg)
 
 **2.public/index.html**
 
 index.html 是 React.js 应用的起始页面，使用内置机制通过 index.js 将用户的访问请求引导至程序入口 App.js。对 index.html 的修改有两处：一是修改<title>标签以定制首页的标题；二是在<body>标签内引入 ChatUI 的图标资源。修改结果如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_193.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_193.jpg)
 
 **3.src/App.js**
 
@@ -2096,69 +2096,69 @@ App.js 是 code-llm 的业务逻辑和页面实现的核心代码，其中关键
 
 ①使用 OpenAI 组件调用 DeepSeek 模型服务接口，其中 openai.beta.chat.completions.stream 类是获取大模型“流”式生成文本的技术基础类，能够实现逐步生成、逐步显示的交互体验。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_194.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_195.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_194.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_195.jpg)
 
 ② ChatUI 是实现对话应用的 UI 基础组件。在 OpenAI 组件流式返回推理结果的过程中，ChatUI 会用已生成的完整文本实时更新显示内容。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_196.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_196.jpg)
 
 ③使用 UI 组件库 Ant Design 的 Tree 组件显示从 Markdown 解析出的文件结构，将 Layout 和 Tabs 用于页面布局。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_197.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_197.jpg)
 
 ④在 src/Components/MermaidChart.js 中实现 MermaidChart 组件，用于将大模型生成的 Mermaid 格式文本渲染成图表。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_198.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_198.jpg)
 
 ⑤使用 SyntaxHighlighter 组件显示各种计算机语言（如 Python、Java、C++等）的代码，并对其中的语法关键字进行高亮显示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_199.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_199.jpg)
 
 ⑥在 utils/FileDownloader.js 中实现 downloadFiles 函数，提供对所有生成文件进行打包下载的功能。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_200.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_200.jpg)
 
 ⑦预制一些需求样例，如“使用 Tailwind 在 React 中构建一个邮件管理应用程序”，引导用户编写提示词。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_201.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_201.jpg)
 
 **4.src/chatui-theme.css**
 
 这个文件中定义了 ChatUI 中一些主要元素的样式单，示例如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_202.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_203.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_202.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_203.jpg)
 
 **5.src/Components/MermaidChart.js**
 
 MermaidChart 组件的完整实现代码如下。注意有一个小技巧：需要使用延时控制，避免 MermaidChart 组件在初始化尚未完成时加载内容导致错误。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_204.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_204.jpg)
 
 **6.src/utils/FileDownloader.js**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_205.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_206.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_205.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_206.jpg)
 
 **7.src/utils/ParseMarkdown.js**
 
 从 Markdown 文本中解析代码块的算法原理是：用正则表达式匹配由“```”表示开始、再由下一个“```”表示结束的文本块。ParseMarkdown.js 的主要代码如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_207.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_207.jpg)
 
 **8.src/utils/prompts.js**
 
 提示词模板是 code-llm 的核心之一。一个完善的模板应包含角色设定、生成格式要求、格式示例和重点规则等内容。下面给出完整示例代码。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_208.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_209.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_208.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_209.jpg)
 
 **8.4.5** **程序调试**
 
 code-llm 依赖的第三方包在 package.json 中声明。在程序调试前，需要使用“npm i”命令根据这些包的依赖关系下载并安装到 node_modules 目录中，然后使用“npm start”命令启动程序调试。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_210.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_210.jpg)
 
 输入需求，如“使用 React.js 写一个登录界面”，code-llm 开始生成代码，如图 8-3 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_211.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_211.jpg)
 
 图 8-3 code-llm 生成代码
 
@@ -2166,11 +2166,11 @@ code-llm 依赖的第三方包在 package.json 中声明。在程序调试前，
 
 打包下载 code-llm 生成的代码，压缩包中保持完整的文件层级结构，如图 8-5 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_212.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_212.jpg)
 
 图 8-4 code-llm 生成代码的流程图
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_213.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_213.jpg)
 
 图 8-5 打包下载 code-llm 生成的代码
 
@@ -2234,7 +2234,7 @@ Vanna 是一个基于 RAG 思想的开源 Text2SQL 库，可以将自然语言�
 
 从图 9-1 描述的 Vanna 架构可以看出：向量库和大模型（如 DeepSeek）是训练环境和生产环境共用的，训练过程由 Vanna 组织，训练数据来源于训练用数据库的元数据、附加说明文档、SQL 集以及大模型的辅助生成结果，训练的成果存放在向量库中。在生产数据库与训练数据库使用了相同的库表结构的情况下，利用训练好的向量库即可实现知识迁移。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_214.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_214.jpg)
 
 图 9-1 Vanna 架构
 
@@ -2248,7 +2248,7 @@ Vanna 的工作流程分为训练过程和生产过程。在企业实际应用�
 
 Vanna 使用大量数据训练以产生智能并应用到生产过程的方案，与“给模型喂数据让其变得聪明”这种简单明了的大模型训练理念非常相似，也容易被理解。但从原理上来看，Vanna 的训练过程与大模型的训练过程不同。Vanna 的训练更像是 RAG 技术的检索增强，训练语料经过处理后进入向量库，而非用于大模型微调。针对 Text2SQL 的应用场景，这样的训练过程轻量、高效且具有实时性。如图 9-2 所示是 Vanna 的运行流程图。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_215.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_215.jpg)
 
 图 9-2 Vanna 的运行流程
 
@@ -2266,25 +2266,25 @@ Text2SQL 需要关系数据库的支持，在本例中，选择使用 SQLite 数
 
 **1.依赖库引入**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_216.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_216.jpg)
 
 本例用到的依赖库情况如表 9-1 所示。
 
 **表 9-1** **vanna-sample.py 使用的依赖库**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_217.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_217.jpg)
 
 **2.数据库初始化**
 
 设定数据库文件名为 test.db。在 init_db 函数中判断数据库文件是否存在，如果不存在，则进行初始化。创建用户表 users 和部门表 depts，对表中和字段名加以注释（注释信息会与建表语句一起存入 SQLite 系统表中），并插入一些相互关联的测试数据。query_from_db 函数的功能是按照传入的 SQL 语句查询数据库并给出结果，用于校验数据库初始化的结果。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_218.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_219.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_218.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_219.jpg)
 
 **3.Vanna 初始化**
 
 使用 OpenAI 的客户端对象和 ChromaDB 实例初始化 Vanna。本例选用了 Ollama 部署的 DeepSeek 提供大模型服务。在实践过程中，笔者发现使用 Ollama 部署模型服务比使用 vLLM 部署的同等参数规模模型服务的效果更好。这与一般看法相反，可能是因为 Ollama 部署的模型生成结果较为简单明了，而 vLLM 部署的模型生成的 SQL 较长，且往往附加一些多余信息导致执行失败。在企业实际应用时，模型的选择应综合考虑算力、模型的能力以及与 Vanna 的适配性等因素。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_220.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_220.jpg)
 
 **4.训练**
 
@@ -2302,29 +2302,29 @@ vanna-sample.py 虽然只是一个示例程序，但完整覆盖了 Vanna 训练
 
 在企业应用中，SQL 样例的收集较为复杂。因为从数据库的会话记录、日志和性能报告中获取的 SQL 通常包含变量绑定信息，这需要进一步整理。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_221.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_221.jpg)
 
 **5.提问**
 
 Vanna 的 ask 函数实现将用户的自然语言提问转化成 SQL。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_222.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_222.jpg)
 
 **6.主函数**
 
 主函数将所有流程进行有效整合，包括命令行参数解析、数据库操作、训练、控制台中的 Text2SQL 功能，以及图形化界面服务启动等。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_223.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_224.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_223.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_224.jpg)
 
 **9.4.2** **程序测试**
 
 **1.建立虚拟环境**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_225.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_225.jpg)
 
 **2.安装配置大语言模型服务**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_226.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_226.jpg)
 
 **3.运行程序**
 
@@ -2332,7 +2332,7 @@ Vanna 的 ask 函数实现将用户的自然语言提问转化成 SQL。
 
 Vanna 的训练是一个增量的过程。官网上反复强调只需要训练一次，因为训练是对语料进行处理后写入向量库的过程，而在写入时很难判断是否重复。因此，每次训练只使用新的语料，否则会产生重复的数据，导致生成结果的不确定性。为了减少误操作，本例中专门提供了一个“-train”命令行参数，用于显式标识本次操作仅作为训练用途，不执行生成操作。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_227.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_227.jpg)
 
 在企业实际应用场景中，增量的精确控制往往较为困难，这容易导致重复训练数据的产生。因此，当在控制增量训练遇到困难时，建议删除 chroma.sqlite3 数据库文件以及相关的子目录，然后进行一次全新的训练。
 
@@ -2340,17 +2340,17 @@ Vanna 的训练是一个增量的过程。官网上反复强调只需要训练�
 
 Vanna 执行的最简单的通过问题描述生成 SQL 的操作是在命令行中进行的。在使用 Python 执行 vanna-sample.py 时，不需要在后面添加命令行参数，这样输出的结果会直接显示在命令行中。如图 9-3 所示，当输入的问题是“查询所有邮箱（mail）中包含 tom 的用户记录，返回的记录包括用户 ID、用户名以及部门名称”时，样例程序生成的 SQL 结果是对 users 表和 depts 表进行关联查询，连接条件和过滤条件均与需求相符，且查询结果正确。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_228.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_228.jpg)
 
 （3）WebUI 操作模式
 
 在企业应用中，Text2SQL 通常作为整个应用程序的一个子功能，集成到系统中供其他模块使用。例如，在数据分析应用中，它需要与查询或报表模块集成。这里我们介绍另一种较为常见的场景，即 Text2SQL 被用作一种工具，辅助开发人员或运营人员编写查询统计的 SQL。在这种情况下，命令行操作略显复杂，如果配备一个 WebUI，则会更加方便。在本例中，可以通过命令行参数“-webui”来启用 WebUI。启用后，用户可通过访问 http://deepseek-dev:8084 使用该功能，其运行效果如图 9-4 所示。可知生成的结果不仅包含 SQL，还展示了通过该 SQL 从数据库中查询的结果。此外。WebUI 还提供了对开发人员非常友好的功能，例如，单击右上角的“Open Debugger”，可以查看 Vanna 框架输出的提示词、大语言模型的返回结果等调试信息。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_229.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_230.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_229.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_230.jpg)
 
 图 9-3 运行 Vanna 示例程序（命令行）
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_231.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_231.jpg)
 
 图 9-4 运行 Vanna 示例程序（WebUI）
 
@@ -2390,7 +2390,7 @@ Vanna 执行的最简单的通过问题描述生成 SQL 的操作是在命令行
 
 病历原文通过 Gradio 的输入组件输入，经提示词模板组织成包含任务要求、重点检查项、需要校对的原文以及输出格式说明的提示词，通过 AsyncOpenAI 组件异步调用部署于本地的 DeepSeek API。结果以 SSE ^(¹⁴)方式由大模型服务主动、多次推送回 Gradio，存放到变量中。输出组件以增量方式显示变量中存放的修改建议和修改后的文本。当生成结束后，再通过 Python 的标准库 difflib 比对原文和修改后的文本。emr-checker 的架构如图 10-1 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_233.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_233.jpg)
 
 图 10-1 emr-checker 的架构
 
@@ -2406,7 +2406,7 @@ emr-check 的另一个核心是大语言模型。开发者精心定制的提示�
 
 在企业实际应用的场景中，应按照相对固定的模型、参数规模和精度，对提示词模板进行调试与优化。例如，医疗机构使用 vLLM 部署 16 位精度的 DeepSeek-R1-Distill-Qwen-32B 模型，则需要根据该条件优化提示词模板。此外，调用模型的参数设置也至关重要。对于医疗这种对确定性要求较高的场景，应将 Temperature 参数（影响生成文本的随机性）设置为 0.1～0.5，使模型倾向于选择概率最高的候选词，从而输出更确定、稳妥和一致的结果。具体取值需要在调试中确定。emr-check 的运行流程见图 10-2 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_234.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_234.jpg)
 
 图 10-2 emr-check 的运行流程
 
@@ -2420,61 +2420,61 @@ emr-check 的另一个核心是大语言模型。开发者精心定制的提示�
 
 **1.依赖库引入**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_235.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_235.jpg)
 
 本例使用的依赖库如表 10-1 所示。
 
 **表 10-1 emr-check.py 使用的依赖库**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_236.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_236.jpg)
 
 **2.提示词模板定义**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_237.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_238.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_237.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_238.jpg)
 
 **3.大模型异步调用**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_239.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_240.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_239.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_240.jpg)
 
 修改 api_key、base_url 和 MODEL_NAME 的值，以适配不同的模型服务。
 
 **4.大模型返回结果解析**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_241.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_241.jpg)
 
 **5.文本差异报告生成**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_242.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_243.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_244.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_242.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_243.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_244.jpg)
 
 **6.校对流程整合**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_245.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_245.jpg)
 
 **7.WebUI 控制**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_246.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_247.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_246.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_247.jpg)
 
 **10.4.2 程序测试**
 
 **1.建立虚拟环境**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_248.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_248.jpg)
 
 **2.安装配置大语言模型服务**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_249.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_249.jpg)
 
 **3.运行程序**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_250.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_250.jpg)
 
 在浏览器中访问 http://deepseek-dev:7860 启动程序。输入病历原文，开始校对。结果如图 10-3 和图 10-4 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_251.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_251.jpg)
 
 图 10-3 emr-check 运行结果（1）
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_252.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_252.jpg)
 
 图 10-4 emr-check 运行结果（2）
 
@@ -2504,7 +2504,7 @@ emr-check 的另一个核心是大语言模型。开发者精心定制的提示�
 
 当然，上述是一个理想场景。在实际应用中，智能语音客服的运行效果不仅依赖于数字电话交换机的性能和语音识别的准确率，更重要的是，还与大模型、知识库等技术所带来的文本理解和生成能力密切相关。随着像 DeepSeek 这样的大模型进一步发展，可以预见智能语音客服将取得更大的进步，其功能和效率都将显著提升。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_253.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_253.jpg)
 
 图 11-1 医疗领域的智能语音客服场景
 
@@ -2518,7 +2518,7 @@ emr-check 的另一个核心是大语言模型。开发者精心定制的提示�
 
 aivoice-crm 由录音组件、语音识别组件、语音合成组件以及 OpenAI 兼容接口调用等模块组成，并通过基于 Streamlit 实现的 WebUI 进行整合。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_255.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_255.jpg)
 
 图 11-2 aivoice-crm 的架构
 
@@ -2526,7 +2526,7 @@ aivoice-crm 由录音组件、语音识别组件、语音合成组件以及 Open
 
 aivoice-crm 运行的详细流程如图 11-3 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_256.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_256.jpg)
 
 图 11-3 aivoice-crm 的运行流程
 
@@ -2552,35 +2552,35 @@ aivoice-crm.py 实现了智能语音客服案例，下面讲解完整源码。
 
 **1.依赖库导入**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_257.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_257.jpg)
 
 本例使用的依赖库如表 11-1 所示。
 
 **表 11-1** **aivoice-crm.py 使用的依赖库**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_258.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_258.jpg)
 
 （续）
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_259.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_259.jpg)
 
 **2.大模型服务调用**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_260.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_260.jpg)
 
 修改 api_key、base_url 和 MODEL_NAME 的值，适配不同的模型服务。
 
 **3.语音合成**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_261.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_262.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_261.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_262.jpg)
 
 **4.语音识别**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_263.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_264.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_265.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_263.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_264.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_265.jpg)
 
 **5.WebUI 控制**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_266.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_267.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_266.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_267.jpg)
 
 **11.4.2** **程序测试**
 
@@ -2588,29 +2588,29 @@ aivoice-crm 需要在浏览器中实现音频录制。对于使用麦克风等�
 
 **1.建立虚拟环境**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_268.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_268.jpg)
 
 **2.下载语音识别模型**
 
 Vosk 是一个功能强大的语音识别库，支持 20 多种语言，本例中仅涉及中文。从 Vosk 的模型下载网站可知，针对中文的模型有 1.3G 的 vosk-model-cn-0.22 和 42M 的 vosk-model-small-cn-0.22。出于测试目的，下载小规模的模型即可。下载完成后，保留压缩包中的文件结构，并将其解压至程序目录下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_269.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_269.jpg)
 
 **3.大语言模型服务安装配置**
 
 大模型服务用于解答已转换为文本格式的问题。在测试过程中，可使用 Ollama 或 vLLM 加载模型，调用模型服务的参数需要在程序中修改。在生产环境中，可以根据实际情况选择与算力匹配且效果良好的模型，或者通过知识库实现检索增强；也可以为已有模型加入新的专业语料，使其微调后提供服务。对于推理类型的模型，由于推理结果包含思考过程，答案相对较长，可能导致语音播报时间过长，因此需要根据实际应用情况对位于<think>标签中的思考过程进行适当取舍。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_270.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_271.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_270.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_271.jpg)
 
 **4.运行程序**
 
 执行以下命令，运行 aivoice-crm 程序。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_272.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_272.jpg)
 
 在浏览器中访问 http://localhost:8501，结果如图 11-4 所示。应用程序会同步语音播报生成的文本。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_273.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_273.jpg)
 
 图 11-4 aivoice-crm 运行结果
 
@@ -2654,7 +2654,7 @@ DeepSeek-R1 由于具有庞大的参数量和较高的部署算力成本，并�
 
 DeepSeek-R1 的训练过程步骤较多。为了便于讲解，也为了让读者能够比较直观地概览训练流程，我们先给出训练全过程的示意图，如图 12-1 所示。在后续阅读过程中，读者可以根据训练的步骤回看本图，了解当前训练阶段在整个过程中的位置。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_274.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_274.jpg)
 
 图 12-1 DeepSeek-R1 训练全过程
 
@@ -2674,7 +2674,7 @@ DeepSeek 的研发团队探索发现了大语言模型在没有监督数据的�
 
 关于传统强化学习、基于 GRPO 的强化学习和监督训练的原理和区别，我们通过图 12-2 进行讲解。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_275.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_275.jpg)
 
 图 12-2 RL、GRPO 和 SFT 的原理与区别
 
@@ -2776,45 +2776,45 @@ DeepSeek-R1 的推理能力起源于 DeepSeek-R1-Zero。然而，当我们深入
 
 （1）依赖库导入
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_277.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_277.jpg)
 
 本例使用的依赖库如表 13-1 所示。
 
 **表 13-1 微调程序使用的依赖库**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_278.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_278.jpg)
 
 （2）加载模型
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_279.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_280.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_279.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_280.jpg)
 
 （3）加载训练语料
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_281.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_282.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_281.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_282.jpg)
 
 （4）训练
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_283.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_284.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_283.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_284.jpg)
 
 （5）训练完成后生成测试
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_285.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_285.jpg)
 
 （6）主函数
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_286.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_287.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_286.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_287.jpg)
 
 **2.模型合并**
 
 模型合并的原理是使用 AutoModelForCausalLM 和 PeftModel 分别加载原始模型和微调后的增量模型，调用模型的 merge_and_unload 方法将权重合并。微调过程不会改变模型的分词器（Tokenizer），其处理过程只是将原始模型的分词器迁移至新模型的目录中。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_288.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_289.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_288.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_289.jpg)
 
 **13.2.2 语料格式说明**
 
 微调 DeepSeek-R1-Distill-Llama-8B 这种具有推理能力的模型，所需的语料需要具备 CoT 结构化信息，也就是说，语料需要满足“问题-思考过程-答案”这一逻辑结构。举例如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_290.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_290.jpg)
 
 本例中的语料来自从 huggingface.co 或 aliendao.cn 下载的约 61MB 的 medical-o1-reasoning-SFT 数据集。由于完整数据集直接用于微调会占用较多内存，在实践时，如果仅为了熟悉流程，则可以对其中的内容进行删减。
 
@@ -2822,23 +2822,23 @@ DeepSeek-R1 的推理能力起源于 DeepSeek-R1-Zero。然而，当我们深入
 
 **1.建立虚拟环境**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_291.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_292.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_291.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_292.jpg)
 
 **2.下载模型**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_293.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_293.jpg)
 
 **3.准备语料**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_294.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_294.jpg)
 
 **4.微调过程**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_295.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_295.jpg)
 
 微调的过程见图 13-1。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_296.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_296.jpg)
 
 图 13-1 DeepSeek-R1-Distill-Llama-8B 微调过程
 
@@ -2846,17 +2846,17 @@ DeepSeek-R1 的推理能力起源于 DeepSeek-R1-Zero。然而，当我们深入
 
 将原始模型 DeepSeek-R1-Distill-Llama-8B 和微调模型在某个检查点的权重参数合并，生成的新模型位于 output/merged/model。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_297.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_297.jpg)
 
 **13.2.4 验证微调结果**
 
 使用 vLLM 从 output/merged/model 目录加载新模型，再新开 Shell 窗口，用 chat_bot.py 测试推理效果。操作步骤如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_298.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_298.jpg)
 
 在浏览器中访问 http://deepseek-dev:8501，输入训练语料中的某个问题，查看新模型的推理效果，如图 13-2 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_299.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_299.jpg)
 
 图 13-2 DeepSeek-R1-Distill-Llama-8B 微调结果验证
 
@@ -2882,7 +2882,7 @@ Open R1 的 SFT 实践可以对标 DeepSeek-R1 蒸馏模型的训练过程。�
 
 从 Open R1 官网的介绍来看，SFT 是其复现计划的第一步，即根据 DeepSeek-R1 技术报告的指导，从 DeepSeek-R1 中提取高质量的语料来复制 R1 蒸馏模型。由于训练集 OpenR1-220k-Math 是从 DeepSeek-R1 蒸馏而来的，因此用此数据训练出的模型自然能够学习到 DeepSeek-R1 的推理能力。训练流程如图 14-1 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_301.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_301.jpg)
 
 图 14-1 Open R1 SFT 复现过程示意
 
@@ -2890,7 +2890,7 @@ Open R1 的 SFT 实践可以对标 DeepSeek-R1 蒸馏模型的训练过程。�
 
 DeepSeek-R1 蒸馏模型、OpenR1-Qwen-7B 的训练过程，以及 Open R1 的 DeepSeek 复现过程如图 14-2 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_302.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_302.jpg)
 
 图 14-2 三种训练过程示意
 
@@ -2902,11 +2902,11 @@ Open R1 的 SFT 复现与第十三章介绍的 DeepSeek 模型微调，在原�
 
 **14.3.1 下载源码**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_303.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_303.jpg)
 
 **14.3.2 搭建基本环境**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_304.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_305.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_304.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_305.jpg)
 
 搭建复现的基本环境步骤较多，且 Open R1 对环境的要求相对严格，下面重点强调一些注意事项。
 
@@ -2922,19 +2922,19 @@ Open R1 的 SFT 复现与第十三章介绍的 DeepSeek 模型微调，在原�
 
 在 Open R1 的复现过程中，通常会引用 open-r1 库，而不是直接使用源码目录下的文件。因此，在开始复现操作之前，需要先在 open-r1 的源码目录下执行“pip install-e”，将 open-r1 作为一个库安装到 Anaconda 虚拟环境中。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_306.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_306.jpg)
 
 **14.3.4 下载基础模型和数据集**
 
 复现过程中需要使用语料 OpenR1-Math-220k 蒸馏 Qwen2.5-1.5B-Instruct 模型。由于数据集较大（12GB），需要使用硬盘缓存，请预留至少 50GB 硬盘空间。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_307.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_307.jpg)
 
 **14.3.5 SFT 训练**
 
 SFT 训练代码在 Open R1 目录的 src/open_r1/sft.py 中实现，采用 DeepSpeed 训练框架 ^(²⁴)。而关于 DeepSpeed 相关的参数，在 recipes/accelerate_configs/zero3.yaml 文件中进行配置。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_308.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_308.jpg)
 
 注意事项如下。
 
@@ -2946,7 +2946,7 @@ SFT 训练代码在 Open R1 目录的 src/open_r1/sft.py 中实现，采用 Dee
 
 复现代码执行过程如图 14-3 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_309.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_309.jpg)
 
 图 14-3 Open R1 SFT 复现代码执行过程
 
@@ -2954,7 +2954,7 @@ SFT 训练代码在 Open R1 目录的 src/open_r1/sft.py 中实现，采用 Dee
 
 使用 vLLM 加载训练完成的模型，用 Open-webui 等工具测试。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_310.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_310.jpg)
 
 ## **Chapter 15 第十五章 基于 GRPO 复现 DeepSeek**
 
@@ -2978,7 +2978,7 @@ Open R1 调用 Hugging Face 的 trl 框架中的 GRPOTrainer 模块进行强�
 
 从 Open R1 官网的介绍来看，GRPO 是其复现计划的第二步，即以 DeepSeek-R1 技术报告为指导，引入强化学习推理训练数据，使用 GRPO 的奖励算法，将基础模型训练成 Open R1-Zero，以此模仿和复现从 DeepSeek-V3-Base 到 DeepSeek-R1-Zero 的训练过程。复现过程如图 15-1 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_311.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_311.jpg)
 
 图 15-1 Open R1 GRPO 复现过程示意
 
@@ -3020,7 +3020,7 @@ Open R1 调用 Hugging Face 的 trl 框架中的 GRPOTrainer 模块进行强�
 
 编码奖励实现了一种基于代码生成和执行的奖励策略，主要用于评估模型生成的代码片段是否能通过给定的测试用例。该策略需要实际执行代码并验证输出结果来计算奖励值。它使用编程语言模板为每个代码片段生成一段 Python 测试脚本，该脚本负责执行代码并检查输出结果是否与测试用例的预期结果一致。奖励值的计算依据是通过测试用例的比例，其值范围是从 0 到 1。下面举一个直观的例子。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_313.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_313.jpg)
 
 **8.二值化编码奖励**
 
@@ -3030,13 +3030,13 @@ Open R1 调用 Hugging Face 的 trl 框架中的 GRPOTrainer 模块进行强�
 
 IOI 编码奖励实现一个针对 IOI（国际信息学奥林匹克）编程问题的代码执行评估系统，用于评测模型生成的代码在竞赛题目中的正确性。该系统通过异步执行代码并验证测试用例，返回一个介于 0 和 1 之间的分数，表示代码的通过率。举例如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_314.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_314.jpg)
 
 **10.编码格式奖励**
 
 编码格式奖励是一种针对代码生成格式进行严格检查的奖励策略，用于验证模型生成的内容是否符合预设的结构化代码输出格式。其原理是通过正则表达式匹配，判断生成内容是否遵循指定的代码模板规则。格式判断原则如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_315.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_315.jpg)
 
 **11.标签数量奖励**
 
@@ -3052,7 +3052,7 @@ IOI 编码奖励实现一个针对 IOI（国际信息学奥林匹克）编程问
 
 训练命令如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_316.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_316.jpg)
 
 对训练命令的主要参数说明如下。
 
@@ -3068,13 +3068,13 @@ IOI 编码奖励实现一个针对 IOI（国际信息学奥林匹克）编程问
 
 ⑥每次运行训练程序都会创建一份数据集缓存，多次运行可能导致空间占用越来越多。可以使用以下命令清除缓存。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_317.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_317.jpg)
 
 ⑦按照以上配置进行训练时，显存占用约为 9GB。可以同时扩大 per_device_train_batch_size、per_device_eval_batch_size 和 num_generations 三个参数值，以使用更多显存并提高训练效率。
 
 复现过程如图 15-2 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_318.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_318.jpg)
 
 图 15-2 Open R1 GRPO 复现过程
 
@@ -3082,7 +3082,7 @@ IOI 编码奖励实现一个针对 IOI（国际信息学奥林匹克）编程问
 
 使用 vLLM 加载训练完成的模型，用 Open-webui 等工具进行测试。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_319.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_319.jpg)
 
 ## **Chapter 16 第十六章 基于数据蒸馏复现 DeepSeek**
 
@@ -3114,27 +3114,27 @@ IOI 编码奖励实现一个针对 IOI（国际信息学奥林匹克）编程问
 
 Open R1 的 GitHub 官网上提供了数据蒸馏的实现代码，包括使用 Slurm ^(²⁷)调度工具运行 src/open_r1/generate.py 脚本，以及从 DeepSeek-R1 或 DeepSeek-R1-Distill-Qwen-7B 蒸馏数据的代码。基于算力的考虑，本例中对基于 DeepSeek-R1-Distill-Qwen-7B 蒸馏数据的代码进行了较小幅度的修改，以便从本地加载模型和数据集，并将新生成的数据集保存到本地。源程序名为 pipeline.py，完整内容如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_321.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_322.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_321.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_322.jpg)
 
 **16.3.2 环境搭建**
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_323.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_323.jpg)
 
 **16.3.3 数据蒸馏**
 
 执行以下命令进行数据蒸馏，按照源程序中的设定，从数据集中选取 10 个问题进行测试，共生成 40 个“问题-思考过程-答案”对，运行过程如图 16-1 所示。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_324.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_325.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_324.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_325.jpg)
 
 图 16-1 Open R1 的数据蒸馏过程
 
 需要注意的是，数据集生成后，会在“~/.cache/distilabel”目录中成为缓存。如果需要全新生成，则需要先删除此目录，命令如下。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_326.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_326.jpg)
 
 命令执行完成后，生成的新数据集位于“output/numina-deepseek-r1-qwen-7b”目录中。
 
-![](img/企业级DeepSeek实战：应用开发与模型训练_image_327.jpg)![](img/企业级DeepSeek实战：应用开发与模型训练_image_328.jpg)
+![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_327.jpg)![](img/企业级-DeepSeek-实战：应用开发与模型训练_image_328.jpg)
 
 * * *
 

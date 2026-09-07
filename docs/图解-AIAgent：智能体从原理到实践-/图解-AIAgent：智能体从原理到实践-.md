@@ -84,7 +84,7 @@
 
 反应式 Agent 是一种基于即时感知信息做出反应的智能实体，主要依赖预设的规则或简单的模型，对当前环境的刺激做出快速响应。这种 Agent 通常不具备长期记忆或复杂的推理能力，而是侧重于实时数据的处理和行动的触发。反应式 Agent 的工作原理和适用场景如图 1-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_000.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_000.jpg)
 
 图 1-1 反应式 Agent 的工作原理和适用场景
 
@@ -92,7 +92,7 @@
 
 总之，反应式 Agent 与认知式 Agent 在智能水平和适用场景上存在显著差异。反应式 Agent 以其简单直接的特点，在确定性高、结构良好的环境中表现出色，能够快速响应环境变化。而认知式 Agent 则凭借其强大的学习、推理和规划能力，在复杂多变的环境中展现出更高的智能水平，能够更好地应对各种挑战。理解这两种 Agent 的特点和适用场景，有助于我们在实际应用中选择合适的 Agent 类型，以实现高效、智能的系统设计与任务执行。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_001.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_001.jpg)
 
 图 1-2 认知式 Agent 的工作原理和适用场景
 
@@ -104,7 +104,7 @@
 
 单 Agent 系统是指一个独立运行的智能实体，它依据自身的智能水平和决策机制，在特定环境中执行任务以实现既定目标。在 AI 应用中，单 Agent 系统通常表现为一个独立的软件程序或服务，它能够自主地处理用户请求或执行特定任务。单 Agent 系统的工作原理和适用场景如图 1-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_002.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_002.jpg)
 
 图 1-3 单 Agent 系统的工作原理和适用场景
 
@@ -112,7 +112,7 @@
 
 多 Agent 系统则由多个 Agent 构成，这些 Agent 可以是相同类型，也可以是不同类型，它们通过协作、竞争等机制进行交互与配合，以完成由单个 Agent 难以实现的复杂任务。在实际应用中，多 Agent 系统通常表现为多个 Agent 之间的协同工作，每个 Agent 负责不同的任务部分，通过通信和协作机制共同完成复杂任务。多 Agent 系统的工作原理和适用场景如图 1-4 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_003.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_003.jpg)
 
 图 1-4 多 Agent 系统的工作原理和适用场景
 
@@ -128,7 +128,7 @@
 
 通用 AI Agent 的自主性体现在其能够在没有人类直接干预的情况下，自主地感知环境、进行决策并执行任务。这种自主性使 Agent 能够根据环境的变化，独立调整其行为策略，以适应不同的情况。自主性的工作原理和适用场景如图 1-5 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_004.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_004.jpg)
 
 图 1-5 自主性的工作原理和适用场景
 
@@ -136,7 +136,7 @@
 
 学习性是指通用 AI Agent 通过与环境的持续交互，不断优化其决策模型和行为策略的能力。这种学习能力使通用 AI Agent 能够从经验中积累知识，逐步提高其在各种任务中的表现。学习性的工作原理和适用场景如图 1-6 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_005.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_005.jpg)
 
 图 1-6 学习性的工作原理和适用场景
 
@@ -144,7 +144,7 @@
 
 目标导向性是指通用 AI Agent 能够明确自身的目标，并根据目标制订和执行相应的行动计划。这种目标导向性使通用 AI Agent 能够有效地组织其行为，以实现既定的任务目标。目标导向性的工作原理和适用场景如图 1-7 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_006.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_006.jpg)
 
 图 1-7 目标导向性的工作原理和适用场景
 
@@ -230,17 +230,17 @@ Manus 是这一技术演进的典型代表与集大成者。它融合了大型�
 
 02 如果不是 Manus 会员，会弹出注册页面。如果已有合法账户，则单击下方的“登录”按钮，如图 1-9 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_007.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_007.jpg)
 
 图 1-8 Manus 官方网站
 
-![](img/图解AIAgent：智能体从原理到实践-_image_008.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_008.jpg)
 
 图 1-9 注册页面
 
 03 登录后的页面如图 1-10 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_009.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_009.jpg)
 
 图 1-10 登录后的页面
 
@@ -248,31 +248,31 @@ Manus 是这一技术演进的典型代表与集大成者。它融合了大型�
 
 01 与使用 DeepSeek、ChatGPT、Kimi 等 AI 工具一样，在文本框中输入需求，例如，输入“马上暑假了，准备带孩子去东北玩，体验东北的自然风光。我们准备从济南出发，帮我做一个 7 天的旅行攻略。最后给出可视化图进行总结，谢谢。”，如图 1-11 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_010.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_010.jpg)
 
 图 1-11 在文本框中输入需求
 
-02 输入需求并单击 ![](img/图解AIAgent：智能体从原理到实践-_image_011.png)按钮，Manus 开始按照要求生成旅行计划，在生成过程中会显示相关的信息，这一点和 DeepSeek、ChatGPT、Kimi 等 AI 工具的推理信息类似，如图 1-12 所示。
+02 输入需求并单击 ![](img/图解-AIAgent：智能体从原理到实践-_image_011.png)按钮，Manus 开始按照要求生成旅行计划，在生成过程中会显示相关的信息，这一点和 DeepSeek、ChatGPT、Kimi 等 AI 工具的推理信息类似，如图 1-12 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_012.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_012.jpg)
 
 图 1-12 正在生成旅行计划
 
 03 整个生成过程需要等待，成功生成旅行计划的效果如图 1-13 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_013.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_013.jpg)
 
 图 1-13 成功生成旅行计划的效果
 
 04 生成的旅行计划包含多类文件，如旅行计划详情的 Word 文件以及按照需求生成的可视化图，如图 1-14 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_014.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_014.jpg)
 
 图 1-14 生成的旅行计划详情
 
 05 打开 Word 文件可以在线查看其详细信息，如图 1-15 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_015.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_015.jpg)
 
 图 1-15 Word 文件的详细信息
 
@@ -280,47 +280,47 @@ Manus 是这一技术演进的典型代表与集大成者。它融合了大型�
 
 07 右击文件列表中的某个文件，在弹出的快捷菜单中选择“下载”选项即可将这个文件下载到本地，如图 1-17 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_016.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_016.jpg)
 
 图 1-16 此任务中的所有文件列表页面
 
-![](img/图解AIAgent：智能体从原理到实践-_image_017.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_017.jpg)
 
 图 1-17 下载文件
 
 08 下载其中的 create_visualization.py 文件，代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_018.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_019.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_020.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_018.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_019.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_020.jpg)
 
 可以发现该 Python 文件的功能是生成图 1-14 中的可视化图，也就是图 1-16 中的图片文件 travel_route_visualization.png，如图 1-18 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_021.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_021.jpg)
 
 图 1-18 生成的可视化图（travel_route_visualization.png）
 
-![](img/图解AIAgent：智能体从原理到实践-_image_022.png)
+![](img/图解-AIAgent：智能体从原理到实践-_image_022.png)
 
 09 当在线查看 Word 格式的旅行计划文件时，可以通过右上角的图标控制浏览方式，如图 1-19 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_023.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_023.jpg)
 
 图 1-19 浏览方式
 
-10 单击 ![](img/图解AIAgent：智能体从原理到实践-_image_024.png)按钮后可以全屏格式查看 Word 文件（旅行计划文件）的内容，如图 1-20 所示。
+10 单击 ![](img/图解-AIAgent：智能体从原理到实践-_image_024.png)按钮后可以全屏格式查看 Word 文件（旅行计划文件）的内容，如图 1-20 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_025.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_025.jpg)
 
 图 1-20 全屏格式查看
 
-11 单击 ![](img/图解AIAgent：智能体从原理到实践-_image_026.png)按钮，在弹出的菜单中可以下载当前旅行计划的 Word 文件，也可以将旅行计划导出为 PDF 文件，如图 1-21 所示。
+11 单击 ![](img/图解-AIAgent：智能体从原理到实践-_image_026.png)按钮，在弹出的菜单中可以下载当前旅行计划的 Word 文件，也可以将旅行计划导出为 PDF 文件，如图 1-21 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_027.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_027.jpg)
 
 图 1-21 下载或导出
 
 12 将旅行计划导出为 PDF 文件的效果如图 1-22 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_028.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_028.jpg)
 
 图 1-22 导出为 PDF 文件的效果
 
@@ -328,11 +328,11 @@ Manus 是这一技术演进的典型代表与集大成者。它融合了大型�
 
 通用 AI Agent（如 Manus）和 GPT 的区别如图 1-23 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_029.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_029.jpg)
 
 图 1-23 通用 AI Agent（如 Manus）和 GPT 的区别
 
-![](img/图解AIAgent：智能体从原理到实践-_image_030.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_030.jpg)
 
 图 1-23 通用 AI Agent（如 Manus）和 GPT 的区别（续）
 
@@ -356,7 +356,7 @@ Manus 通过多模态输出、任务导向和工具集成，提供了更复杂�
 
 TF-Agents 是 TensorFlow 官方提供的强化学习库，用于简化 Agent 的构建、训练和部署流程。它提供了许多预定义的 Agent 算法，如 DQN、PPO 等，以及丰富的环境接口和工具，方便开发者快速上手。安装 TF-Agents 库的命令如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_031.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_031.jpg)
 
 ◎ 核心组件：TF-Agents 库包含环境、策略、指标、网络、强化学习算法、实用工具等核心组件，支持高效的代码迭代，并具有良好的测试集成和基准测试。
 
@@ -368,7 +368,7 @@ TF-Agents 是 TensorFlow 官方提供的强化学习库，用于简化 Agent 的
 
 实例文件 Kuo.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_032.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_033.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_034.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_035.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_032.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_033.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_034.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_035.jpg)
 
 对上述代码的具体说明如下。
 
@@ -388,7 +388,7 @@ TF-Agents 是 TensorFlow 官方提供的强化学习库，用于简化 Agent 的
 
 ◎ 演示：使用训练好的 Agent 在环境中进行演示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_036.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_036.jpg)
 
 图 2-1 训练过程中的平均回报变化
 
@@ -422,7 +422,7 @@ RLlib 是 Ray 项目的一部分，专注于分布式强化学习训练，它不
 
 实例文件 Pykuo.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_037.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_038.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_039.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_040.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_037.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_038.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_039.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_040.jpg)
 
 对上述代码的具体说明如下。
 
@@ -438,7 +438,7 @@ RLlib 是 Ray 项目的一部分，专注于分布式强化学习训练，它不
 
 ◎ 可视化：绘制训练过程中的总奖励变化，如图 2-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_041.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_041.jpg)
 
 图 2-2 训练过程中的总奖励变化
 
@@ -452,7 +452,7 @@ RLlib 是 Ray 项目的一部分，专注于分布式强化学习训练，它不
 
 ROS 是一个用于机器人软件开发的开源的元操作系统。它提供了操作系统应有的服务，包括硬件抽象、底层设备控制、常用功能库、进程间的消息传递及软件包管理。ROS 的设计目标和特点如图 2-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_042.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_042.jpg)
 
 图 2-3 ROS 的设计目标和特点
 
@@ -464,29 +464,29 @@ ROS 是一个用于机器人软件开发的开源的元操作系统。它提供�
 
 首先确保已经安装了 ROS，下面的安装命令以 Noetic 版本为例，适用于 Ubuntu 20.04 操作系统。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_043.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_043.jpg)
 
 设置环境变量并初始化 rosdep。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_044.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_045.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_044.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_045.jpg)
 
 （2）创建 ROS 工作空间。
 
 创建一个 ROS 工作空间并初始化。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_046.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_046.jpg)
 
 （3）创建 ROS 包。
 
 进入 src 目录并创建一个新的 ROS 包。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_047.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_047.jpg)
 
 （4）编写 ROS 节点。
 
 在新创建的 ROS 包中编写一个简单的 ROS 节点，该节点将作为 AI Agent 的接口。例如，创建一个名为 ai_agent_node.py 的文件。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_048.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_049.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_048.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_049.jpg)
 
 该示例展示了如何订阅激光雷达数据，并根据距离障碍物的最小距离来决定移动方向。
 
@@ -494,13 +494,13 @@ ROS 是一个用于机器人软件开发的开源的元操作系统。它提供�
 
 假设已有一个基于 TensorFlow 或其他框架的 AI 模型，可以将其加载并在回调函数中使用。例如，假设你有一个预训练的 DQN 模型来决定行动策略。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_050.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_050.jpg)
 
 （6）构建和运行。
 
 确保所有依赖项都已安装并正确配置后，构建并运行 ROS 包。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_051.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_051.jpg)
 
 总之，ROS 在 AI Agent 中的集成主要通过节点开发、节点集成和系统测试来实现。通过与 OpenAI Gym 和大型语言模型的集成，ROS 可以在复杂的机器人任务中发挥重要作用。在实际应用中，ROS 与 MoveIt 和 Gazebo 的结合可以实现机械臂的仿真控制和路径规划。
 
@@ -516,7 +516,7 @@ ROS 是一个用于机器人软件开发的开源的元操作系统。它提供�
 
 Unity ML-Agents 是一个开源平台，允许开发者使用 Unity 引擎创建丰富的 3D 环境，并利用强化学习、模仿学习等方法训练智能体完成特定任务。它非常适合需要高度交互性和视觉复杂性的应用场景。Unity ML-Agents 的主要特性如图 2-4 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_052.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_052.jpg)
 
 图 2-4 Unity ML-Agents 的主要特性
 
@@ -526,17 +526,17 @@ Unity ML-Agents 是一个开源平台，允许开发者使用 Unity 引擎创建
 
 （2）安装 ML-Agents Toolkit：使用 Python 包管理器安装 ML-Agents 工具包。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_053.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_053.jpg)
 
 （3）设置 Unity 项目：打开 Unity Hub，创建一个新的 Unity 项目。在 Unity Editor 中，进入 Window → Package Manager，添加 com.unity.ml-agents 包。
 
 （4）配置训练环境：创建一个简单的场景作为训练环境，然后添加必要的组件，如 Agent、Behavior Parameters、Academy 等。下面的演示代码展示了在 Unity 中创建一个 Agent 并使用 PPO 算法进行训练的过程。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_054.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_055.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_054.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_055.jpg)
 
 （5）训练模型：在终端中运行以下命令开始训练。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_056.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_056.jpg)
 
 2\. Gazebo
 
@@ -556,19 +556,19 @@ Gazebo 的主要特性如下。
 
 01 安装 Gazebo：对于 Ubuntu 操作系统的用户，可以通过以下命令安装。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_057.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_057.jpg)
 
 02 创建 ROS 包：通过以下命令创建一个新的 ROS 包用于 Gazebo 仿真。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_058.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_058.jpg)
 
 03 编写仿真环境：在 ROS 包中创建一个 launch 文件（如 simulation.launch），启动 Gazebo 和机器人模型。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_059.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_059.jpg)
 
 下面是一个简单的例子，展示了在 Gazebo 中模拟一个差速驱动机器人，并通过 ROS 发布速度指令的用法。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_060.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_061.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_060.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_061.jpg)
 
 注意：
 
@@ -586,7 +586,7 @@ Gazebo 的主要特性如下。
 
 确保已经安装了必要的依赖库。如果没有安装 Gym，可以通过以下命令进行安装。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_062.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_062.jpg)
 
 **2．** **创建自定义环境**
 
@@ -596,7 +596,7 @@ Gazebo 的主要特性如下。
 
 创建一个新的 Python 文件（如 custom_env.py），并定义环境类，继承自 gym.Env 类。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_063.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_064.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_063.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_064.jpg)
 
 （2）注册环境。
 
@@ -604,25 +604,25 @@ Gazebo 的主要特性如下。
 
 ◎ 动态注册：在主脚本中添加以下代码来动态注册环境。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_065.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_065.jpg)
 
 ◎ 静态注册：创建一个名为“gym_custom_envs/__init__.py”的文件，并在其中添加以下内容。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_066.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_066.jpg)
 
 在主脚本中导入该自定义环境模块。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_067.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_067.jpg)
 
 **3．** **测试自定义环境**
 
 创建一个简单的测试脚本来验证自定义环境的功能。例如，创建一个名为“test_env.py”的文件，代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_068.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_069.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_068.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_069.jpg)
 
 运行该脚本以测试自定义环境：
 
-![](img/图解AIAgent：智能体从原理到实践-_image_070.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_070.jpg)
 
 **4．** **扩展与优化**
 
@@ -672,7 +672,7 @@ Rasa 是一个开源的机器学习框架，用于构建基于文本和语音的
 
 Rasa 的核心工作逻辑如图 2-5 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_071.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_071.jpg)
 
 图 2-5 Rasa 的核心工作逻辑
 
@@ -684,7 +684,7 @@ DialogFlow 与 Rasa 的对比与选择如表 2-1 所示。
 
 表 2-1 DialogFlow 与 Rasa 的对比与选择
 
-![](img/图解AIAgent：智能体从原理到实践-_image_072.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_072.jpg)
 
 总之，DialogFlow 和 Rasa 都是强大的对话系统开发工具，各有优缺点。DialogFlow 适合快速搭建和集成，而 Rasa 则适合需要高度定制化和数据隐私保护的场景。选择哪种工具取决于具体的项目需求和开发团队的技术背景。
 
@@ -706,11 +706,11 @@ Mesa 是一个基于 Python 的轻量级多 Agent 仿真框架，专为模拟复
 
 在使用 Mesa 之前需要先安装 Mesa，安装命令如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_073.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_073.jpg)
 
 下面的代码展示了使用 Mesa 创建一个多 Agent 模型的用法。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_074.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_075.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_076.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_074.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_075.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_076.jpg)
 
 2\. JaCaMo
 
@@ -728,7 +728,7 @@ JaCaMo 的主要特点如下。
 
 下面是一个简单的 JaCaMo 项目结构示例。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_077.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_077.jpg)
 
 **3．** **对比与总结**
 
@@ -742,7 +742,7 @@ JaCaMo 的主要特点如下。
 
 在搭建通用 AI Agent 的云端异步处理环境时，通常需要整合多个框架，如图 2-6 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_078.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_078.jpg)
 
 图 2-6 云端异步处理环境框架
 
@@ -766,7 +766,7 @@ JaCaMo 的主要特点如下。
 
 感知层负责将外部环境中的多源信息采集并转换为通用 AI Agent 可以理解和处理的数据，其核心功能如图 3-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_079.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_079.jpg)
 
 图 3-1 感知层的核心功能
 
@@ -776,7 +776,7 @@ JaCaMo 的主要特点如下。
 
 决策层作为通用 AI Agent 的“大脑”，主要任务是基于感知层传来的环境状态信息进行分析、判断，并制定合理的任务规划和行动策略。决策层的主要功能如图 3-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_080.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_080.jpg)
 
 图 3-2 决策层的主要功能
 
@@ -784,13 +784,13 @@ JaCaMo 的主要特点如下。
 
 表 3-1 典型决策层架构的对比
 
-![](img/图解AIAgent：智能体从原理到实践-_image_081.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_081.jpg)
 
 **3．** **执行层**
 
 执行层是通用 AI Agent 与外部环境直接交互的接口，其任务是将决策层生成的抽象策略转化为具体操作，并在执行过程中监控反馈信息。执行层的主要功能如图 3-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_082.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_082.jpg)
 
 图 3-3 执行层的主要功能
 
@@ -798,7 +798,7 @@ JaCaMo 的主要特点如下。
 
 表 3-2 执行层在行业应用场景的对比
 
-![](img/图解AIAgent：智能体从原理到实践-_image_083.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_083.jpg)
 
 总之，感知层、决策层与执行层在通用 AI Agent 中紧密协作，共同构成了一个完整的信息处理和决策反馈闭环。感知层提供环境状态，决策层进行策略制定，而执行层将策略落地执行，并将执行结果反馈给前端，形成一个不断自我优化的系统。这样的分层设计不仅使系统结构清晰、模块功能明确，同时也为各模块的独立开发、调试与维护提供了便利，最终实现了高效、智能且鲁棒的通用 AI Agent 系统。
 
@@ -816,7 +816,7 @@ JaCaMo 的主要特点如下。
 
 实例文件 Gan.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_084.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_085.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_086.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_084.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_085.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_086.jpg)
 
 对上述代码的具体说明如下。
 
@@ -836,7 +836,7 @@ JaCaMo 的主要特点如下。
 
 执行后会输出下面的结果，整个流程展示了如何通过模块化设计实现 AI Agent 的感知层、决策层与执行层，从而构建一个完整的闭环控制系统。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_087.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_087.jpg)
 
 对上述执行结果的说明如下。
 
@@ -872,7 +872,7 @@ JaCaMo 的主要特点如下。
 
 表 3-3 松耦合实现的常见技术
 
-![](img/图解AIAgent：智能体从原理到实践-_image_088.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_088.jpg)
 
 **3．** **在通用** **AI** **Agent** **中的应用**
 
@@ -906,7 +906,7 @@ JaCaMo 的主要特点如下。
 
 表 3-4 分层容错机制
 
-![](img/图解AIAgent：智能体从原理到实践-_image_089.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_089.jpg)
 
 **2．** **实时性设计**
 
@@ -918,7 +918,7 @@ JaCaMo 的主要特点如下。
 
 表 3-5 分层实时性指标
 
-![](img/图解AIAgent：智能体从原理到实践-_image_090.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_090.jpg)
 
 （2）实时性的策略。
 
@@ -946,7 +946,7 @@ JaCaMo 的主要特点如下。
 
 实例文件 Cuo.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_091.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_092.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_093.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_094.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_095.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_096.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_091.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_092.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_093.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_094.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_095.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_096.jpg)
 
 对上述代码的具体说明如下。
 
@@ -980,7 +980,7 @@ JaCaMo 的主要特点如下。
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_097.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_098.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_097.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_098.jpg)
 
 本实例通过引入熔断机制、重试策略、延迟监控和降级处理等手段，全面展示了如何在通用 AI Agent 的分层架构中实现容错性与实时性设计。整个实现过程对于构建可靠、高效的 AI 系统具有重要参考价值。
 
@@ -994,7 +994,7 @@ JaCaMo 的主要特点如下。
 
 环境感知与状态表示如图 3-4 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_099.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_099.jpg)
 
 图 3-4 环境感知与状态表示
 
@@ -1004,7 +1004,7 @@ JaCaMo 的主要特点如下。
 
 实例文件 Huan.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_100.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_101.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_100.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_101.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1032,7 +1032,7 @@ JaCaMo 的主要特点如下。
 
 任务规划的基本流程如图 3-5 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_102.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_102.jpg)
 
 图 3-5 任务规划的基本流程
 
@@ -1050,13 +1050,13 @@ JaCaMo 的主要特点如下。
 
 表 3-6 经典方法与现代方法的对比
 
-![](img/图解AIAgent：智能体从原理到实践-_image_103.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_103.jpg)
 
 ### **3.2.3 数据流优化策略**
 
 在通用 AI Agent 的运行过程中，环境感知、任务规划和动作执行等环节会产生大量数据，如何高效处理这些数据是关键。数据压缩技术能对感知数据进行压缩，减少存储和传输开销，如采用 JPEG、H.264 等算法压缩图像视频和数据，以降低数据量，提高处理效率。常用的数据流优化策略如图 3-6 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_104.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_104.jpg)
 
 图 3-6 常用的数据流优化策略
 
@@ -1066,7 +1066,7 @@ JaCaMo 的主要特点如下。
 
 实例文件 Shu.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_105.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_106.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_105.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_106.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1078,7 +1078,7 @@ JaCaMo 的主要特点如下。
 
 执行后会输出经过 PCA 降维后的数据，相比原始图像数据量大幅减少，但保留了主要特征信息，可以作为后续任务规划和动作生成的输入。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_107.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_107.jpg)
 
 ## **3.3 典型架构模式分析**
 
@@ -1088,7 +1088,7 @@ JaCaMo 的主要特点如下。
 
 BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于认知科学的通用 AI Agent 架构，它将通用 AI Agent 的决策过程建模为信念、愿望和意图三个核心组件。BDI 架构如图 3-7 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_108.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_108.jpg)
 
 图 3-7 BDI 架构
 
@@ -1098,7 +1098,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Gan.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_109.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_110.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_111.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_109.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_110.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_111.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1118,7 +1118,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 （3）Agent 运行流程：在每个时间步，Agent 更新信念，生成愿望，形成意图，并执行意图。执行后 Agent 会在环境中移动，当发现当前位置有垃圾时会进行清洁。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_112.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_112.jpg)
 
 ### **3.3.2 端到端学习架构与混合架构**
 
@@ -1148,7 +1148,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 迷宫地图的内容如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_113.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_113.jpg)
 
 在下面的内容中，分别使用端到端学习架构和混合架构两种方法解决迷宫导航问题。
 
@@ -1158,7 +1158,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Duan.py 为端到端学习架构的实现方案，具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_114.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_115.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_116.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_117.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_114.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_115.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_116.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_117.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1184,7 +1184,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Hun.py 为混合架构的实现方案，（基于 DQN + A*规划路径），具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_118.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_119.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_120.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_118.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_119.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_120.jpg)
 
 在上述代码中，类 HybridAgent 继承自 DQNAgent，并在其基础上添加了 A*规划路径功能。当 DQN 决策连续失败或随机触发时，Agent 会使用 A*算法计算从当前位置到目标位置的最优路径。执行过程中，Agent 优先沿着 A*算法规划的路径移动，提高了导航效率。
 
@@ -1194,7 +1194,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 表 3-7 两种框架的性能对比
 
-![](img/图解AIAgent：智能体从原理到实践-_image_121.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_121.jpg)
 
 ### **3.3.3 多 Agent 协同架构**
 
@@ -1218,7 +1218,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Duo.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_122.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_123.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_124.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_122.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_123.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_124.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1242,7 +1242,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 （3）运行流程：在每个时间步，Agent 更新位置，清洁所在区域，并移动到新位置。执行后 Agent 会在环境中移动，当发现当前位置有垃圾时会进行清洁。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_125.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_125.jpg)
 
 总之，多 Agent 协同架构使通用 AI Agent 能更好地模拟和理解复杂系统的行为，为解决实际问题提供有效的工具和方法。
 
@@ -1278,11 +1278,11 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 根据架构选型考虑因素和本章介绍的架构模式，常见的应用场景及其适配的架构建议如图 3-8 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_126.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_126.jpg)
 
 图 3-8 常见的应用场景及其适配的架构建议
 
-![](img/图解AIAgent：智能体从原理到实践-_image_127.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_127.jpg)
 
 图 3-8 常见的应用场景及其适配的架构建议（续）
 
@@ -1308,7 +1308,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 传感器融合根据数据处理的阶段分为三个层级，如图 4-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_128.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_128.jpg)
 
 图 4-1 传感器融合的三个层级
 
@@ -1336,7 +1336,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Shi.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_129.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_130.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_131.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_132.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_133.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_134.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_129.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_130.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_131.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_132.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_133.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_134.jpg)
 
 上述代码实现了一个多线程智能监控系统，利用 IMU 传感器模拟、计算机视觉（基于 YOLOv5 算法）和卡尔曼滤波实现了目标检测和数据融合。注意：在运行前需要下载 yolov5s.onnx 模型文件，放置于代码同级目录。对上述代码的具体说明如下。
 
@@ -1360,7 +1360,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 （4）界面展示：在摄像头画面上绘制检测框、融合点和 IMU 数据，额外窗口显示 IMU 数据，如图 4-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_135.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_135.jpg)
 
 图 4-2 界面展示效果
 
@@ -1376,7 +1376,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 自然语言处理是人工智能领域的重要分支，旨在使计算机能够理解、生成和处理人类的自然语言。自然语言处理技术使通用 AI Agent 能够解析文本的语法、语义和上下文，从而实现对自然语言的深入理解和生成。自然语言处理的核心技术与具体应用如图 4-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_136.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_136.jpg)
 
 图 4-3 自然语言处理的核心技术与具体应用
 
@@ -1384,7 +1384,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 语音识别技术将人类的语音信号转换为文本形式，使通用 AI Agent 能够理解和处理人类的口语指令。它是人机交互的重要环节，尤其在智能助手和智能家居等领域广泛应用。语音识别的核心技术与具体应用如图 4-4 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_137.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_137.jpg)
 
 图 4-4 语音识别的核心技术与具体应用
 
@@ -1394,7 +1394,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Yin.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_138.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_139.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_138.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_139.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1412,7 +1412,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 执行后会输出结果，并且 Agent 会朗读其中的内容。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_140.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_141.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_140.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_141.jpg)
 
 总之，在通用 AI Agent 中，自然语言处理和语音识别技术通常结合使用，实现从语音到文本的转换，再到文本的理解和生成，形成完整的语音交互流程。例如，智能助手首先接收用户的语音指令，通过语音识别将其转换为文本，其次利用自然语言处理技术理解指令的含义，并生成相应的回答或执行相应的操作，最后通过语音合成将回答以语音形式输出。这两项技术的发展和融合，使通用 AI Agent 能够更自然、更智能地与人类进行交互，极大地提升了用户体验和系统的实用性。
 
@@ -1478,7 +1478,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Qiang.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_142.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_143.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_144.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_145.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_146.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_142.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_143.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_144.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_145.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_146.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1512,11 +1512,11 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 执行后会输出如下所示的训练过程，并绘制 Agent 的移动动画图和训练过程的可视化图，如图 4-5 和图 4-6 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_147.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_147.jpg)
 
 图 4-5 Agent 的移动动画图
 
-![](img/图解AIAgent：智能体从原理到实践-_image_148.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_149.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_148.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_149.jpg)
 
 图 4-6 训练过程的可视化图
 
@@ -1560,7 +1560,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Tu.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_150.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_151.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_152.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_153.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_154.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_150.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_151.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_152.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_153.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_154.jpg)
 
 本实例通过结合 RDF 数据模型和推理引擎，提供了一个基于知识图谱的医疗诊断和治疗推荐系统。对上述代码的具体说明如下。
 
@@ -1598,11 +1598,11 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 执行后可以根据用户输入的症状进行诊断，如下面的执行过程，并且可以绘制可视化知识图谱，如图 4-7 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_155.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_155.jpg)
 
 图 4-7 可视化知识图谱
 
-![](img/图解AIAgent：智能体从原理到实践-_image_156.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_157.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_156.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_157.jpg)
 
 总之，知识图谱驱动的推理引擎通过结构化的知识表示和逻辑推理，显著提升了通用 AI Agent 的决策能力和智能性。它在多个领域展现出广泛的应用潜力，如智能客服、医疗诊断和智能助手等领域。随着知识图谱技术和推理算法的不断进步，其在通用 AI Agent 中的作用将更加重要。
 
@@ -1620,7 +1620,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 贝叶斯网络的核心概念和应用案例如图 4-8 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_158.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_158.jpg)
 
 图 4-8 贝叶斯网络的核心概念和应用案例
 
@@ -1628,7 +1628,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 马尔可夫决策过程为通用 AI Agent 在不确定环境中建模序列决策提供了框架，其核心假设是未来状态仅依赖当前状态和采取的动作（即马尔可夫性质）。马尔可夫决策过程通过定义状态、动作、转移概率、奖励函数等元素，帮助通用 AI Agent 学习最优策略。马尔可夫决策过程在智能交通系统、机器人导航和金融交易等领域有广泛应用。马尔可夫决策过程的核心概念和应用案例如图 4-9 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_159.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_159.jpg)
 
 图 4-9 马尔可夫决策过程的核心概念和应用案例
 
@@ -1646,7 +1646,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Bei.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_160.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_161.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_162.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_163.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_164.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_165.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_160.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_161.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_162.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_163.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_164.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_165.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1670,7 +1670,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 执行后通过两个案例进行演示，根据两个不同的症状，Agent 会输出下面的疾病概率、推荐治疗方案信息，并绘制可视化图展示决策过程，如图 4-10 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_166.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_167.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_166.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_167.jpg)
 
 图 4-10 决策过程的可视化图
 
@@ -1742,7 +1742,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Gui.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_168.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_169.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_170.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_168.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_169.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_170.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1762,7 +1762,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 执行后显示规划代理将高层任务分解为多个子任务，并由不同的工作智能体并行完成，最终协调输出各个任务的执行结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_171.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_171.jpg)
 
 总之，规划代理通过将复杂任务分解为可管理的子任务，并制订详细的执行计划，显著提高了通用 AI Agent 在处理复杂问题时的效率和效果。结合大语言模型和分层强化学习等技术，规划代理能够在多个领域实现智能化的任务管理和执行。
 
@@ -1806,7 +1806,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Lian.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_172.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_173.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_174.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_175.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_176.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_177.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_172.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_173.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_174.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_175.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_176.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_177.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1828,7 +1828,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 具体目录结构如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_178.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_178.jpg)
 
 （4）Agent 核心。
 
@@ -1842,7 +1842,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_179.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_180.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_179.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_180.jpg)
 
 在实际应用中，结合大语言模型、检索增强生成技术、多模态融合等方法，可以进一步增强通用 AI Agent 的动态工具链调用能力，拓展其应用范围和效果。
 
@@ -1852,11 +1852,11 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 鲁棒性检测的核心知识如图 4-11 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_181.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_181.jpg)
 
 图 4-11 鲁棒性检测的核心知识
 
-![](img/图解AIAgent：智能体从原理到实践-_image_182.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_182.jpg)
 
 图 4-11 鲁棒性检测的核心知识（续）
 
@@ -1866,7 +1866,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 实例文件 Dui.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_183.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_184.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_183.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_184.jpg)
 
 对上述代码的具体说明如下。
 
@@ -1880,7 +1880,7 @@ BDI（Belief-Desire-Intention，信念—愿望—意图）架构是一种基于
 
 （5）run()方法：启动 Agent，接受用户输入并运行鲁棒性检测。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_185.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_186.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_185.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_186.jpg)
 
 输出结果显示 Agent 如何动态检测并处理对抗性或异常输入。例如，如果用户输入包含对抗性关键词 attack,Agent 会返回警告消息，否则会正常处理查询。
 
@@ -1894,7 +1894,7 @@ Manus 是一款具备突破性技术的通用 AI Agent，其核心创新在于�
 
 规划代理是 Manus 的核心决策中枢，负责理解用户意图、分解复杂任务并制订执行计划，其功能如图 4-12 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_187.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_187.jpg)
 
 图 4-12 规划代理的功能
 
@@ -1984,7 +1984,7 @@ A*算法是一种高效的路径规划算法，结合了 Dijkstra 算法的最�
 
 ◎ *f*(*n*)：总代价估计，计算公式为
 
-![](img/图解AIAgent：智能体从原理到实践-_image_188.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_188.jpg)
 
 **3. A*算法的工作流程**
 
@@ -2002,11 +2002,11 @@ A*算法是一种高效的路径规划算法，结合了 Dijkstra 算法的最�
 
 表 5-1 启发式函数设计原则
 
-![](img/图解AIAgent：智能体从原理到实践-_image_189.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_189.jpg)
 
 续表
 
-![](img/图解AIAgent：智能体从原理到实践-_image_190.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_190.jpg)
 
 实例 5-1 实现了 A*算法，结合 Pygame 可视化库展示了路径规划的过程。该实例包含了动态障碍物、多种启发式函数选择及实时路径更新功能。
 
@@ -2014,7 +2014,7 @@ A*算法是一种高效的路径规划算法，结合了 Dijkstra 算法的最�
 
 实例文件 Qia.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_191.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_192.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_193.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_194.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_195.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_196.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_197.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_191.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_192.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_193.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_194.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_195.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_196.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_197.jpg)
 
 上面的代码是一个使用 Pygame 库和 A*算法实现路径搜索的游戏。在这个游戏中，你可以创建一个网格世界（Grid World），其中包含起点、终点和障碍物。游戏的目的是找到从起点到终点的路径。对上述代码的具体说明如下。
 
@@ -2036,7 +2036,7 @@ A*算法是一种高效的路径规划算法，结合了 Dijkstra 算法的最�
 
 执行后可以在游戏中直观地看到 A*算法如何找到从起点到终点的最短路径，并且可以实验不同的启发式函数对路径搜索的影响。最终的执行效果如图 5-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_198.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_198.jpg)
 
 图 5-1 A*算法执行效果
 
@@ -2088,7 +2088,7 @@ HTN 广泛应用于机器人任务规划、游戏 AI、自动化规划等领域�
 
 实例文件 Httnn.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_199.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_200.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_201.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_199.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_200.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_201.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2116,11 +2116,11 @@ HTN 广泛应用于机器人任务规划、游戏 AI、自动化规划等领域�
 
 注意：在运行前先通过下面的命令下载并安装 zh_core_web_sm 模型。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_202.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_202.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_203.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_203.jpg)
 
 整个实例展示了如何使用 HTN 方法将复杂任务分解为可管理的子任务，并逐步执行以完成整个流程。
 
@@ -2134,7 +2134,7 @@ HTN 广泛应用于机器人任务规划、游戏 AI、自动化规划等领域�
 
 基于深度学习的神经规划器的具体说明如图 5-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_204.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_204.jpg)
 
 图 5-2 基于深度学习的神经规划器的具体说明
 
@@ -2144,7 +2144,7 @@ HTN 广泛应用于机器人任务规划、游戏 AI、自动化规划等领域�
 
 实例文件 Gui.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_205.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_206.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_207.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_208.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_209.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_210.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_205.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_206.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_207.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_208.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_209.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_210.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2156,11 +2156,11 @@ HTN 广泛应用于机器人任务规划、游戏 AI、自动化规划等领域�
 
 （4）测试与可视化：test()函数用于评估训练好的模型性能，而可视化部分则帮助理解模型的行为模式。执行后会输出以下训练过程和结果，并绘制训练过程的可视化图，如图 5-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_211.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_211.jpg)
 
 注意：虽然上述代码实现了一个基于 DQN 的 AI Agent，可视为神经规划器的一种基础应用，但它更适合那些可以通过短期、局部优化解决的问题。对于需要深度推理和长期规划的复杂任务，可能需要采用更先进的规划方法或结合多种技术以提升系统的规划与泛化能力。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_212.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_212.jpg)
 
 图 5-3 训练过程的可视化图
 
@@ -2174,7 +2174,7 @@ HTN 广泛应用于机器人任务规划、游戏 AI、自动化规划等领域�
 
 MCTS 的核心思想和主要步骤如图 5-4 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_213.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_213.jpg)
 
 图 5-4 MCTS 的核心思想和主要步骤
 
@@ -2200,7 +2200,7 @@ MCTS 的核心思想和主要步骤如图 5-4 所示。
 
 实例文件 Meng.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_214.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_215.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_216.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_217.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_218.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_214.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_215.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_216.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_217.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_218.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2230,7 +2230,7 @@ MCTS 的核心思想和主要步骤如图 5-4 所示。
 
 通过本实例可以清晰地看到 MCTS 在通用 AI Agent 中的应用流程：从环境交互到树结构构建，再到基于统计的最优决策。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_219.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_220.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_219.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_220.jpg)
 
 总之，MCTS 是一种强大的决策制定算法，广泛应用于棋类游戏、自动驾驶、机器人控制、自动化规划和大语言模型等领域。通过随机模拟和树搜索，MCTS 能够在复杂的决策空间中找到最优的行动路径。尽管 MCTS 需要大量的计算资源，但其在处理复杂问题时的高效性和适应性，仍使其成为许多领域的首选算法。
 
@@ -2282,15 +2282,15 @@ Prolog 是一种基于一阶逻辑的逻辑编程语言，其主要特点如下�
 
 （2）通过以下命令安装 swiplserver 库。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_221.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_221.jpg)
 
 （3）实例文件 Zhishi.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_222.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_223.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_224.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_222.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_223.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_224.jpg)
 
 （4）知识库文件 animal_kb.pl 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_225.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_225.jpg)
 
 对本实例的具体说明如下。
 
@@ -2316,7 +2316,7 @@ Prolog 是一种基于一阶逻辑的逻辑编程语言，其主要特点如下�
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_226.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_226.jpg)
 
 总之，一阶逻辑与 Prolog 引擎的集成，为通用 AI Agent 提供了强大的符号推理能力，尤其适用于需要形式化验证、可解释性和知识密集型的场景。随着神经符号计算的发展，这种集成将进一步推动通用 AI Agent 在复杂环境中的智能化决策。
 
@@ -2332,11 +2332,11 @@ Prolog 是一种基于一阶逻辑的逻辑编程语言，其主要特点如下�
 
 符号表示与神经网络融合的基本信息如图 5-5 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_227.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_227.jpg)
 
 图 5-5 符号表示与神经网络融合的基本信息
 
-![](img/图解AIAgent：智能体从原理到实践-_image_228.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_228.jpg)
 
 图 5-5 符号表示与神经网络融合的基本信息（续）
 
@@ -2372,7 +2372,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 （3）实例文件 Shen.py 的部分实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_229.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_230.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_231.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_229.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_230.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_231.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2384,13 +2384,13 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 （4）知识库文件 habitat_kb.pl 的内容如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_232.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_232.jpg)
 
 （5）准备预训练模型权重：下载权重文件 animal_classifier_weights.pt（或自行训练模型），将权重文件与代码放在同一目录。
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_233.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_233.jpg)
 
 总之，神经符号推理的混合方法通过结合神经网络的感知能力和符号逻辑的推理能力，提供了更强大、更灵活且更具解释性的智能决策工具。这些方法在多个领域展现了广泛的应用前景，能够处理复杂的智能任务，提高模型的性能和可解释性。
 
@@ -2404,7 +2404,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 基于神经符号系统的任务拆解方法的具体内容如图 5-6 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_234.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_234.jpg)
 
 图 5-6 基于神经符号系统的任务拆解方法的具体内容
 
@@ -2418,7 +2418,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 代码 Agent 是通过编程实现的自动化系统，能够执行复杂任务，结合了工具调用、规划能力和决策逻辑。代码 Agent 的核心架构与设计模式如图 5-7 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_235.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_235.jpg)
 
 图 5-7 代码 Agent 的核心架构与设计模式
 
@@ -2466,7 +2466,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 （2）决策过程的符号化：将大语言模型的推理过程转化为符号规则或流程图，例如，Agent 的购票逻辑可用以下命令来表示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_236.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_236.jpg)
 
 （3）错误处理的透明化：当任务失败时，Agent 需返回可理解的错误原因（如“余额不足，请充值后重试”）。
 
@@ -2478,7 +2478,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Zhong.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_237.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_238.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_239.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_240.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_241.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_237.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_238.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_239.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_240.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_241.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2504,7 +2504,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 通过上述流程，工具能够解析 Python 代码、检测常见问题，并提供详细的解释和改进建议，帮助开发者提高代码质量。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_242.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_242.jpg)
 
 在执行上述代码时分析了示例函数 calculate()，并检测到以下两个问题。
 
@@ -2536,7 +2536,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 将源领域预训练模型的底层特征提取能力迁移到目标领域，通过调整顶层任务相关层实现适配。特征迁移的实现方式如图 6-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_243.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_243.jpg)
 
 图 6-1 特征迁移的实现方式
 
@@ -2544,7 +2544,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 直接使用预训练模型的参数作为初始权重，并在目标领域数据上进行微调。模型迁移的实现方式如图 6-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_244.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_244.jpg)
 
 图 6-2 模型迁移的实现方式
 
@@ -2552,7 +2552,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 通过知识蒸馏将复杂模型（教师模型）的知识迁移到轻量级模型（学生模型）。知识迁移的实现方式如图 6-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_245.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_245.jpg)
 
 图 6-3 知识迁移的实现方式
 
@@ -2562,11 +2562,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 首先使用 Kaggle 的宠物图像数据集（需自行下载并解压到“data/pets”目录），结构如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_246.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_246.jpg)
 
 然后编写实例文件 Qian.py，具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_247.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_248.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_249.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_250.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_251.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_247.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_248.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_249.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_250.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_251.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2578,7 +2578,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 （4）主程序：设置训练流程，包括数据加载、模型初始化、训练、保存和评估模型等步骤。执行后会输出训练过程。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_252.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_252.jpg)
 
 总之，预训练模型的迁移策略在通用 AI Agent 中具有重要意义，通过微调或特征提取的方法，可以有效地将知识从一个任务迁移到另一个任务，提高模型的适应性和性能。在实际应用中，选择合适的迁移学习策略需要考虑目标任务的特点和可用资源。
 
@@ -2590,7 +2590,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 零样本学习是一种机器学习任务设定，其目标是使模型在测试阶段能够精确识别或分类在训练过程中未曾出现过的类别。在实现零样本学习时，通常需借助某种形式的辅助信息（如属性、文本描述等），将训练类和测试类联系起来，从而实现对未见过类别的识别。零样本学习的原理和应用如图 6-4 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_253.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_253.jpg)
 
 图 6-4 零样本学习的原理和应用
 
@@ -2600,7 +2600,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Ling.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_254.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_255.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_254.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_255.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2610,7 +2610,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ 输出：直接根据文本描述的相似度预测类别，执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_256.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_256.jpg)
 
 **2． 小样本学习**
 
@@ -2632,7 +2632,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Xiao.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_257.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_258.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_259.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_257.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_258.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_259.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2642,11 +2642,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 运行前需要准备数据集，数据结构如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_260.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_260.jpg)
 
 执行后会输出以下训练过程和预测结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_261.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_262.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_261.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_262.jpg)
 
 **3． 与迁移学习的区别**
 
@@ -2654,7 +2654,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 表 6-1 零样本学习、小样本学习与迁移学习的区别
 
-![](img/图解AIAgent：智能体从原理到实践-_image_263.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_263.jpg)
 
 总之，零样本学习和小样本学习是通用 AI Agent 的核心能力，使其在数据稀缺场景下仍能高效适应新任务。两者主要通过以下方式实现。
 
@@ -2698,7 +2698,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Zeng.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_264.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_265.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_266.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_267.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_268.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_264.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_265.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_266.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_267.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_268.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2718,7 +2718,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ 在每个阶段结束后评估模型的性能，执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_269.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_270.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_269.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_270.jpg)
 
 总之，增量式模型更新是通用 AI Agent 中实现动态适应和持续优化的关键技术。通过在线学习、模型融合和增量式微调等方法，Agent 能够在数据稀缺或环境变化的情况下，快速适应新任务并保持高效决策能力。在实际应用中，结合多模态融合和自监督学习等技术，将进一步推动增量式模型更新的发展和应用。
 
@@ -2738,11 +2738,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 基于反馈的强化学习的实现方式如图 6-5 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_271.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_271.jpg)
 
 图 6-5 基于反馈的强化学习的实现方式
 
-![](img/图解AIAgent：智能体从原理到实践-_image_272.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_272.jpg)
 
 图 6-5 基于反馈的强化学习的实现方式（续）
 
@@ -2764,7 +2764,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Fan.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_273.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_274.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_275.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_276.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_273.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_274.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_275.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_276.jpg)
 
 上述代码实现了一个典型的 RLHF 的过程，通过以下三个主要阶段来实现。
 
@@ -2776,11 +2776,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 执行后会输出以下评分过程，并绘制累积奖励变化曲线图，如图 6-6 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_277.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_277.jpg)
 
 图 6-6 累积奖励变化曲线图
 
-![](img/图解AIAgent：智能体从原理到实践-_image_278.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_278.jpg)
 
 总之，基于反馈的强化学习是通用 AI Agent 中实现动态适应和持续优化的关键技术。通过 RLHF 和 RLAIF，通用 AI Agent 能够在与环境的交互中不断学习和优化其行为策略，以更好地符合人类的偏好和价值观。在实际应用中，结合多模态融合和自监督学习等技术，将进一步推动基于反馈的强化学习的发展和应用。
 
@@ -2808,7 +2808,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实现 AutoML 的关键技术与方法如图 6-7 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_279.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_279.jpg)
 
 图 6-7 实现 AutoML 的关键技术与方法
 
@@ -2818,7 +2818,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Autoagent.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_280.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_281.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_282.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_283.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_284.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_280.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_281.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_282.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_283.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_284.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2844,7 +2844,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ 完整训练：用最优参数初始化 Agent，进行完整训练（如 200 轮），并输出最终测试得分。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_285.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_286.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_285.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_286.jpg)
 
 总之，在通用 AI Agent 中，AutoML 通过自动 HPO、NAS 和特征工程，显著提升了模型的适应性和开发效率。结合前沿工具（如 Optuna、Ray Tune）和算法（如贝叶斯优化、强化学习），通用 AI Agent 能够快速响应动态环境，实现从数据到部署的全流程自动化。未来，随着大模型和元学习的发展，AutoML 将进一步推动通用 AI Agent 的智能化与普及化。
 
@@ -2864,11 +2864,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 元学习框架的核心组件如图 6-8 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_287.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_287.jpg)
 
 图 6-8 元学习框架的核心组件
 
-![](img/图解AIAgent：智能体从原理到实践-_image_288.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_288.jpg)
 
 图 6-8 元学习框架的核心组件（续）
 
@@ -2878,7 +2878,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Yuan.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_289.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_290.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_291.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_292.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_293.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_294.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_295.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_289.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_290.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_291.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_292.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_293.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_294.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_295.jpg)
 
 对上述代码的具体说明如下。
 
@@ -2910,7 +2910,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 （8）元测试：在未见过的新任务上执行内循环更新，快速更新后测试性能。然后计算平均分类准确率，衡量模型泛化能力。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_296.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_296.jpg)
 
 注意：本实例是一个基于元学习实现的通用 AI Agent，它通过不断在不同任务上进行快速更新和优化，使模型能够高效地在新任务上进行学习，从而展现少样本学习能力。从通用 AI Agent 的角度来看，这个实现具备以下特点。
 
@@ -2944,11 +2944,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 集中式协作架构的特点、优点、缺点和应用场景如图 7-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_297.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_297.jpg)
 
 图 7-1 集中式协作架构的特点、优点、缺点和应用场景
 
-![](img/图解AIAgent：智能体从原理到实践-_image_298.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_298.jpg)
 
 图 7-1 集中式协作架构的特点、优点、缺点和应用场景（续）
 
@@ -2956,7 +2956,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 在分布式协作架构中，各个 Agent 具有独立的决策能力，不存在中心控制节点。Agent 之间通过通信和协作机制实现信息共享和任务分配，每个 Agent 根据自身局部信息和环境感知进行自主决策。分布式协作架构的特点、优点、缺点和应用场景如图 7-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_299.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_299.jpg)
 
 图 7-2 分布式协作架构的特点、优点、缺点和应用场景
 
@@ -2966,7 +2966,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 表 7-1 集中式与分布式协作架构的对比
 
-![](img/图解AIAgent：智能体从原理到实践-_image_300.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_300.jpg)
 
 总之，集中式协作架构通过中心节点实现全局管理和协调，具有高效的任务分配和信息一致性，但存在瓶颈问题和单点故障风险，适用于稳定环境中的任务明确场景。分布式协作架构强调节点的自治性和对等协作，具有良好的灵活性、扩展性和鲁棒性，适用于复杂动态环境中的任务分配和协作，但需要解决信息不完整和协调复杂性的问题。
 
@@ -2980,11 +2980,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 在现实应用中，常见的通信协议类型如图 7-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_301.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_301.jpg)
 
 图 7-3 常见的通信协议类型
 
-![](img/图解AIAgent：智能体从原理到实践-_image_302.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_302.jpg)
 
 图 7-3 常见的通信协议类型（续）
 
@@ -3034,11 +3034,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ 定义博弈矩阵：描述不同策略组合的收益。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_303.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_303.jpg)
 
 ◎ 遍历所有策略组合：检查是否存在均衡点。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_304.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_305.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_304.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_305.jpg)
 
 ◎ 输出均衡点：在上述代码中，均衡点为 Agent A 选择“防御”（动作 1），均衡点为 Agent B 选择“攻击”（动作 0）。
 
@@ -3048,7 +3048,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 在实际应用中，博弈论模型的应用场景如图 7-4 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_306.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_306.jpg)
 
 图 7-4 博弈论模型的应用场景
 
@@ -3058,7 +3058,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Na.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_307.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_308.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_309.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_310.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_307.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_308.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_309.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_310.jpg)
 
 对上述代码的具体说明如下。
 
@@ -3110,11 +3110,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 执行后会输出以下结果，并分别绘制策略变化图和收益变化图，如图 7-5 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_311.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_311.jpg)
 
 总之，在多 Agent 系统中，纳什均衡和博弈论模型的应用非常广泛。例如，在资源分配、任务调度、网络路由等领域，Agent 可以通过博弈论模型找到最优的策略组合，从而实现系统的整体优化。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_312.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_312.jpg)
 
 图 7-5 策略变化图和收益变化图
 
@@ -3130,7 +3130,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 深度强化学习算法在多 Agent 竞争中的应用如图 7-6 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_313.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_313.jpg)
 
 图 7-6 深度强化学习算法在多 Agent 竞争中的应用
 
@@ -3138,11 +3138,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 深度强化学习在多 Agent 竞争中的应用领域如图 7-7 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_314.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_314.jpg)
 
 图 7-7 深度强化学习在多 Agent 竞争中的应用领域
 
-![](img/图解AIAgent：智能体从原理到实践-_image_315.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_315.jpg)
 
 图 7-7 深度强化学习在多 Agent 竞争中的应用领域（续）
 
@@ -3152,7 +3152,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Shen.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_316.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_317.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_318.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_319.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_320.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_316.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_317.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_318.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_319.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_320.jpg)
 
 上述代码的实现流程如下所示。
 
@@ -3198,7 +3198,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ 绘制两个 Agent 在每个回合中的累积奖励变化曲线图（见图 7-8），观察训练过程中的收敛性。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_321.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_321.jpg)
 
 图 7-8 累积奖励变化曲线图
 
@@ -3220,7 +3220,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 多 Agent 路径规划（Multi-Agent Path Finding,MAPF）旨在为多个 Agent 找到从起始位置到目标位置且无冲突的最优路径集合。这一问题在物流、军事和安防等领域有着广泛的应用场景。根据结果最优性的不同，多 Agent 路径规划算法可以分为最优算法和近似算法两类，如图 7-9 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_322.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_322.jpg)
 
 图 7-9 多 Agent 路径规划算法的分类
 
@@ -3250,7 +3250,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Qun.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_323.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_324.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_325.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_326.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_327.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_328.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_323.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_324.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_325.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_326.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_327.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_328.jpg)
 
 对上述代码的具体说明如下。
 
@@ -3284,7 +3284,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ 将动画保存为动画文件 swarm_animation1.gif，以便后续查看或分享，如图 7-10 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_329.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_329.jpg)
 
 图 7-10 Agent 的动画 1
 
@@ -3346,13 +3346,13 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 实例文件 Xie.py 的具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_330.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_331.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_332.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_333.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_334.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_330.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_331.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_332.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_333.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_334.jpg)
 
 上述代码实现了一个模拟群体智能的动画，展示了多个 Agent 在环境中搜索资源并将其带回基地的过程。动画使用了 Matplotlib 库的 FuncAnimation 类来生成，并通过 PillowWriter 工具将动画保存为 GIF 文件。
 
 在 swarm_simulation()函数中，首先初始化环境和可视化对象，其次定义 animate()函数，该函数在每一帧中更新环境和 Agent 的状态。再次，使用 FuncAnimation 类创建动画对象，并通过 PillowWriter 工具将动画保存为 swarm_animation2.gif 文件，如图 7-11 所示。最后，调用 plt.show()函数显示动画。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_335.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_335.jpg)
 
 图 7-11 Agent 的动画 2
 
@@ -3374,11 +3374,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 本项目旨在基于 DeepSeek/OpenAI 等大语言模型，构建一个高效、可扩展的智能客服 Agent 系统。该系统利用先进的大语言模型和多模态信息处理技术，实现全渠道客户服务能力。项目后端基于 FastAPI 框架开发，提供完整的 API 服务接口，并通过 WebSocket 实现实时通信。基于 DeepSeek/OpenAI 的智能客服 Agent 的功能模块如图 8-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_336.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_336.jpg)
 
 图 8-1 基于 DeepSeek/OpenAI 的智能客服 Agent 的功能模块
 
-![](img/图解AIAgent：智能体从原理到实践-_image_337.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_337.jpg)
 
 图 8-1 基于 DeepSeek/OpenAI 的智能客服 Agent 的功能模块（续）
 
@@ -3392,29 +3392,29 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 base_llm.py 构建了一个基于语言模型的对话系统基础框架。它通过导入 LangChain 的核心组件（如嵌入模型与聊天模型接口）、数据验证工具（Pydantic）及配置模块，定义了用户、系统、助手三种对话角色标识，为实现智能对话交互、整合多模态处理能力及配置管理奠定了基础。在文件 base_llm.py 中实现了 BaseLLM 类，此类提供了一套通用的接口，允许子类根据不同的实现需求，如不同的语言模型来扩展这些方法。此外，还实现了 BaseResult 类，用于封装生成结果，提供对返回内容及相关信息的统一访问和处理。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_338.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_339.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_340.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_338.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_339.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_340.jpg)
 
 ### **8.3.2** **工厂函数**
 
 文件 llm_factory.py 中定义了一个工厂函数 create_llm()，用于根据传入的配置和模型类型创建相应的语言模型实例。函数 create_llm()根据 llm_type 参数的值（如“openai” 或 “deepseek”）来决定返回 OpenAILLM 类还是 DeepSeekLLM 类的实例。如果提供的 llm_type 参数无法识别，则抛出一个 ValueError 异常，代码段如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_341.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_341.jpg)
 
 ### **8.3.3** **调用** **DeepSeek**
 
 文件 deepseek_llm.py 中定义了一个名为 DeepSeekLLM 的类，继承自 BaseLLM 类。在初始化方法中，DeepSeekLLM 类从配置中获取 DeepSeek 的 API 密钥和 URL。通过 invoke()方法调用 DeepSeek API 生成响应，支持在消息中加入系统指令和用户输入的提示，代码段如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_342.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_343.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_344.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_342.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_343.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_344.jpg)
 
 ### **8.3.4** **调用 OpenAI**
 
 文件 openai_llm.py 中定义了一个名为 OpenAILLM 的类，继承自 BaseLLM 类，用于与 OpenAI API 进行交互，提供文本生成、文本嵌入和语音转文本等功能，代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_345.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_346.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_347.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_348.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_345.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_346.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_347.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_348.jpg)
 
 上述代码用于与 OpenAI 的 API 进行交互，OpenAILLM 类包含的功能如图 8-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_349.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_349.jpg)
 
 图 8-2 OpenAILLM 类包含的功能
 
@@ -3428,7 +3428,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 api.py 中定义了多个请求的数据模型类，主要用于在 API 请求中传输用户的输入和消息数据。所有的数据模型类都继承自 Pydantic 库的 BaseModel 类，用于数据验证和结构化。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_350.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_350.jpg)
 
 上述代码定义了四个数据模型类，主要用于 API 请求时的数据验证和处理。通过使用 Pydantic 库，确保数据的正确性和结构一致性。这些数据模型类的字段可以帮助服务端正确地理解和处理来自客户端的请求。
 
@@ -3446,7 +3446,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ tools 字段：一个包含字典的列表，用于定义助手的工具或功能。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_351.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_351.jpg)
 
 ### **8.4.3 对话和消息模型**
 
@@ -3458,7 +3458,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ AgentInstance 模型：表示一个 Agent 实例，包含 Agent 的基本信息、指令、响应格式、可用工具等。Agent 实例的配置和元数据也存储在数据库中。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_352.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_353.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_354.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_355.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_356.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_352.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_353.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_354.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_355.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_356.jpg)
 
 ## **8.5 Agent**
 
@@ -3468,7 +3468,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 agent_factory.py 的功能是根据传入的 AgentInstance 类型（如 openai 或 openai_assistant）创建不同类型的智能 Agent 实例，通过工厂函数 create_agent()来实例化合适的 Agent 类（如 OpenAIAgent 或 OpenAIAssistantAgent），并传入所需的配置、向量存储和大语言模型。如果传入的 Agent 类型无法被识别，该函数将抛出 ValueError 异常。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_357.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_357.jpg)
 
 ### **8.5.2 OpenAI 对话 Agent**
 
@@ -3476,7 +3476,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 openai_agent.py 实现了 OpenAIAgent 类，此类继承自 BaseAgent，旨在通过 OpenAI 提供的技术为对话系统构建 Agent。它实现了创建、删除对话线程及生成对话答案等功能，支持处理文本提问和多媒体内容。此外，OpenAIAgent 类还包括了与云服务交互的功能，可用于为 Agent 创建和管理云实例。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_358.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_359.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_360.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_358.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_359.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_360.jpg)
 
 **2. OpenAIAssistantAgent 类**
 
@@ -3484,7 +3484,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 （1）方法 build_asnwer()的功能是处理用户对话，通过 OpenAI 的 API 发送问题，并管理 API 运行状态，包括处理请求超时、解析 AI 生成的响应、执行所需的外部函数调用，并最终返回 AI 生成的答案、相关的动作和附加数据。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_361.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_362.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_363.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_364.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_361.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_362.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_363.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_364.jpg)
 
 （2）方法 create_cloud()用于在 OpenAI 平台上创建或更新 AI 助手，具体功能如下。
 
@@ -3498,19 +3498,19 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ 返回 ID：返回创建或更新后的 AI 助手 ID，如果失败，则返回 ""。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_365.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_366.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_365.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_366.jpg)
 
 （3）方法 create_thread()通过 OpenAI API 创建一个新的对话线程，并返回其 ID。支持初始化消息 init_messages，用于在创建对话时添加初始内容。当发生异常时，记录错误日志并返回 None。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_367.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_367.jpg)
 
 （4）方法 delete_thread()通过 OpenAI API 删除指定的对话线程 thread_id，若 thread_id 为空则直接返回 True（无须删除）。当发生异常时，记录错误日志并返回 False，表示删除失败。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_368.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_369.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_368.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_369.jpg)
 
 （5）以下代码的功能是处理各种类型的媒体文件（图片、音频、视频、其他文件），并将其转换为可发送给 OpenAI Assistant 的结构化消息。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_370.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_371.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_372.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_373.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_374.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_370.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_371.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_372.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_373.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_374.jpg)
 
 上述代码的具体功能如下。
 
@@ -3528,7 +3528,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 deepseek_assistant_agent.py 是一个适用于 DeepSeek AI 的智能助手 Agent，其主要功能是与 DeepSeek API 交互，实现自然语言处理对话、音视频转录及多媒体信息解析等能力。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_375.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_376.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_377.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_378.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_379.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_375.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_376.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_377.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_378.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_379.jpg)
 
 上面的代码实现了一个 DeepSeekAssistantAgent 类，该类通过与 DeepSeek API 交互，实现自动化对话生成和多媒体处理。其主要功能包括创建和删除对话线程、生成回答及处理不同类型的多媒体数据（图片、音频、视频等）。以下是上述代码实现的具体流程。
 
@@ -3554,11 +3554,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 api.py 实现了一个基于 FastAPI 的 API 服务，提供了多种与对话管理和数据集更新相关的功能，能够处理对话和消息的管理、数据集的重新加载，以及相关的 API 操作，适用于基于对话系统的应用。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_380.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_381.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_382.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_383.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_384.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_385.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_380.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_381.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_382.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_383.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_384.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_385.jpg)
 
 上述代码实现了一个高效的后端服务，其具体功能如图 8-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_386.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_386.jpg)
 
 图 8-3 高效的后端服务的具体功能
 
@@ -3566,25 +3566,25 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 dialog_agent.py 实现了对话 Agent（DialogAgent 类）的核心功能，该类主要负责管理对话的生命周期和消息处理流程。此文件包含了数据集重载、对话的加载与卸载、消息添加，以及对话的开启、关闭和更新等操作。同时，它还负责初始化与外部服务（如 API、数据库、WebSocket 及向量存储）等组件的交互，以确保整个对话系统能够高效、稳定地运作。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_387.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_388.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_389.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_390.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_387.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_388.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_389.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_390.jpg)
 
 ### **8.6.3 对话管理**
 
 文件 dialogs_manager.py 中定义了 DialogsManager 类，负责统一管理对话的生命周期和数据的存储与更新。DialogsManager 类主要处理活动对话的加载、更新、获取、添加，以及新对话的开启、旧对话的关闭与更新对话信息等操作，并且会与数据库和 Agent 进行交互，以保证对话数据的同步和更新。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_391.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_392.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_391.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_392.jpg)
 
 ### **8.6.4 队列消息处理**
 
 文件 message_processor.py 中定义了 MessageProcessor 类，主要用于处理消息队列中的消息，并通过与 Agent 交互生成回复。在触发处理时，trigger_processing()方法会延迟一定时间后处理消息，使用 Agent 生成回复并将其发送，还支持同步消息处理，即立即生成答复。处理过程中，该类会通过 WebSocket 向用户发送“正在输入”等状态通知。最终，处理完的消息被保存到数据库，并通过后端客户端 （BackendClient 类）向用户发送答复。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_393.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_394.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_395.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_393.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_394.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_395.jpg)
 
 ### **8.6.5 事件路由**
 
 文件 event_router.py 中定义了 EventRouter 类，其核心职责是根据事件名称将请求路由至对应的处理函数。该类通过事件名称的前缀匹配机制来选择适当的处理器。若没有找到相应的处理函数，系统将自动调用默认处理器。在请求方面，EventRouter 类使用 aiohttp 库执行异步 HTTP 调用，并通过 retry 装饰器实现重试机制（最多重试 3 次），以增强服务的鲁棒性。处理过程中会自动捕获和记录可能出现的异常，确保系统的稳定运行。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_396.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_397.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_398.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_396.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_397.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_398.jpg)
 
 至此，本项目完整实现了智能客服 Agent 系统的后端核心架构，重点构建了聊天 Agent、消息处理、API 接口及对话管理等模块。需要说明的是，本项目专注于后端服务能力的提供，并没有直接提供完整的聊天对话界面。本项目提供了完整的 API 接口和实时通信（如 WebSocket）支持，开发者可基于此自行构建定制化的前端聊天对话界面。
 
@@ -3610,11 +3610,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 基于 ROS 具身智能的自动驾驶 Agent 的功能模块如图 9-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_399.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_399.jpg)
 
 图 9-1 基于 ROS 具身智能的自动驾驶 Agent 的功能模块
 
-![](img/图解AIAgent：智能体从原理到实践-_image_400.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_400.jpg)
 
 图 9-1 基于 ROS 具身智能的自动驾驶 Agent 的功能模块（续）
 
@@ -3626,7 +3626,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 functions.h 中定义了一些方法原型和一个辅助类（如 rdm），用于在自主探索过程中进行路径规划和环境感知。这些方法提供了处理地图数据、计算几何距离、进行障碍物检测等功能，为机器人在未知环境中的自主探索和路径规划提供了基础操作接口。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_401.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_402.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_401.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_402.jpg)
 
 文件 functions.cpp 实现了头文件 functions.h 中声明的各个方法的具体功能，这些方法为自主探索和路径规划算法提供了具体的数学计算和功能支持。各个方法的具体功能如下。
 
@@ -3640,17 +3640,17 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ Steer()方法：在给定两个点之间的方向上给定距离内生成一个新点。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_403.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_404.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_403.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_404.jpg)
 
 ### **9.3.2** **伪随机数生成器**
 
 文件 mtrand.h 中定义了一个名为 MTRand_int32 的类，该类实现了 Mersenne Twister 伪随机数生成器，以及多个派生类（如 MTRand、MTRand_closed、MTRand_open 和 MTRand53），分别用于生成不同取值范围的双精度浮点数。总之，MTRand_int32 类提供了种子初始化、生成随机整数和浮点数等功能。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_405.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_406.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_407.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_405.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_406.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_407.jpg)
 
 文件 mtrand.cpp 实现了 Mersenne Twister 随机数生成器类的成员方法，包括生成新的状态向量、使用 32 位整数种子进行初始化、使用种子数组进行初始化等功能。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_408.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_409.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_408.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_409.jpg)
 
 ## **9.4 障碍物和边界检测**
 
@@ -3660,11 +3660,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 global_rrt_detector.cpp 实现了一个 ROS 节点，用于执行全局障碍物和边界检测，并根据检测结果发布目标点。该节点通过 ROS 订阅地图数据及用户在 RViz 中点击的交互点来获取环境信息，采用基于随机采样与最近邻搜索的路径规划算法（如 RRT）在地图中搜索自由空间和边界区域。随后，节点将检测到的边界点及计算出的下一个最佳探索目标点发布到相应的话题，以便进行路径规划或其他后续操作。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_410.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_411.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_412.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_413.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_414.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_410.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_411.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_412.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_413.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_414.jpg)
 
 总之，文件 global_rrt_detector.cpp 的主要功能如图 9-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_415.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_415.jpg)
 
 图 9-2 文件 global_rrt_detector.cpp 的主要功能
 
@@ -3674,15 +3674,15 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 local_rrt_detector.cpp 用于检测本地的障碍物和边界，并根据检测结果发布目标点。通过订阅地图及用户在 RViz 中点击的点话题，实现了随机采样、最近点查找、障碍物检测和边界识别等功能，最终发布探索目标和可视化数据，以便机器人在当前位置附近规划安全路径和探索目标。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_416.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_417.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_418.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_419.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_416.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_417.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_418.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_419.jpg)
 
 文件 local_rrt_detector.cpp 的主要功能如图 9-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_420.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_420.jpg)
 
 图 9-3 文件 local_rrt_detector.cpp 的主要功能
 
-![](img/图解AIAgent：智能体从原理到实践-_image_421.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_421.jpg)
 
 图 9-3 文件 local_rrt_detector.cpp 的主要功能（续）
 
@@ -3696,13 +3696,13 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 文件 wall_follow.py 实现了一个名为 wallfollowing_control 的 ROS 节点，用于控制机器人跟随墙壁行驶。该节点订阅了激光雷达数据以检测周围环境，根据前方和侧面的距离误差采用 PID 控制器生成线速度和角速度指令，并通过’/cmd_vel’话题发布速度消息来控制机器人移动。同时，节点会输出距离信息和控制指令，便于调试过程中实时监控。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_422.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_423.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_424.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_422.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_423.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_424.jpg)
 
 ### **9.5.2 A*算法路径规划**
 
 文件 a_star_main.py 实现了一个 ROS 节点，实现了 A* 算法进行路径规划，并利用 ROS 框架中的消息订阅和发布功能与机器人进行交互。文件 a_star_main.py 的主要功能如图 9-4 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_425.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_425.jpg)
 
 图 9-4 文件 a_star_main.py 的主要功能
 
@@ -3712,7 +3712,7 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 （1）以下这段代码定义了类 Node，用于表示路径规划算法中的节点。每个节点具有位置信息、前驱节点、代价等属性，并包含更新代价和判断节点相等的方法。全局变量包括机器人位置、目标位置、地图信息等，以及一些初始参数的设置。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_426.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_427.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_426.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_427.jpg)
 
 （2）以下这段代码实现了感知部分的功能，包括多个功能函数，这些函数共同完成机器人感知环境与 RViz 可视化任务。
 
@@ -3728,11 +3728,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ 函数 points_publisher()：发布路径点，用于在 RViz 中显示路径。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_428.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_429.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_430.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_428.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_429.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_430.jpg)
 
 （3）以下代码实现了基于 A*算法的路径规划功能，核心功能是 A_STAR()函数，用于在给定网格地图上计算从起始位置到目标位置的最优路径。通过使用不同的邻居类型和距离方法，可以灵活地适应不同的地图和需求。除了 A_STAR()函数外，还包括了功能函数 convert_path()和 Distance_compute()，分别用于转换和旋转路径及计算两点之间的距离。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_431.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_432.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_433.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_434.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_435.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_431.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_432.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_433.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_434.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_435.jpg)
 
 （4）以下代码实现了机器人的运动控制功能，包含的功能函数如下。
 
@@ -3740,11 +3740,11 @@ DeepLogic 框架是一种结合神经网络和符号逻辑的混合模型，旨�
 
 ◎ 函数 Follow_path()：使机器人按照给定路径依次移动，直到达到最终目标点。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_436.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_436.jpg)
 
 （5）以下代码是一个 ROS 节点，实现了基于 A*算法的路径规划及机器人导航功能。订阅了来自激光传感器和里程计的数据，根据接收到的目标位置参数进行路径规划，并通过控制机器人的运动来导航至目标位置。同时，在 RViz 中发布可视化路径和目标位置。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_437.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_438.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_437.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_438.jpg)
 
 ### **9.5.3 RRT 算法**
 
@@ -3752,11 +3752,11 @@ RRT（Rapidly-exploring Random Tree，快速探索随机树）算法是一种�
 
 （1）文件 rrt.py 实现了 RRT 算法，用于在给定地图中搜索从起点到目标点的路径。它定义了一系列函数来生成随机点、构建 RRT 图、路径搜索与可视化等。通过调用 find_path_RRT()函数，可以在给定地图中进行路径规划，并返回最终路径及相应的 RRT 图。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_439.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_440.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_441.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_442.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_443.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_439.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_440.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_441.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_442.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_443.jpg)
 
 （2）文件 rrt_single.py 实现了单个 RRT 路径规划算法，具备随机树的快速生成、节点连接与路径搜索等功能。该算法在指定的地图上生成随机点并逐步构建连接关系，最终输出从起点到目标点的可行路径。用户可以在图形界面上选择起始点和目标点，并实时观察路径规划的过程和结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_444.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_445.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_446.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_447.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_448.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_449.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_444.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_445.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_446.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_447.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_448.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_449.jpg)
 
 （3）文件 autonomous_rrt.py 实现了一个基于 RRT 算法的自主探索器，其主要功能如下。
 
@@ -3770,11 +3770,11 @@ RRT（Rapidly-exploring Random Tree，快速探索随机树）算法是一种�
 
 ◎ 实时显示构建的地图，并将路径点以 ROS Marker 形式发布，用于 RViz 可视化。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_450.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_451.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_452.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_453.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_454.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_450.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_451.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_452.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_453.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_454.jpg)
 
 （4）文件 autonomous_move.py 实现了一个 ROS 节点，用于自主移动机器人的路径规划。此文件包含多个功能模块，包括全局变量初始化、移动基地客户端、坐标转换、距离计算、旋转控制、目标点导航、路径跟踪、里程计和地图回调处理、地图到图像的转换以及路径点发布等功能。通过 ROS 接口接收里程计和地图信息，利用 RRT 算法规划路径，然后控制机器人沿着路径移动。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_455.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_456.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_457.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_458.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_459.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_460.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_455.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_456.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_457.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_458.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_459.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_460.jpg)
 
 在本项目中，文件 autonomous_move.py 和 autonomous_rrt.py 的区别如下。
 
@@ -3786,7 +3786,7 @@ RRT（Rapidly-exploring Random Tree，快速探索随机树）算法是一种�
 
 至此，整个项目介绍完毕。用户可通过运行“launch”目录中的“.launch”文件启动程序，并借助 RViz 可视化工具实时观察 TurtleBot3 机器人在 SLAM 建图过程中的运动轨迹与地图构建效果。执行效果如图 9-5 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_461.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_461.jpg)
 
 图 9-5 执行效果
 
@@ -3802,7 +3802,7 @@ RRT（Rapidly-exploring Random Tree，快速探索随机树）算法是一种�
 
 在这个背景下，本项目引入深度强化学习算法，结合 OpenAI Baselines 和 Stable Baselines 等开源工具，为金融领域构建了一个功能强大的量化交易 Agent，该 Agent 的功能如图 10-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_462.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_462.jpg)
 
 图 10-1 量化交易 Agent 的功能
 
@@ -3828,11 +3828,11 @@ RRT（Rapidly-exploring Random Tree，快速探索随机树）算法是一种�
 
 基于 OpenAI 的量化交易 Agent 的模块架构如图 10-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_463.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_463.jpg)
 
 图 10-2 基于 OpenAI 的量化交易 Agent 的模块架构
 
-![](img/图解AIAgent：智能体从原理到实践-_image_464.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_464.jpg)
 
 图 10-2 基于 OpenAI 的量化交易 Agent 的模块架构（续）
 
@@ -3842,13 +3842,13 @@ RRT（Rapidly-exploring Random Tree，快速探索随机树）算法是一种�
 
 本项目通过著名的 FinRL 库实现。FinRL 是一个专注于金融领域的强化学习开源库，旨在为研究人员和开发者提供便捷的工具，用于开发、训练和评估金融交易策略。该库建立在强化学习的理论基础之上，通过提供易于使用的接口和实用功能，帮助用户在金融市场中有效应用深度强化学习算法。FinRL 库的主要特点和组件如图 10-3 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_465.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_465.jpg)
 
 图 10-3 FinRL 库的主要特点和组件
 
 在使用 FinRL 库之前，建议先通过 FinRL 库安装本项目所需的软件包，安装命令如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_466.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_466.jpg)
 
 该命令将从 FinRL 库的 GitHub 存储库直接安装最新版本，并自动解析并安装 FinRL 库所需的所有依赖项。安装完成后，即可在 Python 环境中调用 FinRL 库来实现自动化交易程序。
 
@@ -3856,17 +3856,17 @@ RRT（Rapidly-exploring Random Tree，快速探索随机树）算法是一种�
 
 （1）首先导入用于金融强化学习所需的必要库和 FinRL 框架，通过 Stable-Baselines3 库中的强化学习 Agent 进行投资组合配置策略的训练。训练完成后，通过绘图和回测工具对策略进行可视化展示和绩效评估。通过 sys.path.append("../FinRL-Library")语句添加 FinRL 库的相对路径，确保当前脚本能够正确访问该库中的模块。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_467.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_467.jpg)
 
 （2）检查并创建与 FinRL 框架相关的四个子目录，包括数据保存目录、训练模型保存目录、TensorBoard 日志目录和结果保存目录。这确保了在当前工作目录下存在必要的目录结构，以便存储和管理金融数据、训练好的模型、TensorBoard 日志文件和交易策略回测结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_468.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_468.jpg)
 
 ## **10.3 数据处理**
 
 Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公司财报等信息的平台，其通过网站和 API 接口提供的大量基础数据是可供用户免费获取的。Yahoo Finance 的基本信息如图 10-4 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_469.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_469.jpg)
 
 图 10-4 Yahoo Finance 的基本信息
 
@@ -3874,37 +3874,37 @@ Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公�
 
 （1）使用 print 语句输出 config_tickers.DOW_30_TICKER 的值，该变量是 FinRL 库中预定义的道琼斯工业平均指数成分股所对应的股票代码列表。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_470.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_470.jpg)
 
 执行后将显示道琼斯工业平均指数所含成分股的股票代码。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_471.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_471.jpg)
 
 （2）开始准备金融数据，以供后续强化学习模型的训练和分析使用。以下代码将创建一个 YahooFinanceProcessor 的实例对象 dp，然后使用该对象的 download_data()方法，下载指定时间范围内（如从 2008 年 1 月 1 日到 2021 年 10 月 31 日）道琼斯工业平均指数成分股的每日股票数据。下载的数据存储在 Pandas DataFrame 对象 df 中。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_472.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_472.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_473.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_474.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_473.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_474.jpg)
 
 （3）通过 df.head()方法显示 DataFrame df 的前几行数据，用以展示已下载的金融数据的头部，以便查看数据的整体结构和具体内容。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_475.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_475.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_476.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_476.jpg)
 
 通过这种方式，可以直观查看数据的格式，包括日期、股票代码以及对应的开盘价、最高价、最低价、收盘价和成交量等字段。这有助于确保数据被正确下载，并为后续分析和建模做好数据准备。
 
 （4）通过 df.shape 属性获取 DataFrame df 的维度信息，返回格式为（行数，列数）的元组，用于评估所下载金融数据的总体规模，即数据框中的行数和列数。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_477.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_477.jpg)
 
 通过 df.shape 属性，可以快速了解数据集中有多少条记录（行数）和每个记录包含多少个特征（列数），从而更好地理解数据的规模和结构。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_478.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_478.jpg)
 
 ### **10.3.2 数据预处理**
 
@@ -3920,23 +3920,23 @@ Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公�
 
 （1）使用 FeatureEngineer 类对金融数据进行预处理和特征构建。通过设置参数“use_technical_indicator = True”启用技术指标（如 MACD 和 RSI），为模型提供更多反映市场趋势和动量的信息。通过设置“use_turbulence = False”禁用了风险紧急指数，表示不考虑极端波动对模型的影响。最后，通过调用 preprocess_data()方法对数据进行标准化和处理缺失值等操作，为后续的强化学习模型训练做好准备。这些步骤旨在提高模型的性能和对金融市场行为的理解。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_479.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_479.jpg)
 
 （2）使用 df.shape 获取 DataFrame df 的维度信息，返回格式为（行数，列数）的元组。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_480.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_480.jpg)
 
 上述代码的目的是查看数据经过预处理和特征工程后的规模，确认处理后的数据维度是否符合预期。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_481.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_481.jpg)
 
 （3）通过以下代码显示 DataFrame df 的前几行数据，用于展示经过预处理和特征工程后数据的结构和内容。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_482.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_482.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_483.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_484.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_483.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_484.jpg)
 
 **2． 将协方差矩阵添加为状态**
 
@@ -3944,23 +3944,23 @@ Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公�
 
 （1）以下代码将协方差矩阵的相关特征作为状态信息加入数据集，进一步扩展金融数据的表征维度。通过对过去一年的股票收益率数据计算协方差矩阵，提取相应的协方差统计量和收益率信息，并将其添加到数据框中。这有助于模型更全面地理解股票之间的关联性和风险特征，为后续强化学习模型的训练提供更丰富的状态信息。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_485.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_486.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_485.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_486.jpg)
 
 （2）使用 df.shape 获取 DataFrame df 的维度信息，返回格式为（行数，列数）的元组。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_487.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_487.jpg)
 
 该代码用于查看添加协方差矩阵后数据框的规模是否符合预期。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_488.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_488.jpg)
 
 （3）通过以下代码显示 DataFrame df 的前几行数据，用于展示添加协方差矩阵后数据的结构和内容。通过这种方式，可以快速查验处理后的数据格式，包括日期、股票代码、技术指标、协方差矩阵等字段。这有助于确保数据准备过程的正确性，为后续建模和分析提供良好的基础。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_489.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_489.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_490.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_491.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_490.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_491.jpg)
 
 ## **10.4 构建交易环境**
 
@@ -3972,7 +3972,7 @@ Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公�
 
 （1）使用 data_split()函数将数据集 df 划分为训练集（train）和交易集（trade），这样的划分是为了在模型训练阶段使用训练集数据，而在模型训练完成后的回测或实际应用中使用交易集。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_492.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_492.jpg)
 
 对上述代码的具体说明如下。
 
@@ -3982,11 +3982,11 @@ Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公�
 
 （2）通过以下代码，显示训练集的前几行数据，以便查看数据的结构和内容。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_493.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_493.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_494.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_494.jpg)
 
 ### **10.4.2 投资组合配置环境**
 
@@ -3994,11 +3994,11 @@ Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公�
 
 （1）StockPortfolioEnv 类：基于 OpenAI Gym 实现的股票投资组合交易环境。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_495.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_495.jpg)
 
 （2）__init__()方法：Python 类的构造函数，在创建类实例时自动调用。在 StockPortfolioEnv 类中，__init__ 方法用于初始化环境的各种属性和参数。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_496.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_497.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_496.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_497.jpg)
 
 （3）step()方法：强化学习环境中的一个关键方法，定义了每个时间步内 Agent 与环境的交互过程。在 StockPortfolioEnv 类中，step 方法用于执行一个时间步的交易操作，并返回相应的环境反馈信息。方法 step 的具体说明如下。
 
@@ -4008,45 +4008,45 @@ Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公�
 
 ◎ 状态更新：更新环境的内部状态（包括日期、股票价格等信息），并将投资组合的相关数据保存在内存中供后续分析使用。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_498.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_499.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_500.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_498.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_499.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_500.jpg)
 
 （4）reset()方法：用于重置交易环境至初始状态。在训练或评估过程中，当需要重新开始运行时，可以调用此方法。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_501.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_501.jpg)
 
 （5）render()方法：用于返回当前环境状态的可视化表示，适用于监控或记录场景。在人类可读的模式下返回当前状态。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_502.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_502.jpg)
 
 （6）softmax_normalization()方法：对动作进行 softmax 归一化操作，确保输出为有效的概率分布。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_503.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_503.jpg)
 
 （7）save_asset_memory()方法：用于返回每个时间步的账户资产价值记录，用于后续性能分析。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_504.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_504.jpg)
 
 （8）save_action_memory()方法：用于返回每个时间步的动作/持仓记录，用于分析模型的交易决策行为。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_505.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_505.jpg)
 
 （9）_seed()方法：设置随机数生成器的种子，用于确保环境在不同运行中具有相同的初始状态。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_506.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_506.jpg)
 
 （10）get_sb_env()方法：将当前环境包装为适用于 Stable-Baselines3 库的向量化环境（Vectorized Environment）。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_507.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_507.jpg)
 
 在强化学习中，通常会使用向量化环境来提高训练效率。Stable-Baselines3 库中的 DummyVecEnv 类可将多个环境实例封装为单一接口，实现计算并行化，显著提升训练速度，特别是在使用深度学习模型时能更有效地利用硬件资源。
 
 （11）以下代码首先计算了训练集中不同股票（tic 是股票代码）的数量，其次将该数量赋值给变量 stock_dimension。然后，将 stock_dimension 的值赋给变量 state_space。最后，输出股票维度（不同股票的数量）和状态空间的维度。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_508.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_508.jpg)
 
 上述代码的目的是在股票交易环境中设置环境参数，其中 stock_dimension 表示股票的数量，而 state_space 表示状态空间的维度。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_509.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_509.jpg)
 
 （12）以下这段代码创建了一个股票交易环境 e_train_gym，并使用之前定义的参数字典 env_kwargs 来设置环境的各种参数。具体包括以下参数。
 
@@ -4068,15 +4068,15 @@ Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公�
 
 通过传递这些参数，我们创建的股票交易环境就具备了相应的特性和限制。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_510.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_510.jpg)
 
 （13）通过 get_sb_env()方法，将原始股票交易环境包装为 Stable-Baselines3 库的向量化环境 env_train，并输出其类型以验证集成效果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_511.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_511.jpg)
 
 在上述代码中，env_train, _ = e_train_gym.get_sb_env()用于完成环境包装功能；print(type(env_train))用于确认 env_train 属于 Stable-Baselines3 库中的环境类型（通常为 DummyVecEnv 类型），确保与 Stable-Baselines3 库中强化学习算法的兼容性。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_512.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_512.jpg)
 
 ## **10.5** **Agent 交易模型**
 
@@ -4084,7 +4084,7 @@ Yahoo Finance 是一个提供广泛的金融市场数据、财经新闻、公�
 
 FinRL 库集成了多个经过调优的标准深度强化学习算法，如 DQN、DDPG、多 Agent DDPG、PPO、SAC、A2C 和 TD3。这些算法为 Agent 提供了强大的学习能力，使其能够在复杂的金融环境中进行有效的交易决策。Agent 的创建通过初始化 DRLAgent 类，使用的训练环境是 env_train。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_513.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_513.jpg)
 
 ### **10.5.1** **交易模型 1：基于 A2C 算法**
 
@@ -4092,23 +4092,23 @@ A2C（Advantage Actor-Critic）是深度强化学习中的一种策略梯度算�
 
 （1）以下代码首先创建了一个 DRLAgent 类的实例 agent，然后使用该实例获取了 A2C 模型，并通过 A2C_PARAMS 字典指定模型参数。最终，通过 agent.get_model 方法获取 A2C 模型的实例 model_a2c。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_514.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_514.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_515.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_515.jpg)
 
 （2）以下代码使用上面创建的 A2C 模型 model_a2c 进行训练。通过调用 agent.train_model 方法，指定模型、TensorBoard 日志名称 tb_log_name 和总的训练步数 total_timesteps（这里设置为 50000 步）。训练完成后返回训练好的 A2C 模型 trained_a2c。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_516.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_516.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_517.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_518.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_519.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_517.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_518.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_519.jpg)
 
 （3）将已经训练好的 A2C 模型保存到指定的文件路径，便于后续部署和推理使用。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_520.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_520.jpg)
 
 ### **10.5.2** **交易模型 2：** **基于 PPO 算法**
 
@@ -4116,7 +4116,7 @@ PPO（Proximal Policy Optimization）是一种基于策略的深度强化学习�
 
 （1）使用 FinRL 库中的 DRLAgent 类初始化一个强化学习 Agent，然后创建一个采用 PPO 算法的模型，并通过字典传递 PPO 算法的超参数。这个模型将用于在指定环境中训练 Agent。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_521.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_521.jpg)
 
 在上述代码中，各个参数的具体说明如下。
 
@@ -4130,19 +4130,19 @@ PPO（Proximal Policy Optimization）是一种基于策略的深度强化学习�
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_522.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_522.jpg)
 
 （2）使用上面创建的 PPO 模型在环境中进行 80000 步的训练，使模型学习在股票交易环境中做出有效的交易决策。其中，参数 tb_log_name 用于指定训练日志的名称，方便后续对训练过程进行监控和分析。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_523.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_523.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_524.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_524.jpg)
 
 （3）以下代码用于将已经训练好的 PPO 模型保存为 ZIP 文件，便于后续加载和部署。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_525.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_525.jpg)
 
 ### **10.5.3** **交易模型 3：** **基于 DDPG 算法**
 
@@ -4150,23 +4150,23 @@ DDPG（Deep Deterministic Policy Gradient）是一种用于连续动作空间的
 
 （1）在 FinRL 库中，通过调用 agent.get_model("ddpg", model_kwargs=DDPG_PARAMS)创建 DDPG 模型。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_526.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_526.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_527.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_527.jpg)
 
 （2）在下面的代码中，使用 agent.train_model 方法对 DDPG 模型进行训练。其中，model=model_ddpg 表示使用之前创建的 DDPG 模型，tb_log_name='ddpg’表示设置 TensorBoard 日志的名称，total_timesteps=50000 表示总的训练步数。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_528.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_528.jpg)
 
 上述代码将执行 DDPG 算法的训练过程，并将训练好的模型保存在 trained_ddpg 中。执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_529.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_530.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_529.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_530.jpg)
 
 （3）将训练好的 DDPG 模型保存到指定路径，以便后续可以加载和使用该模型。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_531.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_531.jpg)
 
 ### **10.5.4** **交易模型 4：** **基于 SAC 算法**
 
@@ -4174,23 +4174,23 @@ SAC（Soft Actor-Critic）是一种专门用于解决连续动作空间问题的
 
 （1）在下面的代码中，通过 DRLAgent 类创建了一个 Soft Actor-Critic（SAC）模型。SAC_PARAMS 包含了 SAC 模型的关键参数设置。这个模型使用了 FinRL 库中的 get_model 方法，并指定模型类型为 “sac”，同时传递了 SAC 模型的参数。该模型在环境 env_train 中进行训练，以学习股票交易策略。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_532.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_532.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_533.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_533.jpg)
 
 （2）通过 agent 对象对 SAC 模型进行训练，使用环境 env_train 训练生成数据。trained_sac 包含训练完成的 SAC 模型，该模型已经学习了在给定环境下执行股票交易策略的最优参数。这个模型的训练过程产生的日志也被记录在 TensorBoard 中，日志命名为“sac”。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_534.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_534.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_535.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_536.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_535.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_536.jpg)
 
 （3）将经过训练的 SAC 模型保存为 ZIP 文件，该文件存储了训练好的模型参数及相关信息，便于后续部署和推理使用。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_537.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_537.jpg)
 
 ### **10.5.5** **交易模型 5：** **基于 TD3 算法**
 
@@ -4198,21 +4198,21 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 （1）通过 DRLAgent 类创建了一个 TD3 模型，其中设定了模型的批量大小为 100，缓冲区大小为 1000000，学习率为 0.001。这些参数配置将用于模型的训练，以适应环境中的深度强化学习任务。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_538.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_538.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_539.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_539.jpg)
 
 （2）通过 train_model 方法对之前创建的 TD3 模型进行训练，使用了 30000 个时间步进行训练，并将训练过程完整记录到 TensorBoard 的 “td3”日志中。
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_540.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_541.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_542.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_540.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_541.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_542.jpg)
 
 （3）将训练完成的 TD3 模型保存为一个 ZIP 文件，以备将来使用或部署。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_543.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_543.jpg)
 
 ### **10.5.6** **交易测试**
 
@@ -4220,43 +4220,43 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 （1）以下代码划分了名为 df 的数据集，选择了日期范围从 2020 年 10 月 1 日到 2021 年 10 月 31 日，并使用之前定义的参数 env_kwargs 创建了一个名为“e_trade_gym”的股票交易环境。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_544.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_544.jpg)
 
 （2）以下代码返回了交易数据集的维度信息（行数和列数），由于提供的代码片段中未包含完整的上下文，无法提供确切的答案。如果需要获取交易集的维度信息，请将这行代码与其上下文一起使用。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_545.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_545.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_546.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_546.jpg)
 
 （3）使用经过训练的 A2C 模型 (trained_a2c) 在测试环境 (e_trade_gym) 中进行预测，并返回两个数据框 (df_daily_return 和 df_actions)。df_daily_return 包含投资组合的每日收益率，而 df_actions 包含了每个交易日的模型预测的股票权重。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_547.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_547.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_548.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_548.jpg)
 
 （4）以下代码显示了每日收益率数据框的前几行内容。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_549.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_549.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_550.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_550.jpg)
 
 （5）将 df_daily_return 数据框保存为 CSV 文件，并显示了 df_actions 数据框的前几行内容，其中包含了每个交易日的交易动作信息。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_551.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_551.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_552.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_553.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_552.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_553.jpg)
 
 （6）将 df_actions 数据框保存为 CSV 文件（df_actions.csv），具体实现代码如下。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_554.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_554.jpg)
 
 ## **10.6 回测交易策略**
 
@@ -4268,23 +4268,23 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 （1）使用 Pyfolio 库的 timeseries 模块，将深度强化学习策略产生的每日收益率数据转换为 Pyfolio 兼容的时间序列格式。随后，通过 perf_stats 函数计算该策略的各项绩效指标，包括年化收益率、年化波动率、夏普比率等。最后，将这些绩效指标存储在 perf_stats_all 变量中，这有助于对策略的整体表现进行全面的量化评估。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_555.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_555.jpg)
 
 （2）输出深度强化学习策略的完整绩效统计信息。通过分析这些包含年化收益率、年化波动率、夏普比率等关键指标的数据，可以更全面地了解和评估策略的表现。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_556.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_556.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_557.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_558.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_557.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_558.jpg)
 
 （3）以下代码用于获取基准组合的绩效统计信息。基准采用道琼斯工业平均指数的表现，计算相应的绩效指标集。这些基准统计信息可与深度强化学习策略的表现进行对比分析，为评估策略的相对优劣提供参考依据。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_559.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_559.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_560.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_560.jpg)
 
 ### **10.6.2 回测结果可视化**
 
@@ -4292,7 +4292,7 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 在以下代码中，使用 Pyfolio 库生成完整的策略分析报告。首先，通过 get_baseline 函数获取道琼斯工业平均指数作为基准的日线数据，然后计算基准的每日收益率。接着，使用 Pyfolio 库中的 create_full_tear_sheet 函数生成策略分析报告，其中参数 returns 传入了深度强化学习策略的每日收益率，而参数 benchmark_rets 传入了基准的每日收益率。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_561.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_561.jpg)
 
 执行后会输出提供了策略回测的多个性能指标，其性能指标的回测分析结果如下。
 
@@ -4328,15 +4328,15 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 并绘制对应的一系列可视化图，如图 10-5 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_562.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_562.jpg)
 
 图 10-5 回测结果的可视化图
 
-![](img/图解AIAgent：智能体从原理到实践-_image_563.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_563.jpg)
 
 图 10-5 回测结果的可视化图（续）
 
-![](img/图解AIAgent：智能体从原理到实践-_image_564.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_564.jpg)
 
 图 10-5 回测结果的可视化图（续）
 
@@ -4344,7 +4344,7 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 另外还输出了有关最差回撤期间和压力测试的详细信息。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_565.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_566.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_565.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_566.jpg)
 
 ## **10.7 最小方差投资组合分配**
 
@@ -4354,27 +4354,27 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 （1）PyPortfolioOpt 是一个专门用于投资组合优化和风险管理的 Python 库。该库提供了一系列完整的工具和方法，帮助用户根据给定的投资目标和约束条件寻找最优的资产配置方案。使用以下命令安装 PyPortfolioOpt 库。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_567.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_567.jpg)
 
 （2）以下代码首先导入了 EfficientFrontier 和 risk_models 模块，这两个模块是 PyPortfolioOpt 库中用于投资组合优化和风险建模的关键组件。随后，从交易数据集中提取唯一的股票代号（unique_tic）和唯一的交易日期（unique_trade_date）。最后，输出数据集的前几行以便初步检查数据结构和内容。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_568.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_568.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_569.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_570.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_569.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_570.jpg)
 
 （3）以下代码用于计算最小方差投资组合的资产价值。首先，遍历每个交易日期，获取当日和下一交易日的数据。接着，计算收益率的协方差矩阵作为风险模型输入。随后，使用 Ef ficientFrontier 模块进行投资组合分配，设置权重的约束范围为（0, 0.1），并通过调用 min_volatility()方法获取最小方差投资组合的原始权重。清理这些权重后，基于当前资本计算每只股票的投资金额与持仓数量，结合下一时段的股票价格，计算投资组合的总价值，将计算结果存储在结果数据框。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_571.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_572.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_571.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_572.jpg)
 
 执行后会输出以下结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_573.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_573.jpg)
 
 （4）通过累积计算 A2C 模型、最小方差投资组合以及基准策略的每日收益率，得到各策略相对于初始投资的总体增长情况，用于比较和评估不同投资策略的性能。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_574.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_574.jpg)
 
 ### **10.7.2 深度强化学习、最小方差和 DJIA 的可视化**
 
@@ -4382,23 +4382,23 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 （1）使用以下命令安装 Plotly 库。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_575.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_575.jpg)
 
 （2）使用 Plotly 库创建了多个散点图轨迹，分别对应不同投资策略的收益曲线。通过将这些散点图组合在一起，并设置相应的日期和累积收益作为 x 轴和 y 轴，创建一个可视化图表，用于比较这三个不同投资策略的表现。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_576.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_576.jpg)
 
 在上述代码中，trace0_portfolio 表示 A2C 模型投资组合的累积收益曲线；trace1_portfolio 表示 DJIA 基准的收益曲线，trace2_portfolio 表示最小方差投资组合的收益曲线。这个图表能够直观展示这三种策略在不同时间点的表现，帮助用户更好地理解它们的差异和优劣。
 
 （3）使用 Plotly 库创建了一个可视化图 fig，将之前定义的三个散点图 (trace0_portfolio、trace1_portfolio、trace2_portfolio) 添加到图表中，并进行一些布局的调整，以提高图表的可读性。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_577.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_578.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_577.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_578.jpg)
 
 在上述代码中，add_trace()方法用于将每个散点图添加到可视化图中；update_layout()方法用于设置可视化图的整体布局，包括标题、坐标轴标签、图例位置和背景色等属性。最后，通过 show()方法显示生成的可视化图。
 
 总之，上述代码的功能是创建一个包含三种投资策略累积收益曲线的综合对比图（见图 10-6），通过直观的视觉呈现帮助分析各策略的绩效表现。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_579.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_579.jpg)
 
 图 10-6 三种投资策略累积收益曲线的综合对比图
 
@@ -4420,11 +4420,11 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 本项目基于 Docker、Python 和 JavaScript 构建了一个模块化、容器化的系统框架，为开发者和研究人员提供了构建、部署和实验多 Agent 系统的基础平台。本项目的主要功能模块如图 11-1 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_580.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_580.jpg)
 
 图 11-1 本项目的主要功能模块
 
-![](img/图解AIAgent：智能体从原理到实践-_image_581.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_581.jpg)
 
 图 11-1 本项目的主要功能模块（续）
 
@@ -4436,13 +4436,13 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 通过 dotenv 库加载．env 文件中的环境变量，为推理型 LLM、基础型 LLM、视觉型 LLM 和 Azure OpenAI 提供配置信息，同时设置 Chrome 实例的路径、无头模式及 Agent 服务器等参数，以便在项目中灵活使用这些资源。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_582.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_583.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_582.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_583.jpg)
 
 ### **11.3.2** **Agent 与 LLM 的映射**
 
 文件 agents.py 定义了项目中不同 Agent 与 LLM 之间的映射关系。通过字面量类型 LLMType，代码明确了可用的 LLM 类型，包括基础型（basic）、推理型（reasoning）和视觉型（vision）。随后，通过字典 AGENT_LLM_MAP，为每类 Agent 指定了默认使用的 LLM 类型。例如，coordinator 和 supervisor 等 Agent 默认使用基础型 LLM，而 planner 使用推理型 LLM,browser 使用视觉型 LLM。这种映射机制为项目中的多 Agent 协作提供了灵活的配置基础，使不同 Agent 能够根据任务需求选择合适的 LLM，从而更高效地完成复杂任务。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_584.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_585.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_584.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_585.jpg)
 
 ## **11.4** **工具模块**
 
@@ -4452,31 +4452,31 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 文件 bash_tool.py 定义了一个用于执行 Bash 命令的工具函数 bash_tool。该函数通过 subprocess.run 方法执行传入的命令，并捕获命令的输出或错误信息，同时使用日志记录器记录执行状态和结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_586.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_587.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_586.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_587.jpg)
 
 ### **11.4.2** **Python 代码执行工具**
 
 文件 python_repl.py 定义了工具函数 python_repl_tool，用于执行 Python 代码。该函数通过 PythonREPL 对象运行代码并获取执行结果或异常信息，同时使用日志记录器记录代码的执行情况。该工具允许用户在执行代码后通过 print 函数查看输出结果，在数据分析或计算任务中非常有用。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_588.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_589.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_588.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_589.jpg)
 
 ### **11.4.3** **爬虫工具**
 
 文件 crawl.py 定义了一个用于爬取网页内容的工具函数 crawl_tool。该函数通过 Crawler 类实例来爬取指定的 URL，并将爬取到的内容转换为 Markdown 格式的可读文本。使用日志记录器记录爬取过程中的成功或失败情况，如果爬取成功，函数 crawl_tool 返回一个包含爬取内容的字典；如果爬取失败，则返回错误信息。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_590.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_590.jpg)
 
 ### **11.4.4** **浏览器工具**
 
 文件 browser.py 定义了一个名为 BrowserTool 的浏览器工具类，继承自 BaseTool 类，用于描述浏览器工具的基本结构。BrowserTool 类包含同步运行方法 _run 和异步运行方法 _arun，这两种方法目前都返回固定的占位符字符串。此外，还实例化了一个 browser_tool 对象供外部调用。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_591.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_592.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_591.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_592.jpg)
 
 ## **11.5** **语言模型模块**
 
 在本项目的“llms”目录中，程序文件 llm.py 定义了函数 get_llm_by_type，用于根据指定的 LLM 类型（如推理型、视觉型或基础型）获取对应类型的语言模型实例。该函数从环境变量中读取相应的模型名称、基础 URL、API 密钥和 Azure 部署名称等配置信息，并返回一个 PlaceholderLLM 类的实例。目前，该实例作为 LLM 调用的模拟占位符使用，为系统提供了灵活的 LLM 管理和调用机制。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_593.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_594.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_593.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_594.jpg)
 
 ## **11.6 Agent 模块**
 
@@ -4488,35 +4488,35 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 （1）文件 browser_node.py 定义了一个名为 browser_node 的函数，该函数是浏览器 Agent 的执行节点，用于执行网页浏览任务。browser_node 函数通过调用 browser_agent.invoke 方法执行任务，对返回结果的最后一条消息进行 JSON 格式修复（如果需要），并将其封装为包含更新的消息列表和下一步跳转目标（如 supervisor）的 Command 对象。函数 browser_node 的整个实现过程通过日志记录器进行详细记录，便于调试和监控。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_595.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_595.jpg)
 
 （2）文件 coder_node.py 定义了一个名为 coder_node 的函数，该函数是编程 Agent 的一个节点，用于执行 Python 代码。函数 coder_node 通过调用 coder_agent.invoke 方法执行任务，对返回结果进行 JSON 格式修复（如果需要），封装为 Command 对象并指定下一步跳转目标（如 supervisor）。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_596.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_596.jpg)
 
 （3）文件 coordinator_node.py 定义了一个名为 coordinator_node 的函数，该函数的功能是协调 Agent 的节点，用于与用户进行交互。函数 coordinator_node 通过调用 OpenManusPromptTemplate. apply_prompt_template 方法生成适用于协调 Agent 的提示模板，并使用 get_llm_by_type 函数获取对应的 LLM 来处理这些提示，并根据响应内容决定下一步的跳转目标（如 planner 或结束）。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_597.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_598.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_597.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_598.jpg)
 
 （4）文件 planner_node.py 定义了一个名为 planner_node 的函数，该函数是规划 Agent 的节点，用于生成完整的计划。函数 planner_node 首先根据当前状态生成适用于规划 Agent 的提示模板，然后根据配置选择合适的 LLM 来处理这些提示。如果启用了深度思考模式，会切换到推理型 LLM；如果需要在规划前进行搜索，会调用 Bing 搜索工具并将结果附加到提示中。LLM 的流式响应被拼接成完整响应，尝试修复 JSON 格式，并根据响应内容决定下一步的跳转目标。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_599.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_600.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_601.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_599.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_600.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_601.jpg)
 
 （5）文件 reporter_node.py 定义了一个名为 reporter_node 的函数，该函数是报告 Agent 的节点，用于编写最终报告。函数 reporter_node 通过调用 reporter_agent.invoke 方法执行任务，并处理返回的结果。将结果中的内容进行 JSON 格式修复（如果需要），然后将修复后的消息封装为 Command 对象并跳转回 supervisor 以决定下一步操作。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_602.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_603.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_602.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_603.jpg)
 
 （6）文件 researcher_node.py 定义了 researcher_node 函数，用于执行研究任务。函数 researcher_node 通过调用 research_agent.invoke 方法执行任务，并处理返回的结果。函数将结果中的最后一条消息内容进行 JSON 格式修复（如果需要），然后将修复后的消息内容封装成一个 Command 对象返回，该对象包含更新的消息列表并跳转到 supervisor 以决定下一步操作。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_604.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_604.jpg)
 
 （7）文件 supervisor_node.py 定义了一个名为 supervisor_node 的函数，该函数是监督 Agent 的节点，用于决定下一步由哪个智能体执行任务。函数 supervisor_node 首先根据当前状态生成适用于监督 Agent 的提示模板，然后对消息进行预处理，以便更好地执行决策逻辑。监督 Agent 通过调用 get_llm_by_type 函数获取对应的 LLM，并处理这些提示。处理结果包含下一步要跳转到的 Agent 名称。如果下一步是 FINISH，则表示工作流完成，否则将任务委托给指定的 Agent。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_605.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_606.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_605.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_606.jpg)
 
 （8）文件 types.py 定义了两个类型 State 和 Router，分别用于描述工作流的状态和监督 Agent 的路由决策。State 类型包含工作流中的消息列表、完整计划、下一步操作、是否启用深度思考模式及是否在规划前进行搜索等字段。Router 类型定义了监督 Agent 可以路由到的下一步操作的目标 Agent 名称，包括 coordinator、planner、supervisor、researcher、coder、browser、reporter 和 FINISH。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_607.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_607.jpg)
 
 ### **11.6.2 网页浏览 Agent**
 
@@ -4524,31 +4524,31 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 文件 browser_agent.py 定义了 BrowserAgent 类，用于处理网页浏览任务。BrowserAgent 类包含一个 invoke 方法，该方法接收消息列表作为输入，通过调用 get_llm_by_type 函数获取与浏览器 Agent 对应的 LLM，并使用该 LLM 处理消息并返回处理结果。browser_agent 是 BrowserAgent 类的一个实例，可以在其他地方被引用和使用。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_608.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_609.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_608.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_609.jpg)
 
 ### **11.6.3 编程 Agent**
 
 文件 coder_agent.py 定义了 CoderAgent 类，用于处理与编程相关的任务。CoderAgent 类包含一个 invoke 方法，该方法接收消息列表作为输入，通过调用 get_llm_by_type 函数获取与编程 Agent 对应的 LLM，并使用该 LLM 处理消息，返回处理结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_610.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_610.jpg)
 
 ### **11.6.4 Agent 协调器**
 
 文件 coordinator.py 定义了一个任务协调器类 TaskCoordinator，用于在多个 Agent 和工具之间协调任务。在 TaskCoordinator 类中初始化了多个 Agent（如规划 Agent、执行 Agent 和工具 Agent）及多种工具（如网页浏览器工具、代码执行工具和数据检索工具）。另外，类 TaskCoordinator 还提供了一个 execute_task 方法，该方法接收任务描述作为输入，通过规划 Agent 生成任务执行计划，并通过执行 Agent 执行该计划。类 TaskCoordinator 中的每个工具都有对应的方法来执行具体操作，如浏览网页、执行代码或检索数据。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_611.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_612.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_611.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_612.jpg)
 
 ### **11.6.5 报告 Agent**
 
 文件 reporter_agent.py 定义了 ReporterAgent 类，用于处理报告生成任务。ReporterAgent 类包含一个 invoke 方法，该方法接收消息列表作为输入，通过调用 get_llm_by_type 函数获取与报告 Agent 对应的 LLM，并使用该 LLM 处理消息，返回处理结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_613.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_613.jpg)
 
 ### **11.6.6 信息收集 Agent**
 
 文件 research_agent.py 定义了 ResearchAgent 类，用于处理研究和信息收集任务。在 ResearchAgent 类中包含了一个 invoke 方法，该方法接收消息列表作为输入，通过调用 get_llm_by_type 函数获取与研究 Agent 对应的 LLM，并使用该 LLM 处理消息，返回处理结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_614.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_614.jpg)
 
 ## **11.7** **提示模板模块**
 
@@ -4564,17 +4564,17 @@ TD3（Twin Delayed DDPG）是一种在 DDPG 算法的基础上进行了改进的
 
 OpenManusPromptTemplate 类确保 Agent 能够根据任务需求动态生成合适的提示内容，从而更有效地与语言模型进行交互。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_615.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_616.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_615.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_616.jpg)
 
 ### **11.7.2** **浏览器 Agent 的提示模板**
 
 文件 browser.md 是一个 Markdown 格式的提示模板文件，定义了浏览器 Agent 的提示内容。该模板包括 Agent 的角色描述、核心职责、执行指南、技术标准和输出指南。它为浏览器 Agent 提供了详细的上下文和指令，确保 Agent 能够高效地执行网页浏览、用户交互和数据提取任务，并以清晰的格式报告执行状态和结果。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_617.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_618.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_619.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_617.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_618.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_619.jpg)
 
 对上述提示模板的具体说明如图 11-2 所示。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_620.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_620.jpg)
 
 图 11-2 浏览器 Agent 提示模板的具体说明
 
@@ -4588,13 +4588,13 @@ OpenManusPromptTemplate 类确保 Agent 能够根据任务需求动态生成合�
 
 文件 server.py 是一个 FastAPI 服务器文件，用于提供 OpenManus 的 API 接口。此文件定义了一个聊天流式接口 /api/chat/stream，接收聊天请求并返回流式响应。服务器通过 run_agent_workflow 函数调用工作流服务，处理聊天消息并生成事件流。服务器还配置了日志记录、CORS 中间件以支持跨域请求，并在主程序中使用 uvicorn 启动服务。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_621.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_622.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_621.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_622.jpg)
 
 ### **11.8.2 客户端脚本**
 
 文件 client.py 是一个命令行界面客户端脚本，用于向 OpenManus 服务器提交任务。该脚本通过 requests 库向服务器的/task 接口发送 POST 请求，并处理响应。如果请求成功，将返回服务器的 JSON 响应；如果失败，将返回错误信息。文件 client.py 使用 argparse 模块解析命令行参数，允许用户指定任务描述和服务器地址。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_623.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_623.jpg)
 
 ## **11.9 Docker 部署和配置**
 
@@ -4620,13 +4620,13 @@ Docker 部署本项目的步骤如下。
 
 通过以下命令克隆项目仓库。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_624.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_624.jpg)
 
 （3）构建并启动容器。
 
 使用以下命令构建镜像并启动所有服务。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_625.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_625.jpg)
 
 该命令将启动以下核心组件。
 
@@ -4642,7 +4642,7 @@ Docker 部署本项目的步骤如下。
 
 ◎ 命令行界面：使用提供的 Python 客户端脚本文件，输入以下命令进行测试。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_626.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_626.jpg)
 
 ◎ API 访问：向 http://localhost:8000 发送请求（具体请参阅 API 文档）。
 
@@ -4652,4 +4652,4 @@ Docker 部署本项目的步骤如下。
 
 可以通过编辑 docker-compose.yml 文件对服务配置进行自定义调整。
 
-![](img/图解AIAgent：智能体从原理到实践-_image_627.jpg)![](img/图解AIAgent：智能体从原理到实践-_image_628.jpg)
+![](img/图解-AIAgent：智能体从原理到实践-_image_627.jpg)![](img/图解-AIAgent：智能体从原理到实践-_image_628.jpg)

@@ -226,7 +226,7 @@ AI 时代的效率提升，不是让 AI 帮你写篇文章那么简单，而是�
 
 彼得把代码开源到 GitHub，发了条推特（现为“X”）。第一天星标数为 100，第三天破千，第七天破万。到 12 月底，收获 10 万星标。2026 年 3 月，星标超 25 万（见图 1-1）。
 
-![](img/零基础玩转OpenClaw_image_000.jpg)
+![](img/零基础玩转-OpenClaw_image_000.jpg)
 
 图 1-1 OpenClaw 在 GitHub 上的星标增长曲线
 
@@ -280,7 +280,7 @@ Discord（即时通信平台）上数千人涌入讨论区，经过 48 小时头
 
 于是，OpenClaw 诞生了（见图 1-2）。
 
-![](img/零基础玩转OpenClaw_image_001.jpg)
+![](img/零基础玩转-OpenClaw_image_001.jpg)
 
 图 1-2 OpenClaw“龙虾”可爱卡通形象
 
@@ -290,7 +290,7 @@ Open 代表完全开源、你的数据你掌控，Claw 保留龙虾主题，象�
 
 不到三周后的 2 月 14 日，彼得宣布加入 OpenAI。第二天，OpenAI 首席执行官萨姆·奥尔特曼在 X 上官宣（见图 1-3）：“彼得·斯坦伯格加入 OpenAI，推动下一代个人 AI 代理……OpenClaw 将作为独立基金会的开源项目，OpenAI 会持续支持。”
 
-![](img/零基础玩转OpenClaw_image_002.jpg)
+![](img/零基础玩转-OpenClaw_image_002.jpg)
 
 图 1-3 萨姆·奥尔特曼在 X 上的官宣帖
 
@@ -774,7 +774,7 @@ QClaw 适合那些希望通过手机方便地管理工作和生活的用户，�
 
 表 1-1 版本对比一览表
 
-![](img/零基础玩转OpenClaw_image_003.jpg)
+![](img/零基础玩转-OpenClaw_image_003.jpg)
 
 **如何快速做出选择**
 
@@ -826,7 +826,7 @@ OpenClaw 不是聊天机器人，而是真正能干活的开源 AI 代理。
 
 你不需要会写代码，也不需要懂服务器。我们把每一步拆到最细，就算你从来没用过命令行，照着做也能成功。
 
-![](img/零基础玩转OpenClaw_image_004.jpg)
+![](img/零基础玩转-OpenClaw_image_004.jpg)
 
 **小贴士**
 
@@ -858,7 +858,7 @@ OpenClaw 安装好之后，你需要一个聊天入口来下指令——就像�
 
 备选方案还有企业微信、钉钉、Discord、iMessage 等，都能用，但配置相对烦琐一些，初次上手者不建议选。
 
-![](img/零基础玩转OpenClaw_image_005.jpg)
+![](img/零基础玩转-OpenClaw_image_005.jpg)
 
 **注意**
 
@@ -906,7 +906,7 @@ OpenClaw 安装好之后，你需要一个聊天入口来下指令——就像�
 
 ● 按回车（Enter 键），弹出黑色窗口，这就是终端
 
-![](img/零基础玩转OpenClaw_image_006.jpg)
+![](img/零基础玩转-OpenClaw_image_006.jpg)
 
 **小贴士**
 
@@ -972,7 +972,7 @@ openclaw onboard
 
 屏幕上会出现一段安全说明，大意是“这个工具默认只有你自己能用，如果要多人共用需要额外配置”。选 Yes 继续（见图 2-1）。
 
-![](img/零基础玩转OpenClaw_image_007.jpg)
+![](img/零基础玩转-OpenClaw_image_007.jpg)
 
 图 2-1 初始化配置界面——选择 Yes 继续
 
@@ -980,7 +980,7 @@ openclaw onboard
 
 会出现两个选项：QuickStart（快速启动）和 Manual（手动配置）。推荐选“QuickStart”（见图 2-2），它会帮你快速完成核心配置，细节以后随时可以调整。
 
-![](img/零基础玩转OpenClaw_image_008.jpg)
+![](img/零基础玩转-OpenClaw_image_008.jpg)
 
 图 2-2 选择 QuickStart 启动模式
 
@@ -988,7 +988,7 @@ openclaw onboard
 
 这是最重要的一步：选择给 OpenClaw“提供大脑”的 AI 模型。屏幕上会出现一个很长的供应商列表（见图 2-3），支持国内外主流模型（包括 OpenAI、Anthropic、Kimi、智谱等）。
 
-![](img/零基础玩转OpenClaw_image_009.jpg)
+![](img/零基础玩转-OpenClaw_image_009.jpg)
 
 图 2-3 AI 模型供应商选择列表
 
@@ -996,7 +996,7 @@ openclaw onboard
 
 表 2-1 AI 模型供应商速查表
 
-![](img/零基础玩转OpenClaw_image_010.jpg)![](img/零基础玩转OpenClaw_image_011.jpg)
+![](img/零基础玩转-OpenClaw_image_010.jpg)![](img/零基础玩转-OpenClaw_image_011.jpg)
 
 **注意**
 
@@ -1030,7 +1030,7 @@ Kimi：https://platform.moonshot.cn/console/api-keys
 
 智谱 GLM：https://open.bigmodel.cn/usercenter/apikeys
 
-![](img/零基础玩转OpenClaw_image_012.jpg)
+![](img/零基础玩转-OpenClaw_image_012.jpg)
 
 图 2-4 输入 APIKey 界面，选择 PasteAPIkeynow
 
@@ -1042,11 +1042,11 @@ Kimi：https://platform.moonshot.cn/console/api-keys
 
 模型选完之后，向导会问你要不要给龙虾配一个网络搜索能力——有了它，龙虾才能查实时信息（今日股价、最新新闻、刚发布的内容）。会出现 6 个选项，包含 Brave Search、Gemini、Grok、Kimi、Perplexity Search、Skip for now（可以先跳过）等（见图 2-6）。
 
-![](img/零基础玩转OpenClaw_image_013.jpg)
+![](img/零基础玩转-OpenClaw_image_013.jpg)
 
 图 2-5 选择具体模型版本
 
-![](img/零基础玩转OpenClaw_image_014.jpg)
+![](img/零基础玩转-OpenClaw_image_014.jpg)
 
 图 2-6 网络搜索供应商选择界面
 
@@ -1054,11 +1054,11 @@ Kimi：https://platform.moonshot.cn/console/api-keys
 
 表 2-2 网络搜索供应商速查表
 
-![](img/零基础玩转OpenClaw_image_015.jpg)
+![](img/零基础玩转-OpenClaw_image_015.jpg)
 
 国内用户推荐选 Kimi（Moonshot）——你如果在第 3 步选了 Kimi 作为 AI 模型，这里直接填同一个 API Key 就行，不需要额外注册任何账号。一个 Key 同时作为大脑和搜索引擎，最省事。
 
-![](img/零基础玩转OpenClaw_image_006.jpg)
+![](img/零基础玩转-OpenClaw_image_006.jpg)
 
 **小贴士**
 
@@ -1068,7 +1068,7 @@ Kimi：https://platform.moonshot.cn/console/api-keys
 
 接下来会让你选一个聊天平台（见图 2-7）。你如果现在想直接接入飞书，选 Feishu/Lark（飞书），跟着提示配置 Bot。你如果还不确定用哪个，选 Skip for now（先跳过）——安装完成后可以随时用 openclaw channels add 命令补上。
 
-![](img/零基础玩转OpenClaw_image_016.jpg)
+![](img/零基础玩转-OpenClaw_image_016.jpg)
 
 图 2-7 聊天平台选择列表（支持 Telegram、飞书、WhatsApp、Discord 等）
 
@@ -1080,7 +1080,7 @@ Gateway 是 OpenClaw 的控制中枢，默认端口 18789，直接回车确认�
 
 OpenClaw 有一个技能库，里面有各种现成的功能模块（见图 2-8）。初次使用建议先跳过（选 Skip for now），等用熟练了再按需安装。
 
-![](img/零基础玩转OpenClaw_image_017.jpg)
+![](img/零基础玩转-OpenClaw_image_017.jpg)
 
 图 2-8 技能安装列表（选择需要的技能，初次使用可跳过）
 
@@ -1088,7 +1088,7 @@ OpenClaw 有一个技能库，里面有各种现成的功能模块（见图 2-8�
 
 Hooks 是内容引导和记录功能，推荐勾选 boot-md、command-logger、session-memory 这三个（见图 2-9）。
 
-![](img/零基础玩转OpenClaw_image_018.jpg)
+![](img/零基础玩转-OpenClaw_image_018.jpg)
 
 图 2-9 启用 Hooks 选项
 
@@ -1106,7 +1106,7 @@ bootstrap-extra-files：启动时加载额外的配置文件（比如多个自�
 
 如果开启该功能，则每次你发/new 或/reset 开始新对话时，龙虾会自动把当前对话的重要内容存进记忆系统。如果不开启，每次开始新对话时，龙虾就“失忆”了。强烈建议开启。
 
-![](img/零基础玩转OpenClaw_image_006.jpg)
+![](img/零基础玩转-OpenClaw_image_006.jpg)
 
 **小贴士**
 
@@ -1116,7 +1116,7 @@ bootstrap-extra-files：启动时加载额外的配置文件（比如多个自�
 
 配置完成后，选择“Restart”，OpenClaw 会自动启动 Gateway 服务，并在浏览器打开 Web UI 界面。
 
-![](img/零基础玩转OpenClaw_image_019.jpg)
+![](img/零基础玩转-OpenClaw_image_019.jpg)
 
 # 检查 Gateway 状态
 
@@ -1128,7 +1128,7 @@ http://127.0.0.1:18789/chat
 
 看到聊天界面出现，说明你的龙虾已经活了。在输入框发一条消息，比如“你好”，如果它回了，说明一切正常。
 
-![](img/零基础玩转OpenClaw_image_020.jpg)
+![](img/零基础玩转-OpenClaw_image_020.jpg)
 
 **常见问题速查**
 
@@ -1174,7 +1174,7 @@ tar -czf openclaw-backup-$(date +%Y%m%d).tar.gz~/.openclaw
 
 但别被名字吓到。WSL2 就是微软官方给 Windows 加装的一个轻量级 Linux 环境，安装只需要一行命令，而且微软的向导写得非常好，几乎不会出问题。
 
-![](img/零基础玩转OpenClaw_image_021.jpg)
+![](img/零基础玩转-OpenClaw_image_021.jpg)
 
 **注意**
 
@@ -1196,7 +1196,7 @@ Windows 上部分系统级功能（如操作系统日历、备忘录、截图）
 
 这是官方推荐的 Windows 部署方式，提供相对完整的 Linux 环境支持。
 
-![](img/零基础玩转OpenClaw_image_022.jpg)
+![](img/零基础玩转-OpenClaw_image_022.jpg)
 
 **风险提示**
 
@@ -1230,7 +1230,7 @@ wsl --set-default-version 2
 
 ● 首次启动，按提示设置用户名和密码
 
-![](img/零基础玩转OpenClaw_image_023.jpg)
+![](img/零基础玩转-OpenClaw_image_023.jpg)
 
 **小贴士**
 
@@ -1316,7 +1316,7 @@ npm -v
 
 **第三步：以管理员身份安装 OpenClaw**
 
-![](img/零基础玩转OpenClaw_image_024.jpg)
+![](img/零基础玩转-OpenClaw_image_024.jpg)
 
 **注意**
 
@@ -1394,7 +1394,7 @@ Windows 同样支持多种聊天工具接入，不急，可以先跳过，我们
 
 如果你用的是 Linux，恭喜你，OpenClaw 在 Linux 上的安装是最干净、最省事的——没有 WSL2，没有权限问题，一条命令搞定。
 
-![](img/零基础玩转OpenClaw_image_025.jpg)
+![](img/零基础玩转-OpenClaw_image_025.jpg)
 
 **适合场景**
 
@@ -1436,7 +1436,7 @@ openclaw onboard
 
 配置流程和 Mac 完全一致，参考 2.2 节即可。
 
-![](img/零基础玩转OpenClaw_image_026.jpg)
+![](img/零基础玩转-OpenClaw_image_026.jpg)
 
 **小贴士**
 
@@ -1456,7 +1456,7 @@ openclaw gateway enable
 
 表 2-3 本地部署与云端部署区别
 
-![](img/零基础玩转OpenClaw_image_027.jpg)![](img/零基础玩转OpenClaw_image_028.jpg)
+![](img/零基础玩转-OpenClaw_image_027.jpg)![](img/零基础玩转-OpenClaw_image_028.jpg)
 
 **小贴士**
 
@@ -1488,7 +1488,7 @@ openclaw gateway enable
 
 第五步：测试验证。浏览器访问 http://你的服务器 IP:18789，发一条消息，龙虾回话了就说明部署成功。
 
-![](img/零基础玩转OpenClaw_image_028.jpg)
+![](img/零基础玩转-OpenClaw_image_028.jpg)
 
 **小贴士**
 
@@ -1500,7 +1500,7 @@ openclaw gateway enable
 
 表 2-4 主流云服务商简介
 
-![](img/零基础玩转OpenClaw_image_029.jpg)![](img/零基础玩转OpenClaw_image_030.jpg)
+![](img/零基础玩转-OpenClaw_image_029.jpg)![](img/零基础玩转-OpenClaw_image_030.jpg)
 
 **注意**
 
@@ -1578,7 +1578,7 @@ tar -czf openclaw-backup-$(date +%Y%m%d).tar.gz～/.openclaw
 
 tar -xzf openclaw-backup-20260210.tar.gz -C ~/
 
-![](img/零基础玩转OpenClaw_image_031.jpg)
+![](img/零基础玩转-OpenClaw_image_031.jpg)
 
 **小贴士**
 
@@ -1658,7 +1658,7 @@ rm -rf ~/openclaw
 
 npm uninstall -g openclaw
 
-![](img/零基础玩转OpenClaw_image_032.jpg)
+![](img/零基础玩转-OpenClaw_image_032.jpg)
 
 **注意**
 
@@ -1676,13 +1676,13 @@ OpenClaw 支持的模型分三类，配置复杂度和适用场景各不相同�
 
 表 2-5 三类模型接入方式对比
 
-![](img/零基础玩转OpenClaw_image_033.jpg)
+![](img/零基础玩转-OpenClaw_image_033.jpg)
 
 内置供应商是指 OpenClaw 已经内置了这些平台的接入逻辑，可直接在 onboard 向导里选，填入 API Key 就能用，不需要任何额外配置。
 
 自定义供应商是指通过 models.providers 手动配置一个兼容 OpenAI 格式的接口。国内主流模型（包括 Kimi、DeepSeek、豆包等）大多走这条路。
 
-![](img/零基础玩转OpenClaw_image_034.jpg)
+![](img/零基础玩转-OpenClaw_image_034.jpg)
 
 **小贴士**
 
@@ -1696,13 +1696,13 @@ OpenClaw 支持的模型分三类，配置复杂度和适用场景各不相同�
 
 表 2-6 可以直接在 onboard 向导里选到的供应商
 
-![](img/零基础玩转OpenClaw_image_035.jpg)
+![](img/零基础玩转-OpenClaw_image_035.jpg)
 
 需要手动配置 models.providers 的（自定义）供应商如表 2-7 所示。
 
 表 2-7 需要手动配置的供应商
 
-![](img/零基础玩转OpenClaw_image_036.jpg)![](img/零基础玩转OpenClaw_image_037.jpg)
+![](img/零基础玩转-OpenClaw_image_036.jpg)![](img/零基础玩转-OpenClaw_image_037.jpg)
 
 **注意**
 
@@ -1726,7 +1726,7 @@ openclaw onboard
 
 API Key 的获取方式：注册对应平台账号→进入控制台→找“API Key”或“API 管理”→创建并复制。
 
-![](img/零基础玩转OpenClaw_image_038.jpg)
+![](img/零基础玩转-OpenClaw_image_038.jpg)
 
 **注意**
 
@@ -1768,7 +1768,7 @@ DEEPSEEK_API_KEY=sk-你的 API Key
 
 配置完重启 Gateway ：openclaw gateway restart 再用 openclaw models list 确认模型出现在列表里，就可以用了。
 
-![](img/零基础玩转OpenClaw_image_034.jpg)
+![](img/零基础玩转-OpenClaw_image_034.jpg)
 
 **小贴士**
 
@@ -1896,7 +1896,7 @@ lsof -i :18789
 
 openclaw config set gateway.port 18790
 
-![](img/零基础玩转OpenClaw_image_039.jpg)
+![](img/零基础玩转-OpenClaw_image_039.jpg)
 
 **小贴士**
 
@@ -1906,7 +1906,7 @@ openclaw config set gateway.port 18790
 
 OpenClaw 装好之后，你打交道最多的不是界面，而是终端里那几条命令。记住这一节的命令（见表 2-8、表 2-9），就掌握了日常运维的全部。无论你用 Mac、Windows（WSL2）还是 Linux，这些命令都完全一样——OpenClaw 的 CLI（命令行界面）接口是统一的，装好就全通用，不需要按平台区分。
 
-![](img/零基础玩转OpenClaw_image_040.jpg)
+![](img/零基础玩转-OpenClaw_image_040.jpg)
 
 **小贴士**
 
@@ -1916,7 +1916,7 @@ OpenClaw 装好之后，你打交道最多的不是界面，而是终端里那�
 
 表 2-8 Gateway 管理核心命令
 
-![](img/零基础玩转OpenClaw_image_041.jpg)![](img/零基础玩转OpenClaw_image_042.jpg)![](img/零基础玩转OpenClaw_image_040.jpg)
+![](img/零基础玩转-OpenClaw_image_041.jpg)![](img/零基础玩转-OpenClaw_image_042.jpg)![](img/零基础玩转-OpenClaw_image_040.jpg)
 
 **小贴士**
 
@@ -1926,7 +1926,7 @@ openclaw gateway restart 是使用频率最高的命令之一——每次修改�
 
 表 2-9 诊断与配置常用命令
 
-![](img/零基础玩转OpenClaw_image_043.jpg)
+![](img/零基础玩转-OpenClaw_image_043.jpg)
 
 更多命令，包括 models（模型管理）、channels（渠道管理）、skills（技能管理）、cron（定时任务）、sessions（会话管理）等进阶命令，已在附录 A“OpenClaw 命令速查表”中整理归类，供随时查阅。
 
@@ -2000,7 +2000,7 @@ openclaw gateway restart 是使用频率最高的命令之一——每次修改�
 
 （2）打开 Web UI ：终端运行 openclaw dashboard，或浏览器访问 http://127.0.0.1:18789/?token=你的 token。
 
-![](img/零基础玩转OpenClaw_image_044.jpg)
+![](img/零基础玩转-OpenClaw_image_044.jpg)
 
 **小贴士**
 
@@ -2014,7 +2014,7 @@ token 在哪里查？运行 openclaw config get gateway.token 就能看到。
 
 如果 OpenClaw 正常工作，它就会回复你。一个健康的回复是这样的：
 
-![](img/零基础玩转OpenClaw_image_045.jpg)
+![](img/零基础玩转-OpenClaw_image_045.jpg)
 
 看到回复，说明你的小龙虾活着、在线、准备好工作了。
 
@@ -2030,7 +2030,7 @@ Web UI 右上角会显示使用的模型名称和 token 消耗情况——这�
 
 ● token 统计：本次对话消耗了多少 token，方便你控制成本举个例子，当你说“帮我找一下桌面的截图文件”，接下来你就会看到工具调用区域：“找到了！你桌面上……”
 
-![](img/零基础玩转OpenClaw_image_046.jpg)![](img/零基础玩转OpenClaw_image_044.jpg)
+![](img/零基础玩转-OpenClaw_image_046.jpg)![](img/零基础玩转-OpenClaw_image_044.jpg)
 
 **小贴士**
 
@@ -2042,7 +2042,7 @@ Web UI 右上角会显示使用的模型名称和 token 消耗情况——这�
 
 表 3-1 含糊的指令与清晰的指令对比
 
-![](img/零基础玩转OpenClaw_image_047.jpg)
+![](img/零基础玩转-OpenClaw_image_047.jpg)
 
 介绍四个让指令更好用的技巧：
 
@@ -2160,7 +2160,7 @@ Web UI 右上角会显示使用的模型名称和 token 消耗情况——这�
 
 接下来，让我们翻开这份“饲养指南”，看看小龙虾的身体里都藏着什么秘密吧。
 
-![](img/零基础玩转OpenClaw_image_048.jpg)
+![](img/零基础玩转-OpenClaw_image_048.jpg)
 
 **小龙虾的“身体构造”（核心目录结构）**
 
@@ -2196,7 +2196,7 @@ Web UI 右上角会显示使用的模型名称和 token 消耗情况——这�
 
 （8）USER.md（情商和社交）：记录了用户信息、习惯、偏好等信息，是龙虾处理人际关系的小本子，记录着它对你的态度和情感羁绊。
 
-![](img/零基础玩转OpenClaw_image_049.jpg)
+![](img/零基础玩转-OpenClaw_image_049.jpg)
 
 **小贴士**
 
@@ -2224,7 +2224,7 @@ SOUL.md 是 AI 的“宪法”——定义它的性格、做事风格和行为�
 
 下面是 SOUL.md 的原始版本：
 
-![](img/零基础玩转OpenClaw_image_050.jpg)
+![](img/零基础玩转-OpenClaw_image_050.jpg)
 
 下面是一份真实可用的 SOUL.md 示例，是目前开源社群里很多人在用的版本：
 
@@ -2268,7 +2268,7 @@ _ 你不是聊天机器人。你是个靠谱的助手。_
 
 把这份内容复制到 SOUL.md 里，你的龙虾立刻就有了“性格”。对话效果会产生变化，下面还以找桌面截图文件为例，这次会更严肃一点：
 
-![](img/零基础玩转OpenClaw_image_051.jpg)
+![](img/零基础玩转-OpenClaw_image_051.jpg)
 
 注意区别：在配置 SOUL.md 之前，它会先说“好的！我马上帮您……”之类的废话；配置了之后，它便直接干活，回复里没有废话。
 
@@ -2278,7 +2278,7 @@ USER.md 是 AI 对你的理解档案——记录你是谁、你的习惯、你�
 
 以下是初始设置状态：
 
-![](img/零基础玩转OpenClaw_image_052.jpg)
+![](img/零基础玩转-OpenClaw_image_052.jpg)
 
 你同样可以按照自己的喜好来修改，USER.md 示例如下：
 
@@ -2300,7 +2300,7 @@ USER.md 是 AI 对你的理解档案——记录你是谁、你的习惯、你�
 
 - 自动备份重要文件
 
-![](img/零基础玩转OpenClaw_image_049.jpg)
+![](img/零基础玩转-OpenClaw_image_049.jpg)
 
 **小贴士**
 
@@ -2322,7 +2322,7 @@ USER.md 不需要一次写完。先写几条最重要的偏好，比如时区、
 
 （5）点击保存，配置立即生效，无须重启。你可以马上开启一个新会话，测试效果。
 
-![](img/零基础玩转OpenClaw_image_053.jpg)
+![](img/零基础玩转-OpenClaw_image_053.jpg)
 
 图 3-1 WebUI 的 Files 页面，显示 SOUL.md、USER.md 等配置文件列表
 
@@ -2350,7 +2350,7 @@ ls -la ~/.openclaw/workspace/
 
 你会看到除了 SOUL.md 和 USER.md，可能还有其他配置文件。暂时不用管它们，后面的章节会逐一介绍。
 
-![](img/零基础玩转OpenClaw_image_054.jpg)
+![](img/零基础玩转-OpenClaw_image_054.jpg)
 
 **注意**
 
@@ -2504,7 +2504,7 @@ OpenClaw 目前支持的平台有很多，先看一张对比表（见表 3-2）�
 
 表 3-2 主流平台接入对比
 
-![](img/零基础玩转OpenClaw_image_055.jpg)
+![](img/零基础玩转-OpenClaw_image_055.jpg)
 
 **国内用户怎么选**
 
@@ -2536,11 +2536,11 @@ OpenClaw 目前支持的平台有很多，先看一张对比表（见表 3-2）�
 
 （4）进入“凭证与基础信息”页面，记下应用 ID（App ID）和应用密钥（App Secret）（见图 3-2）。这两个是你的机器人凭证，务必保管好。
 
-![](img/零基础玩转OpenClaw_image_056.jpg)
+![](img/零基础玩转-OpenClaw_image_056.jpg)
 
 图 3-2 飞书开放平台——凭证与基础信息页面 AppID 和 AppSecret 位置
 
-![](img/零基础玩转OpenClaw_image_057.jpg)
+![](img/零基础玩转-OpenClaw_image_057.jpg)
 
 **小贴士**
 
@@ -2554,7 +2554,7 @@ OpenClaw 目前支持的平台有很多，先看一张对比表（见表 3-2）�
 
 表 3-3 权限设置
 
-![](img/零基础玩转OpenClaw_image_058.jpg)
+![](img/零基础玩转-OpenClaw_image_058.jpg)
 
 一条一条勾选权限太烦琐，好在飞书支持批量导入。你可以点击“批量导入”，把下面这段 JSON 全部粘贴进去，一键开通所有必要权限：
 
@@ -2612,7 +2612,7 @@ OpenClaw 目前支持的平台有很多，先看一张对比表（见表 3-2）�
 
 这段 JSON 覆盖了消息收发、云文档读写、多维表格操作、日历管理和任务管理等核心能力，可以一键导入。
 
-![](img/零基础玩转OpenClaw_image_059.jpg)
+![](img/零基础玩转-OpenClaw_image_059.jpg)
 
 **安全提醒**
 
@@ -2630,7 +2630,7 @@ OpenClaw 目前支持的平台有很多，先看一张对比表（见表 3-2）�
 
 之后按照指令一步一步做，基本上 OpenClaw 自己就帮你配置好了。
 
-![](img/零基础玩转OpenClaw_image_060.jpg)
+![](img/零基础玩转-OpenClaw_image_060.jpg)
 
 方式二：交互式向导
 
@@ -2666,7 +2666,7 @@ openclaw gateway restart
 
 这一步是让飞书知道：“有人给机器人发消息的时候，请通知 OpenClaw。”没有这一步，你的龙虾就会“失聪”——飞书那边聊得热火朝天，它这边一条消息都收不到。
 
-![](img/零基础玩转OpenClaw_image_061.jpg)
+![](img/零基础玩转-OpenClaw_image_061.jpg)
 
 **注意**
 
@@ -2678,7 +2678,7 @@ openclaw gateway restart
 
 （3）添加事件：im.message.receive_v1（接收消息事件）。
 
-![](img/零基础玩转OpenClaw_image_057.jpg)
+![](img/零基础玩转-OpenClaw_image_057.jpg)
 
 **小贴士**
 
@@ -2688,11 +2688,11 @@ openclaw gateway restart
 
 （1）回到飞书开放平台 →“版本管理与发布”→“创建版本”→点击保存→提交发布（企业自建应用通常即时通过）。
 
-![](img/零基础玩转OpenClaw_image_062.jpg)
+![](img/零基础玩转-OpenClaw_image_062.jpg)
 
 （2）在飞书里搜索你的机器人，点击对话，发一条“你好”。
 
-![](img/零基础玩转OpenClaw_image_063.jpg)
+![](img/零基础玩转-OpenClaw_image_063.jpg)
 
 （3）机器人会回复一个配对码，复制配对码在终端执行：
 
@@ -2700,11 +2700,11 @@ openclaw pairing approve feishu 你的配对码
 
 （4）配对成功后，给机器人发“帮我查看当前时间”，收到正常回复说明接入完成！
 
-![](img/零基础玩转OpenClaw_image_064.jpg)
+![](img/零基础玩转-OpenClaw_image_064.jpg)
 
 验证几条常用命令（如“帮我查看一下服务器磁盘的情况”），感受一下飞书版龙虾的能力：
 
-![](img/零基础玩转OpenClaw_image_065.jpg)
+![](img/零基础玩转-OpenClaw_image_065.jpg)
 
 **钉钉接入：让龙虾住进你的工作群**
 
@@ -2720,15 +2720,15 @@ openclaw pairing approve feishu 你的配对码
 
 在“应用开发”下，点击“立即创建”，可一键创建 OpenClaw 机器人。
 
-![](img/零基础玩转OpenClaw_image_066.jpg)
+![](img/零基础玩转-OpenClaw_image_066.jpg)
 
 在创建 OpenClaw 机器人界面，填写机器人基本信息（包括机器人名称、机器人简介和机器人图标），也可直接使用默认的机器人信息，点击“确定”即可。
 
-![](img/零基础玩转OpenClaw_image_067.jpg)
+![](img/零基础玩转-OpenClaw_image_067.jpg)
 
 OpenClaw 机器人创建完成后，会自动展示应用的 Client ID 和 Client Secret，请保存好 Client ID 和 Client Secret 供后续使用。
 
-![](img/零基础玩转OpenClaw_image_068.jpg)![](img/零基础玩转OpenClaw_image_069.jpg)
+![](img/零基础玩转-OpenClaw_image_068.jpg)![](img/零基础玩转-OpenClaw_image_069.jpg)
 
 **注意**
 
@@ -2736,7 +2736,7 @@ Client ID 和 Client Secret 是应用的关键信息，也是操作应用数�
 
 当 OpenClaw 创建成功后，会自动创建一个应用：
 
-![](img/零基础玩转OpenClaw_image_070.jpg)![](img/零基础玩转OpenClaw_image_057.jpg)
+![](img/零基础玩转-OpenClaw_image_070.jpg)![](img/零基础玩转-OpenClaw_image_057.jpg)
 
 **小贴士**
 
@@ -2772,7 +2772,7 @@ openclaw plugins install @dingtalk-real-ai/dingtalk-connector
 
 提示：你的 Client ID 和 Client Secret 如下，复制下来替换到上面的代码中，再给到 OpenClaw。
 
-![](img/零基础玩转OpenClaw_image_071.jpg)
+![](img/零基础玩转-OpenClaw_image_071.jpg)
 
 第三步：发布应用并验证
 
@@ -2780,7 +2780,7 @@ openclaw plugins install @dingtalk-real-ai/dingtalk-connector
 
 （2）打开钉钉客户端（手机或电脑都行），在顶部搜索栏搜索你的机器人名称（比如“小龙虾助理”），点进去发一条“你好”。如果搜索不到，等一两分钟再试——发布后有时会有短暂延迟。手机端搜索通常比电脑端更快生效。
 
-![](img/零基础玩转OpenClaw_image_072.jpg)
+![](img/零基础玩转-OpenClaw_image_072.jpg)
 
 （3）如果你的私聊策略是默认的 open（免验证模式），机器人应该直接回复你。如果你设置了 pairing（配对模式）模式，机器人会返回一个配对码，在终端执行：
 
@@ -2788,7 +2788,7 @@ openclaw pairing approve dingtalk 你的配对码
 
 （4）配对成功后，发一条“帮我查看当前时间”，收到正常回复就说明接入完成了。
 
-![](img/零基础玩转OpenClaw_image_057.jpg)
+![](img/零基础玩转-OpenClaw_image_057.jpg)
 
 **小贴士**
 
@@ -2808,7 +2808,7 @@ openclaw logs | grep dingtalk
 
 （3）连接频繁断开。这可能是因为网络波动。插件内置了自动重连机制（指数退避策略），若短暂断连，会自动恢复。如果持续断连，需检查服务器网络是否能正常访问钉钉 API。
 
-![](img/零基础玩转OpenClaw_image_073.jpg)
+![](img/零基础玩转-OpenClaw_image_073.jpg)
 
 **安全提醒**
 
@@ -2836,29 +2836,29 @@ openclaw status
 
 打开企业微信客户端，进入“工作台”，找到“智能机器人”入口。如果没看到这个入口，说明企业微信版本太旧或者管理员没开启这个功能。更新客户端到最新版本或者让管理员在企业微信管理后台的“安全与管理→管理工具”中开启。
 
-![](img/零基础玩转OpenClaw_image_074.jpg)
+![](img/零基础玩转-OpenClaw_image_074.jpg)
 
 点击“创建机器人”，简单写一下介绍，比如“我的工作助手”，单击创建。
 
-![](img/零基础玩转OpenClaw_image_075.jpg)
+![](img/零基础玩转-OpenClaw_image_075.jpg)
 
 这里有三个配置需要你确认操作，分别是可见范围、API 配置、创建模式，一步步来，很简单。
 
 “可见范围”：可以选择自己（更稳妥、更安全），也可以把信任的同事、朋友拉进来，但是注意，别人和你的机器人交互也会耗用你的 token！
 
-![](img/零基础玩转OpenClaw_image_076.jpg)
+![](img/零基础玩转-OpenClaw_image_076.jpg)
 
 “API 配置”：和飞书一样选择连接方式，选“使用长连接”。这是企业微信新上线的能力，也是这套方案的核心——你的 OpenClaw 不需要暴露公网 IP，不需要配回调 URL，不需要折腾 Nginx 反向代理。OpenClaw 会主动和企业微信服务器建立一条 WebSocket 长连接，消息直接通过这条连接收发。对于本地部署的用户来说，电脑在家里运行着，不用做内网穿透，企业微信消息一样能送到。
 
-![](img/零基础玩转OpenClaw_image_077.jpg)
+![](img/零基础玩转-OpenClaw_image_077.jpg)
 
 “创建模式”：这里有个关键，下拉右侧交互框至最底部，务必选择“API 模式创建”，不要选普通模式。（普通模式创建的是 Webhook 类型机器人，只能被动接收消息，无法和 OpenClaw 交互。）
 
-![](img/零基础玩转OpenClaw_image_078.jpg)
+![](img/零基础玩转-OpenClaw_image_078.jpg)
 
 创建完成后，页面会显示两个关键信息：Bot ID（机器人唯一标识）和 Secret（机器人密钥，这个需要你“点击获取”）。把这两个值复制下来保存好，后面配置 OpenClaw 时会用到。
 
-![](img/零基础玩转OpenClaw_image_079.jpg)![](img/零基础玩转OpenClaw_image_080.jpg)
+![](img/零基础玩转-OpenClaw_image_079.jpg)![](img/零基础玩转-OpenClaw_image_080.jpg)
 
 **注意**
 
@@ -2866,7 +2866,7 @@ Secret 只会在创建时显示一次。如果忘记复制，只能重新生成�
 
 点击“保存”后，你就可以在工作台里找到刚刚创建的机器人了！
 
-![](img/零基础玩转OpenClaw_image_081.jpg)
+![](img/零基础玩转-OpenClaw_image_081.jpg)
 
 第二步：安装企业微信插件并配置
 
@@ -2878,7 +2878,7 @@ openclaw plugins install @wecom/wecom-openclaw-plugin
 
 openclaw gateway stop ＆＆ openclaw gateway
 
-![](img/零基础玩转OpenClaw_image_057.jpg)
+![](img/零基础玩转-OpenClaw_image_057.jpg)
 
 **小贴士**
 
@@ -2892,13 +2892,13 @@ openclaw channels add
 
 在弹出的交互式界面，选择“企业微信（WeCom）”，然后按提示依次粘贴刚才复制的 Bot ID 和 Secret，填完之后选择“Finished”结束向导。
 
-![](img/零基础玩转OpenClaw_image_082.jpg)
+![](img/零基础玩转-OpenClaw_image_082.jpg)
 
 接下来终端可能会询问你私聊配置，要不要现在就给小龙虾设置一下“防波扰”功能，规定一下谁能在私底下偷偷找它聊天。默认状态是 pairing，意思是，如果不做特殊设置，默认情况下陌生人不能随便上来就“骚扰”你的小龙虾，可能需要先通过某种“配对/绑定”认证，确认是熟人（授权用户）后才能开始对话。这是一种保护机制。
 
 它还会问，要不要给这只刚塞进企业微信里的小龙虾起个响亮的“花名”或者“备注名”。这是可选项，不影响实际应用。
 
-![](img/零基础玩转OpenClaw_image_083.jpg)
+![](img/零基础玩转-OpenClaw_image_083.jpg)
 
 对于刚入门的新手：果断选 No，然后回车。前期我们的核心目标是先让小龙虾跑起来。选 No 就会使用默认的安全机制跳过这一步。等以后你彻底玩转了，想把它开放给整个公司用，且需要限制特定人员访问时，再去研究怎么精细化配置这些访问策略也不迟。
 
@@ -2908,11 +2908,11 @@ openclaw channels add
 
 配置好之后，在企业微信里找到你刚创建的智能机器人（工作台→智能机器人，或者直接在聊天里搜索机器人名称），给它发一条“你好”。
 
-![](img/零基础玩转OpenClaw_image_084.jpg)
+![](img/零基础玩转-OpenClaw_image_084.jpg)
 
 配对成功后，再给机器人发一条“帮我查看当前时间”，收到正常回复就说明接入完成了。
 
-![](img/零基础玩转OpenClaw_image_085.jpg)
+![](img/零基础玩转-OpenClaw_image_085.jpg)
 
 **企业微信实用场景**
 
@@ -2940,7 +2940,7 @@ openclaw channels add
 
 检查两件事：一是 Gateway 是否正常运行——执行 openclaw gateway status 确认；二是 AI 模型的 API Key 是否配置正确、余额是否充足——执行 openclaw logs 查看日志里有没有 API 调用错误。
 
-![](img/零基础玩转OpenClaw_image_086.jpg)
+![](img/零基础玩转-OpenClaw_image_086.jpg)
 
 **安全提醒**
 
@@ -3000,7 +3000,7 @@ openclaw channels add
 
 表 3-4 三个平台群聊@唤醒对比
 
-![](img/零基础玩转OpenClaw_image_087.jpg)![](img/零基础玩转OpenClaw_image_088.jpg)
+![](img/零基础玩转-OpenClaw_image_087.jpg)![](img/零基础玩转-OpenClaw_image_088.jpg)
 
 **小贴士**
 
@@ -3030,7 +3030,7 @@ openclaw gateway restart
 
 在群里发消息时，@你的机器人名称+指令，AI 就会响应。不@它不回复，不干扰正常聊天。
 
-![](img/零基础玩转OpenClaw_image_089.jpg)![](img/零基础玩转OpenClaw_image_088.jpg)
+![](img/零基础玩转-OpenClaw_image_089.jpg)![](img/零基础玩转-OpenClaw_image_088.jpg)
 
 **小贴士**
 
@@ -3048,7 +3048,7 @@ openclaw gateway restart
 
 打开企业微信群聊 →右上角“添加群成员”→“智能机器人”→找到我们的小龙虾，添加即可。
 
-![](img/零基础玩转OpenClaw_image_090.jpg)
+![](img/零基础玩转-OpenClaw_image_090.jpg)
 
 **第三步：使用方式**
 
@@ -3058,7 +3058,7 @@ openclaw gateway restart
 
 **AI：**今天会议行动项共 3 条：1．张三负责输出产品方案初稿，周五前完成；2．李四跟进客户回访，下周一前汇报；3．全组下周三开复盘会。
 
-![](img/零基础玩转OpenClaw_image_091.jpg)
+![](img/零基础玩转-OpenClaw_image_091.jpg)
 
 **注意**
 
@@ -3068,7 +3068,7 @@ openclaw gateway restart
 
 钉钉群聊@唤醒需要用 Stream 模式接入——这是钉钉 2023 年后推出的长连接方案，不需要公网 IP，和飞书的 WebSocket 原理类似，稳定可靠。
 
-![](img/零基础玩转OpenClaw_image_088.jpg)
+![](img/零基础玩转-OpenClaw_image_088.jpg)
 
 **小贴士**
 
@@ -3112,7 +3112,7 @@ openclaw gateway restart
 
 **AI：**[收到，正在处理]已生成日报，格式如下：2026 年 3 月 13 日·销售日报……
 
-![](img/零基础玩转OpenClaw_image_088.jpg)
+![](img/零基础玩转-OpenClaw_image_088.jpg)
 
 **小贴士**
 
@@ -3136,7 +3136,7 @@ OpenClaw 公开社群里有个置顶帖，专门收集“新手最容易踩的�
 
 表 3-5 新手常见问题避雷表
 
-![](img/零基础玩转OpenClaw_image_092.jpg)
+![](img/零基础玩转-OpenClaw_image_092.jpg)
 
 **doctor 命令：一键全身体检**
 
@@ -3156,11 +3156,11 @@ doctor 命令会逐项检查并给出结论：
 
 ● × 飞书渠道：App Secret 无效或已过期 →建议重新生成 Secret 并更新配置
 
-●  ![](img/零基础玩转OpenClaw_image_093.jpg)Telegram：网络连接超时 →检查代理设置或服务器所在地区
+●  ![](img/零基础玩转-OpenClaw_image_093.jpg)Telegram：网络连接超时 →检查代理设置或服务器所在地区
 
-×是需要立刻处理的； ![](img/零基础玩转OpenClaw_image_093.jpg)是警告，暂时能用但建议修复；✔是正常，不用管。重点处理×，如果全是✔就可以放心使用了。
+×是需要立刻处理的； ![](img/零基础玩转-OpenClaw_image_093.jpg)是警告，暂时能用但建议修复；✔是正常，不用管。重点处理×，如果全是✔就可以放心使用了。
 
-![](img/零基础玩转OpenClaw_image_094.jpg)
+![](img/零基础玩转-OpenClaw_image_094.jpg)
 
 **小贴士**
 
@@ -3232,7 +3232,7 @@ tar -xzf openclaw-backup-20260309-1200.tar.gz-C ~/
 
 openclaw gateway restart
 
-![](img/零基础玩转OpenClaw_image_095.jpg)
+![](img/零基础玩转-OpenClaw_image_095.jpg)
 
 **注意**
 
@@ -3288,11 +3288,11 @@ OpenClaw 的最大特点是理解意图，不是解析命令。下面这些说�
 
 **用户：**帮我把桌面上的 PDF 都移到“文档/PDF 归档”文件夹里
 
-![](img/零基础玩转OpenClaw_image_096.jpg)
+![](img/零基础玩转-OpenClaw_image_096.jpg)
 
 **用户：**我有点饿，帮我查一下附近有什么好吃的川菜馆，评分高的
 
-![](img/零基础玩转OpenClaw_image_097.jpg)![](img/零基础玩转OpenClaw_image_098.jpg)
+![](img/零基础玩转-OpenClaw_image_097.jpg)![](img/零基础玩转-OpenClaw_image_098.jpg)
 
 **小贴士**
 
@@ -3318,11 +3318,11 @@ OpenClaw 的最大特点是理解意图，不是解析命令。下面这些说�
 
 **用户：**整理一下我的文件
 
-![](img/零基础玩转OpenClaw_image_099.jpg)
+![](img/零基础玩转-OpenClaw_image_099.jpg)
 
 **用户：**帮我把下载文件夹里上个月下载的 PDF 文件，按文件名首字母分类，整理到“文档/下载整理/”里，处理完告诉我一共整理了多少个文件
 
-![](img/零基础玩转OpenClaw_image_100.jpg)![](img/零基础玩转OpenClaw_image_098.jpg)
+![](img/零基础玩转-OpenClaw_image_100.jpg)![](img/零基础玩转-OpenClaw_image_098.jpg)
 
 **小贴士**
 
@@ -3334,7 +3334,7 @@ OpenClaw 的最大特点是理解意图，不是解析命令。下面这些说�
 
 表 4-1 高频场景指令模板
 
-![](img/零基础玩转OpenClaw_image_101.jpg)
+![](img/零基础玩转-OpenClaw_image_101.jpg)
 
 ## **4.2** **三大基础工具箱**
 
@@ -3372,11 +3372,11 @@ openclaw configure --section web --provider volcengine
 
 **用户：**特斯拉现在股价多少？
 
-![](img/零基础玩转OpenClaw_image_102.jpg)
+![](img/零基础玩转-OpenClaw_image_102.jpg)
 
 **用户：**帮我找一下“2026 年 AI 大模型性能对比”相关的最新资料，总结成 3 个要点
 
-![](img/零基础玩转OpenClaw_image_103.jpg)![](img/零基础玩转OpenClaw_image_104.jpg)
+![](img/零基础玩转-OpenClaw_image_103.jpg)![](img/零基础玩转-OpenClaw_image_104.jpg)
 
 **小贴士**
 
@@ -3390,17 +3390,17 @@ openclaw configure --section web --provider volcengine
 
 **用户：**帮我读取 ~/Documents/notes.md 的内容
 
-![](img/零基础玩转OpenClaw_image_105.jpg)
+![](img/零基础玩转-OpenClaw_image_105.jpg)
 
 **用户：**在文件末尾添加一行“今日待办：完成报告”
 
-![](img/零基础玩转OpenClaw_image_106.jpg)
+![](img/零基础玩转-OpenClaw_image_106.jpg)
 
 **批量处理**
 
 **用户：**把下载文件夹里所有超过 30 天没打开的文件列出来
 
-![](img/零基础玩转OpenClaw_image_107.jpg)
+![](img/零基础玩转-OpenClaw_image_107.jpg)
 
 **常用文件操作速查**
 
@@ -3408,7 +3408,7 @@ openclaw configure --section web --provider volcengine
 
 表 4-2 常用文件操作及示例
 
-![](img/零基础玩转OpenClaw_image_108.jpg)![](img/零基础玩转OpenClaw_image_109.jpg)
+![](img/零基础玩转-OpenClaw_image_108.jpg)![](img/零基础玩转-OpenClaw_image_109.jpg)
 
 **注意**
 
@@ -3422,17 +3422,17 @@ OpenClaw 内置了 Exec 工具，可以直接在你的终端执行命令。简�
 
 **用户：**帮我检查一下服务器，看看有没有哪个进程占用内存超过 1GB
 
-![](img/零基础玩转OpenClaw_image_110.jpg)
+![](img/零基础玩转-OpenClaw_image_110.jpg)
 
 **用户：**帮我写一个脚本，每天凌晨 2 点自动备份~/Documents 到移动硬盘，放到 crontab 里（系统定时任务，类似“闹钟”，到点自动执行指定命令）
 
-![](img/零基础玩转OpenClaw_image_111.jpg)![](img/零基础玩转OpenClaw_image_112.jpg)
+![](img/零基础玩转-OpenClaw_image_111.jpg)![](img/零基础玩转-OpenClaw_image_112.jpg)
 
 **实战场景**
 
 不懂终端也没关系，你不需要记住任何命令，只要像平时说话一样告诉 OpenClaw 你的需求就行。Exec 工具特别适合监控服务器状态、自动化重复操作、批量处理文件、运行 Python/Node.js 脚本、管理 Docker 容器。
 
-![](img/零基础玩转OpenClaw_image_113.jpg)
+![](img/零基础玩转-OpenClaw_image_113.jpg)
 
 **注意**
 
@@ -3442,7 +3442,7 @@ Exec 工具权限很高，建议开启操作审批（approval）模式，让 Ope
 
 OpenClaw 的技能系统，就像手机的应用商店（App Store）。截至 2026 年 3 月 16 日，ClawHub 注册表已有超过 23 000 个技能，覆盖生产力、开发、运维、内容创作等各个领域。想让龙虾查天气？装天气技能。想让它管理 Gmail？装邮件技能。
 
-![](img/零基础玩转OpenClaw_image_114.jpg)
+![](img/零基础玩转-OpenClaw_image_114.jpg)
 
 装一个 Skill，就像给龙虾换了一套专业工具。一条命令，实现能力翻倍。
 
@@ -3458,7 +3458,7 @@ OpenClaw 按优先级从三个位置加载 Skills。
 
 （3）内置技能（始终可用）：OpenClaw 自带的基础技能——web-search（网页搜索）、web-fetch（抓取）、browser（浏览器）、filesystem（文件系统）、Shell 等。
 
-![](img/零基础玩转OpenClaw_image_115.jpg)
+![](img/零基础玩转-OpenClaw_image_115.jpg)
 
 **小贴士**
 
@@ -3504,7 +3504,7 @@ clawhub update --all
 
 clawhub uninstall [技能名]
 
-![](img/零基础玩转OpenClaw_image_115.jpg)
+![](img/零基础玩转-OpenClaw_image_115.jpg)
 
 **小贴士**
 
@@ -3538,7 +3538,7 @@ clawhub info ＜技能名＞
 
 ● SKILL.md 内容为空、描述模糊、无法理解它实际做什么的技能
 
-![](img/零基础玩转OpenClaw_image_115.jpg)
+![](img/零基础玩转-OpenClaw_image_115.jpg)
 
 **小贴士**
 
@@ -3568,7 +3568,7 @@ git clone https://github.com/peterskoett/self-improving-agent.git ~/.openclaw
 
 **用户：**有没有技能可以帮我做视频字幕提取？
 
-![](img/零基础玩转OpenClaw_image_116.jpg)
+![](img/零基础玩转-OpenClaw_image_116.jpg)
 
 **Humanizer（“去 AI 味儿”）——内容创作者必装**
 
@@ -3590,7 +3590,7 @@ ClawHub 和 GitHub 上还有大量社区贡献的 Skills，涉及股票行情、
 
 表 4-3 推荐入门 Skills（新手先装这 8 个）
 
-![](img/零基础玩转OpenClaw_image_117.jpg)![](img/零基础玩转OpenClaw_image_118.jpg)![](img/零基础玩转OpenClaw_image_115.jpg)
+![](img/零基础玩转-OpenClaw_image_117.jpg)![](img/零基础玩转-OpenClaw_image_118.jpg)![](img/零基础玩转-OpenClaw_image_115.jpg)
 
 **小贴士**
 
@@ -3610,7 +3610,7 @@ SOUL.md 在第三章已经配置过了，这里重点讲一个进阶用法：让
 
 **用户：**你最近回复太长了，我想要简洁一点，每次回复不超过 3 句话，除非我明确要求详细
 
-![](img/零基础玩转OpenClaw_image_119.jpg)
+![](img/零基础玩转-OpenClaw_image_119.jpg)
 
 它会自动更新 SOUL.md，下次对话就生效了。这就是“会进化的助手”和“固定参数的工具”的区别。
 
@@ -3648,7 +3648,7 @@ MEMORY.md 的内容大概长这样：
 
 你也可以主动给 MEMORY.md 喂信息，如“记录这条内容……”“使用 write 工具，请你长期保存这条信息……”。
 
-![](img/零基础玩转OpenClaw_image_120.jpg)![](img/零基础玩转OpenClaw_image_121.jpg)
+![](img/零基础玩转-OpenClaw_image_120.jpg)![](img/零基础玩转-OpenClaw_image_121.jpg)
 
 **Self-Improving-Agent：让 AI 从错误中学习**
 
@@ -3664,7 +3664,7 @@ MEMORY.md 的内容大概长这样：
 
 这些记录会沉淀到 MEMORY.md 里，形成 AI 的“踩坑经验”，同样的错误不会犯第二次。你的龙虾真正地在成长，而不是每次都重置。
 
-![](img/零基础玩转OpenClaw_image_122.jpg)
+![](img/零基础玩转-OpenClaw_image_122.jpg)
 
 **小贴士**
 
@@ -3682,7 +3682,7 @@ MEMORY.md 的内容大概长这样：
 
 Session 和 MEMORY.md 最大的区别是：Session 是临时的，MEMORY.md 是永久的。Session 会被清空，MEMORY.md 不会。可以这样理解——MEMORY.md 是你写给龙虾的“档案”，Session 是你们今天的“通话录音”。档案一直在，录音会被覆盖。
 
-![](img/零基础玩转OpenClaw_image_123.jpg)
+![](img/零基础玩转-OpenClaw_image_123.jpg)
 
 **私聊和群聊的记忆为什么是分开的**
 
@@ -3690,7 +3690,7 @@ Session 和 MEMORY.md 最大的区别是：Session 是临时的，MEMORY.md 是�
 
 表 4-4 不同场景的 Session 记忆规则及举例
 
-![](img/零基础玩转OpenClaw_image_124.jpg)
+![](img/零基础玩转-OpenClaw_image_124.jpg)
 
 这个设计的意义在于，确保你在私聊场景里说的个人信息不会被泄露到群聊里。
 
@@ -3698,11 +3698,11 @@ Session 和 MEMORY.md 最大的区别是：Session 是临时的，MEMORY.md 是�
 
 **用户：**（私聊）我告诉你一个背景：我们的大客户 A 公司对价格非常敏感，谈判时别主动提折扣。
 
-![](img/零基础玩转OpenClaw_image_125.jpg)
+![](img/零基础玩转-OpenClaw_image_125.jpg)
 
 **用户：**（工作群@龙虾）帮我整理一下今天和 A 公司的会议纪要。
 
-![](img/零基础玩转OpenClaw_image_126.jpg)![](img/零基础玩转OpenClaw_image_127.jpg)
+![](img/零基础玩转-OpenClaw_image_126.jpg)![](img/零基础玩转-OpenClaw_image_127.jpg)
 
 **小贴士**
 
@@ -3714,7 +3714,7 @@ Session 不会一直存在。OpenClaw 有一些“失忆”机制（见表 4-5�
 
 表 4-5 OpenClaw 失忆机制
 
-![](img/零基础玩转OpenClaw_image_128.jpg)
+![](img/零基础玩转-OpenClaw_image_128.jpg)
 
 默认规则的实际体验：如果你晚上 10 点和龙虾聊完，第二天早上继续聊，它还记得昨晚说的话。但如果你 3 天没理它，等到凌晨 4 点的自动重置触发，它就忘了。
 
@@ -3744,7 +3744,7 @@ Session 不会一直存在。OpenClaw 有一些“失忆”机制（见表 4-5�
 
 表 4-6 手动管理 Session 的命令
 
-![](img/零基础玩转OpenClaw_image_129.jpg)
+![](img/零基础玩转-OpenClaw_image_129.jpg)
 
 还有一个查看当前 Session 状态的命令——当你想知道“现在用了多少内存、快到上限了吗”时，发送：
 
@@ -3758,7 +3758,7 @@ Session 不会一直存在。OpenClaw 有一些“失忆”机制（见表 4-5�
 
 如果话题已经聊完，直接用/new 彻底清空更干脆。养成“一件事做完就处理 Session”的习惯，能够使龙虾始终保持轻快状态。
 
-![](img/零基础玩转OpenClaw_image_127.jpg)
+![](img/零基础玩转-OpenClaw_image_127.jpg)
 
 **小贴士**
 
@@ -3794,7 +3794,7 @@ OpenClaw 的定时任务基于标准 cron 语法，用 openclaw cron add 命令�
 
 你可以直接在网页端定时任务面板中进行设置。
 
-![](img/零基础玩转OpenClaw_image_130.jpg)
+![](img/零基础玩转-OpenClaw_image_130.jpg)
 
 你也可以直接用中文描述时间，它能帮你转成 cron 表达式。
 
@@ -3842,7 +3842,7 @@ openclaw cron remove “早报”
 
 openclaw cron add --name “早报” --cron "0 8 * * *"--message “发送今日简报” --channel feishu
 
-![](img/零基础玩转OpenClaw_image_131.jpg)
+![](img/零基础玩转-OpenClaw_image_131.jpg)
 
 **小贴士**
 
@@ -3874,7 +3874,7 @@ OpenClaw 的每次对话都有上下文窗口限制。对话越长，AI 携带�
 
 发送后 AI 会自动把当前对话历史总结成精华版，保留关键信息，删掉废话和重复内容，然后继续对话。整个过程 10 秒内完成，之后对话会明显变流畅。
 
-![](img/零基础玩转OpenClaw_image_132.jpg)
+![](img/零基础玩转-OpenClaw_image_132.jpg)
 
 **小贴士**
 
@@ -3908,7 +3908,7 @@ openclaw logs --channel feishu --follow
 
 **用户：**它出错了：Error: ENOENT: no such file or directory, open '/Users/alex/Documents/report.pdf'这是怎么回事，怎么修？
 
-![](img/零基础玩转OpenClaw_image_133.jpg)
+![](img/零基础玩转-OpenClaw_image_133.jpg)
 
 不用自己翻文档、不用去 Stack Overflow（全球开发者技术社区）搜，直接复制错误信息扔给它，它会解释原因并给出解决方案。这是 OpenClaw 最大的优势之一——它既是执行者，也是调试者。
 
@@ -3918,7 +3918,7 @@ openclaw logs --channel feishu --follow
 
 表 4-7 调试速查表
 
-![](img/零基础玩转OpenClaw_image_134.jpg)
+![](img/零基础玩转-OpenClaw_image_134.jpg)
 
 **核心技能总结**
 
@@ -3994,7 +3994,7 @@ cp -r my-ip ~/.openclaw/skills/
 
 clawhub install ./my-ip
 
-![](img/零基础玩转OpenClaw_image_135.jpg)
+![](img/零基础玩转-OpenClaw_image_135.jpg)
 
 **小贴士**
 
@@ -4088,13 +4088,13 @@ clawhub install ./auto-apply
 
 **AI：**[读取简历 ~/Documents/resume/latest.pdf] [分析职位页面] 解析完成。即将填写：姓名-张三、邮箱-zhangsan@email.com、工作年限-3 年、期望薪资-用户未提供。是否继续提交？
 
-![](img/零基础玩转OpenClaw_image_136.jpg)
+![](img/零基础玩转-OpenClaw_image_136.jpg)
 
 **用户：**期望薪资填 20-25k，继续
 
 **AI：**[填写表单] [上传简历] [提交] 完成！已成功提交「前端开发工程师」岗位申请，公司：ABC 科技。期望薪资已填写 20-25K。投递记录已写入 apply-log.md，需要我帮你确认一下提交状态吗？
 
-![](img/零基础玩转OpenClaw_image_137.jpg)
+![](img/零基础玩转-OpenClaw_image_137.jpg)
 
 每次测试完，把发现的问题直接加到 SKILL.md 的“注意事项”里，技能就越来越完善了。
 
@@ -4106,11 +4106,11 @@ clawhub install ./auto-apply
 
 **用户：**帮我写一个 Skill，功能是：每天早上自动汇总我 GitHub 上昨天的 commit 记录，按仓库分类，发到飞书
 
-![](img/零基础玩转OpenClaw_image_138.jpg)
+![](img/零基础玩转-OpenClaw_image_138.jpg)
 
 **用户：**可以，顺便帮我测试一下
 
-![](img/零基础玩转OpenClaw_image_139.jpg)
+![](img/零基础玩转-OpenClaw_image_139.jpg)
 
 “让 AI 给 AI 写工具”——这就是 OpenClaw 社区里流传的“递归自生长”模式。你说需求，龙虾写工具，工具让龙虾能力更强，能力更强就可以再造更好的工具。
 
@@ -4132,7 +4132,7 @@ git add . ＆＆ git commit -m "feat: add auto-apply skill"
 
 git push ＆＆ # 在 GitHub 上创建 PR
 
-![](img/零基础玩转OpenClaw_image_135.jpg)
+![](img/零基础玩转-OpenClaw_image_135.jpg)
 
 **小贴士**
 
@@ -4144,7 +4144,7 @@ ClawHub 社区审核很友好，只要技能有实际用途、SKILL.md 格式正
 
 一个典型的 Skill 目录大概长这样：
 
-![](img/零基础玩转OpenClaw_image_140.jpg)![](img/零基础玩转OpenClaw_image_141.jpg)
+![](img/零基础玩转-OpenClaw_image_140.jpg)![](img/零基础玩转-OpenClaw_image_141.jpg)
 
 简单理解以下每一部分的作用。
 
@@ -4166,7 +4166,7 @@ ClawHub 社区审核很友好，只要技能有实际用途、SKILL.md 格式正
 
 很多刚开始写 Skills 的人会担心结构复杂，其实可以记住一句话：先写 SKILL.md，能跑起来再慢慢拆分结构。绝大多数技能一开始只需要一个文件，后面随着功能增加再逐步扩展。当然，你也可以把你的需求告诉 AI，让 AI 参照以上结构来帮你完成完整的 Skill，示例如下：
 
-![](img/零基础玩转OpenClaw_image_142.jpg)
+![](img/零基础玩转-OpenClaw_image_142.jpg)
 
 **用 Skill** **Seekers 批量生成技能**
 
@@ -4224,7 +4224,7 @@ openclaw memory import ~/.openclaw/workspace/MEMORY.md
 
 （3）无上限存储：向量数据库比文本文件效率高得多，记忆条数增加也不会变慢。
 
-![](img/零基础玩转OpenClaw_image_143.jpg)
+![](img/零基础玩转-OpenClaw_image_143.jpg)
 
 **小贴士**
 
@@ -4254,11 +4254,11 @@ openclaw scope current
 
 **用户：**[work scope] 帮我看一下 OpenClaw 项目的 TODO 列表
 
-![](img/零基础玩转OpenClaw_image_144.jpg)
+![](img/零基础玩转-OpenClaw_image_144.jpg)
 
 **用户：**[personal scope] 帮我看一下最近的购物清单
 
-![](img/零基础玩转OpenClaw_image_145.jpg)
+![](img/零基础玩转-OpenClaw_image_145.jpg)
 
 工作和生活，两套记忆，完全不串。这才是真正的“数字分身”，而不是一个什么都知道但什么都混在一起的混乱助手。
 
@@ -4296,7 +4296,7 @@ openclaw memory clean --older-than 90d
 
 openclaw memory compact
 
-![](img/零基础玩转OpenClaw_image_143.jpg)
+![](img/零基础玩转-OpenClaw_image_143.jpg)
 
 **小贴士**
 
@@ -4316,11 +4316,11 @@ openclaw memory compact
 
 表 5-1 Agent 的三个核心组成部分
 
-![](img/零基础玩转OpenClaw_image_146.jpg)
+![](img/零基础玩转-OpenClaw_image_146.jpg)
 
 关键特性：每个 Agent 的认证配置、工作区、聊天记录完全独立。你的工作 Agent 用公司模型账号，生活 Agent 用个人账号，家庭 Agent 用家庭共享账号，互不干扰、绝不串线。
 
-![](img/零基础玩转OpenClaw_image_147.jpg)
+![](img/零基础玩转-OpenClaw_image_147.jpg)
 
 **注意**
 
@@ -4344,7 +4344,7 @@ openclaw memory compact
 
 表 5-2 独立开发者的 AI 团队
 
-![](img/零基础玩转OpenClaw_image_148.jpg)
+![](img/零基础玩转-OpenClaw_image_148.jpg)
 
 **多 Agent 配置：三个核心步骤**
 
@@ -4542,7 +4542,7 @@ AI 协作团队 AGENTS.md 示例：
 
 按渠道分配到不同入口：Code 在终端直接调用，Ops 通过飞书单聊，Support 通过飞书专属客服群。切换到哪个渠道，就是哪个 Agent 在干活。
 
-![](img/零基础玩转OpenClaw_image_149.jpg)
+![](img/零基础玩转-OpenClaw_image_149.jpg)
 
 **小贴士**
 
@@ -4572,7 +4572,7 @@ AI 协作团队 AGENTS.md 示例：
 
 **用户：**帮我看一下本周的新增用户数据，另外登录页有个报错麻烦看一下
 
-![](img/零基础玩转OpenClaw_image_150.jpg)![](img/零基础玩转OpenClaw_image_149.jpg)
+![](img/零基础玩转-OpenClaw_image_150.jpg)![](img/零基础玩转-OpenClaw_image_149.jpg)
 
 **小贴士**
 
@@ -4586,7 +4586,7 @@ AI 协作团队 AGENTS.md 示例：
 
 **用户：**新版本 v2.1 要上线了，主要改动是优化了搜索算法，速度提升 40%。帮我分别从 Code 和 Ops 两个角度写上线通告
 
-![](img/零基础玩转OpenClaw_image_151.jpg)
+![](img/零基础玩转-OpenClaw_image_151.jpg)
 
 针对同一个任务，技术文档和用户公告两个版本一次出，分别用在不同的场景。一个 Agent 团队，服务所有受众。
 
@@ -4650,7 +4650,7 @@ Agent 团队没有标准答案，你可以完全按自己的实际需求来设�
 
 表 5-3 各场景 Agent 组合设计
 
-![](img/零基础玩转OpenClaw_image_152.jpg)
+![](img/零基础玩转-OpenClaw_image_152.jpg)
 
 设计 Agent 团队的核心原则只有一条：职责边界越清晰，效果越好。不要试图让一个 Agent“什么都会”，专精比全能好用得多。
 
@@ -4764,7 +4764,7 @@ Ollama 可以让你在自己的 Mac 或 Linux 上跑开源模型（Llama、Qwen�
 
 这套配置的逻辑是：简单查询走本地 Ollama（免费）→中等任务走 DeepSeek（便宜）→高复杂度和代码任务走 Claude（贵但值）。OpenClaw 根据任务复杂度自动分配，不需要你手动判断。
 
-![](img/零基础玩转OpenClaw_image_153.jpg)
+![](img/零基础玩转-OpenClaw_image_153.jpg)
 
 **小贴士**
 
@@ -4776,7 +4776,7 @@ Ollama 可以让你在自己的 Mac 或 Linux 上跑开源模型（Llama、Qwen�
 
 **用户：**用 Claude 帮我改一下这段代码，写完之后切回默认模型
 
-![](img/零基础玩转OpenClaw_image_154.jpg)
+![](img/零基础玩转-OpenClaw_image_154.jpg)
 
 # 也可以在命令行临时指定
 
@@ -4844,7 +4844,7 @@ openclaw config set security.permissions.shell false
 
 权限有三个级别：allow（直接执行）、confirm（执行前弹出确认）、deny（直接拒绝）。写文件和执行 Shell 命令设成“confirm”，即龙虾操作前必须经你点头，删除文件设成“deny”，彻底切断这个风险。
 
-![](img/零基础玩转OpenClaw_image_155.jpg)
+![](img/零基础玩转-OpenClaw_image_155.jpg)
 
 **注意**
 
@@ -4886,7 +4886,7 @@ openclaw config set security.audit.channel feishu
 
 **用户：**我在 SOUL.md 里加了一条新规则，帮我确认一下你是否收到了：“每次回复结束后，主动问用户是否需要进一步操作”
 
-![](img/零基础玩转OpenClaw_image_156.jpg)
+![](img/零基础玩转-OpenClaw_image_156.jpg)
 
 热更新让用户可以快速迭代 SOUL.md，找到最适合自己工作风格的配置。
 
@@ -4900,7 +4900,7 @@ openclaw config show soul
 
 **用户：**我发现你在处理多任务时经常优先处理了不重要的，应该先做紧急的。帮我把这个规则加进 SOUL.md，写成 AI 最容易理解的格式
 
-![](img/零基础玩转OpenClaw_image_157.jpg)
+![](img/零基础玩转-OpenClaw_image_157.jpg)
 
 让 AI 帮你写 Prompt，往往比你自己写更准确——它比任何人都清楚什么样的指令格式它能理解得最好。这叫“反向工程你的 AI”，是进阶用户的核心技巧之一。
 
@@ -4952,7 +4952,7 @@ openclaw memory status --deep
 
 表 5-4 OpenClaw 运行常见诊断及优化方法
 
-![](img/零基础玩转OpenClaw_image_158.jpg)
+![](img/零基础玩转-OpenClaw_image_158.jpg)
 
 ## **本章小结**
 
@@ -5000,7 +5000,7 @@ Skill 名称：vibecoding-workflow
 
 你只需用自然语言描述想法，它就会引导你一步步走完需求描述、架构设计、代码生成、调试优化、持续迭代五个阶段（见图 6-1），每个阶段结束前它都会帮你整理好文档，使下一步有据可查。
 
-![](img/零基础玩转OpenClaw_image_159.jpg)
+![](img/零基础玩转-OpenClaw_image_159.jpg)
 
 图 6-1 氛围编程五阶段工作流：从模糊想法到可维护项目
 
@@ -5014,7 +5014,7 @@ Skill 名称：vibecoding-workflow
 
 OpenClaw 会确认当前所处阶段，明确告诉你“现在进入阶段 1：需求描述”，然后开始引导你完成需求澄清。如果你说的话触发了关键词（比如“vibe”“规范工作流”“阶段 1”），它也会自动识别并启动。
 
-![](img/零基础玩转OpenClaw_image_160.jpg)
+![](img/零基础玩转-OpenClaw_image_160.jpg)
 
 **小技巧**
 
@@ -5030,7 +5030,7 @@ OpenClaw 会确认当前所处阶段，明确告诉你“现在进入阶段 1：
 
 表 6-1 阶段 1 三步目标
 
-![](img/零基础玩转OpenClaw_image_161.jpg)
+![](img/零基础玩转-OpenClaw_image_161.jpg)
 
 为了让大家更直观地理解阶段 1 的操作流程，我们以“RSS 热点聚合工具”为例进行拆解。很多人最初提出需求时，描述往往非常简洁，甚至只有一句话，比如：
 
@@ -5040,7 +5040,7 @@ OpenClaw 会确认当前所处阶段，明确告诉你“现在进入阶段 1：
 
 不难发现，这样的描述信息量严重不足，无法支撑后续的开发工作。因此，OpenClaw 不会直接开始写代码，而是会主动追问使用场景、内容偏好和痛点等关键信息，帮你完善需求（见图 6-2）。
 
-![](img/零基础玩转OpenClaw_image_162.jpg)
+![](img/零基础玩转-OpenClaw_image_162.jpg)
 
 图 6-2 在阶段 1 的步骤 1 中追问使用场景、内容偏好和痛点等
 
@@ -5106,17 +5106,17 @@ OpenClaw 会确认当前所处阶段，明确告诉你“现在进入阶段 1：
 
 以下是结合“RSS 聚合工具”的阶段 2 输出示例：
 
-![](img/零基础玩转OpenClaw_image_163.jpg)![](img/零基础玩转OpenClaw_image_164.jpg)
+![](img/零基础玩转-OpenClaw_image_163.jpg)![](img/零基础玩转-OpenClaw_image_164.jpg)
 
 结合前文提到的数据流图，这里补充说明其可视化查看方式，以下是数据流图的源代码在 mermaid.live 网站中渲染的可视化效果（见图 6-3）。
 
-![](img/零基础玩转OpenClaw_image_165.jpg)
+![](img/零基础玩转-OpenClaw_image_165.jpg)
 
 图 6-3 阶段 2 输出的数据流图，可在 mermaid.live 直接粘贴代码渲染
 
 完成架构设计后，有一个关键注意事项需重点牢记，这是阶段 2 的核心红线，直接影响后续开发质量。
 
-![](img/零基础玩转OpenClaw_image_166.jpg)
+![](img/零基础玩转-OpenClaw_image_166.jpg)
 
 **注意**
 
@@ -5132,7 +5132,7 @@ OpenClaw 会严格按照阶段 2 架构文档的规划，从基础层开始，�
 
 表 6-2 阶段 3 模块生成顺序
 
-![](img/零基础玩转OpenClaw_image_167.jpg)
+![](img/零基础玩转-OpenClaw_image_167.jpg)
 
 为保证代码质量，每个模块生成完成后，OpenClaw 会要求你对该模块进行最小验证——确保模块能被正常导入（import）、关键函数能成功调用。只有确认无误后，才会推进到下一个模块的生成。以下是逐模块推进的对话示例，大家可参考该节奏与 OpenClaw 互动。
 
@@ -5158,7 +5158,7 @@ OpenClaw 会严格按照阶段 2 架构文档的规划，从基础层开始，�
 
 表 6-3 阶段 4 的四步调试循环
 
-![](img/零基础玩转OpenClaw_image_168.jpg)
+![](img/零基础玩转-OpenClaw_image_168.jpg)
 
 为帮助大家精准向 OpenClaw 反馈报错信息，提高调试效率，下面提供一个完整的报错提法示例，大家只需按照这个格式，替换成自己遇到的报错信息，发送给 OpenClaw 即可。
 
@@ -5180,7 +5180,7 @@ TypeError: Cannot read properties of undefined (reading 'items')
 
 已尝试：检查过 fetcher 的返回值，第一次是有数据的
 
-![](img/零基础玩转OpenClaw_image_169.jpg)
+![](img/零基础玩转-OpenClaw_image_169.jpg)
 
 **注意**
 
@@ -5194,13 +5194,13 @@ TypeError: Cannot read properties of undefined (reading 'items')
 
 表 6-4 迭代类型判断标准
 
-![](img/零基础玩转OpenClaw_image_170.jpg)
+![](img/零基础玩转-OpenClaw_image_170.jpg)
 
 如果不确定自己的需求属于哪种迭代类型、不知道该从哪里开始，也无须担心，直接告诉 OpenClaw“我想改一下 XXX”，它会帮你判断具体场景，并给出对应的切入点建议。
 
 结合迭代环节的特点，这里再分享一个实用小技巧，能有效提升后续协作效率。
 
-![](img/零基础玩转OpenClaw_image_171.jpg)
+![](img/零基础玩转-OpenClaw_image_171.jpg)
 
 **小技巧**
 
@@ -5212,7 +5212,7 @@ TypeError: Cannot read properties of undefined (reading 'items')
 
 表 6-5 各阶段产出
 
-![](img/零基础玩转OpenClaw_image_172.jpg)
+![](img/零基础玩转-OpenClaw_image_172.jpg)
 
 氛围编程工作流的本质，是把“会说话的 AI”升级为“会推进项目的搭档”——它不会替你做决定，而是在每个关键节点为你提供引导，确保你做出正确的选择，并且所有决策都有文档可追溯、可复盘。
 
@@ -5240,7 +5240,7 @@ TypeError: Cannot read properties of undefined (reading 'items')
 
 最后，有一个重要的安全提醒需要大家务必重视：上述工作流产物（JSON 配置、架构图及代码）均是基于氛围编程理论生成的逻辑方案，仅作参考使用。在实际将其部署至生产环境或企业内部工具（如飞书、钉钉集成）时，需严格遵守三点安全要求。
 
-![](img/零基础玩转OpenClaw_image_173.jpg)
+![](img/零基础玩转-OpenClaw_image_173.jpg)
 
 **安全提醒**
 
@@ -5286,7 +5286,7 @@ github-manager Skill 使用 Personal Access Token 认证。请按以下步骤
 
 （4）点击“Generate token”，立即复制 Token（ghp 开头），页面关闭后无法再次查看。
 
-![](img/零基础玩转OpenClaw_image_174.jpg)
+![](img/零基础玩转-OpenClaw_image_174.jpg)
 
 **注意**
 
@@ -5326,7 +5326,7 @@ OpenClaw 返回示例（见图 6-4）
 
 已设置默认仓库：my-api-service，后续操作可省略--repo 参数。
 
-![](img/零基础玩转OpenClaw_image_175.jpg)
+![](img/零基础玩转-OpenClaw_image_175.jpg)
 
 图 6-4 配置完成后验证连接，OpenClaw 返回仓库列表
 
@@ -5334,7 +5334,7 @@ github-manager Skill 支持的全部操作如表 6-6 所示。
 
 表 6-6 操作一览表
 
-![](img/零基础玩转OpenClaw_image_176.jpg)![](img/零基础玩转OpenClaw_image_177.jpg)
+![](img/零基础玩转-OpenClaw_image_176.jpg)![](img/零基础玩转-OpenClaw_image_177.jpg)
 
 **小技巧**
 
@@ -5350,7 +5350,7 @@ github-manager Skill 可通过平台接口获取两个版本标签之间的所�
 
 表 6-7 规范 commit 分类与说明
 
-![](img/零基础玩转OpenClaw_image_178.jpg)
+![](img/零基础玩转-OpenClaw_image_178.jpg)
 
 若提交记录中出现明显的破坏性变更（如包含“破坏性变更”“不兼容变更”等描述），OpenClaw 会自动将其标记为“BREAKING CHANGE”，并在更新日志中重点标注。
 
@@ -5404,7 +5404,7 @@ Bug 修复
 
 3．如果有破坏性变更，单独发一条加急消息提醒我
 
-![](img/零基础玩转OpenClaw_image_179.jpg)
+![](img/零基础玩转-OpenClaw_image_179.jpg)
 
 **小技巧**
 
@@ -5564,7 +5564,7 @@ brain init
 
 表 6-8 大模型服务商搭配
 
-![](img/零基础玩转OpenClaw_image_180.jpg)![](img/零基础玩转OpenClaw_image_181.jpg)
+![](img/零基础玩转-OpenClaw_image_180.jpg)![](img/零基础玩转-OpenClaw_image_181.jpg)
 
 **小技巧**
 
@@ -5580,7 +5580,7 @@ chatProvider=deepseek（deepseek-chat 模型，整理和分析笔记费用极低
 
 用 second-brain Skill 自动创建以下标准化的笔记库目录结构，所有笔记都会按分类存储，无须手动创建：
 
-![](img/零基础玩转OpenClaw_image_182.jpg)
+![](img/零基础玩转-OpenClaw_image_182.jpg)
 
 将你已有的 Markdown 笔记放入对应目录后，在终端运行以下命令：
 
@@ -5590,7 +5590,7 @@ brain index
 
 运行前有一点需要注意，建立索引时笔记内容会发送给你配置的大模型服务商，涉及隐私的文件建议提前排除。
 
-![](img/零基础玩转OpenClaw_image_183.jpg)
+![](img/零基础玩转-OpenClaw_image_183.jpg)
 
 **注意**
 
@@ -5644,7 +5644,7 @@ review_at: null
 
 标签：工作，推荐系统，架构
 
-![](img/零基础玩转OpenClaw_image_184.jpg)
+![](img/零基础玩转-OpenClaw_image_184.jpg)
 
 **小技巧**
 
@@ -5706,7 +5706,7 @@ brain organize
 
 如果有疑似重复的笔记，单独列出来提醒我。
 
-![](img/零基础玩转OpenClaw_image_185.jpg)
+![](img/零基础玩转-OpenClaw_image_185.jpg)
 
 **注意**
 
@@ -5722,7 +5722,7 @@ brain organize 会把收件箱里的文件移动到 10-Notes/的子目录。
 
 表 6-9 语义检索与关键词检索对比
 
-![](img/零基础玩转OpenClaw_image_186.jpg)
+![](img/零基础玩转-OpenClaw_image_186.jpg)
 
 检索结果不只是一个文件列表，还会告诉你每条结果为什么和你的问题相关，方便你快速判断要不要点进去看。检索结果示例：
 
@@ -5762,7 +5762,7 @@ Raft 算法的领导者选举和日志复制机制详解
 
 共识算法是实现强一致性的核心方案，与检索意图关联
 
-![](img/零基础玩转OpenClaw_image_187.jpg)
+![](img/零基础玩转-OpenClaw_image_187.jpg)
 
 **小技巧**
 
@@ -5796,7 +5796,7 @@ brain graph --mermaid-only
 
 输出文件保存在.brain/文件夹：
 
-![](img/零基础玩转OpenClaw_image_188.jpg)![](img/零基础玩转OpenClaw_image_189.jpg)
+![](img/零基础玩转-OpenClaw_image_188.jpg)![](img/零基础玩转-OpenClaw_image_189.jpg)
 
 运行完之后会生成三种格式的文件，分别适合不同的使用场景，按需选用就好。
 
@@ -5896,7 +5896,7 @@ graph TD
 
 主题：在配置文件 graph.htmlTheme 设置 dark 或 light
 
-![](img/零基础玩转OpenClaw_image_190.jpg)
+![](img/零基础玩转-OpenClaw_image_190.jpg)
 
 图 6-6 braingraph 生成的知识图谱，节点大小代表概念出现频次
 
@@ -6002,7 +6002,7 @@ OpenClaw（09:00）：
 
 格式：你在研究“新笔记主题”，以下旧笔记可能有关联：……
 
-![](img/零基础玩转OpenClaw_image_191.jpg)
+![](img/零基础玩转-OpenClaw_image_191.jpg)
 
 **小技巧**
 
@@ -6028,7 +6028,7 @@ OpenClaw（09:00）：
 
 每周一 8:00：运行 brain review --recommend，推送“本周新增笔记的相关旧笔记”列表
 
-![](img/零基础玩转OpenClaw_image_192.jpg)
+![](img/零基础玩转-OpenClaw_image_192.jpg)
 
 **小技巧**
 
@@ -6078,7 +6078,7 @@ Skill 名称：content-intel
 
 这里给大家推荐一个性价比高、使用便捷的服务商——DeepSeek。它不仅费用低，而且响应速度快，非常适合内容创作者使用。具体操作如下：访问 platform.deepseek.com，注册并登录后，进入“API Keys”页面，点击“创建 API Key”，之后把生成的那串以 sk-开头的字符复制下来保存好——这里要重点提醒，这串字符就是你的“通行证”，且只会显示一次，一定要妥善保存，避免丢失。
 
-![](img/零基础玩转OpenClaw_image_193.jpg)
+![](img/零基础玩转-OpenClaw_image_193.jpg)
 
 **小技巧**
 
@@ -6106,7 +6106,7 @@ MOONSHOT_API_KEY=sk-你的 Key
 
 DASHSCOPE_API_KEY=sk-你的 Key
 
-![](img/零基础玩转OpenClaw_image_194.jpg)
+![](img/零基础玩转-OpenClaw_image_194.jpg)
 
 **注意**
 
@@ -6140,7 +6140,7 @@ Key 填好了，第三步就是告诉 OpenClaw 你的账号是做哪个垂类方
 
 OpenClaw 会自动扫描当天的微博热搜和知乎热榜，几分钟后把筛选结果发给你（见图 6-7）。
 
-![](img/零基础玩转OpenClaw_image_195.jpg)
+![](img/零基础玩转-OpenClaw_image_195.jpg)
 
 图 6-7 OpenClaw 返回的选题报告示例
 
@@ -6176,7 +6176,7 @@ OpenClaw 会自动扫描当天的微博热搜和知乎热榜，几分钟后把�
 
 AI 生成的初稿会自动保存在工具的 data/scripts.json 文件中，方便你日后翻找、修改、复用，无须担心内容丢失；若你对某版初稿不满意，可直接告诉 OpenClaw“换个角度重新写”，工具会快速生成新的初稿。
 
-![](img/零基础玩转OpenClaw_image_196.jpg)
+![](img/零基础玩转-OpenClaw_image_196.jpg)
 
 **小技巧**
 
@@ -6216,7 +6216,7 @@ AI 初稿只是“内容骨架”，并非最终定稿。AI 生成的内容可�
 
 表 6-10 常用指令
 
-![](img/零基础玩转OpenClaw_image_197.jpg)
+![](img/零基础玩转-OpenClaw_image_197.jpg)
 
 content-intel 把“每天找话题、刷热榜、酝酿初稿”这些最耗时、最枯燥的内容创作环节，从你的待办清单里彻底拿走了。
 
@@ -6262,11 +6262,11 @@ Skill 名称：social-cli
 
 表 6-11 平台凭证汇总
 
-![](img/零基础玩转OpenClaw_image_198.jpg)![](img/零基础玩转OpenClaw_image_199.jpg)
+![](img/零基础玩转-OpenClaw_image_198.jpg)![](img/零基础玩转-OpenClaw_image_199.jpg)
 
 四个平台中，小红书和微博的凭证配置最简单、操作最稳定，若第一次使用，建议从这两个平台开始，快速掌握工具核心功能。
 
-![](img/零基础玩转OpenClaw_image_200.jpg)
+![](img/零基础玩转-OpenClaw_image_200.jpg)
 
 **小技巧**
 
@@ -6306,7 +6306,7 @@ WEIXIN_APPSECRET=你的 AppSecret
 
 DEEPSEEK_API_KEY=sk-你的 Key
 
-![](img/零基础玩转OpenClaw_image_201.jpg)
+![](img/零基础玩转-OpenClaw_image_201.jpg)
 
 **注意**
 
@@ -6380,7 +6380,7 @@ OpenClaw 会严格按照你设置的每日最多发布条数执行，若当天�
 
 还有 2 条草稿待你审核，需要看一下吗？
 
-![](img/零基础玩转OpenClaw_image_202.jpg)
+![](img/零基础玩转-OpenClaw_image_202.jpg)
 
 **小技巧**
 
@@ -6462,7 +6462,7 @@ OpenClaw 会先把评论分类，判断哪些是“有明确答案的提问”�
 
 [查看详情]
 
-![](img/零基础玩转OpenClaw_image_203.jpg)
+![](img/零基础玩转-OpenClaw_image_203.jpg)
 
 **注意**
 
@@ -6558,7 +6558,7 @@ social-cli 的变现追踪功能，能帮你把所有收入汇总在一起，还
 
 表 6-12 常用指令
 
-![](img/零基础玩转OpenClaw_image_204.jpg)
+![](img/零基础玩转-OpenClaw_image_204.jpg)
 
 至此，content-intel（选题+写稿）和 social-cli（发布+运营）形成了一套完整的内容创作与运营自动化流程：从每天早上的热点选题简报，到多平台内容初稿生成、审核发布、运营数据拉取、评论智能回复，再到全平台变现收益汇总，几乎所有重复性的内容创作和运营工作，都可以交给 OpenClaw 完成。
 
@@ -6614,55 +6614,55 @@ social-cli 的变现追踪功能，能帮你把所有收入汇总在一起，还
 
 表 A-1 基础与诊断命令
 
-![](img/零基础玩转OpenClaw_image_205.jpg)![](img/零基础玩转OpenClaw_image_206.jpg)
+![](img/零基础玩转-OpenClaw_image_205.jpg)![](img/零基础玩转-OpenClaw_image_206.jpg)
 
 **A.2 Gateway 管理**
 
 表 A-2 Gateway 管理命令
 
-![](img/零基础玩转OpenClaw_image_207.jpg)![](img/零基础玩转OpenClaw_image_208.jpg)
+![](img/零基础玩转-OpenClaw_image_207.jpg)![](img/零基础玩转-OpenClaw_image_208.jpg)
 
 **A.3 模型管理**
 
 表 A-3 模型管理命令
 
-![](img/零基础玩转OpenClaw_image_209.jpg)
+![](img/零基础玩转-OpenClaw_image_209.jpg)
 
 **A.4 渠道与配对管理**
 
 表 A-4 渠道与配对管理命令
 
-![](img/零基础玩转OpenClaw_image_210.jpg)![](img/零基础玩转OpenClaw_image_211.jpg)
+![](img/零基础玩转-OpenClaw_image_210.jpg)![](img/零基础玩转-OpenClaw_image_211.jpg)
 
 **A.5 Skills 与 ClawHub**
 
 表 A-5 Skills 与 ClawHub 命令
 
-![](img/零基础玩转OpenClaw_image_212.jpg)
+![](img/零基础玩转-OpenClaw_image_212.jpg)
 
 **A.6 配置管理**
 
 表 A-6 配置管理命令
 
-![](img/零基础玩转OpenClaw_image_213.jpg)
+![](img/零基础玩转-OpenClaw_image_213.jpg)
 
 **A.7 定时任务与会话**
 
 表 A-7 定时任务与会话命令
 
-![](img/零基础玩转OpenClaw_image_214.jpg)
+![](img/零基础玩转-OpenClaw_image_214.jpg)
 
 **A.8 高级与测试**
 
 表 A-8 高级与测试命令
 
-![](img/零基础玩转OpenClaw_image_215.jpg)
+![](img/零基础玩转-OpenClaw_image_215.jpg)
 
 # **附录 B** **ClawHubSkills 完整手册**
 
 本附录基于 ClawHub 截至 2026 年 3 月的真实下载数据整理。ClawHub 是 OpenClaw 的官方技能注册表，社区贡献技能超过 3 286 个，覆盖人工智能/机器学习、实用工具、开发、生产力等领域。最新列表可访问 clawhub.ai 或执行 clawhub list --popular 查看。
 
-![](img/零基础玩转OpenClaw_image_216.jpg)
+![](img/零基础玩转-OpenClaw_image_216.jpg)
 
 **安全提醒**
 
@@ -6672,7 +6672,7 @@ social-cli 的变现追踪功能，能帮你把所有收入汇总在一起，还
 
 表 B-1 ClawHub 下载榜前十名
 
-![](img/零基础玩转OpenClaw_image_217.jpg)
+![](img/零基础玩转-OpenClaw_image_217.jpg)
 
 注：ClawHub 是开源社区，Skills 迭代速度快、同名的多，本表统计数据截至 2026 年 3 月，建议先到官网检索后再进行安装。
 
@@ -6680,13 +6680,13 @@ social-cli 的变现追踪功能，能帮你把所有收入汇总在一起，还
 
 表 B-2 生产力工具
 
-![](img/零基础玩转OpenClaw_image_218.jpg)
+![](img/零基础玩转-OpenClaw_image_218.jpg)
 
 **B.3** **开发工具**
 
 表 B-3 开发工具
 
-![](img/零基础玩转OpenClaw_image_219.jpg)![](img/零基础玩转OpenClaw_image_220.jpg)
+![](img/零基础玩转-OpenClaw_image_219.jpg)![](img/零基础玩转-OpenClaw_image_220.jpg)
 
 **B.4** **AI 自进化与 Agent 增强**
 
@@ -6694,25 +6694,25 @@ social-cli 的变现追踪功能，能帮你把所有收入汇总在一起，还
 
 表 B-4 AI 自进化与 Agent 增强 Skills
 
-![](img/零基础玩转OpenClaw_image_221.jpg)![](img/零基础玩转OpenClaw_image_222.jpg)
+![](img/零基础玩转-OpenClaw_image_221.jpg)![](img/零基础玩转-OpenClaw_image_222.jpg)
 
 **B.5** **搜索与信息获取**
 
 表 B-5 搜索与信息获取 Skills
 
-![](img/零基础玩转OpenClaw_image_223.jpg)
+![](img/零基础玩转-OpenClaw_image_223.jpg)
 
 **B.6** **运维与基础设施**
 
 表 B-6 运维与基础设施 Skills
 
-![](img/零基础玩转OpenClaw_image_224.jpg)
+![](img/零基础玩转-OpenClaw_image_224.jpg)
 
 **B.7** **智能家居与多媒体**
 
 表 B-7 智能家居与多媒体 Skills
 
-![](img/零基础玩转OpenClaw_image_225.jpg)
+![](img/零基础玩转-OpenClaw_image_225.jpg)
 
 **附录 C** **官方配置文档示例（json）**[{]
 

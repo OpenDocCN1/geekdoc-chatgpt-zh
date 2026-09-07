@@ -52,11 +52,11 @@ Wenyuan
 
 # **嗨，ChatGPT**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_000.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_000.jpg)
 
 **Hello World！**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_001.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_001.jpg)
 
 一问一答，这就是 ChatGPT，非常简单。
 
@@ -78,13 +78,13 @@ Wenyuan
 
 这三者的关系如图 1.1 所示，人工智能包含机器学习，机器学习包含深度学习。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_003.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_003.jpg)
 
 图 1.1 人工智能、机器学习和深度学习的关系
 
 人工智能与人类认知世界的维度一致，即主要通过图像、文本和声音这三个维度进行感知和交互。图像、文本和声音分别对应计算机视觉（Computer Vision，CV）、自然语言处理（Natural Language Processing，NLP）、自动语音识别（Automatic Speech Recognition，ASR）三个重点应用领域。为了解决这三个重点应用领域的问题，我们既会用机器学习和深度学习等人工智能方法，即本书重点内容，其产品就属于 AI 应用范畴，也会用除人工智能外的方法，比如，计算机视觉领域中应用了传统图像处理方法，自然语言处理领域也会应用基于统计的语言模型等，如图 1.2 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_004.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_004.jpg)
 
 图 1.2 计算机视觉、自然语言处理、自动语音识别与人工智能的关系
 
@@ -92,25 +92,25 @@ AI 应用都是建立在这三个维度里面的一个或多个结合的基础�
 
 计算机视觉指能够模拟和实现人类视觉的感知和理解能力的计算机技术，包括图像处理、图像识别、目标检测、视频分析等分支，可应用于人脸识别、自动驾驶、智能安防等场景。图 1.3 所示的是 Midjourney 自动生成的食物广告图片。这就是 AI 在计算机视觉领域应用的示例。Midjourney 是一款能够根据文字生成新的图片的 AI 应用。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_005.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_005.jpg)
 
 图 1.3 计算机视觉应用示例：AI 生成的食物广告图片
 
 自然语言处理是指处理、理解和生成人类语言的计算机技术，包括文本分类、文本生成、机器翻译等分支，可应用于聊天机器人、智能客服、自动摘要等场景。图 1.4 展示了 AI 把“知识就是力量”翻译成“Knowledge is power”的编码和解码过程，这是自然语言处理领域的典型应用，即机器翻译。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_006.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_006.jpg)
 
 图 1.4 自然语言处理应用示例：从中文翻译成英文
 
 自动语音识别（Automatic Speech Recognition，ASR）是指将人类语音转换成可识别的文本的计算机技术。自动语音识别经常与自然语言处理结合，应用于语音助手、智能客服、智能家居等领域。比如，图 1.5 所示的是苹果公司推出的语音助手 Siri 的 Logo，Siri 和小度机器人、小爱机器人等均为自动语音识别与自然语言处理结合的对话机器人。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_007.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_007.jpg)
 
 图 1.5 自动语音识别与自然语言处理结合应用示例：对话机器人
 
 基于上述三个维度组合出的多模态应用十分丰富，图 1.6 中所示的特斯拉的自动驾驶即为典型的多模态应用。在自动驾驶中，计算机视觉负责识别实体，即图 1.6 左图所示的车载摄像头所识别的对自动驾驶有影响的物体；自然语言处理则负责自动驾驶的智能决策，如是否转弯、行进速度等；自动语音识别负责语音交互，即与司机的语音交流。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_008.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_008.jpg)
 
 图 1.6 多模态应用示例：特斯拉的自动驾驶
 
@@ -122,13 +122,13 @@ AI 应用都是建立在这三个维度里面的一个或多个结合的基础�
 
 “产消合一”的趋势不仅出现在产品生产领域中，而且在内容创作领域同样如此。AI 作为新兴生产力，能够自动生成、高效提供边际成本更低的内容，更符合人们对个性化、定制化的需求，从而创造出独特价值和独立视角。AI 的应用逐渐从单纯的“降本增效”转向了更为复杂、高级的“创造价值”，如图 1.7 所示。消费者通过 AIGC（Artificial Intelligence Generated Content）独立完成内容创作的趋势愈发明显。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_009.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_009.jpg)
 
 图 1.7 AI 从“降本增效”向“创造价值”转变
 
 随着 AI 创造能力的飞速提升，从 UGC（User Generated Content，用户生产内容）到 PGC（Professional Generated Content，专业生产内容），再到 AIGC（Artificial Intelligence Generated Content，AI 生产内容），内容生产领域有了巨大的发展。AIGC 大大降低内容创作的门槛，帮助人们摆脱单调的重复性工作、突破生产瓶颈，让更多人参与创作。AIGC 的应用生态迎来了一波大爆发，使得 AI 不再是“辅助人类生产内容”，而逐渐从“AI 与人类共生创作”阶段进化到“AI 独立完成内容创作”阶段，如图 1.8 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_010.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_010.jpg)
 
 图 1.8 AI 创造能力的提升
 
@@ -146,7 +146,7 @@ AI 应用都是建立在这三个维度里面的一个或多个结合的基础�
 
 ● 文本生成三维模型。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_011.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_011.jpg)
 
 图 1.9 红杉资本发布的 AIGC 应用生态图
 
@@ -156,7 +156,7 @@ ChatGPT 全称是“Chat Generative Pre-trained Transformer”，即生成式
 
 由此总结，AI、AIGC、ChatGPT 的整体关系如图 1.10 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_012.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_012.jpg)
 
 图 1.10 AI、AIGC、ChatGPT 的整体关系
 
@@ -174,7 +174,7 @@ ChatGPT 全称是“Chat Generative Pre-trained Transformer”，即生成式
 
 只有用算法对数据进行训练，才可能得到可用的模型。图 1.11 中间的算法图片横轴是数据量，纵轴是模型的参数量（参数可控制模型的行为，由模型自动学习得到），可以看出，随着 AI 模型可应用的数据量越来越大，对应模型参数越来越多。当模型参数规模达到数十亿甚至上百亿的级别时，就会出现模型能力大幅度提升、智能涌现的情况，也就产生了如今类似 ChatGPT 的大语言模型的惊艳表现。当然，大语言模型处理大数据的基础是算力，即 GPU 等 AI 模型训练用的硬件设备所具备的性能，如图 1.11 右图所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_013.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_013.jpg)
 
 图 1.11 AI 三要素：数据、算法、算力
 
@@ -186,7 +186,7 @@ ChatGPT 全称是“Chat Generative Pre-trained Transformer”，即生成式
 
 ChatGPT 的发展史不仅代表了人工智能技术的发展，也代表了整个科技领域的进步，是产学研各界的科学家、工程师不断努力共同树立的一座丰碑。从算法侧描述 ChatGPT 的发展史，如图 1.12 所示，从 1950 年基于规则的第一代 AI 应用，到后面从机器学习逐渐演变到对不同种类深度学习模型的不断探索，直到 2017 年 Transformer 架构的发表，深度学习领域的模型才开始逐渐趋于统一。现在，基于 Transformer 的两种重要模型：GPT 和 BERT，也都经历了长足的发展。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_014.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_014.jpg)
 
 图 1.12 算法侧 ChatGPT 的发展史
 
@@ -226,7 +226,7 @@ GPT-4 在 GPT-3.5 的基础上有了进一步提升，在很多任务上的性�
 
 **（5）多模态任务、生成控制、强化学习、安全性和可靠性、对话能力**等方面也有所改进。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_015.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_015.jpg)
 
 图 1.13 GPT-3.5 与 GPT-4 考试成绩对比
 
@@ -240,7 +240,7 @@ GPT-4 在 GPT-3.5 的基础上有了进一步提升，在很多任务上的性�
 
 第 1 类问题，是大家经常碰到的，比如，让 ChatGPT 简述一个胡编乱造的情节，它竟然煞有介事地编出一大段，如图 1.14 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_016.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_016.jpg)
 
 图 1.14 ChatGPT 生成的虚假信息
 
@@ -254,7 +254,7 @@ GPT-4 在 GPT-3.5 的基础上有了进一步提升，在很多任务上的性�
 
 ChatGPT 最直接的使用方式就是在 OpenAI 官网注册 OpenAI 账号了，OpenAI 官网的 ChatGPT 界面如图 1.15 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_017.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_017.jpg)
 
 图 1.15 OpenAI 官网的 ChatGPT 界面
 
@@ -264,7 +264,7 @@ ChatGPT 最直接的使用方式就是在 OpenAI 官网注册 OpenAI 账号了�
 
 New Bing 是微软于 2023 年 2 月 7 日发布的聊天助理，集搜索、聊天功能于一体。据称，其内核使用 GPT-4 系列模型。在发布早期，New Bing 需要等待微软发送申请资格才能使用，但目前已向所有用户开放。相比 ChatGPT 而言，它可以搜索互联网信息，但是每次对话有次数限制。其界面如图 1.16 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_018.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_018.jpg)
 
 图 1.16 New Bing 界面
 
@@ -272,7 +272,7 @@ New Bing 是微软于 2023 年 2 月 7 日发布的聊天助理，集搜索、�
 
 Poe 是 Quora 公司发布的 iOS 聊天应用，其界面如图 1.17 所示。用户可以借助 Poe 访问 GPT-3.5 和 GPT-4 系列模型。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_019.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_019.jpg)
 
 图 1.17 Poe 界面
 
@@ -286,7 +286,7 @@ Poe 是 Quora 公司发布的 iOS 聊天应用，其界面如图 1.17 所示。�
 
 # **提示词：初次认识**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_020.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_020.jpg)
 
 **我的语言的边界是我的世界的边界。**
 
@@ -448,7 +448,7 @@ Poe 是 Quora 公司发布的 iOS 聊天应用，其界面如图 1.17 所示。�
 
 此外，现在也有帮助人们撰写具体详细的提示词的服务，比如 PromptPerfect 网站。PromptPerfect 可通过利用大语言模型完善我们原有的提示词，如图 2.1 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_021.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_021.jpg)
 
 图 2.1 PromptPerfect
 
@@ -610,7 +610,7 @@ Poe 是 Quora 公司发布的 iOS 聊天应用，其界面如图 1.17 所示。�
 
 # **提示词：运用自如**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_022.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_022.jpg)
 
 **给我一纸一笔，便可让世界天翻地覆。**
 
@@ -680,13 +680,13 @@ tf.sqrt（tf.reduce_mean（x＊＊2，axis=axis，keepdims=keepdims））这里�
 
 **ChatGPT：**好的，根据您的要求，以下是一个 JavaScript 函数，可以统计一个字符串中单词的数量：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_023.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_024.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_023.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_024.jpg)
 
 这个函数使用了正则表达式和 JavaScript 的字符串方法来处理输入字符串。首先，它使用 replace 方法将字符串中所有的非字母字符替换为空格，并使用 toLowerCase 方法将字符串转换为小写形式。然后，它使用 trim 方法去除字符串两端的空格，并使用 split 方法将字符串分割成单词数组。最后，它返回单词数组的长度，即为单词的数量。
 
 以下是一个使用示例：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_025.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_025.jpg)
 
 在以上示例中，输入字符串包含 8 个单词，函数将返回该数量。
 
@@ -694,7 +694,7 @@ tf.sqrt（tf.reduce_mean（x＊＊2，axis=axis，keepdims=keepdims））这里�
 
 好的，以下是一些测试用例示例，可以用于测试计算单词数量的 JavaScript 函数：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_026.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_027.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_026.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_027.jpg)
 
 ChatGPT 使用 Jest 库生成了足够复杂的测试用例。这是为了保证 ChatGPT 的代码质量和稳定性而进行的测试。
 
@@ -908,15 +908,15 @@ A quest to seek their ancient sights.
 
 常见的学习流程大致可划分为：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_028.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_028.jpg)
 
 对应学习流程的每个阶段，我们在学习中都有相应的问题：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_029.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_030.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_029.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_030.jpg)
 
 对应上述问题，下面列出了 ChatGPT 能做的事情。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_031.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_031.jpg)
 
 下面将详细展示 ChatGPT 在各个学习阶段的实际应用场景，以便我们更直观地理解如何将这一强大的工具融入学习中。
 
@@ -934,7 +934,7 @@ A quest to seek their ancient sights.
 
 **ChatGPT：**数据分析是对数据进行处理、分析和可视化，以从中发现有用的信息并做出决策的过程。可以用如下 ASCII 图示例表示数据分析的一般流程。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_032.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_032.jpg)
 
 其中，数据获取指从不同来源收集数据；数据清洗指去除噪声、处理缺失值等预处理；数据分析指使用不同的算法和技术从数据中提取有用的信息；结果可视化指将分析结果以图表等形式展示。
 
@@ -1016,7 +1016,7 @@ Udacity 的“Data Analyst Nanodegree”，涵盖多个数据分析领域。
 
 问 3：生成的图中 task 的名字太长了，把 task 的名字画到图片右侧对应的位置上，再显示每周细化的内容。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_033.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_033.jpg)
 
 图 3.1 ChatGPT 生成的学习计划甘特图
 
@@ -1126,7 +1126,7 @@ C#
 
 （3）遮盖笔记栏的内容，通过关键词栏的要点概括，复述出笔记内容来巩固知识。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_034.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_034.jpg)
 
 我们可以直接让 ChatGPT 生成对应的康奈尔笔记。
 
@@ -1134,7 +1134,7 @@ C#
 
 由于目前无法生成图片，需要手动将生成的内容复制到对应部分，但操作流程十分简单。生成的康奈尔笔记如下：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_035.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_036.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_035.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_036.jpg)
 
 我们也可以把 ChatGPT 当成考官，直接生成试卷，检验自己的学习成果。
 
@@ -1196,7 +1196,7 @@ ChatGPT 指出了“going over”与“Christmas”搭配不合理，并给出�
 
 安装了这个插件后，ChatGPT 的界面会出现一个麦克风按钮，按下即可进行语音输入（需要为插件提供麦克风权限）。插件还能自动朗读 ChatGPT 的回复，如图 3.2 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_037.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_037.jpg)
 
 图 3.2 用 ChatGPT 练习口语
 
@@ -1702,7 +1702,7 @@ X（8，8）
 
 **GPT-4：**当前的五子棋棋盘如下：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_038.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_038.jpg)
 
 我已经在（8，8）处放置了一个黑棋子（X）。现在轮到你了，请告诉我你想要下棋的坐标。
 
@@ -1712,7 +1712,7 @@ X（8，8）
 
 **GPT-4：**抱歉给您带来了不便，现在我将棋盘重新排列，使其更容易阅读。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_039.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_039.jpg)
 
 现在轮到你了，请告诉我你想要下棋的坐标。
 
@@ -1722,7 +1722,7 @@ X（8，8）
 
 **ChatGPT：**现在我在（8，8）的位置下了一颗白子。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_040.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_040.jpg)
 
 **ChatGPT：**现在轮到你了，请问你要如何下棋？
 
@@ -1732,7 +1732,7 @@ X（8，8）
 
 **ChatGPT：**非常抱歉，我犯了一个错误，我下的是（8，8）而不是（8，9）。下面是更正后的棋盘状态：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_041.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_041.jpg)
 
 虽然 ChatGPT 可以识别哪个是白子，哪个是黑子，但它并没有用图形区分出来。这里需要我们进一步提示：
 
@@ -1740,7 +1740,7 @@ X（8，8）
 
 **ChatGPT：**下面是更改后的棋盘状态，我用圆圈来表示白子。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_042.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_042.jpg)
 
 虽然 ChatGPT 准确地区分了白子和黑子，但是并未用方块表示黑子，而且下的位置是错的。
 
@@ -1796,7 +1796,7 @@ ChatGPT 首先给出这样的回答：
 
 **画表情包**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_043.jpg) ![](img/驾驭ChatGPT：学会使用提示词_image_044.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_043.jpg) ![](img/驾驭-ChatGPT：学会使用提示词_image_044.jpg)
 
 接下来，我们介绍如何用 ChatGPT 画一些 ASCII 图案。ASCII 本身是一套计算机编码系统，用来显示现代英语和其他西欧语言，但后来被组合成表情符号用于聊天，如、等。这些用各种字符组合而成的表情符号既可爱又生动，恰当使用会增添聊天的乐趣。ChatGPT 可以生成更多更有趣的 ASCII 图案。
 
@@ -1806,7 +1806,7 @@ ChatGPT 首先给出这样的回答：
 
 **ChatGPT：**好的，这是一个可爱的小猫咪的 ASCII 图案。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_045.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_045.jpg)
 
 怎么样？这个猫咪是不是还挺可爱的？
 
@@ -1816,7 +1816,7 @@ ChatGPT 首先给出这样的回答：
 
 **ChatGPT：**这是一个简单的 ASCII 艺术玫瑰花：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_046.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_046.jpg)
 
 这画的是什么？我们预估在不同操作系统上展现的效果可能不一样，于是特意强调这里用的是 macOS：
 
@@ -1824,7 +1824,7 @@ ChatGPT 首先给出这样的回答：
 
 **ChatGPT：**以下是一个在 Mac 设备上展示效果较好的 ASCII 艺术玫瑰花：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_047.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_047.jpg)
 
 这次显示的图案看起来比刚才更像玫瑰花。
 
@@ -2098,7 +2098,7 @@ Documents 目录里的确出现了 hello.txt 文件，看来这个模拟还是�
 
 **ChatGPT：**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_048.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_048.jpg)
 
 之后对单元格做一些操作：
 
@@ -2106,13 +2106,13 @@ Documents 目录里的确出现了 hello.txt 文件，看来这个模拟还是�
 
 **ChatGPT：**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_049.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_049.jpg)
 
 **我：**D1=Sum（B）.
 
 **ChatGPT：**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_050.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_050.jpg)
 
 **3.10.3**
 
@@ -2196,7 +2196,7 @@ AI 作画在实际应用中具有广泛的价值和潜力，主要体现在以�
 
 很多 AI 作画的软件效果十分惊艳，比如 Midjourney、Dall·E、Stable Diffusion 等。如图 3.3 所示，我们先来看看 Midjourney 生成的图片逼真生动，甚至完全分不出是实际照片还是人工智能生成的。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_051.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_051.jpg)
 
 图 3.3 Midjourney 生成图片（1）
 
@@ -2204,7 +2204,7 @@ AI 作画在实际应用中具有广泛的价值和潜力，主要体现在以�
 
 Midjourney 一次默认生成 4 幅图片，可以看出图 3.4 里的每幅图都精美绝伦，符合中国传统风格，且恰如其分地展现了所描述的内容，令人眼前一亮。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_052.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_052.jpg)
 
 图 3.4 Midjourney 生成图片（2）
 
@@ -2232,7 +2232,7 @@ Got it！Please give me the［keyword］to begin.
 
 再把提示词复制到 Midjourney，就能得到生成的图片，如图 3.5 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_053.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_053.jpg)
 
 图 3.5 用 ChatGPT 自动生成的提示词生成的图片
 
@@ -2240,7 +2240,7 @@ Got it！Please give me the［keyword］to begin.
 
 /imagine prompt：＂**史蒂芬·乔布斯在喝茶**＂
 
-![](img/驾驭ChatGPT：学会使用提示词_image_054.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_054.jpg)
 
 图 3.6 用“史蒂芬·乔布斯在喝茶”提示词生成的图片
 
@@ -2248,13 +2248,13 @@ Got it！Please give me the［keyword］to begin.
 
 /imagine prompt：Steve Jobs is drinking tea
 
-![](img/驾驭ChatGPT：学会使用提示词_image_055.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_055.jpg)
 
 图 3.7 用“Steve Jobs is drinking tea”提示词生成的图片
 
 如果我们想在此基础上继续提升，可使用 Midjourney 的按图生成功能。在图 3.7 所示的图片中，主要提升点为乔布斯的面部图像，我们可以根据提升点上传如图 3.8 所示的相关图片。图 3.8 为真实的乔布斯头像，且相对分辨率较高，能很好地辅助生成。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_056.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_056.jpg)
 
 图 3.8 史蒂芬·乔布斯的真实头像
 
@@ -2262,19 +2262,19 @@ Got it！Please give me the［keyword］to begin.
 
 /imagine prompt：＂**具体图片链接**＂Steve Jobs is drinking tea
 
-![](img/驾驭ChatGPT：学会使用提示词_image_057.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_057.jpg)
 
 图 3.9 提示词为“‘具体图片链接’Steve Jobs is drinking tea”生成的图片
 
 上述的操作过程相对麻烦，既然 AI 能力已经如此之强，有没有更简单的方法呢？当然有！Midjourney 提供了/describe 功能，可以上传原图反推提示词，并且系统每次会返回 4 种提示词，以供选择。例如，如果我们使用该功能反推图 3.4 的提示词，系统将返回 4 种提示词，如图 3.10 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_058.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_058.jpg)
 
 图 3.10 反推的提示词
 
 此后，使用反推的提示词/imagine prompt：［IMAGE PROMPT］［--OPTIONAL PARAMETERS］，比如图 3.10 中的第 2 个提示词，生成了与原图相似的山水风景图片，如图 3.11 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_059.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_059.jpg)
 
 图 3.11 用反推的提示词生成的图片
 
@@ -2368,7 +2368,7 @@ AI 作画技术在技术、应用、产业等多个方面仍然存在着一系�
 
 # **提示词：更进一步**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_060.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_060.jpg)
 
 **登堂入室，研道之奥。**
 
@@ -2396,7 +2396,7 @@ ChatGPT 回答正确并给出了推理过程，而 GPT-3 只给出了一个错�
 
 对于一个问题，人需要推理来解决，大语言模型也是如此。思维链始于 2020 年 Jason Wei 等人的发现，主要研究的就是如何把问题的推理过程提供给大语言模型，以大幅提升其答案的准确性。从问题到推理，再到答案，这样一环扣一环的过程便被称为思维链（Chain of Thought），如图 4.1 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_061.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_061.jpg)
 
 图 4.1 思维链
 
@@ -2408,7 +2408,7 @@ ChatGPT 回答正确并给出了推理过程，而 GPT-3 只给出了一个错�
 
 程序辅助语言模型（Programming Aided Language Model，PAL）是思维链技术的一种扩展，它在思维链中插入程序，并通过执行这些程序得出最终的结果，如图 4.2 所示。PAL 在多个数据集上实现了非常优秀的结果。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_062.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_062.jpg)
 
 图 4.2 程序辅助语言模型
 
@@ -2444,7 +2444,7 @@ ChatGPT 回答正确并给出了推理过程，而 GPT-3 只给出了一个错�
 
 2023 年 3 月 23 日，OpenAI 公司推出了 ChatGPT Plugins，使 ChatGPT 获得了调用外部工具的能力。比如让 ChatGPT 使用 Wolfram Alpha 计算数学方程，补齐了 ChatGPT 数学能力的短板；让它使用 OpenTable 获取菜谱信息，如图 4.3 所示；通过使用 PDF 阅读器对 PDF 文件进行“总结”，并通过向量数据库解决 ChatGPT 上下文过短、无法完整阅读整个文件的问题。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_063.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_063.jpg)
 
 图 4.3 ChatGPT 调用 OpenTable
 
@@ -2514,7 +2514,7 @@ ChatGPT 调用了图像识别和图像描述生成系统的模型，让这些模
 
 有人可能以为 GPT 这种模型的应用仅局限于简单的应用场景，实则不然。物理学在读博士梁师翎与 GPT-4 合作，成功地开发了一个在线可交互物理系统模拟项目，实现了 Vicsek 模型 ^(²)，如图 4.4 所示，让我们直观地看到群体行为中的自组织现象、物理自旋系统中的相变，还有相分离与斑图的形成过程。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_065.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_065.jpg)
 
 图 4.4 Vicsek 模型
 
@@ -2542,11 +2542,11 @@ ChatGPT 调用了图像识别和图像描述生成系统的模型，让这些模
 
 GPT-4 编写的代码使用了原生 JavaScript 语法，建立了一些类和函数，并使用了 Canvas 作画，以下是 GPT-4 编写的 HTML 代码，结构相当清晰，没有冗余：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_066.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_067.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_066.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_067.jpg)
 
 以下是 JavaScript 主体代码。值得注意的是，GPT-4 使用了能提升动画性能的 requestAnimationFrame 函数，当然，每次循环都绘制粒子的方法稍显不经济。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_068.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_069.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_068.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_069.jpg)
 
 由于 GPT-4 上下文不够长，在用户给定要求后 GPT-4 往往不能一次性生成所有的代码，为了让 GPT-4 继续生成代码，有些地方值得注意：
 
@@ -2572,7 +2572,7 @@ GPT-4 编写的代码使用了原生 JavaScript 语法，建立了一些类和�
 
 我们的目标是在 Python 程序里调用 GPT-3 来生成一首古诗。首先需要在 OpenAI 官网获取 API 密钥。在如图 4.5 所示的界面上单击右上角的头像，选择 View API Keys。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_070.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_070.jpg)
 
 图 4.5 获取 API 密钥
 
@@ -2588,7 +2588,7 @@ pip install openai
 
 之后新建一个 Python 文件，在里面输入以下内容：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_071.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_072.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_071.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_072.jpg)
 
 首先使用 load_dotenv 加载.env 文件中的环境变量，再使用 getenv 从环境变量中获取 OPENAI_API_KEY 变量。之后调用 openai 包中的 Completion 使用 GPT-3.5 模型，设置最大 token 数为 256，温度为 0。
 
@@ -2626,7 +2626,7 @@ OpenAI 提供了丰富的模型（Model），但目前而言，gpt-3.5-turbo 是
 
 max_token 代表提示词和补全加在一起的最大长度，即生成文本的最大长度。max_token 越长，模型补全的内容也就越长，否则模型会生成到一半，到达 max_token 限制而停止运行。每个模型的 max_token 最高限制都有所不同。max_token 中的 token 不完全等于单词，可以在 OpenAI Tokenizer 网页查看一句话如何对应不同的 token，如图 4.6 所示。比如，在“Write a great haiku”这句话中，haiku 相当于两个 token，Write 相当于一个 token。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_073.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_073.jpg)
 
 图 4.6 OpenAI Tokenizer 网页
 
@@ -2674,7 +2674,7 @@ llm.generate（＂讲个故事＂）#两种方法都可以
 
 要调用 ChatGPT 类聊天模型，则需要导入 Chat_models 中的 ChatOpenAI，并分别指定 SystemMessage 和 HumanMessage 参数，以明确 ChatGPT 模型中的系统指示和用户信息：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_074.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_075.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_074.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_075.jpg)
 
 **2.提示词**
 
@@ -2684,7 +2684,7 @@ llm.generate（＂讲个故事＂）#两种方法都可以
 
 其中，English 就是用户输入的英文内容。LangChain 库为此提供了 PromptTemplate，用于设置模板中的变量。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_076.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_077.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_076.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_077.jpg)
 
 **3.链条**
 
@@ -2698,13 +2698,13 @@ llm.generate（＂讲个故事＂）#两种方法都可以
 
 LangChain 库正好实现了前面提到的程序辅助语言模型（Programming Aided Language Model，PAL），下面以通过 PAL 解决数学问题为例说明整个过程。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_078.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_079.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_080.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_078.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_079.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_080.jpg)
 
 在 PAL 中，大语言模型要为每个步骤生成代码并运行，从而得到最终结果。在这里，大语言模型便生成了一个用来得到结果的 solution 函数，用 Python 语句表示推理过程。
 
 在 PALChain 的源代码中，作者让大语言模型生成代码，并创建了一个 Python REPL 来执行代码：
 
-![](img/驾驭ChatGPT：学会使用提示词_image_081.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_082.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_083.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_081.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_082.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_083.jpg)
 
 **4.决策者**
 
@@ -2712,7 +2712,7 @@ LangChain 库正好实现了前面提到的程序辅助语言模型（Programmin
 
 LangChain 库预先为决策者提供了丰富的工具，例如，Bing 和 Google 可用于搜索，Python REPL 可作为执行环境，Wikipedia 和 Wolfram Alpha 可用于查询等。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_084.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_085.jpg)![](img/驾驭ChatGPT：学会使用提示词_image_086.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_084.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_085.jpg)![](img/驾驭-ChatGPT：学会使用提示词_image_086.jpg)
 
 决策者会不断地进行“行动（Action）—行动输入（Action Input）—观察（Observation）—思考（Thought）”的循环，直至得到最终答案（Final Answer）。
 
@@ -2720,7 +2720,7 @@ LangChain 库预先为决策者提供了丰富的工具，例如，Bing 和 Goog
 
 # **拥抱 ChatGPT**
 
-![](img/驾驭ChatGPT：学会使用提示词_image_087.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_087.jpg)
 
 **和光同尘，与时舒卷；戢鳞潜翼，思属风云。**
 
@@ -2760,7 +2760,7 @@ Legg 和 Hutter 再次提出了一个通用人工智能的候选定义：**一�
 
 人工智能先驱、图灵奖得主 Judea Pearl 也在他的著作《为什么：新的因果科学》里重点强调了因果推断对于人工智能的重要性。他在书里提到了“因果阶梯（the ladder ofcausation）”的概念（如图 5.1 所示）：低级阶段是“观察”，即根据数据（经验）积累来寻找不同变量之间的相关性。中级阶段是“实践”，即不是单纯地被动接收数据，而是考虑如果对数据的一部分稍加改变，将产生什么样的影响。高级阶段是“想象”，即使面对可能没有发生的事件，也能够理解内部的因果关系并做出有结果的预测。现在人工智能或许只处在低级阶段：观察。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_088.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_088.jpg)
 
 图 5.1 因果阶梯
 
@@ -2794,7 +2794,7 @@ ChatGPT 的到来如一场海啸，席卷了世界的每个角落。这样强大
 
 大语言模型的高昂成本和优秀性能，或将催生新的商业模式，即 S2B2C 模式，如图 5.2 所示。在这一模式中，S（Supplier，供应商）指的是大语言模型，如 OpenAI 的 ChatGPT；B 指的是中小型公司，如垂直领域的应用公司；C 指的是消费者，即需求的集合，既可能是公司，也可能是个人。C 不是直接通过大的平台，而是通过 B 使用 S 的平台功能来完成服务、满足需求的。S2B2C 本来是电子商务的模式之一，但与 AI 商业模式也非常契合。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_089.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_089.jpg)
 
 图 5.2 基于大语言模型的 AI 生态发展趋势：S2B2C
 
@@ -2804,13 +2804,13 @@ S2B2C 模式是 S、B、C 三方共赢。对于消费者 C 来说，满足了用
 
 以 ChatGPT 为代表的大语言模型在处理复杂任务的能力上还有所欠缺，比如在自然语言处理领域按需自动生成全篇文章、完整的代码段等场景的专业度和质量有待提高；在计算机视觉领域，图片生成相对成熟，但视频生成尚有技术壁垒；在自动语音识别领域，语音和文本两个模态仍为分割状态，无法端到端直接生成语音，产生了很多创业公司，也就是 B，来补足大语言模型能力的不足。在各个细分领域对应的创业方向如图 5.3 所示。这些创业方向也都分别属于自然语言处理、计算机视觉和自动语音识别三个领域，或者是这三个领域的组合。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_090.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_090.jpg)
 
 图 5.3 基于大语言模型不足能力的创业方向
 
 大语言模型的能力在不断发展，例如，OpenAI 最近发布了基于 GPT-4 的 ChatGPT，该模型在生成完整代码等方面的能力有了极大的提升。这意味着之前代码生成领域的中间公司很可能会消失，因为大语言模型的能力已经覆盖了这些公司的角色供应商，直接为最终用户提供产品和服务的模式（即 S2C）将变得更加普遍，如图 5.4 所示。这很可能是未来发展的终极状态。但到达这个阶段之前，需要经过很漫长的迭代过程，对于创业公司来说是一个机遇和窗口期。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_091.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_091.jpg)
 
 图 5.4 随着大语言模型能力发展，S2B2C 模式变为 S2C 模式
 
@@ -2820,7 +2820,7 @@ S2B2C 模式是 S、B、C 三方共赢。对于消费者 C 来说，满足了用
 
 上面分析了基于大语言模型的生态和相关创业公司的机会，随着每天涌现的大量 AI 行业动态和经常被提到的“AI 将取代大部分工作岗位”等问题，对于个人而言，我们应该如何准备？答案可以归结为图 5.5 所示的一句话：“AI 不会取代你，但会取代不会使用 AI 的人。”
 
-![](img/驾驭ChatGPT：学会使用提示词_image_092.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_092.jpg)
 
 图 5.5 AI 新时代对个人的影响
 
@@ -2828,7 +2828,7 @@ S2B2C 模式是 S、B、C 三方共赢。对于消费者 C 来说，满足了用
 
 下面我们举个具体的例子：写代码。程序员是众所周知的高薪岗位，写代码曾一度被认为是高门槛的技能。但随着 AI 能力的不断发展，尤其是 GPT-4 发布以后，很多科技领袖，包括 Nvidia 的 CEO 黄仁勋和谷歌的 AI 高管都认为在未来几年，很多程序员会被 AI 替代。其背后原因从图 5.6 所示的写代码方式发展路径可知，从底向上看，门槛越来越低。从最开始艰涩难懂的底层代码，如汇编语言，发展成易用的脚本语言，如 Python，再到近几年的低代码平台，很多代码功能只需要可视化的拖曳即可完成到最近基于 GPT-4 的 ChatGPT 的发布，写代码只需要使用提示词准确描述需求即可。如果不知道如何准确描述，还可以问 ChatGPT，让它教你如何描述。这个例子既典型，又很恐怖。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_093.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_093.jpg)
 
 图 5.6 写代码方式的发展路径
 
@@ -2836,7 +2836,7 @@ S2B2C 模式是 S、B、C 三方共赢。对于消费者 C 来说，满足了用
 
 此论文也列出了 34 类“完全不被影响”的职业类型如图 5.7 所示。在这 34 类工作中，无一例外是体力劳动，譬如水泥工匠、洗碗工和石匠等。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_094.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_094.jpg)
 
 图 5.7 不容易被 GPT 模型影响的职业
 
@@ -2890,17 +2890,17 @@ S2B2C 模式是 S、B、C 三方共赢。对于消费者 C 来说，满足了用
 
 Readwise 这款产品就能基本满足以上需求及其他日常阅读需求。Readwise 是一个可以囊括几乎所有信息输入源的信息阅读平台，其导入界面如图 A.1 所示。它不仅能自动导入通常的阅读平台信息，比如 Kindle、Instapaper、Pocket 等，而且也整合了 AI 应用（名为 Ghost Reader），其启动界面如图 A.2 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_095.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_095.jpg)
 
 ▲图 A.1 Readwise 的导入界面
 
-![](img/驾驭ChatGPT：学会使用提示词_image_096.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_096.jpg)
 
 图 A.2 启动 Ghost Reader
 
 在阅读一篇文章的时候，我们只要按下 Shift+G 键（手机操作时点击“更多”就能看到一只可爱的幽灵图标），就可以呼唤出 AI 来帮我们做各种各样的事情！其预设的功能很适合日常使用，尤其是可以基于我们批注的地方来生成问答对，非常方便日后我们拿来复习或者在别的场景里使用，同时还允许我们根据个人的使用需求做进一步的定制化。Readwise reader 的界面如图 A.3 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_097.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_097.jpg)
 
 图 A.3 Readwise reader 的界面
 
@@ -2920,39 +2920,39 @@ Readwise 这款产品就能基本满足以上需求及其他日常阅读需求�
 
 OpenRead 是一款专门面向学术论文阅读场景的产品，通过搜索关键词，可以检索出相关论文，支持直接在线阅读，并且很贴心地把文字和图片自动分开来，其界面如图 A.4 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_098.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_098.jpg)
 
 图 A.4 OpenRead 官网
 
 在使用时打开如图 A.5 所示的界面，在阅读之前，可以直接单击“Paper Espresseo”来阅读由 ChatGPT 所总结的每段要点，也可以单击“Paper Q&A”来进行问答。OpenRead 支持在线修改原文、加入公式等功能，非常强大，如图 A.6 和图 A.7 所示。很重要的一点是，开发者都是中国人，功能设计很友好，国内也能正常登录使用。类似的产品还有 scite_、explainpaper、humata、semantic scholar、scispace 等。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_099.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_099.jpg)
 
 ▲图 A.5 开始使用 OpenRead
 
-![](img/驾驭ChatGPT：学会使用提示词_image_100.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_100.jpg)
 
 ▲图 A.6 使用 OpenRead 进行论文阅读
 
-![](img/驾驭ChatGPT：学会使用提示词_image_101.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_101.jpg)
 
 图 A.7 通过 OpenRead 对论文进行问答，既有预设问题也能自定义问题
 
 接下来将介绍一款比较简单的产品——ChatPDF，如图 A.8 所示。ChatPDF，顾名思义，就是你上传一个 PDF 文档之后，它会调用 ChatGPT 学习这个文档，之后就可以与你进行问答，来帮助你阅读这个 PDF 文档。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_102.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_102.jpg)
 
 图 A.8 ChatPDF 网页
 
 要注意，ChatPDF 是在 ChatGPT API 上封装的，所以有字数限制，但是 ChatPDF 的好处在于：它每次回答时都会告诉我们，它是基于文档的第几页去回答的。因此，对于页数比较多的文档，用这个工具进行问答，我们就能很快定位到需要阅读的地方，如图 A.9 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_103.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_103.jpg)
 
 图 A.9 利用 ChatPDF 阅读长文
 
 还有一点特别重要的是，它可以学习各种语言的文档，因此，我们可以使用自己熟悉的语言去进行问答。比如图 A.10 中，用日语的笔记进行英语和中文的问答，效果非常不错。这个功能非常适合需要阅读不同语言的文档的人使用。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_104.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_104.jpg)
 
 图 A.10 小语种的资料也可以被学习，然后进行问答
 
@@ -2966,7 +2966,7 @@ OpenRead 是一款专门面向学术论文阅读场景的产品，通过搜索�
 
 Character.ai 网页界面如图 A.11 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_105.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_105.jpg)
 
 图 A.11 Character.ai 网页界面
 
@@ -2984,7 +2984,7 @@ Character.ai 网页界面如图 A.11 所示。
 
 此外 Character.ai 还能自定义角色，如图 A.12 所示，只需输入角色的名字和简介，设置头像，添加示例对话即可。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_106.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_106.jpg)
 
 图 A.12 在 Character.ai 中自定义角色
 
@@ -2992,7 +2992,7 @@ Character.ai 网页界面如图 A.11 所示。
 
 另一个功能类似的网站是 Copilot Hub，如图 A.13 所示。网站提供了各种各样的角色，比如史蒂夫·乔布斯。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_107.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_107.jpg)
 
 图 A.13 Copilot Hub 网页界面
 
@@ -3010,7 +3010,7 @@ Character.ai 网页界面如图 A.11 所示。
 
 Copilot Hub 同样可以创建自己的 Copilot，如图 A.14 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_108.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_108.jpg)
 
 图 A.14 创建自己的 Copilot
 
@@ -3030,21 +3030,21 @@ Unity 是一个综合型跨平台专业游戏引擎，可以让用户创建诸�
 
 首先，我们打开 Unity 界面，比如，想在这个空间里随机生成 100 个小立方体。我们只需要打开 AI，然后输入“在随机点创建 100 个立方体”，执行命令并加载之后就可以直接生成了！其过程如图 A.15～图 A.17 所示。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_109.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_109.jpg)
 
 ▲图 A.15 在 Unity 中打开 AI
 
-![](img/驾驭ChatGPT：学会使用提示词_image_110.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_110.jpg)
 
 ▲图 A.16 输入提示词
 
-![](img/驾驭ChatGPT：学会使用提示词_image_111.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_111.jpg)
 
 图 A.17 生成结果
 
 同样，我们可以输入比如“对每一个方块施加不同的旋转角度”“上下左右的平移”“添加不同颜色的光源”“对每一个方块任意地放大缩小”等提示词对这些方块进行进一步的操作。通过简单的几句话，我们就可以直接生成出这些方块掉落的动画，如图 A.18 所示，制作效率提高数倍！可见，使用 ChatGPT 帮助我们制作游戏，实在是大有潜力。不过也需要注意，这里仅展示了一个简单的尝试，并不代表它在所有的 Unity 制作任务中都能实现如此惊人的效果。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_112.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_112.jpg)
 
 图 A.18 方块掉落的动画
 
@@ -3054,23 +3054,23 @@ Unity 是一个综合型跨平台专业游戏引擎，可以让用户创建诸�
 
 Blender 是一款开源的 3D 图形软件，主要用于平面设计、动画和 3D 建模等领域。Blender 原先复杂琐碎的工作流被一款基于 GPT-4 的 Blender 插件（如图 A.19 所示）打破了。有了它，只要使用简单的自然语言就能操控 Blender，无论是新手还是经验丰富的专家，都能从中获益许多。
 
-![](img/驾驭ChatGPT：学会使用提示词_image_113.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_113.jpg)
 
 图 A.19 一款基于 GPT-4 的 Blender 插件
 
 比如，在如图 A.19 所示的这个插件界面里，我们直接输入“创建一个刚体物体，是由 50 个 1×1×1 的小格子组成的塔，高于 20×20 的平面 5m”。在 GPT-4 自动生成代码并运行后，可以看到这个塔落到地面后碎成一堆的过程，如图 A.20～图 A.21 所示。而为了实现这样的效果，我们只输入了一句话！
 
-![](img/驾驭ChatGPT：学会使用提示词_image_114.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_114.jpg)
 
 ▲图 A.20 生成塔
 
-![](img/驾驭ChatGPT：学会使用提示词_image_115.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_115.jpg)
 
 图 A.21 塔落到地面后碎成一堆
 
 用这个插件还可以生成美仑美奂的动画效果，如图 A.22 所示。在整个制作过程中，我们也只是使用插件输入了一些自然语言！
 
-![](img/驾驭ChatGPT：学会使用提示词_image_116.jpg)
+![](img/驾驭-ChatGPT：学会使用提示词_image_116.jpg)
 
 图 A.22 动画效果
 

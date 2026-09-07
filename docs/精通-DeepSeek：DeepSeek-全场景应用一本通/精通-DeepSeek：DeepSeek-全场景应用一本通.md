@@ -44,7 +44,7 @@
 
 扫码或搜索关注微信公众号“AI 共进社”，发送“001”即可领取 DeepSeek 的 100+份学习资料，期待与您共赴 AI 之旅！
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_000.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_000.jpg)
 
 # **第一章**
 
@@ -156,7 +156,7 @@ DeepSeek 通过深入分析用户兴趣和行为，可以精准推送符合用�
 
 在金融领域，DeepSeek-R1 通过动态路由机制实现对海量金融数据的多维度解析，涵盖结构化交易数据、非结构化财报文本、实时新闻舆情等多模态信息。其开源特性支持金融机构快速构建私有化模型，结合联邦学习技术，在保障数据隐私的同时实现跨机构风险联防联控。DeepSeek-R1 在金融领域的关键技术突破如图 1-1 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_001.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_001.jpg)
 
 图 1-1 DeepSeek-R1 在金融领域的关键技术突破
 
@@ -190,7 +190,7 @@ DeepSeek 能够根据客户的个性化需求和行为模式，提供定制化�
 
 2025 年 2 月 5 日，阅文集团宣布旗下作家辅助创作平台“作家助手”已集成独立部署的 DeepSeek-R1，用户下载作家助手并升级至最新版本即可试用并参与内测，共同探索 AI 赋能网文创作的最佳实践路径，如图 1-2 所示。这也是 DeepSeek 首次被应用于网文领域，标志着网文创作进入一个更加高效智能的时代。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_002.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_002.jpg)
 
 图 1-2 DeepSeek 接入阅文集团作家助手
 
@@ -200,7 +200,7 @@ DeepSeek 能够根据客户的个性化需求和行为模式，提供定制化�
 
 唐德影视已经将 DeepSeek 应用在中短剧内容创意生成及筛选、剧本创作辅助等方面，结合其他大模型工具，在剧本内容创作和微短视频生成方面收获了较好的使用效果。在 AI 技术应用方面，唐德影视密切跟踪技术发展趋势，深度参与了浙江广电集团智媒果 AIGC 技术平台的研发和应用，已经运用智媒果平台创作了多部短剧和短视频内容，唐德影视与轩晔科技共建了 AIGC 实验室，将持续通过对 AI 等创新科技成果的应用，提升生产内容的品质和效率，图 1-3 所示为“智媒果”首页中显示接入 DeepSeek。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_003.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_003.jpg)
 
 图 1-3 智媒果接入 DeepSeek
 
@@ -212,7 +212,7 @@ DeepSeek 赋能 Z 视介，用 AI 开启智媒新时代。浙江卫视用实践�
 
 智媒果不断探索传统文化现代表达的创新路径。在 2025 年浙江卫视《越韵中国年》春节晚会上，智媒果结合 DeepSeek 的知识图谱和自然语言处理能力，推出“一键识屏”智能交互功能，用户通过简单点击即可获取剧情解析、经典唱段、功法动作等专业内容。它就像一位资深的戏曲专家，深入解读“老戏新编”，让用户轻松领略经典与现代演绎融合的独特之美。它还能逐帧拆解，根据越剧表演艺术家李云霄的 27 个经典水袖动作，生成可互动模仿的教程，为戏曲爱好者提供沉浸式学习体验，如图 1-4 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_004.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_004.jpg)
 
 图 1-4 DeepSeek 对视频逐帧拆解
 
@@ -220,7 +220,7 @@ DeepSeek 赋能 Z 视介，用 AI 开启智媒新时代。浙江卫视用实践�
 
 Z 视介已上线多个 AI 互动应用，如 AI 宋韵社区、跑男第九人、德寿宫宋舞风华、越韵幻颜等互动类智能体，以及 AI 魔法相机、AI 音乐制作人、AI 海报等工具类智能体，如图 1-5 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_005.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_005.jpg)
 
 图 1-5 DeepSeek 构建的智能体
 
@@ -234,11 +234,11 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 表 1-1DeepSeek 在软件服务行业的技术应用
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_006.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_006.jpg)
 
 续表
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_007.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_007.jpg)
 
 ### **1.4.4 教育与培训——教育创新的范式重构**
 
@@ -248,7 +248,7 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 2025 年 2 月 12 日，高途宣布正式完成 DeepSeek 接入，主要应用于教研、教学、产品开发及内容创作等多个核心业务场景，并计划在未来三个月陆续推出多项调优结果和更新功能，如图 1-6 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_008.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_008.jpg)
 
 图 1-6 高途接入 DeepSeek
 
@@ -256,7 +256,7 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 2025 年 2 月，广东技术师范大学基于与华为的全面战略合作优势，在“鲲鹏+昇腾”生态支持下，正式将 DeepSeek 全面接入广东省教育行业信创适配中心（以下简称适配中心），如图 1-7 所示。此次技术整合标志着该校在教育信息化建设、数字化转型进程中取得重要进展。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_009.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_009.jpg)
 
 图 1-7 广东技术师范大学接入 DeepSeek
 
@@ -270,7 +270,7 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 中国石油化工集团有限公司（简称“中国石化”）迅速行动，在中国电信的助力下，全力推进模型部署调试，依托天翼云强大的算力资源和技术优势，成功部署和应用全尺寸 DeepSeek-R1（671b）大模型，如图 1-8 所示。此次合作为中国石化全面应用 AI 技术奠定了坚实基础，也为央国企数智化转型树立了标杆。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_010.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_010.jpg)
 
 图 1-8 天翼云接入 DeepSeek 助力中国石化
 
@@ -280,7 +280,7 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 中华人民共和国工业和信息化部印发《智能制造典型场景参考指引（2025 年版）》，基于制造企业探索实践，结合技术创新与融合应用发展趋势，从工厂建设、产品研发、生产管理、生产作业等 8 个重点环节，提炼出 40 个典型场景。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_011.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_011.jpg)
 
 图 1-9 DeepSeek 在东莞市人工智能大模型中心部署完成
 
@@ -312,7 +312,7 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 此外，深圳市福田区推出了基于 DeepSeek 开发的 AI 数智员工，并上线了福田区政务大模型 2.0 版本。该大模型不仅具备 DeepSeek 的通用能力，还结合各部门、各单位的实际业务流程，量身定制了个性化智能体，首批个性化智能体可满足 240 个业务场景的使用需求，如图 1-10 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_012.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_012.jpg)
 
 图 1-10 基于 DeepSeek 开发的 AI 数智员工
 
@@ -320,7 +320,7 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 除此之外，北京、广州、呼和浩特、赣州、无锡、临沂等城市也陆续宣布完成政务领域的 DeepSeek 系列大模型部署，多地政务系统将在提升政务服务效率与质量、优化公共服务体验、推动政务智能化转型等多方面进行深刻变革。如图 1-11 所示，北京市海淀区海国投集团基于电子云打造智算云，接入 DeepSeek，全面服务海淀区客户。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_013.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_013.jpg)
 
 图 1-11 北京市海淀区海国投集团智算云接入 DeepSeek
 
@@ -356,13 +356,13 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 （2）直接在浏览器地址栏中输入 DeepSeek 的网址（www.deepseek.com），即可打开 DeepSeek 官网，如图 2-1 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_014.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_014.jpg)
 
 图 2-1 DeepSeek 官网
 
 （3）进入官网之后，单击“开始对话”按钮。首次使用 DeepSeek 需要进行注册，可以使用手机号、微信、邮箱进行注册，注册完成后进入登录页面，如图 2-2 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_015.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_015.jpg)
 
 图 2-2 DeepSeek 登录页面
 
@@ -374,11 +374,11 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 **提示：**在对话页面左侧可以看到历史对话，可以重命名对话方便查找，如图 2-4 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_016.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_016.jpg)
 
 图 2-3 DeepSeek 对话页面
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_017.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_017.jpg)
 
 图 2-4 历史对话
 
@@ -386,7 +386,7 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 在手机应用商店中搜索“DeepSeek”，下载并安装 DeepSeek App，使用手机号或微信完成注册和登录即可，如图 2-5 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_018.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_018.jpg)
 
 图 2-5 在手机应用商店中搜索“DeepSeek”
 
@@ -394,7 +394,7 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 在飞书、钉钉、纳米 AI 搜索等合作平台，找到内置的 DeepSeek 入口即可，如图 2-6 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_019.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_019.jpg)
 
 图 2-6 找到内置的 DeepSeek 入口
 
@@ -402,7 +402,7 @@ DeepSeek 在软件开发领域可以帮助开发者实现降本增效。DeepSeek
 
 这里我们以 DeepSeek 网页版为例讲解 DeepSeek 对话页面的功能。单击 DeepSeek 官网页面中的“开始对话”按钮后，进入 DeepSeek 的对话页面，如图 2-7 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_020.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_020.jpg)
 
 图 2-7 DeepSeek 的对话页面
 
@@ -414,19 +414,19 @@ DeepSeek 的对话页面设计简洁大方，用户与 DeepSeek 的大部分交�
 
 ③“联网搜索”按钮：位于对话框左下方，单击后，DeepSeek 会从海量网络信息中筛选出最新、最有用的内容。
 
-④“上传附件”按钮 ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_021.png)：位于对话框的右下方，用于上传文件。用户可以上传本地的文档、带文字的图片等，但目前该功能仅支持识别文件中的文字内容，暂不支持对图片的复杂解析 。
+④“上传附件”按钮 ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_021.png)：位于对话框的右下方，用于上传文件。用户可以上传本地的文档、带文字的图片等，但目前该功能仅支持识别文件中的文字内容，暂不支持对图片的复杂解析 。
 
-⑤“发送”按钮 ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_022.png)：位于对话框的右下方，单击该按钮，即可发送指令，得到 DeepSeek 的回答内容。
+⑤“发送”按钮 ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_022.png)：位于对话框的右下方，单击该按钮，即可发送指令，得到 DeepSeek 的回答内容。
 
-⑥“边栏”按钮 ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_023.png)：位于对话页面的左上方，单击该按钮，可以查看与 DeepSeek 的历史对话。
+⑥“边栏”按钮 ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_023.png)：位于对话页面的左上方，单击该按钮，可以查看与 DeepSeek 的历史对话。
 
-⑦“开启新对话”按钮 ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_024.png)：位于对话页面左上方，单击该按钮，即可新建一个对话。
+⑦“开启新对话”按钮 ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_024.png)：位于对话页面左上方，单击该按钮，即可新建一个对话。
 
-⑧“设置”按钮 ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_025.png)：用于进行各项设置。
+⑧“设置”按钮 ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_025.png)：用于进行各项设置。
 
-⑨“个人信息”按钮 ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_026.png)：单击即可展开“个人信息”菜单，可以设置个人信息、更改系统设置、退出登录等，如图 2-8 所示。
+⑨“个人信息”按钮 ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_026.png)：单击即可展开“个人信息”菜单，可以设置个人信息、更改系统设置、退出登录等，如图 2-8 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_027.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_027.jpg)
 
 图 2-8 “个人信息”菜单
 
@@ -540,7 +540,7 @@ DeepSeek 优化结果如下。
 
 以下为新增的电池性能数据对比表，结合当前主流技术及 2025 年预测数据整理：
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_028.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_028.jpg)
 
 关键对比解析
 
@@ -772,19 +772,19 @@ DeepSeek 的联网搜索模式基于 RAG 技术，深度融合多源实时信息
 
 用户可以通过单击 DeepSeek 对话页面中的“联网搜索”按钮开启联网探索模式，如图 2-9 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_029.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_029.jpg)
 
 图 2-9“联网搜索”按钮
 
 （1）基础操作：同时开启深度思考模式和联网搜索模式，然后输入指令， DeepSeek 自动生成多组搜索词并抓取结果，如图 2-10 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_030.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_030.jpg)
 
 图 2-10 同时开启深度思考模式和联网搜索模式
 
 **提示：**单击搜索结果后面的超链接数字即可链接到相应的网页，从而查看详细的内容，如图 2-11 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_031.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_031.jpg)
 
 图 2-11 单击超链接数字
 
@@ -1134,7 +1134,7 @@ DeepSeek 的回答如下。
 
 RTGO 提示词结构是一种用于精准引导 AI 完成任务的框架，适用于结构化任务。它通过定义角色、任务、目标和操作要求，帮助 AI 更准确地理解任务需求，从而生成高质量的输出，如图 2-12 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_032.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_032.jpg)
 
 图 2-12 RTGO 提示词结构
 
@@ -1176,7 +1176,7 @@ Role（角色）+ Task（任务）+ Goal（目标）+ Objective（操作要求�
 
 （4）Objective：使用 Markdown 表格呈现，附带 Matplotlib 代码示例。输入需求，如图 2-13 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_033.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_033.jpg)
 
 图 2-13 以 RTGO 提示词结构输入需求
 
@@ -1186,11 +1186,11 @@ DeepSeek 生成的回答如下。
 
 2025 年 Q1 用户行为数据核心趋势报告
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_034.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_034.jpg)
 
 Matplotlib 可视化代码示例
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_035.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_035.jpg)
 
 深度解读
 
@@ -1202,7 +1202,7 @@ Matplotlib 可视化代码示例
 
 交互设计启示：
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_036.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_036.jpg)
 
 如需获取完整分析报告及数据源，可参考来源的详细方法论。该分析体系已通过 A/B 测试验证，在用户留存率提升和运营成本控制方面具有显著效果。
 
@@ -1216,7 +1216,7 @@ RTGO 提示词结构的适用场景如下。
 
 CO-STAR 提示词框架是一种用于精准引导 AI 完成复杂创意任务的框架，由新加坡政府技术局（GovTech）的数据科学与 AI 团队开发。该框架在 2024 年新加坡 GPT-4 提示工程竞赛中，由 Sheila Teo 使用并赢得了冠军。CO-STAR 框架通过六个维度的设计空间，帮助用户更全面地定义任务需求，从而生成更相关和准确的回答，如图 2-14 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_037.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_037.jpg)
 
 图 2-14 CO-STAR 提示词框架
 
@@ -1256,7 +1256,7 @@ Context（上下文）+ Objective（目标）+ Style（风格）+ Tone（语气�
 
 输入需求，如图 2-15 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_038.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_038.jpg)
 
 图 2-15 以 CO-STAR 提示词框架输入需求
 
@@ -1400,7 +1400,7 @@ A：医疗级硅胶+磁吸快拆设计，3 秒切换商务/运动模式该方案
 
 示例：什么是区块链（是什么）？为什么它重要（为什么）？怎么做区块链开发（怎么做）？如图 2-16 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_039.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_039.jpg)
 
 图 2-16 分析类问题提问和深度思考过程
 
@@ -2106,7 +2106,7 @@ DeepSeek 生成结果如下。
 
 DeepSeek 生成结果如下。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_040.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_040.jpg)
 
 **4.个性化复习计划**
 
@@ -2184,7 +2184,7 @@ Day 3：学习词汇（7 词）+ 复习 Day 2
 
 表 3-1 翻译需求与推荐指令示例
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_041.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_041.jpg)
 
 使用 DeepSeek 辅助英汉互译的方法如下。
 
@@ -2588,17 +2588,17 @@ The latest breakthroughs in deep learning enable AI systems to analyze
 
 基本导数公式推导流程：
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_042.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_042.jpg)
 
 ……
 
 3．典型解题路径
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_043.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_043.png)
 
 求曲线在*x*=1 处的切线方程
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_044.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_044.png)
 
 ①计算导数
 
@@ -2606,13 +2606,13 @@ The latest breakthroughs in deep learning enable AI systems to analyze
 
 ③代入点斜式方程：*y*—1=3(*x*—1)
 
-4．常见误区警示 ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_045.png)
+4．常见误区警示 ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_045.png)
 
 微分误解：误认为*dy*是Δ*y*的近似值
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_046.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_046.png)
 
-✓正解： 是Δ*y*的最佳线性逼近 ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_047.png)
+✓正解： 是Δ*y*的最佳线性逼近 ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_047.png)
 
 积分混淆：将定积分与不定积分计算规则混用
 
@@ -2840,7 +2840,7 @@ The latest breakthroughs in deep learning enable AI systems to analyze
 
 DeepSeek 输出结果如下。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_048.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_048.jpg)
 
 **3.阶段计划生成**
 
@@ -2958,7 +2958,7 @@ DeepSeek 输出结果如下。
 
 1．将角折叠到对边中点，确实是一种常见方法。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_049.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_049.png)
 
 2．但这样得到的三角形两边是正方形边长，一边是，不等边。
 
@@ -2986,7 +2986,7 @@ DeepSeek 输出结果如下。
 
 2．几何对称性：利用正方形对角线和中垂线的交点作为参考点。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_050.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_050.png)
 
 3．比例关系：折叠后的这个等边三角形的边长与正方形边长的比为。
 
@@ -3186,7 +3186,7 @@ DeepSeek 生成的试卷内容如下。
 
 一、选择题（每题 5 分，共 50 分）
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_051.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_051.png)
 
 1．函数的单调递减区间是（ ）。（难度：★☆☆）
 
@@ -3204,7 +3204,7 @@ D.R
 
 二、填空题（每题 5 分，共 25 分）
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_052.png) ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_053.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_052.png) ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_053.png)
 
 11．若函数在*x*=1 处取得极值 8，且，则*a*=____。（难度：★★☆）
 
@@ -3214,15 +3214,15 @@ D.R
 
 三、解答题（共 75 分）
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_054.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_054.png)
 
 16.（25 分）已知函数。（难度：★★☆）
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_055.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_055.png)
 
 （1）讨论的单调性；
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_056.png) ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_057.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_056.png) ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_057.png)
 
 （2）若对恒成立，求*a*的取值范围。
 
@@ -3254,11 +3254,11 @@ D.R
 
 DeepSeek 输出结果如下。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_058.png) ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_059.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_058.png) ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_059.png)
 
 16.（25 分）某工厂生产某种产品，每日总成本（万元）与产量*x*（吨）的关系为，产品售价为 20 万元/吨，假设全部售出。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_060.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_060.png)
 
 （1）写出利润函数；
 
@@ -3800,7 +3800,7 @@ DeepSeek 的文本续写功能为创作者提供了一个无限延伸的创作�
 
 表 4-1 参数控制维度方法的维度、参数示例及作用原理
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_061.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_061.jpg)
 
 **操作实践**
 
@@ -4624,7 +4624,7 @@ DeepSeek 作为强大的 AI 助手，能够帮助用户根据不同场景生成�
 
 表 4-2 场景特征对比
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_062.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_062.jpg)
 
 **2.价值定位法**
 
@@ -6318,15 +6318,15 @@ DeepSeek 对结构化指令响应效果更佳，建议采用以下格式。
 
 1．任务分解表
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_063.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_063.jpg)
 
 2．资源需求表
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_064.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_064.jpg)
 
 3．甘特图
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_065.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_065.jpg)
 
 （3）优化调整。
 
@@ -6404,7 +6404,7 @@ markdown
 
 1．本周核心成果
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_066.jpg)![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_067.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_066.jpg)![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_067.jpg)
 
 2．关键分析
 
@@ -6468,7 +6468,7 @@ markdown
 
 2．区域表现（柱状图自动生成）
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_068.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_068.jpg)
 
 3.Top 3 畅销商品
 
@@ -6718,7 +6718,7 @@ markdown
 
 1．核心工作成果
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_069.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_069.jpg)
 
 2．关键分析
 
@@ -6780,7 +6780,7 @@ markdown
 
 2．分季度表现（柱状图自动生成）
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_070.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_070.jpg)
 
 3.Top 3 贡献渠道
 
@@ -6846,15 +6846,15 @@ markdown
 
 1．活动方案确认
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_071.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_071.jpg)
 
 2．技术风险排查
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_072.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_072.jpg)
 
 3．分工与时间节点
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_073.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_073.jpg)
 
 二、行动计划清单
 
@@ -6960,27 +6960,27 @@ DeepSeek 项目风险评估通常采用结构化指令，指令格式如下。
 
 1．项目背景
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_074.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_074.jpg)
 
 2． 风险识别与分类
 
 风险清单表
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_075.jpg)![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_076.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_075.jpg)![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_076.jpg)
 
 3．风险分析
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_077.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_077.jpg)
 
 风险等级评估表
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_078.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_078.jpg)
 
 4．应对措施
 
 技术方案
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_079.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_079.jpg)
 
 应急预案
 
@@ -6992,7 +6992,7 @@ DeepSeek 项目风险评估通常采用结构化指令，指令格式如下。
 
 监测体系
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_080.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_080.jpg)
 
 管理流程
 
@@ -7318,13 +7318,13 @@ SOP 标准化文档（操作流程规范）
 
 （4）将以上思维导图框架上传到思维导图工具，即可生成思维导图。这里使用的是 AIGC 工具 TreeMind 树图，其首页如图 5-1 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_081.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_081.jpg)
 
 图 5-1 TreeMind 树图首页
 
 （5）生成的思维导图如图 5-2 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_082.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_082.jpg)
 
 图 5-2 TreeMind 树图生成的思维导图
 
@@ -7394,7 +7394,7 @@ markdown
 
 1．竞品分析
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_083.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_083.jpg)
 
 2．反漏斗投放策略
 
@@ -7422,7 +7422,7 @@ markdown
 
 4.ROI 预估
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_084.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_084.jpg)
 
 5．风险预警
 
@@ -7660,7 +7660,7 @@ markdown
 
 1．竞品对比表（可视化展示）
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_085.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_085.jpg)
 
 2．异议处理：“大公司更靠谱”
 
@@ -7890,7 +7890,7 @@ markdown
 
 表 6-1 网络硬件环境和存储要求
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_086.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_086.jpg)
 
 ### **6.1.2** **部署方式选择：本地 VS 云端**
 
@@ -7898,7 +7898,7 @@ DeepSeek 支持本地部署和云端部署两种方式。选择部署方式需�
 
 表 6-2 本地部署与云端部署对比
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_087.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_087.jpg)
 
 本地部署适用场景如下。
 
@@ -7934,7 +7934,7 @@ DeepSeek 支持本地部署和云端部署两种方式。选择部署方式需�
 
 （1）访问 Ollama 官网下载对应系统的安装包，如图 6-1 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_088.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_088.jpg)
 
 图 6-1 Ollama 官网
 
@@ -7942,13 +7942,13 @@ DeepSeek 支持本地部署和云端部署两种方式。选择部署方式需�
 
 （2）双击运行 Ollama 程序后，打开命令行，运行需要安装的模型（参数越大，显存要求越高），如图 6-2 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_089.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_089.jpg)
 
 图 6-2 安装 DeepSeek-R1
 
 （3）安装后通过命令行验证：ollama --version，显示版本号即表示安装成功，然后就可以在本地与 DeepSeek 对话了，图 6-3 所示为本地部署对话示例。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_090.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_090.jpg)
 
 图 6-3 DeepSeek-R1 本地部署对话示例
 
@@ -7958,21 +7958,21 @@ DeepSeek 支持本地部署和云端部署两种方式。选择部署方式需�
 
 （5）也可以通过 Cherry Studio 实现本地部署的 DeepSeek-R1 模型交互界面。打开 Cherry Studio，进入设置界面，选择 Ollama 选项，单击“管理”按钮，在弹出的选项中选择要部署的模型，如图 6-4 所示。如果找不到模型，可以手动添加。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_091.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_091.jpg)
 
 图 6-4 在 Cherry Studio 中选择模型
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_092.png)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_092.png)
 
 （6）单击界面右上方的“检查”按钮，测试网络连通性，如果“检查”按钮变成图标，表示连接成功，如图 6-5 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_093.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_093.jpg)
 
 图 6-5 连接成功
 
 （7）单击“添加”按钮，即可选择本地部署的 DeepSeek-R1 模型，如图 6-6 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_094.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_094.jpg)
 
 图 6-6 选择本地部署的 DeepSeek-R1 模型
 
@@ -7982,7 +7982,7 @@ DeepSeek 支持本地部署和云端部署两种方式。选择部署方式需�
 
 （1）访问腾讯云官网，如图 6-7 所示，注册并完成实名认证。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_095.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_095.jpg)
 
 图 6-7 腾讯云官网
 
@@ -7990,29 +7990,29 @@ DeepSeek 支持本地部署和云端部署两种方式。选择部署方式需�
 
 （3）单击“立即体验”按钮，进入 Cloud Studio 服务页面，如图 6-9 所示。Cloud Studio 已支持 DeepSeek-R1 模板内置知识库，用户无须本地搭建，即可体验个人专属的知识库。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_096.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_096.jpg)
 
 图 6-8 腾讯云 DeepSeek 开发者专区
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_097.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_097.jpg)
 
 图 6-9 腾讯云 Cloud Studio 服务页面
 
 （4）单击菜单栏中的“AI 模板”选项，进入“AI 模板”页面，如图 6-10 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_098.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_098.jpg)
 
 图 6-10 “AI 模板”页面
 
 （5）单击 DeepSeek-R1 模型，进入“选择空间规格”页面，如图 6-11 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_099.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_099.jpg)
 
 图 6-11 “选择空间规格”页面
 
 （6）选择对应的模型，单击“下一步”按钮，即可完成空间创建。在这里创建一个新工作区之后就可以开始使用了，如图 6-12 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_100.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_100.jpg)
 
 图 6-12 DeepSeek-R1 空间创建
 
@@ -8042,7 +8042,7 @@ Cherry Studio 是一款功能强大的多模型 AI 桌面客户端，支持 Win
 
 ● 一问多答：支持同一问题通过多个模型同时生成回复，方便用户对比不同模型的表现，如图 6-13 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_101.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_101.jpg)
 
 图 6-13 Cherry Studio 一问多答
 
@@ -8052,19 +8052,19 @@ Cherry Studio 是一款功能强大的多模型 AI 桌面客户端，支持 Win
 
 ● 高度自定义参数：除了基础参数调整，还支持用户填写自定义参数，满足个性化需求，如图 6-14 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_102.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_102.jpg)
 
 图 6-14 Cherry Studio 高度自定义参数
 
 ● 助手市场：内置千余个行业专用助手，涵盖翻译、编程、写作等领域，同时支持用户自定义助手，如图 6-15 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_103.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_103.jpg)
 
 图 6-15 Cherry Studio 助手市场
 
 ● 多种格式渲染：支持 Markdown 渲染、公式渲染、HTML 实时预览等功能，提升内容展示效果，如图 6-16 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_104.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_104.jpg)
 
 图 6-16 Cherry Studio 多种格式渲染
 
@@ -8072,7 +8072,7 @@ Cherry Studio 是一款功能强大的多模型 AI 桌面客户端，支持 Win
 
 ● AI 绘画：提供专用绘画面板，用户可通过自然语言描述生成高质量图像，如图 6-17 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_105.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_105.jpg)
 
 图 6-17 Cherry Studio AI 绘画
 
@@ -8082,13 +8082,13 @@ Cherry Studio 是一款功能强大的多模型 AI 桌面客户端，支持 Win
 
 ● 文件管理：对对话、绘画和知识库中的文件统一分类管理，避免烦琐查找，如图 6-18 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_106.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_106.jpg)
 
 图 6-18 Cherry Studio 文件管理
 
 ● 全局搜索：支持快速定位历史记录和知识库内容，提升工作效率，如图 6-19 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_107.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_107.jpg)
 
 图 6-19 Cherry Studio 全局搜索
 
@@ -8104,7 +8104,7 @@ Cherry Studio 是一款功能强大的多模型 AI 桌面客户端，支持 Win
 
 ● 自定义服务商：支持符合 OpenAI、Gemini、Anthropic 等规范的第三方服务商接入，兼容性强，如图 6-20 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_108.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_108.jpg)
 
 图 6-20 Cherry Studio 自定义服务商
 
@@ -8118,7 +8118,7 @@ Cherry Studio 是一款功能强大的多模型 AI 桌面客户端，支持 Win
 
 ● 自定义侧边栏：用户可根据需求隐藏或排序侧边栏功能，优化使用体验，如图 6-21 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_109.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_109.jpg)
 
 图 6-21 Cherry Studio 自定义侧边栏
 
@@ -8126,7 +8126,7 @@ Cherry Studio 是一款功能强大的多模型 AI 桌面客户端，支持 Win
 
 ● 多种格式支持：支持 PDF、DOCX、PPTX、XLSX、TXT、MD 等多种格式导入，如图 6-22 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_110.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_110.jpg)
 
 图 6-22 Cherry Studio 多种格式支持
 
@@ -8172,53 +8172,53 @@ Cherry Studio 是一款功能强大的多模型 AI 桌面客户端，支持 Win
 
 （1）下载并安装 Cherry Studio，如图 6-23 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_111.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_111.jpg)
 
 图 6-23 Cherry Studio 下载页面
 
 （2）注册并登录“硅基流动”，以获得免费的 Token，通过 API 的方式接入 Cherry Studio，硅基流动网站页面如图 6-24 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_112.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_112.jpg)
 
 图 6-24 硅基流动网站页面
 
 （3）进入硅基流动 API 密钥页面，创建或复制密钥。如果是新注册用户，需要先单击右上方的“新建 API 密钥”，然后单击生成的一长串字符密钥，就可以完成复制了。复制之后把密钥粘贴到 Cherry Studio，即可完成满血版 DeepSeek-R1 的添加，在 Cherry Studio 中使用 DeepSeek 的功能，同时调用和消耗硅基流动中的 Token。硅基流动的 API 密钥生成和复制如图 6-25 所示。（4）获取硅基流动的 API 密钥之后接入 Cherry Studio，打开 Cherry Studio 客户端，单击“设置”→“模型服务”→“硅基流动”，配置 API 密钥，如图 6-26 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_113.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_113.jpg)
 
 图 6-25 硅基流动 API 密钥生成和复制
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_114.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_114.jpg)
 
 图 6-26 配置 API 密钥
 
 （5）选择模型：本次部署满血版 DeepSeek-R1 模型。DeepSeek-R1 是一款强化学习（RL）驱动的推理模型，解决了模型中的重复性和可读性问题。如果需要强推理能力的模型，可以在“模型广场”页面中，选择硅基流动和华为云合作发布的 DeepSeek-R1/V3 模型，如图 6-27 所示，复制模型名字之后粘贴到 Cherry Studio 中添加模型。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_115.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_115.jpg)
 
 图 6-27 模型广场
 
 （6）添加模型：在 Cherry Studio 客户端“设置”→“模型服务”→“硅基流动”页面中单击“添加”按钮，添加 DeepSeek-R1 模型。如果还想添加 DeepSeek-V3 模型，可以按照同样的步骤再操作一次。添加模型的操作步骤如图 6-28 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_116.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_116.jpg)
 
 图 6-28 添加模型
 
 （7）在 Cherry Studio 中添加模型后，单击“检查”按钮，选择要检测的模型，测试 API 是否可以正常访问，如图 6-29 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_117.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_117.jpg)
 
 图 6-29 检测模型
 
 （8）添加对话模型 DeepSeek-R1 后，还缺少一个嵌入模型。嵌入模型的主要作用是将本地文件的内容转换成有意义的数字，存储到向量数据库中，在用户提问时，利用 RAG 技术在数据库中搜索相似答案最终回复用户。我们再配置一个向量模型——BAAI/bge-m3，如果希望搜索的精准度更高，可以选择 Pro/BAAI/bge-m3 模型。选择嵌入模型的操作步骤如图 6-30 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_118.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_118.jpg)
 
 图 6-30 选择嵌入模型
 
 （9）用同样的方法将模型配置到 Cherry Studio 中，如图 6-31 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_119.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_119.jpg)
 
 图 6-31 添加嵌入模型
 
@@ -8226,25 +8226,25 @@ Cherry Studio 是一款功能强大的多模型 AI 桌面客户端，支持 Win
 
 （10）在 Cherry Studio 中添加知识库，选择刚才配置的嵌入模型，即会自动利用对应的模型来向量化数据，如图 6-32 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_120.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_120.jpg)
 
 图 6-32 添加知识库
 
 （11）添加本地文件进行向量化，如图 6-33 所示。如果文件是手写扫描件或带有复杂表格和数学公式的文件，解析效果会很差，甚至无法解析。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_121.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_121.jpg)
 
 图 6-33 添加本地文件
 
 （12）添加助手，并选择配置的满血版 DeepSeek-R1 模型，进行使用测试，如图 6-34 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_122.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_122.jpg)
 
 图 6-34 选择模型
 
 （13）如果不想每次添加助手时选择模型，可以设置默认助手模型，如图 6-35 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_123.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_123.jpg)
 
 图 6-35 设置默认助手模型
 
@@ -8398,7 +8398,7 @@ DeepSeek 企业级应用与云服务专注于为企业提供深度数据搜索�
 
 （3）通过钉钉低代码平台宜搭将 DeepSeek 快速集成到企业工作流中，如图 7-1 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_124.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_124.jpg)
 
 图 7-1 钉钉接入 DeepSeek
 
@@ -8452,7 +8452,7 @@ DeepSeek 企业级应用与云服务专注于为企业提供深度数据搜索�
 
 通过以上步骤，企业微信用户可以快速完成 DeepSeek 的接入，实现 24 小时智能回复、客户跟进等功能，显著提升服务效率，如图 7-2 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_125.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_125.jpg)
 
 图 7-2 企业微信接入 DeepSeek
 
@@ -8526,7 +8526,7 @@ WPS 通过接入 DeepSeek，实现了智能扩写、润色、公文生成和数�
 
 大模型对话工具只能一对一问答，信息处理效率低。飞书接入 DeepSeek 后将 Excel 的行列和大模型的推理能力结合起来，可以批量处理信息和任务，极大地提高了信息处理效率。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_126.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_126.jpg)
 
 图 7-3 飞书接入 DeepSeek 实现批量化处理
 
@@ -8534,7 +8534,7 @@ WPS 通过接入 DeepSeek，实现了智能扩写、润色、公文生成和数�
 
 DeepSeek 的接入使飞书多维表格从简单的数据管理工具升级为强大的业务工具。用户可以将 AI 生成的内容直接应用于业务场景，如销售跟进、客户关系管理、内容创作等，无须额外的二次加工，如图 7-4 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_127.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_127.jpg)
 
 图 7-4 飞书接入 DeepSeek 实现业务化应用
 
@@ -8544,7 +8544,7 @@ DeepSeek 不仅能生成高质量的内容，还能将生成内容自动整理�
 
 DeepSeek 大模型接入飞书后还可以和多维表格、飞书云文档、任务、日程等功能全方位结合。过去依靠人工编写短剧剧本，生产效率较低，远远跟不上短剧的制作需求。现在使用 DeepSeek 辅助编写短剧剧本，只需在飞书多维表格中输入标题和主题，DeepSeek 就能自动构思剧情，并将编写好的剧本自动生成为飞书云文档，极大地提高了剧本编写效率，如图 7-5 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_128.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_128.jpg)
 
 图 7-5 飞书接入 DeepSeek 实现结构化输出
 
@@ -8690,7 +8690,7 @@ DeepSeek 大模型接入飞书后还可以和多维表格、飞书云文档、�
 
 （5）测试与使用：①配置完成后，输入测试问题（如“你是谁”）进行对话测试；②确保模型响应正常后，即可开始使用 DeepSeek 进行模型推理和应用开发，如图 7-6 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_129.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_129.jpg)
 
 图 7-6 超算云接入 DeepSeek
 
@@ -8746,7 +8746,7 @@ DeepSeek 大模型接入飞书后还可以和多维表格、飞书云文档、�
 
 **名师点拨：** 英伟达的 NVIDIA 使用最新的 HGXH200 服务器部署了满血版 DeepSeek-R1，如图 7-7 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_130.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_130.jpg)
 
 图 7-7 英伟达接入 DeepSeek
 
@@ -8784,7 +8784,7 @@ DeepSeek 大模型接入飞书后还可以和多维表格、飞书云文档、�
 
 （3）使用与体验：纳米 AI 搜索支持语音、文字、图片等多种输入方式。输入问题后，点击“R1 深度”按钮，即可让 DeepSeek 基于搜索结果进行总结和分析。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_131.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_131.jpg)
 
 图 7-8 纳米 AI 搜索 App
 
@@ -8798,7 +8798,7 @@ DeepSeek 大模型接入飞书后还可以和多维表格、飞书云文档、�
 
 纳米 AI 搜索通过接入 DeepSeek，具备了更强大的性能、联网搜索能力和多模态交互功能，极大地提升了用户体验。无论是通过 App 还是网页端接入，用户都能快速上手体验 DeepSeek 的强大功能。对于内容创作者和普通用户来说，纳米 AI 搜索是一个高效、便捷的 AI 搜索与创作工具。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_132.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_132.jpg)
 
 图 7-9 纳米 AI 搜索网页端
 
@@ -8900,7 +8900,7 @@ DeepSeek 大模型接入飞书后还可以和多维表格、飞书云文档、�
 
 （3）输入问题后，即可获得经过深度思考和联网搜索的结果。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_133.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_133.jpg)
 
 图 7-10 百度搜索接入 DeepSeek
 
@@ -8942,7 +8942,7 @@ DeepSeek 大模型接入飞书后还可以和多维表格、飞书云文档、�
 
 （3）单击启用“长思考·R1”模式，选择“简洁”“深入”或“研究”模式，获取不同深度的搜索结果，如图 7-11 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_134.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_134.jpg)
 
 图 7-11 秘塔 AI 搜索接入 DeepSeek
 
@@ -8988,27 +8988,27 @@ DeepSeek 与 Kimi 组合可实现“AI 内容生成+智能排版”的 PPT 极�
 
 （2）DeepSeek 自动生成 Markdown 格式内容，包含标题、分论点、图表描述等，生成的部分结果如图 7-12 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_135.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_135.jpg)
 
 图 7-12 生成的部分结果
 
 **2.Kimi 导入内容**
 
-（1）登录 Kimi，然后单击页面左侧的工具栏中的 Kimi+按钮 ![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_136.png)，进入 Kimi+页面，如图 7-13 所示。
+（1）登录 Kimi，然后单击页面左侧的工具栏中的 Kimi+按钮 ![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_136.png)，进入 Kimi+页面，如图 7-13 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_137.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_137.jpg)
 
 图 7-13 进入 Kimi+页面
 
 （2）在 Kimi+页面中单击“PPT 助手”选项，如图 7-14 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_138.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_138.jpg)
 
 图 7-14 单击 Kimi+页面中的“PPT 助手”选项
 
 （3）在 Kimi 的输入框中粘贴 DeepSeek 生成的大纲，单击“发送”按钮，如图 7-15 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_139.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_139.jpg)
 
 图 7-15 把生成的大纲粘贴到 Kimi 输入框中
 
@@ -9016,19 +9016,19 @@ DeepSeek 与 Kimi 组合可实现“AI 内容生成+智能排版”的 PPT 极�
 
 （1）单击 Kimi 回复下的“一键生成 PPT”按钮，如图 7-16 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_140.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_140.jpg)
 
 图 7-16 单击“一键生成 PPT”按钮
 
 （2）选择合适的模板场景、设计风格、主题颜色等，并选择合适的 PPT 模板，如图 7-17 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_141.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_141.jpg)
 
 图 7-17 选择合适的 PPT 模板
 
 （3）选择完成后，单击页面右上方的“生成 PPT”按钮，等待几秒钟即可生成 PPT，页面中提示“PPT 制作已完成”，还可以单击“去编辑”按钮优化生成的 PPT，如图 7-18 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_142.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_142.jpg)
 
 图 7-18 预览生成的 PPT
 
@@ -9070,7 +9070,7 @@ DeepSeek 与即梦的组合实现了高效且协同的视频内容生成：DeepS
 
 （2）DeepSeek 会生成详细的脚本，包括时间轴、画面描述、文案设计、视觉元素设计要点等内容，生成结果如图 7-19 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_143.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_143.jpg)
 
 图 7-19 生成结果
 
@@ -9078,7 +9078,7 @@ DeepSeek 与即梦的组合实现了高效且协同的视频内容生成：DeepS
 
 （1）打开即梦，把优化后的 DeepSeek 生成的提示词粘贴到即梦，如图 7-20 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_144.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_144.jpg)
 
 图 7-20 将提示词粘贴到即梦
 
@@ -9088,7 +9088,7 @@ DeepSeek 与即梦的组合实现了高效且协同的视频内容生成：DeepS
 
 （3）即梦会根据输入的提示词生成视频片段，用户可以预览并调整效果，如图 7-21 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_145.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_145.jpg)
 
 图 7-21 生成视频片段
 
@@ -9190,11 +9190,11 @@ DeepSeek 与可灵结合，为批量图片生成提供了高效便捷的方案�
 
 （1）登录可灵 AI 网页版，单击“AI 图片”选项进入 AI 图片页面，如图 7-22 所示。（2）将 DeepSeek 生成的提示词复制并粘贴到可灵 AI 的 AI 图片创意描述框中，单击“立即生成”按钮，等待几秒钟，系统批量生成 4 张图片，如图 7-23 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_146.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_146.jpg)
 
 图 7-22 可灵 AI 网页版
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_147.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_147.jpg)
 
 图 7-23 可灵 AI 生成图片
 
@@ -9324,19 +9324,19 @@ Agent 触发：
 
 （1）登录 Codef lying 网页版。找到智能体页面，在输入框中输入提示词，如图 7-24 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_148.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_148.jpg)
 
 图 7-24 在 Codeflying 输入框中输入提示词
 
 （2）确认需求之后，平台会生成产品文档、测试用例及架构设计等，单击“确认设计，开始开发”按钮，如图 7-25 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_149.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_149.jpg)
 
 图 7-25 确认设计
 
 （3）等待几分钟之后，开发就完成了，单击“立即体验”按钮，在线体验开发完成的智能体，如图 7-26 所示。
 
-![](img/精通DeepSeek：DeepSeek全场景应用一本通_image_150.jpg)
+![](img/精通-DeepSeek：DeepSeek-全场景应用一本通_image_150.jpg)
 
 图 7-26 体验开发完成的智能体
 

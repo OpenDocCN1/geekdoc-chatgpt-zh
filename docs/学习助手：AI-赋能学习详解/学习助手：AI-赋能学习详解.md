@@ -39,7 +39,7 @@
 
 对于传统学习模式与 AI 时代学习模式的区别，你可以这样理解。
 
-![](img/学习助手：AI赋能学习详解_content_87205_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87205_0.jpg)
 
 AI 提示词可以直接调用从古到今各种优秀的学习策略和方法，省去了学习和训练这些技巧的过程，这是一个革命性的转变。
 
@@ -55,7 +55,7 @@ AI 提示词可以直接调用从古到今各种优秀的学习策略和方法�
 
 4．本书附赠资源可用微信扫描下侧二维码，关注微信公众号并输入资源下载码，根据提示获取。
 
-![](img/学习助手：AI赋能学习详解_content_87205_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87205_1.jpg)
 
 资源下载码：funeng EXr6287u6NNVz+GYLY+7SDk226FstKIHdC0bNoQkB2Nqi1xSR0yxPmwrTs5gRi/BtfSbid6dBhii9q7cz2pIyA==
 
@@ -130,7 +130,7 @@ DeepSeek 输出：
 
 在没有 DeepSeek 等 AI 工具的时代，我们面临了三个主要问题，如图 1.1 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87209_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87209_0.jpg)
 
 图 1.1
 
@@ -464,7 +464,7 @@ DeepSeek 输出：
 
 如何有效掌握框架思维？可以通过以下三点来实现，如图 1.2 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87213_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87213_0.jpg)
 
 图 1.2
 
@@ -549,13 +549,13 @@ EXr6287u6NNVz+GYLY+7SDk226FstKIHdC0bNoQkB2Nqi1xSR0yxPmwrTs5gRi/BtfSbid6dBhii9q7c
 
 入门级的提问方法主要包括三个方面，如图 2.1 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87216_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87216_0.jpg)
 
 图 2.1
 
 首先，最简单的提问分为三种类型，如图 2.2 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87216_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87216_1.jpg)
 
 图 2.2
 
@@ -621,7 +621,7 @@ DeepSeek 输出：
 
 表 2-1 示例
 
-![](img/学习助手：AI赋能学习详解_content_87216_2.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87216_2.jpg)
 
 2．使用开放式问题
 
@@ -633,7 +633,7 @@ DeepSeek 输出：
 
 表 2-2 示例
 
-![](img/学习助手：AI赋能学习详解_content_87216_3.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87216_3.jpg)
 
 3．提问前做好准备
 
@@ -641,13 +641,13 @@ DeepSeek 输出：
 
 表 2-3 示例
 
-![](img/学习助手：AI赋能学习详解_content_87216_4.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87216_4.jpg)
 
 2.2.3 提问的层次
 
 当我们使用 AI 大模型这个超级智能助手时，会希望它能生成我们需要的答案，并且无须再花大量的时间修改。要达到这一目标，需要我们掌握提问的层次。提问可以分为四个层次，如图 2.3 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87216_5.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87216_5.jpg)
 
 ·第一层：泛提问
 
@@ -1035,7 +1035,7 @@ DeepSeek 输出：
 
 学生考试成绩数据表 EXr6287u6NNVz+GYLY+7SDk226FstKIHdC0bNoQkB2Nqi1xSR0yxPmwrTs5gRi/BtfSbid6dBhii9q7cz2pIyA==
 
-![](img/学习助手：AI赋能学习详解_content_87217_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87217_0.jpg)
 
 ## 2.4 从低效到高效：如何快速提升提问能力？
 
@@ -1349,7 +1349,7 @@ DeepSeek 输出：
 
 记住这个魔法公式
 
-![](img/学习助手：AI赋能学习详解_content_87222_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87222_0.jpg)
 
 （下次吃苹果时，记得对太阳说声谢谢）
 
@@ -1823,7 +1823,7 @@ DeepSeek 输出：
 
 3.反射类型
 
-![](img/学习助手：AI赋能学习详解_content_87225_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87225_0.jpg)
 
 三、光的折射
 
@@ -1995,7 +1995,7 @@ DeepSeek 输出：
 
 五、核心公式
 
-![](img/学习助手：AI赋能学习详解_content_87227_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87227_0.jpg)
 
 ……
 
@@ -2577,7 +2577,7 @@ EXr6287u6NNVz+GYLY+7SDk226FstKIHdC0bNoQkB2Nqi1xSR0yxPmwrTs5gRi/BtfSbid6dBhii9q7c
 
 刻意练习分为四个步骤，如图 5.1 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87237_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87237_0.jpg)
 
 图 5.1
 
@@ -2667,7 +2667,7 @@ SQ3R 模型，也称 SQ3R 读书法，是由美国心理学教授罗宾森（Rob
 
 SQ3R 模型分为五个步骤，如图 5.2 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87238_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87238_0.jpg)
 
 图 5.2
 
@@ -2801,7 +2801,7 @@ DeepSeek 输出：
 
 重点标注分析：
 
-![](img/学习助手：AI赋能学习详解_content_87238_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87238_1.jpg)
 
 4. Recite（复述）
 
@@ -2815,7 +2815,7 @@ DeepSeek 输出：
 
 对比复习表：
 
-![](img/学习助手：AI赋能学习详解_content_87238_2.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87238_2.jpg)
 
 二、考试高频问题预测
 
@@ -2967,7 +2967,7 @@ D．忽如一夜春风来，千树万树梨花开。
 
 POA 模型根据应用领域的不同，由多人提出。在行动力提升方面，POA 模型的提出者是张宁，他强调通过伙伴（Partner）、目标（Objective）和方法（Acceleration）三个方面的优化来提升行动力，如图 5.3 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87239_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87239_0.jpg)
 
 图 5.3
 
@@ -2977,7 +2977,7 @@ POA 模型根据应用领域的不同，由多人提出。在行动力提升方�
 
 张宁提出了一个行动力公式，如图 5.4 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87239_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87239_1.jpg)
 
 图 5.4
 
@@ -3109,7 +3109,7 @@ DeepSeek 输出：
 
 **总目标：** 15 天内独立完成全部寒假作业，正确率≥85%。
 
-![](img/学习助手：AI赋能学习详解_content_87239_2.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87239_2.jpg)
 
 关键控制点
 
@@ -3131,7 +3131,7 @@ DeepSeek 输出：
 
 使用第一性原理时需要遵循三个步骤，如图 5.5 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87240_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87240_0.jpg)
 
 图 5.5
 
@@ -3216,7 +3216,7 @@ EXr6287u6NNVz+GYLY+7SDk226FstKIHdC0bNoQkB2Nqi1xSR0yxPmwrTs5gRi/BtfSbid6dBhii9q7c
 
 那么，制订学习计划的策略是什么呢？图 6.1 所示为最佳学习策略模型。
 
-![](img/学习助手：AI赋能学习详解_content_87242_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87242_0.jpg)
 
 图 6.1
 
@@ -3446,7 +3446,7 @@ SWOT 分析
 
 提示词的通用模板包括三项内容，如图 6.2 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87243_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87243_0.jpg)
 
 图 6.2
 
@@ -3536,7 +3536,7 @@ ChatGPT 输出：
 
 时间管理表（第一个月）
 
-![](img/学习助手：AI赋能学习详解_content_87243_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87243_1.jpg)
 
 你可以根据实际情况对时间表进行调整。每周末的模拟考试可以帮助你追踪进度，发现问题，并及时调整学习计划。 EXr6287u6NNVz+GYLY+7SDk226FstKIHdC0bNoQkB2Nqi1xSR0yxPmwrTs5gRi/BtfSbid6dBhii9q7cz2pIyA==
 
@@ -3944,7 +3944,7 @@ DeepSeek 输出：
 
 二、选择 AI 大模型
 
-![](img/学习助手：AI赋能学习详解_content_87246_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87246_0.jpg)
 
 三、输入提示词
 
@@ -3952,11 +3952,11 @@ DeepSeek 输出：
 
 表 6-1 最佳学习策略模型训练
 
-![](img/学习助手：AI赋能学习详解_content_87246_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87246_1.jpg)
 
 表 6-2 提示词训练 EXr6287u6NNVz+GYLY+7SDk226FstKIHdC0bNoQkB2Nqi1xSR0yxPmwrTs5gRi/BtfSbid6dBhii9q7cz2pIyA==
 
-![](img/学习助手：AI赋能学习详解_content_87246_2.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87246_2.jpg)
 
 # 第七章
 AI 辅助学习完全指南
@@ -4753,11 +4753,11 @@ DeepSeek 输出：
 
 四阶核查法
 
-![](img/学习助手：AI赋能学习详解_content_87252_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87252_0.jpg)
 
 三、实证对比数据
 
-![](img/学习助手：AI赋能学习详解_content_87252_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87252_1.jpg)
 
 四、适应性训练建议
 
@@ -4846,15 +4846,15 @@ A. -2
 
 B. 2
 
-C. ![](img/学习助手：AI赋能学习详解_content_87255_0.jpg)
+C. ![](img/学习助手：AI-赋能学习详解_content_87255_0.jpg)
 
-D. ![](img/学习助手：AI赋能学习详解_content_87255_1.jpg)
+D. ![](img/学习助手：AI-赋能学习详解_content_87255_1.jpg)
 
 2．计算 2 ² 的结果是 ______.
 
 A. 1
 
-B. ![](img/学习助手：AI赋能学习详解_content_87255_2.jpg)
+B. ![](img/学习助手：AI-赋能学习详解_content_87255_2.jpg)
 
 C. 2
 
@@ -5176,11 +5176,11 @@ ChatGPT 输出：
 
 其次，我会统计并将错题涉及的知识点进行排序，举例如下。
 
-![](img/学习助手：AI赋能学习详解_content_87257_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87257_0.jpg)
 
 最后，依据上述统计结果，我将制订一份一周复习计划，重点针对你的薄弱环节。
 
-![](img/学习助手：AI赋能学习详解_content_87257_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87257_1.jpg)
 
 通过这套提示词，用户不仅能有效地提升学习效率，还能够精准弥补知识薄弱环节，使自己在面对学习挑战时能从容不迫地应对。 EXr6287u6NNVz+GYLY+7SMcjLIDiNTGdjGFMbtnHCnY5hI2JPuNB4+UjucEEktxc+QDxE2rivXZJQAgMBMRvyQ==
 
@@ -5213,7 +5213,7 @@ EXr6287u6NNVz+GYLY+7SMcjLIDiNTGdjGFMbtnHCnY5hI2JPuNB4+UjucEEktxc+QDxE2rivXZJQAgM
 
 陌生领域的学习步骤如图 9.1 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87260_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87260_0.jpg)
 
 图 9.1
 
@@ -5391,7 +5391,7 @@ AI 可以跟踪你的学习进度，确保你不会错过重要的概念或技�
 
 跨界整合分为五个步骤，如图 9.2 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87261_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87261_0.jpg)
 
 图 9.2
 
@@ -5511,7 +5511,7 @@ AI 可以跟踪你的学习进度，确保你不会错过重要的概念或技�
 
 你想成为某个领域的顶级专家吗？如果想，那么一定要有章法。这不是一条简单的道路，但是如果能结合正确的策略，就可以事半功倍。以下为三条策略，如图 9.3 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87262_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87262_0.jpg)
 
 图 9.3
 
@@ -5556,13 +5556,13 @@ EXr6287u6NNVz+GYLY+7SMcjLIDiNTGdjGFMbtnHCnY5hI2JPuNB4+UjucEEktxc+QDxE2rivXZJQAgM
 
 如图 10.1 所示，我们可以明确地看到左脑和右脑的分工。左脑在逻辑性思维方面发挥关键作用，当仅依赖左脑处理信息时，知识难以形成有效记忆。尤其在考前复习时，学习者面对密集的文字内容更容易产生焦虑情绪。而右脑擅长形象思维，它能够将词汇、句子、段落转化为生动的图像或场景，从而大幅提升记忆效率。
 
-![](img/学习助手：AI赋能学习详解_content_87264_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87264_0.jpg)
 
 图 10.1
 
 记不住背后的真正原因有以下五点，如图 10.2 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87264_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87264_1.jpg)
 
 图 10.2
 
@@ -5604,7 +5604,7 @@ EXr6287u6NNVz+GYLY+7SMcjLIDiNTGdjGFMbtnHCnY5hI2JPuNB4+UjucEEktxc+QDxE2rivXZJQAgM
 
 运用连锁记忆法共有四个步骤，如图 10.3 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87265_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87265_0.jpg)
 
 图 10.3
 
@@ -5696,7 +5696,7 @@ DeepSeek 输出：
 
 我们来看看故事记忆法与连锁记忆法的三个主要区别，如图 10.4 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87266_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87266_0.jpg)
 
 图 10.4
 
@@ -5704,7 +5704,7 @@ DeepSeek 输出：
 
 使用故事记忆法时，可按以下步骤进行，如图 10.5 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87266_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87266_1.jpg)
 
 图 10.5
 
@@ -5840,7 +5840,7 @@ DeepSeek 输出：
 
 使用记忆宫殿法的四个基本步骤如图 10.6 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87267_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87267_0.jpg)
 
 图 10.6
 
@@ -6236,7 +6236,7 @@ DeepSeek 输出：
 
 （2）字母联想法
 
-![](img/学习助手：AI赋能学习详解_content_87269_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87269_0.jpg)
 
 具体例子如下。
 
@@ -6342,7 +6342,7 @@ DeepSeek 输出：
 
 例如，如果您想记忆“banana”，我会这样输出：
 
-![](img/学习助手：AI赋能学习详解_content_87269_1.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87269_1.jpg)
 
 请提供您需要记忆的单词，我会按照熟悉分解法、字母联想法、拼音分解法或形似联想法来帮助记忆！
 
@@ -6356,7 +6356,7 @@ DeepSeek 输出：
 
 以下是记忆这 5 个单词的拆分联想表格。
 
-![](img/学习助手：AI赋能学习详解_content_87269_2.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87269_2.jpg)
 
 复习测试（5 个单词已满）
 
@@ -6408,7 +6408,7 @@ DeepSeek 输出：
 
 （假设你输入单词“unhappy”）
 
-![](img/学习助手：AI赋能学习详解_content_87269_3.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87269_3.jpg)
 
 现在，请提供你需要记忆的单词吧！
 
@@ -6420,7 +6420,7 @@ DeepSeek 输出：
 
 以下是记忆 policy, continue, eat, successfully 的拆分联想表格。
 
-![](img/学习助手：AI赋能学习详解_content_87269_4.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87269_4.jpg)
 
 阶段复习测试（已累计 4 个单词，还差 1 个可触发复习）
 
@@ -6589,7 +6589,7 @@ EXr6287u6NNVz+GYLY+7SMcjLIDiNTGdjGFMbtnHCnY5hI2JPuNB4+UjucEEktxc+QDxE2rivXZJQAgM
 
 在开始新一章的学习之前，浩然按照康奈尔笔记法的布局，将笔记本的一页分为三个部分，如图 11.1 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87272_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87272_0.jpg)
 
 图 11.1
 
@@ -6679,7 +6679,7 @@ EXr6287u6NNVz+GYLY+7SMcjLIDiNTGdjGFMbtnHCnY5hI2JPuNB4+UjucEEktxc+QDxE2rivXZJQAgM
 
 以下是一些能够赋能康奈尔笔记法的提问或思路，如图 11.2 所示。
 
-![](img/学习助手：AI赋能学习详解_content_87275_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87275_0.jpg)
 
 图 11.2
 
@@ -7079,7 +7079,7 @@ DeepSeek 输出：
 
 · *b* ：常数项
 
-· *x* ：未知数（解为 ![](img/学习助手：AI赋能学习详解_content_87278_0.jpg) ）
+· *x* ：未知数（解为 ![](img/学习助手：AI-赋能学习详解_content_87278_0.jpg) ）
 
 2．解法步骤
 
@@ -7127,7 +7127,7 @@ DeepSeek 输出：
 
 三、摘要区
 
-一元一次方程是形如 *ax* + *b* =0 的线性方程，其解为 ![](img/学习助手：AI赋能学习详解_content_87278_1.jpg) 。解题需遵循“移项→合并→系数化为 1”的步骤，并且要注意符号和运算的准确性。实际应用中，需通过设未知数建立等量关系。理解其解的唯一性和几何意义（直线与 *x* 轴的交点）是后续学习二元一次方程和函数的基础。
+一元一次方程是形如 *ax* + *b* =0 的线性方程，其解为 ![](img/学习助手：AI-赋能学习详解_content_87278_1.jpg) 。解题需遵循“移项→合并→系数化为 1”的步骤，并且要注意符号和运算的准确性。实际应用中，需通过设未知数建立等量关系。理解其解的唯一性和几何意义（直线与 *x* 轴的交点）是后续学习二元一次方程和函数的基础。
 
 掌握基本解法后，可以尝试解决更复杂的应用题。
 
@@ -7193,9 +7193,9 @@ DeepSeek 输出：
 
 ①误用过去时间状语
 
-**错误：** I have seen him yesterday. ![](img/学习助手：AI赋能学习详解_content_87279_0.jpg)
+**错误：** I have seen him yesterday. ![](img/学习助手：AI-赋能学习详解_content_87279_0.jpg)
 
-**正确：** I saw him yesterday.（ ![](img/学习助手：AI赋能学习详解_content_87279_1.jpg) 一般过去时）
+**正确：** I saw him yesterday.（ ![](img/学习助手：AI-赋能学习详解_content_87279_1.jpg) 一般过去时）
 
 **②混淆 have/has：** 第三人称单数用 has。（例：She has gone.）
 
@@ -7768,7 +7768,7 @@ DeepSeek 输出：
 
 （2）字母联想法
 
-![](img/学习助手：AI赋能学习详解_content_87280_0.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87280_0.jpg)
 
 具体例子如下。
 
@@ -7952,4 +7952,4 @@ DeepSeek 输出：
 
 画面与画面串联起来形成完整的故事线。 EXr6287u6NNVz+GYLY+7SMcjLIDiNTGdjGFMbtnHCnY5hI2JPuNB4+UjucEEktxc+QDxE2rivXZJQAgMBMRvyQ==
 
-![](img/学习助手：AI赋能学习详解_content_87280_1.jpg)![](img/学习助手：AI赋能学习详解_content_87280_2.jpg)
+![](img/学习助手：AI-赋能学习详解_content_87280_1.jpg)![](img/学习助手：AI-赋能学习详解_content_87280_2.jpg)

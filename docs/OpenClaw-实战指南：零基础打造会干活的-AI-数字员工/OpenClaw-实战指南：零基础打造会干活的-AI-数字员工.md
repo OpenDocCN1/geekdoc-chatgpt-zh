@@ -454,7 +454,7 @@ OpenClaw 可以部署在本地计算机上（零成本），也可以部署在�
 
 **表 2-1 OpenClaw 配置硬件要求**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_000.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_000.jpg)
 
 **2.1.3 安装步骤**
 
@@ -482,13 +482,13 @@ Docker 是运行 OpenClaw 的容器环境，它相当于给应用提供了一个
 
 逐条执行以下指令进行安装：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_001.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_002.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_001.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_002.jpg)
 
 **2.拉取并运行 OpenClaw**
 
 逐条执行以下指令：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_003.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_003.jpg)
 
 参数说明如下：
 
@@ -512,11 +512,11 @@ Docker 是运行 OpenClaw 的容器环境，它相当于给应用提供了一个
 
 **表 2-2 相关内网穿透工具及特点**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_004.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_004.jpg)
 
 cpolar 配置示例如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_005.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_005.jpg)
 
 **2.1.4 优缺点分析**
 
@@ -562,7 +562,7 @@ cpolar 配置示例如下：
 
 阿里云轻量应用服务器的配置如图 2-1 所示。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_006.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_006.jpg)
 
 **图 2-1 阿里云轻量应用服务器的配置**
 
@@ -596,7 +596,7 @@ cpolar 配置示例如下：
 
 配置 API Key 成功后效果如图 2-2 所示。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_007.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_007.jpg)
 
 **图 2-2 阿里云配置 API Key 成功后效果**
 
@@ -604,21 +604,21 @@ cpolar 配置示例如下：
 
 **（1）Windows 用户（使用 PowerShell）**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_008.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_008.jpg)
 
 **（2）Mac/Linux 用户**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_009.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_009.jpg)
 
 连接成功后，看到类似以下提示表示登录成功：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_010.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_010.jpg)
 
 **4.安装 OpenClaw（10 分钟）**
 
 依次执行以下指令进行安装：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_011.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_012.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_011.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_012.jpg)
 
 **5.访问 OpenClaw**
 
@@ -674,7 +674,7 @@ cpolar 配置示例如下：
 
 **表 2-3 四大国产大模型对比**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_013.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_013.jpg)
 
 成本计算：假设数字员工每天处理 100 次任务，每次消耗 2000 token。
 
@@ -816,7 +816,7 @@ Kimi Claw 最适合以下人群使用：
 
 Kimi Claw 的配置效果如图 2-3 所示。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_014.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_014.jpg)
 
 **图 2-3 Kimi Claw 配置效果**
 
@@ -868,7 +868,7 @@ Kimi Claw 的配置效果如图 2-3 所示。
 
 **表 2-4 三种方案成本对比**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_015.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_015.jpg)
 
 ### **2.5 员工入职：接入飞书机器人**
 
@@ -980,7 +980,7 @@ Webhook 验证令牌：（事件订阅页面显示的令牌）
 
 与机器人对话的界面如图 2-4 所示。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_016.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_016.jpg)
 
 **图 2-4 与机器人对话的界面**
 
@@ -998,7 +998,7 @@ Webhook 验证令牌：（事件订阅页面显示的令牌）
 
 效果如图 2-5 所示。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_017.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_017.jpg)
 
 **图 2-5 OpenClaw 飞书机器人回答天气效果**
 
@@ -1008,7 +1008,7 @@ Webhook 验证令牌：（事件订阅页面显示的令牌）
 
 效果如图 2-6 所示。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_018.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_018.jpg)
 
 **图 2-6 OpenClaw 飞书机器人撰写周报总结**
 
@@ -1382,7 +1382,7 @@ OpenClaw 将生成的回复推送到飞书/钉钉，并显示：
 
 单击“确认发送”，邮件自动发出；单击“需要修改”，回复内容复制到剪贴板，用户手动编辑后发送。对于需要个性化回复的邮件，可以直接调用豆包或 DeepSeek 的 API：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_019.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_019.jpg)
 
 **2.实战技巧**
 
@@ -1458,17 +1458,17 @@ OpenClaw 将生成的回复推送到飞书/钉钉，并显示：
 
 格式示例：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_020.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_020.jpg)
 
 今日邮件简报（共 23 封）
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_021.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_021.jpg)
 
 紧急（2 封）
 
 • [发件人 A]：项目延期申请，需要你今天审批
 
-• [发件人 B]：客户投诉，需要你立即联系 ![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_022.jpg)
+• [发件人 B]：客户投诉，需要你立即联系 ![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_022.jpg)
 
 重要（5 封）
 
@@ -1476,7 +1476,7 @@ OpenClaw 将生成的回复推送到飞书/钉钉，并显示：
 
 ……
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_023.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_023.jpg)
 
 今日待处理：7 封
 
@@ -1496,13 +1496,13 @@ OpenClaw 将生成的回复推送到飞书/钉钉，并显示：
 
 OpenClaw 调用飞书机器人的代码示例如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_024.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_024.jpg)
 
 **2.进阶：智能待办提取**
 
 在生成摘要的同时，让 AI 提取邮件中的待办事项，自动创建飞书任务或滴答清单任务：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_025.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_026.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_025.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_026.jpg)
 
 ### **3.2 会议纪要革命：从手动记录到 AI 自动生成**
 
@@ -1566,7 +1566,7 @@ AI 时代，这件事可以交给机器做。
 
 如果你希望整个流程自动化，可以用 OpenClaw 调用上述工具的 API。以讯飞听见为例，OpenClaw Workflow 配置：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_027.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_028.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_027.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_028.jpg)
 
 **实战技巧：**
 
@@ -1668,13 +1668,13 @@ AI 时代，这件事可以交给机器做。
 
 • 提取待办事项，创建飞书任务。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_029.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_030.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_029.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_030.jpg)
 
 **3.待办事项自动创建飞书任务**
 
 提取的待办事项可以通过飞书开放平台 API 自动创建为任务：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_031.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_031.jpg)
 
 **3.2.3 格式规范**
 
@@ -1788,7 +1788,7 @@ AI 时代，这件事可以交给机器做。
 
 设置 OpenClaw Workflow，将生成的会议纪要自动保存到指定位置：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_032.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_033.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_032.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_033.jpg)
 
 ### **3.3 日程管理与提醒**
 
@@ -1818,7 +1818,7 @@ AI 时代，这件事可以交给机器做。
 
 **（2）导出飞书日历**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_034.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_034.jpg)
 
 **2.钉钉日历操作方法**
 
@@ -1834,13 +1834,13 @@ AI 时代，这件事可以交给机器做。
 
 **（2）导出钉钉日程**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_035.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_035.jpg)
 
 **3.OpenClaw 自动同步配置**
 
 创建 Workflow“日历同步”，定时执行：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_036.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_037.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_036.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_037.jpg)
 
 **3.3.2 智能日程建议**
 
@@ -1858,7 +1858,7 @@ AI 时代，这件事可以交给机器做。
 
 如果你需要更灵活的智能推荐，可以用 OpenClaw 实现：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_038.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_039.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_038.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_039.jpg)
 
 **2.智能日程建议提示词**
 
@@ -1882,13 +1882,13 @@ AI 时代，这件事可以交给机器做。
 
 输出格式：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_040.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_040.jpg)
 
 冲突提醒：[具体冲突]
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_041.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_041.jpg)
 
-优化建议：[建议内容] ![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_042.jpg)
+优化建议：[建议内容] ![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_042.jpg)
 
 推荐安排：[建议的日程调整]
 
@@ -1900,13 +1900,13 @@ AI 时代，这件事可以交给机器做。
 
 创建不同类型的提醒 Workflow：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_043.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_044.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_043.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_044.jpg)
 
 **2.飞书机器人推送设置**
 
 将提醒发送至飞书：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_045.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_046.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_045.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_046.jpg)
 
 ### **3.4 跨平台消息聚合**
 
@@ -1920,21 +1920,21 @@ AI 时代，这件事可以交给机器做。
 
 **（1）配置各平台消息接入**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_047.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_047.jpg)
 
 **（2）创建消息聚合 Workflow**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_048.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_049.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_048.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_049.jpg)
 
 **（3）配置统一消息看板**
 
 在飞书或钉钉中创建一个“消息中心”群，所有汇总的消息按重要性分类展示：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_050.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_050.jpg)
 
 消息中心-{{current_time}}
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_051.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_051.jpg)
 
 紧急（{{urgent_count}}条）
 
@@ -1974,7 +1974,7 @@ AI 时代，这件事可以交给机器做。
 
 发送时间：[时间]
 
-判断标准： ![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_052.jpg)
+判断标准： ![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_052.jpg)
 
 紧急：需要立即处理，涉及系统故障、客户投诉、领导@等。
 
@@ -1986,15 +1986,15 @@ AI 时代，这件事可以交给机器做。
 
 请输出 JSON 格式：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_053.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_053.jpg)
 
 OpenClaw 关键词过滤配置如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_054.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_054.jpg)
 
 然后进行个性化关键词配置。每个人关注的重点不同，可以配置个人关键词库，具体为：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_055.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_056.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_055.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_056.jpg)
 
 **3.4.3 自动回复设置**
 
@@ -2002,7 +2002,7 @@ OpenClaw 关键词过滤配置如下：
 
 **1.OpenClaw 自动回复配置**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_057.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_058.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_057.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_058.jpg)
 
 **2.豆包/扣子 Bot 接入方法**
 
@@ -2032,7 +2032,7 @@ OpenClaw 关键词过滤配置如下：
 
 **（4）OpenClaw 调用扣子 Bot**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_059.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_059.jpg)
 
 ### **3.5 进阶实战：搭建完整的沟通自动化工作流**
 
@@ -2042,13 +2042,13 @@ OpenClaw 关键词过滤配置如下：
 
 一个完整的沟通自动化系统的工作流程如图 3-1 所示。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_060.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_060.jpg)
 
 **图 3-1 沟通自动化系统的工作流程**
 
 **3.5.2 完整 Workflow 配置示例**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_061.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_062.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_063.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_061.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_062.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_063.jpg)
 
 **3.5.3 实战案例：某科技公司预期实施效果**
 
@@ -2194,7 +2194,7 @@ Excel 是职场人的“第二语言”，但说实话，这门语言学起来�
 
 第四座“大山”：洞察提炼。这是最难的一步。数字本身不会说话，你要从数据中提炼出结论，并用通俗的语言解释给非专业人士听。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_064.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_064.jpg)
 
 **图 4-1 数据分析的四座“大山”**
 
@@ -2212,11 +2212,11 @@ Excel 是职场人的“第二语言”，但说实话，这门语言学起来�
 
 **表 4-1 销售数据表**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_065.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_065.jpg)
 
 （续）
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_066.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_066.jpg)
 
 你的任务是分析各区域、各品类的销售表现，找出增长机会，并生成可视化图表。
 
@@ -2274,7 +2274,7 @@ Excel 是职场人的“第二语言”，但说实话，这门语言学起来�
 
 如果你想要更精细的控制，可以调用 OpenClaw 的高级 Skill：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_067.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_068.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_067.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_068.jpg)
 
 **（3）查看分析结果**
 
@@ -2318,7 +2318,7 @@ OpenClaw 会自动完成以下操作：
 
 **表 4-2 透视表配置**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_069.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_069.jpg)
 
 3）可视化图表：生成三张图表，保存为 PNG 文件。
 
@@ -2404,7 +2404,7 @@ WPS 表格和 Excel 在公式语法上基本一致，但有一些细节差异需
 
 **表 4-3 常见问题排查**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_070.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_070.jpg)
 
 这就是数字员工的价值：不是取代你，而是让你把时间和精力花在真正重要的事情上。
 
@@ -2418,11 +2418,11 @@ WPS 表格和 Excel 在公式语法上基本一致，但有一些细节差异需
 
 **表 4-4 财务数据表**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_071.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_071.jpg)
 
 （续）
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_072.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_072.jpg)
 
 你的任务是：生成月度损益表、部门费用分析、项目盈亏分析，并找出成本控制的机会点。
 
@@ -2478,7 +2478,7 @@ WPS 表格和 Excel 在公式语法上基本一致，但有一些细节差异需
 
 详细的财务分析 Skill 调用指令如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_073.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_074.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_073.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_074.jpg)
 
 **（3）理解 AI 的处理逻辑**
 
@@ -2498,15 +2498,15 @@ OpenClaw 会首先进行数据验证：
 
 1.借贷平衡检查
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_075.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_075.jpg)
 
 1 月：借方 1，250，000=贷方 1，250，000
 
-2 月：借方 1，180，000=贷方 1，180，000 ![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_076.jpg)
+2 月：借方 1，180，000=贷方 1，180，000 ![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_076.jpg)
 
 ......
 
-6 月：借方 1，450，000=贷方 1，450，000 ![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_077.jpg)
+6 月：借方 1，450，000=贷方 1，450，000 ![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_077.jpg)
 
 2.科目完整性检查
 
@@ -2566,11 +2566,11 @@ OpenClaw 会首先进行数据验证：
 
 **表 4-5 Excel 与 WPS Excel 的选择建议**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_078.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_078.jpg)
 
 （续）
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_079.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_079.jpg)
 
 OpenClaw 对两个工具都提供支持，你可以根据实际情况进行选择。
 
@@ -2604,7 +2604,7 @@ OpenClaw 会自动检测缺失情况，并给出处理建议。你可以根据�
 
 3）完整性检查的具体操作如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_080.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_081.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_080.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_081.jpg)
 
 **第二步：一致性检查**
 
@@ -2632,7 +2632,7 @@ OpenClaw 会识别出不一致的情况，并自动进行标准化处理。处�
 
 3）一致性检查的具体操作如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_082.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_083.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_082.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_083.jpg)
 
 **第三步：准确性检查**
 
@@ -2662,7 +2662,7 @@ OpenClaw 会用统计方法（如 3σ原则、IQR 方法）识别异常值，并
 
 3）准确性检查的具体操作如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_084.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_085.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_084.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_085.jpg)
 
 **第四步：有效性检查**
 
@@ -2690,7 +2690,7 @@ OpenClaw 支持自定义校验规则，你可以根据业务需求编写规则�
 
 3）有效性检查的具体操作如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_086.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_087.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_086.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_087.jpg)
 
 4）数据清洗的 Skill 调用。在 OpenClaw 中，你可以这样调用数据清洗功能：
 
@@ -2872,7 +2872,7 @@ OpenClaw 会自动生成透视表，并根据数据特点选择合适的图表�
 
 **3.透视表配置示例**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_088.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_089.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_088.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_089.jpg)
 
 **4.1.6 数据可视化实现方法**
 
@@ -2884,7 +2884,7 @@ OpenClaw 会自动生成透视表，并根据数据特点选择合适的图表�
 
 **表 4-6 不同数据关系对应的图表类型**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_090.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_090.jpg)
 
 选错图表类型是新手最常见的错误。比如用饼图展示 10 个以上的分类，或者用折线图展示没有连续关系的数据。OpenClaw 会根据数据特点自动推荐图表类型，但你也要理解背后的逻辑。
 
@@ -2986,7 +2986,7 @@ OpenClaw 会生成符合要求的图表，并自动应用设计原则。你也�
 
 **可视化配置示例**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_091.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_092.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_091.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_092.jpg)
 
 ### **4.2 PPT 智能生成工作流**
 
@@ -3024,7 +3024,7 @@ OpenClaw 会生成符合要求的图表，并自动应用设计原则。你也�
 
 7）总结：核心观点、需要的支持。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_093.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_093.jpg)
 
 **图 4-2 OpenClaw 生成 PPT 工作流**
 
@@ -3188,7 +3188,7 @@ OpenClaw 会根据你指定的 PPT 类型，自动应用对应的工作流模板
 
 **表 4-7 不同类型 PPT 选择速查表**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_094.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_094.jpg)
 
 **4.2.2 用 DeepSeek 生成 PPT 大纲**
 
@@ -3338,7 +3338,7 @@ OpenClaw 会自动调用 DeepSeek API，并在几秒内返回大纲。你可以
 
 **4.DeepSeek 调用配置示例**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_095.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_096.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_095.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_096.jpg)
 
 **4.2.3 用 Kimi 生成专业 PPT**
 
@@ -3456,7 +3456,7 @@ Kimi 会生成一个.pptx 文件，你可以下载后用 PowerPoint 或 WPS 打�
 
 **5.Kimi 调用配置示例**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_097.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_097.jpg)
 
 **4.2.4 数据分析图表的生成与整合**
 
@@ -3556,11 +3556,11 @@ OpenClaw 会自动打开 PPT、替换图片、调整布局、保存文件。
 
 **表 4-8 图表类型选择指南**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_098.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_098.jpg)
 
 （续）
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_099.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_099.jpg)
 
 OpenClaw 会根据你的描述自动选择合适的图表类型，但你也可以指定。
 
@@ -3580,7 +3580,7 @@ OpenClaw 会根据你的描述自动选择合适的图表类型，但你也可�
 
 **3.图表生成配置示例**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_100.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_101.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_100.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_101.jpg)
 
 **4.2.5 完整工作流实战：从数据到 PPT 的一站式生成**
 
@@ -3764,7 +3764,7 @@ OpenClaw 会自动完成图表嵌入和细节调整。
 
 **表 4-9 传统做法与 OpenClaw 一站式方案的时间对比**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_102.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_102.jpg)
 
 可以发现，从传统做法切换为 OpenClaw 方案，时间从 8 小时变成了 30 分钟，效率提升 16 倍。
 
@@ -3822,7 +3822,7 @@ OpenClaw 的本地知识库功能解决的正是这个问题。
 
 **表 5-1 本地知识库与云端知识库**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_103.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_103.jpg)
 
 从表 5-1 可以看出，本地知识库在数据安全和响应速度方面有明显优势，特别适合处理敏感文档和对实时性要求高的场景。而云端知识库在协作共享方面更有优势。实际使用中，可以根据文档的敏感程度选择合适的方案，或者结合使用两种方案。
 
@@ -3836,21 +3836,21 @@ OpenClaw 的本地知识库功能解决的正是这个问题。
 
 打开终端，输入以下命令以检查 OpenClaw 版本：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_104.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_104.jpg)
 
 如果版本过低，先执行更新：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_105.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_105.jpg)
 
 本地知识库需要读取你的文件系统，因此需要确保 OpenClaw 有足够的权限：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_106.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_106.jpg)
 
 **步骤二：安装文件读取 Skill**
 
 OpenClaw 通过 Skill 来实现文件读取功能。你需要安装以下核心 Skill：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_107.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_107.jpg)
 
 安装完成后，验证安装是否成功：
 
@@ -3878,7 +3878,7 @@ openclaw skill list
 
 编辑 OpenClaw 的配置文件（通常位于～/.openclaw/config.yaml）：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_108.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_109.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_110.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_108.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_109.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_110.jpg)
 
 这里有几个关键配置项需要详细说明：
 
@@ -3894,19 +3894,19 @@ openclaw skill list
 
 配置完成后，执行索引初始化命令：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_111.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_111.jpg)
 
 这个命令会扫描你指定的所有路径，读取符合条件的文档，并建立索引。根据文档数量和大小的不同，这个过程可能需要几分钟到几十分钟。
 
 索引建立完成后，你会看到类似这样的输出：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_112.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_113.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_112.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_113.jpg)
 
 **步骤五：测试知识库检索**
 
 索引建立完成后，先测试一下能否正常检索：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_114.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_114.jpg)
 
 如果配置正确，你会看到搜索结果，列出包含相关内容的文档片段。每个结果会显示：
 
@@ -3928,7 +3928,7 @@ openclaw skill list
 
 推荐的三层目录结构如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_115.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_115.jpg)
 
 这种结构的好处是：
 
@@ -3948,23 +3948,23 @@ openclaw skill list
 
 当有新文档加入时，不需要重新建立全部索引，使用增量更新即可：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_116.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_116.jpg)
 
 这个命令只会处理新增和修改过的文档，速度比全量更新快得多。建议设置为定时任务，每天自动更新：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_117.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_117.jpg)
 
 **（2）索引压缩**
 
 随着时间的推移，索引文件可能会变得很大。定期压缩索引可以节省空间：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_118.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_118.jpg)
 
 **（3）检索优化**
 
 如果发现检索结果不够准确，可以调整检索参数。编辑配置文件：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_119.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_120.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_119.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_120.jpg)
 
 调整这些参数可以显著改善检索效果。比如：
 
@@ -3978,13 +3978,13 @@ openclaw skill list
 
 对于重要文档，可以添加元数据标签，方便后续检索：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_121.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_121.jpg)
 
 **（5）索引性能监控**
 
 定期监控索引性能，及时发现和解决问题：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_122.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_123.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_122.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_123.jpg)
 
 **5.1.4 智能整理：批量文档处理**
 
@@ -3994,19 +3994,19 @@ openclaw skill list
 
 假设你有 10 份竞品分析报告，想快速提取每份报告的核心观点。传统做法是逐一打开、阅读、记录。用 OpenClaw，只需要一条命令：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_124.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_124.jpg)
 
 执行后，你会得到一个 CSV 文件，包含每份报告的提取结果，如表 5-2 所示。
 
 **表 5-2 报告提取结果示例**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_125.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_125.jpg)
 
 **场景二：自动归纳**
 
 更进一步，你可以让 AI 自动归纳多份文档的共同点：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_126.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_126.jpg)
 
 AI 会生成一份综合分析报告，帮你快速把握多份文档的要点。
 
@@ -4014,7 +4014,7 @@ AI 会生成一份综合分析报告，帮你快速把握多份文档的要点�
 
 最实用的场景是自动生成结构化报告。比如，让 AI 基于知识库生成一份季度工作总结：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_127.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_127.jpg)
 
 这个命令会：
 
@@ -4032,29 +4032,29 @@ OpenClaw 的批量处理功能非常灵活，以下是几个进阶用法。
 
 你可以定义一个完整的处理流程，让 AI 按步骤执行：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_128.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_129.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_128.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_129.jpg)
 
 执行这个工作流：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_130.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_130.jpg)
 
 **（2）定时自动处理**
 
 配合系统的定时任务功能，可以实现文档的自动整理。比如，每周五下午自动生成本周工作总结：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_131.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_131.jpg)
 
 **（3）与国产大模型联动**
 
 OpenClaw 支持调用多种国产大模型，你可以根据任务需求选择最合适的模型：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_132.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_133.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_132.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_133.jpg)
 
 不同国产大模型的特点见表 5-3。
 
 **表 5-3 不同国产大模型的特点对比**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_134.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_134.jpg)
 
 **5.1.5 常见问题排查**
 
@@ -4066,7 +4066,7 @@ OpenClaw 支持调用多种国产大模型，你可以根据任务需求选择�
 
 可能原因和解决方案：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_135.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_135.jpg)
 
 **问题二：检索结果为空或不准确**
 
@@ -4074,7 +4074,7 @@ OpenClaw 支持调用多种国产大模型，你可以根据任务需求选择�
 
 可能原因和解决方案：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_136.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_136.jpg)
 
 **问题三：检索速度慢**
 
@@ -4082,7 +4082,7 @@ OpenClaw 支持调用多种国产大模型，你可以根据任务需求选择�
 
 可能原因和解决方案：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_137.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_137.jpg)
 
 **问题四：特定格式文档无法读取**
 
@@ -4090,7 +4090,7 @@ OpenClaw 支持调用多种国产大模型，你可以根据任务需求选择�
 
 可能原因和解决方案：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_138.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_139.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_138.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_139.jpg)
 
 ### **5.2 职场公文自动化**
 
@@ -4114,7 +4114,7 @@ OpenClaw 支持调用多种国产大模型，你可以根据任务需求选择�
 
 **（2）调用分析写作 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_140.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_140.jpg)
 
 这个命令会：
 
@@ -4132,11 +4132,11 @@ AI 生成的报告是初稿，需要你审核关键数据、补充最新信息�
 
 如果对报告结构有特殊要求，可以使用自定义提示词模板：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_141.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_141.jpg)
 
 执行命令：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_142.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_142.jpg)
 
 **场景二：项目方案自动生成**
 
@@ -4148,17 +4148,17 @@ AI 生成的报告是初稿，需要你审核关键数据、补充最新信息�
 
 创建一个项目信息文件，包含方案需要的基本信息：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_143.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_144.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_143.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_144.jpg)
 
 **（2）调用方案生成 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_145.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_145.jpg)
 
 **（3）使用深度写作模式**
 
 对于重要方案，可以启用深度写作模式，让 AI 进行多轮思考和优化：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_146.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_146.jpg)
 
 启用深度模式后，第一轮生成初稿，第二轮检查逻辑漏洞、补充细节，第三轮优化表达、增强说服力。最终输出的方案质量会明显高于普通模式。
 
@@ -4170,13 +4170,13 @@ AI 生成的报告是初稿，需要你审核关键数据、补充最新信息�
 
 如果你的周报、项目文档都已经保存在知识库中，可以直接生成：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_147.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_147.jpg)
 
 **（2）基于飞书数据生成**
 
 如果你的工作数据在飞书多维表格中，可以联动生成：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_148.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_149.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_148.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_149.jpg)
 
 这个命令会读取飞书多维表格中的任务完成情况，自动生成工作总结。
 
@@ -4184,7 +4184,7 @@ AI 生成的报告是初稿，需要你审核关键数据、补充最新信息�
 
 如果你的工作数据在 Excel 中：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_150.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_150.jpg)
 
 **5.2.2 公文格式排版自动化**
 
@@ -4196,17 +4196,17 @@ AI 生成的报告是初稿，需要你审核关键数据、补充最新信息�
 
 **（1）安装 WPS 联动 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_151.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_151.jpg)
 
 **（2）配置排版规则**
 
 创建一个排版规则文件：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_152.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_153.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_152.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_153.jpg)
 
 **（3）执行自动排版**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_154.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_154.jpg)
 
 执行后，文档会自动按照规则完成排版，包括：
 
@@ -4226,27 +4226,27 @@ AI 生成的报告是初稿，需要你审核关键数据、补充最新信息�
 
 如果有多份文档需要统一排版，可以使用批量排版模式：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_155.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_155.jpg)
 
 OpenClaw 内置了几种常用的公文格式模板，见表 5-4。
 
 **表 5-4 常用的公文格式模板**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_156.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_156.jpg)
 
 使用模板排版的命令：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_157.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_157.jpg)
 
 如果内置模板不能满足需求，也可以创建自定义模板：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_158.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_159.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_158.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_159.jpg)
 
 **5.2.3 与飞书多维表格联动**
 
 飞书多维表格是很多团队的数据管理中心。OpenClaw 可以与飞书多维表格深度联动，实现数据到文档的自动化流转。在使用飞书联动功能前，需要先配置连接：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_160.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_160.jpg)
 
 获取飞书应用凭证的步骤如下：
 
@@ -4266,35 +4266,35 @@ OpenClaw 内置了几种常用的公文格式模板，见表 5-4。
 
 **（1）创建日报生成任务**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_161.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_161.jpg)
 
 这个任务会：每天 18:00 自动读取飞书多维表格中填写人今天填写的内容；按照日报模板生成格式化的日报文档；保存到指定目录。
 
 **（2）配置日报模板**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_162.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_163.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_162.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_163.jpg)
 
 **场景二：数据汇总报告**
 
 对于管理者，可以设置自动生成团队数据汇总报告：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_164.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_164.jpg)
 
 **场景三：进度追踪自动化**
 
 结合飞书的自动化流程，可以实现项目进度的自动追踪和提醒：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_165.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_166.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_165.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_166.jpg)
 
 执行这个追踪器：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_167.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_167.jpg)
 
 **场景四：审批流程自动化**
 
 将文档生成与飞书审批流程结合：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_168.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_169.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_168.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_169.jpg)
 
 ### **5.3 实操案例**
 
@@ -4326,21 +4326,21 @@ OpenClaw 内置了几种常用的公文格式模板，见表 5-4。
 
 **表 5-5 运营数据表**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_170.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_170.jpg)
 
 **（2）创建周报生成 Skill**
 
 创建一个自定义 Skill 配置文件：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_171.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_172.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_173.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_174.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_171.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_172.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_173.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_174.jpg)
 
 **（3）安装并注册 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_175.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_175.jpg)
 
 **（4）执行周报生成**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_176.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_176.jpg)
 
 执行后，你会得到一份完整的运营周报文档。
 
@@ -4348,11 +4348,11 @@ OpenClaw 内置了几种常用的公文格式模板，见表 5-4。
 
 让周报每周五下午自动生成：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_177.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_177.jpg)
 
 上面的模板是基础版，如果你想让周报更专业，可以使用这个优化版模板：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_178.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_179.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_180.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_178.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_179.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_180.jpg)
 
 **3.效果评估**
 
@@ -4372,21 +4372,21 @@ OpenClaw 内置了几种常用的公文格式模板，见表 5-4。
 
 不同类型的项目需要不同的方案结构。先创建几个常用模板：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_181.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_181.jpg)
 
 以产品开发方案为例，模板内容如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_182.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_183.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_182.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_183.jpg)
 
 **（2）创建方案生成工作流**
 
 创建一个完整的工作流配置文件：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_184.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_185.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_186.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_187.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_184.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_185.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_186.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_187.jpg)
 
 **（3）执行方案生成**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_188.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_188.jpg)
 
 **（4）人工审核和优化**
 
@@ -4406,7 +4406,7 @@ AI 生成的方案是初稿，需要你进行以下审核：
 
 AI 生成方案的质量很大程度上取决于你提供的背景信息。背景信息越详细，方案质量越高。好的背景信息示例如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_189.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_189.jpg)
 
 【现状】
 
@@ -4456,13 +4456,13 @@ AI 生成方案的质量很大程度上取决于你提供的背景信息。背�
 
 对于重要方案，不要期望一次生成完美，要进行迭代优化。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_190.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_190.jpg)
 
 **（3）使用深度思考模式**
 
 对于关键方案，可以启用 DeepSeek 的深度思考模式。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_191.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_191.jpg)
 
 深度思考模式会让 AI 进行多轮推理，生成的方案逻辑更严密、论证更充分。
 
@@ -4490,21 +4490,21 @@ AI 生成方案的质量很大程度上取决于你提供的背景信息。背�
 
 **（2）安装语音转文字 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_192.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_192.jpg)
 
 **（3）创建会议纪要整理工作流**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_193.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_194.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_195.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_193.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_194.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_195.jpg)
 
 **（4）执行会议纪要整理**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_196.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_196.jpg)
 
 **（5）同步到飞书**
 
 会议纪要生成后，可以自动同步到飞书：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_197.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_197.jpg)
 
 **3.待办事项提取技巧**
 
@@ -4512,19 +4512,19 @@ AI 生成方案的质量很大程度上取决于你提供的背景信息。背�
 
 **（1）使用专门的提取 Prompt**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_198.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_198.jpg)
 
 **（2）创建待办事项追踪表**
 
 将提取的待办事项同步到飞书多维表格，方便追踪。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_199.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_199.jpg)
 
 **（3）设置提醒**
 
 对待办事项设置自动提醒。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_200.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_200.jpg)
 
 ### **5.4 OpenClaw Skill 调用详解**
 
@@ -4536,23 +4536,23 @@ OpenClaw 的 Skill 分为几大类：文档处理、内容生成、格式处理�
 
 **表 5-6 文档处理类 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_201.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_201.jpg)
 
 **表 5-7 内容生成类 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_202.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_202.jpg)
 
 **表 5-8 格式处理类 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_203.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_203.jpg)
 
 **表 5-9 外部联动类 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_204.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_204.jpg)
 
 **表 5-10 知识库类 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_205.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_205.jpg)
 
 **5.4.2 Skill 调用方法**
 
@@ -4562,39 +4562,39 @@ OpenClaw 支持多种方法调用 Skill，适应不同的使用场景。
 
 最直接的方式是通过命令行调用。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_206.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_206.jpg)
 
 **方法二：配置文件调用**
 
 对于复杂的任务，可以使用配置文件。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_207.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_208.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_207.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_208.jpg)
 
 执行：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_209.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_209.jpg)
 
 **方法三：API 调用**
 
 如果你需要在程序中调用 Skill，可以使用 API。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_210.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_211.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_210.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_211.jpg)
 
 **方法四：工作流集成**
 
 对于需要多 Skill 协作的复杂任务，可以使用工作流。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_212.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_213.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_212.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_213.jpg)
 
 执行：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_214.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_214.jpg)
 
 不同 Skill 有不同的参数，但有一些通用参数，具体见表 5-11。
 
 **表 5-11 不同 Skill 对应参数表**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_215.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_215.jpg)
 
 **5.4.3 自定义 Skill 开发入门**
 
@@ -4614,25 +4614,25 @@ OpenClaw 支持多种方法调用 Skill，适应不同的使用场景。
 
 **（1）创建 Skill 目录结构**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_216.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_216.jpg)
 
 **（2）编写 Skill 定义文件**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_217.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_218.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_217.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_218.jpg)
 
 **（3）编写主逻辑**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_219.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_220.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_221.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_222.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_223.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_219.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_220.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_221.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_222.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_223.jpg)
 
 **（4）安装和测试 Skill**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_224.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_224.jpg)
 
 **（5）调试和优化**
 
 开发 Skill 时，调试是很重要的环节：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_225.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_225.jpg)
 
 ### **5.5 写作场景全覆盖**
 
@@ -4646,23 +4646,23 @@ OpenClaw 支持多种方法调用 Skill，适应不同的使用场景。
 
 写产品介绍时，最头疼的是如何既专业又吸引人。用 OpenClaw，你可以这样操作：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_226.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_226.jpg)
 
 进阶技巧：多版本生成
 
 不同的渠道需要不同风格的文案。让 AI 一次性生成多个版本的核心代码如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_227.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_227.jpg)
 
 执行：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_228.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_228.jpg)
 
 **场景二：社交媒体文案**
 
 社交媒体文案需要紧跟热点、抓住眼球。OpenClaw 可以帮你快速生成多个备选：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_229.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_229.jpg)
 
 输出示例：
 
@@ -4700,7 +4700,7 @@ OpenClaw 支持多种方法调用 Skill，适应不同的使用场景。
 
 邮件营销需要个性化和转化率。OpenClaw 可以帮你生成促销邮件：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_230.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_231.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_230.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_231.jpg)
 
 **营销文案提示词模板**
 
@@ -4790,7 +4790,7 @@ OpenClaw 支持多种方法调用 Skill，适应不同的使用场景。
 
 如果你用 Python 写 API，可以用 OpenClaw 自动生成 API 文档。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_232.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_233.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_232.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_233.jpg)
 
 这个命令会：
 
@@ -4802,7 +4802,7 @@ OpenClaw 支持多种方法调用 Skill，适应不同的使用场景。
 
 进阶用法：生成 Markdown 格式的 API 文档
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_234.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_234.jpg)
 
 生成的文档包含：
 
@@ -4820,13 +4820,13 @@ OpenClaw 支持多种方法调用 Skill，适应不同的使用场景。
 
 对于软件产品而言，用户手册是必不可少的。OpenClaw 可以根据产品信息生成使用手册。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_235.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_235.jpg)
 
 **场景三：技术方案自动生成**
 
 写技术方案是架构师的日常工作。OpenClaw 可以快速生成方案框架。
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_236.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_237.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_236.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_237.jpg)
 
 **技术文档写作提示词模板**
 
@@ -4944,15 +4944,15 @@ OpenClaw 支持多种方法调用 Skill，适应不同的使用场景。
 
 **场景一：产品发布新闻稿**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_238.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_238.jpg)
 
 **场景二：危机公关声明**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_239.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_239.jpg)
 
 **场景三：企业宣传文案**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_240.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_240.jpg)
 
 **新闻稿写作提示词模板**
 
@@ -5004,23 +5004,23 @@ OpenClaw 支持多种方法调用 Skill，适应不同的使用场景。
 
 **场景一：邮件模板**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_241.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_241.jpg)
 
 **场景二：演讲稿**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_242.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_242.jpg)
 
 **场景三：简历**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_243.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_243.jpg)
 
 **场景四：合同**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_244.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_244.jpg)
 
 **场景五：培训材料**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_245.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_245.jpg)
 
 ### **5.6 本章小结**
 
@@ -5070,7 +5070,7 @@ Skill 调用详解部分，我们深入了解了 OpenClaw 的 Skill 体系，学
 
 **表 6-1** **赞粉比判断表**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_246.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_246.jpg)
 
 为什么低粉爆款最值得追？
 
@@ -5230,7 +5230,7 @@ Skill 调用详解部分，我们深入了解了 OpenClaw 的 Skill 体系，学
 
 **表 6-2** **小红书标题公式**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_247.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_247.jpg)
 
 **2.用豆包批量生成标题**
 
@@ -5368,7 +5368,7 @@ Skill 调用详解部分，我们深入了解了 OpenClaw 的 Skill 体系，学
 
 **表 6-3** **适合制作小红书封面的 AI 工具**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_248.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_248.jpg)
 
 **3.用 AI 生成封面的完整流程**
 
@@ -5504,7 +5504,7 @@ Skill 调用详解部分，我们深入了解了 OpenClaw 的 Skill 体系，学
 
 **表 6-4** **防封号五大策略**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_249.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_249.jpg)
 
 ### **6.3** **实操案例：搭建小红书自动化工作流**
 
@@ -5520,7 +5520,7 @@ Skill 调用详解部分，我们深入了解了 OpenClaw 的 Skill 体系，学
 
 **表 6-5** **工作流**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_250.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_250.jpg)
 
 **2.配置步骤**
 
@@ -5584,7 +5584,7 @@ Skill 调用详解部分，我们深入了解了 OpenClaw 的 Skill 体系，学
 
 **表 6-6** **人工找对标成本**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_251.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_251.jpg)
 
 **1.自动化成本**
 
@@ -5666,7 +5666,7 @@ Skill 调用详解部分，我们深入了解了 OpenClaw 的 Skill 体系，学
 
 **表 8-1 AI 自动回复的三大核心价值**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_252.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_252.jpg)
 
 **价值一：秒级响应，抓住黄金 3 秒**
 
@@ -5714,7 +5714,7 @@ AI 的每一句话都是经过精心设计的标准话术。它不会因为今�
 
 **表 8-2 高转化回复三原则**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_253.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_253.jpg)
 
 **原则一：先共情，再解答**
 
@@ -5736,7 +5736,7 @@ AI 的每一句话都是经过精心设计的标准话术。它不会因为今�
 
 **表 8-3 具体功能及说明**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_254.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_254.jpg)
 
 **4.测试优化——让系统持续优化迭代**
 
@@ -5756,7 +5756,7 @@ AI 的每一句话都是经过精心设计的标准话术。它不会因为今�
 
 **表 8-4 话术设计原则**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_255.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_255.jpg)
 
 **原则一：3 秒原则**
 
@@ -5860,7 +5860,7 @@ AI 可以记住每一个客户的详细信息——什么时候加的、买过�
 
 **表 8-5 客户分层策略表**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_256.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_256.jpg)
 
 **第一层：基础标签**
 
@@ -6008,7 +6008,7 @@ AI 可以帮你解决这个问题。它能像经验丰富的销售一样，快�
 
 **表 8-6 线索筛选维度**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_257.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_257.jpg)
 
 **2.AI 自动筛选的工作流程**
 
@@ -6048,7 +6048,7 @@ AI 可以帮你解决这个问题。它能像经验丰富的销售一样，快�
 
 **表 8-7 意向打分等级表**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_258.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_258.jpg)
 
 **8.3.2 智能跟进策略**
 
@@ -6120,7 +6120,7 @@ AI 可以识别这些成交信号：
 
 **表 8-8 常见异议及应对策略**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_259.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_259.jpg)
 
 **3.临门一脚：促成成交的话术**
 
@@ -6150,7 +6150,7 @@ RAG 的全称是 Retrieval-Augmented Generation，翻译成中文是“检索�
 
 **表 8-9 RAG 入库流程**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_260.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_260.jpg)
 
 **8.4.3 知识库搭建实战**
 
@@ -6302,7 +6302,7 @@ AI 自动成交系统的成本，主要由三部分组成：大模型 API 调用
 
 **表 8-10 三大国产大模型 API 成本对比**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_261.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_261.jpg)
 
 **3.用你熟悉的参照物来理解这些数字**
 
@@ -6316,7 +6316,7 @@ AI 自动成交系统的成本，主要由三部分组成：大模型 API 调用
 
 **表 8-11 不同规模企业使用 AI 销冠的成本预估表**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_262.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_262.jpg)
 
 **8.5.4 ROI 计算框架**
 
@@ -6356,11 +6356,11 @@ AI 自动成交系统的成本，主要由三部分组成：大模型 API 调用
 
 **表 8-12 人类销冠与 AI 销冠**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_263.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_263.jpg)
 
 （续）
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_264.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_264.jpg)
 
 AI 销冠的“月薪”大约是人类销冠的 1/30 到 1/40，却能处理相当于 4～5 个人的工作量，而且是 7×24 小时不间断。
 
@@ -6432,7 +6432,7 @@ Seedance 2.0 支持多模态参考——最多可以上传 9 张图片、3 段�
 
 **表 7-1 Seedance 2.0 的四大核心能力**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_265.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_265.jpg)
 
 **突破一：自分镜与自运镜——AI 学会了“导演思维”**
 
@@ -6470,7 +6470,7 @@ Seedance 2.0 的每一项核心能力都直指“商业可用”这个终极目
 
 **表 7-2 接入 Seedance 2.0 的四大方式**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_266.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_266.jpg)
 
 **方式一：即梦平台（推荐）**
 
@@ -6522,7 +6522,7 @@ Seedance 2.0 的每一项核心能力都直指“商业可用”这个终极目
 
 **表 7-3 FABE 话术结构**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_267.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_267.jpg)
 
 **1.基于 FABE 结构的脚本提示词模板**
 
@@ -6538,7 +6538,7 @@ Seedance 2.0 的每一项核心能力都直指“商业可用”这个终极目
 
 **表 7-4 多风格脚本示例**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_268.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_268.jpg)
 
 **（1）激情型（适用于带货、励志类）**
 
@@ -6586,7 +6586,7 @@ Seedance 2.0 输出：
 
 **表 7-5 分镜示例**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_269.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_269.jpg)
 
 **7.2.4 不同短视频平台对比分析**
 
@@ -6594,7 +6594,7 @@ Seedance 2.0 输出：
 
 **表 7-6 各大短视频平台的推荐机制**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_270.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_270.jpg)
 
 **1.平台策略差异详解**
 
@@ -6614,7 +6614,7 @@ Seedance 2.0 输出：
 
 **表 7-7 短视频流量池升级机制**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_271.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_271.jpg)
 
 **7.2.5 OpenClaw 工作流：一键跑通全流程**
 
@@ -6624,7 +6624,7 @@ Seedance 2.0 输出：
 
 用 OpenClaw 实现这个工作流的核心代码：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_272.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_272.jpg)
 
 这个工作流可以设置定时执行，例如每天早上 8 点给你推送当天的选题建议和配套脚本。
 
@@ -6700,7 +6700,7 @@ Seedance 2.0 支持以下运镜类型，见表 7-8。
 
 **表 7-8 运镜类型及适用场景**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_273.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_273.jpg)
 
 **第四步：生成视频**
 
@@ -6722,17 +6722,17 @@ Seedance 2.0 支持以下运镜类型，见表 7-8。
 
 **第二步：Python SDK 调用**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_274.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_274.jpg)
 
 **第三步：异步任务处理**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_275.jpg)![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_276.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_275.jpg)![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_276.jpg)
 
 **7.3.5 OpenClaw 工作流集成**
 
 把 Seedance 2.0 接入 OpenClaw，可以实现从选题到成片的完整自动化，核心代码如下：
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_277.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_277.jpg)
 
 **7.3.6 带货视频专场：让产品自己说话**
 
@@ -6782,7 +6782,7 @@ Seedance 2.0 支持以下运镜类型，见表 7-8。
 
 **表 7-9 四大平台打法**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_278.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_278.jpg)
 
 **3.内容模块化：一人管多号的底层架构**
 
@@ -6790,7 +6790,7 @@ Seedance 2.0 支持以下运镜类型，见表 7-8。
 
 **表 7-10 不同模块对应的内容**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_279.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_279.jpg)
 
 内容模块化完成后，每次创作就不再是从零开始，而是“搭积木”——从素材库中调取组件，按模板组装，最后微调以适配具体平台。
 
@@ -6866,7 +6866,7 @@ Seedance 2.0 支持以下运镜类型，见表 7-8。
 
 **表 7-11 传统团队和 AI 自动化方案的视频制作效率对比**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_280.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_280.jpg)
 
 这意味着什么？
 
@@ -6948,7 +6948,7 @@ Seedance 2.0 支持以下运镜类型，见表 7-8。
 
 **表 9-1** **传统思维和 AI 思维的区别**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_281.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_281.jpg)
 
 传统思维：我亲自做→我做得好→我做得快。
 
@@ -6972,7 +6972,7 @@ AI 思维：我定义任务→AI 执行→我审核结果。
 
 **表 9-2** **适合 AI 做的任务的特征**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_282.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_282.jpg)
 
 **9.2.2** **从单点突破到系统搭建**
 
@@ -7022,7 +7022,7 @@ AI 军团的组建不是一蹴而就的，需要分阶段推进。
 
 **表 9-3** **AI 军团必备的数字员工**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_283.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_283.jpg)
 
 每个数字员工都有自己的专长，你需要根据任务特点，分配给最合适的 AI。
 
@@ -7102,7 +7102,7 @@ AI 军团在内容创作上的分工如表 9-4 所示。
 
 **表 9-4** **AI 军团如何完成内容创作**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_284.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_284.jpg)
 
 **2.搭建步骤**
 
@@ -7164,7 +7164,7 @@ AI 军团在内容创作上的分工如表 9-4 所示。
 
 **表 9-5** **传统方式和 AI 军团方式的效果对比**
 
-![](img/OpenClaw实战指南：零基础打造会干活的AI数字员工_image_285.jpg)
+![](img/OpenClaw-实战指南：零基础打造会干活的-AI-数字员工_image_285.jpg)
 
 ### **9.5** **本章小结**
 

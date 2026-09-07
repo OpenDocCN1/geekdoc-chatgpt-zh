@@ -52,11 +52,11 @@ ChatGPT 是一款基于深度学习技术的自然语言处理模型，其采纳
 
 接下来新建会话界面，读者可以直接在下方输入框中与 ChatGPT 进行对话，如图 A-2 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_000.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_000.jpg)
 
 ▲图 A-1
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_001.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_001.jpg)
 
 ▲图 A-2
 
@@ -74,15 +74,15 @@ ChatGPT 是一款基于深度学习技术的自然语言处理模型，其采纳
 
 **（1）注册和登录 ChatGPT**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_002.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_002.jpg)
 
 打开 ChatGPT 的官网，如图 A-3 所示。单击左下方的即可进入 ChatGPT 的登录界面，用户按照步骤进行注册和登录即可，如图 A-4 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_003.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_003.jpg)
 
 ▲图 A-3
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_004.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_004.jpg)
 
 ▲图 A-4
 
@@ -92,19 +92,19 @@ ChatGPT 是一款基于深度学习技术的自然语言处理模型，其采纳
 
 ① **对话：**ChatGPT 可以用于与人类进行对话。比如，用户可以与它进行交谈、分享观点，向它提出问题、寻求建议等，它会根据输入内容生成相应的答案，如图 A-5 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_005.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_005.jpg)
 
 图 A-5
 
 ② **创意生成：**如果用户需要一些创意或灵感，可以向 ChatGPT 3.5 提出相关的问题或主题，它会尝试给出有趣的创意想法，如图 A-6 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_006.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_006.jpg)
 
 图 A-6
 
 ③ **文本生成：**ChatGPT 可以根据用户提供的文本或主题生成相关的文本内容，如故事、文章、诗歌等，如图 A-7 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_007.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_007.jpg)
 
 图 A-7
 
@@ -122,13 +122,13 @@ Midjourney 是一款人工智能绘图辅助工具，它能够仅凭关键词在
 
 与 Imagen 和 DALL·E 相比，Midjourney 是向大众开放的，可供用户自由使用并迅速生成人工智能绘制的画作。例如，当用户输入“一棵长着立方体形状桃子的树”这样的信息时，系统会提供 4 幅相关图像供用户挑选，如图 A-8 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_008.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_008.jpg)
 
 图 A-8
 
 Midjourney 的配置方法比较简单，互联网上也有相关的教程，读者可以搜索并按照步骤配置。下面介绍 Midjourney 的界面组成，如图 A-9 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_009.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_009.jpg)
 
 图 A-9
 
@@ -150,7 +150,7 @@ Midjourney 的配置方法比较简单，互联网上也有相关的教程，读
 
 Stable Diffusion 是一款人工智能绘图工具，它能够通过模拟扩散过程将含噪声的图像转化为精确的目标图像。该工具能够依据用户提供的文本信息，自动生成高质量、高分辨率且视觉效果卓越的多样化图像。Stable Diffusion 提供了图像修复、分辨率增强以及图像风格调整等多项功能，可以帮助设计师获取广泛的创意灵感，从而更好地实现创意构思。Stable Diffusion 的界面如图 A-10 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_010.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_010.jpg)
 
 图 A-10
 
@@ -158,11 +158,11 @@ Stable Diffusion 是一款人工智能绘图工具，它能够通过模拟扩�
 
 目前，我方尚未配备可供拍摄的专业模特，仅持有服装样品。按照常规操作流程，若需获得模特着装照片，需邀请模特与摄影师协作，经历拍摄及后期制作等多个环节方能制作出所需图像。然而随着技术的进步，该流程已被极大地简化。现仅需提供服装照片，借助人工智能技术即可生成多种风格的模特图像，并实现图像的批量制作。这不仅大幅节约了时间，还显著降低了工作强度。示意效果如图 A-11 和图 A-12 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_011.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_011.jpg)
 
 ▲图 A-11 原始照片
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_012.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_012.jpg)
 
 ▲图 A-12 经过 AI 处理的模特着装照片
 
@@ -186,7 +186,7 @@ AIGC 的全称为 Artificial Intelligence Game Creation，也就是人工智�
 
 值得注意的是，内容生态的发展经历了 4 个阶段：专家生成内容（PGC）、用户生成内容（UGC）、AI 辅助生成内容（AIUGC）以及 AI 生成内容（AIGC），如图 1-1 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_013.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_013.jpg)
 
 图 1-1
 
@@ -202,7 +202,7 @@ AIGC：该概念指的是利用人工智能技术来自动生成文本、图像�
 
 AI 技术在当前社会中的应用潜力巨大，尤其体现在电子商务领域。其能创造许多创新方式，极大地提升用户的购物体验。下面将阐述几个 AI 技术在电子商务领域的具体运用。采用 AI 技术创作的插图如图 1-2 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_014.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_014.jpg)
 
 图 1-2
 
@@ -232,85 +232,85 @@ Midjourney 位于一个通讯应用 Discord 中，其使用流程极为便捷，
 
 **1. 注册**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_015.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_015.jpg)
 
 **01**在浏览器中搜索 Discord 官网，单击右上角的 Login（登录）按钮，如图 1-3 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_016.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_016.jpg)
 
 图 1-3
 
 **02** 如果有账号，直接登录即可。如果没有账号，单击“注册”，如图 1-4 所示。注意，如果想避免每次都需要登录的问题，可以直接下载安装包进行安装。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_017.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_017.jpg)
 
 图 1-4
 
 **03** 注册的时候有些注意事项，尤其是年龄必须大于 14 岁。同时有两次人机验证，且需要确保手机能接通，可以选用+86 的号码。另外，注册成功前还需要在邮箱中进行确认。注册页面如图 1-5~图 1-8 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_018.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_018.jpg)
 
 ▲图 1-5
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_019.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_019.jpg)
 
 ▲图 1-6
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_020.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_020.jpg)
 
 ▲图 1-7
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_021.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_021.jpg)
 
 ▲图 1-8
 
 **04** 注册好以后需要创建服务器，也可以用朋友的邀请码进入服务器。如果没有收到邀请，那就只能自己创建服务器了。创建过程页面如图 1-9~图 1-11 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_022.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_022.jpg)
 
 ▲图 1-9
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_023.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_023.jpg)
 
 ▲图 1-10
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_024.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_024.jpg)
 
 ▲图 1-11
 
 **2. 在 Discord 中嵌入 Midjourney**
 
-**01** 添加 Midjourney 公共社区。打开 Discord，单击左边的“指南针”图标 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_025.jpg)，然后单击“特色社区”中的 Midjourney，即可进入 Midjourney 的公共社区。此时在 announcements 处可以看到很多关于版本变化和通知的信息，在 daily-theme 中可以看到很多社区中其他创作者的 AI 作品。页面显示如图 1-12 和图 1-13 所示。
+**01** 添加 Midjourney 公共社区。打开 Discord，单击左边的“指南针”图标 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_025.jpg)，然后单击“特色社区”中的 Midjourney，即可进入 Midjourney 的公共社区。此时在 announcements 处可以看到很多关于版本变化和通知的信息，在 daily-theme 中可以看到很多社区中其他创作者的 AI 作品。页面显示如图 1-12 和图 1-13 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_026.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_026.jpg)
 
 ▲图 1-12
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_027.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_027.jpg)
 
 ▲图 1-13
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_028.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_028.jpg)
 
-**02** 在 Midjourney 的公共社区的右上角单击“显示成员名单” ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_029.jpg)，然后单击右侧列表中的 Midjourney Bot，接着单击“添加至服务器”，选择刚刚创建的服务器名称，即可将 Midjourney Bot 添加到服务器中，如图 1-14 所示。
+**02** 在 Midjourney 的公共社区的右上角单击“显示成员名单” ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_029.jpg)，然后单击右侧列表中的 Midjourney Bot，接着单击“添加至服务器”，选择刚刚创建的服务器名称，即可将 Midjourney Bot 添加到服务器中，如图 1-14 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_030.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_030.jpg)
 
 图 1-14
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_031.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_031.jpg)
 
 **03** 订阅会员。在聊天框中输入/subscrib，然后按 Enter 键，单击 Manage Account（管理账户）进入订阅会员的界面，如图 1-15~图 1-17 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_032.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_032.jpg)
 
 ▲图 1-15
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_033.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_033.jpg)
 
 ▲图 1-16
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_034.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_034.jpg)
 
 ▲图 1-17
 
@@ -318,7 +318,7 @@ Midjourney 位于一个通讯应用 Discord 中，其使用流程极为便捷，
 
 Midjourney 现在和社区聊天服务器绑定在一起，操作起来就像使用聊天工具一样。其操作界面如图 1-18 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_035.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_035.jpg)
 
 图 1-18
 
@@ -328,7 +328,7 @@ Midjourney 现在和社区聊天服务器绑定在一起，操作起来就像使
 
 ③ 常规设置：频道社区内容可根据个人需求进行调整，同时也能搜索到自己需要的信息。一般来说，只需单击右侧的图标，就能查看频道的管理设置。
 
-④ 服务器设定：单击 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_036.jpg)后，可以进行个人资料设置，包括照片上传、名字修改，以及隐私和安全设置。
+④ 服务器设定：单击 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_036.jpg)后，可以进行个人资料设置，包括照片上传、名字修改，以及隐私和安全设置。
 
 ⑤ 对话生成区域：用户在发送提示词后，生成的图像将会在此区域展示。
 
@@ -344,11 +344,11 @@ boy --s 750 --v 5.2
 
 如果有图片刚好符合需求，就可以使用 U1~U4 来放大图片，对应图片的顺序为“从左到右，从上到下”。例如，现在想放大左上的图片，选择 U1 即可将其放大，如图 1-20 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_037.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_037.jpg)
 
 ▲图 1-19
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_038.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_038.jpg)
 
 ▲图 1-20
 
@@ -360,7 +360,7 @@ boy --s 750 --v 5.2
 
 A boy with blue hair and green eyes,flat illustration
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_039.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_039.jpg)
 
 图 1-21
 
@@ -390,13 +390,13 @@ Stable Diffusion 虽为实用工具，但对计算机配置有特定要求。
 
 此外，影响 AI 绘画效率的另一个关键因素是显存，它主要影响绘制图像的大小。简单来说，如果显存不足，可能无法绘制清晰度较高的图像。另外，显存还会影响同时训练的模型数量。这个问题较为复杂，如果笔者希望能轻松地进行模型训练，建议使显存大于 8GB。图 1-22 所示为各型号显卡运行 Stable Diffusion 时的性能对比，读者可以直观感受并选择适合自己的显卡。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_040.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_040.jpg)
 
 图 1-22
 
 如果读者认为这些信息过于复杂，笔者在此提供一份较为实用的计算机配置清单。该清单标明了笔者认为的基本配置和推荐配置，读者可以根据自己的实际情况进行对比和选择，如图 1-23 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_041.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_041.jpg)
 
 图 1-23
 
@@ -406,33 +406,33 @@ Stable Diffusion 虽为实用工具，但对计算机配置有特定要求。
 
 **01** 解压 sd-webui-aki-v4.1.zip 压缩包。如果读者使用的该文件已经升级到 4.2 版本，可以直接使用 4.2 版本进行操作。操作方法与书中的 4.1 版本的操作方法一致，如图 1-25 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_042.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_042.jpg)
 
 ▲图 1-24
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_043.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_043.jpg)
 
 ▲图 1-25
 
 **02** 在解压后的文件中双击“A 启动器.exe”，如图 1-26 所示。安装过程如图 1-27 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_044.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_044.jpg)
 
 ▲图 1-26
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_045.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_045.jpg)
 
 ▲图 1-27
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_046.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_046.jpg)
 
 **03** 打开安装好的文件，单击“一键启动”按钮，如图 1-28 所示。此时会有页面展示在计算机默认的浏览器中，这就代表启动成功，如图 1-29 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_047.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_047.jpg)
 
 ▲图 1-28
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_048.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_048.jpg)
 
 ▲图 1-29
 
@@ -448,47 +448,47 @@ Stable Diffusion 虽为实用工具，但对计算机配置有特定要求。
 
 进入“青椒云”云桌面官网，在弹出的注册页面中完成账号注册，如图 1-30 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_049.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_049.jpg)
 
 图 1-30
 
 **02** 注册成功后，在完成页面中可直接下载云桌面客户端，如图 1-31 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_050.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_050.jpg)
 
 图 1-31
 
 **03** 在“下载”栏中选择与读者所用计算机系统匹配的客户端，如图 1-32 和图 1-33 所示。读者使用的计算机如果是 Windows 系统，就下载 Windows 云桌面客户端；如果是 Mac 系统，就下载 Mac 云桌面客户端。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_051.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_051.jpg)
 
 ▲图 1-32
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_052.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_052.jpg)
 
 ▲图 1-33
 
 **04** 下载完成并安装云桌面客户端，然后登录，接着根据软件界面提示，完成实名认证，如图 1-34 和图 1-35 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_053.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_053.jpg)
 
 ▲图 1-34
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_054.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_054.jpg)
 
 ▲图 1-35
 
 **05** 在软件界面中单击“新增云桌面”，并在弹出的产品中选择“华南”，添加云桌面，在“标准产品”中选择“AIGC 尝鲜”，如图 1-36~图 1-38 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_055.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_055.jpg)
 
 ▲图 1-36
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_056.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_056.jpg)
 
 ▲图 1-37
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_057.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_057.jpg)
 
 ▲图 1-38
 
@@ -496,55 +496,55 @@ Stable Diffusion 虽为实用工具，但对计算机配置有特定要求。
 
 定制产品栏还有与各种博主合作的镜像包，预装了 Stable Diffusion、模型、插件等，使用比较方便。其中有包天、包月、计时等多种计费方式，读者根据自身需求选择即可，如图 1-39 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_058.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_058.jpg)
 
 图 1-39
 
 **06** 此时在界面中可见自己添加完成的云桌面，通过“开机”即可开始使用，如图 1-40 和图 1-41 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_059.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_059.jpg)
 
 ▲图 1-40
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_060.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_060.jpg)
 
 ▲图 1-41
 
 **07** 开机完成后，进入云桌面正常使用即可，如图 1-42 和图 1-43 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_061.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_061.jpg)
 
 ▲图 1-42
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_062.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_062.jpg)
 
 ▲图 1-43
 
 **08** 如果需要退出云桌面，在顶部断开链接即可，如图 1-44 和图 1-45 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_063.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_063.jpg)
 
 ▲图 1-44
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_064.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_064.jpg)
 
 ▲图 1-45
 
 **09** 返回青椒云云桌面系统后，在个人云桌面上关机，如图 1-46~图 1-49 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_065.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_065.jpg)
 
 ▲图 1-46
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_066.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_066.jpg)
 
 ▲图 1-47
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_067.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_067.jpg)
 
 ▲图 1-48
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_068.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_068.jpg)
 
 ▲图 1-49
 
@@ -558,27 +558,27 @@ Stable Diffusion 虽为实用工具，但对计算机配置有特定要求。
 
 **01** 在青椒云云桌面上使用网盘功能，如图 1-50 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_069.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_069.jpg)
 
 图 1-50
 
 **02** 在网盘界面中选择本地资源并上传，如图 1-51 和图 1-52 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_070.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_070.jpg)
 
 ▲图 1-51
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_071.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_071.jpg)
 
 ▲图 1-52
 
 **03** 上传完成后，进入云桌面内部，使用“青椒云盘”完成网盘的添加，如图 1-53 和图 1-54 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_072.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_072.jpg)
 
 ▲图 1-53
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_073.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_073.jpg)
 
 ▲图 1-54
 
@@ -590,163 +590,163 @@ Stable Diffusion 虽为实用工具，但对计算机配置有特定要求。
 
 **01** 打开 AutoDL AI 算力云官网，如图 1-55 所示。在这里可以直接使用微信进行登录，注意填写手机信息，如图 1-56 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_074.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_074.jpg)
 
 ▲图 1-55
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_075.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_075.jpg)
 
 ▲图 1-56
 
 **02** 登录之后在“控制台”中进行充值，如图 1-57 所示。因为这里需要使用第三方服务器，所以功能是付费的，如图 1-58 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_076.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_076.jpg)
 
 ▲图 1-57
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_077.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_077.jpg)
 
 ▲图 1-58
 
 **03** 回到“控制台”的主页单击“进行中”，如图 1-59 所示。选择“租用新实例”，如图 1-60 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_078.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_078.jpg)
 
 ▲图 1-59
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_079.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_079.jpg)
 
 ▲图 1-60
 
 **04** 进入“创建实例”页面，如图 1-61 所示。这里有按量计费、包日、包周、包月等计费方式，读者根据自己的需要选择即可，笔者演示按量计费，如图 1-62 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_080.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_080.jpg)
 
 ▲图 1-61
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_081.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_081.jpg)
 
 ▲图 1-62
 
 **05** 选择地区，这里没有硬性要求，如图 1-63 所示。如果没有合适的服务器，任意选一个也是可以的。注意，这里的地区指官方的服务器所在地，通常选择读者当地所在范围或距离较近地区即可。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_082.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_082.jpg)
 
 图 1-63
 
 **06** 选择 GPU 型号和数量，建议将所有 CPU 型号都勾选上，GPU 数量选择 1 即可，如图 1-64 所示。如果需要高性能，读者可以将 CPU 数量选择得高一点。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_083.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_083.jpg)
 
 图 1-64
 
 **07** 选择主机，根据自身需求选择配置即可。注意，显存越大越好，空闲 GPU 中的 1/4 表示一共有 4 台同种计算机，目前还剩下一台可以使用，同样如果分子为 0，则表示没有可用计算机。笔者的选择如图 1-65 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_084.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_084.jpg)
 
 图 1-65
 
 **08** 选择社区镜像，如图 1-66 所示。在文本输入框中输入 nov，然后使用下载次数最多的镜像，如图 1-67 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_085.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_085.jpg)
 
 ▲图 1-66
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_086.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_086.jpg)
 
 ▲图 1-67
 
 **09** 选择开始创建镜像，完成后的显示状态如图 1-68 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_087.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_087.jpg)
 
 图 1-68
 
 **10** 开机之后选择 JupyterLab，如图 1-69 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_088.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_088.jpg)
 
 图 1-69
 
 **11** 此时会打开一个新的网页，将鼠标指针移动到蓝色的框中，单击左边的蓝色条，然后运行程序，如图 1-70 所示。运行之后蓝色的框中会显示“移动完成”，如图 1-71 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_089.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_089.jpg)
 
 ▲图 1-70
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_090.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_090.jpg)
 
 ▲图 1-71
 
 **12** 单击右上角的 Python 3(ipykernel)，如图 1-72 所示。如果没有出现这个英文，可以刷新一下页面。在弹出的对话框中选择 xl_env，如图 1-73 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_091.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_091.jpg)
 
 ▲图 1-72
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_092.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_092.jpg)
 
 ▲图 1-73
 
 **13** 回到主程序页面，将鼠标指针移动到下面的蓝色框中，然后运行程序，如图 1-74 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_093.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_093.jpg)
 
 图 1-74
 
 **14** 运行后下方会出现选项栏，这里选择“启动 WebUI”，如图 1-75 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_094.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_094.jpg)
 
 图 1-75
 
 **15** 继续向下拉动页面，选择需要开启的参数，然后继续运行 WebUI，如图 1-76 所示。代码运行完后，可以看到 IP 编号，即表示部署成功，如图 1-77 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_095.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_095.jpg)
 
 ▲图 1-76
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_096.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_096.jpg)
 
 ▲图 1-77
 
 **16** 回到主页，选择“自定义服务”，如图 1-78 所示。注意，这里需要认证信息，按要求处理即可，如图 1-79 所示。认证成功后会打开 WebUI 页面，如图 1-80 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_097.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_097.jpg)
 
 ▲图 1-78
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_098.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_098.jpg)
 
 ▲图 1-79
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_099.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_099.jpg)
 
 ▲图 1-80
 
 **17** 如果此时弹出的是图 1-81 所示提示内容，就需要单独操作了。这里先说明 Windows 系统，需要将压缩包下载到本地计算机中。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_100.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_100.jpg)
 
 图 1-81
 
 **18** 解压后打开 AutoDL.exe 文件，如图 1-82 所示。这时会弹出一个对话框，将网页中的指令和密码复制并粘贴到对话框中，即可开始代理，如图 1-83 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_101.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_101.jpg)
 
 ▲图 1-82
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_102.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_102.jpg)
 
 ▲图 1-83
 
 **19** 单击本地主机号，进入 WebUI 页面，如图 1-84 所示。页面效果如图 1-85 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_103.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_103.jpg)
 
 ▲图 1-84
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_104.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_104.jpg)
 
 ▲图 1-85
 
@@ -758,27 +758,27 @@ Stable Diffusion 虽为实用工具，但对计算机配置有特定要求。
 
 **21** 复制并粘贴后按 Enter 键，第 1 次会有询问，输入 yes 即可，按 Enter（回车）键表示同意，如图 1-87 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_105.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_105.jpg)
 
 ▲图 1-86
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_106.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_106.jpg)
 
 ▲图 1-87
 
 **22** 再次回到提示页面，复制密码并粘贴到终端上，如图 1-88 和图 1-89 所示。注意，粘贴过程中可能什么内容都不会显示，这是正常现象。如果没有成功，那就手动输入密码，手动输入同样不会显示内容。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_107.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_107.jpg)
 
 ▲图 1-88
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_108.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_108.jpg)
 
 ▲图 1-89
 
 **23** 回到访问服务页面，单击本地主机地址，即可打开 WebUI 主页，如图 1-90 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_109.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_109.jpg)
 
 图 1-90
 
@@ -786,37 +786,37 @@ Stable Diffusion 虽为实用工具，但对计算机配置有特定要求。
 
 大家在实施云端部署的过程中，必须妥善保存自行创建的图像，且在不使用时记得关闭系统。否则，将根据使用时间进行计费。如果选择了包月等计费方案，可根据个人实际情况自行决定。另外，系统关闭后，数据会保留 15 天。如果在这 15 天内未继续使用，数据将被清除以供其他用户使用。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_110.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_110.jpg)
 
 ### **1.3.3 Stable Diffusion 用户界面**
 
 Stable Diffusion 作为新的生产工具，有着比较强的可控性。下面将简单介绍其工作界面，如图 1-91 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_111.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_111.jpg)
 
 图 1-91
 
 下面这一整排的标签栏对应 Stable Diffusion 的不同功能，如图 1-92 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_112.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_112.jpg)
 
 图 1-92
 
 平时绘图比较常用的功能为“文生图”“图生图”，如图 1-93 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_113.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_113.jpg)
 
 图 1-93
 
 “设置”中包含与绘图相关的参数，如保存图片的位置、采样参数等，如图 1-94 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_114.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_114.jpg)
 
 图 1-94
 
 “扩展”中主要提供安装和管理一些其他插件的功能，如图 1-95 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_115.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_115.jpg)
 
 图 1-95
 
@@ -824,7 +824,7 @@ Stable Diffusion 作为新的生产工具，有着比较强的可控性。下�
 
 **01** 选择一个 Stable Diffusion 的模型，如图 1-96 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_116.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_116.jpg)
 
 图 1-96
 
@@ -834,11 +834,11 @@ Stable Diffusion 作为新的生产工具，有着比较强的可控性。下�
 
 **02** 在模型管理界面单击“打开文件夹”，如图 1-97 所示。当然，读者也可以直接打开 WebUI 根目录下的 models\Stable-diffusion，如图 1-98 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_117.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_117.jpg)
 
 ▲图 1-97
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_118.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_118.jpg)
 
 ▲图 1-98
 
@@ -846,7 +846,7 @@ Stable Diffusion 作为新的生产工具，有着比较强的可控性。下�
 
 A little girl was walking alone in the desert,with the scorching sun shining on her,
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_119.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_119.jpg)
 
 图 1-99
 
@@ -854,7 +854,7 @@ A little girl was walking alone in the desert,with the scorching sun�
 
 (masterpiece:1,2),best quality,masterpiece,highres,original,extremelydetailed wallpaper,perfect lighting,(extremely detailed CG:1.2),drawing,paintbrush.
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_120.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_120.jpg)
 
 图 1-100
 
@@ -862,21 +862,21 @@ A little girl was walking alone in the desert,with the scorching sun�
 
 (worst quality:2),(low quality:2),(normal quality:2),lowres,normal quality,((monochrome)),((grayscale)), skin spots,acnes,skin blemishes,age spot,(ugly:1.331),(duplicate:1.331),(morbid:1.21),(mutilated:1.21), (tranny:1.331),mutated hands,(poorly drawn hands:1.5),blurry,(bad anatomy:1.21), (badproportions:1.331), extra limbs,(disfigured:1.331),(missingarms:1.331),(extra legs:1.331),(fused fingers:1.61051),(too many fingers:1.61051),(unclear eyes:1.331),lowers,bad hands,missing fingers,extra digit,bad hands,missing fingers, (l(extra arms and legs)))
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_121.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_121.jpg)
 
 图 1-101
 
 **06** 定义参数，笔者的参数设置如图 1-102 所示，读者根据实际情况进行调整即可。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_122.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_122.jpg)
 
 图 1-102
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_123.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_123.jpg)
 
 **07** 单击右上角的“生成”按钮，等待一会就能得到一张“小女孩在沙漠中行走”的图像，如图 1-103 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_124.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_124.jpg)
 
 图 1-103
 
@@ -930,11 +930,11 @@ ChatGPT 的操作极其便捷，只需要在文本框中输入疑难问题、讨
 
 Please write in Chinese language.
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_125.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_125.jpg)
 
 ▲图 2-1
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_126.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_126.jpg)
 
 ▲图 2-2
 
@@ -942,7 +942,7 @@ Please write in Chinese language.
 
 在深入理解了 Prompt 中精确的提示词的重要作用后，就需要有目的地对 Prompt 进行描述，最好精确到具体角色、内容、目的等，如请 ChatGPT 担任某个领域的专家。图 2-3 所示内容为请 ChatGPT 担任诗人写诗。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_127.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_127.jpg)
 
 图 2-3
 
@@ -950,7 +950,7 @@ Please write in Chinese language.
 
 首先，向 ChatGPT 咨询“如何进行 Prompt 的概括”。对此，它给出的回复如图 2-4 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_128.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_128.jpg)
 
 图 2-4
 
@@ -978,27 +978,27 @@ Prompt 构建：“描述气候变化对地球环境的影响”“探讨气候�
 
 纸巾消耗超级大。
 
-用得顺心第一位。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_129.jpg)
+用得顺心第一位。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_129.jpg)
 
 baby care 云柔巾。图 1。
 
 超级软。不飞毛毛。压花也超好看。大小合适。
 
-湿了也不会掉絮.宝宝擦鼻涕不会磨到。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_130.jpg)
+湿了也不会掉絮.宝宝擦鼻涕不会磨到。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_130.jpg)
 
 全棉时代婴儿棉柔巾。图 2。
 
-我们之前在月子中心说不建议小婴儿用，有点飞毛，比对下来看，确实是，柔软程度来说也不算超柔。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_131.jpg)
+我们之前在月子中心说不建议小婴儿用，有点飞毛，比对下来看，确实是，柔软程度来说也不算超柔。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_131.jpg)
 
 大王天使湿巾。图 3。
 
 湿巾可用过太多太多品牌了，有的不好抽，有的超级厚，有的太湿了……而且很多用到最后真的是湿答答，要抠出来的那种，着急忙慌的时候，湿巾抽不出来真的也是人间疾苦。
 
-这款抽到最后一张都很舒心，均价 15 元/包，80 抽。如果纯看性价比，这个可能不合适，但是我们很喜欢 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_132.jpg) 。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_133.jpg)
+这款抽到最后一张都很舒心，均价 15 元/包，80 抽。如果纯看性价比，这个可能不合适，但是我们很喜欢 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_132.jpg) 。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_133.jpg)
 
 全棉时代棉柔巾。图 4。
 
-这个可能是大众棉柔巾了，但是无功无过，包装我就不喜欢，打开的时候口子会裂很大，不质感，我们囤太太太太多了，用了一年多还没用掉，柜子里这些用完不会再入了。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_134.jpg)
+这个可能是大众棉柔巾了，但是无功无过，包装我就不喜欢，打开的时候口子会裂很大，不质感，我们囤太太太太多了，用了一年多还没用掉，柜子里这些用完不会再入了。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_134.jpg)
 
 baby care。图 5。
 
@@ -1012,33 +1012,33 @@ baby care。图 5。
 
 纸巾消耗超级大。
 
-用得顺心第一位。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_135.jpg)
+用得顺心第一位。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_135.jpg)
 
 baby care 云柔巾。图 1。
 
 超级软。不飞毛毛。压花也超好看。大小合适。
 
-湿了也不会掉絮.宝宝擦鼻涕不会磨到。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_136.jpg)
+湿了也不会掉絮.宝宝擦鼻涕不会磨到。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_136.jpg)
 
 全棉时代婴儿棉柔巾。图 2。
 
-我们之前在月子中心说不建议小婴儿用，有点飞毛，比对下来看，确实是，柔软程度来说也不算超柔。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_137.jpg)
+我们之前在月子中心说不建议小婴儿用，有点飞毛，比对下来看，确实是，柔软程度来说也不算超柔。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_137.jpg)
 
 大王天使湿巾。图 3。
 
 湿巾可用过太多太多品牌了，有的不好抽，有的超级厚，有的太湿了……而且很多用到最后真的是湿答答，要抠出来的那种，着急忙慌的时候，湿巾抽不出来真的也是人间疾苦。
 
-这款抽到最后一张都很舒心，均价 15 元/包，80 抽。如果纯看性价比，这个可能不合适，但是我们很喜欢 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_138.jpg) 。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_139.jpg)
+这款抽到最后一张都很舒心，均价 15 元/包，80 抽。如果纯看性价比，这个可能不合适，但是我们很喜欢 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_138.jpg) 。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_139.jpg)
 
 全棉时代棉柔巾。图 4。
 
-这个可能是大众棉柔巾了，但是无功无过，包装我就不喜欢，打开的时候口子会裂很大，没有质感，我们囤太、太、太、太多了，用了一年多还没用掉，柜子里这些用完不会再入了。 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_140.jpg)
+这个可能是大众棉柔巾了，但是无功无过，包装我就不喜欢，打开的时候口子会裂很大，没有质感，我们囤太、太、太、太多了，用了一年多还没用掉，柜子里这些用完不会再入了。 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_140.jpg)
 
 baby care。图 5。
 
 也是 bbc 的，各方面都还可以，洗脸比“全棉时代”的好用多了，珍珠纹的，比较厚一点，大小也合适。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_141.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_141.jpg)
 
 图 2-5
 
@@ -1202,17 +1202,17 @@ baby care。图 5。
 
 做一份旅行计划。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_142.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_142.jpg)
 
 图 2-6
 
 **02** 下面为 ChatGPT 补充一些重要的信息，让 ChatGPT 重新给我们做一个旅行计划，如图 2-7 所示。对此， ChatGPT 提供的方案如图 2-8 所示。目前的方案实用性就比较强了，如果读者觉得哪个地方不满意，可以有针对性地要求它进行优化和调整。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_143.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_143.jpg)
 
 ▲图 2-7
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_144.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_144.jpg)
 
 ▲图 2-8
 
@@ -1258,17 +1258,17 @@ Next,I will let you act as a translator.Your goal is to translate an
 
 **01** 向 ChatGPT 提交问题，即“写一份小红书好物推荐笔记”。对此，ChatGPT 提供的方案如图 2-9 所示。因为没有向 ChatGPT 指定清晰的商品，它就只能自由发挥了。其内容基本上就是产品的一句话介绍，还带着很浓烈的“硬广”味，也没有小红书上的那种图标表情。这其实并不符合预期。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_145.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_145.jpg)
 
 图 2-9
 
 **02** 现在优化问题，给 ChatGPT 指定一个角色，如图 2-10 所示。对此，ChatGPT 提供的方案如图 2-11 所示。这次提供的内容风格更加柔和，而且还带了表情符号，这就符合小红书的文字风格了。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_146.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_146.jpg)
 
 ▲图 2-10
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_147.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_147.jpg)
 
 ▲图 2-11
 
@@ -1302,11 +1302,11 @@ Next,I will let you act as a translator.Your goal is to translate an
 
 **02** 为需求加上符号（即书名号）区分，ChatGPT 就能明白这不是一个观点，而是一本书。对此，ChatGPT 的回复如图 2-13 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_148.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_148.jpg)
 
 ▲图 2-12
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_149.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_149.jpg)
 
 ▲图 2-13
 
@@ -1330,15 +1330,15 @@ Next,I will let you act as a translator.Your goal is to translate an
 
 **02** 下面通过步骤拆分对需求进行优化，让 ChatGPT 按照步骤来推荐电影，如图 2-15 所示。对此，ChatGPT 的回复如图 2-16 所示。这次就比较精准地给出电影的推荐了，首先分析今天的日期，然后决定选择冒险类型的电影，最后给出推荐的结果。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_150.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_150.jpg)
 
 ▲图 2-14
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_151.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_151.jpg)
 
 ▲图 2-15
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_152.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_152.jpg)
 
 ▲图 2-16
 
@@ -1352,7 +1352,7 @@ Next,I will let you act as a translator.Your goal is to translate an
 
 下面延续“实战：指示 ChatGPT 制作商品推荐”中的步骤，为“每日电影推荐”的主题添加了两个案例，如图 2-17 所示。ChatGPT 根据步骤提示和实例参考提供了方案，如图 2-18 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_153.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_153.jpg)
 
 图 2-17
 
@@ -1360,7 +1360,7 @@ Next,I will let you act as a translator.Your goal is to translate an
 
 此种提供样本的策略极其实用。如果要撰写一篇前所未有的作品文案，可以在网络上搜寻已经完成的相关内容，接着让 ChatGPT 学习其语言风格、格式等各类元素，然后输出所需内容。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_154.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_154.jpg)
 
 图 2-18
 
@@ -1386,21 +1386,21 @@ Next,I will let you act as a translator.Your goal is to translate an
 
 **01** 向 ChatGPT 提交需求，如图 2-19 所示。对此，ChatGPT 的回复如图 2-20 所示。这是一个周报的框架，但是细节内容太少。如果使用这个内容作为周报，可能就要挨批评了。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_155.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_155.jpg)
 
 ▲图 2-19
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_156.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_156.jpg)
 
 ▲图 2-20
 
 **02** 要求“字数不少于 800 字”，然后添加一条注意事项，让 ChatGPT 知道“周报是给谁看的”“周报对我有什么样的影响”，从而认识到这个周报的重要性，如图 2-21 所示。对此，ChatGPT 的回复如图 2-22 所示。这样就得到了一份更加详细的周报，字数也增加了很多。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_157.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_157.jpg)
 
 ▲图 2-21
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_158.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_158.jpg)
 
 ▲图 2-22
 
@@ -1426,11 +1426,11 @@ Next,I will let you act as a translator.Your goal is to translate an
 
 下面为 ChatGPT 提供《选品理论部分》的参考文本，要求 ChatGPT 提供正确选品的方法。因为文字太长，所以笔者裁掉了一部分中间内容，输入了一份选品的文字，要求它根据原文回答问题，即“正确的选品方法是什么”，如图 2-23 所示。对此，ChatGPT 的回复如图 2-24 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_159.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_159.jpg)
 
 ▲图 2-23
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_160.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_160.jpg)
 
 ▲图 2-24
 
@@ -1494,21 +1494,21 @@ Next,I will let you act as a translator.Your goal is to translate an
 
 **01** 将问题内容和学生的解决方案提供给 ChatGPT，如图 2-25 所示。ChatGPT 的回复如图 2-26 所示，即认可学生的答案。（1 平方英尺≈0.0929 平方米）
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_161.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_161.jpg)
 
 ▲图 2-25
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_162.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_162.jpg)
 
 ▲图 2-26
 
 **02** 其实，这位学生的解法其实并不正确。接下来可以通过提示 ChatGPT 生成自己的解决方案，来让 ChatGPT 注意到这一点，然后让它把自己的答案和学生的答案加以对比，从而判断这位学生的答案是否正确，如图 2-27 所示。对此，ChatGPT 的回复如图 2-28 所示。这时候 ChatGPT 给出的回复会带有它自己的解决方案，然后会和学生的答案进行对比，接着才会判断学生的答案是否正确。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_163.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_163.jpg)
 
 ▲图 2-27
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_164.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_164.jpg)
 
 ▲图 2-28
 
@@ -1522,11 +1522,11 @@ Next,I will let you act as a translator.Your goal is to translate an
 
 同上一个实战一样，将需求提供给 ChatGPT，如图 2-29 所示。对此，ChatGPT 的回复如图 2-30 所示。内心独白是一种可以用来缓解这种情况的策略，其想法是指示 ChatGPT 将原本对用户隐藏的部分输出并放入结构化格式中，以便解析它们。在向用户呈现输出之前，将解析输出并仅使部分输出可见。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_165.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_165.jpg)
 
 ▲图 2-29
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_166.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_166.jpg)
 
 ▲图 2-30
 
@@ -1644,7 +1644,7 @@ dark and intimate,with dim lighting and a soft focus on the woman.The
 
 find me 10 product ideas in the kitchen and dining category to sell on amazon
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_167.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_167.jpg)
 
 图 2-31
 
@@ -1654,13 +1654,13 @@ find me 10 product ideas in the kitchen and dining category to sell�
 
 消费者的需求与偏好往往会因年龄阶段的不同而有所差异，因此，电商必须对不同年龄段的客户进行精准细分，并据此制定相应的产品与营销策略。若电商提供的产品无法满足消费者的需求，消费者则可能转向其他电商进行购买。因此，理解目标客户的需求与偏好，并据此进行产品开发和市场营销，是电商的一项重要目标。电商可以通过设置一些分析模块，借助 ChatGPT 分析究竟哪类消费者会购买自己的产品，如图 2-32 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_168.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_168.jpg)
 
 图 2-32
 
 ChatGPT 提供了比较有针对性的客户群体，包括年龄、家庭、生活方式、价值观等信息，帮助我们对产品的定位有一些了解，如图 2-33 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_169.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_169.jpg)
 
 图 2-33
 
@@ -1668,21 +1668,21 @@ ChatGPT 提供了比较有针对性的客户群体，包括年龄、家庭、生
 
 电商必须具备明确的营销策略，以便吸引顾客并提升销售业绩。这一策略应包含促销活动、商品定价、市场推广等元素。除此之外，电商还需关注顾客反馈和评级，及时解答顾客的疑问，以提升顾客满意度。让 ChatGPT 提供一个营销策略，如图 2-34 所示。它回复的营销策略包括活动、定向广告、宣传活动等，如图 2-35 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_170.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_170.jpg)
 
 ▲图 2-34
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_171.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_171.jpg)
 
 ▲图 2-35
 
 如果对结果不满意或者觉得结果不够精确，还可以让 ChatGPT 根据每一条再逐步细化，如图 2-36 所示。它回复了一系列可执行的提升产品知名度的促销计划，如图 2-37 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_172.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_172.jpg)
 
 ▲图 2-36
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_173.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_173.jpg)
 
 ▲图 2-37
 
@@ -1692,11 +1692,11 @@ ChatGPT 提供了比较有针对性的客户群体，包括年龄、家庭、生
 
 下面让 ChatGPT 针对 Silicon Food Storage Bags 这个硅胶产品，分析出人们购买的原因、品牌的定位、后续客户的维护和一个合理的价格定位，如图 2-38 所示。对此，ChatGPT 的回复结果如图 2-39 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_174.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_174.jpg)
 
 ▲图 2-38
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_175.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_175.jpg)
 
 ▲图 2-39
 
@@ -1704,11 +1704,11 @@ ChatGPT 提供了比较有针对性的客户群体，包括年龄、家庭、生
 
 产品标题是对产品信息的精练总结，清晰地阐述并涵盖了产品的关键信息。优秀的标题不仅能让消费者通过相关关键词更便捷地搜索到产品，同时也能使消费者更轻松地了解产品详情，从而激发更强烈的购买欲望。现在将任务交给 ChatGPT，让它创作热销的产品标题。这里将“爆款”标题的规则和名称都提供给 ChatGPT，如图 2-40 所示。ChatGPT 回复了图 2-41 所示 5 个标题，我们根据情况选择合适的标题使用即可。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_176.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_176.jpg)
 
 ▲图 2-40
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_177.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_177.jpg)
 
 ▲图 2-41
 
@@ -1722,7 +1722,7 @@ ChatGPT 提供了比较有针对性的客户群体，包括年龄、家庭、生
 
 在 Midjourney 中，/imagine 命令是常用的一种，如图 3-1 所示。Midjourney bot 依赖于解析 Prompt（提示词）来创建图像。这些 Prompt 中的单词和短语被分解为更小的 Token（命令），然后与训练数据进行比对，从而生成图像。因此，精心设计的 Prompt 可用于创造独特的图像。在 AI 绘画中，一种基础的生成方式就是通过文本生成图像，即输入任何提示词都可以产生相应的图像。通常来说，无关联的提示词会用英文逗号“,”来隔开。在 V6 版本中，书写提示词的方式更为灵活，用户只需完整输入自然语言的描述，就能生成所需的图像。然而， V6 版本相对于其他版本在插画效果上存在一定差距，因此用户在编写提示词时应多尝试以找到最符合需求的图像。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_178.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_178.jpg)
 
 图 3-1
 
@@ -1730,7 +1730,7 @@ ChatGPT 提供了比较有针对性的客户群体，包括年龄、家庭、生
 
 在实际使用中，随意组成的提示词会给后续调整带来一定的困扰。例如，存在前后关键词重复导致画面复杂、得不到想要的内容等一系列问题。书写提示词其实有一定的技巧，下面进行详细说明。参考组合如图 3-2 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_179.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_179.jpg)
 
 图 3-2
 
@@ -1742,7 +1742,7 @@ ChatGPT 提供了比较有针对性的客户群体，包括年龄、家庭、生
 
 表 3-1
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_180.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_180.jpg)
 
 ·参数：Midjourney 的参数比较特殊，在不同版本中也有所不同，其调取需要使用特殊字符“--”（两个减号）。
 
@@ -1792,7 +1792,7 @@ ChatGPT 提供了比较有针对性的客户群体，包括年龄、家庭、生
 
 A coffee cup is placed on the table --v 6.0 --s 750
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_181.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_181.jpg)
 
 图 3-3
 
@@ -1800,7 +1800,7 @@ A coffee cup is placed on the table --v 6.0 --s 750
 
 A Starbucks::2 cup is placed on the table
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_182.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_182.jpg)
 
 图 3-4
 
@@ -1810,19 +1810,19 @@ A Starbucks::2 cup is placed on the table
 
 hot dog --v 6.0 --s 750
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_183.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_183.jpg)
 
 图 3-5
 
 hot::1 dog::2
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_184.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_184.jpg)
 
 图 3-6
 
 hot dog::2 --v 6.0 --s 750
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_185.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_185.jpg)
 
 图 3-7
 
@@ -1830,25 +1830,25 @@ hot dog::2 --v 6.0 --s 750
 
 当书写好提示词并生成图片后，图片的下方会出现两排按钮，它们主要用于优化当前图片效果。因为一次性会生成 4 张图，所以在优化图片时需要选择对应图片的序号。从左上角到右下角的顺序依次是 1~4，如图 3-8 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_186.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_186.jpg)
 
 图 3-8
 
 U 代表放大对应的图片（以 U1 为例）,V 则代表在对应的图片上对画面进行微调（以 V1 为例），如图 3-9 和图 3-10 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_187.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_187.jpg)
 
 ▲图 3-9
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_188.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_188.jpg)
 
 ▲图 3-10
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_189.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_189.jpg)
 
 单击“刷新”按钮，可以让 Midjourney 根据提示词重新生成图片，如图 3-11 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_190.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_190.jpg)
 
 图 3-11
 
@@ -1858,25 +1858,25 @@ U 代表放大对应的图片（以 U1 为例）,V 则代表在对应的图片�
 
 第 1 种：将图片拖曳到 Discord 的服务器中，按 Enter 键上传，如图 3-12 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_191.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_191.jpg)
 
 图 3-12
 
-第 2 种：单击对话框左侧的“小加号”按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_192.jpg)，然后选择“上传文件”，接着找到对应的图片上传即可，如图 3-13 所示。
+第 2 种：单击对话框左侧的“小加号”按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_192.jpg)，然后选择“上传文件”，接着找到对应的图片上传即可，如图 3-13 所示。
 
 上传图片后，Midjourney 就获取到了图片的所有信息，包括画面的整体色调、具体的元素造型，以及元素风格。在图生图的操作中，还需要让 Midjourney 明确用户需要用哪一张图片来进行叠图，即使用鼠标右键单击图片，然后选择“复制链接”，如图 3-14 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_193.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_193.jpg)
 
 ▲图 3-13
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_194.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_194.jpg)
 
 ▲图 3-14
 
 在介绍提示词结构时除了主体和后缀以外，还包含前缀，前缀部分即这里的图片链接（叠图链接）。在使用前缀时一定要以空格来隔开前缀和主体，即格式为“前缀 主体”，否则就会报错，如图 3-15 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_195.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_195.jpg)
 
 图 3-15
 
@@ -1970,13 +1970,13 @@ U 代表放大对应的图片（以 U1 为例）,V 则代表在对应的图片�
 
 **/describe**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_196.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_197.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_198.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_199.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_200.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_201.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_202.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_196.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_197.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_198.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_199.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_200.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_201.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_202.jpg)
 
 输入/describe，将图片拖曳到图片上传窗口，可以获得 4 条对应的图片提示词，编号 1、2、3、4 分别代表提示词 1、提示词 2、提示词 3、提示词 4，单击下面的、、、分别可以根据对应的提示词生成新的图片，单击可以刷新提示词，单击可以将 4 条提示词的内容全部生成一遍。笔者建议读者在学习的过程中直接单击，然后对比 4 张生成的效果图，哪一张最接近参考图就直接使用哪一张。
 
 **/shorten**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_203.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_203.jpg)
 
 主要用于让 Midjourney 帮助用户分析和精简提示词。如果读者是新手，笔者建议使用这个功能去提炼已经存在的提示词中的核心关键词，并总结成提示词库。在对话框中输入/shorten 命令并粘贴提示词， Midjourney 会自动生成 5 条相近的提示词，并在消息顶部标注提示词内容，加粗的内容为重要的提示词，无效的内容会被直接加上删除线。单击可以调出详细信息并查看提示词在句子中的权重。
 
@@ -1996,13 +1996,13 @@ V6 版本中除了提供命令和参数外，还更新了许多实用的小功�
 
 Zoom Out（扩展图片）功能主要用于将镜头拉远并填充所有边缘细节，以实现对图像的重建。用户通过选择对应的设置可以将原始图片放大两倍以内并保留细节，从而产生惊人的视觉效果。此外，用户还能自定义缩放比例。下面以图 3-16 所示内容进行测试。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_204.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_204.jpg)
 
 图 3-16
 
 **01** 当使用提示词获得满意的图片后，使用 U 就能使用 Zoom Out 功能，如选择 U4，如图 3-17 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_205.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_205.jpg)
 
 图 3-17
 
@@ -2010,19 +2010,19 @@ Zoom Out（扩展图片）功能主要用于将镜头拉远并填充所有边�
 
 **03** 选择 Custom Zoom 会打开一个对话框，修改--zoom 的数值可以自定义图片的缩放比例，取值范围为 1~2，也就是一倍到两倍，如图 3-19 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_206.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_206.jpg)
 
 ▲图 3-18
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_207.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_207.jpg)
 
 ▲图 3-19
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_208.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_208.jpg)
 
 **04** 使用可以沿着箭头指定的方向对图像进行扩展，但这样会对图像的比例进行一定的修改，如图 3-20 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_209.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_209.jpg)
 
 图 3-20
 
@@ -2030,11 +2030,11 @@ Zoom Out（扩展图片）功能主要用于将镜头拉远并填充所有边�
 
 以前要修改一张有瑕疵的图片只能在 Photoshop Beta 中完成，现在则可以在 Midjourney 中独立完成，如图 3-21 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_210.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_210.jpg)
 
 图 3-21
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_211.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_211.jpg)
 
 图 3-21（续）
 
@@ -2042,21 +2042,21 @@ Zoom Out（扩展图片）功能主要用于将镜头拉远并填充所有边�
 
 **02** 选择绘制好的图片并使用 U 进行放大，此时会出现 Vary（Region）设置，如图 3-23 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_212.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_212.jpg)
 
 ▲图 3-22
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_213.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_213.jpg)
 
 ▲图 3-23
 
-**03** 选择 Vary（Region），可以打开编辑模型，左边是“矩形框选工具” ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_214.jpg)，右边是“套索工具” ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_215.jpg)，接下来就可以在对话框中修改关键词的内容，从而完成局部重绘，如图 3-24 所示。效果如图 3-25 所示。
+**03** 选择 Vary（Region），可以打开编辑模型，左边是“矩形框选工具” ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_214.jpg)，右边是“套索工具” ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_215.jpg)，接下来就可以在对话框中修改关键词的内容，从而完成局部重绘，如图 3-24 所示。效果如图 3-25 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_216.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_216.jpg)
 
 ▲图 3-24
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_217.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_217.jpg)
 
 ▲图 3-25
 
@@ -2072,7 +2072,7 @@ Zoom Out（扩展图片）功能主要用于将镜头拉远并填充所有边�
 
 这一步需要让 ChatGPT 明白 Midjourney 和提示词（Prompt）是什么，然后为 ChatGPT 写明具体的任务描述。具体的提问和训练方式如图 3-26 所示。注意，这里的提问方式只是作为一个思路，读者可以自由发挥。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_218.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_218.jpg)
 
 图 3-26
 
@@ -2080,7 +2080,7 @@ Zoom Out（扩展图片）功能主要用于将镜头拉远并填充所有边�
 
 提供一个具体书写提示词的公式，让 ChatGPT 据此进行输出，然后为 ChatGPT 写明具体的任务描述。具体的提问和训练方式如图 3-27 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_219.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_219.jpg)
 
 图 3-27
 
@@ -2088,13 +2088,13 @@ Zoom Out（扩展图片）功能主要用于将镜头拉远并填充所有边�
 
 让 ChatGPT 用英文格式进行输出，然后让 ChatGPT 优化内容中的提示词，最后对照中文翻译组合出完整的提示词。具体的提问和训练方式如图 3-28 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_220.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_220.jpg)
 
 图 3-28
 
 图 3-29 所示就是使用当前翻译的提示词书写的内容，相对来说这样书写的提示词更多起的是基础翻译作用，如果读者在书写提示词方面是一个经验丰富的老手，使用这种方法书写的提示词就会更加可控，如图 3-29 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_221.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_221.jpg)
 
 图 3-29
 
@@ -2148,13 +2148,13 @@ ChatGPT 生成的内容可能会非常规矩且严肃，如果读者想让 ChatG
 
 下面笔者将这段定制文本放在 ChatGPT 中进行测试，如图 3-30 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_222.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_222.jpg)
 
 图 3-30
 
 这是使用 ChatGPT 生成的提示词，将其复制到 Midjourney 中生成图像，如图 3-31 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_223.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_223.jpg)
 
 图 3-31
 
@@ -2172,19 +2172,19 @@ background,soft light,Sony HD shot,ultra realistic skin,8K HD --ar 3:4 
 
 20 岁的北欧男模，侧着头，棕色头发，休闲服，全身拍摄，白色背景，柔和光线，索尼高清拍摄，超逼真皮肤，8K 高清--ar 3:4 --v 5.1 --style raw --s 750
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_224.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_224.jpg)
 
 图 3-32
 
 **02** 抠图叠加。选择一张符合要求的模特图，在 Photoshop 中将模特图和衣服放置到一起，发送到 Discard 中，如图 3-33 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_225.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_225.jpg)
 
 图 3-33
 
 **03** 使用上一步生成的图片链接与上面的提示词进行叠加，输入--iw 2 的参数，就可以获取到换衣成功的模特图，如图 3-34 所示。这种方法适用于电商换装、服装设计等领域。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_226.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_226.jpg)
 
 图 3-34
 
@@ -2210,7 +2210,7 @@ Product photography,Still Life photography,All natural skin care products
 
 产品摄影，静物摄影，全天然护肤品，自然，木材，花卉，极简主义风格，专注于产品，自然逼真摄影，正视图，商业摄影，史诗般的光纹理，最高质量，HD 8K --ar 3:4 --v 5.1 --s 750
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_227.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_227.jpg)
 
 图 3-35
 
@@ -2218,7 +2218,7 @@ Product photography,Still Life photography,All natural skin care products
 
 除了可以控制产品的外观和材质以外，还可以更改产品的类型，如洗面奶、洗发水等。下面是一些护肤产品的专业词汇。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_228.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_228.jpg)
 
 ### **实战：制作家电产品图**
 
@@ -2232,7 +2232,7 @@ Product photography,Still Life photography,All natural skin care products
 
 这是一张在极简主义的日式明亮的厨房里拍摄的实物照片。餐厅里有一个食物搅拌器，桌子上有水果和玻璃杯。整体配色是柔和明亮的香槟色，具有专业、照明、阴影、体积、清晰度 --s 750 --iw2
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_229.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_229.jpg)
 
 图 3-36
 
@@ -2250,19 +2250,19 @@ Cistern,Circular Stage,CINEMA4D 4d Rendering Style,Centered Composition,Sco
 
 水池，圆形舞台，CINEMA 4D 渲染风格，居中构图，Scoutcore，未来主义技术，微妙的色彩，立方体未来主义，超精细画面细节，高分辨率，16K --s 750 --v 5.2
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_230.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_230.jpg)
 
 图 3-37
 
 **02** 挑选一张自己满意的图片，使用前面所讲的方法进行放大，再配合产品图就可以制作出产品主图了，如图 3-38 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_231.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_231.jpg)
 
 图 3-38
 
 **03** 由于直接生成产品图会和实际产品不一样，可以使用 Photoshop 将产品图放入背景中，如图 3-39 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_232.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_232.jpg)
 
 图 3-39
 
@@ -2276,7 +2276,7 @@ flattened wooden tree stump thin disc,palm leaves shadowed on backgroun
 
 扁平的树桩薄圆盘，米色背景墙上明亮的棕榈叶阴影，商业摄影，大空地，极简主义，桌面摄影 --ar 3:4 --s 750
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_233.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_233.jpg)
 
 图 3-40
 
@@ -2290,7 +2290,7 @@ Game logo, neon lights, future, spacecraft, pink and dark blue, imitat
 
 游戏标志，霓虹灯，未来，航天器，粉色和深青色，模拟被破坏的材料，山谷现实主义，竞赛获胜者，互动展览 --v 5.2
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_234.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_234.jpg)
 
 图 3-41
 
@@ -2304,7 +2304,7 @@ Circular background, futuristic, futuristic background, color, rigor, tra
 
 圆形背景，未来派，未来派背景，颜色，严谨，透明媒体，多媒体，极简主义布景，工作室照明，地平线，超细节，8K,--v 5.2
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_235.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_235.jpg)
 
 图 3-42
 
@@ -2318,7 +2318,7 @@ Left and right symmetry,Line display background,Bright, red orange. atmo
 
 左右对称，线条背景，明亮，红橙色。大打折扣的氛围，明亮柔和的颜色。Nexthaub，未来主义，建模灯光，光线追踪。最佳画质，8K 分辨率，超逼真，详细描述 --v 5.2
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_236.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_236.jpg)
 
 图 3-43
 
@@ -2332,19 +2332,19 @@ Yellow and white, round table, ray tracing style, light orange, realis
 
 黄色和白色，圆桌，光线追踪风格，浅橙色，逼真的光影刻画，优美的平衡，条纹和形状，禅宗极简主义，浅粉色和浅橙色 --v 5.2
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_237.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_237.jpg)
 
 图 3-44
 
 **02** 挑选一张自己满意的图片并放大，然后配合产品图就可以制作出产品主图了，如图 3-45 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_238.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_238.jpg)
 
 图 3-45
 
 **03** 用 Photoshop 将产品图直接放入背景中，然后发送给 Midjourney，如图 3-46 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_239.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_239.jpg)
 
 图 3-46
 
@@ -2352,11 +2352,11 @@ Yellow and white, round table, ray tracing style, light orange, realis
 
 **05** 直接生成产品图会和实际产品不一样，所以这一步使用 Photoshop 替换生成图中的产品，如图 3-48 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_240.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_240.jpg)
 
 ▲图 3-47
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_241.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_241.jpg)
 
 ▲图 3-48
 
@@ -2366,19 +2366,19 @@ Yellow and white, round table, ray tracing style, light orange, realis
 
 **01** 准备好产品的图片和需要场景的图片（也可以直接使用 Midjourney 生成想要的场景图），如图 3-49 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_242.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_242.jpg)
 
 图 3-49
 
 **02** 将产品图和背景图都发送给 Midjourney，利用“垫图”和关键词来生成新的产品图，如图 3-50 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_243.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_243.jpg)
 
 图 3-50
 
 **03** 挑选一张合适的图片，然后使用 Photoshop 替换主体，如图 3-51 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_244.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_244.jpg)
 
 图 3-51
 
@@ -2394,11 +2394,11 @@ AI 可以应用在电商宣传海报的设计和制作中，将商品描述与�
 
 **02** 挑选一张图片，用 Photoshop 将产品图放进去，然后添加宣传文字，如图 3-53 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_245.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_245.jpg)
 
 ▲图 3-52
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_246.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_246.jpg)
 
 ▲图 3-53
 
@@ -2412,7 +2412,7 @@ Commercial photography, Red Dust Explosion Smoke effect, Studio Lighting
 
 商业摄影，红尘爆烟效果，工作室照明，8K Octane 渲染，高分辨率摄影，精确细节，孤立素色，库存照片，专业色彩分级，获奖摄影作品
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_247.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_247.jpg)
 
 图 3-54
 
@@ -2420,11 +2420,11 @@ Commercial photography, Red Dust Explosion Smoke effect, Studio Lighting
 
 **03** 使用 Photoshop 将产品图还原，如图 3-56 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_248.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_248.jpg)
 
 ▲图 3-55
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_249.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_249.jpg)
 
 ▲图 3-56
 
@@ -2442,13 +2442,13 @@ Commercial photography, Red Dust Explosion Smoke effect, Studio Lighting
 
 Prompt 是用户输入的文本或图像信息，目标在于根据特定指导方针引导模型生成艺术作品。简而言之，它就是一种指导 AI 工具“我想要画什么，我希望画出何种效果”的语言，示意如图 4-1 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_250.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_250.jpg)
 
 图 4-1
 
 在前面我们已经提到了 Stable Diffusion 生成图像的两种基本方法：文字生成图像和图像生成图像。文字生成图像主要依赖于文本来实现信息的传递；图像生成图像则通过视觉元素传达信息。尽管如此，图像生成图像时所用的提示词也同等重要，因为图像本身也可以被视为一种提示符。两种图像生成模式的操作界面如图 4-2 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_251.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_251.jpg)
 
 图 4-2
 
@@ -2468,7 +2468,7 @@ Prompt 是用户输入的文本或图像信息，目标在于根据特定指导�
 
 Stable Diffusion 的提示词区域被划分为上下两部分：上半部分是正向的提示词，下半部分则是反向的提示词。这种设置允许用户通过正向和反向的提示来影响图像生成的方向和特性，提供了更多的创新空间。在上半部分，正向提示词可以指导模型朝着用户期望的方向生成图像。在下半部分，反向提示词则有助于用户对生成图像的某些方面进行调整或限制。通过这种方式，用户可以更灵活地操控生成图像的结果，满足自己的个性化需求。提示词界面如图 4-3 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_252.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_252.jpg)
 
 图 4-3
 
@@ -2476,19 +2476,19 @@ Stable Diffusion 的提示词区域被划分为上下两部分：上半部分�
 
 画质：在 AI 生成的图像中，一部分为高分辨率，而另一部分则相对模糊。为了使 AI 生成的作品能呈现出高清晰度，我们可以利用一些提示词来指导 AI 工具重点关注那些高清图像。常用的提示词包括 best quality（最优质）、ultra-detailed（极度详细）、masterpiece（杰作）、highest （最高）、8K 等。同时，还有一些更具针对性的提示词。例如，“极其细致”“计算机图形”“统一”“非真实引擎渲染”等含义类型的，它们指向具有更精细和真实特征的特定艺术作品形式。示例如图 4-4 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_253.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_253.jpg)
 
 图 4-4
 
 画风：如果创作具有插画风格的图像，常用的艺术风格关键词包括 illustration（插图）、painting（绘画）、drawing（素描）等。若追求更具二次元特色的效果，可以考虑融入一些动漫领域的专业术语。如果追求逼真效果的创作，也存在相应的艺术风格和关键词，如 photorealistic（照片级真实感）和 realistic （逼真风格）等。示例如图 4-5 所示。注意，逼真风格的创作更加依赖基于真实照片训练的模型。也就是说，选择正确的模型至关重要。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_254.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_254.jpg)
 
 图 4-5
 
 笔者将这些提示词称作“固定触发提示词”，因为它们有助于图像更接近某一确定的标准。在加入这些规范化的关键词之后，图像的质地和细节是否立即就丰富了起来呢？一段优秀的描述应当内容丰富充实，同时图像也应具有明确的标准。在此，笔者提供了一个基础的模板框架，读者可以依照此模板框架修改每段内容，从而使作品更符合需求，如图 4-6 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_255.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_255.jpg)
 
 图 4-6
 
@@ -2514,7 +2514,7 @@ longody bodanatomy,badhands,pubichair,extradigit.fewerdigit,lowers,((bad anato
 
 1 boy,car
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_256.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_256.jpg)
 
 图 4-7
 
@@ -2522,7 +2522,7 @@ longody bodanatomy,badhands,pubichair,extradigit.fewerdigit,lowers,((bad anato
 
 Car,1 boy
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_257.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_257.jpg)
 
 图 4-8
 
@@ -2532,23 +2532,23 @@ Car,1 boy
 
 权重调整的直接方式是调整词语的排列顺序，越靠前的词语权重越高，越靠后的词语权重则越低。另外，还可以使用下述语法来设定关键词的权重。通常，权重会被设置在 0.5~2 的范围内。通过选中词语并按 Ctrl+↑或 Ctrl+↓组合键来迅速地调整权重，每次调整的值为 0.1。语法如图 4-9 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_258.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_258.jpg)
 
 图 4-9
 
 观察图 4-10 所示的提示词，读者可能会注意到其中有大量的括号与数字，它们的功能在于强化或削弱某些关键词的优先级和权重。尽管我们输入了特定的对象词汇，但是画面中可能呈现得相对不明显。出现这种现象的原因在于输入了众多描述不同元素的词语，导致 AI 工具在处理过程中可能无法准确把握用户希望强调的内容。完整的正、反向提示词和结果如图 4-11 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_259.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_259.jpg)
 
 ▲图 4-10
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_260.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_260.jpg)
 
 ▲图 4-11
 
 同时，可以在关键词两侧添加括号，注意使用英文半角格式的括号。一旦添加括号，关键词的权重将增加至原来的 1.1 倍，这样相对于其他元素就更为显著。另外，还可以采用多层括号的策略，即每增加一层括号，权重就会额外乘以 1.1。例如，3 层括号将使得权重增加至原来的 1.331 倍。通过采用 3 层括号，可以使得 flower （花）这个关键词更为突出，如图 4-12 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_261.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_261.jpg)
 
 图 4-12
 
@@ -2564,23 +2564,23 @@ Car,1 boy
 
 **01** 在图 4-13 所示的位置单击鼠标左键，填好名称，然后填写正向、反向提示词，如图 4-14 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_262.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_262.jpg)
 
 ▲图 4-13
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_263.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_263.jpg)
 
 ▲图 4-14
 
-**02** 下次使用的时候单击“生成”下方的“小三角” ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_264.jpg)，在下拉选项中选择保存好的预设，如图 4-15 所示。
+**02** 下次使用的时候单击“生成”下方的“小三角” ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_264.jpg)，在下拉选项中选择保存好的预设，如图 4-15 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_265.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_265.jpg)
 
 图 4-15
 
-**03** 单击 Apply all selected styles to prompts（应用所选风格到提示词） ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_266.jpg)，将所有选定的样式应用于提示词，预设的提示词就会自动添加到输入框中，如图 4-16 所示。
+**03** 单击 Apply all selected styles to prompts（应用所选风格到提示词） ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_266.jpg)，将所有选定的样式应用于提示词，预设的提示词就会自动添加到输入框中，如图 4-16 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_267.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_267.jpg)
 
 图 4-16
 
@@ -2604,7 +2604,7 @@ Car,1 boy
 
 AI 在生成图像的过程中，会经历增加噪声与去噪声的环节。去噪声的目的是通过逐步模拟像素，逐渐构建出最终所需的图像。每次模拟后，图像的清晰度都会有所提高。从理论角度来看，迭代步数越多，图像的清晰度就越高。然而在实际应用中，一般在采样部署时，适合的迭代步数在 20~30 之间。如果采用更低的迭代步数，可能会导致图像未能完全计算出来；如果采用更高的迭代步数，对图像细节的提升效果并不显著。只有少量的证据显示，高迭代步数可能在小概率事件中修复图像的肢体错误。因此，只有在希望生成一张细节丰富的图像时，才会考虑使用更高的迭代步数。采样步数如图 4-17 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_268.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_268.jpg)
 
 图 4-17
 
@@ -2612,7 +2612,7 @@ AI 在生成图像的过程中，会经历增加噪声与去噪声的环节。�
 
 采样方法可以简单解释为 AI 工具在进行图像生成时所使用的某种特定算法。WebUI 提供了多达十几个算法选项，但常用的只有 3~5 个，如图 4-18 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_269.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_269.jpg)
 
 图 4-18
 
@@ -2626,7 +2626,7 @@ DDIM 一般不常用，但如果有意尝试高步数采样，它可以作为一
 
 “宽度”与“高度”的参数如图 4-19 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_270.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_270.jpg)
 
 图 4-19
 
@@ -2656,7 +2656,7 @@ DDIM 一般不常用，但如果有意尝试高步数采样，它可以作为一
 
 “生成批次”和“每批数量”在“宽度”和“高度”参数后面，如图 4-20 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_271.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_271.jpg)
 
 图 4-20
 
@@ -2670,7 +2670,7 @@ DDIM 一般不常用，但如果有意尝试高步数采样，它可以作为一
 
 “提示词相关性(CFG Scale)”的参数如图 4-21 所示
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_272.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_272.jpg)
 
 图 4-21
 
@@ -2686,15 +2686,15 @@ CFG 的具体功能难以用语言精确阐述，但大体上其主要任务是�
 
 “随机种子(seed)”的参数如图 4-22 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_273.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_273.jpg)
 
 图 4-22
 
 “随机种子(seed)”可以固定图像的初始潜在空间状态。这意味着在所有其他参数保持不变的前提下，由同一随机种子生成的图像应该是完全一致的。用户可以通过设定固定的随机种子来观察其他参数对图像效果的影响，也可以利用这一特性来复现自己或他人的图像结果。
 
-单击 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_274.jpg)，可以将“随机种子(seed)”设置为﹣1，即进入随机状态。单击 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_275.jpg)，则会显示出当前在右侧图片栏中查看的图片对应的种子值，如图 4-23 所示。
+单击 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_274.jpg)，可以将“随机种子(seed)”设置为﹣1，即进入随机状态。单击 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_275.jpg)，则会显示出当前在右侧图片栏中查看的图片对应的种子值，如图 4-23 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_276.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_276.jpg)
 
 图 4-23
 
@@ -2704,7 +2704,7 @@ CFG 的具体功能难以用语言精确阐述，但大体上其主要任务是�
 
 “模型的 VAE (SD VAE)”的参数如图 4-24 所示。VAE 的主要功能是对最终生成的图像进行色彩校正。如果未启用 VAE，可能会导致图像显示过于灰暗。VAE 具有通用性，可以与任何模型组合使用。目前，kl-f8-anime2.ckpt 和 840000.safetensors 两个模型足够满足电商设计需求。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_277.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_277.jpg)
 
 图 4-24
 
@@ -2712,13 +2712,13 @@ CFG 的具体功能难以用语言精确阐述，但大体上其主要任务是�
 
 Stable Diffusion 生成的图片都会自动记录相关参数信息，包括正向和反向提示词、采样步数、采样器、CFG、随机种子、尺寸、模型哈希、模型名称、Clip skip、超分参数等，如图 4-25 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_278.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_278.jpg)
 
 图 4-25
 
 在图片信息界面导入图片即可读取参数信息。单击相应按钮即可将图片和参数一并复制到指定模块。注意，这可能会修改一些在 WebUI 中不易察觉的设置，如 Controlnet 等插件的设置、Clip skip、EN Stable Diffusion 等。如果在后续使用中发现参数不对，可以检查这些部分的设置，如图 4-26 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_279.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_279.jpg)
 
 图 4-26
 
@@ -2728,7 +2728,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 站在甲方的角度，除了反复向设计师阐述需求外，是否有其他方式可以让设计师更快地理解甲方所期望的设计图？答案是肯定的，即参考图。此时，甲方只需告诉设计师：“请参照这张图的风格进行设计！”如此，设计师便能直观而具体地了解应如何进行设计。其流程如图 4-27 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_280.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_280.jpg)
 
 图 4-27
 
@@ -2738,41 +2738,41 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 本小节不介绍文生图通用的功能，而直接介绍图 4-28 所示的有区别的参数。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_281.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_281.jpg)
 
 图 4-28
 
 拉伸：用于将图片直接拉伸，即把方图拉伸成长图，虽然让形体变得更“瘦”了，但是也变形了，如图 4-29 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_282.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_282.jpg)
 
 图 4-29
 
 裁剪：用于将多余的部分裁剪掉，它不会让图片变形，如图 4-30 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_283.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_283.jpg)
 
 图 4-30
 
 填充：用于把扩展的部分用新生成的元素填充，类似 Photoshop 的图片扩展，如图 4-31 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_284.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_284.jpg)
 
 图 4-31
 
 直接缩放（放大潜变量）：作用与效果均与“拉伸”类似，如图 4-32 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_285.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_285.jpg)
 
 图 4-32
 
 重绘幅度：可以决定本次生成图会在多大程度上改变原图，如图 4-33 所示。其范围为 0~1，如 0.1 会对图片细节进行修改，0.7 以上会对图片进行大幅度重绘，如图 4-34 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_286.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_286.jpg)
 
 ▲图 4-33
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_287.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_287.jpg)
 
 ▲图 4-34
 
@@ -2780,11 +2780,11 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 蒙版透明度：用于在蒙版上加入透明效果，使得在模糊区域能够看到原图，类似于“犹抱琵琶半遮面”的效果，同时重绘的幅度会减小。这个选项使用得不多，参数如图 4-36 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_288.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_288.jpg)
 
 ▲图 4-35
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_289.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_289.jpg)
 
 ▲图 4-36
 
@@ -2798,7 +2798,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 这里将“采样方法”设置为 DPM++ SDE Karras,“采样迭代步数”设置为 25,“重绘幅度”设置为 0.46，同时保持分辨率与原始图像相同，即 512px×512px。这里建议使用的模型是 chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]，如图 4-37 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_290.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_290.jpg)
 
 图 4-37
 
@@ -2808,7 +2808,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 1 girl,cartoon
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_291.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_291.jpg)
 
 图 4-38
 
@@ -2816,7 +2816,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 如果需要基于特定原始图像进行创作，可以将其上传至 AI 平台，并在提示词中加以引用，这有助于实现图像的个性化生成。这里需要准备一张人像照片，然后将其导入 Stable Diffusion 中。在 WebUI 中，可通过两种方式导入照片。其一，直接将照片拖曳到相应的位置；其二，单击指定区域，然后在文件管理器中选取所需导入的照片。当看到照片出现在生成图像的框架内时，即代表已成功导入，如图 4-39 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_292.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_292.jpg)
 
 图 4-39
 
@@ -2824,7 +2824,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 执行生成，观察 AI 生成的图像，如图 4-40 所示。这里其实需要多次尝试，可通过调整参数或提示词来获得更满意的效果。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_293.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_293.jpg)
 
 图 4-40
 
@@ -2832,7 +2832,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 在 Stable Diffusion 中，包括文生图修复、图生图修复，以及生成后附加功能修复 3 个主要的高清放大修复功能。所谓的高分辨率修复，实际上就是常用的 Hires.fix 功能。通常使用 512px×512px 或 768px×768px 的图像作为底模进行训练，因此在生成图像时主要采用这两种分辨率。只要显存充足，开启高清修复功能就可以显著提升图像质量，因此建议尽可能地使用这个功能。参数如图 4-41 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_294.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_294.jpg)
 
 图 4-41
 
@@ -2840,11 +2840,11 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 在 Stable Diffusion 中，可以通过提高图像的清晰度并采用一种较为稳定的策略来处理细节丰富的内容。WebUI 内置了几项功能，能够帮助我们实现这类需求。为了便于理解，我们随机写入一个提示词，观察其效果。左侧图像没有启用高清修复，乍看之下似乎非常好，但是进一步观察细节，就会发现面部特征和细节部分都显得有些模糊。现在选择使用高清修复功能，其操作步骤十分简单。在生成图像时，只需勾选对应的“放大算法”复选框即可。这里的“放大算法”是根据不同的画面条件选择合适的模型，其效果相差不大。参数与对比效果如图 4-42 和图 4-43 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_295.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_295.jpg)
 
 ▲图 4-42
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_296.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_296.jpg)
 
 ▲图 4-43
 
@@ -2852,7 +2852,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 图生图中的高清放大没有这个选项，因为它本身就是一个高清修复的过程。修复效果如图 4-44 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_297.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_297.jpg)
 
 图 4-44
 
@@ -2860,11 +2860,11 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 此外，还有一个专门用于图像放大的脚本，名为 SD Upscale。向下滚动至“脚本”区域，选择 SD Upscale 放大脚本。“缩放系数”为 2 表示将原图放大两倍，如图 4-45 和图 4-46 所示。如果效果达不到预期，可考虑减小“重绘幅度”，增大“图块重叠像素”的数值。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_298.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_298.jpg)
 
 ▲图 4-45
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_299.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_299.jpg)
 
 ▲图 4-46
 
@@ -2872,7 +2872,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 该附加工具位于“附加功能”标签内，主要通过人工智能算法将已完成的图像放大至预定尺寸。其运作方式类似于无损高清图像修复，其机制与市场上的大部分 AI 图像修复应用相似。由于无须经历再扩散过程，操作速度较快，可能只需几秒即可完成图像修复。启动工具后，用户只需导入图像，设置相关参数，即可生成结果，如图 4-47 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_300.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_300.jpg)
 
 图 4-47
 
@@ -2880,7 +2880,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 效果如图 4-48 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_301.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_301.jpg)
 
 图 4-48
 
@@ -2888,23 +2888,23 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 **02** 打开 Stable Diffusion 的“文生图”中的 ControlNet，将制作好的图片导入，勾选“启用”“Pixel Perfect（完美像素）”“Allow Preview（允许预览）”复选框，如图 4-50 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_302.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_302.jpg)
 
 ▲图 4-49
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_303.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_303.jpg)
 
 ▲图 4-50
 
-**03** 单击右侧的“向上箭头”按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_304.jpg)，将尺寸发送到“文生图”，如图 4-51 所示。
+**03** 单击右侧的“向上箭头”按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_304.jpg)，将尺寸发送到“文生图”，如图 4-51 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_305.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_305.jpg)
 
 图 4-51
 
 **04** 设置模型为 control_sd15_depth [fef5e48e]，并控制权重，因为权重越低，文字变换越大，所以可以先保持默认参数，如图 4-52 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_306.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_306.jpg)
 
 图 4-52
 
@@ -2914,21 +2914,21 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 反向词：NSFW,low quality,blurry,lowres,
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_307.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_307.jpg)
 
 图 4-53
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_308.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_308.jpg)
 
 图 4-53（续）
 
 **06** 设置“采样方式”，这里可以选择 DPM++ 2M Karras 或 DPM++ 2M SDE karras 等，如图 4-54 所示。生成效果如图 4-55 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_309.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_309.jpg)
 
 ▲图 4-54
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_310.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_310.jpg)
 
 ▲图 4-55
 
@@ -2936,13 +2936,13 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 在本实战中，没有模特，只有服装。为了获取模特穿着服装的照片，传统的做法是邀请模特和摄影师，通过摄影师的拍摄和后期修图等一系列步骤来实现。如今这个过程已被简化，只需提供服装的图片，利用 AI 工具就能生成各式各样的图片，实现批量生产，既省时又省力。效果如图 4-56 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_311.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_311.jpg)
 
 图 4-56
 
 **01** 准备一张服装产品图，将其导入 Photoshop 中。将服装从背景中抠出，并置于白色背景中，然后创建一张蒙版图，即一张以白色为底、黑色裙子剪影为主体的图像，如图 4-57 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_312.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_312.jpg)
 
 图 4-57
 
@@ -2952,27 +2952,27 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 反向词：ng_deepnegative_vl_75t,paintings,sketches,(worstquality.2),(lowquality.2),(normalqu ality.2),lowres,normal quality,((monochrome)),((grayscale)),skin spots,acnes,skin blemishes,age spot,glans,((nsfw)),(nipples),
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_313.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_313.jpg)
 
 ▲图 4-58
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_314.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_314.jpg)
 
 ▲图 4-59
 
 **03** 打开 ControlNet 并启用，同时激活“Pixel Perfect（完美像素）”功能，选择 OpenPose，并使用“Crop and Resize（预处理器）”进行预览，具体参数设置如图 4-60 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_315.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_315.jpg)
 
 图 4-60
 
 **04** 进入 Edit 页面，控制人物姿势。此时右侧会出现一个火柴人，代表人体骨骼。使用鼠标将其摆放成需要的姿势，然后发送到 Controlnet。具体参数设置如图 4-61 所示。效果如图 4-62 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_316.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_316.jpg)
 
 ▲图 4-61
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_317.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_317.jpg)
 
 ▲图 4-62
 
@@ -2980,7 +2980,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 产品图的效果如图 4-63 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_318.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_318.jpg)
 
 图 4-63
 
@@ -2990,27 +2990,27 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 反向词：ng_deepnegative_vl_75t,paintings,sketches,(worst quality.2),(low quality.2),(normalq uality.2),lowres,normal quality,((monochrome)),((grayscale)),skin spots,acnes,skin blemishes,age spot,glans,((nsfw)),(nipples),
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_319.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_319.jpg)
 
 图 4-64
 
 **02** 打开 ControlNet 页面，将准备好的产品图导入，并使用 Canny 模型，具体参数设置如图 4-65 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_320.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_320.jpg)
 
 图 4-65
 
 **03** 至此，查看生成结果，发现产品只有轮廓，已不具识别性，如图 4-66 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_321.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_321.jpg)
 
 ▲图 4-66
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_322.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_322.jpg)
 
 ▲图 4-67
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_323.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_323.jpg)
 
 ▲图 4-68
 
@@ -3018,7 +3018,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 产品图的效果如图 4-69 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_324.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_324.jpg)
 
 图 4-69
 
@@ -3028,7 +3028,7 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 反向词：nsfw,badhandv4,(EasyNegative:0.5),ng_deepnegative_v1_75t,Bybadartist-neg,paintings,sketches, (worstquality:2),(lowquality:2),(normalquality:1.5),lowres,normalquality,((monochrome)),((grayscale)),((door)), badfinger,(afoot,withoutfeet),
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_325.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_325.jpg)
 
 图 4-70
 
@@ -3036,37 +3036,37 @@ Stable Diffusion 生成的图片都会自动记录相关参数信息，包括�
 
 **03** 设置“采样迭代步数”为 20,“采样方法”为 DPM++ SDE Karras,“重绘尺寸”与衣服图片尺寸相同，“重绘幅度”为 0.79，如图 4-72 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_326.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_326.jpg)
 
 ▲图 4-71
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_327.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_327.jpg)
 
 ▲图 4-72
 
-**04** 打开 ControlNet，在 ControlNet0 中导入衣服图片，勾选“启用”“Pixel Perfect（完美像素）”“Allow Preview （允许预览）”复选框。如果显卡不太好，也可以将低显存打开。选择 SoftEdge（柔边缘），设置“预处理器”为 softedge_hed，其他参数保持默认，导入后单击中间的“小爆炸” ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_328.jpg)进行预览，如图 4-73 所示。
+**04** 打开 ControlNet，在 ControlNet0 中导入衣服图片，勾选“启用”“Pixel Perfect（完美像素）”“Allow Preview （允许预览）”复选框。如果显卡不太好，也可以将低显存打开。选择 SoftEdge（柔边缘），设置“预处理器”为 softedge_hed，其他参数保持默认，导入后单击中间的“小爆炸” ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_328.jpg)进行预览，如图 4-73 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_329.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_329.jpg)
 
 图 4-73
 
-**05** 在 ControlNet1 中导入衣服图片，勾选“启用”“完美像素”“允许预览”复选框，单击 OpenPose，设置“预处理器”为 none，将人物的骨骼图导入，其他参数保持默认，导入后单击中间的“小爆炸” ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_330.jpg)进行预览，如图 4-74 所示。生成效果如图 4-75 所示。
+**05** 在 ControlNet1 中导入衣服图片，勾选“启用”“完美像素”“允许预览”复选框，单击 OpenPose，设置“预处理器”为 none，将人物的骨骼图导入，其他参数保持默认，导入后单击中间的“小爆炸” ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_330.jpg)进行预览，如图 4-74 所示。生成效果如图 4-75 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_331.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_331.jpg)
 
 ▲图 4-74
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_332.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_332.jpg)
 
 ▲图 4-75
 
 **06** 打开 ControlNet，勾选“启用”“Pixel Perfect（完美像素）”“Allow Preview（允许预览）”，选择 Tile/Blur，如图 4-76 所示。效果如图 4-77 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_333.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_333.jpg)
 
 ▲图 4-76
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_334.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_334.jpg)
 
 ▲图 4-77
 
@@ -3082,15 +3082,15 @@ Runway 是一个在线使用的 AI 视频制作工具，主要用于创作、编
 
 笔者试用过多款 AI 视频制作工具，认为 Runway 在功能全面性、操作便捷性及生成内容质量上均比其他工具优秀。Runway 平台的界面如图 5-1 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_335.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_335.jpg)
 
 图 5-1
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_336.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_336.jpg)
 
 在 Runway 官网注册并登录个人账户，然后单击 TRY RUNWAY FOR FREE（免费试用）按钮，即可进入 Runway 的工作界面。Runway 主界面的语言采用的是英文，读者在操作的时候可以使用浏览器的自动翻译功能将其翻译为中文。工作界面分布情况如图 5-2 所示。注意，这里的页面是可以向下拖曳的。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_337.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_337.jpg)
 
 图 5-2
 
@@ -3114,17 +3114,17 @@ Runway 是一个在线使用的 AI 视频制作工具，主要用于创作、编
 
 单击菜单栏中的 Home（家），操作池中会显示 Home 的操作面板，如图 5-3 所示。注意，默认情况下，操作池显示为 Home 面板。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_338.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_338.jpg)
 
 图 5-3
 
 **Home 面板功能解析**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_339.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_339.jpg)
 
 ① Start with Image（从图像开始）按钮。这是使用图片生成视频的快捷通道按钮，单击后可以直接进入对应的操作界面，即用图片直接生成视频内容。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_340.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_340.jpg)
 
 ② Start with Text（从文本开始）按钮。这是使用文本生成视频的快捷通道按钮，单击后可以直接进入对应的操作界面，即用文本直接生成视频内容。
 
@@ -3134,11 +3134,11 @@ Runway 是一个在线使用的 AI 视频制作工具，主要用于创作、编
 
 在操作池中滚动鼠标滚轮，可以向下翻阅页面，下面还有一些辅助功能区。Popular AI Magic Tools（流行的 AI 魔法工具）中包含了 Runway 集成的其他 AI 工具，如 Video to Video（视频到视频）、Text to Image（文本到图片）等工具，读者可以单击功能区右上角的 view all tools（显示所有工具），如图 5-4 所示。单击后，功能区会显示所有的 AI 工具，且功能区的名称和右上角的文字会发生变化，如图 5-5 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_341.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_341.jpg)
 
 ▲图 5-4
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_342.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_342.jpg)
 
 ▲图 5-5
 
@@ -3146,11 +3146,11 @@ Runway 是一个在线使用的 AI 视频制作工具，主要用于创作、编
 
 继续向下翻阅，可以查看 Tutorials（教程）功能区，这其中包含了 Runway 智能模型的介绍和使用教程，如 How to Use Gen-2（如何使用 Gen-2）、How to Train Custom AI Models（如何定制 AI 模型）等，如图 5-6 所示。单击右上角的 view all tutorials（显示所有教程），可以进入 Academy（学院）页面，其中包含大量 Runway 的教程视频，如图 5-7 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_343.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_343.jpg)
 
 ▲图 5-6
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_344.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_344.jpg)
 
 ▲图 5-7
 
@@ -3158,11 +3158,11 @@ Runway 是一个在线使用的 AI 视频制作工具，主要用于创作、编
 
 Discover and Remix（发现与混音）功能区提供了大量可以直接使用的素材，如图 5-8 所示。单击某个素材，可以直接进入编辑页面，通过文本、图片等方式生成新的视频，如图 5-9 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_345.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_345.jpg)
 
 ▲图 5-8
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_346.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_346.jpg)
 
 ▲图 5-9
 
@@ -3170,7 +3170,7 @@ Discover and Remix（发现与混音）功能区提供了大量可以直接使
 
 单击菜单栏中的 Assets（资产），操作池会切换为 Assets（资产）内容，如图 5-10 所示。读者可以将这个面板理解为个人的资源库，即素材库，用于管理相关资源文件。另外，使用 Runway 发布的视频也会出现在 Assets（资产）中。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_347.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_347.jpg)
 
 图 5-10
 
@@ -3180,15 +3180,15 @@ Discover and Remix（发现与混音）功能区提供了大量可以直接使
 
 ② Shared（共享）。这是共享视频的管理面板，其中展示了共享资源的记录。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_348.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_348.jpg)
 
 ③ New Folder（新建文件夹）按钮。单击该按钮，可以在 Folder（文件夹）功能区新建一个文件夹，用于管理资源，如图 5-11 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_349.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_349.jpg)
 
 图 5-11
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_350.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_350.jpg)
 
 ④ Upload（上传）按钮。单击该按钮，可以上传本地计算机中的文件夹或视频文件，即 Upload folder（上传文件夹）和 Upload files（上传文件），如图 5-12 所示。
 
@@ -3198,21 +3198,21 @@ Discover and Remix（发现与混音）功能区提供了大量可以直接使
 
 ⑦ 排序方式。此处主要用于设置文件的排序方式，默认为按 Date created （创建日期）进行排序。排序方式的类型如图 5-13 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_351.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_351.jpg)
 
 ▲图 5-12
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_352.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_352.jpg)
 
 ▲图 5-13
 
 ⑧ 资产类型。此处主要用于设置显示哪种类型的文件，默认为显示 All Media（所有媒体），如图 5-14 所示。文件的类型如图 5-15 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_353.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_353.jpg)
 
 ▲图 5-14
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_354.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_354.jpg)
 
 ▲图 5-15
 
@@ -3222,15 +3222,15 @@ Discover and Remix（发现与混音）功能区提供了大量可以直接使
 
 单击菜单栏中的 Video Editor Projects（视频编辑器项目），进入 Projects（项目）面板，如图 5-16 所示。读者可以将该面板理解为管理项目和编辑项目的功能区，所有创建的项目都会在此显示，如图 5-17 所示。读者也可以选择已有项目或新建项目，进入项目编辑面板进行视频编辑操作，如图 5-18 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_355.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_355.jpg)
 
 ▲图 5-16
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_356.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_356.jpg)
 
 ▲图 5-17
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_357.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_357.jpg)
 
 ▲图 5-18
 
@@ -3238,11 +3238,11 @@ Discover and Remix（发现与混音）功能区提供了大量可以直接使
 
 ① My Projects（我的项目）。此处用于显示当前存在的项目数量，数字在中间。如果没有项目，将显示为 My 0 Projects；如果有 2 个项目，则显示为 My 2 Projects。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_358.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_358.jpg)
 
 ② New Project（新项目）按钮。单击该按钮可以创建新的项目，在创建过程中可以选择创建的项目类型，如图 5-19 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_359.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_359.jpg)
 
 图 5-19
 
@@ -3252,7 +3252,7 @@ Discover and Remix（发现与混音）功能区提供了大量可以直接使
 
 ⑤ 项目库。此区域会显示当前存在的项目，读者可以删除或编辑这些项目。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_360.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_361.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_360.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_361.jpg)
 
 ⑥ Create your first project（创建你的第 1 个项目）按钮 ：当项目库中不存在项目时，该区域会出现这个按钮，单击即可创建新项目，功能与 New Project（新项目）按钮的功能一致。
 
@@ -3260,7 +3260,7 @@ Discover and Remix（发现与混音）功能区提供了大量可以直接使
 
 单击菜单栏中的 Shared with me（与我分享），进入 Shared with me（与我分享）面板，如图 5-20 所示。这个面板主要用于显示其他用户分享给自己的项目文件，其显示设置与前面介绍过的类似。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_362.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_362.jpg)
 
 图 5-20
 
@@ -3278,7 +3278,7 @@ Discover and Remix（发现与混音）功能区提供了大量可以直接使
 
 菜单栏中的 Videos（视频）包含 3 个子功能，分别是 Generate Videos（生成视频）、Edit Videos（编辑视频）、Generate Audio（生成音频），如图 5-21 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_363.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_363.jpg)
 
 图 5-21
 
@@ -3286,7 +3286,7 @@ Discover and Remix（发现与混音）功能区提供了大量可以直接使
 
 单击 Generate Videos（生成视频），进入 Generate Videos（生成视频）面板，如图 5-22 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_364.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_364.jpg)
 
 图 5-22
 
@@ -3298,7 +3298,7 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 单击 Edit Videos（编辑视频），进入 Edit Videos（编辑视频）面板，该面板中包含了大量编辑视频的 AI 工具，如图 5-23 所示。读者也可以通过查阅“5.1.1 Home”来了解该面板的功能分布。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_365.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_365.jpg)
 
 图 5-23
 
@@ -3306,7 +3306,7 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 单击 Generate Audio（生成音频），进入 Generate Audio（生成音频）面板，该面板中包含了音频处理和字幕处理的 AI 工具和教程，如图 5-24 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_366.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_366.jpg)
 
 图 5-24
 
@@ -3314,7 +3314,7 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 菜单栏中的 Images（图像）包含 2 个子功能，即 Generate Images（生成图像）和 Edit Images（编辑图像），如图 5-25 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_367.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_367.jpg)
 
 图 5-25
 
@@ -3334,7 +3334,7 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 单击 Generate Images（生成图像），进入 Generate Images（生成图像）面板，该面板中包含了生成图片的工具和相关教程，如图 5-26 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_368.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_368.jpg)
 
 图 5-26
 
@@ -3342,7 +3342,7 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 单击 Edit Images（编辑图像），进入 Edit Images（编辑图像）面板，该面板中包含了可以进行图像处理的 AI 工具和相关教程，如图 5-27 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_369.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_369.jpg)
 
 图 5-27
 
@@ -3350,7 +3350,7 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 菜单栏中的 More（更多）包含 2 个子功能，即 3D 和 AI Training（AI 训练），如图 5-28 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_370.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_370.jpg)
 
 图 5-28
 
@@ -3358,7 +3358,7 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 单击 3D，进入 3D Generations（3D 世代）面板，该面板中包含了有 3D 捕捉和 3D 纹理功能的 AI 工具，以及对应的教程，如图 5-29 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_371.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_371.jpg)
 
 图 5-29
 
@@ -3366,19 +3366,19 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 单击 AI Training（AI 训练），进入 AI Training（AI 训练）面板，该面板中的工具主要用于帮助用户训练 AI 模型，如图 5-30 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_372.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_372.jpg)
 
 图 5-30
 
 **AI Training 面板功能解析**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_373.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_373.jpg)
 
 ① Train a new model（训练一个新模型）按钮。单击该按钮，可以进行新模型的训练。模型类型包含 Character Generation（人物生成器）、Style Generation（风格生成器）和 Object Generation（对象生成器），如图 5-31 所示。
 
 ② 工具库。此处用于显示全部模型训练工具。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_374.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_374.jpg)
 
 图 5-31
 
@@ -3386,13 +3386,13 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 用视频生成视频是 Runway 平台 Gen-1 模型的核心功能之一。在 Runway 主界面或者 Home（家）面板中单击 Tay Gen-1 中的 Video to video generation（视频到视频生成），如图 5-32 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_375.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_375.jpg)
 
 图 5-32
 
 进入 AI Majic Tools/Video to Video（AI 魔法工具/视频到视频）面板，读者可以单击红色框选区域上传本地计算机中的视频或者直接将视频拖曳进来，也可以直接在下方黄色框选区域内选择资产预设，如图 5-33 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_376.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_376.jpg)
 
 图 5-33
 
@@ -3402,55 +3402,55 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 笔者在这里上传“一个在走路的帅小伙”的视频，为后面的演示做准备，如图 5-34 所示。上传完视频后，读者需要了解在 Video to Video（视频到视频）模式中可以通过 3 种风格参考方式进行风格迁移，分别是 Image （图像）、Presets（预设）和 Prompt（提示词）。右侧的 Style reference（风格参考）面板如图 5-35 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_377.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_377.jpg)
 
 ▲图 5-34
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_378.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_378.jpg)
 
 ▲图 5-35
 
 ### **5.2.1 图像参考**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_379.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_379.jpg)
 
 单击 Image（图像）按钮，在下方的功能区可以选择相关的图像参考，如图 5-36 所示。读者可以将本地计算机中的图片以拖曳到功能区的方式进行上传并选择，或者打开 Demo Images（演示图像）并选中 Runway 预设的图片。
 
 笔者在这里希望将原视频的风格转换为“蒸汽波”风格，内容为“让帅小伙儿走在日落之下”，于是上传了图 5-37 所示的图片参考。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_380.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_380.jpg)
 
 ▲图 5-36
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_381.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_381.jpg)
 
 ▲图 5-37
 
 **1 .预览与生成**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_382.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_383.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_382.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_383.jpg)
 
 上传完成后，选中上传的图片，单击 Settings（设置）面板中的 Generate video （生成视频）按钮，可以直接生成视频。笔者不建议读者这样做，因为生成视频通常需要花费几分钟的等待时间。如果生成的视频不满意，就需要重新生成，如此反复尝试，非常浪费时间与精力。因此笔者的建议是，单击 Preview styles（预览风格）按钮，提前对即将生成的结果进行预览，并判断此效果是否能够满足需求。Settings（设置）面板中的按钮位置如图 5-38 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_384.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_384.jpg)
 
 图 5-38
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_385.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_386.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_385.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_386.jpg)
 
 单击 Preview styles（预览风格）按钮，原视频的下方就会弹出 4 个风格的预览效果，如图 5-39 所示。如果预览效果中有符合预期的，当鼠标指针悬浮在其上时，会弹出 Generate video（生成视频）按钮，单击该按钮即可生成视频，如图 5-40 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_387.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_387.jpg)
 
 ▲图 5-39
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_388.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_388.jpg)
 
 ▲图 5-40
 
 **技巧提示**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_389.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_389.jpg)
 
 如果读者找不到合适的效果，可以多次单击 Preview styles（预览风格）按钮，直到出现满意的效果。
 
@@ -3458,11 +3458,11 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 如果预览效果与目标效果有一定的出入，可以单击 Settings（设置）面板右侧的 Advanced（高级），如图 5-41 所示。展开 Settings（设置）的参数面板，如图 5-42 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_390.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_390.jpg)
 
 ▲图 5-41
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_391.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_391.jpg)
 
 ▲图 5-42
 
@@ -3478,21 +3478,21 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 这里以图 5-43 所示的视频作为源视频，以图 5-44 所示的图片内容作为参考图像，保持其他参数不变，仅改变 Style:Structural consistency（风格：结构一致性）的参数。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_392.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_392.jpg)
 
 ▲图 5-43
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_393.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_393.jpg)
 
 ▲图 5-44
 
 为了使对比效果明显，笔者分别测试 Style:Structural consistency（风格：结构一致性）为 0（最小值）和 7 （最大值）的效果。同时，为了避免结果出现偶然性，笔者特地增加了测试样本数，即使用预览风格的效果进行对比，如图 5-45 和图 5-46 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_394.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_394.jpg)
 
 ▲图 5-45
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_395.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_395.jpg)
 
 ▲图 5-46
 
@@ -3508,11 +3508,11 @@ Generate Videos（生成视频）中的功能分布与 Home（家）面板中�
 
 Style:Weight（风格：权重）仅影响风格，基本不会改变画面结构。下面采用同样的源视频和风格参考图进行测试。保持其他参数不变，仅改变 Style:Weight（风格：权重）参数，分别设置 Style:Weight（风格：权重）为 1.1（最小值）和 15（最大值），效果如图 5-47 和图 5-48 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_396.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_396.jpg)
 
 ▲图 5-47
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_397.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_397.jpg)
 
 ▲图 5-48
 
@@ -3524,7 +3524,7 @@ Style:Weight（风格：权重）仅影响风格，基本不会改变画面结�
 
 **（3）控制画面流畅度**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_398.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_398.jpg)
 
 设置参数并得到满意的预览效果后，单击 Generate video（生成视频）按钮，等待 1~2 分钟即可得到结果。如果发现生成视频播放起来比较卡顿，可以尝试设置 Frame consistency（帧一致性）参数。该参数主要控制生成视频的前后两帧之间的关联性，数值越大，当前帧与前一帧的关联越大，即画面在播放时会显得越流畅。
 
@@ -3538,29 +3538,29 @@ Style:Weight（风格：权重）:7.5~12.5。
 
 Frame consistency（帧一致性）:1~1.25。
 
-当一切参数都设置完毕，并成功生成满意的视频后，即可单击生成视频右上角的 Download（下载）按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_399.jpg)，将视频下载并保存至本地计算机。另外，Gen-1 模型目前单次生成的视频时长最长为 4s，所以读者在上传源视频时应注意截取需要进行风格迁移的视频片段。
+当一切参数都设置完毕，并成功生成满意的视频后，即可单击生成视频右上角的 Download（下载）按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_399.jpg)，将视频下载并保存至本地计算机。另外，Gen-1 模型目前单次生成的视频时长最长为 4s，所以读者在上传源视频时应注意截取需要进行风格迁移的视频片段。
 
 ### **5.2.2 预设参考**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_400.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_400.jpg)
 
 除了上传风格参考图，读者还可以使用 Runway 平台提供的风格预设进行风格迁移。单击 Presets（预设）按钮，即可查看并使用 Runway 提供的风格预设，如图 5-49 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_401.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_401.jpg)
 
 图 5-49
 
 这里笔者选择 Storyboard（故事板）风格的预设进行演示。向下拖曳功能区，找到 Storyboard（故事板）并选择，其他的操作方法和“5.2.1 图像参考”中介绍的一样。预览效果如图 5-50 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_402.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_402.jpg)
 
 图 5-50
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_403.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_403.jpg)
 
 此时可以看到，预览效果还是比较不错的。Runway 提供的预设大多是经过测试的，所以相对于初学者自己提供的风格参考图，得到的效果要好一些。注意，当选择了风格预设后，部分设定将不可用，但读者依然可以在 Advanced（高级）中设置参数，方法和原理与前面一致。笔者认为第 1 种风格的预览效果比较好，所以可以直接单击该预览效果上的 Generate video（生成视频）按钮，视频如图 5-51 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_404.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_404.jpg)
 
 图 5-51
 
@@ -3568,17 +3568,17 @@ Frame consistency（帧一致性）:1~1.25。
 
 Runway 提供的风格预设大致可以分为人物型、风格型、动物型、建筑风景型等类型。读者使用时应根据源视频的类型选择对应的风格预设，这样生成的视频才会更加准确。如果选择与源视频的风格不一致的风格预设，大概率会导致生成的视频内容变得奇怪。这里同样使用源视频，并选择动物型的风格预设，得到的效果就比较“四不像”，如图 5-52 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_405.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_405.jpg)
 
 图 5-52
 
 ### **5.2.3 提示词参考**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_406.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_406.jpg)
 
 单击 Prompt（提示词）按钮，可以在下方功能区输入对风格的英文描述，即提示词，如图 5-53 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_407.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_407.jpg)
 
 图 5-53
 
@@ -3588,7 +3588,7 @@ Runway 提供的风格预设大致可以分为人物型、风格型、动物型�
 
 Palm tree silhouettes,The background is a gradual change of neon pink and purple sky,pixelated sun and retro futuristic elements,old computers and vintage cars,synthetic wave atmosphere
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_408.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_408.jpg)
 
 图 5-54
 
@@ -3600,7 +3600,7 @@ Palm tree silhouettes,The background is a gradual change of neon pink�
 
 Vaporwave,sunset,palm tree silhouettes
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_409.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_409.jpg)
 
 图 5-55
 
@@ -3626,29 +3626,29 @@ Gen-2 模型提供两种视频生成模式：一种是用图像生成视频，�
 
 **01** 在 Runway 主界面单击 Generate videos（生成视频），然后在 Generate videos（生成视频）面板中单击 Gen-2 的 Text/Image to Video（文本/图像到视频），如图 5-56 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_410.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_410.jpg)
 
 图 5-56
 
 **02** 进入“AI Magic Tools/Text/Image to Video（AI 魔法工具/文本/图像到视频）”面板，单击 IMAGE（图像），进入图像模式，将图像拖曳到黄色方框内上传，如图 5-57 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_411.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_411.jpg)
 
 图 5-57
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_412.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_413.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_412.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_413.jpg)
 
 **03** 功能区下面有一些工具，单击 General Motion（常规运动）功能按钮，可以对运动强度进行调整，数值越大，运动强度越大，反之则越小。参数面板和操作顺序如图 5-58 所示。因为该操作属于一般设置，所以笔者就不生成视频了，读者设置好后可以单击 Generate 4s（生成 4 秒）按钮，查看生成视频的效果。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_414.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_414.jpg)
 
 图 5-58
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_415.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_415.jpg)
 
 **04** 继续单击 Camera Montion（相机运动）按钮，可以调整镜头的运动方式。这里笔者任意调整一下，参数如图 5-59 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_416.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_416.jpg)
 
 图 5-59
 
@@ -3664,75 +3664,75 @@ Roll（旋转）：用于控制镜头的旋转方向和角度。
 
 Zoom（缩放）：用于控制镜头的缩放，即控制画面的大小和远近。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_417.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_417.jpg)
 
 Reset saved（重置保存）按钮：用于清除设置的参数，即还原到初始状态。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_418.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_418.jpg)
 
 Save（保存）按钮：用于保存当前设置的参数。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_419.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_420.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_421.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_419.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_420.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_421.jpg)
 
-单击 Save（保存）按钮后，Runway 会保存 Camera Montion（相机运动）参数，Camera Montion（相机运动）按钮会变为工具组按钮，用于显示设置了哪些参数，如 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_422.jpg)表示设置镜头向右移动、 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_423.jpg)表示设置镜头向上移动、 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_424.jpg)表示设置镜头向左旋转、 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_425.jpg)表示对镜头进行了放大（拉近了画面）。
+单击 Save（保存）按钮后，Runway 会保存 Camera Montion（相机运动）参数，Camera Montion（相机运动）按钮会变为工具组按钮，用于显示设置了哪些参数，如 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_422.jpg)表示设置镜头向右移动、 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_423.jpg)表示设置镜头向上移动、 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_424.jpg)表示设置镜头向左旋转、 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_425.jpg)表示对镜头进行了放大（拉近了画面）。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_426.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_426.jpg)
 
 **05** 单击 Generate 4s（生成 4 秒）按钮，即可根据当前设置的参数或默认参数对上传的图片进行视频生成。生成过程一般持续 1~2 分钟，如图 5-60 和图 5-61 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_427.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_427.jpg)
 
 ▲图 5-60
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_428.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_428.jpg)
 
 ▲图 5-61
 
 **技巧提示**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_429.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_429.jpg)
 
 这里笔者没有单击 Free Preview（免费预览）按钮进行视频预览，是因为该功能在 Free （免费）模式下无法使用。
 
-**06** 视频生成结束后，可以单击左下角的播放按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_430.jpg)进行播放，也可以在右下角设置播放需求，效果如图 5-62 所示。可以看到，视频内容是根据上传图片进行变动的，且视频中体现了镜头变化情况和运动强弱。
+**06** 视频生成结束后，可以单击左下角的播放按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_430.jpg)进行播放，也可以在右下角设置播放需求，效果如图 5-62 所示。可以看到，视频内容是根据上传图片进行变动的，且视频中体现了镜头变化情况和运动强弱。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_431.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_431.jpg)
 
 图 5-62
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_432.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_432.jpg)
 
-**07** 如果对效果满意，可以单击 Download（下载）按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_433.jpg)，将视频下载到本地计算机中。如果对视频效果不满意，可以进行二次设置，即单击 Camera Montion（相机运动）工具组按钮，可以对镜头参数进行重置，如图 5-63 所示。
+**07** 如果对效果满意，可以单击 Download（下载）按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_433.jpg)，将视频下载到本地计算机中。如果对视频效果不满意，可以进行二次设置，即单击 Camera Montion（相机运动）工具组按钮，可以对镜头参数进行重置，如图 5-63 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_434.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_434.jpg)
 
 图 5-63
 
 **技巧提示**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_435.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_436.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_435.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_436.jpg)
 
-因为二次设置是在生成视频的基础上进行的，所以部分参数无法直接调整。例如，General Motion（常规运动）属于一般设置，在应用了 Camera Montion（相机运动）这类高级设置后，Runway 会覆盖一般设置。如果要使用一般设置进行视频生成，则需要单击 General Motion（常规运动）工具按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_437.jpg)，然后在弹出的选项中单击 OK,reset（好，重置）按钮，如图 5-64 所示。此时，Runway 会清除掉高级设置，也就是 Camera Montion（相机运动）的设置，并提供 General Motion（常规运动）按钮，供读者进行一般设置，如图 5-65 所示。
+因为二次设置是在生成视频的基础上进行的，所以部分参数无法直接调整。例如，General Motion（常规运动）属于一般设置，在应用了 Camera Montion（相机运动）这类高级设置后，Runway 会覆盖一般设置。如果要使用一般设置进行视频生成，则需要单击 General Motion（常规运动）工具按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_437.jpg)，然后在弹出的选项中单击 OK,reset（好，重置）按钮，如图 5-64 所示。此时，Runway 会清除掉高级设置，也就是 Camera Montion（相机运动）的设置，并提供 General Motion（常规运动）按钮，供读者进行一般设置，如图 5-65 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_438.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_438.jpg)
 
 ▲图 5-64
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_439.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_439.jpg)
 
 ▲图 5-65
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_440.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_441.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_440.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_441.jpg)
 
 **08** 二次设置好参数后，继续单击 Generate 4s（生成 4 秒）按钮，即可生成视频。如果觉得 4 秒时长的视频不能满足需求，可以单击 Extend 4s（扩展 4 秒）按钮，将视频时长延长至 8 秒，Runway 会使用 Gen-2 模型自行补充后面的内容，如图 5-66 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_442.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_442.jpg)
 
 图 5-66
 
 **技巧提示**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_443.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_443.jpg)
 
 Runway 并不支持无限单击 Extend 4s（扩展 4 秒）按钮来延长视频时长，目前仅提供 3 次视频时长的延长机会。另外，整个界面左侧会显示视频的生成记录，单击它们即可切换到对应的视频，以便再次修改。
 
@@ -3742,7 +3742,7 @@ IMAGE+DESCRIPTION（图像+说明）即俗称的“图像+文本”模式。下�
 
 **01** 单击 IMAGE+DESCRIPTION（图像+说明），切换到 IMAGE+DESCRIPTION（图像+说明）功能区，然后将图片拖曳到图片上传区域，如图 5-67 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_444.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_444.jpg)
 
 图 5-67
 
@@ -3764,13 +3764,13 @@ IMAGE+DESCRIPTION（图像+说明）即俗称的“图像+文本”模式。下�
 
 It is characterized by swirls of cosmic dust and gas in a variety of colors,primarily fiery orange and red,mixed with white.Scattered are spots of light from stars,some appearing larger and brighter,indicating they are closer or brighter.Let these nebulae move and the stars twinkle and twinkle.
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_445.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_445.jpg)
 
 图 5-68
 
 **技巧提示**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_446.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_446.jpg)
 
 这里的文本字数是有限的，即不能超过 320 个。接下来就是对视频参数进行设置，设置好后同样单击 Generate 4s（生成 4 秒）按钮，即可生成视频。
 
@@ -3782,11 +3782,11 @@ It is characterized by swirls of cosmic dust and gas in a variety o
 
 单击菜单栏中的 Generate images（生成图像），然后单击 Generate image（生成图像）面板中的 TI 工具，即 Text to Image（文本到图像），如图 5-69 所示。之后，会进入 AI Magic Tools/Text to Image（AI 魔法工具/文本到图像）面板，左侧的 Text to Image（文本到图像）下包含 Runway 的预设图像，右侧为参数面板，如图 5-70 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_447.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_447.jpg)
 
 ▲图 5-69
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_448.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_448.jpg)
 
 ▲图 5-70
 
@@ -3794,29 +3794,29 @@ It is characterized by swirls of cosmic dust and gas in a variety o
 
 ① Ratio（比例）。用于设置生成图像的画面比例，可选比例如图 5-71 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_449.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_449.jpg)
 
 图 5-71
 
 ② Resolution（分辨率）。用于设置图像的分辨率，可选分辨率为 720p 和 2K。目前笔者编写时，2K 分辨率需要付费升级后才可使用，如图 5-72 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_450.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_450.jpg)
 
 图 5-72
 
 ③ Style（风格）。用于设置图像画面的风格。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_451.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_451.jpg)
 
 ④ Number of Outputs（输出数量）。用于设置输出图像的数量。单击 Batch （批量）按钮，可以进行一次性批量输出，该功能目前需要付费才能使用。
 
 ⑤ Prompt（提示词）。用于输入提示词内容。另外，单击左侧的预设图像后，文本框会自动生成已有的提示词。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_452.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_452.jpg)
 
 ⑥ Train your own model（训练你自己的模型）按钮。单击该按钮，可以进入 AI Training（AI 训练）面板，导入训练好的模型。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_453.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_453.jpg)
 
 ⑦ Generate（生成）按钮 单击该按钮，即可生成图像。
 
@@ -3826,7 +3826,7 @@ It is characterized by swirls of cosmic dust and gas in a variety o
 
 A Finnish Lapphund sits in a flowery gardenon a sunny day,The dog looks content and alert,Sketching style
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_454.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_454.jpg)
 
 图 5-73
 
@@ -3836,15 +3836,15 @@ A Finnish Lapphund sits in a flowery gardenon a sunny day,The dog lo
 
 **02** 在 Settings（设置）面板中设置 Ratio（比例）为 Square(1:1)[正方形（1∶1）],Resolution（分辨率）为 720p,Style（风格）为 None（无）,Number of Outputs（输出数量）为 1，如图 5-74 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_455.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_455.jpg)
 
 图 5-74
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_456.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_456.jpg)
 
 **03** 单击 Generate（生成）按钮，生成一幅有小狗的图像，如图 5-75 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_457.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_457.jpg)
 
 图 5-75
 
@@ -3852,7 +3852,7 @@ A Finnish Lapphund sits in a flowery gardenon a sunny day,The dog lo
 
 与前面介绍过的 Setting（设置）面板类似，单击此处 Setting（设置）面板右侧的 Advanced（高级），可以展开额外的面板参数，如图 5-76 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_458.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_458.jpg)
 
 图 5-76
 
@@ -3870,21 +3870,21 @@ A Finnish Lapphund sits in a flowery gardenon a sunny day,The dog lo
 
 单击 Generate image（生成图像）面板中的Ⅱ工具，即 Image to Image（图像到图像），如图 5-77 所示。此时，会进入 AI Magic Tools/Image to Image（AI 魔法工具/图像到图像）面板，面板下方会展示 Assets（资产）中的文件，如图 5-78 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_459.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_459.jpg)
 
 ▲图 5-77
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_460.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_460.jpg)
 
 ▲图 5-78
 
 **01** 将 Assets（资产）中的图像文件拖曳到图像文件上传区域，如图 5-79 所示。当然，读者也可以直接从本地计算机中直接拖曳图像文件到该区域。拖曳后的效果如图 5-80 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_461.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_461.jpg)
 
 ▲图 5-79
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_462.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_462.jpg)
 
 ▲图 5-80
 
@@ -3892,15 +3892,15 @@ A Finnish Lapphund sits in a flowery gardenon a sunny day,The dog lo
 
 此时，右侧同样会出现 Settings（设置）面板。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_463.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_463.jpg)
 
 **02** 设置 Style（风格）为 Forestpunk（森林朋克），然后在 Prompt（提示词）文本框中输入描述文本 A lovely dog，表示内容为“一只可爱的狗”，最后单击 Generate（生成）按钮，如图 5-81 所示。因为这里保持 Number of Outputs（输出数量）为 4，所以会生成 4 张改变了风格的图片，如图 5-82 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_464.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_464.jpg)
 
 ▲图 5-81
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_465.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_465.jpg)
 
 ▲图 5-82
 
@@ -3908,15 +3908,15 @@ A Finnish Lapphund sits in a flowery gardenon a sunny day,The dog lo
 
 在数字创新领域，视频内容的生动性与较强的视觉冲击力通常是其成功的决定性因素。因此，智能抠像技术的应用，无疑在视频编辑中起着突破性的作用。Runway 提供了简单而强大的智能抠像功能（也能用于抠图），有助于提高视频制作的灵活性和效率。Runway 的绿屏功能可以快速、有效地将对象与背景分离，不仅可以替换任意场景的背景，还可以添加文本、动态图形等元素。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_466.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_466.jpg)
 
 在 Home（家）面板中单击 RB 工具，即 Remove Background（去除背景），如图 5-83 所示。之后，Runway 的界面会跳转到 Green Screen（绿幕）面板，如图 5-84 所示。注意，笔者编写本书时，该面板名前有 Beta（公测）图标，请读者在操作时以实际界面为准。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_467.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_467.jpg)
 
 ▲图 5-83
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_468.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_468.jpg)
 
 ▲图 5-84
 
@@ -3926,7 +3926,7 @@ Remove Background（去除背景）的主要工作原理是为主体对象添�
 
 **01** 导入需要进行抠像的素材。素材可以是图片，也可以是视频。素材可以来源于 Assets（资产），也可以来源于本地计算机。这里笔者先导入本地计算机中的视频素材，然后将其拖曳到 Green Screen（绿幕）面板的底部或中间的空白区域，就会进入素材的编辑模式，如图 5-85 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_469.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_469.jpg)
 
 图 5-85
 
@@ -3944,29 +3944,29 @@ Remove Background（去除背景）的主要工作原理是为主体对象添�
 
 **02** 直接单击主体对象，也就是视频素材中的人物角色，如图 5-86 所示。这一步可以得到一个初始蒙版，该蒙版同样能应用于视频其他部分的人物角色，如图 5-87 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_470.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_470.jpg)
 
 ▲图 5-86
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_471.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_471.jpg)
 
 ▲图 5-87
 
 **技巧提示**
 
-如果读者在操作过程中需要撤销或重做，可以单击界面顶部的 Undo（撤销）按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_472.jpg)（快捷键为 Ctrl+Z）或 Redo（重做）按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_473.jpg)（快捷键为 Ctrl+Y）。从结果来看，单击一次并不一定能得到完整的绿色蒙版，而多单击主体的其他区域就可以得到更精确的结果，如图 5-88 和图 5-89 所示。
+如果读者在操作过程中需要撤销或重做，可以单击界面顶部的 Undo（撤销）按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_472.jpg)（快捷键为 Ctrl+Z）或 Redo（重做）按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_473.jpg)（快捷键为 Ctrl+Y）。从结果来看，单击一次并不一定能得到完整的绿色蒙版，而多单击主体的其他区域就可以得到更精确的结果，如图 5-88 和图 5-89 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_474.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_474.jpg)
 
 ▲图 5-88
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_475.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_475.jpg)
 
 ▲图 5-89
 
 **03** 确认绿色蒙版创建无误后，单击面板左下角的 Preview（预览）按钮，播放画面以观察所选区域在整个视频中的效果，如图 5-90 所示。通过预览可以发现，绿色蒙版大多数情况下都在人物主体上，几乎没有区域“渗入”背景或漏选的情况。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_476.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_476.jpg)
 
 图 5-90
 
@@ -3976,25 +3976,25 @@ Remove Background（去除背景）的主要工作原理是为主体对象添�
 
 **01** 当播放到有瑕疵的画面时，可按暂停键（Space 键）或直接将时间线拖曳到有瑕疵画面的时刻。默认状态下鼠标指针呈“添加蒙版”状态，也就是单击画面中的位置，会添加该区域的内容，如图 5-91 所示。再次单击同样的位置，即可删除该区域，如图 5-92 所示。右侧面板中默认 Mode（模式）为 Include（包含），即“添加蒙版”状态，如图 5-93 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_477.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_477.jpg)
 
 ▲图 5-91
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_478.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_478.jpg)
 
 ▲图 5-92
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_479.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_479.jpg)
 
 ▲图 5-93
 
 **02** 如果想要删除一个点，除了再次单击选中的对应区域之外，还可以在右侧面板中设置 Mode（模式）为 Exclude（排除），即“删除蒙版”状态，如图 5-94 所示。此时单击某个区域，就可以删除该区域，如图 5-95 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_480.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_480.jpg)
 
 ▲图 5-94
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_481.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_481.jpg)
 
 ▲图 5-95
 
@@ -4004,25 +4004,25 @@ Remove Background（去除背景）的主要工作原理是为主体对象添�
 
 ### **5.5.3 绘制蒙版区域**
 
-在预览视频效果时，如果想手动修改蒙版中的某些区域，可以使用 Brush（笔刷）工具 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_482.jpg)绘制遮罩，这就需要读者有一定的鼠标控制能力。
+在预览视频效果时，如果想手动修改蒙版中的某些区域，可以使用 Brush（笔刷）工具 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_482.jpg)绘制遮罩，这就需要读者有一定的鼠标控制能力。
 
 **01** 在绘制遮罩之前，建议将素材画面放大，并使用面板顶部的 Pan（抓手）工具来平移画面，如图 5-96 所示。注意，放大和缩小画面的快捷键分别为＋键和－键。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_483.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_483.jpg)
 
 图 5-96
 
-**02** 单击右侧面板 Refine（改善）后的 Brush（笔刷）工具 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_484.jpg)，然后在画面中涂抹需要选择的区域，如图 5-97 所示。释放鼠标，Runway 获取笔刷的内容，并传递信息给其他帧，然后计算出绘制的区域，如图 5-98 所示。预览视频可以发现，整个视频后续的画面中与笔刷内容相关的“人物胳膊”都被添加了绿色蒙版，如图 5-99 所示。
+**02** 单击右侧面板 Refine（改善）后的 Brush（笔刷）工具 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_484.jpg)，然后在画面中涂抹需要选择的区域，如图 5-97 所示。释放鼠标，Runway 获取笔刷的内容，并传递信息给其他帧，然后计算出绘制的区域，如图 5-98 所示。预览视频可以发现，整个视频后续的画面中与笔刷内容相关的“人物胳膊”都被添加了绿色蒙版，如图 5-99 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_485.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_485.jpg)
 
 ▲图 5-97
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_486.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_486.jpg)
 
 ▲图 5-98
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_487.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_487.jpg)
 
 ▲图 5-99
 
@@ -4030,17 +4030,17 @@ Remove Background（去除背景）的主要工作原理是为主体对象添�
 
 读者可以根据需求在右侧面板中调整笔刷的大小和羽化半径，这些参数的原理与 Premiere 和 Photoshop 中的对应参数类似。Brush Size（笔刷大小）用于控制笔刷的大小范围，Feather（羽化）用于控制边缘柔和程度，如图 5-100 所示。另外，View（视图）中的参数主要用于设置显示效果，读者可以根据字面意思了解其作用，此处笔者不再赘述。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_488.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_488.jpg)
 
 图 5-100
 
 ### **5.5.4 修剪视频**
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_489.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_490.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_491.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_492.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_489.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_490.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_491.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_492.jpg)
 
 当为主体对象获得理想的蒙版区域后，可以查看右侧面板下方的 Done Masking （完成蒙版）面板，其中包含 Add Effects（添加效果）按钮、Blur background （模糊背景）按钮、Replace Background（替换背景）按钮和 Trim video（修剪视频）按钮，如图 5-101 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_493.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_493.jpg)
 
 图 5-101
 
@@ -4048,17 +4048,17 @@ Remove Background（去除背景）的主要工作原理是为主体对象添�
 
 这里笔者仅演示如何修剪视频，其他 3 个功能相对简单，读者直接操作即可。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_494.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_494.jpg)
 
 **01** 单击 Trim video（修剪视频）按钮，进入修剪视频面板，抠像后的视频和原视频会分别出现在两条时间轨道上，上层为抠像后的视频，下层为原视频，如图 5-102 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_495.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_495.jpg)
 
 图 5-102
 
-**02** 对时间轨道的操作与 Premiere 类似，如拖曳轨道位置、缩放轨道显示大小等。这里选择下层的原视频轨道，按 Backspace（退格）键将其删除，然后单击界面左侧的 Solid（坚硬）按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_496.jpg)，并将其轨道拖曳到抠像后视频的下方，如图 5-103 所示。
+**02** 对时间轨道的操作与 Premiere 类似，如拖曳轨道位置、缩放轨道显示大小等。这里选择下层的原视频轨道，按 Backspace（退格）键将其删除，然后单击界面左侧的 Solid（坚硬）按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_496.jpg)，并将其轨道拖曳到抠像后视频的下方，如图 5-103 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_497.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_497.jpg)
 
 图 5-103
 
@@ -4068,19 +4068,19 @@ Remove Background（去除背景）的主要工作原理是为主体对象添�
 
 **03** 如果读者希望为视频内容添加一些效果，可以选择在时间轨道上抠像后的视频，展开右侧面板的 Effects and Filters（效果和过滤器）面板，然后选择其中的效果预设，如图 5-104 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_498.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_498.jpg)
 
 图 5-104
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_499.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_499.jpg)
 
 **04** 处理好后重命名视频，可以单击 Export（导出）按钮，然后选择导出的格式，如图 5-105 所示。另外，读者也可以选择 ProRes 或者 PNG 序列，将视频以透明背景导出。导出的视频会出现在 Assets（资产）中，如图 5-106 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_500.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_500.jpg)
 
 ▲图 5-105
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_501.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_501.jpg)
 
 ▲图 5-106
 
@@ -4112,7 +4112,7 @@ Runway 的智能抠像功能能够迅速地将主角“传送”到任何他们�
 
 下面将使用 Runway 制作“一只运动鞋在展示台上旋转”的动图，如图 5-107 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_502.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_502.jpg)
 
 图 5-107
 
@@ -4134,11 +4134,11 @@ Runway 的智能抠像功能能够迅速地将主角“传送”到任何他们�
 
 **01** 在 Runway 的主界面中选择 Text/Image to Video（文本/图像到视频）工具，如图 5-108 所示。切换到 TEXT 模式，如图 5-109 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_503.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_503.jpg)
 
 ▲图 5-108
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_504.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_504.jpg)
 
 ▲图 5-109
 
@@ -4158,7 +4158,7 @@ A pair of cool sports shoes,rotating in the picture,showcasing all-roun
 
 Product photography,Commercial shooting,Bright blue background,a pair of cool sports shoes,rotating in the picture,showcasing all-round details,high resolution photography,A bright environment,A concise background
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_505.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_505.jpg)
 
 图 5-110
 
@@ -4166,17 +4166,17 @@ Product photography,Commercial shooting,Bright blue background,a pair of 
 
 在商业视频制作中，产品摄影和后期编辑的主要目标是强调商品的销售亮点。因此，对于与电子商务相关的动态图像生成，建议使用在既定公式中的某些“固定组合”作为提示词。例如，“产品摄影”和“商业拍摄”能够使图像展示得更具商业气质，“明亮的环境”和“简洁的背景”能更有效地凸显商品主体。至于设计主题，应根据具体需求输入相应的提示词。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_506.jpg) ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_507.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_506.jpg) ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_507.jpg)
 
 **05** 单击 Generate 4s（生成 4 秒）按钮，即可得到 4 秒的视频，如图 5-111 所示。如果对视频满意，可以在生成后的视频界面右上角单击 Extend 4s（拓展 4 秒）按钮，将视频时长拓展为 8 秒。
 
-**06** 根据上一步生成的视频，可以继续进行编辑修改。这里笔者想要这只运动鞋能够旋转得快一些，所以单击 General Motion（一般运动）按钮 ![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_508.jpg)，然后设置参数为 8，如图 5-112 所示。
+**06** 根据上一步生成的视频，可以继续进行编辑修改。这里笔者想要这只运动鞋能够旋转得快一些，所以单击 General Motion（一般运动）按钮 ![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_508.jpg)，然后设置参数为 8，如图 5-112 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_509.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_509.jpg)
 
 ▲图 5-111
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_510.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_510.jpg)
 
 ▲图 5-112
 
@@ -4188,23 +4188,23 @@ Product photography,Commercial shooting,Bright blue background,a pair of 
 
 本案例使用 Image to Video（图像到视频）模式来制作水花溅起的动态效果，如图 5-113 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_511.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_511.jpg)
 
 图 5-113
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_512.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_512.jpg)
 
 **01** 在 Runway 主界面中选择 Text/Image to Video（文本/图像到视频）工具，然后切换到 IMAGE（图像）模式，将饮料素材图拖曳到图片上传区域，并单击 Generate 4s（生成 4 秒）按钮，如图 5-114 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_513.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_513.jpg)
 
 图 5-114
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_514.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_514.jpg)
 
 **02** 视频加载完毕后，单击 Extend 4s（拓展 4 秒）按钮，如图 5-115 所示。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_515.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_515.jpg)
 
 图 5-115
 
@@ -4212,7 +4212,7 @@ Product photography,Commercial shooting,Bright blue background,a pair of 
 
 在使用 Image to Video（图像到视频）模式生成电商动图时，不需要输入提示词，因为 AI 工具会自动识别图片中的主体，并进行动态视频的生成。使用图像则可以让视频内容变得更具体，也就是说如果已经有了某商品的图片，那么 Image to Video（图像到视频）模式毫无疑问是比较不错的选择。
 
-![](img/AI电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_516.jpg)
+![](img/AI-电商设计基础与实战：ChatGPT+Midjourney+Stable_Diffusion+Runway_image_516.jpg)
 
 微信扫描二维码关注公众号后，输入验证码：41323，得到资源获取帮助。
 

@@ -69,11 +69,11 @@ DeepSeek 的发展历程可以分为几个重要阶段（见表 1-1）。2023 �
 
 表 1-1 DeepSeek 的发展历程
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_001.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_001.jpg)
 
 续表
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_002.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_002.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -207,7 +207,7 @@ OpenAI、Google 等科技巨头凭借雄厚的资金和技术积累，主导了 
 
 表 1-2 DeepSeek-V3 训练成本
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_004.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_004.jpg)
 
 资料来源：DeepSeek-AI . DeepSeek-V3Technical Report（2024）。
 
@@ -219,7 +219,7 @@ OpenAI、Google 等科技巨头凭借雄厚的资金和技术积累，主导了 
 
 训练成本的降低，不仅是技术上的进步，更是对整个 AI 行业的巨大推动。过去，只有少数资金雄厚的大公司才能负担得起训练高性能模型的费用。而现在，中小型开发者也能以较低的成本构建出性能优异的 AI 模型（见图 1-1）。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_005.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_005.jpg)
 
 图 1-1 在不同 AI 模型上处理 100 万个 token 的价格[资料来源：DocsBot。注：一个 token 是 AI 模型处理的最小单位（约 4 个字符），o1 是 ChatGPT 的最新模型，图中包括了每家公司最具可比性的模型。]
 
@@ -241,11 +241,11 @@ DeepSeek 在 2025 年 2 月 24 日至 2 月 28 日进行了一次开源周活动
 
 表 1-3 DeepSeek 开源周项目发布安排
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_006.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_006.jpg)
 
 续表
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_007.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_007.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -261,7 +261,7 @@ DeepSeek 举办开源策略具有多方面的重要意义。
 
 表 1-4 中美大语言模型开闭源情况梳理（部分）
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_008.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_008.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -319,11 +319,11 @@ DeepSeek 用“低成本+开源+坚持研究”的组合拳，正在将 AI 从�
 
 表 1-5 杭州“六小龙”
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_009.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_009.jpg)
 
 续表
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_010.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_010.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -433,11 +433,11 @@ DeepSeek 的故事始于幻方量化（High-Flyer Capital），一家在量化�
 
 表 2-1 幻方量化发展历程
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_013.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_013.jpg)
 
 续表
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_014.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_014.jpg)
 
 资料来源：根据幻方量化官网信息整理。
 
@@ -483,11 +483,11 @@ DeepSeek 作为中国 AI 领域的后起之秀，其产品发布历程不仅展�
 
 表 2-2 DeepSeek 模型和产品发布历程
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_015.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_015.jpg)
 
 续表
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_016.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_016.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -539,13 +539,13 @@ DeepSeek 的产品发布历程，从早期的 DeepSeek-Coder 到关键迭代的 
 
 DeepSeek 产品发布后，用户增长速度惊人。其在 14 天内吸引了 100 万用户，20 天内突破 1000 万用户。 ^(²⁶)2025 年 1 月，DeepSeek 用户增长达 1.25 亿（含网站和应用），其中 80%以上用户来自 1 月最后一周，即 7 天内完成了 1 亿用户增长 ^(²⁷)（见图 2-1）。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_018.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_018.jpg)
 
 图 2-1 不同平台达到 1 亿用户所用天数[资料来源：数据来自 aicpb.com。]
 
 DeepSeek 移动端应用上线 5 天日活就已超过 ChatGPT 同期日活，成为全球增速最快的 AI 应用。2025 年 1 月 25 日推出移动端应用，仅用了 5 天时间就登上了月活跃用户排行榜第 14 位，到 2 月份跃升至第 2 位 ^(²⁸)（见图 2-2）。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_019.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_019.jpg)
 
 图 2-2 DeepSeek 和 ChatGPT 日活跃用户数对比[资料来源：数据来自 aicpb.com。注：App 用户数不含网页端用户数。]
 
@@ -561,11 +561,11 @@ DeepSeek 上线后，各大互联网巨头积极拥抱这一技术，展现了�
 
 表 2-3 官宣接入 DeepSeek 的国内公司
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_020.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_020.jpg)
 
 续表
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_021.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_021.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -575,7 +575,7 @@ DeepSeek 的低成本和高性能吸引了包括华为、京东等在内的多�
 
 表 2-42025 年宣布接入 DeepSeek 的美国公司
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_022.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_022.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -591,7 +591,7 @@ DeepSeek 通过其创新的 MoE 架构和优化算法，显著降低了模型训
 
 表 2-5 芯片参数对比
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_023.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_023.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -601,7 +601,7 @@ DeepSeek 通过降低算力门槛和优化硬件适配，为国产芯片和算�
 
 表 2-6 各大厂商纷纷推出 DeepSeek 一体机
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_024.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_024.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -625,7 +625,7 @@ DeepSeek 通过降低算力门槛和优化硬件适配，为国产芯片和算�
 
 表 3-1 中国支持人工智能的政策
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_025.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_025.jpg)
 
 资料来源：根据公开信息整理。
 
@@ -643,7 +643,7 @@ DeepSeek 通过降低算力门槛和优化硬件适配，为国产芯片和算�
 
 根据互联网数据中心（Internet Data Center，IDC）和申万宏源研究所彼时的一份数据报告显示，AI“四小龙”在我国计算机视觉市场所占份额在 2019 年已经超过了一半（见图 3-1）。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_026.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_026.jpg)
 
 图 3-12019 年中国 AI“四小龙”所占市场份额[资料来源：数据来自 IDC，申万宏源研究所。]
 
@@ -879,7 +879,7 @@ MiniMax 凭借其在多模态大模型领域的技术创新和广泛应用，不
 
 表 3-2 AI“六小虎”融资情况
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_027.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_027.jpg)
 
 资料来源：根据公开信息整理，最新融资轮次截至 2025 年 3 月。
 
@@ -1005,7 +1005,7 @@ DeepSeek 是一款强大的人工智能模型，提供了三种不同的运行�
 
 表 4-1 模式对比
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_028.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_028.jpg)
 
 **（三）使用策略**
 
@@ -1319,7 +1319,7 @@ Kimi 自动生成的图片可能不一定完全符合你的主题，你可以找
 
 输入需求后，点击“生成”。DeepSeek 会根据你的描述，生成相应的 Mermaid 代码。这个代码看起来像一串文字，但它包含了生成图表的所有信息（见图 4-1）。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_029.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_029.jpg)
 
 图 4-1 DeepSeek 生成的 Mermaid 代码[资料来源：DeepSeek 官网，https://chat.deepseek.com/。]
 
@@ -1341,7 +1341,7 @@ Kimi 自动生成的图片可能不一定完全符合你的主题，你可以找
 
 粘贴完成后，编辑器会自动解析代码，并生成一个漂亮的图表。你可以看到图表的实时预览，如果代码没有问题，图表就会立刻显示出来（见图 4-2）。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_030.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_030.jpg)
 
 图 4-2  Mermaid 生成的图表[资料来源：Mermaid Live Editor 官网 https://mermaid.live/。]
 
@@ -1473,7 +1473,7 @@ BGM：轻快愉悦的背景音乐
 
 在即梦 AI 的主页点击“视频生成”，然后找到“文本生成”的对话框，将 DeepSeek 生成的脚本粘贴进去。即梦 AI 会根据脚本内容自动解析并生成视频（见图 4-3）。注意，在点击生成前可以选择视频模型，设置视频时长，设置视频画幅比例。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_031.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_031.jpg)
 
 图 4-3  即梦 AI 生成的视频[资料来源：即梦官网，https://jimeng.jianying.com/ai-tool/home。]
 
@@ -2099,7 +2099,7 @@ C.一般
 
 表 5-1 提示词的构成方式
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_032.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_032.jpg)
 
 **三、政策信息的简洁概览**
 
@@ -2319,7 +2319,7 @@ C.一般
 
 针对以上政策研究的结果，可以点击“生成互动网页”按钮，对政策研究的结果进行可视化呈现，示例的部分结果如图 5-1 所示。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_033.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_033.jpg)
 
 图 5-1 政策分析的可视化呈现示例
 
@@ -2417,13 +2417,13 @@ C.一般
 
 将 DeepSeek 生成的结果复制到 Napkin，选中要生成图片对应的文字内容，点击右侧框选中范围的蓝色闪电图标，Napkin 可以直接提取主干信息并生成图片（见图 5-2）。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_034.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_034.jpg)
 
 图 5-2 Napkin 生成图片的操作过程
 
 生成图片后可以根据个人喜好和呈现需求选择不同的可视化样式，图 5-3 是生成后有关产业链图谱的可视化示例。
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_035.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_035.jpg)
 
 图 5-3 Napkin 生成的产业链结构
 
@@ -2507,7 +2507,7 @@ C.一般
 
 四、产业链协同效应分析
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_036.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_036.jpg)
 
 五、重点量化评估指标
 
@@ -2541,7 +2541,7 @@ C.一般
 
 表 5-2 某虚拟公司 2022—2024 年的简化利润表
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_037.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_037.jpg)
 
 本小节将演示用表 5-2 进行复合增长率与毛利驱动分解分析、研发费用效益的边际分析和税收优惠的场景分析，分析前需要将表 5-2 存入 Excel 中，并上传到 DeepSeek 的附件模块。上传的同时，输入相关财务提示词，开启深度思考（R1）模式，DeepSeek 就能返回财务分析的相关输出。对于输出的计算结果，建议进行预算检查，以确保分析结果的准确性。
 
@@ -2557,11 +2557,11 @@ C.一般
 
 1.营业收入 CAGR
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_038.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_038.jpg)
 
 2.营业成本 CAGR
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_038.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_038.jpg)
 
 二、毛利率提升的核心因素分解
 
@@ -2591,9 +2591,9 @@ C.一般
 
 ▪ 贡献度比例：
 
-收入增长贡献= ![](img/DeepSeek：读懂AI时代的底层逻辑_image_039.png)×100%≈70.5%
+收入增长贡献= ![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_039.png)×100%≈70.5%
 
-成本控制贡献= ![](img/DeepSeek：读懂AI时代的底层逻辑_image_040.png)×100%≈29.5%
+成本控制贡献= ![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_040.png)×100%≈29.5%
 
 三、结论
 
@@ -2695,7 +2695,7 @@ C.一般
 
 四、差异值表格
 
-![](img/DeepSeek：读懂AI时代的底层逻辑_image_041.jpg)
+![](img/DeepSeek：读懂-AI-时代的底层逻辑_image_041.jpg)
 
 ## **[第][六][章]**
 

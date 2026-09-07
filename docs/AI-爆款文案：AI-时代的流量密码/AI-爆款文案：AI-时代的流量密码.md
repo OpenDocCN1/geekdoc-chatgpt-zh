@@ -506,7 +506,7 @@ AI 文案生成公式：文案类型（W） + 目标受众（T） + 目的（F�
 
 表 1-1
 
-![](img/AI爆款文案：AI时代的流量密码_image_000.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_000.jpg)
 
 举个例子：
 
@@ -610,7 +610,7 @@ R（Result）： 你的核心卖点是什么？（让用户相信的理由）
 
 表 1-2
 
-![](img/AI爆款文案：AI时代的流量密码_image_001.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_001.jpg)
 
 **二、如何用 STAR 公式让 AI 赋能你的文案**
 
@@ -1098,7 +1098,7 @@ HOT = Hook（钩子）+ Outcome（结果）+ Tension（张力）。
 
 表 3-1
 
-![](img/AI爆款文案：AI时代的流量密码_image_002.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_002.jpg)
 
 如何使用 HOT 公式：
 
@@ -1146,11 +1146,11 @@ AI 生成的 5 个标题
 
 表 3-2 AI 标题风格矩阵
 
-![](img/AI爆款文案：AI时代的流量密码_image_003.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_003.jpg)
 
 续表
 
-![](img/AI爆款文案：AI时代的流量密码_image_004.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_004.jpg)
 
 **AI 优化示例：用 AI 批量生成短视频标题**
 
@@ -1264,7 +1264,7 @@ AI 可以一次性生成多个测试标题，提升优化效率。
 
 表 3-3
 
-![](img/AI爆款文案：AI时代的流量密码_image_005.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_005.jpg)
 
 **案例：AI 优化不同平台的标题**
 
@@ -1972,7 +1972,7 @@ AI 生成的两个版本：
 
 表 5-1
 
-![](img/AI爆款文案：AI时代的流量密码_image_006.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_006.jpg)
 
 **总结：真正的爆款短视频=吸引力** **+** **共鸣。**
 
@@ -2154,11 +2154,11 @@ AI 生成的 3 个版本：
 
 表 6-1 传统 EPAC 公式
 
-![](img/AI爆款文案：AI时代的流量密码_image_007.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_007.jpg)
 
 续表
 
-![](img/AI爆款文案：AI时代的流量密码_image_008.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_008.jpg)
 
 在 AI 时代，EPAC 公式的每一步都可以用 AI 更轻松地完成。
 
@@ -2646,7 +2646,7 @@ AIDA = 吸引注意力（A）+ 激发兴趣（I）+ 产生欲望（D）+ �
 
 表 7-1
 
-![](img/AI爆款文案：AI时代的流量密码_image_009.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_009.jpg)
 
 AI 可以帮你自动优化 AIDA 的每一步，让广告文案更吸引人、更精准。
 
@@ -3028,11 +3028,11 @@ PSCA = 兴趣（Passion）+能力（ Skills）+内容可执行性（Content�
 
 表 8-1
 
-![](img/AI爆款文案：AI时代的流量密码_image_010.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_010.jpg)
 
 续表
 
-![](img/AI爆款文案：AI时代的流量密码_image_011.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_011.jpg)
 
 个人 IP 赛道的核心原则：**只靠兴趣，不赚钱，做不长久；只靠技能，没流量，变现难；赛道必须有人群、有市场、有变现机会。**
 
@@ -3054,7 +3054,7 @@ AI 分析结果：
 
 表 8-2
 
-![](img/AI爆款文案：AI时代的流量密码_image_012.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_012.jpg)
 
 结论： 最适合 AI 科技赛道，个人成长和教育可以作为辅助内容。
 
@@ -3558,11 +3558,11 @@ HEI = 钩子（Hook）+互动引导（Engage）+激励机制（Incentive）。
 
 表 9-1
 
-![](img/AI爆款文案：AI时代的流量密码_image_013.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_013.jpg)
 
 续表
 
-![](img/AI爆款文案：AI时代的流量密码_image_014.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_014.jpg)
 
 **二、如何用 AI 快速优化社交媒体文案，提高互动率**
 
@@ -4332,7 +4332,7 @@ STAR= Situation（文案类型）+ Target（目标受众） + Action （行
 
 附表 1
 
-![](img/AI爆款文案：AI时代的流量密码_image_015.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_015.jpg)
 
 **示例：用 STAR 公式优化朋友圈文案**
 
@@ -4356,7 +4356,7 @@ WTF= Write（写什么）+ Target（写给谁看）+ Function（文案目的�
 
 附表 2
 
-![](img/AI爆款文案：AI时代的流量密码_image_016.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_016.jpg)
 
 **示例：用 WTF 公式优化短视频标题**
 
@@ -4378,7 +4378,7 @@ HOT= Hook（钩子）+ Outcome（结果）+ Tension（张力）。
 
 附表 3
 
-![](img/AI爆款文案：AI时代的流量密码_image_017.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_017.jpg)
 
 **示例：用 HOT 公式优化社交媒体文案**
 
@@ -4398,7 +4398,7 @@ PSCA=兴趣（Passion）+能力（Skills）+可执行性（Content）+受众（A
 
 附表 4
 
-![](img/AI爆款文案：AI时代的流量密码_image_018.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_018.jpg)
 
 **示例：用 AI 分析个人 IP 赛道**
 
@@ -4418,7 +4418,7 @@ AI 分析结果：
 
 附表 5
 
-![](img/AI爆款文案：AI时代的流量密码_image_019.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_019.jpg)
 
 结论： AI 科技赛道最适合，个人成长和教育可以作为辅助内容。
 
@@ -4430,7 +4430,7 @@ HEI=钩子（Hook）+互动引导（Engage）+激励机制（Incentive）。
 
 附表 6
 
-![](img/AI爆款文案：AI时代的流量密码_image_020.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_020.jpg)
 
 **示例：用 HEI 公式优化社交媒体文案**
 
@@ -4452,7 +4452,7 @@ AIDA= 吸引注意（Attention）+激发兴趣（Interest）+ 增强需求（D
 
 附表 7
 
-![](img/AI爆款文案：AI时代的流量密码_image_021.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_021.jpg)
 
 **示例：AI 优化广告文案**
 
@@ -4498,7 +4498,7 @@ TOP = 触发点（Trigger）+ 结果（Outcome）+证明（Proof）。
 
 附表 8
 
-![](img/AI爆款文案：AI时代的流量密码_image_022.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_022.jpg)
 
 **示例：AI 优化短视频标题**
 
@@ -4526,7 +4526,7 @@ CAST =主角（Character）+ 挑战（Adversity）+解决方案（Solution）+
 
 附表 9
 
-![](img/AI爆款文案：AI时代的流量密码_image_023.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_023.jpg)
 
 **示例：AI 优化品牌故事 **��
 
@@ -4558,7 +4558,7 @@ TIRA =尝试多个赛道（Try）+数据迭代（Iterate）+ 优化内容（Re
 
 附表 10
 
-![](img/AI爆款文案：AI时代的流量密码_image_024.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_024.jpg)
 
 **示例：用 AI 测试个人 IP 赛道**
 
@@ -4854,11 +4854,11 @@ TIRA =尝试多个赛道（Try）+数据迭代（Iterate）+ 优化内容（Re
 
 附表 11 AI 生成的社交媒体内容日历
 
-![](img/AI爆款文案：AI时代的流量密码_image_025.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_025.jpg)
 
 续表
 
-![](img/AI爆款文案：AI时代的流量密码_image_026.jpg)
+![](img/AI-爆款文案：AI-时代的流量密码_image_026.jpg)
 
 思考点：
 

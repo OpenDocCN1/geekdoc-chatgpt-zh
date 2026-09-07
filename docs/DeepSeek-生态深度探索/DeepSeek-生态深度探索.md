@@ -386,7 +386,7 @@ DeepSeek 作为一款国产的性能卓越、成本低廉、开放开源的大�
 
 表 1-1
 
-![img](img/DeepSeek生态深度探索_image_000.jpg)
+![img](img/DeepSeek-生态深度探索_image_000.jpg)
 
 GPU 加速的重要性：虽然 DeepSeek 可以在 CPU 上运行，但使用 GPU 进行加速能够大幅提高模型的运行速度，尤其是在处理复杂的代码生成和推理任务时，GPU 加速能够带来数倍甚至数十倍的性能提高。因此，如果计算机配备了英伟达显卡，那么强烈建议开启 GPU 加速，以获得最佳的使用体验。对于入门级用户，NVIDIA GeForce GTX 1060 或更高级别的显卡就能提供不错的加速效果。
 
@@ -434,7 +434,7 @@ Ollama 是一款专注于快速部署和运行本地大模型的轻量级命令�
 
 然后输入 ollama--help，可以看到 Ollama 的命令行用法说明文档，如图 1-2 所示。
 
-![img](img/DeepSeek生态深度探索_image_002.jpg)
+![img](img/DeepSeek-生态深度探索_image_002.jpg)
 
 图 1-2
 
@@ -456,7 +456,7 @@ Ollama 是一款专注于快速部署和运行本地大模型的轻量级命令�
 
 •Arch Linux：sudo pacman-S ollama。
 
-![img](img/DeepSeek生态深度探索_image_003.jpg)
+![img](img/DeepSeek-生态深度探索_image_003.jpg)
 
 图 1-3
 
@@ -502,7 +502,7 @@ DeepSeek 公司提供多种原生大模型，DeekSeek V3 和 DeepSeek R1 为参�
 
 表 1-2
 
-![img](img/DeepSeek生态深度探索_image_004.jpg)
+![img](img/DeepSeek-生态深度探索_image_004.jpg)
 
 在选择模型并将其下载到本地运行时，需要根据硬件配置和实际需求进行权衡。参数规模较小的模型（例如 7B、1.5B）对硬件要求较低，运行速度较快，适合在资源有限的计算机上使用，也适用于对响应速度要求较高的场景。参数规模较大的模型（例如 32B、70B）能力更强，生成的文本质量更高。然而，这些模型对硬件要求也更高，运行速度相对较慢，需要更强大的 GPU 或更大的内存空间。
 
@@ -514,19 +514,19 @@ DeepSeek 公司提供多种原生大模型，DeekSeek V3 和 DeepSeek R1 为参�
 
 使用 Ollama 下载模型非常简单，只需打开命令提示符（Windows）或终端（macOS/Linux），输入以下命令并按“Enter”键。
 
-![img](img/DeepSeek生态深度探索_image_005.jpg)
+![img](img/DeepSeek-生态深度探索_image_005.jpg)
 
 Ollama 将自动下载 DeepSeek-R1-Distill-QWen-1.5B 模型。下载速度取决于网络状况，请耐心等待。
 
 下载完成后，终端会显示“success”提示。macOS 操作系统的界面如图 1-4 所示。
 
-![img](img/DeepSeek生态深度探索_image_006.jpg)
+![img](img/DeepSeek-生态深度探索_image_006.jpg)
 
 图 1-4
 
 Windows10 操作系统的界面如图 1-5 所示。
 
-![img](img/DeepSeek生态深度探索_image_007.jpg)
+![img](img/DeepSeek-生态深度探索_image_007.jpg)
 
 图 1-5
 
@@ -536,7 +536,7 @@ Windows10 操作系统的界面如图 1-5 所示。
 
 接下来，使用 Ollama 在本地运行 DeepSeek 模型并进行简单的对话测试。打开命令提示符（Windows）或终端（macOS/Linux），输入以下命令并按“Enter”键。
 
-![img](img/DeepSeek生态深度探索_image_008.jpg)
+![img](img/DeepSeek-生态深度探索_image_008.jpg)
 
 Ollama 将启动 DeepSeek-R1-Distill-QWen-1.5B 模型，并进入交互式对话模式。在终端中直接输入问题或指令，并按“Enter”键发送。DeepSeek 会根据输入生成相应的回复并将其显示在终端中。
 
@@ -546,11 +546,11 @@ Ollama 将启动 DeepSeek-R1-Distill-QWen-1.5B 模型，并进入交互式对话
 
 再例如，你可以继续问 DeepSeek 一些编程问题，例如“帮我写一个 Python 函数，实现快速排序的功能。”它会给出思考过程，用<think></think>包裹，这正是 DeepSeek-R1 模型默认将推理的过程公开显示的结果。如果要结束对话，则可以按“Ctrl+D”组合键并按“Enter”键。
 
-![img](img/DeepSeek生态深度探索_image_009.jpg) ![img](img/DeepSeek生态深度探索_image_010.jpg)
+![img](img/DeepSeek-生态深度探索_image_009.jpg) ![img](img/DeepSeek-生态深度探索_image_010.jpg)
 
 DeepSeek 生成的 Python 程序经过测试验证。笔者在笔记本计算机的另一个终端中启动 Python 3.12.4，将生成的代码复制到 Python Console 中执行。测试结果显示程序运行正常，输出结果完全符合预期。
 
-![img](img/DeepSeek生态深度探索_image_011.jpg)
+![img](img/DeepSeek-生态深度探索_image_011.jpg)
 
 目前，我们已经成功实现了 DeepSeek-R1-Distill-QWen-1.5B 模型的本地运行，虽然该模型的体积不是很大，但它是一个严格意义上的大模型。
 
@@ -638,7 +638,7 @@ RAG 的优势主要体现在以下几个方面。
 
 RAG 的调用流程可以分为知识库构建和查询生成过程两部分，如图 1-6 所示。
 
-![img](img/DeepSeek生态深度探索_image_012.jpg)
+![img](img/DeepSeek-生态深度探索_image_012.jpg)
 
 图 1-6
 
@@ -676,7 +676,7 @@ Dify 有多种安装方式，本节采用 Docker Compose 的方式安装 Docker 
 
 在命令行中输入以下命令，验证是否安装成功。
 
-![img](img/DeepSeek生态深度探索_image_013.jpg)
+![img](img/DeepSeek-生态深度探索_image_013.jpg)
 
 2）将 Dify 安装到本地
 
@@ -690,31 +690,31 @@ Dify 对硬件环境的最低配置要求如下。
 
 Dify 有多种安装方式，本节通过复制 Dify 的 GitHub 仓库来获取源代码。执行如下命令。
 
-![img](img/DeepSeek生态深度探索_image_014.jpg)
+![img](img/DeepSeek-生态深度探索_image_014.jpg)
 
 也可以使用 Gitee 的镜像地址进行复制。
 
-![img](img/DeepSeek生态深度探索_image_015.jpg)
+![img](img/DeepSeek-生态深度探索_image_015.jpg)
 
 3）在本地运行 Dify
 
 进入 Dify 源码目录下的 docker 文件夹。
 
-![img](img/DeepSeek生态深度探索_image_016.jpg)
+![img](img/DeepSeek-生态深度探索_image_016.jpg)
 
 复制示例环境配置文件。
 
-![img](img/DeepSeek生态深度探索_image_017.jpg)
+![img](img/DeepSeek-生态深度探索_image_017.jpg)
 
 如果需要更改默认配置，那么可以编辑.env 文件，例如把 EXPOSE_NGINX_PORT=80 的 80 端口改为 8080。修改并生效后，再次访问 Dify Web 服务时，应使用 http：//localhost：8080/。
 
 接着，使用 Docker Compose 启动所有的容器服务。
 
-![img](img/DeepSeek生态深度探索_image_018.jpg)
+![img](img/DeepSeek-生态深度探索_image_018.jpg)
 
 在 macOS 操作系统上会显示已经运行的容器。
 
-![img](img/DeepSeek生态深度探索_image_019.jpg)
+![img](img/DeepSeek-生态深度探索_image_019.jpg)
 
 至此，Dify 已成功部署并开始运行。接下来，将在 Dify 的 Web 页面中配置 RAG 流程，并接入本地已成功运行的 DeepSeek 模型服务，搭建一个完整的本地化 RAG 应用。
 
@@ -722,13 +722,13 @@ Dify 有多种安装方式，本节通过复制 Dify 的 GitHub 仓库来获取�
 
 在浏览器中访问 http：//localhost/install，设置管理员信息，包括邮箱和密码。访问 http：//localhost/apps，进入 Dify 的管理主页面。使用已设置的管理员邮箱和密码，将看到 Dify 应用管理界面，如图 1-7 所示。
 
-![img](img/DeepSeek生态深度探索_image_020.jpg)
+![img](img/DeepSeek-生态深度探索_image_020.jpg)
 
 图 1-7
 
 由于 Dify 是一个基于大模型的 AI 应用开发平台，因此初次使用时需要先在 Dify 的“模型供应商”选项卡中添加并配置所需要的大模型，如图 1-8 所示。
 
-![img](img/DeepSeek生态深度探索_image_021.jpg)
+![img](img/DeepSeek-生态深度探索_image_021.jpg)
 
 图 1-8
 
@@ -746,11 +746,11 @@ Dify 支持的大模型包括 OpenAI、Anthropic，以及 DeepSeek 官网的 API
 
 在成功配置大模型后，接下来需要建立一个知识库，并将所需的私有文档导入该知识库中。整个操作包括以下三个步骤。
 
-![img](img/DeepSeek生态深度探索_image_022.jpg)
+![img](img/DeepSeek-生态深度探索_image_022.jpg)
 
 图 1-9
 
-![img](img/DeepSeek生态深度探索_image_023.jpg)
+![img](img/DeepSeek-生态深度探索_image_023.jpg)
 
 图 1-10
 
@@ -760,7 +760,7 @@ Dify 支持三种类型的数据源：导入已有文本、同步自 Notion 内�
 
 为方便演示，这里选择“导入已有文本”，上传一份 PDF 文件，单击“下一步”按钮，如图 1-11 所示。
 
-![img](img/DeepSeek生态深度探索_image_024.jpg)
+![img](img/DeepSeek-生态深度探索_image_024.jpg)
 
 图 1-11
 
@@ -768,7 +768,7 @@ Dify 支持三种类型的数据源：导入已有文本、同步自 Notion 内�
 
 第二步是对本地知识库进行设置，包括分段设置、索引方式、Embedding 模型、检索设置等，如图 1-12 所示。设置完成后，进入下一步，也是最后一步。这里的设置选项比较多，会影响到本地知识库的建库时间，以及查询的速度和准确性，具体请参考 Dify 官方文档。
 
-![img](img/DeepSeek生态深度探索_image_025.jpg)
+![img](img/DeepSeek-生态深度探索_image_025.jpg)
 
 图 1-12
 
@@ -778,7 +778,7 @@ Dify 支持三种类型的数据源：导入已有文本、同步自 Notion 内�
 
 作为演示，这里上传的文件较小，完成速度很快，单击“前往文档”按钮，如图 1-13 所示，可以进入“召回测试”选项卡中进行测试。
 
-![img](img/DeepSeek生态深度探索_image_026.jpg)
+![img](img/DeepSeek-生态深度探索_image_026.jpg)
 
 图 1-13
 
@@ -790,7 +790,7 @@ Dify 支持三种类型的数据源：导入已有文本、同步自 Notion 内�
 
 作为演示，笔者输入“请问沙特 2030 远景目标是什么？”就可以返回文档中几个相关的文档片段，如图 1-14 所示。
 
-![img](img/DeepSeek生态深度探索_image_027.jpg)
+![img](img/DeepSeek-生态深度探索_image_027.jpg)
 
 图 1-14
 
@@ -808,7 +808,7 @@ Dify 提供了一个非常方便的应用创建页面，可以快速构建 RAG �
 
 例如，笔者输入了问题：“沙特 2030 远景都有哪些目标？”，系统在检索知识库后，给出了一个结构清晰的回答，展示了明显的推理过程和基于文档内容的准确信息，如图 1-15 所示。
 
-![img](img/DeepSeek生态深度探索_image_028.jpg)
+![img](img/DeepSeek-生态深度探索_image_028.jpg)
 
 图 1-15
 
@@ -1026,7 +1026,7 @@ RAG 系统是大模型应用开发的基本场景，开发者应该通过学习�
 
 表 1-3
 
-![img](img/DeepSeek生态深度探索_image_029.jpg)
+![img](img/DeepSeek-生态深度探索_image_029.jpg)
 
 可以看出，Dify 在开发者友好方面表现相对较好，这也是选择它作为本节工具的原因之一。
 
@@ -1066,11 +1066,11 @@ RAG 系统是大模型应用开发的基本场景，开发者应该通过学习�
 
 然后，在该应用的右上角选择模型，将其设置为 Ollama 平台上的 deepseek r1：1.5b 模型，这样就完成了之前配置好的本地的大模型（在 Ollama 上运行的 DeepSeek 模型服务）的调用设置配置。
 
-![img](img/DeepSeek生态深度探索_image_030.jpg)
+![img](img/DeepSeek-生态深度探索_image_030.jpg)
 
 图 1-16
 
-![img](img/DeepSeek生态深度探索_image_031.jpg)
+![img](img/DeepSeek-生态深度探索_image_031.jpg)
 
 图 1-17
 
@@ -1084,11 +1084,11 @@ RAG 系统是大模型应用开发的基本场景，开发者应该通过学习�
 
 其中思考过程如下。
 
-![img](img/DeepSeek生态深度探索_image_032.jpg)
+![img](img/DeepSeek-生态深度探索_image_032.jpg)
 
 生成的结果如下。
 
-![img](img/DeepSeek生态深度探索_image_033.jpg)
+![img](img/DeepSeek-生态深度探索_image_033.jpg)
 
 注：笔者查询的时间是 2025 年 5 月 4 日，美国股市周末关闭，所以查询到 5 月 2 日的结果就是最新的结果。
 
@@ -1132,13 +1132,13 @@ RAG 系统是大模型应用开发的基本场景，开发者应该通过学习�
 
 •Schema 配置：根据 Marketstack API 的文档规范及 OpenAI 的 Swagger 格式，填写对应的 API 调用配置。参考模板如下。
 
-![img](img/DeepSeek生态深度探索_image_034.jpg) ![img](img/DeepSeek生态深度探索_image_035.jpg)
+![img](img/DeepSeek-生态深度探索_image_034.jpg) ![img](img/DeepSeek-生态深度探索_image_035.jpg)
 
 填写完成后，单击“保存”按钮。
 
 在 Dify 的主界面中新建一个工作室，然后在“工具”列表中选择刚刚生成的智能体工具“Marketstack Stock Query”，参照前文的操作流程，输入查询语句，获得 IBM 公司的最新股价信息，如图 1-18 所示。
 
-![img](img/DeepSeek生态深度探索_image_036.jpg)
+![img](img/DeepSeek-生态深度探索_image_036.jpg)
 
 图 1-18
 
@@ -1174,7 +1174,7 @@ RAG 系统是大模型应用开发的基本场景，开发者应该通过学习�
 
 自从 2025 年春节“爆火”之后，上下游的国内外厂家已经纷纷拥抱了 DeepSeek。根据从业厂家的产品类型、目标客户，以及技术特点，本书将 DeepSeek 的生态简单分为四层，如图 1-19 所示。
 
-![img](img/DeepSeek生态深度探索_image_037.jpg)
+![img](img/DeepSeek-生态深度探索_image_037.jpg)
 
 图 1-19
 
@@ -1226,7 +1226,7 @@ DeepSeek 的成功从根本上挑战了“堆硬件、拼算力”的传统模�
 
 表 2-1
 
-![img](img/DeepSeek生态深度探索_image_038.jpg)
+![img](img/DeepSeek-生态深度探索_image_038.jpg)
 
 那么，为什么 GPU 在 AI 计算中，特别是大模型计算中，能展现出如此强大的优势呢？
 
@@ -1352,11 +1352,11 @@ AMD 为其 GPU（尤其是 Instinct 系列数据中心加速卡）推出了开�
 
 表 2-2
 
-![img](img/DeepSeek生态深度探索_image_039.jpg)
+![img](img/DeepSeek-生态深度探索_image_039.jpg)
 
 （续表）
 
-![img](img/DeepSeek生态深度探索_image_040.jpg)
+![img](img/DeepSeek-生态深度探索_image_040.jpg)
 
 3）AI 芯片的软件栈总结
 
@@ -1386,7 +1386,7 @@ CANN 是华为昇腾 AI 处理器专属的全栈式软件平台，体现了中�
 
 表 2-3
 
-![img](img/DeepSeek生态深度探索_image_041.jpg)
+![img](img/DeepSeek-生态深度探索_image_041.jpg)
 
 •**DeepSeek 适配：**DeepSeek 模型在训练和推理时，原生且深度支持英伟达 GPU，并能通过 PyTorch、TensorFlow 等主流深度学习框架充分利用 CUDA 生态的优势。DeepSeek-V3 模型的训练正是使用了大量的 NVIDIA H800 GPU，这直接证明了英伟达硬件在 DeepSeek 大模型训练中的核心地位和卓越性能。另外，DeepSeek 开源周开源出来的一系列项目，例如 FlashMLA、DeepEP 等都针对英伟达的 H800 系列 GPU 进行了优化。
 
@@ -1444,7 +1444,7 @@ AMD 与 DeepSeek 的合作非常紧密，已实现“Day 0”级别的支持。
 
 表 2-4
 
-![img](img/DeepSeek生态深度探索_image_042.jpg)
+![img](img/DeepSeek-生态深度探索_image_042.jpg)
 
 2025 年 2 月 1 日，MaaS 创业公司硅基流动在国内率先上线并支持 DeepSeek-R1 和 DeepSeek-V3 模型的推理服务，该服务基于华为云昇腾云平台实现部署。
 
@@ -1464,7 +1464,7 @@ AMD 与 DeepSeek 的合作非常紧密，已实现“Day 0”级别的支持。
 
 表 2-5
 
-![img](img/DeepSeek生态深度探索_image_043.jpg)
+![img](img/DeepSeek-生态深度探索_image_043.jpg)
 
 2025 年 2 月 5 日，联想集团与国产 GPU 领军企业沐曦联合发布了首个基于 DeepSeek 大模型的国产一体化解决方案，标志着国产软硬件协同在大模型应用领域迈出关键一步。
 
@@ -1704,7 +1704,7 @@ b）运维服务商。
 
 智算一体机是面向行业大模型高效推理和构建便捷应用的一体化解决方案。如图 2-1 所示，智算一体机整体上可以分为硬件层、推理引擎层、模型层和应用层。
 
-![img](img/DeepSeek生态深度探索_image_044.jpg)
+![img](img/DeepSeek-生态深度探索_image_044.jpg)
 
 图 2-1
 
@@ -1728,7 +1728,7 @@ DeepSeek 一体机分为单机、集群两种产品形态。
 
 （1）单机形态。智算一体机（单机）组网的网络平面如图 2-2 所示。
 
-![img](img/DeepSeek生态深度探索_image_045.jpg)
+![img](img/DeepSeek-生态深度探索_image_045.jpg)
 
 图 2-2
 
@@ -1750,11 +1750,11 @@ DeepSeek 一体机分为单机、集群两种产品形态。
 
 （3）集群形态（满血版）。智算一体机集群组网如图 2-4 所示。
 
-![img](img/DeepSeek生态深度探索_image_046.jpg)
+![img](img/DeepSeek-生态深度探索_image_046.jpg)
 
 图 2-3
 
-![img](img/DeepSeek生态深度探索_image_047.jpg)
+![img](img/DeepSeek-生态深度探索_image_047.jpg)
 
 图 2-4
 
@@ -1798,7 +1798,7 @@ DeepSeek 一体机分为单机、集群两种产品形态。
 
 （2）存储资源。OpenPalette 为平台内的应用提供持久化存储服务。当前版本提供文件存储服务和块存储服务。
 
-![img](img/DeepSeek生态深度探索_image_048.jpg)
+![img](img/DeepSeek-生态深度探索_image_048.jpg)
 
 图 2-5
 
@@ -1850,7 +1850,7 @@ DeepSeek 一体机分为单机、集群两种产品形态。
 
 （3）成效与价值收益。中兴通讯智算一体机极大地简化了信息获取流程，提高了员工的工作效率，不仅帮助鞍钢数科实现了智能化、高质量发展，也为整个行业的智能化转型提供了可借鉴的经验。
 
-![img](img/DeepSeek生态深度探索_image_049.jpg)
+![img](img/DeepSeek-生态深度探索_image_049.jpg)
 
 图 2-6
 
@@ -1974,7 +1974,7 @@ OpenCloudOS 作为国内首个全链路自研的服务器操作系统，凭借�
 
 OpenCloudOS 作为全链路服务器操作系统的标杆，其多层级架构覆盖了从上游研发到生产落地的完整生态。
 
-![img](img/DeepSeek生态深度探索_image_050.jpg)
+![img](img/DeepSeek-生态深度探索_image_050.jpg)
 
 图 2-7
 
@@ -2058,15 +2058,15 @@ OpenCloudOS 社区是国内领先的开源操作系统根社区，已经形成�
 
 第一种，Chat 模式。Chat 模式较为常用，用户通过提问调用 OCAI 问答系统，并让系统进入思考、推理及结果输出过程。在命令窗口中直接输入相关问题，无须加入任何命令前缀，即可方便调用 OCAI 智能助手的问答能力。
 
-![img](img/DeepSeek生态深度探索_image_051.jpg) ![img](img/DeepSeek生态深度探索_image_052.jpg)
+![img](img/DeepSeek-生态深度探索_image_051.jpg) ![img](img/DeepSeek-生态深度探索_image_052.jpg)
 
 第二种，Cmd 模式。Cmd 模式支持根据用户指示生成可直接执行的 Shell 命令，用户确认后可立即执行并获取结果。可以通过 ocai cmd 的形式对命令生成能力进行调用。工具在执行命令前会要求用户二次确认，用户可在工具输出命令的基础上进行编辑，完成后可快速执行并获取结果。
 
-![img](img/DeepSeek生态深度探索_image_053.jpg)
+![img](img/DeepSeek-生态深度探索_image_053.jpg)
 
 第三种，Code 模式。Code 模式支持根据用户指示生成不同编程语言下的代码。通过 ocai code<question>形式对代码生成能力进行调用。例如，用户可以输入“用 python 实现快排”，工具会生成相应的 Python 代码。建议在问题描述中清晰地表述功能需求和使用语言，以确保生成的代码符合预期。
 
-![img](img/DeepSeek生态深度探索_image_054.jpg)
+![img](img/DeepSeek-生态深度探索_image_054.jpg)
 
 （4）OCAI-Agent 技术原理。当前 OCAI 智能助手针对不同场景设计了多个 Agent 分别处理请求，采用 RAG 方式导入 OpenCloudOS 特有知识库信息，通过 OCAI-Service 与客户端进行交互，使用不同的底座模型对数据进行推理、总结和润色，最终输出给用户，如图 2-8 所示。
 
@@ -2080,7 +2080,7 @@ OpenCloudOS 社区是国内领先的开源操作系统根社区，已经形成�
 
 •模型服务：OCAI 智能助手在处理逻辑的各阶段使用了 DeepSeek 和混元等各类大模型，包括但不限于 DeepSeek-R1、DeepSeek-V3、混元-T1、混元-Turbo 等。
 
-![img](img/DeepSeek生态深度探索_image_055.jpg)
+![img](img/DeepSeek-生态深度探索_image_055.jpg)
 
 图 2-8
 
@@ -2154,7 +2154,7 @@ QAnything 是网易有道自研的检索增强引擎，可以高效管理各类�
 
 传统方式需要查阅手册组合参数，而使用 OCAI-Agent 工具时，开发者只需输入“使用 rsync 将本地 data 目录同步到 192.168.1.100 服务器的 backup 目录，排除.log 文件并显示进度”，工具会立即返回优化后的命令。
 
-![img](img/DeepSeek生态深度探索_image_056.jpg)
+![img](img/DeepSeek-生态深度探索_image_056.jpg)
 
 这个解决方案包括：
 
@@ -2446,7 +2446,7 @@ SGLang 是一个快速、高效且可修改的用于大型语言模型和视觉�
 
 为提供大模型推理服务的极致性能，降低推理成本，SGLang 社区联合阿里云技术团队，基于 SGLang 框架与 Mooncake 项目，以及 DeepEP 等社区领先的开源项目，设计了一套融合 PD 分离、数据高度并行策略及大规模专家并行的优化方案，从架构设计、资源调度到底层支持实现全链路革新，如图 2-9 所示。
 
-![img](img/DeepSeek生态深度探索_image_057.jpg)
+![img](img/DeepSeek-生态深度探索_image_057.jpg)
 
 图 2-9
 
@@ -2458,7 +2458,7 @@ SGLang 是一个快速、高效且可修改的用于大型语言模型和视觉�
 
 图 2-10 展示了基于 12 个服务器节点（每节点含 8 个 H100 GPU）构建的分布式推理架构，该架构通过 PD 解耦与大规模专家并行实现高效推理。其具体架构分为三部分：预填充资源池使用 3 个节点，每个节点包含 3 个专家子组（Expert Sub-group），负责快速处理输入序列。解码资源池使用 9 个节点，通过 KV Cache 传输实现注意力机制的分布式计算，结合低延迟调度的 9 个专家子组，实现高吞吐输出。通过 Mooncake 支持 KV Cache 传输，传输过程与两级调度协同降低通信开销，保障端到端效率。
 
-![img](img/DeepSeek生态深度探索_image_058.jpg)
+![img](img/DeepSeek-生态深度探索_image_058.jpg)
 
 图 2-10
 
@@ -2536,7 +2536,7 @@ SGLang 是一个快速、高效且可修改的用于大型语言模型和视觉�
 
 表 2-6
 
-![img](img/DeepSeek生态深度探索_image_059.jpg)
+![img](img/DeepSeek-生态深度探索_image_059.jpg)
 
 2）关键技术演进：数据库如何助力 DeepSeek
 
@@ -2548,7 +2548,7 @@ SGLang 是一个快速、高效且可修改的用于大型语言模型和视觉�
 
 表 2-7
 
-![img](img/DeepSeek生态深度探索_image_060.jpg)
+![img](img/DeepSeek-生态深度探索_image_060.jpg)
 
 数据库作为数据存储、管理和处理的核心基础设施，在支持 DeepSeek 等大模型的发展过程中扮演着至关重要的角色。无论是对于数据采集与准备、模型训练与优化，还是对于应用服务层和安全合规监管，数据库都发挥着不可替代的作用。OceanBase 等原生分布式数据库凭借出色的事务处理能力、高可用性和弹性伸缩特性，已经成为支撑 DeepSeek 等大模型的理想选择。随着技术的不断发展，像 OceanBase 这样的先进分布式数据库将在促进 AI 与数据库融合发展的道路上发挥越来越重要的作用，成为企业数字化转型与智能化升级的核心引擎。
 
@@ -2580,7 +2580,7 @@ OceanBase 持续提高一体化能力，迄今为止共经历了两次大的技�
 
 •支持全面的索引创建语法：OceanBase 支持的索引类型包括 HNSW、IVFFalt、DiskANN 等，可以满足不同场景下的数据库索引需求。距离算法涵盖 L2、IP、COSINE、Jaccard 等，确保在向量检索时能够精准计算相似度。
 
-![img](img/DeepSeek生态深度探索_image_061.jpg)
+![img](img/DeepSeek-生态深度探索_image_061.jpg)
 
 图 2-11
 
@@ -2612,7 +2612,7 @@ OceanBase 持续提高一体化能力，迄今为止共经历了两次大的技�
 
 OceanBase 社区为了更好地支持用户对 OceanBase 数据库进行诊断，推出敏捷诊断工具 obdiag，将诊断经验代码化，让用户能够快速进行集群巡检、根因分析，以及数据一键收集等工作。然而，obdiag 工具和使用者之间存在诸如用户如何知晓在何种场景下使用何种诊断命令、如何解读诊断报告等“最后一公里”的问题，如图 2-12 所示。
 
-![img](img/DeepSeek生态深度探索_image_062.jpg)
+![img](img/DeepSeek-生态深度探索_image_062.jpg)
 
 图 2-12
 
@@ -2636,7 +2636,7 @@ OceanBase 社区为了更好地支持用户对 OceanBase 数据库进行诊断�
 
 •机器人将接收到的答案也分片地、流式地显示在 Web 界面中，完成一轮问答。
 
-![img](img/DeepSeek生态深度探索_image_063.jpg)
+![img](img/DeepSeek-生态深度探索_image_063.jpg)
 
 图 2-13
 
@@ -2670,7 +2670,7 @@ OceanBase 社区通过 RAG 技术与 obdiag 工具的深度融合，以“知识
 
 为了提高运维效率和内部敏捷性，该运营商积极探索解决方案，尝试用 RAG 架构解决上述实际问题，并成功开发出数据库智能专家“ChatDBA”。“ChatDBA”结合数据库领域的专业知识并联通内部的运维数据，让开发人员和 DBA 可以直接使用自然语言对数据库状态进行查询、排查故障或获取相关建议，减少了大量重复性工作，显著提高了工作效率。这样的方式不仅提高了问题解决效率，还让团队能够将精力更多地集中在关键任务上，整体方案流程如图 2-14 所示。
 
-![img](img/DeepSeek生态深度探索_image_064.jpg)
+![img](img/DeepSeek-生态深度探索_image_064.jpg)
 
 图 2-14
 
@@ -2680,11 +2680,11 @@ OceanBase 社区通过 RAG 技术与 obdiag 工具的深度融合，以“知识
 
 表 2-8
 
-![img](img/DeepSeek生态深度探索_image_065.jpg)
+![img](img/DeepSeek-生态深度探索_image_065.jpg)
 
 （续表）
 
-![img](img/DeepSeek生态深度探索_image_066.jpg)
+![img](img/DeepSeek-生态深度探索_image_066.jpg)
 
 在实现 OceanBase 数据库向量检索功能和性能验证后，它们决定将现有的 MySQL 和 Milvus 数据库进行现代化升级，并进行了相应的适配改造。
 
@@ -2728,7 +2728,7 @@ DeepSeek 以低训练成本实现了比肩一流模型的高性能并且全面�
 
 图 2-15 展示了 FlagOS 整体架构，包括支持多种 AI 芯片架构的通用大模型算子库 FlagGems、支持多种 AI 芯片的高效训练推理并行框架 FlagScale，以及支持多种 AI 芯片的统一编译器 FlagTree 和统一通信库 FlagCX 等关键组件。
 
-![img](img/DeepSeek生态深度探索_image_067.jpg)
+![img](img/DeepSeek-生态深度探索_image_067.jpg)
 
 图 2-15
 
@@ -2758,7 +2758,7 @@ FlagScale 旨在提高计算资源的利用效率，并确保模型训练和推�
 
 图 2-16 展示了 FlagScale 的整体结构，包括统一的用户接口前端和多种高效执行后端。
 
-![img](img/DeepSeek生态深度探索_image_068.jpg)
+![img](img/DeepSeek-生态深度探索_image_068.jpg)
 
 图 2-16
 
@@ -2774,7 +2774,7 @@ FlagScale 通过统一的用户接口和高度模块化的系统架构，实现�
 
 为了解决这些问题，FlagScale 提供了一套高效、灵活的大模型部署解决方案，支持在多种异构硬件环境下实现模型的快速部署和高效运行，如图 2-17 所示。
 
-![img](img/DeepSeek生态深度探索_image_069.jpg)
+![img](img/DeepSeek-生态深度探索_image_069.jpg)
 
 图 2-17
 
@@ -2802,7 +2802,7 @@ FlagScale 推理部署的核心能力体现在以下几个方面。
 
 为解决上述问题，FlagScale 推出部署自动调优功能，如图 2-18 所示。
 
-![img](img/DeepSeek生态深度探索_image_070.jpg)
+![img](img/DeepSeek-生态深度探索_image_070.jpg)
 
 图 2-18
 
@@ -2882,7 +2882,7 @@ FlagGems 是一个使用 OpenAI 推出的 Triton 编程语言实现的高性能�
 
 这种分层结构允许在保持语义完备性的前提下，逐层实施硬件无关优化（如自动微分、算子融合等）和硬件相关优化（如寄存器分配、指令选择等），如图 2-19 所示。
 
-![img](img/DeepSeek生态深度探索_image_071.jpg)
+![img](img/DeepSeek-生态深度探索_image_071.jpg)
 
 图 2-19
 
@@ -2898,7 +2898,7 @@ FlagGems 是一个使用 OpenAI 推出的 Triton 编程语言实现的高性能�
 
 （2）FlagTree 介绍。FlagTree 是基于 Triton（Fork From OpenAI-Triton）孵化的后端繁荣（面向多种 AI 芯片）和能力增量的 compiler 项目，发展和壮大 Triton 上下游生态，可以推进算力一体化建设，将各种异构设备的效能发挥到极致，释放巨大的算力潜能，打造具有影响力和无处不在的人工智能基座。FlagTree 规划整体分两步走，如图 2-20 所示。
 
-![img](img/DeepSeek生态深度探索_image_072.jpg)
+![img](img/DeepSeek-生态深度探索_image_072.jpg)
 
 图 2-20
 
@@ -2938,37 +2938,37 @@ FlagRelease 不仅是一个工程化工具平台，更代表了一种国产 AI �
 
 第一步，拉取镜像与模型参数。使用 flagscale pull 命令从镜像仓库和模型平台中提取所需的运行环境和权重文件。
 
-![img](img/DeepSeek生态深度探索_image_073.jpg)
+![img](img/DeepSeek-生态深度探索_image_073.jpg)
 
 FlagScale 是由北京智源人工智能研究院联合生态伙伴构建的开源多芯片大模型框架，已支持 pull、serve 等核心命令。该步骤通过一条命令实现镜像与参数文件的一键式拉取，但由于模型体积较大，拉取过程可能需要较长的时间。
 
 第二步，启动容器并挂载参数文件。在镜像拉取完成后，通过 Docker 启动容器，并挂载本地参数目录与关键路径。
 
-![img](img/DeepSeek生态深度探索_image_074.jpg)
+![img](img/DeepSeek-生态深度探索_image_074.jpg)
 
 确保参数文件成功挂载，以供后续服务使用。
 
 第三步，安装高性能算子库 FlagGems。FlagGems 是使用 OpenAI Triton 编程语言实现的高性能通用算子库，用于加速模型执行。安装后可通过环境变量启用。
 
-![img](img/DeepSeek生态深度探索_image_075.jpg)
+![img](img/DeepSeek-生态深度探索_image_075.jpg)
 
 设置环境变量。
 
-![img](img/DeepSeek生态深度探索_image_076.jpg)
+![img](img/DeepSeek-生态深度探索_image_076.jpg)
 
 第四步，适配厂商代码并编译 vLLM。FlagScale 提供了类似 Linux patch/unpatch 的机制，用于管理不同芯片厂商提供的定制化适配代码，确保代码安全、版本可控。
 
 执行 unpatch。
 
-![img](img/DeepSeek生态深度探索_image_077.jpg)
+![img](img/DeepSeek-生态深度探索_image_077.jpg)
 
 进入适配目录，编译并安装 vLLM。
 
-![img](img/DeepSeek生态深度探索_image_078.jpg)
+![img](img/DeepSeek-生态深度探索_image_078.jpg)
 
 第五步，配置服务并启动模型部署。设置模型配置文件、端口参数与多机 hostfile 后，即可通过 flagscale serve 启动模型服务。
 
-![img](img/DeepSeek生态深度探索_image_079.jpg)
+![img](img/DeepSeek-生态深度探索_image_079.jpg)
 
 此命令支持多机部署，但需要确保各节点已完成环境一致性配置，包括 hostfile 文件、端口映射与共享路径设置等。
 
@@ -2978,7 +2978,7 @@ FlagScale 是由北京智源人工智能研究院联合生态伙伴构建的开�
 
 通过 FlagRelease 启动模型服务后，自动生成 OpenAI 标准格式的服务 API，既可以直接调用，也可以集成到 AnythingLLM 等前端交互组件中。例如，只需要完成参数配置，就可以快速接入 DeepSeek-R1 模型，从而打造个性化的智能应用，如图 2-21 所示。
 
-![img](img/DeepSeek生态深度探索_image_080.jpg)
+![img](img/DeepSeek-生态深度探索_image_080.jpg)
 
 图 2-21
 
@@ -3028,11 +3028,11 @@ FlagScale 是由北京智源人工智能研究院联合生态伙伴构建的开�
 
 表 3-1
 
-![img](img/DeepSeek生态深度探索_image_081.jpg)
+![img](img/DeepSeek-生态深度探索_image_081.jpg)
 
 （续表）
 
-![img](img/DeepSeek生态深度探索_image_082.jpg)
+![img](img/DeepSeek-生态深度探索_image_082.jpg)
 
 在最新的模型基准测试中，DeepSeek 展示了其在复杂推理和代码生成方面的卓越能力。在 AIME2024 一次通过率和 MATH-500 一次通过率等代表模型顶级实力的复杂推理问题上，DeepSeek 的评测得分显著超越了 GPT 4o、Gemini 等业界顶尖模型。此外，在 CodeForces 评级开发相关评测上，DeepSeek 同样表现出色，充分证明了其模型能力的全面性和先进性。
 
@@ -3104,7 +3104,7 @@ Amazon Bedrock 是亚马逊云计算服务旗下的革命性平台服务，旨�
 
 第一步，在亚马逊云科技的“Amazon Bedrock”界面，选择“Foundation models”（基础模型）→“Model catalog New”（模型目录）菜单选项，通过搜索或筛选快速查找 DeepSeek 模型，如图 3-1 所示。
 
-![img](img/DeepSeek生态深度探索_image_083.jpg)
+![img](img/DeepSeek-生态深度探索_image_083.jpg)
 
 图 3-1
 
@@ -3122,31 +3122,31 @@ Amazon Bedrock 是亚马逊云计算服务旗下的革命性平台服务，旨�
 
 第一步，在 Bedrock 控制台的“Model catalog”中找到 DeepSeek-R1 模型，如图 3-4 所示。
 
-![img](img/DeepSeek生态深度探索_image_084.jpg)
+![img](img/DeepSeek-生态深度探索_image_084.jpg)
 
 图 3-2
 
-![img](img/DeepSeek生态深度探索_image_085.jpg)
+![img](img/DeepSeek-生态深度探索_image_085.jpg)
 
 图 3-3
 
-![img](img/DeepSeek生态深度探索_image_086.jpg)
+![img](img/DeepSeek-生态深度探索_image_086.jpg)
 
 图 3-4
 
 第二步，设置部署所需的服务器机型（不同的模型所需的机型不同，默认为 mL.p5e.48×large。注意，需要提前获得服务器资源配额），并单击“Deploy”按钮，如图 3-5、图 3-6 所示。
 
-![img](img/DeepSeek生态深度探索_image_087.jpg)
+![img](img/DeepSeek-生态深度探索_image_087.jpg)
 
 图 3-5
 
-![img](img/DeepSeek生态深度探索_image_088.jpg)
+![img](img/DeepSeek-生态深度探索_image_088.jpg)
 
 图 3-6
 
 从 Bedrock Marketplace 导入 Bedrock，即可在 Text playground 上或通过 Invoke API 调用模型，其使用方式与 Bedrock 全托管模型是一致的。在 Bedrock Martketplace 上调用 DeepSeek 模型的 API 示例代码如下所示。
 
-![img](img/DeepSeek生态深度探索_image_089.jpg) ![img](img/DeepSeek生态深度探索_image_090.jpg)
+![img](img/DeepSeek-生态深度探索_image_089.jpg) ![img](img/DeepSeek-生态深度探索_image_090.jpg)
 
 在 Martketplace 上部署 DeepSeek 模型时，用户可以配置高级选项，自定义 DeepSeek-R1 模型的安全和基础设施，包括 VPC 网络、服务角色权限和加密设置等。
 
@@ -3160,7 +3160,7 @@ Custom Model Import 是另一种在 Amazon Bedrock 上部署模型的方式，�
 
 目前，Custom Model Import 支持 DeepSeek-R1-Distill-Llama 7B/70B（Llama 架构），同样可以使用 Amazon Bedrock 提供的内置开发工具及安全护栏，如图 3-7 所示。
 
-![img](img/DeepSeek生态深度探索_image_091.jpg)
+![img](img/DeepSeek-生态深度探索_image_091.jpg)
 
 图 3-7
 
@@ -3178,7 +3178,7 @@ Custom Model Import 是另一种在 Amazon Bedrock 上部署模型的方式，�
 
 Amazon SageMaker 是一个 MLOps 的全生命周期平台，覆盖模型开发、模型训练、模型部署、特征库、模型监控、多人协作等端到端 AI 中台的一站式服务，其架构如图 3-8 所示。
 
-![img](img/DeepSeek生态深度探索_image_092.jpg)
+![img](img/DeepSeek-生态深度探索_image_092.jpg)
 
 图 3-8
 
@@ -3196,11 +3196,11 @@ SageMaker JumpStart 是一个机器学习快速启动中心，包含基础模型
 
 第一步，在 Amazon SageMaker AI 控制台中，选择“Studio”选项，然后选择“JumpStart”选项。在“All public models”（所有公共模型）页面中搜索“DeepSeek-R1”，如图 3-9、图 3-10 所示。
 
-![img](img/DeepSeek生态深度探索_image_093.jpg)
+![img](img/DeepSeek-生态深度探索_image_093.jpg)
 
 图 3-9
 
-![img](img/DeepSeek生态深度探索_image_094.jpg)
+![img](img/DeepSeek-生态深度探索_image_094.jpg)
 
 图 3-10
 
@@ -3208,7 +3208,7 @@ SageMaker JumpStart 是一个机器学习快速启动中心，包含基础模型
 
 第三步，当推理端点进入服务状态时，用户即可通过客户端 SDK 或者 RESTful HTTP 服务向其发送请求以便进行推理，如图 3-11 所示。
 
-![img](img/DeepSeek生态深度探索_image_095.jpg)
+![img](img/DeepSeek-生态深度探索_image_095.jpg)
 
 图 3-11
 
@@ -3224,25 +3224,25 @@ SageMaker LMI 推理容器是预置的模型推理引擎，用户无须了解和
 
 （1）创建 SageMaker Endpoint。首先，需要创建一个 SageMaker Endpoint，配置实例类型和初始实例计数，代码示例如下。
 
-![img](img/DeepSeek生态深度探索_image_096.jpg)
+![img](img/DeepSeek-生态深度探索_image_096.jpg)
 
 （2）配置 SageMaker LMI vLLM 推理引擎。使用 SageMaker LMI vLLM 推理镜像，需要准备 vLLM 推理镜像的配置文件（server.properties），以及相关的 vLLM 版本依赖文件（requirements.txt）。serving.properties 配置如下所示。
 
-![img](img/DeepSeek生态深度探索_image_097.jpg)
+![img](img/DeepSeek-生态深度探索_image_097.jpg)
 
 将 server.properties 和 requiremnts.txt 配置文件打包并上传至 S3 存储桶。
 
-![img](img/DeepSeek生态深度探索_image_098.jpg)
+![img](img/DeepSeek-生态深度探索_image_098.jpg)
 
 至此，SageMaker LMI vLLM 镜像所需配置已经准备好，可以开始创建 Model 和 SageMaker Inference Component，具体步骤如下。
 
 部署 DeepSeek-R1-32B 模型。
 
-![img](img/DeepSeek生态深度探索_image_099.jpg)
+![img](img/DeepSeek-生态深度探索_image_099.jpg)
 
 部署完成后，即可在 SageMaker SDK 中对端点进行调用。
 
-![img](img/DeepSeek生态深度探索_image_100.jpg) ![img](img/DeepSeek生态深度探索_image_101.jpg)
+![img](img/DeepSeek-生态深度探索_image_100.jpg) ![img](img/DeepSeek-生态深度探索_image_101.jpg)
 
 **5.AmaEon** **GPU 加速芯片 DeepSeek 模型部署**
 
@@ -3258,7 +3258,7 @@ Amazon EC2 P5 系列搭载英伟达 H100、H200 的高端 GPU 显卡，包括 80
 
 表 3-2
 
-![img](img/DeepSeek生态深度探索_image_102.jpg)
+![img](img/DeepSeek-生态深度探索_image_102.jpg)
 
 P5 机型专为 AI 训练与推理进行优化，提供卓越的性能。其 NVSwitch GPU 点对点连接通信速度高达 900GB/s，通过 Elastic Fabric Adapter（EFA）实现无阻塞互联，从而支持规模扩展。用户可以利用这些高级特性，完成更高效的 AI 训练和推理任务，从而显著提高整体计算性能和扩展能力。
 
@@ -3268,7 +3268,7 @@ P5 机型专为 AI 训练与推理进行优化，提供卓越的性能。其 NVS
 
 （2）下载模型权重文件。可以通过 huggingface-cli 命令行工具在 Amazon EC2 上下载模型权重文件。
 
-![img](img/DeepSeek生态深度探索_image_103.jpg)
+![img](img/DeepSeek-生态深度探索_image_103.jpg)
 
 •使用本地路径 /opt/dlami/nvme（8×3.84TB NVMe 实例存储）保存模型权重文件。
 
@@ -3278,7 +3278,7 @@ P5 机型专为 AI 训练与推理进行优化，提供卓越的性能。其 NVS
 
 例如：实例使用 PyTorch 版本的 Deep Learning AMIs 启动，可以使用预安装的 conda 创建一个新环境。
 
-![img](img/DeepSeek生态深度探索_image_104.jpg)
+![img](img/DeepSeek-生态深度探索_image_104.jpg)
 
 （4）使用 SGLang 进行推理（推荐）。SGLang 目前支持 MLA 优化、FP8（W8A8）、FP8 KV Cache 和 Torch Compile，在开源框架中提供了最先进的延迟和吞吐量性能。
 
@@ -3286,25 +3286,25 @@ P5 机型专为 AI 训练与推理进行优化，提供卓越的性能。其 NVS
 
 使用 conda 环境。
 
-![img](img/DeepSeek生态深度探索_image_105.jpg)
+![img](img/DeepSeek-生态深度探索_image_105.jpg)
 
 安装 sglang。
 
-![img](img/DeepSeek生态深度探索_image_106.jpg)
+![img](img/DeepSeek-生态深度探索_image_106.jpg)
 
 启动服务器（单个 P5en/P5e 实例：8×H200）。
 
-![img](img/DeepSeek生态深度探索_image_107.jpg)
+![img](img/DeepSeek-生态深度探索_image_107.jpg)
 
 启动服务器（多个 P5 实例：8×H100），建议在共享存储（例如 FSxL）上构建 conda 环境，或者在每个 P5 实例上的依赖项严格相同。在每个节点执行 conda 环境创建命令。
 
 基于 AMAZON 容量块为 P4/P5+启动两个实例。在每个实例上运行以下命令。
 
-![img](img/DeepSeek生态深度探索_image_108.jpg)
+![img](img/DeepSeek-生态深度探索_image_108.jpg)
 
 完成部署。可以通过 HTTP 向 SGLang 服务端点发送请求，测试部署完成的 DeepSeek 模型。
 
-![img](img/DeepSeek生态深度探索_image_109.jpg)
+![img](img/DeepSeek-生态深度探索_image_109.jpg)
 
 2）亚马逊自研芯片 DeepSeek 部署
 
@@ -3314,7 +3314,7 @@ P5 机型专为 AI 训练与推理进行优化，提供卓越的性能。其 NVS
 
 表 3-3
 
-![img](img/DeepSeek生态深度探索_image_110.jpg)
+![img](img/DeepSeek-生态深度探索_image_110.jpg)
 
 另外，在 Amazon 自研芯片服务器上，Neuron SDK 提供 Kernel Interface（NKI）接口，支持自定义算子。用户可以在 Neorun 平台上对底层模型算子进行深度定制和改写，从而挖掘 Trn1、Trn2 的最大性能，并最大限度地提升服务器 IaaS 层硬件的吞吐量。
 
@@ -3324,19 +3324,19 @@ P5 机型专为 AI 训练与推理进行优化，提供卓越的性能。其 NVS
 
 第二步，激活虚拟环境。
 
-![img](img/DeepSeek生态深度探索_image_111.jpg)
+![img](img/DeepSeek-生态深度探索_image_111.jpg)
 
 第三步，安装推理框架。使用 vLLM 推理框架，该框架已经原生支持 Neuron 加速芯片上模型的推理部署。
 
-![img](img/DeepSeek生态深度探索_image_112.jpg)
+![img](img/DeepSeek-生态深度探索_image_112.jpg)
 
 第四步，使用 vLLM 推理框架部署 DeepSeek-ai/DeepSeek-R1-Distill-Llama-70B，命令如下。
 
-![img](img/DeepSeek生态深度探索_image_113.jpg) ![img](img/DeepSeek生态深度探索_image_114.jpg)
+![img](img/DeepSeek-生态深度探索_image_113.jpg) ![img](img/DeepSeek-生态深度探索_image_114.jpg)
 
 第五步，调用模型服务器。在 vLLM 推理服务器端点被拉起后，即可通过 vLLM 暴露的 API Server Endpoint 进行 DeepSeek 模型的推理调用。
 
-![img](img/DeepSeek生态深度探索_image_115.jpg)
+![img](img/DeepSeek-生态深度探索_image_115.jpg)
 
 **6.案例分析**
 
@@ -3352,11 +3352,11 @@ P5 机型专为 AI 训练与推理进行优化，提供卓越的性能。其 NVS
 
 vLLM 推理框架安装启动示例。
 
-![img](img/DeepSeek生态深度探索_image_116.jpg)
+![img](img/DeepSeek-生态深度探索_image_116.jpg)
 
 vLLM 推理框架全参数 startup 启动示例。
 
-![img](img/DeepSeek生态深度探索_image_117.jpg) ![img](img/DeepSeek生态深度探索_image_118.jpg)
+![img](img/DeepSeek-生态深度探索_image_117.jpg) ![img](img/DeepSeek-生态深度探索_image_118.jpg)
 
 （2）调优方案。由于英伟达 V100 GPU 卡型号较老，vLLM 的推理部署很快遇到了性能瓶颈。启动时经常出现内存溢出（Out of Memory，OOM）问题，且吞吐量不足。DeepSeek 模型使用 Llama 架构，根据 vLLM 对 Llama 架构模型推理的滚动批处理（Rolling Batch）特性，进行了如下参数调优。在多卡环境下，vLLM 的配置项会对每张 GPU 单独生效，总处理能力随 GPU 数量的增加线性增加。关键点如下。
 
@@ -3418,7 +3418,7 @@ vLLM 推理框架全参数 startup 启动示例。
 
 具体在亚马逊云上 SageMaker 的实施步骤如下。
 
-![img](img/DeepSeek生态深度探索_image_119.jpg) ![img](img/DeepSeek生态深度探索_image_120.jpg)
+![img](img/DeepSeek-生态深度探索_image_119.jpg) ![img](img/DeepSeek-生态深度探索_image_120.jpg)
 
 SageMaker Inference Component 推理组件允许客户指定要分配给每个模型副本的加速器数量和内存量，以及模型对象、容器镜像和要部署的模型副本数量，从而便于实施多个模型的资源隔离和分配。
 
@@ -3426,27 +3426,27 @@ SageMaker Inference Component 推理组件允许客户指定要分配给每个�
 
 首先，需要创建一个 SageMaker Endpoint 推理端点，作为承载 SageMaker 不同 IC 的服务器。
 
-![img](img/DeepSeek生态深度探索_image_121.jpg)
+![img](img/DeepSeek-生态深度探索_image_121.jpg)
 
 使用 SageMaker LMI vLLM 推理镜像，因此需要准备 vLLM 推理镜像的配置文件（server.properties），以及相关的 vLLM 版本依赖文件（requirements.txt）。
 
 serving.properties 配置如下所示：
 
-![img](img/DeepSeek生态深度探索_image_122.jpg) ![img](img/DeepSeek生态深度探索_image_123.jpg)
+![img](img/DeepSeek-生态深度探索_image_122.jpg) ![img](img/DeepSeek-生态深度探索_image_123.jpg)
 
 requirements.txt 文件如下所示（这里指定 vLLM 为 0.7.0 版本）。
 
-![img](img/DeepSeek生态深度探索_image_124.jpg)
+![img](img/DeepSeek-生态深度探索_image_124.jpg)
 
 将 server.properties 和 requirements.txt 配置文件打包并上传至 S3 存储桶。
 
-![img](img/DeepSeek生态深度探索_image_125.jpg)
+![img](img/DeepSeek-生态深度探索_image_125.jpg)
 
 至此，SageMaker LMI vLLM 镜像所需配置已经准备好，可以开始创建 model 和 SageMaker Inference Component 了，示例如下：
 
 部署 DeepSeek-R1-Distill-Qwen-32B 模型。
 
-![img](img/DeepSeek生态深度探索_image_126.jpg)
+![img](img/DeepSeek-生态深度探索_image_126.jpg)
 
 （3）部署效果。通过上述方案，客户能够在 MaaS 中台上集成多种模型，并通过 LiteLLM+Amazon SageMaker Inference Component 实现细粒度的模型副本级别的弹性扩缩容功能。这种部署方式不仅提高了推理服务器的资源利用率，还有效满足了企业内部不同规模的流量需求，确保了系统的高效运行和稳定性。
 
@@ -3506,7 +3506,7 @@ DeepSeek 要突破上述壁垒，需要的不仅是模型能力的提升，还�
 
 表 3-4
 
-![img](img/DeepSeek生态深度探索_image_127.jpg)
+![img](img/DeepSeek-生态深度探索_image_127.jpg)
 
 DeepSeek 提供了模型基础能力，硅基流动负责将这些能力按照需求进行“产品化”，并使其具有服务形式上的可落地性，这是中国开源模型生态与产业化连接最直接、效率最高的方式。
 
@@ -3528,7 +3528,7 @@ DeepSeek 提供了模型基础能力，硅基流动负责将这些能力按照�
 
 表 3-5
 
-![img](img/DeepSeek生态深度探索_image_128.jpg)
+![img](img/DeepSeek-生态深度探索_image_128.jpg)
 
 硅基流动的技术能力横跨模型优化层至应用交付层，尤其在推理执行层和部署与管理层上构建了自有的技术栈，形成了区别于传统云计算平台的“模型原生推理云”。
 
@@ -3602,7 +3602,7 @@ DeepSeek 提供了模型基础能力，硅基流动负责将这些能力按照�
 
 硅基流动围绕“Model-as-a-Service”理念，构建了覆盖服务至芯片的五层异构融合架构，如图 3-12 所示。
 
-![img](img/DeepSeek生态深度探索_image_129.jpg)
+![img](img/DeepSeek-生态深度探索_image_129.jpg)
 
 图 3-12
 
@@ -3890,11 +3890,11 @@ Gitee 和开源中国为模力方舟的发展提供了坚实基础。作为全�
 
 这种理念在与 DeepSeek 的融合中得到了充分验证。以 Serverless API 推理平台为例，模力方舟基于自研**GiEngine 高性能推理引擎**构建出一套“模型即服务”的体系，其底层架构呈现出三大特点。
 
-![img](img/DeepSeek生态深度探索_image_130.jpg)
+![img](img/DeepSeek-生态深度探索_image_130.jpg)
 
 图 3-13
 
-![img](img/DeepSeek生态深度探索_image_131.jpg)
+![img](img/DeepSeek-生态深度探索_image_131.jpg)
 
 图 3-14
 
@@ -3998,13 +3998,13 @@ GiEngine 的优势在于其“轻引擎+高吞吐”架构极大地压缩了模�
 
 •**背景杂乱**：周围环境复杂，背景中的其他物体可能会干扰文本区域的识别。
 
-![img](img/DeepSeek生态深度探索_image_132.jpg)
+![img](img/DeepSeek-生态深度探索_image_132.jpg)
 
 图 3-15
 
 由于存在这些问题，直接使用视觉语言模型进行识别的准确率极低，如图 3-16 所示。
 
-![img](img/DeepSeek生态深度探索_image_133.jpg)
+![img](img/DeepSeek-生态深度探索_image_133.jpg)
 
 图 3-16
 
@@ -4028,7 +4028,7 @@ GiEngine 的优势在于其“轻引擎+高吞吐”架构极大地压缩了模�
 
 为了实现文档格式的标准化，通过 MinerU 等组件对 PDF、Word、扫描图像等异构文档进行清洗、版式优化和语义补全，完成“源文件至文本”的第一步。利用 Qwen2VL、Qwen2.5、BGE-M3 等模型进行实体抽取与分段建模，并构建可查询、可绑定的向量数据库，支持精准检索与关联。基于 RAG 框架，将说明书数据与型号信息、法规术语进行映射整合，构建适用于医疗场景的领域知识图谱。智能体应用生成，通过 Dify 智能体平台进行智能体编排，开发多场景下的问答应用、表单提取、问答路由等自动化助手，最终嵌入业务系统。
 
-![img](img/DeepSeek生态深度探索_image_134.jpg)
+![img](img/DeepSeek-生态深度探索_image_134.jpg)
 
 图 3-17
 
@@ -4036,7 +4036,7 @@ GiEngine 的优势在于其“轻引擎+高吞吐”架构极大地压缩了模�
 
 •系统优势与未来发展。清墨智析的系统性突破，体现在它超越了传统 OCR+分类模型的“识别式工具”，转而成为一个可集成、可交互、可调度的智能文档中间件平台，它不仅能读懂文档，更能理解文档的场景语义与业务边界。随着平台能力的持续拓展，清墨智析正逐步成为连接医疗业务流程与知识资产体系的“内容治理操作系统”，这不仅提高了信息处理效率，也为医疗机构向 AI 驱动型知识组织转型提供了清晰路径，如图 3-18 所示。
 
-![img](img/DeepSeek生态深度探索_image_135.jpg)
+![img](img/DeepSeek-生态深度探索_image_135.jpg)
 
 图 3-18
 
@@ -4072,7 +4072,7 @@ GiEngine 的优势在于其“轻引擎+高吞吐”架构极大地压缩了模�
 
 面对这一高强度、高标准、高度不确定的极限任务，依托模力方舟强大的 AI 服务支持，数智医工团队在不到 30 小时内高质量完成了全部设备信息的结构化采集与合规化提交。在整个任务执行过程中，系统 AI 功能始终保持高效、稳定运行，成为此次紧急任务顺利完成的关键保障，如图 3-19 所示。
 
-![img](img/DeepSeek生态深度探索_image_136.jpg)
+![img](img/DeepSeek-生态深度探索_image_136.jpg)
 
 图 3-19
 
@@ -4154,7 +4154,7 @@ IDC 认为，理想的新一代数字化平台必然能够全面赋能组织的�
 
 对于软件行业而言，在云计算技术普及之后，以云原生为目标重塑产业链，原本的软件和硬件部门的分类在一定程度上围绕云计算资源的形态进行了重组。大模型被融入现代化软件架构后，AI 原生将成为下一轮软件技术架构变革的目标。如果说在云原生架构中，微服务成为被普遍接受的软件实现形态，那么在 AI 原生的潮流下，智能体所代表的软件形态则会扮演相似的角色。智能体是具备一定自主性、交互性和智能决策能力的软件实体，它能感知环境信息，依据预设目标和实时数据进行推理、判断，并采取相应的行动。就像在复杂多变的业务场景中，能自主分析用户需求、调配资源并给出精准解决方案的“数智员工”。不仅于此，随着智能体的快速发展，多智能体形态呈现出多个智能体协作、多个智能体通信，以及智能体内部和外部的工作流编排组合协同的特点，成为智能原生（AI Native）行业新的发展方向。这与云原生发展过程中，容器微服务形态中的容器标准化、容器编排、容器间通信的特点颇有相似之处，如图 4-1 所示。
 
-![img](img/DeepSeek生态深度探索_image_137.jpg)
+![img](img/DeepSeek-生态深度探索_image_137.jpg)
 
 图 4-1
 
@@ -4182,7 +4182,7 @@ IDC 认为，理想的新一代数字化平台必然能够全面赋能组织的�
 
 但是，在企业级市场和消费级市场中，AI 的使用要求明显不同，为了实现真正的企业级 AI，必须注意以下方面：
 
-![img](img/DeepSeek生态深度探索_image_138.jpg)
+![img](img/DeepSeek-生态深度探索_image_138.jpg)
 
 图 4-2
 
@@ -4210,7 +4210,7 @@ IDC 认为，理想的新一代数字化平台必然能够全面赋能组织的�
 
 企业数智化数据治理、加工、分析的能力总成是一套覆盖数据全生命周期的综合性体系，其核心产品与服务深度融合了底层技术引擎、智能治理工具、多模态分析能力和场景化应用平台。在数据治理层，通过元数据管理构建全域数据血缘地图，依托数据标准管理统一编码规则，消除“一物多码”问题，结合数据质量规则引擎实时监控指标异常并触发闭环整改，同时基于主数据管理实现核心实体（如客户、供应商）的一致性管控，并借助敏感数据分类分级与区块链存证技术保障安全合规。在数据加工层，通过多源集成工具兼容 SAP、Oracle 等第三方系统及 IoT 设备数据流，利用分布式计算框架处理海量异构数据，依托可视化建模平台实现零代码 ETL 流程开发与任务调度，并引入 NLP 和机器学习技术自动解析非结构化文本或图像、清洗异常值，数据可用性得到了显著提升。在智能分析层，以智能分析工具为核心，提供 ChatBI 自然语言交互报告生成、语义模型、实时监控关键指标等功能，并针对供应链优化（智能库存预测）、经营决策（资金流向分析）、消费者洞察（行为精准营销）等场景提供深度服务，构建开放共享的数据资产目录，支持 API 计费服务。在技术底座层，以统一数据中台架构整合治理、加工、分析模块，通过 HTAP 混合引擎保障实时分析性能，结合 AI 开放平台沉淀语音识别、图像处理等通用能力，并依托认证/鉴权与审计日志满足合规要求，形成支撑全域数智化应用的坚实基座。
 
-![img](img/DeepSeek生态深度探索_image_139.jpg)
+![img](img/DeepSeek-生态深度探索_image_139.jpg)
 
 图 4-3
 
@@ -4232,7 +4232,7 @@ BI 产品的学习门槛高，难以被广泛推广和规模化应用。相对�
 
 虽然 NL2SQL 技术有很高的热度，被认为是一个具备很大潜力的 AIGC 代码的场景，但是如果直接在数据分析场景中使用这种技术来代替传统的指标构建，就不可避免地需要解决准确率和可观测性的问题。比如，如果 NL2SQL 的准确率为 90%～95%，就意味着在 100 次基于对话的智能问数过程中，会有 5～10 次的答案并不准确，而且错误答案的分布是随机的，距离正确结果的差距也可能是极大的。围绕企业的经营分析场景，尤其是涉及财务类指标的数据应用，这种准确率是无法满足企业的基本要求的。为了定位错误的答案，仍然需要企业客户沿用传统的数据业务指标对应关系对全部的智能问数结果进行检查，这也意味着对于实际的数据分析工作并没有起到提高效率的作用，反而可能提升了复杂度和故障率。因此，用友 ChatBI 的 NL2 指标设计思路，充分避免了直接使用 NL2SQL 所带来的不确定性和不透明性，而采用了自然语言对应业务指标，再到查询语句的间接方式，如图 4-4 所示。首先利用数据指标平台建立起分布于不同的数据源和格式中的原始数据资料与业务指标的联系，搭建出准确、高效的最终查询 SQL 代码，再利用大模型的意图识别能力，将客户的需求准确地对应到可使用的指标上，并且提供完整的被调用指标项，提高可观测性，便于用户发现大模型可能出现的错误，以便通过修改提示词的方式来精准调用工具。通过数据指标，大模型可以更加准确地理解对话中的分析目标，同时解决数据分析准确度低的问题，为下一步的深度数据洞察提供可靠的分析依据。
 
-![img](img/DeepSeek生态深度探索_image_140.jpg)
+![img](img/DeepSeek-生态深度探索_image_140.jpg)
 
 图 4-4
 
@@ -4310,7 +4310,7 @@ DeepSeek 通过慢思考、思维过程可视和高质量的内容生成能力�
 
 浪潮海岳通过“海岳大模型+海岳软件+海岳商业 AI”协同推进，为企业提供了一条从技术底座到场景落地的完整进化路径。浪潮海岳商业 AI 定位于企业开箱即用的智能体能力集合，融合了浪潮海岳大模型垂域能力，以浪潮海岳软件为基础，沉淀了 2000 多种业务规则、5000 多个行业业务场景知识库，将大模型能力转化为 100 多种开箱即用的智能体，如智能审核智能体、现金流预测智能体、供需感知决策智能体、智能工艺智能体等。这些智能体支撑财务、供应链、项目管理等 40 余个高价值场景的一站式落地，形成“AI 即服务”的交付模式，打通企业智能化落地“最后一公里”，如图 4-5 所示。
 
-![img](img/DeepSeek生态深度探索_image_141.jpg)
+![img](img/DeepSeek-生态深度探索_image_141.jpg)
 
 图 4-5
 
@@ -4334,7 +4334,7 @@ DeepSeek 通过慢思考、思维过程可视和高质量的内容生成能力�
 
 **（1）基于 AIGC 的集团企业领域知识语义链接自动化技术。**基于 AIGC 的集团企业领域知识语义链接自动化技术，系统化挖掘文本知识实体间的深层语义关联，并基于领域模型与知识自动抽取文本空间中的实体、属性及关系（如流程元模型与组件元模型的依赖关系），构建可动态扩展的语义链接关系图。为企业打造可解释、可扩展的智能决策底座，实现从知识价值到业务决策的全链路赋能，如图 4-6 所示。
 
-![img](img/DeepSeek生态深度探索_image_142.jpg)
+![img](img/DeepSeek-生态深度探索_image_142.jpg)
 
 图 4-6
 
@@ -4350,7 +4350,7 @@ DeepSeek 通过慢思考、思维过程可视和高质量的内容生成能力�
 
 通过分布式计算和智能算法，多智能体系统能够动态调整协作策略，适应环境变化和任务需求的多样性。在面对突发情况（如订单变更、设备故障等）时，各智能体能够迅速响应，重新分配任务和资源，确保系统的稳定性和可靠性，如图 4-7 所示。
 
-![img](img/DeepSeek生态深度探索_image_143.jpg)
+![img](img/DeepSeek-生态深度探索_image_143.jpg)
 
 图 4-7
 
@@ -4364,7 +4364,7 @@ DeepSeek 通过慢思考、思维过程可视和高质量的内容生成能力�
 
 为提高施工方案的编制效率，降低人力成本，将企业内分散的隐性知识转化为集中的可共享的显性知识，该企业与浪潮海岳大模型合作，携手攻破了面向桥梁施工的多维度领域知识库构建、面向智能编制的多智能体协同、信创环境下智能人机交互协同编制等多项关键技术，联合打造了融合 DeepSeek 等多个模型能力的施工方案智能编制平台，如图 4-8 所示。
 
-![img](img/DeepSeek生态深度探索_image_144.jpg)
+![img](img/DeepSeek-生态深度探索_image_144.jpg)
 
 图 4-8
 
@@ -4372,13 +4372,13 @@ DeepSeek 通过慢思考、思维过程可视和高质量的内容生成能力�
 
 （1）构建多维度领域知识库，构建覆盖施工全生命周期的智能化知识底座。针对铁路工程施工领域知识体系庞杂、数据模态多样、结构异构性强等问题，该项目基于知识本体论构建铁路工程领域知识框架，融合施工规范（国家推荐标准、行业标准）、工程案例（桥梁、隧道、路基等专项工程）、工艺工法（施工模拟数据）、风险库（安全事故案例）等多维度知识，建立包含“实体—关系—属性—约束”四元组的动态知识表示模型，支持文本、表格、CAD 图纸、施工影像等多模态数据的语义对齐与结构化映射。采用深度学习方法实现非结构化数据的智能解析，包括施工日志实体关系抽取、基于 Faster R-CNN 的设计图纸构件识别、基于时空特征融合的施工监控视频语义分析，结合规则引擎对招标投标文件、检测报告等半结构化数据进行精准解析，构建覆盖施工全流程的“设计—施工—验收”知识链，实现 TB 级工程知识的高效组织与检索，如图 4-9 所示。
 
-![img](img/DeepSeek生态深度探索_image_145.jpg)
+![img](img/DeepSeek-生态深度探索_image_145.jpg)
 
 图 4-9
 
 （2）工具链驱动的多智能体协作，实现流程智能决策和可信性保障。基于检索增强生成框架，开发面向铁路工程领域的知识增强型生成模型，通过动态注入施工规范、工艺标准、历史案例等知识片段，结合后处理模型（基于 BERT 的文本事实性校验模块），对施工作业内容的合规性进行双重校验，确保方案中关键技术参数符合国家标准。研发包括参数化设计工具、工程量智能计算引擎、风险模拟推演模块等研发工程方案专用 AI 工具，通过工具调用接口实现大模型智能体与专业工具的深度协同，如图 4-10 所示。例如，在隧道施工作业中，智能体可调用围岩分级工具自动匹配地质勘探数据，联动有限元分析模块验证支护结构安全性，最终生成包含三维可视化模型、力学计算书、施工工序图的综合解决方案。构建基于语义增强的自然语言处理查询引擎，支持从自然语言指令到结构化查询语句（SQL/Cypher）的精准转换，实现跨文本、图纸、BIM 模型的多模态数据关联检索。通过知识图谱嵌入，将设计规范条款与施工场景动态关联，确保铁路工程施工符合相关规范。
 
-![img](img/DeepSeek生态深度探索_image_146.jpg)
+![img](img/DeepSeek-生态深度探索_image_146.jpg)
 
 图 4-10
 
@@ -4432,13 +4432,13 @@ Operator 提供了打包、部署和管理 Kubernetes 应用程序的方法，�
 
 OpenShift 运维英伟达驱动与传统虚拟化基础设施的异同如图 4-11 所示。
 
-![img](img/DeepSeek生态深度探索_image_147.jpg)
+![img](img/DeepSeek-生态深度探索_image_147.jpg)
 
 图 4-11
 
 在大模型时代，企业级 AI 解决方案需要具备强大的计算能力、稳定的部署环境、自动化管理能力，以及数据安全合规性。OpenShift AI（基于 Open Data Hub）为企业提供了一套端到端的 AI/机器学习平台，适用于模型训练、推理、MLOps 和 AI 应用部署，如图 4-12 所示。
 
-![img](img/DeepSeek生态深度探索_image_148.jpg)
+![img](img/DeepSeek-生态深度探索_image_148.jpg)
 
 图 4-12
 
@@ -4446,7 +4446,7 @@ OpenShift AI 兼容主流 AI 框架，并集成了多种 AI 组件，形成了�
 
 表 4-1
 
-![img](img/DeepSeek生态深度探索_image_149.jpg)
+![img](img/DeepSeek-生态深度探索_image_149.jpg)
 
 在大模型（如 GPT-4、LLaMA、DeepSeek）部署方面，OpenShift 相较于传统基础设施（裸机服务器、虚拟机等）具有明显的优势，尤其在灵活性、自动化、资源管理和多云支持等方面。
 
@@ -4454,25 +4454,25 @@ OpenShift AI 兼容主流 AI 框架，并集成了多种 AI 组件，形成了�
 
 在本地堡垒机或操作台上，确保已经安装了 OpenShift CLI（oc）并登录 OpenShift 集群。
 
-![img](img/DeepSeek生态深度探索_image_150.jpg)
+![img](img/DeepSeek-生态深度探索_image_150.jpg)
 
 在 OpenShift 上，需要将 SGLang 和 DeepSeek 封装为一个容器（Pod），然后暴露成服务（Service）。
 
 首先，从官方社区获取镜像。
 
-![img](img/DeepSeek生态深度探索_image_151.jpg)
+![img](img/DeepSeek-生态深度探索_image_151.jpg)
 
 由于 docker.io 的拉取次数被限制，所以建议另存为其他镜像仓库。如果有红帽官网账号，则建议使用 quay.io 镜像仓库。
 
 其次，将镜像推送到新镜像仓库。
 
-![img](img/DeepSeek生态深度探索_image_152.jpg)
+![img](img/DeepSeek-生态深度探索_image_152.jpg)
 
 在浏览器中打开 quay.io，然后登录账号（如果没有 quay.io 账号，则可以使用内部镜像仓库或者其他公有云仓库）。
 
 为了方便使用，建议将该镜像设置为“public 可访问”，如图 4-13 所示。
 
-![img](img/DeepSeek生态深度探索_image_153.jpg)
+![img](img/DeepSeek-生态深度探索_image_153.jpg)
 
 图 4-13
 
@@ -4482,21 +4482,21 @@ OpenShift AI 兼容主流 AI 框架，并集成了多种 AI 组件，形成了�
 
 首先，创建一个 PVC。
 
-![img](img/DeepSeek生态深度探索_image_154.jpg)
+![img](img/DeepSeek-生态深度探索_image_154.jpg)
 
 再创建一个 Pod。
 
-![img](img/DeepSeek生态深度探索_image_155.jpg)
+![img](img/DeepSeek-生态深度探索_image_155.jpg)
 
 成功创建 Pod 后，会自动挂载该 PVC，并且自动创建 PV（取决于环境中的 StorageClass 配置）。
 
 然后，将大模型复制到 PV。
 
-![img](img/DeepSeek生态深度探索_image_156.jpg)
+![img](img/DeepSeek-生态深度探索_image_156.jpg)
 
 注意，创建 Pod 后就可以将其删除。在删除 Pod 之前，需要确认 PV 的 persistentVolume ReclaimPolicy 状态为 Retain，这样删除 Pod 时 PV 会保留数据。
 
-![img](img/DeepSeek生态深度探索_image_157.jpg)
+![img](img/DeepSeek-生态深度探索_image_157.jpg)
 
 这样就可以删除刚创建的 Pod。
 
@@ -4504,15 +4504,15 @@ OpenShift AI 兼容主流 AI 框架，并集成了多种 AI 组件，形成了�
 
 首先，编写 deployment.yaml。
 
-![img](img/DeepSeek生态深度探索_image_158.jpg) ![img](img/DeepSeek生态深度探索_image_159.jpg)
+![img](img/DeepSeek-生态深度探索_image_158.jpg) ![img](img/DeepSeek-生态深度探索_image_159.jpg)
 
 其次，部署应用。
 
-![img](img/DeepSeek生态深度探索_image_160.jpg)
+![img](img/DeepSeek-生态深度探索_image_160.jpg)
 
 可以看到，SGLang 能够正常启动并加载大模型，如图 4-14 所示。
 
-![img](img/DeepSeek生态深度探索_image_161.jpg)
+![img](img/DeepSeek-生态深度探索_image_161.jpg)
 
 图 4-14
 
@@ -4520,11 +4520,11 @@ OpenShift AI 兼容主流 AI 框架，并集成了多种 AI 组件，形成了�
 
 最后，用 curl 进行测试。
 
-![img](img/DeepSeek生态深度探索_image_162.jpg)
+![img](img/DeepSeek-生态深度探索_image_162.jpg)
 
 结果如图 4-15 所示。
 
-![img](img/DeepSeek生态深度探索_image_163.jpg)
+![img](img/DeepSeek-生态深度探索_image_163.jpg)
 
 图 4-15
 
@@ -4624,7 +4624,7 @@ EasyStack 在技术架构上实现了创新，ECF 云基础设施与 ECNF 云原
 
 （1）微服务化。产品采用微服务、分布式和多副本的机制，具有极强的稳健性。微服务具有独立运行的特点，消除了各服务模块的依赖性，产品的各组件可以随时调整部署形态，进行弹性伸缩和动态更新，或者通过增加组件的方式扩展新服务，即使某个服务出现了故障，也不会影响其他服务及系统整体运转。
 
-![img](img/DeepSeek生态深度探索_image_164.jpg)
+![img](img/DeepSeek-生态深度探索_image_164.jpg)
 
 图 4-16
 
@@ -4664,7 +4664,7 @@ EasyStack 在技术架构上实现了创新，ECF 云基础设施与 ECNF 云原
 
 （1）典型 AI 平台架构。从下到上通常包含 4 层，分别是硬件、AI 基础设施、模型即服务和 AI 应用，以及配套的运维与运营，如图 4-17 所示。
 
-![img](img/DeepSeek生态深度探索_image_165.jpg)
+![img](img/DeepSeek-生态深度探索_image_165.jpg)
 
 图 4-17
 
@@ -4682,7 +4682,7 @@ EasyStack 在底层硬件管理和调度方面积累了大量经验，公司设�
 
 （2）EasyStack AI 基础设施。AI 基础设施以“云原生+多元算力融合”为核心，对 CPU、GPU、NPU、DCU 等 AI 芯片进行统一管理，实现异构计算资源的标准化与算力池化，如图 4-18 所示。通过智能调度和弹性伸缩，构建支持全栈网络、多租户、多态负载、多实例 GPU（MIG）等功能的高效算力底座，可以满足不同业务的需求。
 
-![img](img/DeepSeek生态深度探索_image_166.jpg)
+![img](img/DeepSeek-生态深度探索_image_166.jpg)
 
 图 4-18
 
@@ -4766,7 +4766,7 @@ AI 基础设施主要由算力资源池、异构 AI 算力资源调度和运维�
 
 表 4-2
 
-![img](img/DeepSeek生态深度探索_image_167.jpg)
+![img](img/DeepSeek-生态深度探索_image_167.jpg)
 
 4 套 DeepSeek 大模型部分采用 4 台 GPU 服务器，DeepSeek 存储可以使用通用服务器上的磁盘组成的软件定义的分布式混闪高性能块存储或者 GPU 服务器配置的本地 NVME 盘（选配），如表 4-3 所示。
 
@@ -4776,11 +4776,11 @@ AI 基础设施主要由算力资源池、异构 AI 算力资源调度和运维�
 
 表 4-3
 
-![img](img/DeepSeek生态深度探索_image_168.jpg)
+![img](img/DeepSeek-生态深度探索_image_168.jpg)
 
 （续表）
 
-![img](img/DeepSeek生态深度探索_image_169.jpg)
+![img](img/DeepSeek-生态深度探索_image_169.jpg)
 
 针对技术演进需求，平台采用软硬件解耦分层架构，兼容主流开源生态，确保技术栈平滑升级。重点突破 AI 场景支撑能力，成功部署 DeepSeek 大模型推理环境，实现千亿参数模型的高效训练，为智能客服、数据分析等业务提供核心驱动力。
 
@@ -4946,7 +4946,7 @@ Kubernetes 自诞生以来，凭借强大的容器编排能力、良好的扩展
 
 如图 4-19 所示为该方案的整体架构，整合了 Kubernetes 的资源管理能力与推理服务的核心功能。该架构涵盖了推理基准测试、流量管理、工作负载 API、调度等多个关键组件。通过合理的调度机制和动态资源分配策略，系统可以根据推理任务的实时需求，灵活分配计算资源，提高资源利用率和推理性能。同时，支持多种模型服务器（如 vLLM、Triton、SGLang 等），为不同类型的推理任务提供了多样化部署选择。
 
-![img](img/DeepSeek生态深度探索_image_170.jpg)
+![img](img/DeepSeek-生态深度探索_image_170.jpg)
 
 图 4-19
 
@@ -4954,7 +4954,7 @@ Kubernetes 自诞生以来，凭借强大的容器编排能力、良好的扩展
 
 当使用 LWS 进行部署时，需要首先编写以下 YAML 配置文件。
 
-![img](img/DeepSeek生态深度探索_image_171.jpg)
+![img](img/DeepSeek-生态深度探索_image_171.jpg)
 
 在上述配置中，replicas 参数用于指定副本数量，每个副本包含一个领导者节点和多个工作者节点。leaderTemplate 和 workerTemplate 分别定义了领导者节点和工作者节点的容器镜像、启动命令及资源限制。通过合理设置这些参数，确保 DeepSeek 模型在分布式环境下高效运行。
 
@@ -4970,7 +4970,7 @@ Kubernetes 的动态资源分配（Dynamic Resource Allocation，DRA）机制�
 
 例如，在以下配置中指定 nvidia.com/gpu：1 和 rdma/rdma_a：1，表示该任务需要一块 GPU 和一个特定的 RDMA 网卡资源。同时，通过 selectors 中的 CEL（Common Expression Language）表达式，可以进行更细致的筛选，如选择显存大于或等于 80Gi 的 GPU 和 sriovType 为 vf（虚拟功能）的网卡。constraints 部分则用于确保所选的 GPU 和 RDMA 网卡在同一个 PCIe 根节点下，避免因资源不匹配出现性能问题。
 
-![img](img/DeepSeek生态深度探索_image_172.jpg)
+![img](img/DeepSeek-生态深度探索_image_172.jpg)
 
 这种方式能够根据推理任务的实时需求，灵活分配异构资源，提高资源利用率，降低成本。
 
@@ -5004,7 +5004,7 @@ DaoCloud 基于 Kubernetes 开发的 d.run 大模型服务平台，正是这样�
 
 用户通过平台提供的直观的图形界面，可以一键部署、体验和使用 DeepSeek 大模型，轻松构建文本生成文本（Text-to-Text）、文本生成图像（Text-to-Image）等智能化应用。平台提供了丰富的模型资源，包括 DeepSeek-R1 及其多个训练版本，满足不同场景和需求下的模型选择需求。同时，d.run 平台配备了完善的费用中心与统计管理功能，帮助用户实时监控资源使用情况与模型运行表现，提高资源管理效率与成本可控性，如图 4-20 所示。
 
-![img](img/DeepSeek生态深度探索_image_173.jpg)
+![img](img/DeepSeek-生态深度探索_image_173.jpg)
 
 图 4-20
 
@@ -5012,7 +5012,7 @@ d.run 支持多种 GPU 矩阵，涵盖英伟达、昇腾、天数智芯、沐曦
 
 表 4-4
 
-![img](img/DeepSeek生态深度探索_image_174.jpg)
+![img](img/DeepSeek-生态深度探索_image_174.jpg)
 
 2）DeepSeek 一体机
 
@@ -5038,7 +5038,7 @@ DaoCloud 在国产算力设备方面做了多种探索，也成功为复旦大�
 
 Shanghai Cube 是全面正向开发的国产高密度算力设备，将算力设备软硬件一体化的“设计”与“生产”阶段进行了分离，汇聚了多家头部科技企业的研发成果。第一代 Shanghai Cube 产品采用沐曦的曦云 C550 系列高性能 GPU 芯片的定制化 OAM 模组，采取单机柜 128 卡液冷的高密度部署方式，集成了搭载云合智网的国产交换机芯片的交换机设备，由 DaoCloud 提供定制化的国产操作系统，并由立讯精密提供整机量产服务，由无限光年、无问芯穹等团队全程参与软硬件一体化的联合优化，并由复旦大学和创智学院进行模型调优。此外，Shanghai Cube 还广泛采用了国产液冷系统、国产高性能并行存储系统、国产 rRetimer、国产主板电容等，如图 4-21 所示。
 
-![img](img/DeepSeek生态深度探索_image_175.jpg)
+![img](img/DeepSeek-生态深度探索_image_175.jpg)
 
 图 4-21
 
@@ -5052,7 +5052,7 @@ Shanghai Cube 是全面正向开发的国产高密度算力设备，将算力�
 
 DeepSeek 推理集群的构建过程涵盖多个关键环节，如图 4-22 所示。
 
-![img](img/DeepSeek生态深度探索_image_176.jpg)
+![img](img/DeepSeek-生态深度探索_image_176.jpg)
 
 图 4-22
 
@@ -5108,7 +5108,7 @@ DeepSeek 推理集群的构建过程涵盖多个关键环节，如图 4-22 所�
 
 （2）传统开发流程难承智能进化之重，大模型实现真智能需要应用的持续运营。在传统应用开发“需求—设计—开发—测试—部署”的线性流程中，系统上线往往意味着创新停滞。后续运维仅聚焦漏洞修复和功能保障，版本迭代需要经历冗长的需求重审与代码重构周期（见图 4-23 左侧），整体上呈现“重建设、轻运营”的状况。这种刚性架构无法适配 AI 时代的技术特性。在 DeepSeek 大模型驱动的智能应用投入运行后，其推理准确性、知识时效性持续依赖实时数据注入与场景反馈。因此，政企客户需要构建“部署—反馈—优化—再部署”的动态运营环路（见图 4-23 右侧），通过嵌入用户行为分析、数据质量监控、模型微调适配等自动化、半自动化的运营机制，使 AI 系统在持续吸收业务现场知识的过程中实现能力进化，最终形成越用越精准的智能增强飞轮，大模型应用开发将演进为重运营的新模式。
 
-![img](img/DeepSeek生态深度探索_image_177.jpg)
+![img](img/DeepSeek-生态深度探索_image_177.jpg)
 
 图 4-23
 
@@ -5144,7 +5144,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 **大模型应用实现提效的前提是与用户现有数据资产和知识体系的有效连接和融合**。政企市场的数字化系统和应用众多，数据量庞大、构成复杂，是否有效接入用户的数据资产、为模型提供高质量数据和体系化知识，是浅应用和深应用的分水岭，而知识管理能力是大模型价值释放的关键。然而，大模型在企业级生产场景中的应用面临三重数据挑战：一是海量异构结构化数据精准定位与计算复杂，整合分析难；二是非结构化数据如文档、图片、音视频等多模态数据的处理效率低，且缺乏良好的泛化能力，尤其在专业领域应用中知识转化成本高；三是大模型对数据的理解受限于语义层，业务术语和口语的差异导致模型难以准确识别，影响输出质量，如图 4-24 所示。
 
-![img](img/DeepSeek生态深度探索_image_178.jpg)
+![img](img/DeepSeek-生态深度探索_image_178.jpg)
 
 图 4-24
 
@@ -5158,7 +5158,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 **大模型应用智能化的难点在于智能体的高效构建、自学习和自进化。尽管**DeepSeek 大模型使构建复杂智能的应用成为可能，但类似 Manus 的通用智能体在实测中还远远无法胜任复杂的端到端场景，企业级智能体开发还需要进行大量编排，更依赖智能体运行过程中知识的不断注入和优化。企业级业务和数字化环境复杂，大模型落地在智能体开发方面有诸多痛点。一是业务复杂导致编排门槛高，开发效率低；二是内外系统集成难，组件化不足导致重复开发；三是多 Agent 协作机制弱，调试观测工具匮乏，增加了运维风险，同时多端部署适配复杂，共同制约了开发效率与商业化落地；四是运行过程中的人机交互蕴含大量的隐性专家经验，传统工作流模式反馈流程长、难以动态维护，运营成本高、泛化能力弱，如图 4-25 所示。
 
-![img](img/DeepSeek生态深度探索_image_179.jpg)
+![img](img/DeepSeek-生态深度探索_image_179.jpg)
 
 图 4-25
 
@@ -5170,7 +5170,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 表 4-5
 
-![img](img/DeepSeek生态深度探索_image_180.jpg)
+![img](img/DeepSeek-生态深度探索_image_180.jpg)
 
 在大模型应用的集成管理方面，需要以下关键技术的支撑。一是多厂商、多渠道模型统一接入管理，通过标准化 API 网关与协议转换中间件，实现不同厂商模型的统一注册、鉴权、可用性和用量监控管理。二是智能体全场景统一门户，支持 PC、移动端、大屏，以及问答机器人、即时通信等多终端、多模态智能体应用的统一交互。三是数据与内容安全合规护栏，支撑生成内容事实性校验及敏感信息实时拦截，实现数据流转可控、内容输出合规与风险规则自动化执行，满足多层级审计与监管要求。这些技术将推动形成模型资源池化、智能体服务化、安全能力原子化的新型集成架构，通过统一管控平台为政企客户应对多场景智能化扩展提供弹性、安全的技术基座。
 
@@ -5196,7 +5196,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 表 4-6
 
-![img](img/DeepSeek生态深度探索_image_181.jpg)
+![img](img/DeepSeek-生态深度探索_image_181.jpg)
 
 2）智能体应用构建和集成
 
@@ -5222,7 +5222,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 如图 4-26 所示，JointPilot 灵析 AI 应用构建与集成平台由数据管理、知识管理、模型管理、开发管理、智能体管理和安全管理六大模块组成，在结构化数据增强、非结构化数据增强、知识融合、智能体构建、智能体运营管理及智能体集成等方面有突出的表现。
 
-![img](img/DeepSeek生态深度探索_image_182.jpg)
+![img](img/DeepSeek-生态深度探索_image_182.jpg)
 
 图 4-26
 
@@ -5234,17 +5234,17 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 表 4-7
 
-![img](img/DeepSeek生态深度探索_image_183.jpg)![img](img/DeepSeek生态深度探索_image_184.jpg)
+![img](img/DeepSeek-生态深度探索_image_183.jpg)![img](img/DeepSeek-生态深度探索_image_184.jpg)
 
 图 4-27
 
 表 4-8
 
-![img](img/DeepSeek生态深度探索_image_185.jpg)
+![img](img/DeepSeek-生态深度探索_image_185.jpg)
 
 支持 PDF、PPT 等特殊文档格式的解析，对其中混合图文、中国式复杂表格等实现数据、表格、公式等准确识别、理解、检索和引用，如图 4-28 所示。
 
-![img](img/DeepSeek生态深度探索_image_186.jpg)
+![img](img/DeepSeek-生态深度探索_image_186.jpg)
 
 图 4-28
 
@@ -5252,19 +5252,19 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 表 4-9
 
-![img](img/DeepSeek生态深度探索_image_187.jpg)
+![img](img/DeepSeek-生态深度探索_image_187.jpg)
 
 自动化批量提取非结构化文档中的知识要素，可以有效地解决提取效率低、提取不全、挂取不准等问题，如图 4-29 所示。
 
 在智能体构建方面，采用低门槛、高效率、支持复杂工作流的技术，并预置了丰富的技术组件和业务插件。这些插件支持 MCP 调用、端到端工作流节点级调试，以及多端发布和 SaaS、私有化模式部署，如表 4-10 所示。
 
-![img](img/DeepSeek生态深度探索_image_188.jpg)
+![img](img/DeepSeek-生态深度探索_image_188.jpg)
 
 图 4-29
 
 表 4-10
 
-![img](img/DeepSeek生态深度探索_image_189.jpg)
+![img](img/DeepSeek-生态深度探索_image_189.jpg)
 
 通过自定义工作流、组件调用、任务节点化、过程可视化编排，智能体可以应用于复杂业务处理场景，如图 4-30 所示。
 
@@ -5274,17 +5274,17 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 在智能体运营管理方面，动态监测智能体的使用情况，并确保应用的稳定运营和合规使用，如图 4-32 所示。
 
-![img](img/DeepSeek生态深度探索_image_190.jpg)
+![img](img/DeepSeek-生态深度探索_image_190.jpg)
 
 图 4-30
 
-![img](img/DeepSeek生态深度探索_image_191.jpg)
+![img](img/DeepSeek-生态深度探索_image_191.jpg)
 
 图 4-31
 
 表 4-11
 
-![img](img/DeepSeek生态深度探索_image_192.jpg)![img](img/DeepSeek生态深度探索_image_193.jpg)
+![img](img/DeepSeek-生态深度探索_image_192.jpg)![img](img/DeepSeek-生态深度探索_image_193.jpg)
 
 图 4-32
 
@@ -5292,7 +5292,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 表 4-12
 
-![img](img/DeepSeek生态深度探索_image_194.jpg)
+![img](img/DeepSeek-生态深度探索_image_194.jpg)
 
 支持多角色权限、多组织管控和账号统一认证管理和审计，如图 4-33 所示。
 
@@ -5300,11 +5300,11 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 中软国际以 JointPilot 灵析 AI 应用构建与集成平台为产品底座，帮助客户轻松接入 DeepSeek-R1、DeepSeek-V3 等大模型，满足专业场景任务需求，如图 4-34 所示。
 
-![img](img/DeepSeek生态深度探索_image_195.jpg)
+![img](img/DeepSeek-生态深度探索_image_195.jpg)
 
 图 4-33
 
-![img](img/DeepSeek生态深度探索_image_196.jpg)
+![img](img/DeepSeek-生态深度探索_image_196.jpg)
 
 图 4-34
 
@@ -5312,7 +5312,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 （1）智慧政务 AI 智能体集群。中软国际以 DeepSeek 为智能驱动引擎，通过自研灵析 AI 应用构建与集成平台搭建公务人员的智能辅助体系，深度适配华为昇腾 AI 基础硬件平台，构建智慧政务智能体集群，实现灵活本地化部署、弹性化扩展与场景化演进，助力政务客户构建自主可控的 AI 应用一体化系统，推动政务管理与服务模式创新，实现政务体验升级、政务闭环重塑与政务效能提升，如图 4-35 所示。
 
-![img](img/DeepSeek生态深度探索_image_197.jpg)
+![img](img/DeepSeek-生态深度探索_image_197.jpg)
 
 图 4-35
 
@@ -5328,11 +5328,11 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 某区政府通过数据底座建设工作，已汇聚大量人口、法人和房屋等数据，但政务管理服务业务用户在实际使用数据时仍存在痛点、堵点，现有技术和方法无法支撑快速、灵活、高频的需求，数据价值尚未完全发挥。同时，汇聚数据的水平不足，业务价值产出与数据建设投入不匹配，制约了数据基础设施持续更新的投入。在数据治理和价值应用方面，存在以下两个问题。
 
-![img](img/DeepSeek生态深度探索_image_198.jpg)
+![img](img/DeepSeek-生态深度探索_image_198.jpg)
 
 图 4-36
 
-![img](img/DeepSeek生态深度探索_image_199.jpg)
+![img](img/DeepSeek-生态深度探索_image_199.jpg)
 
 图 4-37
 
@@ -5342,7 +5342,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 简而言之，尽管该地区的政务数据基础设施建设已经取得了一定成绩，但在数据赋能业务提质增效方面仍存在技术和方法的瓶颈。中软国际希望利用 AI 技术，在政务管理和服务场景中实现数据应用效率的突破、助力形成政务数据治理的正向循环。对此，中软国际基于其数据分析问数智能体产品和灵析 AI 应用构建与集成平台，高效接入人口、法人、房屋、宏观统计等政务数据，在产业招商、民政服务、征兵管理等场景中有效降低了政府工作人员的用数门槛，改变了传统手工作业模式，切实推动了政府数据资源价值利用和可持续治理，如图 4-38 所示。
 
-![img](img/DeepSeek生态深度探索_image_200.jpg)
+![img](img/DeepSeek-生态深度探索_image_200.jpg)
 
 图 4-38
 
@@ -5352,7 +5352,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 以用户需要了解辖区内企业在不同区域分布的情况为例，用户只需要输入“某区各街道企业分布”，接下来问数助手与用户互动，自动给出所需数据，如图 4-39 所示。
 
-![img](img/DeepSeek生态深度探索_image_201.jpg)
+![img](img/DeepSeek-生态深度探索_image_201.jpg)
 
 图 4-39
 
@@ -5370,7 +5370,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 接下来，如果用户想进一步了解某区域企业的行业发展状况，且问数助手具有记忆和持续多轮对话的能力，那么可以延续之前的问题继续作答。例如，客户接下来问：“某街道所有企业的各行业比例情况”，如图 4-40 所示。
 
-![img](img/DeepSeek生态深度探索_image_202.jpg)
+![img](img/DeepSeek-生态深度探索_image_202.jpg)
 
 图 4-40
 
@@ -5390,7 +5390,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 在实际使用中，民政活动策划人员一般需要先了解当前目标人群的总体情况。因此，可以向问数助手提问“某区各社区 20 至 35 周岁未婚青年的数量和分布情况如何？”，如图 4-41 所示。
 
-![img](img/DeepSeek生态深度探索_image_203.jpg)
+![img](img/DeepSeek-生态深度探索_image_203.jpg)
 
 图 4-41
 
@@ -5402,7 +5402,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 基于这一初步探查结果，策划人员考虑先在未婚青年数量最多的某社区进行尝试，接下来需要取得具体人员的名单。在实际操作中，对定向邀约的人员进行范围限定，以符合活动目标、控制活动规模。在这个案例中，针对受教育水平做了简单的筛选。用户输入“给我某社区 20 至 35 岁未婚青年明细数据，文化程度为中专及以上”，如图 4-42 所示。
 
-![img](img/DeepSeek生态深度探索_image_204.jpg)
+![img](img/DeepSeek-生态深度探索_image_204.jpg)
 
 图 4-42
 
@@ -5418,7 +5418,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 以占道经营事件专题分析报告编写为例，民意分析员一般要先基于占道经营相关投诉数据分析占道表现类型、时空规律、经营生态等基础数据，之后结合人口、房屋数据及城市管理案件数据进行归因分析和执法效能分析，对占道经营类事件进行追溯分析。民意分析员无须手动或求助技术人员调用数据表，可以直接对民意报告助手提问“占道经营主要类型”，如图 4-43 所示。
 
-![img](img/DeepSeek生态深度探索_image_205.jpg)
+![img](img/DeepSeek-生态深度探索_image_205.jpg)
 
 图 4-43
 
@@ -5430,11 +5430,11 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 类似地，工作人员还可以用提问的方式轻松地分析占道投诉/案件高发时空热力图、路段聚集度指数，以及摊贩复摆率、商品类型关联度等。完成全部数据分析后，接下来可用一句话生成报告初稿。民意分析员输入“帮我生成一份占道经营分析报告，数据时间范围是 2024 年 8 月—2024 年 10 月”，如图 4-45 所示。
 
-![img](img/DeepSeek生态深度探索_image_206.jpg)
+![img](img/DeepSeek-生态深度探索_image_206.jpg)
 
 图 4-44
 
-![img](img/DeepSeek生态深度探索_image_207.jpg)
+![img](img/DeepSeek-生态深度探索_image_207.jpg)
 
 图 4-45
 
@@ -5446,11 +5446,11 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 民意报告助手智能体基于 DeepSeek 的强大推理、文本生成和数据分析基础模型能力，大大提高了民情报告的工作效率，大幅缩短撰写周期，使分析人员能专注于深层分析和策略建议。智能体让分析人员能够轻松定位和整合多个政府部门及基础设施数据，快速定位民生热点、有效追踪问题变化趋势及治理成效，并为突发事件和专题调研提供快速的数据追溯和态势分析能力，提升应急响应和决策的科学性。
 
-![img](img/DeepSeek生态深度探索_image_208.jpg)
+![img](img/DeepSeek-生态深度探索_image_208.jpg)
 
 图 4-46
 
-![img](img/DeepSeek生态深度探索_image_209.jpg)
+![img](img/DeepSeek-生态深度探索_image_209.jpg)
 
 图 4-47
 
@@ -5466,7 +5466,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 针对现有痛点，中软国际为企业客户打造了售后服务助手智能体。如图 4-48 所示，中软国际从客户价值出发，融合多模态大模型、动态知识图谱和持续策略优化等技术，推动客户售后服务环节的智能化应用。
 
-![img](img/DeepSeek生态深度探索_image_210.jpg)
+![img](img/DeepSeek-生态深度探索_image_210.jpg)
 
 图 4-48
 
@@ -5474,7 +5474,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 在客服、维修和服务分析等场景下，售后服务助手智能体背后的知识库质量至关重要。对此，中软国际为客户构建了融合结构化数据与非结构化数据的自适应、动态知识图谱，以 UIL/HIL 技术持续优化数字员工能力，实现基于交互的知识积累和策略优化，为客户提供灵活的知识问答、智能问数、产品维修 BOM、工单智能流转等产品服务，并实现内外门户、企业微信和微信公众号等渠道全方位接入，让客户可以随时询问和进行远程协作，大大降低了响应延迟，显著降低了设备停机时间，如图 4-49 所示。
 
-![img](img/DeepSeek生态深度探索_image_211.jpg)
+![img](img/DeepSeek-生态深度探索_image_211.jpg)
 
 图 4-49
 
@@ -5484,7 +5484,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 为确保医保基金合理、安全、有效地使用，国家和省、市医疗保障行政部门会组织实施对定点医药机构、医保经办机构等进行不预先告知的现场监督检查，即飞行检查。近来，国家医保飞行检查工作呈现常态化、严格化趋势，对医院医保基金管理提出更高的要求，尤其在疑点自查自纠、重点耗材管理等方面。医院亟须优化医保监管体系，在日常运营中主动发现、改正不合规情况，避免在被动响应国家医保局的飞行检查工作时才发现存在问题。
 
-![img](img/DeepSeek生态深度探索_image_212.jpg)
+![img](img/DeepSeek-生态深度探索_image_212.jpg)
 
 图 4-50
 
@@ -5494,7 +5494,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 **关键技术 1：构建药品知识图谱，打造专业合规的稽查智能体**。医保飞行检查会对药品是否符合医保规则进行核查。在实际医疗过程中，医院需要加强合规意识，对不符合医保限定支付条件的药品被纳入医保结算的行为进行审查拦截。而医保药品目录涵盖的药品多达 22 万种，医保目录与药品说明书也存在差异，不同适应症的剂量同样会有不同，过往合规审查拦截时需要大量人工翻阅资料，且知识更新十分困难。中软国际通过基本医疗保险药品目录、药品说明书等医疗数据，为客户构建了可持续动态更新的药品知识图谱，并构建药品合规稽查智能体，能够智能生成医保飞行检查规则、处方药品拦截规则，以及对药品进行智能合规检查，药品适应症检查准确率高达 95%，如图 4-51 所示。
 
-![img](img/DeepSeek生态深度探索_image_213.jpg)
+![img](img/DeepSeek-生态深度探索_image_213.jpg)
 
 图 4-51
 
@@ -5502,7 +5502,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 **关键技术 3：构建耗材一致性检查体系，精准识别耗材不合规行为。**在医用耗材使用上，虚构项目、重复收费或串换项目是典型的医保基金违规使用行为。以往，医院未打通库存、手术耗材应用等数据，需要人工清点，存在耗费人力、检查时效性弱、难以定位到具体记录等问题。针对这种情况，中软国际为客户提供了一套严谨缜密的耗材一致性检查方案。该方案基于中软国际灵析问数智能体，能够对接打通系统的进出存数据与医保结算数据，实现医疗数据智能感知。同时，针对每日全量数据自动进行对比分析，将耗材风险发现时间缩短为 24 小时。当发现数据不一致时，对医嘱、手术耗材申领、手术耗材记录等医疗全流程数据进行穿透式比对，快速定位到出现问题的医疗环节，并且能够自动决策、进行风险提醒及生成处置动作，显著提升了医保基金耗材使用合规性的管控效能。此外，还对耗材库存进行智能分析，并给出补货策略、效期优先使用等优化建议，以实现耗材的精细化管理。
 
-![img](img/DeepSeek生态深度探索_image_214.jpg)
+![img](img/DeepSeek-生态深度探索_image_214.jpg)
 
 图 4-52
 
@@ -5516,19 +5516,19 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 如图 4-53 所示，AI 医保合规官能自动对医院信息化系统的门诊数据、住院数据、结算数据、耗材数据等进行日常审计，提供医保前置审核、智能疑点复核和重点耗材智能监管等智能服务。将企业微信作为医生端入口，提高安全性和可管理性，对医保不合规风险进行及时推送。医生可以在微信上直接对话，查看详细风险清单与修正建议，并通过多轮问答详细了解医保规则。通过以上方式，可以实现医保风险的事前智能拦截、事中灵活介入和事后精准追溯，极大地降低医保基金的使用风险。
 
-![img](img/DeepSeek生态深度探索_image_215.jpg)
+![img](img/DeepSeek-生态深度探索_image_215.jpg)
 
 图 4-53
 
 过去，医保办对全院医保违规情况、各科室违规情况难以做到及时、详细地了解。如图 4-54 所示，AI 医保合规官协助医院构建起全面、完善的医保合规监管机制，每日检查风险数据并输出日报及时提醒，根据飞行检查风险类型构建各科室、医生的风险问题画像，并建立药品合规、诊疗合规和耗材合规多维度评分体系，对各科室进行量化排名。系统定向推送风险报告至责任科室，以实施闭环整改督导，全程跟踪风险纠正效果，为医院进行长效化医保合规管理提供智能化支持。
 
-![img](img/DeepSeek生态深度探索_image_216.jpg)
+![img](img/DeepSeek-生态深度探索_image_216.jpg)
 
 图 4-54
 
 如图 4-55 所示，AI 医保合规官能够全面监测分析全院医保违规情况，为医保办日常监管、风险把控提供数据支持。结合 DeepSeek-R1 推理模型与中软国际问数大模型的能力，AI 医保合规官为医保办端提供动态数据监测与交互式分析查询服务，不仅支持全院及各科室的医保违规数据分析，还建立了对违规项目、金额变化的量化归因机制，能够精准定位问题原因。通过整合历史飞检情况，可追溯违规项目的历史检查情况与违规占比，并自动化生成指定科室的违规分析报告，在科室整改教育方案上为医保办提供科学、量化的制定依据，推动医院合规管理，从事后处置向源头防控的智能化模式转型。
 
-![img](img/DeepSeek生态深度探索_image_217.jpg)
+![img](img/DeepSeek-生态深度探索_image_217.jpg)
 
 图 4-55
 
@@ -5548,7 +5548,7 @@ DeepSeek 在推理、生成等方面的优越性能在扩大用户应用需求�
 
 （3）AI 驱动智能化阶段。引入“AI 模型”层后，操作系统将进一步下沉至 AI 模型和云原生之下，为 AI 训练和推理优化硬件资源，并支持分布式计算框架，如图 4-56 所示。
 
-![img](img/DeepSeek生态深度探索_image_218.jpg)
+![img](img/DeepSeek-生态深度探索_image_218.jpg)
 
 图 4-56
 
@@ -5586,7 +5586,7 @@ AI PC 在中国尚未迎来真正大的机遇，当前，从多家 AI 厂商适
 
 统信软件认为 AI 将实现 OS 与 PC 的深度结合，真正的 AIPC 会有跨时代的变化，传统的键盘鼠标等输入设备将逐渐被淘汰，取而代之的是更为智能的交互方式。通过语音与视觉的多模态结合，大模型能够更直观地理解用户的意图并实现智能调度。统信将 DeepSeek 与大模型和操作系统深度融合，力求将每一台设备都打造成“AI 原生终端”，为用户带来更加智能便捷的使用体验，如图 4-57 所示。
 
-![img](img/DeepSeek生态深度探索_image_219.jpg)
+![img](img/DeepSeek-生态深度探索_image_219.jpg)
 
 图 4-57
 
@@ -5616,7 +5616,7 @@ AI PC 在中国尚未迎来真正大的机遇，当前，从多家 AI 厂商适
 
 因此，统信软件密切关注 AI 技术发展动态，并提供企业私有化平台部署能力，以满足企业日益增长的国产化替代和 AI 搭建评估需求。对内，全员推动提高 AI 的使用技能，并将内部知识文档、招投标等常用生产系统通过 UOS AI 2.0 以知识库方式服务于一线人员，实现降本增效，如图 4-58 所示。
 
-![img](img/DeepSeek生态深度探索_image_220.jpg)
+![img](img/DeepSeek-生态深度探索_image_220.jpg)
 
 图 4-58
 
@@ -5674,7 +5674,7 @@ AI PC 在中国尚未迎来真正大的机遇，当前，从多家 AI 厂商适
 
 （1）整体架构。统信 AI 知识库一体化交付方案的架构包括部署层（物理机/集群/云端）、操作系统层（统信服务器操作系统/桌面操作系统）、模型服务层（DeepSeek+Dify+知识库+New API）、应用层（Dify 可视化管理后台+UOS AI 助手），如图 4-59 所示。
 
-![img](img/DeepSeek生态深度探索_image_221.jpg)
+![img](img/DeepSeek-生态深度探索_image_221.jpg)
 
 图 4-59
 
@@ -5694,7 +5694,7 @@ AI PC 在中国尚未迎来真正大的机遇，当前，从多家 AI 厂商适
 
 表 4-13
 
-![img](img/DeepSeek生态深度探索_image_222.jpg)
+![img](img/DeepSeek-生态深度探索_image_222.jpg)
 
 **Dify 企业级大模型应用平台。**该方案通过 Dify 企业级大模型应用平台，提供了从大模型到垂直应用落地的工具，降低了 AI 应用开发门槛，提高了业务场景适配速度。客户可以使用 Dify 可视化编排工具、RAG 管道、多模型管理等方式，快速采用零代码搭建自主 AI 知识库。
 
@@ -5720,7 +5720,7 @@ New API 是一个基于 One API 二次开发的开源项目，是新一代大�
 
 表 4-14
 
-![img](img/DeepSeek生态深度探索_image_223.jpg)
+![img](img/DeepSeek-生态深度探索_image_223.jpg)
 
 **6.小结**
 
@@ -5742,7 +5742,7 @@ New API 是一个基于 One API 二次开发的开源项目，是新一代大�
 
 为此，Gartner 在 2024 年提出了业务编排与自动化技术（Business Orchestration and Automation Technology，BOAT），将其作为超自动化的演进方向。BOAT 更加聚焦于智能决策、任务的智能编排与生成式 AI 的融合，强调以业务编排为核心的智能自动化能力，将成为未来企业级 AI 智能体应用平台的新范式，如图 4-60 所示。
 
-![img](img/DeepSeek生态深度探索_image_224.jpg)
+![img](img/DeepSeek-生态深度探索_image_224.jpg)
 
 图 4-60
 
@@ -5918,7 +5918,7 @@ ORION Copilot 不仅是一个界面助手，更是连接用户语言与平台�
 
 ORION 平台通过融合 AI 原生能力、智能编排机制及低代码可编程特性，重构了流程自动化的技术架构。在未来的业务系统中，AI 不再是被调用的“工具”，而是流程的发起者、参与者和执行者。借助 ORION，企业将拥有一套真正具备感知与行动力的智能流程引擎，全面迈入智能体编排时代，如图 4-61 所示。
 
-![img](img/DeepSeek生态深度探索_image_225.jpg)
+![img](img/DeepSeek-生态深度探索_image_225.jpg)
 
 图 4-61
 
@@ -5940,7 +5940,7 @@ ORION 平台通过融合 AI 原生能力、智能编排机制及低代码可编�
 
 **（5）多模态交互与智能报告。**为了提高管理效率，系统支持温室管理员通过语音指令查询温室状态或历史数据，如“查询昨天下午的 CO[2]平均值及波动原因”。ORION 调用语义分析及日志处理流程，自动生成图文并茂的分析报告，并通过企业微信等渠道及时推送给管理团队，实现便捷高效的沟通与复盘，如图 4-62 所示。
 
-![img](img/DeepSeek生态深度探索_image_226.jpg)
+![img](img/DeepSeek-生态深度探索_image_226.jpg)
 
 图 4-62
 
@@ -5956,7 +5956,7 @@ ORION 平台通过融合 AI 原生能力、智能编排机制及低代码可编�
 
 在这个智慧农业的应用案例中，ORION 平台不仅提供了强大的业务编排与智能自动化引擎，更成为融合农业专家经验、环境大数据与前沿 AI 能力的载体。AI 原生、低代码、智能体驱动等核心特性，有力地支撑了其成功落地“以数据为基础、以智能为核心”的精准种植模式。这种模式标志着农业数字化管理正迈向“智能化自治”和高效可持续发展的新阶段，如图 4-63 所示。
 
-![img](img/DeepSeek生态深度探索_image_227.jpg)
+![img](img/DeepSeek-生态深度探索_image_227.jpg)
 
 图 4-63
 
@@ -6036,7 +6036,7 @@ Agent 模式和 Manual 模式各有优缺点。Agent 模式在给定目标后，
 
 首先，AI 辅助编程工具会读取文件，并按一定的文本格式将这些文件发送给大模型。大模型会根据要求输出特定格式的文本，AI 辅助编程工具随后解析该文本，将其转化为可应用的修改指令，最终完成代码的更新。实际上，这套机制不仅适用于代码修改，也可用于修改任何文本文件，甚至日常文档等。图 4-64 描述了这个流程。
 
-![img](img/DeepSeek生态深度探索_image_228.jpg)
+![img](img/DeepSeek-生态深度探索_image_228.jpg)
 
 图 4-64
 
@@ -6050,7 +6050,7 @@ Agent 模式和 Manual 模式各有优缺点。Agent 模式在给定目标后，
 
 图 4-65 包含三种模式的示例。
 
-![img](img/DeepSeek生态深度探索_image_229.jpg)
+![img](img/DeepSeek-生态深度探索_image_229.jpg)
 
 图 4-65
 
@@ -6060,13 +6060,13 @@ Agent 模式和 Manual 模式各有优缺点。Agent 模式在给定目标后，
 
 Agentic 范式是当前主流代码智能体的实现框架。如图 4-66 所示，其基本流程为：在 System Prompt 中描述工具集合；当用户提出问题后，大模型流式输出响应；若遇到需调用工具的场景，则声明使用工具类型并执行；工具执行结果以 user 角色反馈给大模型；大模型根据结果决策下一步操作，如此循环推进。
 
-![img](img/DeepSeek生态深度探索_image_230.jpg)
+![img](img/DeepSeek-生态深度探索_image_230.jpg)
 
 图 4-66
 
 通常来说，大模型终止循环的条件有三种：大模型判定已解决用户问题；大模型无法解决问题，主动终止或调用用户咨询工具，等待用户输入；达到预设的循环次数（工具调用上限）。在现实中，可让大模型通过输出一个特定终止工具标识来表示流程结束，实现的效果如图 4-67 所示。
 
-![img](img/DeepSeek生态深度探索_image_231.jpg)
+![img](img/DeepSeek-生态深度探索_image_231.jpg)
 
 图 4-67
 
@@ -6132,7 +6132,7 @@ AI 会话结束时上下文丢失。Memory Bank 利用外部 Markdown 文件（
 
 图 4-68 展示了文件之间的关系。
 
-![img](img/DeepSeek生态深度探索_image_232.jpg)
+![img](img/DeepSeek-生态深度探索_image_232.jpg)
 
 图 4-68
 
@@ -6146,7 +6146,7 @@ AI 会话结束时上下文丢失。Memory Bank 利用外部 Markdown 文件（
 
 执行流程如图 4-69 所示。
 
-![img](img/DeepSeek生态深度探索_image_233.jpg)
+![img](img/DeepSeek-生态深度探索_image_233.jpg)
 
 图 4-69
 
@@ -6178,7 +6178,7 @@ AI 会话结束时上下文丢失。Memory Bank 利用外部 Markdown 文件（
 
 以 Auto-Coder 项目的内容裁剪模块为例，该模块的组织结构如图 4-70 所示。
 
-![img](img/DeepSeek生态深度探索_image_234.jpg)
+![img](img/DeepSeek-生态深度探索_image_234.jpg)
 
 图 4-70
 
@@ -6218,11 +6218,11 @@ IDE 作为强交互型产品，难以适应这种交互模式的转变。厂商�
 
 通过调用一个命令唤起代码智能体执行任务，并在执行完成后自动退出，中间没有人机交互。
 
-![img](img/DeepSeek生态深度探索_image_235.jpg)
+![img](img/DeepSeek-生态深度探索_image_235.jpg)
 
 下面演示如何在 Shell 脚本中集成 CLI。例如，用户写了 5 个需求的提示词，希望同时发起 5 个任务并自动提交拉取请求。可以简单地使用一个 Shell 脚本来实现。
 
-![img](img/DeepSeek生态深度探索_image_236.jpg) ![img](img/DeepSeek生态深度探索_image_237.jpg)
+![img](img/DeepSeek-生态深度探索_image_236.jpg) ![img](img/DeepSeek-生态深度探索_image_237.jpg)
 
 这种需求是很难通过 IDE 实现的。
 
@@ -6230,7 +6230,7 @@ IDE 作为强交互型产品，难以适应这种交互模式的转变。厂商�
 
 用户可以很方便地在代码中集成代码智能体的能力，如下所示。
 
-![img](img/DeepSeek生态深度探索_image_238.jpg)
+![img](img/DeepSeek-生态深度探索_image_238.jpg)
 
 在上面的示例代码中，用户只需要引入 autocoder.sdk 即可快速调用 query 功能完成代码修改并获取流信息，从而自主控制渲染或工具的执行过程。这使代码智能体的执行过程和结果均可被精细调控。
 
@@ -6336,7 +6336,7 @@ DeepSeek 的出现激发了手机应用开发的新活力，催生出诸多创�
 
 表 5-1
 
-![img](img/DeepSeek生态深度探索_image_239.jpg)
+![img](img/DeepSeek-生态深度探索_image_239.jpg)
 
 端侧部署 DeepSeek 1.5B 参数规模模型的最小内存占用需求为 1.7GB。蒸馏后的小尺寸模型（1.5B、7B）在各项指标上比全尺寸模型有明显的下降。为了获得更好的用户体验，需要部署 7B 尺寸的模型。此外，生成速度大幅降低也会影响使用体验，并且此时的内存占用达到 5.2GB。内存成本仍然是限制 DeepSeek 在端侧设备上大规模应用的关键因素。手机厂商需要投入大量的研发资源来解决技术难题，以提高 DeepSeek 在手机上的性能和稳定性。
 
@@ -6364,7 +6364,7 @@ AI 手机产业链涵盖硬件、软件、应用等多个层面。在硬件方�
 
 手机公司普遍采用端云协同的架构来解决当前手机端侧算力不足的问题。该架构将云计算的强大算力和终端设备的实时交互能力有机结合起来，形成了一种优势互补的解决方案。云端大模型负责复杂问题的推理，终端设备则直接与用户交互。例如，手机端侧的智能决策器可以根据任务的复杂程度和设备的实时状态，动态地决定是在端侧调用小模型，还是将任务转发至云端的大模型。努比亚手机在此基础上提出了 AI Together 架构，该架构既可以作为传统意义上的端云协同架构，也可以作为一种广义上的混合专家架构，如图 5-1 所示。
 
-![img](img/DeepSeek生态深度探索_image_240.jpg)
+![img](img/DeepSeek-生态深度探索_image_240.jpg)
 
 图 5-1
 
@@ -6432,15 +6432,15 @@ AI 编程工具的演进从人机协同到智能体模式逐渐转变。在 2024
 
 普通的大语言模型，其训练目标为下一个 Token 预测（Next Token Prediction，NTP），而对于代码大模型，一般还需要增加一个目标——中间填充（Fill In the Middle，FIM），可以看作代码字符级的完形填空。这是由于编程场景的特殊性，需要强化对代码上文和下文的依赖。具体过程如下：假设有一段代码，会随机切分为前缀、中缀、后缀三段——prefix、middle、suffix（加深部分为 middle 片段）。
 
-![img](img/DeepSeek生态深度探索_image_241.jpg)
+![img](img/DeepSeek-生态深度探索_image_241.jpg)
 
 然后重新拼接，并加上特殊 Token，构成 FIM 格式的训练语料。
 
-![img](img/DeepSeek生态深度探索_image_242.jpg)
+![img](img/DeepSeek-生态深度探索_image_242.jpg)
 
 经过预训练阶段，模型已经具备理解和代码补全的能力。在推理阶段，代码补全通常需要 Base 版本的模型，如 DeepSeek-Coder-V2-Lite-Base，其提示词格式如下。
 
-![img](img/DeepSeek生态深度探索_image_243.jpg)
+![img](img/DeepSeek-生态深度探索_image_243.jpg)
 
 模型可输出缺失的 middle 部分，完成代码补全的任务。
 
@@ -6450,7 +6450,7 @@ AI 编程工具的演进从人机协同到智能体模式逐渐转变。在 2024
 
 小米公司的软件研发人员众多，对研发效能的提高有迫切需求。大模型时代来临，AI 编程风起云涌，小米内部同样在持续不断探索，以多种形式、从多个层面，在软件研发的整个链路上进行一场 AI 革命，如图 5-2 所示。
 
-![img](img/DeepSeek生态深度探索_image_244.jpg)
+![img](img/DeepSeek-生态深度探索_image_244.jpg)
 
 图 5-2
 
@@ -6488,7 +6488,7 @@ AI 编程工具的演进从人机协同到智能体模式逐渐转变。在 2024
 
 代码大模型发展日新月异，而新的大模型发布后，若直接部署，则可能遇到各种“水土不服”的问题。如何才能快速筛选出最好的开源大模型，并在小米落地？小米通过线下评测和线上 A/B 测试两个步骤来解决。
 
-![img](img/DeepSeek生态深度探索_image_245.jpg)
+![img](img/DeepSeek-生态深度探索_image_245.jpg)
 
 图 5-3
 
@@ -6544,7 +6544,7 @@ DeepSeek-V3 具备函数调用（Function Calling）能力，可以调用外部�
 
 UT-Agent 客户端有多种运行方式，以 Web 运行为例，界面如图 5-4 所示。
 
-![img](img/DeepSeek生态深度探索_image_246.jpg)
+![img](img/DeepSeek-生态深度探索_image_246.jpg)
 
 图 5-4
 
@@ -6558,7 +6558,7 @@ UT-Agent 客户端有多种运行方式，以 Web 运行为例，界面如图 5-
 
 •灵活部署：UT-Agent 可以灵活地部署在本地、云端，或集成到现有的 CI/CD 流水线中。
 
-![img](img/DeepSeek生态深度探索_image_247.jpg)
+![img](img/DeepSeek-生态深度探索_image_247.jpg)
 
 图 5-5
 
@@ -6578,13 +6578,13 @@ UT-Agent 客户端有多种运行方式，以 Web 运行为例，界面如图 5-
 
 •错误反馈：收集测试覆盖率数据和失败的测试用例信息。
 
-![img](img/DeepSeek生态深度探索_image_248.jpg)
+![img](img/DeepSeek-生态深度探索_image_248.jpg)
 
 图 5-6
 
 输入单元测试生成 Agent 的代码主要包括三部分，如图 5-7 所示。
 
-![img](img/DeepSeek生态深度探索_image_249.jpg)
+![img](img/DeepSeek-生态深度探索_image_249.jpg)
 
 图 5-7
 
@@ -6608,7 +6608,7 @@ UT-Agent 客户端有多种运行方式，以 Web 运行为例，界面如图 5-
 
 这个过程包括两个阶段，如图 5-8 所示。
 
-![img](img/DeepSeek生态深度探索_image_250.jpg)
+![img](img/DeepSeek-生态深度探索_image_250.jpg)
 
 图 5-8
 
@@ -6654,7 +6654,7 @@ UT-Agent 在多个部门落地使用，能够在短时间内将项目代码的�
 
 3）技术方案（见图 5-9）
 
-![img](img/DeepSeek生态深度探索_image_251.jpg)
+![img](img/DeepSeek-生态深度探索_image_251.jpg)
 
 图 5-9
 
@@ -6686,7 +6686,7 @@ AI 代码审查已经在小米集团内多个部门陆续推广，当前采纳�
 
 整体流程图如图 5-10 所示。
 
-![img](img/DeepSeek生态深度探索_image_252.jpg)
+![img](img/DeepSeek-生态深度探索_image_252.jpg)
 
 图 5-10
 
@@ -6712,7 +6712,7 @@ AI 代码审查已经在小米集团内多个部门陆续推广，当前采纳�
 
 打通集团 GitLab 平台的 CI 流程，构建了一个 CI Agent 平台（名为 Aha-Agent 平台），以便接入各种代码智能体，然后通过多种方式触发启动智能体。如图 5-11 所示，这里的 Aha-Agent 可以是任意代码智能体。
 
-![img](img/DeepSeek生态深度探索_image_253.jpg)
+![img](img/DeepSeek-生态深度探索_image_253.jpg)
 
 图 5-11
 
@@ -6720,7 +6720,7 @@ AI 代码审查已经在小米集团内多个部门陆续推广，当前采纳�
 
 以 Issue 触发为例，方法为针对新需求，手动创建 Issue，通过添加评论启动智能体解决问题，如图 5-12 所示。
 
-![img](img/DeepSeek生态深度探索_image_254.jpg)
+![img](img/DeepSeek-生态深度探索_image_254.jpg)
 
 图 5-12
 
@@ -6752,7 +6752,7 @@ AI 代码审查已经在小米集团内多个部门陆续推广，当前采纳�
 
 随着 Transformer 等生成式模型的突破，**生成式推荐**通过建模用户历史序列与目标 Token 的联合概率分布，并利用自注意力机制解析长序列行为，能更加精准地发掘用户兴趣，在多样性、长尾覆盖和冷启动场景中展现出优势。由于其特殊的网络结构，推荐系统能够实现规模定律，即模型的效果随着模型尺寸的增大、训练数据的增加而逐步提高，如图 5-13 所示。
 
-![img](img/DeepSeek生态深度探索_image_255.jpg)
+![img](img/DeepSeek-生态深度探索_image_255.jpg)
 
 图 5-13
 
@@ -6770,7 +6770,7 @@ AI 代码审查已经在小米集团内多个部门陆续推广，当前采纳�
 
 （1）较高的数据查询延时。生成式推荐模型需要跨网络从外部存储服务中查询大量的特征，有较高的查询延时与网络带宽的要求。
 
-![img](img/DeepSeek生态深度探索_image_256.jpg)
+![img](img/DeepSeek-生态深度探索_image_256.jpg)
 
 图 5-14
 
@@ -6784,7 +6784,7 @@ AI 代码审查已经在小米集团内多个部门陆续推广，当前采纳�
 
 表 5-2
 
-![img](img/DeepSeek生态深度探索_image_257.jpg)
+![img](img/DeepSeek-生态深度探索_image_257.jpg)
 
 基于上述差别，业内主流的大模型推理引擎和性能优化手段无法直接应用在生成式推荐模型中。因此，需要根据业务特点与生成式推荐的模型特点开发一套推理引擎，并总结出性能优化的方法。
 
@@ -6806,7 +6806,7 @@ GPU 并不是一个独立运行的计算平台，而需要与 CPU 协同工作�
 
 下面详细介绍各模块的连接情况及通信带宽。CPU 与 GPU 组件的传输效率如图 5-15 所示。
 
-![img](img/DeepSeek生态深度探索_image_258.jpg)
+![img](img/DeepSeek-生态深度探索_image_258.jpg)
 
 图 5-15
 
@@ -6828,7 +6828,7 @@ DeepSeek 技术团队在模型架构设计与推理引擎优化中，核心突�
 
 下面将以 DeepSeek 的优化路径为引，深入解析在推荐场景下生成式推荐大模型推理加速的实践方法，如图 5-16 所示。
 
-![img](img/DeepSeek生态深度探索_image_259.jpg)
+![img](img/DeepSeek-生态深度探索_image_259.jpg)
 
 图 5-16
 
@@ -6868,7 +6868,7 @@ GPU 更适合执行计算密集型任务，CPU 更适合执行逻辑型任务，
 
 与大模型不同，推荐类的生成式模型除了模型计算，还包括前置的针对用户与候选物品的特征查询和特征抽取等过程，如图 5-17 所示。
 
-![img](img/DeepSeek生态深度探索_image_260.jpg)
+![img](img/DeepSeek-生态深度探索_image_260.jpg)
 
 图 5-17
 
@@ -6878,7 +6878,7 @@ GPU 更适合执行计算密集型任务，CPU 更适合执行逻辑型任务，
 
 如图 5-18 所示，可以在预估服务的数据查询和特征抽取阶段使用缓存机制。在缓存设计方面，可以采用线程池异步处理、分多个桶保存缓存结果、减少写锁碰撞等措施提高缓存查询性能。还可以为不同场景提供不同的特征查询及缓存策略，具体如下。
 
-![img](img/DeepSeek生态深度探索_image_261.jpg)
+![img](img/DeepSeek-生态深度探索_image_261.jpg)
 
 图 5-18
 
@@ -6896,13 +6896,13 @@ FM（Factorization Machine）合并是指将与特征相关的计算和与模型
 
 （1）业内通用方案。传统推理方案通常会将特征查询、特征抽取和模型计算分进程部署，这可能会导致特征跨网络传输、序列化、反序列化和频繁且大量的内存申请和内存释放，特别是在推荐场景中会使用大量的特征，因此 FM 分离的方案可能会带来较大的性能问题，如图 5-19 所示。
 
-![img](img/DeepSeek生态深度探索_image_262.jpg)
+![img](img/DeepSeek-生态深度探索_image_262.jpg)
 
 图 5-19
 
 （2）FM 合并方案。把高性能机器学习库无缝集成到预估系统内，并将特征查询、特征抽取和模型计算同进程部署。这样可以实现特征指针化操作，避免大量特征在多个机器之间传递带来的序列化、反序列化、网络传输等开销，较大程度地提高服务的性能，如图 5-20 所示。
 
-![img](img/DeepSeek生态深度探索_image_263.jpg)
+![img](img/DeepSeek-生态深度探索_image_263.jpg)
 
 图 5-20
 
@@ -6914,7 +6914,7 @@ FM（Factorization Machine）合并是指将与特征相关的计算和与模型
 
 单核处理器的计算能力无法满足日益增长的算力需求，处理器厂商开始朝着多核的方向发展。单机服务器架构从一致性访存（Uniform Memory Access，UMA）演进到非一致性访存（Non-Uniform Memory Access，NUMA）架构，如图 5-21 所示。
 
-![img](img/DeepSeek生态深度探索_image_264.jpg)
+![img](img/DeepSeek-生态深度探索_image_264.jpg)
 
 图 5-21
 
@@ -6934,13 +6934,13 @@ FM（Factorization Machine）合并是指将与特征相关的计算和与模型
 
 表 5-3
 
-![img](img/DeepSeek生态深度探索_image_265.jpg)
+![img](img/DeepSeek-生态深度探索_image_265.jpg)
 
 2）提高数据传输效率
 
 CUDA 编程会涉及主机内存与设备显存的申请、释放、数据传递等多个环节。CPU 和 GPU 之间的数据传输需要通过 PCIe 总线实现，导致传输带宽相对较低。因此，要时刻考虑如何提高 CPU 和 GPU 之间的数据传输速度。CPU 和 GPU 的传输关系如图 5-22 所示。
 
-![img](img/DeepSeek生态深度探索_image_266.jpg)
+![img](img/DeepSeek-生态深度探索_image_266.jpg)
 
 图 5-22
 
@@ -6950,7 +6950,7 @@ GPU 知道页锁定内存的物理地址，可以通过**直接内存访问**（
 
 图 5-23 所示为数据复制过程，左边是可分页数据传输，右边是页锁定数据传输。对于可分页内存，在数据从主机到设备的复制过程中，GPU 驱动会先将数据复制到主机中的临时页锁定内存中，然后由临时页锁定内存将数据复制到 GPU 内存中，从而完成数据从主机到设备的复制（多一次数据复制）。对于页锁定内存，CUDA 平台会直接申请一块页锁定内存，免去了从可分页内存中从 CPU 内存到临时页锁定内存的数据复制，从而提高数据复制效率。
 
-![img](img/DeepSeek生态深度探索_image_267.jpg)
+![img](img/DeepSeek-生态深度探索_image_267.jpg)
 
 图 5-23
 
@@ -6974,7 +6974,7 @@ GPU 知道页锁定内存的物理地址，可以通过**直接内存访问**（
 
 有没有好的方案能解决上述问题呢？基于上述背景，可以考虑动态批方案，即将 Explicit Shape 与 Implicit Shape 方案中的优势结合，在服务初始化时创建多个执行器（Executor），每个 Executor 内采用 Explicit Shape 方案，初始化支持不同 Shape 的实例。请求来了之后，根据 Item 数量匹配最合适的 Executor 进行推理计算。在创建 Executor 时，可以考虑内存预分配和内存池的方案，如图 5-24 所示。
 
-![img](img/DeepSeek生态深度探索_image_268.jpg)
+![img](img/DeepSeek-生态深度探索_image_268.jpg)
 
 图 5-24
 
@@ -7000,13 +7000,13 @@ GPU 知道页锁定内存的物理地址，可以通过**直接内存访问**（
 
 图 5-25 所示为 CPU 与 GPU 内核（Kernel）之间顺序调度的情况，Kernel 大部分时间处于等待数据传输的状态，利用率严重不足。
 
-![img](img/DeepSeek生态深度探索_image_269.jpg)
+![img](img/DeepSeek-生态深度探索_image_269.jpg)
 
 图 5-25
 
 可以通过流（Stream）管理任务的执行顺序。虽然同一个 Stream 中的任务是顺序执行的，但不同 Stream 之间的任务支持彼此无序，再结合使用异步内存操作（cudaMemcpyAsync），就可以实现**数据传输与计算的重叠**，从而充分发挥 Tensor 核心的计算能力，如图 5-26 所示。
 
-![img](img/DeepSeek生态深度探索_image_270.jpg)
+![img](img/DeepSeek-生态深度探索_image_270.jpg)
 
 图 5-26
 
@@ -7032,7 +7032,7 @@ GPU 知道页锁定内存的物理地址，可以通过**直接内存访问**（
 
 •寄存器堆是 GPU 中最快的存储结构，每个 SM 有 64KB 空间的寄存器。它是离计算单元 Tensor 核心和 CUDA 核心最近的存储结构。
 
-![img](img/DeepSeek生态深度探索_image_271.jpg)
+![img](img/DeepSeek-生态深度探索_image_271.jpg)
 
 图 5-27
 
@@ -7048,7 +7048,7 @@ GPU 计算时需要首先将数据从全局内存加载到寄存器中，然后�
 
 利用 Layout 表示矩阵后，便可以通过指定坐标完成 Tensor 的切片操作，如图 5-28 所示。有如下矩阵：Shape（（2，2），（3，3）），Stride（（3，6），（1，12））。
 
-![img](img/DeepSeek生态深度探索_image_272.jpg)
+![img](img/DeepSeek-生态深度探索_image_272.jpg)
 
 图 5-28
 
@@ -7058,13 +7058,13 @@ GPU 计算时需要首先将数据从全局内存加载到寄存器中，然后�
 
 整个流程主要为全局内存→共享内存→寄存器→Tensor 核心。
 
-![img](img/DeepSeek生态深度探索_image_273.jpg)
+![img](img/DeepSeek-生态深度探索_image_273.jpg)
 
 图 5-29
 
 （5）分块计算。GPU 中有多个 SM，可以使用 Grid、Block 的线程层级来调用 SM 硬件资源。在矩阵计算中，将输出矩阵***C***作为划分 Thead Block 的单元进行任务拆分，也就是说，一个 Thread Block 完成矩阵***C***中的一个小块（Tile*C*）的计算任务。如图 5-30 所示，矩阵 Tile*C*的大小为（*k*Tile*M*，*k*Tile*N*）。
 
-![img](img/DeepSeek生态深度探索_image_274.jpg)
+![img](img/DeepSeek-生态深度探索_image_274.jpg)
 
 图 5-30
 
@@ -7074,7 +7074,7 @@ GPU 计算时需要首先将数据从全局内存加载到寄存器中，然后�
 
 在数据分级存储与分块计算时，可以通过多线程并行的方式充分重叠全局内存到寄存器的数据复制与 Tensor 核心的 MMA 计算，尽量提高计算访存比，如图 5-31 所示。
 
-![img](img/DeepSeek生态深度探索_image_275.jpg)
+![img](img/DeepSeek-生态深度探索_image_275.jpg)
 
 图 5-31
 
@@ -7090,7 +7090,7 @@ GPU 计算时需要首先将数据从全局内存加载到寄存器中，然后�
 
 TensorRT 在转换模型时，不用做额外的处理，默认会启用图融合优化。如果模型支持 Dynamic Shapes，在模型转换时通过 optShapes 指定最优 Shape，那么 TensorRT 会为模型生成最优的融合策略，并优化内存分配。
 
-![img](img/DeepSeek生态深度探索_image_276.jpg)
+![img](img/DeepSeek-生态深度探索_image_276.jpg)
 
 TensorRT 自动的图融合策略只能按照固定的几种方式进行，如垂直融合、水平融合、常量折叠等。如果想进行更深入的图融合，那么可以通过自定义插件（Plugin）的方式实现。
 
@@ -7106,7 +7106,7 @@ TensorRT Plugin 是英伟达 TensorRT 框架提供的一种扩展机制，允许
 
 （2）Attention 改造。Transformer 结构已成为自然语言处理和图像分类等应用中最常用的架构之一。尽管 Transformer 在规模上不断增大和加深，但处理更长的上下文仍然是一个挑战（核心的自注意力模块在序列长度上具有二次方的时间和内存复杂度）。这导致在处理长序列时速度变慢且内存需求巨大。因此，需要一些优化算法来提高注意力模块的计算速度和内存利用率，如图 5-32 所示。
 
-![img](img/DeepSeek生态深度探索_image_277.jpg)
+![img](img/DeepSeek-生态深度探索_image_277.jpg)
 
 图 5-32
 
@@ -7124,7 +7124,7 @@ TensorRT Plugin 是英伟达 TensorRT 框架提供的一种扩展机制，允许
 
 考虑到生成式推荐模型与生成式大模型在 Mask 机制上差异较大，以及批大小与多头结构的差异，最终借鉴 FlashAttention 的思想手写了 Attention Kernel。它通过分块计算，将大型矩阵分割为小块，在 GPU 高速缓存中完成多个子 OP 的计算，以减少对全局内存的访问次数，大幅提高了 Attention 的计算效率，如图 5-33 所示。
 
-![img](img/DeepSeek生态深度探索_image_278.jpg)
+![img](img/DeepSeek-生态深度探索_image_278.jpg)
 
 图 5-33
 
@@ -7138,7 +7138,7 @@ GPU 拥有成 100 多个 SM，每个 SM 可以并发地执行成百上千条线�
 
 为了确保平台的通用性，主流的推理平台会将整个模型放到 GPU 中计算，但是在面对模型内的数据查找或条件判断等逻辑时，GPU 的性能会降低。传统推理方案如图 5-34 所示。
 
-![img](img/DeepSeek生态深度探索_image_279.jpg)
+![img](img/DeepSeek-生态深度探索_image_279.jpg)
 
 图 5-34
 
@@ -7150,7 +7150,7 @@ GPU 拥有成 100 多个 SM，每个 SM 可以并发地执行成百上千条线�
 
 •GPU 尽可能只处理计算密集型任务。
 
-![img](img/DeepSeek生态深度探索_image_280.jpg)
+![img](img/DeepSeek-生态深度探索_image_280.jpg)
 
 图 5-35
 
@@ -7162,7 +7162,7 @@ GPU 拥有成 100 多个 SM，每个 SM 可以并发地执行成百上千条线�
 
 通过上述优化，生成式模型的推理性能相比通用推理方案提高 10 倍左右，模型 P99.9 推理耗时小于 30ms，使用有限资源可承载数万 QPS 的请求。以下是生成式模型基于 NVIDIA 4090 显卡的性能优化详情，如图 5-36 所示。
 
-![img](img/DeepSeek生态深度探索_image_281.jpg)
+![img](img/DeepSeek-生态深度探索_image_281.jpg)
 
 图 5-36
 
@@ -7316,7 +7316,7 @@ DeepSeek 团队需要深刻理解开源的本质内涵，方能在以开源为�
 
 尽管每个开源项目的创建背景各不相同，但在衡量其价值时，无论是项目发起方还是资本投资者，都习惯沿用传统估值方法评估项目或所属企业的商业价值。即使将开源带来的影响纳入商业产品或服务的评估框架，这种方式也未必科学合理，如图 6-1 所示。
 
-![img](img/DeepSeek生态深度探索_image_282.jpg)
+![img](img/DeepSeek-生态深度探索_image_282.jpg)
 
 图 6-1
 
@@ -7332,7 +7332,7 @@ DeepSeek 团队需要深刻理解开源的本质内涵，方能在以开源为�
 
 忽视数字公共产品与社区网络的价值评估，将导致企业估值体系存在结构性缺陷。无论企业以何种切入点开展开源，最终目标均指向企业价值的提升。在传统竞争战略要素（人才、技术、资金、市场）对应的既有市场价值之外，开源生态新增了两个关键维度：开源技术作为数字公共产品创造的社会责任 ESG 价值，以及开源社区积累的社会资本价值，如图 6-2 所示。
 
-![img](img/DeepSeek生态深度探索_image_283.jpg)
+![img](img/DeepSeek-生态深度探索_image_283.jpg)
 
 图 6-2
 
@@ -7356,7 +7356,7 @@ ESG 是衡量企业可持续性及社会影响的量化指标，其概念源于�
 
 DeepSeek 通过开源路径获得广泛关注，这种现象既向全社会揭示了开源模式的技术普惠价值，也隐含着认知偏差的风险。若缺乏对开源本质的系统性认知，则不同主体可能陷入片面理解：普通用户容易将开源窄化为“免费使用”的技术工具，忽视其蕴含的协作精神与开放生态价值；企业方可能将其工具化为低成本获客的营销手段，弱化开源社区共建的技术民主属性；战略决策层可能会将开源局限于技术运营策略，忽略了其重构行业创新范式、培育技术共同体的深层价值。本质上，开源的价值远超免费、工具或策略的范畴，它是一种推动技术普惠、促进生态共建、践行社会责任的系统性思维。若仅停留于表层应用，那么将难以释放其在技术演进、商业创新与社会价值创造中的完整潜力。
 
-![img](img/DeepSeek生态深度探索_image_284.jpg)
+![img](img/DeepSeek-生态深度探索_image_284.jpg)
 
 图 6-3
 
@@ -7380,7 +7380,7 @@ DeepSeek 开源软件通过开放共享，使所有用户在遵循开源许可�
 
 要深入理解这个机制，需要回顾罗默新增长理论的两大模型：其一是在完全竞争条件下基于知识溢出的内生增长模型，其二是非完全竞争与部分知识垄断条件下的内生增长模型。若对理论细节感兴趣，那么可以参考罗默的原始论文进一步研读。在开源生态中，严格遵循开放源代码促进会制定的开源标准发布的软件，本质上属于罗默第一个模型的实践场景。根据罗默第一个模型的数学框架，可尝试从开源使用者的角度构建生产函数表达式，以量化分析代码溢出后的经济效应。
 
-![img](img/DeepSeek生态深度探索_image_285.jpg)
+![img](img/DeepSeek-生态深度探索_image_285.jpg)
 
 式中，*Y*表示使用开源技术后企业的实际产出水平；*K*表示企业自主研发或积累的专有知识资产（如专利、技术诀窍等）；*X*表示传统生产要素的投入组合（如资金、劳动力、基础设施等）；*V*表示开源 DeepSeek 所贡献的公共知识总量，这种知识资源因开源协议的非排他性可被所有使用者共享。
 
@@ -7390,7 +7390,7 @@ DeepSeek 开源软件通过开放共享，使所有用户在遵循开源许可�
 
 ### *ll*
 
-![img](img/DeepSeek生态深度探索_image_286.jpg)
+![img](img/DeepSeek-生态深度探索_image_286.jpg)
 
 对于式（6-2），其核心逻辑在于：开源生态中公共知识总量（*V*）并非凭空产生的，而是由所有开源贡献方（包括开发者、企业、社区等）的个体贡献（*V*）累加而成的。
 
@@ -7430,7 +7430,7 @@ DeepSeek 开源软件通过开放共享，使所有用户在遵循开源许可�
 
 然而，开源软件作为数字时代的新型生产要素，其价值创造机制已突破传统劳动价值论的解释边界。不同于工业时代商品生产，开源产出不仅取决于显性的劳动时间投入，更深度关联了三类不可通约的创新要素：隐性的人力资本存量；累积的知识网络效应；动态的创新涌现机制。这要求采用更具解释力的内生增长模型进行刻画。参考罗默的新增长理论框架，可构建如下递归形式的扩展生产函数：
 
-![img](img/DeepSeek生态深度探索_image_287.jpg)
+![img](img/DeepSeek-生态深度探索_image_287.jpg)
 
 即开源 DeepSeek 溢出总量，本质上由两部分构成：其一是既有开源社区累积的存量知识溢出，其二是当前各贡献主体新增代码贡献的集合。单个贡献主体的产出能力，取决于三个核心要素：资本投入强度、既有开源知识的复用效率，以及私有技术资产的转化能力。
 

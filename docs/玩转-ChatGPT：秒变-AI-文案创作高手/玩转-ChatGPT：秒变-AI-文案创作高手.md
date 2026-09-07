@@ -3409,7 +3409,7 @@ ChatGPT 的回答对目前小红书平台上最受欢迎的自媒体文案类型
 
 **表 7-1 自媒体文案的类型**
 
-![](img/玩转ChatGPT：秒变AI文案创作高手_image_000.jpg)
+![](img/玩转-ChatGPT：秒变-AI-文案创作高手_image_000.jpg)
 
 **用户提问：**
 
@@ -3887,4 +3887,4 @@ ChatGPT 生成的这段文案使用了新颖的表达方式，通过强调产品
 
 **（以上内容由 ChatGPT 生成，未改动）**
 
-![](img/玩转ChatGPT：秒变AI文案创作高手_image_001.jpg)
+![](img/玩转-ChatGPT：秒变-AI-文案创作高手_image_001.jpg)

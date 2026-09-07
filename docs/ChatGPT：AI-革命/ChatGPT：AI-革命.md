@@ -220,13 +220,13 @@ ChatGPT“火”起来的原因之一是在于它的核心技术功能强大以�
 
 百度作为国内使用最多的搜索引擎，可以通过其指数来分析用户通过百度搜索的关键词频率与热度。下页两图所示分别为关键词“ChatGPT”在百度指数中的搜索指数和资讯指数，这个大数据的结论还是比较准确的。
 
-![](img/ChatGPT：AI革命_image00072.jpeg)![](img/ChatGPT：AI革命_image00073.jpeg)
+![](img/ChatGPT：AI-革命_image00072.jpeg)![](img/ChatGPT：AI-革命_image00073.jpeg)
 
 3.微信指数
 
 微信作为国内使用频率最高的一款手机应用软件，可以侧面反映大家对某种事物的关注度。通过微信指数可以看到，ChatGPT 的热度在 2023 年 2 月 4 日上升了一个很大台阶，而在 2 月 6 日—7 日呈持续上升的趋势，如下图所示。
 
-![](img/ChatGPT：AI革命_image00074.jpeg)
+![](img/ChatGPT：AI-革命_image00074.jpeg)
 
 ## 07　关于 ChatGPT 的其他疑问
 
@@ -298,11 +298,11 @@ OpenAI 公司秉持“开放、共享、协作”的价值观，致力于以负�
 
 在下图所示的 ChatGPT 页面中创建新的对话，在对话框中输入问题内容，单击发送按钮。
 
-![](img/ChatGPT：AI革命_image00075.jpeg)
+![](img/ChatGPT：AI-革命_image00075.jpeg)
 
 接着就可以在页面中看到 ChatGPT 给出的回复，如下图所示。在页面左侧会显示创建的对话组，可以根据实际需求进行重命名或删除。
 
-![](img/ChatGPT：AI革命_image00076.jpeg)
+![](img/ChatGPT：AI-革命_image00076.jpeg)
 
 建议将关于同一个主题的对话放在一个对话组中。因为新建一个对话意味着与 ChatGPT 进行一个新的、独立的对话。通过新建对话，用户可以：
 
@@ -318,11 +318,11 @@ OpenAI 公司秉持“开放、共享、协作”的价值观，致力于以负�
 
 如下图所示，在对话组“1”中，我们告诉了 ChatGPT 自己想要的答案，在下一次对话中，ChatGPT 就会联系上下文给出答案。
 
-![](img/ChatGPT：AI革命_image00077.jpeg)
+![](img/ChatGPT：AI-革命_image00077.jpeg)
 
 但是在下图中，我们在新建的对话组“2”中询问同一个问题，ChatGPT 给出的仍不是我们想要的答案。
 
-![](img/ChatGPT：AI革命_image00078.jpeg)
+![](img/ChatGPT：AI-革命_image00078.jpeg)
 
 ## 02　OpenAI API
 
@@ -332,15 +332,15 @@ OpenAI API 是 OpenAI 公司提供的一种在线服务，可以让开发人员�
 
 OpenAI API 与 ChatGPT 的关系与区别：ChatGPT 是 OpenAI 公司开发的一种聊天机器人，而 OpenAI API 则是一种在线服务，提供了访问 OpenAI 人工智能技术的方法。因此，ChatGPT 是 OpenAI API 中的一个技术组件，可以通过 API 访问和使用。但是，OpenAI API 不仅仅提供 ChatGPT，还提供了其他的人工智能技术，如下图所示。OpenAI API 主要有两种使用方式：第一种是通过编写代码来调用，第二种是在网页中使用。第一种使用方式将在第四章介绍，这里先介绍第二种使用方式。
 
-![](img/ChatGPT：AI革命_image00079.jpeg)
+![](img/ChatGPT：AI-革命_image00079.jpeg)
 
 下面看看传说中利用 OpenAI 写作论文的工具。输入文字描述：“写一篇关于营销人员的年终工作总结”，如下图所示，然后将字符长度滑块拖动至最右侧，再单击“Submit”按钮。
 
-![](img/ChatGPT：AI革命_image00080.jpeg)
+![](img/ChatGPT：AI-革命_image00080.jpeg)
 
 等待一段时间后，即可在界面中看到根据描述文字生成的文本内容，如下图所示。
 
-![](img/ChatGPT：AI革命_image00081.jpeg)
+![](img/ChatGPT：AI-革命_image00081.jpeg)
 
 写作出来的全文如下：
 
@@ -354,7 +354,7 @@ OpenAI API 与 ChatGPT 的关系与区别：ChatGPT 是 OpenAI 公司开发的�
 
 也可以加入更多的需求，如下图所示，在描述文字中对文字字数做了具体要求，要求写到 1 000 字左右。
 
-![](img/ChatGPT：AI革命_image00082.jpeg)
+![](img/ChatGPT：AI-革命_image00082.jpeg)
 
 写作出来的全文如下：
 
@@ -388,27 +388,27 @@ OpenAI API 与 ChatGPT 的关系与区别：ChatGPT 是 OpenAI 公司开发的�
 
 为了帮助大家更好地使用该功能，下图对一些参数的含义做了简单的介绍。
 
-![](img/ChatGPT：AI革命_image00083.jpeg)
+![](img/ChatGPT：AI-革命_image00083.jpeg)
 
 ## 03　AI 智能绘图 DALL·E 2
 
 DALL·E 2 是 OpenAI 开发的一种全新的人工智能技术，能够根据给定的文字描述生成多样性和高质量的图像，如下图所示。DALL·E 2 基于 Transformer 模型，是一种多层的神经网络，可以理解与生成语言。它是一种自然语言处理（NLP）技术和生成式对抗网络（GAN）技术的结合。
 
-![](img/ChatGPT：AI革命_image00084.jpeg)
+![](img/ChatGPT：AI-革命_image00084.jpeg)
 
 DALL·E 2 的目的是利用人工智能技术和大规模的数据，展示机器学习模型生成高质量图像的能力，模拟人类的创造力和想象力，激发 AI 的创意应用。DALL·E 2 的应用非常广泛，可以应用于动画、广告创意、游戏开发、建筑设计等多个领域。
 
 例如，输入一段文字描述：“绘制一幅关于长城的水墨山水画”，DALL·E 2 就可以生成与描述文字相符的图像，如下图所示。
 
-![](img/ChatGPT：AI革命_image00085.jpeg)
+![](img/ChatGPT：AI-革命_image00085.jpeg)
 
 但不足之处在于，DALL·E 2 和前面介绍的人工智能工具一样，就目前来说，针对中文的识别不如英文智能。举个例子，若输入文字描述：“在白色背景中，一只戴着领带的小恐龙正在研究植物”，得到的结果如下图所示。
 
-![](img/ChatGPT：AI革命_image00086.jpeg)
+![](img/ChatGPT：AI-革命_image00086.jpeg)
 
 而采用英文进行描述得到的结果如下图所示。
 
-![](img/ChatGPT：AI革命_image00087.jpeg)
+![](img/ChatGPT：AI-革命_image00087.jpeg)
 
 显然，采用英文描述生成的图片更符合我们的想象。但这并不影响 DALL·E 2 是一个非常具有潜力和前瞻性的人工智能技术，在未来，它会发挥更大的作用。
 
@@ -416,27 +416,27 @@ DALL·E 2 的目的是利用人工智能技术和大规模的数据，展示机�
 
 在文本框中输入需要生成图片的描述性文字：Part of an extremely delicate and beautiful work, close-up of Daniel Gerhartz,side angle, arms crossed, short yellow hair, looking into the distance,upper body, off shoulders, bun, light colored dress, rainy weather,backlight。这段文字表述得很细致，生成的图片如下图所示。
 
-![](img/ChatGPT：AI革命_image00088.jpeg)
+![](img/ChatGPT：AI-革命_image00088.jpeg)
 
 此时可以发现，在界面右侧会出现通过该工具生成的所有图片集合，如下图所示，方便后续调用。如果不需要保存，则可以把它们清除。
 
-![](img/ChatGPT：AI革命_image00089.jpeg)
+![](img/ChatGPT：AI-革命_image00089.jpeg)
 
 在本次生成的图片中选择第 4 幅图片来进行编辑操作。单击图片将其放大显示，选择下方的橡皮擦工具，擦除图片的背景，如下图所示。
 
-![](img/ChatGPT：AI革命_image00090.jpeg)
+![](img/ChatGPT：AI-革命_image00090.jpeg)
 
 调整画布的框架，对左侧的画幅进行延展，并在编辑框中输入需要智能填充的图像信息，如下图所示。然后单击“Generate”按钮，进行图像的智能生成操作。
 
-![](img/ChatGPT：AI革命_image00091.jpeg)
+![](img/ChatGPT：AI-革命_image00091.jpeg)
 
 智能生成的图像和需要填充的背景是可以完美融合的，并且它还提供了 4 个填充效果给用户选择。单击小圆点就可以在多个填充好的背景之间进行切换。选定需要的背景后，单击“Accept”按钮确定选中的背景图像，如下图所示。
 
-![](img/ChatGPT：AI革命_image00092.jpeg)
+![](img/ChatGPT：AI-革命_image00092.jpeg)
 
 若还想进行进一步的智能补图，可以重复上面的操作，最终得到如下图所示的画面效果。
 
-![](img/ChatGPT：AI革命_image00093.jpeg)
+![](img/ChatGPT：AI-革命_image00093.jpeg)
 
 # 第三章　让 ChatGPT 飞起来
 
@@ -456,13 +456,13 @@ WebChatGPT 是 Chrome 浏览器的一个插件，它为 ChatGPT 添加了网络�
 
 下面介绍该插件的使用方法。首先在 Chrome 浏览器中安装好该插件，然后打开 ChatGPT 的页面，即可使用该插件。具体步骤如下面几张图所示。
 
-![](img/ChatGPT：AI革命_image00094.jpeg)![](img/ChatGPT：AI革命_image00095.jpeg)![](img/ChatGPT：AI革命_image00096.jpeg)
+![](img/ChatGPT：AI-革命_image00094.jpeg)![](img/ChatGPT：AI-革命_image00095.jpeg)![](img/ChatGPT：AI-革命_image00096.jpeg)
 
 ## 02　搜索引擎和 ChatGPT 同框：ChatGPT for Google
 
 ChatGPT for Google 是 Chrome 浏览器的一个插件，它能利用 ChatGPT 增强搜索引擎的功能，即在传统搜索结果的旁边显示 ChatGPT 对同一话题的回答，如下图所示。ChatGPT for Google 支持所有流行的搜索引擎，包括谷歌、必应、DuckDuckGo 等。
 
-![](img/ChatGPT：AI革命_image00097.jpeg)
+![](img/ChatGPT：AI-革命_image00097.jpeg)
 
 ## 03　刨根问底的利器：Merlin
 
@@ -470,23 +470,23 @@ Merlin 是 Chrome 浏览器的一个插件，它使用 ChatGPT 来增强用户�
 
 下面介绍该插件的使用方法。首先在 Chrome 浏览器中安装好该插件，然后打开一个搜索引擎，如谷歌，并输入要搜索的相关信息，如下图所示。
 
-![](img/ChatGPT：AI革命_image00098.jpeg)
+![](img/ChatGPT：AI-革命_image00098.jpeg)
 
 Merlin 插件会弹出登录框，如下图所示，单击“Sign in with Google”按钮登录即可。
 
-![](img/ChatGPT：AI革命_image00099.jpeg)
+![](img/ChatGPT：AI-革命_image00099.jpeg)
 
 然后进入搜索页面，如下图所示。此时直接单击 Merlin 的“Search”按钮即可。
 
-![](img/ChatGPT：AI革命_image00100.jpeg)
+![](img/ChatGPT：AI-革命_image00100.jpeg)
 
 此时在 Merlin 的返回框中将显示 ChatGPT 回复的相关文本内容，如下图所示。
 
-![](img/ChatGPT：AI革命_image00101.jpeg)
+![](img/ChatGPT：AI-革命_image00101.jpeg)
 
 如果还想继续追问，可以在网页上选中相关文本或关键字，按 Ctrl+M 快捷键，快速打开 Merlin box。在该 box 中，Merlin 将会提示已选中的相关信息，用户可以追加提问，如下图所示。
 
-![](img/ChatGPT：AI革命_image00102.jpeg)
+![](img/ChatGPT：AI-革命_image00102.jpeg)
 
 总体来说，有了 Merlin 的帮助，用户不需要在搜索页面和 ChatGPT 页面之间频繁切换，也不需要进行机械的复制和粘贴，就能方便地调用 ChatGPT 进行延伸搜索或对搜索结果进行总结和提炼，可以大大提高工作效率。
 
@@ -506,7 +506,7 @@ ChatGPT Writer 是 Chrome 浏览器的一个插件，它能使用 ChatGPT 生成
 
 ChatGPT Writer 的用法如下面几张图所示。
 
-![](img/ChatGPT：AI革命_image00103.jpeg)![](img/ChatGPT：AI革命_image00104.jpeg)![](img/ChatGPT：AI革命_image00105.jpeg)![](img/ChatGPT：AI革命_image00106.jpeg)![](img/ChatGPT：AI革命_image00107.jpeg)
+![](img/ChatGPT：AI-革命_image00103.jpeg)![](img/ChatGPT：AI-革命_image00104.jpeg)![](img/ChatGPT：AI-革命_image00105.jpeg)![](img/ChatGPT：AI-革命_image00106.jpeg)![](img/ChatGPT：AI-革命_image00107.jpeg)
 
 ## 05　生成视频内容摘要：YouTube Summary with ChatGPT
 
@@ -526,13 +526,13 @@ YouTube Summary with ChatGPT 插件主要用于下列场景。
 
 下面简单介绍 YouTube Summary with ChatGPT 插件的用法。在 Chrome 浏览器中安装该插件后，打开一个 YouTube 视频，画面右侧顶部会显示插件的工具条。单击工具条右侧的展开按钮，可看到视频的字幕文本。单击工具条中的“View AI Summary”按钮，如下图所示，将会在新的标签页中打开 ChatGPT 的页面，并自动要求 ChatGPT 对字幕文本内容进行要点总结。
 
-![](img/ChatGPT：AI革命_image00108.jpeg)
+![](img/ChatGPT：AI-革命_image00108.jpeg)
 
 ## 06　生成会议摘要：Tactiq
 
 Tactiq 插件能使用 ChatGPT 记录和汇总谷歌的 Meet、微软的 Teams、Zoom 会议，并提供会议记录和摘要，如下图所示。Tactiq 插件可用于销售电话、团队会议、在线课堂、客户采访、产品研究、演示、大师课等。利用 Tactiq 插件，不再需要通过记笔记来避免错过任何重要信息。
 
-![](img/ChatGPT：AI革命_image00109.jpeg)
+![](img/ChatGPT：AI-革命_image00109.jpeg)
 
 使用 Tactiq 插件记录会议时，可以突出显示重要内容、标记待办事项、保存聊天、截图，然后 Tactiq 插件会将所有内容汇总到谷歌文档中。目前有超过 18 万人在使用 Tactiq 记录会议笔记。Tactiq 已被世界 500 强的领导人、Netflix 等公司的工程师、自由职业者、销售人员、教师以及任何不喜欢但又需要记会议笔记的人运用到日常工作中。
 
@@ -542,31 +542,31 @@ Talk-to-ChatGPT 是 Chrome 浏览器的一款插件，主要功能是语音识�
 
 下面介绍该插件的使用方法。首先在 Chrome 浏览器的应用商店中查找 Talk-to-ChatGPT 插件，如下图所示，然后将该插件添加至浏览器中。
 
-![](img/ChatGPT：AI革命_image00110.jpeg)
+![](img/ChatGPT：AI-革命_image00110.jpeg)
 
 添加完成后，打开 ChatGPT 界面，在网页的右侧会出现一个悬浮的控制框，如下图所示。单击“START”按钮启动该插件，并允许麦克风在该网页进行使用，这样就可以在该界面通过语音输入内容至 ChatGPT 中。
 
-![](img/ChatGPT：AI革命_image00111.jpeg)
+![](img/ChatGPT：AI-革命_image00111.jpeg)
 
 启动 Talk-to-ChatGPT 后，控制框下方会显示红色色条并语音播报“OK”，表示该应用已准备就绪，等待语音输入。当通过麦克风录入语音后，插件会将进行语音识别转换为文本的内容自动录入到 ChatGPT，如下图所示，ChatGPT 就会对提问给出相应的解答。
 
-![](img/ChatGPT：AI革命_image00112.jpeg)
+![](img/ChatGPT：AI-革命_image00112.jpeg)
 
 在 ChatGPT 给出文字解答的同时，该应用将会进行实时文本转语音，对 ChatGPT 的回复内容进行语音播报，播报时应用框下方色条显示为绿色，如下图所示。
 
-![](img/ChatGPT：AI革命_image00113.jpeg)
+![](img/ChatGPT：AI-革命_image00113.jpeg)
 
-单击应用框中的麦克风图标![](img/ChatGPT：AI革命_image00114.jpeg)，就可以禁用语音输入功能。禁用后的效果如下左图所示。
+单击应用框中的麦克风图标![](img/ChatGPT：AI-革命_image00114.jpeg)，就可以禁用语音输入功能。禁用后的效果如下左图所示。
 
-语音播报是根据 ChatGPT 的回复速度即时进行的。如果不需要进行语音播报，则可以单击“文本到语音”按钮![](img/ChatGPT：AI革命_image00115.jpeg)，禁用播报功能。禁用后的效果如下右图所示。
+语音播报是根据 ChatGPT 的回复速度即时进行的。如果不需要进行语音播报，则可以单击“文本到语音”按钮![](img/ChatGPT：AI-革命_image00115.jpeg)，禁用播报功能。禁用后的效果如下右图所示。
 
-![](img/ChatGPT：AI革命_image00116.jpeg)
+![](img/ChatGPT：AI-革命_image00116.jpeg)
 
-该插件会自动对 ChatGPT 所回答的内容进行播报。如果需要跳过当前播报的信息，可以单击“跳过”按钮![](img/ChatGPT：AI革命_image00117.jpeg)。
+该插件会自动对 ChatGPT 所回答的内容进行播报。如果需要跳过当前播报的信息，可以单击“跳过”按钮![](img/ChatGPT：AI-革命_image00117.jpeg)。
 
-用户还可以对语音播报的参数进行调整，包括播报的语言（男/女声）、语速、语调等。单击“设置”按钮![](img/ChatGPT：AI革命_image00118.jpeg)，即可打开如下图所示的设置页面。
+用户还可以对语音播报的参数进行调整，包括播报的语言（男/女声）、语速、语调等。单击“设置”按钮![](img/ChatGPT：AI-革命_image00118.jpeg)，即可打开如下图所示的设置页面。
 
-![](img/ChatGPT：AI革命_image00119.jpeg)
+![](img/ChatGPT：AI-革命_image00119.jpeg)
 
 书 籍 分 享 公 號：Q L S F 6 8
 
@@ -578,11 +578,11 @@ ChatGPT 的横空出世，注定会为全世界带来巨大的变化。它所拥
 
 2023 年 2 月 2 日，OpenAI 发布 ChatGPT 试点订阅计划—ChatGPT Plus，每月 20 美元，如下图所示。
 
-![](img/ChatGPT：AI革命_image00120.jpeg)
+![](img/ChatGPT：AI-革命_image00120.jpeg)
 
 免费账户和收费账户的具体差别如下图所示。
 
-![](img/ChatGPT：AI革命_image00121.jpeg)
+![](img/ChatGPT：AI-革命_image00121.jpeg)
 
 说明：
 
@@ -600,13 +600,13 @@ Customer Support：客户支持程度
 
 就目前来说，OpenAI API 开放的免费试用接口单次所能返回字符数只能在 4 000 个 token 之内，这就极大地限制了长文档的翻译和写作。如果把长文档变为短文档再一段一段拼接起来，那么上下文关联就完全丢失了。而收费用户能突破 4 000 个 token 的限制，从而获得更长、更详细的翻译和文本生成（不同的账户级别有不同的请求限制，包括最大生成长度）。而且 OpenAI 公司提供了不同的语言模型供用户购买使用，具体如下图所示。
 
-![](img/ChatGPT：AI革命_image00122.jpeg)
+![](img/ChatGPT：AI-革命_image00122.jpeg)
 
 对于 ChatGPT 的商业模式，未来更多的应该是开放其背后的各种模型的 API 让大家使用。
 
 利用 OpenAI 的 API 目前可以实现下图所示的功能。
 
-![](img/ChatGPT：AI革命_image00123.jpeg)![](img/ChatGPT：AI革命_image00124.jpeg)![](img/ChatGPT：AI革命_image00125.jpeg)
+![](img/ChatGPT：AI-革命_image00123.jpeg)![](img/ChatGPT：AI-革命_image00124.jpeg)![](img/ChatGPT：AI-革命_image00125.jpeg)
 
 ## 02　打造自己的创新创业新风口
 
@@ -624,7 +624,7 @@ Customer Support：客户支持程度
 
 在用户自己的 OpenAI 账户中可以看到使用微调模型的情况，如下图所示。
 
-![](img/ChatGPT：AI革命_image00126.jpeg)
+![](img/ChatGPT：AI-革命_image00126.jpeg)
 
 目前 OpenAI 可供使用的微调模型只有 davinci、curie、babbage 和 ada。
 
@@ -640,19 +640,19 @@ Customer Support：客户支持程度
 
 目前，集成了 ChatGPT 的新版必应还处于试用期，用户需要登录微软账号，并单击页面中的“加入等待列表”按钮（见下图）来申请试用资格。此外，用户还需要安装 Edge 浏览器才能体验对话式搜索。
 
-![](img/ChatGPT：AI革命_image00127.jpeg)
+![](img/ChatGPT：AI-革命_image00127.jpeg)
 
 获得试用资格后，即可开始使用新版必应，下面看看使用效果如何。在 Edge 浏览器中打开必应首页，然后在搜索框中输入一个问题，如“我需要准备春节家宴，请推荐一些有吉祥寓意的菜肴”。开始搜索后，搜索结果页面会分为左右两个部分，左边是传统的网页搜索结果，右边则是使用 ChatGPT 技术给出的搜索结果，如下页图所示。右边的搜索结果还注明了信息的来源。
 
-![](img/ChatGPT：AI革命_image00128.jpeg)
+![](img/ChatGPT：AI-革命_image00128.jpeg)
 
 如果要进入对话式搜索，则单击右边搜索结果底部的“查看更多”按钮，再单击“我们聊天吧”按钮，如下图所示。
 
-![](img/ChatGPT：AI革命_image00129.jpeg)
+![](img/ChatGPT：AI-革命_image00129.jpeg)
 
 进入对话式搜索界面后，可以就当前话题继续进行交流。例如，我们想根据手头的食材筛选菜肴，发出命令后，必应给出了如下页图所示的回答。可以看到，有了 ChatGPT 的加持，新版必应的使用体验更加智能和人性化。
 
-![](img/ChatGPT：AI革命_image00130.jpeg)
+![](img/ChatGPT：AI-革命_image00130.jpeg)
 
 面对 ChatGPT 和新版必应的“挑衅”，谷歌自然不会坐以待毙，火速推出了名为 Bard 的人工智能聊天机器人。国内搜索巨头百度公司也宣布将在 2023 年 3 月推出同类产品“文心一言”。
 
@@ -1118,7 +1118,7 @@ A：在 Excel 中，您可以使用以下公式提取身份证号中的性别信
 
 把 ChatGPT 给出的公式输入工作表中进行验证，成功地达到了目的。效果如下图所示。
 
-![](img/ChatGPT：AI革命_image00131.jpeg)
+![](img/ChatGPT：AI-革命_image00131.jpeg)
 
 如果不理解 ChatGPT 给出的公式，还可以让它给我们讲解一番。
 
@@ -1148,7 +1148,7 @@ Q：我有一个 Excel 工作簿，其中有多个工作表，我想把每个工
 
 A：当然可以！下面是一个使用 VBA 将 Excel 工作簿中的每个工作表单独保存为工作簿的代码：
 
-![](img/ChatGPT：AI革命_image00132.jpeg)
+![](img/ChatGPT：AI-革命_image00132.jpeg)
 
 使用方法：
 
@@ -1164,15 +1164,15 @@ A：当然可以！下面是一个使用 VBA 将 Excel 工作簿中的每个工�
 
 ChatGPT 不仅编写了 VBA 代码，还贴心地说明了代码的运行方法，对新手来说非常友好。这里用如下图所示的工作簿验证一下代码是否正确。
 
-![](img/ChatGPT：AI革命_image00133.jpeg)
+![](img/ChatGPT：AI-革命_image00133.jpeg)
 
 在上述工作簿中运行 ChatGPT 编写的 VBA 代码，可在该工作簿所在的文件夹下看到新生成的 3 个工作簿，每个工作簿都用来源工作表的名称命名，如下图所示。
 
-![](img/ChatGPT：AI革命_image00134.jpeg)
+![](img/ChatGPT：AI-革命_image00134.jpeg)
 
 打开任意一个新增工作簿，如“1 月.xlsx”，可看到源工作表，如下图所示。这说明 ChatGPT 编写的 VBA 代码完全正确。
 
-![](img/ChatGPT：AI革命_image00135.jpeg)
+![](img/ChatGPT：AI-革命_image00135.jpeg)
 
 如果想将这段代码作为自学 VBA 的素材，还可以让 ChatGPT 为代码加上注释。
 
@@ -1180,7 +1180,7 @@ Q：能为每一行代码加上注释吗？
 
 A：当然！下面是代码的详细注释：
 
-![](img/ChatGPT：AI革命_image00136.jpeg)![](img/ChatGPT：AI革命_image00137.jpeg)
+![](img/ChatGPT：AI-革命_image00136.jpeg)![](img/ChatGPT：AI-革命_image00137.jpeg)
 
 ChatGPT 可以快速地按用户的要求生成高质量的代码，不论是关键时刻救急还是新手学习，ChatGPT 都是一个不可或缺的办公利器。
 
@@ -1224,7 +1224,7 @@ OpenAI 公司是 ChatGPT 的开发者，他们通过从互联网上系统地抓�
 
 OpenAI 的 GPT-3 模型为程序员提供了开发接口，下面利用这个接口编写一段 Python 代码，完成一个英译中的小任务。代码如下：
 
-![](img/ChatGPT：AI革命_image00138.jpeg)![](img/ChatGPT：AI革命_image00139.jpeg)
+![](img/ChatGPT：AI-革命_image00138.jpeg)![](img/ChatGPT：AI-革命_image00139.jpeg)
 
 第 1 行代码用于导入 GPT-3 模型接口对应的 Python 模块 openai。该模块可以使用“pip install openai”命令来安装。
 
@@ -1246,7 +1246,7 @@ OpenAI 的 GPT-3 模型为程序员提供了开发接口，下面利用这个接
 
 运行代码后输出的译文如下：
 
-![](img/ChatGPT：AI革命_image00140.jpeg)
+![](img/ChatGPT：AI-革命_image00140.jpeg)
 
 GPT-3 模型接口的翻译效果还是不错的，但是该接口不能像 ChatGPT 那样以对话的方式对译文进行润色，使用起来不够方便。并且接口对输入内容和输出内容都有长度限制，如果要翻译较长的文章，则需要设法将文章拆分成一个个小片段，再传入接口中进行翻译。
 
@@ -1266,15 +1266,15 @@ A：使用 OpenAI 的 GPT-3 模型需要先注册 OpenAI API 并获得 API 密�
 
 接下来，你需要安装 OpenAI 的 Python SDK，你可以使用以下命令安装：
 
-![](img/ChatGPT：AI革命_image00141.jpeg)
+![](img/ChatGPT：AI-革命_image00141.jpeg)
 
 然后，你就可以使用以下代码调用 GPT-3 模型了：
 
-![](img/ChatGPT：AI革命_image00142.jpeg)
+![](img/ChatGPT：AI-革命_image00142.jpeg)
 
 以上代码将输出：
 
-![](img/ChatGPT：AI革命_image00143.jpeg)
+![](img/ChatGPT：AI-革命_image00143.jpeg)
 
 可以看到，ChatGPT 给出的回答条理十分清晰，不仅有格式规范、带有简洁注释的代码，还包括要做的准备工作和代码的运行结果。
 
@@ -1284,7 +1284,7 @@ ChatGPT 可以修正代码中的错误，并解读代码的功能。这对于编
 
 Q：下面这段 Python 代码有什么问题吗？
 
-![](img/ChatGPT：AI革命_image00144.jpeg)
+![](img/ChatGPT：AI-革命_image00144.jpeg)
 
 A：这段代码中存在以下问题：
 
@@ -1300,7 +1300,7 @@ A：这段代码中存在以下问题：
 
 正确的代码应该如下：
 
-![](img/ChatGPT：AI革命_image00145.jpeg)
+![](img/ChatGPT：AI-革命_image00145.jpeg)
 
 Q：能解释一下上面这段代码的功能吗？
 
@@ -1322,11 +1322,11 @@ ChatGPT 可以评价代码的质量。即使代码没有语法错误，ChatGPT �
 
 Q：你觉得这段 Python 代码写得怎么样？
 
-![](img/ChatGPT：AI革命_image00146.jpeg)
+![](img/ChatGPT：AI-革命_image00146.jpeg)
 
 A：这段代码的编写是正确的，也是简单易懂的。它创建了一个空列表 a，然后使用 for 循环在其中添加了 10 个整数。但是，如果你想让代码更简洁、更 Pythonic [^([1])](#part0040.xhtml_comment_8813)，可以使用列表推导式：
 
-![](img/ChatGPT：AI革命_image00147.jpeg)
+![](img/ChatGPT：AI-革命_image00147.jpeg)
 
 注释：
 
@@ -1342,7 +1342,7 @@ A：您可以使用 Python 的内置函数 sorted()来实现自然排序。
 
 下面是一个例子：
 
-![](img/ChatGPT：AI革命_image00148.jpeg)
+![](img/ChatGPT：AI-革命_image00148.jpeg)
 
 在上面的代码中，我们通过提供一个 key 函数给 sorted()函数来告诉它如何比较元素。在这里，我们把每个元素看作一个字符串，并将其转换为整数。
 
@@ -1352,11 +1352,11 @@ A：是的，您可以使用第三方模块 natsort 进行自然排序。
 
 首先，您需要安装 natsort 模块：
 
-![](img/ChatGPT：AI革命_image00149.jpeg)
+![](img/ChatGPT：AI-革命_image00149.jpeg)
 
 然后，您就可以这样使用 natsort 进行自然排序：
 
-![](img/ChatGPT：AI革命_image00150.jpeg)
+![](img/ChatGPT：AI-革命_image00150.jpeg)
 
 可以看到，ChatGPT 准确地发现了列表中的元素都以“月”字结尾，且其余部分可视为整数。它甚至能理解这些元素所代表的实际上是月份，因而用 months 来作为变量名。在我们的追问下，ChatGPT 还提供了另一种更易于理解的编程思路。
 
@@ -1418,7 +1418,7 @@ A：通常，在 MySQL 中存储学生选课数据需要创建三个数据表：
 
 下面是创建这三个数据表的示例代码：
 
-![](img/ChatGPT：AI革命_image00151.jpeg)
+![](img/ChatGPT：AI-革命_image00151.jpeg)
 
 ChatGPT 很好地理解了我们的意图，它先分析出了各个数据表要包含的字段和数据表之间的关联关系，然后据此编写出了基本正确的 SQL 语句。从这个案例可以看出，ChatGPT 已经具备了一定的数据表设计能力和编写较复杂的 SQL 语句的能力。
 
@@ -1428,17 +1428,17 @@ ChatGPT 很好地理解了我们的意图，它先分析出了各个数据表要
 
 例如，在微软公司推出的 Visual Studio Code 的扩展商店里搜索“ChatGPT”，可以得到近 30 款插件。下面就来体验一下其中下载量最高的一款插件（见下图）的使用效果。
 
-![](img/ChatGPT：AI革命_image00152.jpeg)
+![](img/ChatGPT：AI-革命_image00152.jpeg)
 
 安装插件后，按照插件详情页面中描述的使用说明进行登录（可以使用 OpenAPI 的账号/密码或 API Key），就可以使用插件了。在 Visual Studio Code 中创建或打开一个代码文件，然后选中其中要分析的代码片段并右击，在弹出的快捷菜单中选择以“ChatGPT”开头的命令，即可调用插件对代码进行分析。
 
 例如，这里要对一段代码自动进行注释，就在快捷菜单中选择“ChatGPT: Add comments”命令，如下图所示。
 
-![](img/ChatGPT：AI革命_image00153.jpeg)
+![](img/ChatGPT：AI-革命_image00153.jpeg)
 
 随后在窗口左边的插件窗格里就会自动对这段代码与 ChatGPT 进行对话，如下图所示。还可以单击窗格中的按钮，将 ChatGPT 生成的带注释代码复制到剪贴板或直接插入到代码文件中。
 
-![](img/ChatGPT：AI革命_image00154.jpeg)
+![](img/ChatGPT：AI-革命_image00154.jpeg)
 
 # 第六章　AIGC 与产业生态
 
@@ -1464,7 +1464,7 @@ AIGC 可以应用在很多方面，这里对其中一部分进行简单介绍。
 
 也可以通过如下图所示的导图进行较为直观的了解。
 
-![](img/ChatGPT：AI革命_image00155.jpeg)
+![](img/ChatGPT：AI-革命_image00155.jpeg)
 
 随着技术的不断发展，AIGC 在更多领域的应用也在不断拓展。尽管 AIGC 技术已经取得了很大的进展，但它仍然存在一些挑战。例如，生成的内容质量可能不够高，表达不够流畅，甚至存在语言偏差和偏见等问题。因此，在未来的发展中，AIGC 技术仍需要不断完善和改进。
 
@@ -1472,7 +1472,7 @@ AIGC 可以应用在很多方面，这里对其中一部分进行简单介绍。
 
 ChatGPT 对于 AIGC 来说具有重要的革新性优势，有助于加速 AIGC 的发展、丰富 AIGC 的应用场景、提高 AIGC 的应用效果。ChatGPT 作为一种基于 GPT 模型的自然语言处理技术，在 AIGC 领域的文字/语言模态中有重要意义，如下图所示。
 
-![](img/ChatGPT：AI革命_image00156.jpeg)
+![](img/ChatGPT：AI-革命_image00156.jpeg)
 
 ## 03　AIGC 产业链参与者
 
@@ -1530,17 +1530,17 @@ AIGC 的模型一直在不断升级，有以下几种主要的模型。
 
 生成对抗网络（GAN）：这是一种对抗生成模型，由生成器和判别器组成，生成器生成的数据通过判别器来判断是否与真实数据相似，并不断更新生成器的参数。在 AIGC 领域的核心优势是其生成的图像更加逼真，更具有多样性，如下页下图所示。GAN 可以生成更多的图像，并且可以生成从未见过的图像，而不仅仅是复制训练集中的图像。因此，它在生成图像、生成视频、生成动画、生成虚拟数据等领域具有广泛的应用。
 
-![](img/ChatGPT：AI革命_image00157.jpeg)![](img/ChatGPT：AI革命_image00158.jpeg)
+![](img/ChatGPT：AI-革命_image00157.jpeg)![](img/ChatGPT：AI-革命_image00158.jpeg)
 
 变分自编码器（VAE）：这是一种自动编码器的变体，利用变分推理来生成数据。在生成的数据中加入噪声时，它仍然能够保持较高的生成质量。因此，在需要处理噪声多的场景中，使用 VAE 可以生成更加符合预期的数据，如下图所示。
 
-![](img/ChatGPT：AI革命_image00159.jpeg)
+![](img/ChatGPT：AI-革命_image00159.jpeg)
 
 Transformer：具有注意力机制和并行化的处理能力，这使得它能够有效处理大规模的序列数据。Transformer 模型可以在保持较高精度的情况下快速训练，这是其在 AIGC 领域的一个重要优势。在 AIGC 中常常被用于自然语言处理任务，如机器翻译、文本分类、语言生成等。
 
 循环神经网络（RNN）：RNN 模型是生成连续序列数据的方法之一，它可以捕捉到序列数据中的长期依赖关系，并使用它们来生成新的数据。具体来说，在生成一个序列数据时，RNN 模型会记录原序列中的每一项和生成的上一项，并使用这些信息来生成下一项，如下图所示。因此，RNN 模型通常被用于生成文本、语音和音乐等连续序列数据。
 
-![](img/ChatGPT：AI革命_image00160.jpeg)
+![](img/ChatGPT：AI-革命_image00160.jpeg)
 
 随着生成技术模型的应用领域的扩展，在计算机视觉、自然语言处理、图像生成等领域的应用前景十分广阔。通过对大量数据的学习，这些模型能够生成高质量的图像、文本、语音等内容，有望在娱乐、游戏、教育、广告等行业得到广泛应用。随着人工智能技术的不断提高，生成技术模型的应用前景更加广阔。
 
@@ -1556,7 +1556,7 @@ DALL·E 2 使用数以百万计的图片数据进行训练，其输出结果更�
 
 表 6-1　有代表性的模型与产品
 
-![](img/ChatGPT：AI革命_image00161.jpeg)
+![](img/ChatGPT：AI-革命_image00161.jpeg)
 
 Midjourney 是一个以其艺术风格闻名的工具。Midjourney 使用其 Discord 机器人来发送和接收对 AI 服务器的请求，几乎所有的事情都发生在 Discord 上。由此生成的图像很少看起来像照片，它似乎更像一幅画。
 
@@ -1564,7 +1564,7 @@ Stable Diffusion 是一个开源的模型，人人都可以使用。它可以对
 
 下图所示的案例对比了不同模型基于相同的提示词生成的图像，有助于了解每种模型的相似性和差异。
 
-![](img/ChatGPT：AI革命_image00162.jpeg)![](img/ChatGPT：AI革命_image00163.jpeg)![](img/ChatGPT：AI革命_image00164.jpeg)![](img/ChatGPT：AI革命_image00165.jpeg)
+![](img/ChatGPT：AI-革命_image00162.jpeg)![](img/ChatGPT：AI-革命_image00163.jpeg)![](img/ChatGPT：AI-革命_image00164.jpeg)![](img/ChatGPT：AI-革命_image00165.jpeg)
 
 ## 07　AIGC 文本生成技术的落地
 
@@ -1572,7 +1572,7 @@ AIGC 文本生成技术场景可以分为交互式和非交互式（见下页图
 
 AIGC 技术将会改变数字内容生产模式。AIGC 技术可以在短时间内生产大量高质量的内容，从而满足用户对内容的需求。此外，AIGC 技术还可以为数字内容生产者提供创新和创意，从而使内容更加丰富和有趣。因此，AIGC 技术在数字内容生产领域有着巨大的潜力和应用前景。
 
-![](img/ChatGPT：AI革命_image00166.jpeg)
+![](img/ChatGPT：AI-革命_image00166.jpeg)
 
 ## 08　AIGC 图像生成技术的优化
 
@@ -1580,7 +1580,7 @@ AIGC 技术将会改变数字内容生产模式。AIGC 技术可以在短时间�
 
 目前，市面上已有多款产品支持图像编辑。相较于图像生成任务，文本生成图像任务则包含更多元素，其生成效果仍存在不稳定性，对于要求较高的功能类图像生成还需要更完善的技术支持。
 
-![](img/ChatGPT：AI革命_image00167.jpeg)
+![](img/ChatGPT：AI-革命_image00167.jpeg)
 
 ## 09　AIGC 音频生成技术的成熟
 
@@ -1590,7 +1590,7 @@ AIGC 技术将会改变数字内容生产模式。AIGC 技术可以在短时间�
 
 音乐生成需要解决的难点是音乐数据难以标注的问题，数据标注以其颗粒度大小影响音乐生成的可控性。若可控性得以解决，则可以指定风格、情绪等元素来生成音乐，应用于影视、游戏等场景中。
 
-![](img/ChatGPT：AI革命_image00168.jpeg)
+![](img/ChatGPT：AI-革命_image00168.jpeg)
 
 ## 10　AIGC 视频生成技术的潜力
 
@@ -1598,7 +1598,7 @@ AIGC 技术将会改变数字内容生产模式。AIGC 技术可以在短时间�
 
 在未来，AIGC 的视频生成技术将继续发展，预计会带来更加逼真、多样化的视频内容。随着计算机技术的进一步发展，视频生成技术将能够更加简单、高效地生成高质量的视频内容。同时，视频生成技术也有望应用于更多的领域，如教育、医疗等。
 
-![](img/ChatGPT：AI革命_image00169.jpeg)
+![](img/ChatGPT：AI-革命_image00169.jpeg)
 
 # 第七章　其他 AIGC 工具简介
 
@@ -1608,7 +1608,7 @@ OpenAI 公司的 ChatGPT 无疑是 AIGC 界的当红明星，但 AIGC 产业并�
 
 Bard 是一款基于 LaMDA（Language Model for Dialogue Ap plications）模型开发的聊天机器人（见下图）。它是谷歌为了应对 ChatGPT 的挑战而推出的对标产品。
 
-![](img/ChatGPT：AI革命_image00170.jpeg)
+![](img/ChatGPT：AI-革命_image00170.jpeg)
 
 下面根据目前已知的信息对比一下 ChatGPT 和 Bard。
 
@@ -1622,27 +1622,27 @@ ChatGPT 的训练数据只有截至 2021 年 9 月的内容，并且不能通过
 
 Friday 是一个在线的智能写作助手，其首页（https://www.heyfriday.cn/）如下图所示。其开发团队的领头人曾是谷歌的 NLP 科学家（NLP 深度学习模型 ALBERT 的第一作者），团队中还聚集了来自世界各地的 NLP 资深算法工程师，他们致力于将机器与写作融合，打造具备心智的 AI 写作助手。
 
-![](img/ChatGPT：AI革命_image00171.jpeg)
+![](img/ChatGPT：AI-革命_image00171.jpeg)
 
 Friday 提供了 40 多个写作模板，包括微信公众号、小红书、电商、短视频、SEO 优化等，如下图所示，基本实现了写作需求的全场景覆盖。
 
-![](img/ChatGPT：AI革命_image00172.jpeg)
+![](img/ChatGPT：AI-革命_image00172.jpeg)
 
 选择一种写作模板后，根据需求在页面左侧设置文章标题和关键词，再单击“生成内容”按钮，如下图所示。
 
-![](img/ChatGPT：AI革命_image00173.jpeg)
+![](img/ChatGPT：AI-革命_image00173.jpeg)
 
 即可在页面右侧自动生成文章内容，效果如下图所示。
 
-![](img/ChatGPT：AI革命_image00174.jpeg)
+![](img/ChatGPT：AI-革命_image00174.jpeg)
 
 如果想获得质量更高的文章，则需要支付一定的费用购买会员套餐，如下图所示。
 
-![](img/ChatGPT：AI革命_image00175.jpeg)
+![](img/ChatGPT：AI-革命_image00175.jpeg)
 
 如果想以类似 ChatGPT 的“一问一答”的方式生成文字或图片，可以使用 Friday Chat 功能。其界面如下图所示。
 
-![](img/ChatGPT：AI革命_image00176.jpeg)
+![](img/ChatGPT：AI-革命_image00176.jpeg)
 
 ## 03　从文本生成图像：Midjourney
 
@@ -1650,15 +1650,15 @@ Midjourney 归属于 Discord（一个聊天室网站），它的基本使用方�
 
 在聊天框中输入需要生成的图片的描述文字，如下图所示。
 
-![](img/ChatGPT：AI革命_image00177.jpeg)
+![](img/ChatGPT：AI-革命_image00177.jpeg)
 
 等待一会儿，在回复中即可看到生成的与文字相关的图片内容，如下图所示。
 
-![](img/ChatGPT：AI革命_image00178.jpeg)
+![](img/ChatGPT：AI-革命_image00178.jpeg)
 
 单击缩略图即可放大显示图片，如下图所示。可以看出生成的图片不管是美观程度还是精致程度，都是非常惊人的。
 
-![](img/ChatGPT：AI革命_image00179.jpeg)
+![](img/ChatGPT：AI-革命_image00179.jpeg)
 
 以下是一些关于 Midjourney 的快速问答。
 
@@ -1674,7 +1674,7 @@ A：新用户有 25 次的免费使用额度，用完后需要付费订阅，订
 
 这 3 种订阅计划如果按年付款，则可以享受 8 折优惠，如下图所示。
 
-![](img/ChatGPT：AI革命_image00180.jpeg)
+![](img/ChatGPT：AI-革命_image00180.jpeg)
 
 Q：fast 模式和 relax 模式有何区别？
 
@@ -1688,25 +1688,25 @@ Q：我不懂英文，能使用 Midjourney 吗？
 
 A：可以借助百度翻译或谷歌翻译等工具翻译描述文字。还有一个帮助我们精准描述需求的工具叫 Midjourney Prompt Tool，网址为 https://prompt.noonshot.com/midjourney。在这个工具的页面中，我们可以直观地选择需要调整的参数，以“风格”为例，我们可以直观地选择喜欢的某一种图片风格，如下图所示。
 
-![](img/ChatGPT：AI革命_image00181.jpeg)
+![](img/ChatGPT：AI-革命_image00181.jpeg)
 
 打开这个工具的页面，在顶部的文本框中输入描述文字，然后在下方选择和设置参数，设置好的参数会以代码的形式出现在描述文字之后，如下图所示。设置完毕后，单击“Copy Prompt”按钮，将带有参数代码的描述文字复制到剪贴板，再粘贴到 Midjourney 的聊天对话框中，即可生成相应的图片。
 
-![](img/ChatGPT：AI革命_image00182.jpeg)
+![](img/ChatGPT：AI-革命_image00182.jpeg)
 
 生成的图片效果如下图所示。
 
-![](img/ChatGPT：AI革命_image00183.jpeg)
+![](img/ChatGPT：AI-革命_image00183.jpeg)
 
 Q：如何查看自己的历史作品？
 
 A：所有的作品及相应的描述文字全部保存在自己的主页上。进入 Midjourney 网站，单击“Sign In”按钮（见下图）进入自己的主页。
 
-![](img/ChatGPT：AI革命_image00184.jpeg)
+![](img/ChatGPT：AI-革命_image00184.jpeg)
 
 在这里可以找到之前创建的所有图片，如下图所示。
 
-![](img/ChatGPT：AI革命_image00185.jpeg)
+![](img/ChatGPT：AI-革命_image00185.jpeg)
 
 Q：用 Midjourney 生成的图片版权归属于谁？
 
@@ -1720,27 +1720,27 @@ A：Midjourney 官方表示，只要是会员生成的图片，版权归属于�
 
 在浏览器中打开造梦日记的首页后，单击“开始创作”按钮，如下图所示。
 
-![](img/ChatGPT：AI革命_image00186.jpeg)
+![](img/ChatGPT：AI-革命_image00186.jpeg)
 
 即可进入图像创作页面，在“写下你的创意”文本框中输入描述文字，如下图所示。
 
-![](img/ChatGPT：AI革命_image00187.jpeg)
+![](img/ChatGPT：AI-革命_image00187.jpeg)
 
 然后根据实际需求设定图像风格、输出尺寸、分辨率和生成数量，如下图所示。最后单击“开始生成”按钮。
 
-![](img/ChatGPT：AI革命_image00188.jpeg)
+![](img/ChatGPT：AI-革命_image00188.jpeg)
 
 生成的图片效果如下图所示。
 
-![](img/ChatGPT：AI革命_image00189.jpeg)
+![](img/ChatGPT：AI-革命_image00189.jpeg)
 
 生成图片需要消耗“造梦星”。生成图片的数量和质量不同，“造梦星”的消耗个数也不同。造梦日记会给新注册的用户赠送一定数量的“造梦星”。“造梦星”使用完毕后可付费购买摘星套餐，如下图所示。
 
-![](img/ChatGPT：AI革命_image00190.jpeg)
+![](img/ChatGPT：AI-革命_image00190.jpeg)
 
 这里补充介绍更多国内外 AI 绘图平台，如下图所示。
 
-![](img/ChatGPT：AI革命_image00191.jpeg)![](img/ChatGPT：AI革命_image00192.jpeg)
+![](img/ChatGPT：AI-革命_image00191.jpeg)![](img/ChatGPT：AI-革命_image00192.jpeg)
 
 ## 05　从文本生成视频：Imagen Video 和 Phenaki
 
@@ -1754,13 +1754,13 @@ A：Midjourney 官方表示，只要是会员生成的图片，版权归属于�
 
 据了解，Imagen Video 基于级联视频扩散模型来生成高清视频。输入提示文本后，基本视频扩散模型与多个时间超分辨率模型（Temporal Super-Resolution，TSR）和空间超分辨率模型（Spatial Super-Resolution，SSR）分别以 40 像素×24 像素和 3 帧/秒的速度生成 16 帧视频、以 1 280 像素×768 像素和 24 帧/秒的速度采样，最终得到 5.3 秒的高质量视频，如下图所示。
 
-![](img/ChatGPT：AI革命_image00193.jpeg)
+![](img/ChatGPT：AI-革命_image00193.jpeg)
 
 而 Phenaki 则拥有交互生成长视频的能力，可以任意切换视频的整体风格和场景，还能根据 200 个词左右的提示文本生成 2 分钟以上的长视频，如下页图所示。也就是说，在给定一系列提示文本的情况下，Phenaki 就能合成逼真的视频，来讲述一个完整的故事。Phenaki 的缺点是视频质量较低。
 
 谷歌官网提到，这是首次以时间变量提示生成视频。此外，研究所提出的视频编码器-解码器在多个方面都优于文献中目前使用的所有每帧基线。
 
-![](img/ChatGPT：AI革命_image00194.jpeg)
+![](img/ChatGPT：AI-革命_image00194.jpeg)
 
 出于安全和伦理的考虑，谷歌暂时不会发布两个视频生成模型的代码或演示程序。
 
@@ -1770,11 +1770,11 @@ A：Midjourney 官方表示，只要是会员生成的图片，版权归属于�
 
 随着科技的不断进步，AI 的应用范围越来越广。这里介绍一个网站 https://allthingsai.com/，网页效果如下图所示。它搜集整理了很多 AI 应用的工具和服务，我们可以在这个网站中探索 AI 技术在各个领域的应用。
 
-![](img/ChatGPT：AI革命_image00195.jpeg)
+![](img/ChatGPT：AI-革命_image00195.jpeg)
 
 例如，选择该网站中的 Design 标签，则网页中会展示所有与设计相关的 AI 工具或服务，如下页图所示。这些工具和服务可以帮助设计师快速生成高质量的设计作品，如平面设计和三维多媒体等；可以帮助设计师更好地分析用户的需求和行为，更好地根据用户需求定制设计；可以帮助设计师在大规模设计中更有效率地解决问题，如灵活更新算法、提高搜索速度、提供更准确的结果等。
 
-![](img/ChatGPT：AI革命_image00196.jpeg)
+![](img/ChatGPT：AI-革命_image00196.jpeg)
 
 # 第八章　AIGC 背后的伦理、道德与法律隐忧
 

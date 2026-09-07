@@ -145,7 +145,7 @@ AI 辅助编程已是不可阻挡的浪潮，每一位开发者都终将拥抱�
 
 本书涵盖的内容如下图所示。各章的主要内容概述如下。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_000.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_000.jpg)
 
 • **第一章** **人工智能编程新时代：AI** **Coding 的理念与变革** 本章系统阐述 AI Coding 理念的形成背景、技术基础及其对传统开发模式的深刻重塑。首先介绍人工智能的发展历程，从符号主义、统计学习到深度学习，重点分析大语言模型的演进及其在编程领域的应用；其次，对比 AI 编程与传统编程在驱动方式、核心角色、开发效率等多方面的差异，强调 AI 编程以自然语言意图驱动，通过人机协同提升开发效率、降低技术门槛；最后，介绍 CodeBuddy 的技术架构与优势，展现了 AI Coding 从“辅助工具”向“工程级智能协作者”演进的重要方向。
 
@@ -173,7 +173,7 @@ AI 辅助编程已是不可阻挡的浪潮，每一位开发者都终将拥抱�
 
 当读者发现错误时，请登录异步社区（https://www.epubit.com），按书名搜索，进入本书页面，单击“发表勘误”，输入勘误信息，单击“提交勘误”按钮即可（见下图）。本书的作者和编辑会对读者提交的勘误进行审核，确认并接受后，将赠予读者异步社区 100 积分。积分可用于在异步社区兑换优惠券、样书或奖品。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_001.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_001.jpg)
 
 **与我们联系**
 
@@ -211,7 +211,7 @@ AI 辅助编程已是不可阻挡的浪潮，每一位开发者都终将拥抱�
 
 （3）**从大语言模型到 AI** **Coding 的范式转变**。AI 编程（AI Coding）是大语言模型在软件工程领域的直接延伸，其核心在于利用模型对代码语义、工程结构与开发上下文的理解能力，辅助甚至参与程序设计与实现。与传统代码补全工具不同，AI Coding 能够理解自然语言需求，生成函数、模块乃至完整项目骨架，并支持跨语言与跨框架迁移。该阶段标志着编程活动从“语法驱动”转向“语义驱动”，开发者逐步由代码编写者转变为系统设计者与智能协同者。图 1-1 展示了以 CodeBuddy 为代表的 AI Coding 工具赋能编程与程序开发。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_002.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_002.jpg)
 
 图 1-1 以 CodeBuddy 为代表的 AI Coding 工具赋能编程与程序开发
 
@@ -235,7 +235,7 @@ AI Coding 在提升开发效率、降低技术门槛与增强代码质量方面�
 
 在编程场景中，大语言模型并非简单地“记忆代码”，而是通过学习大规模代码语料与自然语言说明之间的映射关系，形成对程序语义、控制结构与工程模式的抽象理解。当开发者输入自然语言需求或部分代码上下文时，模型会在高维语义空间中完成意图解析、逻辑推理与代码生成三步协同过程。具体而言，模型首先理解任务目标与约束条件，其次在内部表示中构建候选实现路径，最后生成符合语法与语义约束的代码片段。这一过程依赖于上下文建模能力、概率生成机制与隐式知识迁移能力，使模型能够完成代码补全、函数生成、错误修复与重构建议等任务。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_003.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_003.jpg)
 
 图 1-2 大语言模型近年的发展历程
 
@@ -243,7 +243,7 @@ AI Coding 在提升开发效率、降低技术门槛与增强代码质量方面�
 
 图 1-3 展示了 AI Coding 的基本流程，可概括为一个以“人机协同—迭代优化—自动应用”为核心的闭环过程，其本质是将开发者的高层意图逐步转化为可执行的软件系统。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_004.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_004.jpg)
 
 图 1-3 AI Coding 基本流程
 
@@ -265,7 +265,7 @@ AI Coding 通过对大规模代码与文本语料的学习，建立自然语言�
 
 表 1-1 AI 编程与传统编程的对比
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_005.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_005.jpg)
 
 传统编程以人为中心，强调程序员对算法逻辑、数据结构与系统架构的显式设计，其核心流程是“需求分析—手工编码—调试测试—迭代维护”。该模式高度依赖开发者的专业经验与语言熟练度，开发效率与代码质量在很大程度上受个体能力限制，且在复杂系统或快速迭代场景下成本较高。
 
@@ -273,7 +273,7 @@ AI 编程（AICoding）则以大语言模型为核心，将自然语言理解、
 
 从工程角度看，AI 编程显著降低了技术门槛，提升了开发效率与原型构建速度，尤其在样板代码生成、接口开发、测试用例补全与跨语言迁移等方面优势明显。同时，AI 编程通过持续反馈机制实现快速迭代，但其生成结果仍需人工校验，以避免语义偏差、安全隐患或业务理解错误。总体而言，AI 编程并非替代传统编程，而是通过人机协同重塑软件工程的生产方式，使开发活动从“代码驱动”向“意图驱动”演进。图 1-4 展示了以 CodeBuddy 赋能应用为代表的大语言模型典型应用场景，尤其是智能化编程。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_006.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_006.jpg)
 
 图 1-4 大语言模型典型应用场景
 
@@ -283,7 +283,7 @@ AI 编程（AICoding）则以大语言模型为核心，将自然语言理解、
 
 CodeBuddy 是腾讯自研的、覆盖全栈开发生命周期的智能编程助手。它通过插件、独立 IDE 和命令行（CLI）工具（CodeBuddy Code）三种形态，为从需求到部署的各个环节提供 AI 辅助。CodeBuddy 是一类以大语言模型为核心、面向全开发生命周期的智能化 AI Coding 平台，旨在通过自然语言理解、代码语义建模与人机协同机制，重构传统软件开发范式。该平台以“意图驱动编程（Intent-Driven Programming）”为核心理念，将开发者的高层业务需求、设计意图与工程约束转化为可执行的程序结构、代码实现与工程配置，从而显著提升软件开发的效率、一致性与可维护性。图 1-5 展示了 CodeBuddy 的官方网站，CodeBuddy 的核心目标是“无论你身处何种开发环境，CodeBuddy 都能助你心无旁骛，释放创造潜能，实现效率的极致飞跃”。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_007.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_007.jpg)
 
 图 1-5 CodeBuddy 官方网站
 
@@ -351,7 +351,7 @@ CodeBuddy 的核心定位是**具备 AI 辅助能力的集成开发环境**。�
 
 该形态适用于以下情形：需要在一台终端上完成全部开发活动；需要在培训、演示、课堂场景中展示“从自然语言到可运行代码”的全过程；需要对本地文件、脚本、工具链拥有完全掌控权的场景。图 2-1 所示为 CodeBuddy 本地独立版 IDE 的界面。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_008.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_008.jpg)
 
 图 2-1 CodeBuddy 本地独立版 IDE 的界面
 
@@ -359,25 +359,25 @@ CodeBuddy 的核心定位是**具备 AI 辅助能力的集成开发环境**。�
 
 该形态适用于以下情形：已有成熟项目和构建脚本，无法迁移到新 IDE；团队已经统一使用某一桌面 IDE，希望在其上叠加 AI 能力；需要在同一项目中频繁切换本地代码编辑与 AI 生成的场景。此形态强调“与现有工具链共存”。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_009.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_009.jpg)
 
 图 2-2 CodeBuddy 桌面 IDE 插件版
 
 （3）**CodeBuddy Cloud Studio（云端 IDE）**。Cloud Studio 编程形态指在浏览器或云端工作空间中直接使用的在线版本，如图 2-3 中的官方页面介绍所示，其特征是不需要在本地安装桌面应用，开发环境、模型接入、依赖版本均由云端统一维护。该形态可有效规避本地操作系统版本差异、网络出口限制、团队成员机器配置不一致等问题，适用于教学实训、临时开发、跨设备协作、企业希望统一开发环境的场景。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_010.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_010.jpg)
 
 图 2-3 CodeBuddy Cloud Studio（云端 IDE）官网
 
 与本地独立版相比，云端 IDE 在界面结构上基本一致，如图 2-4 所示，同样包含资源列表、代码编辑区和 AI 侧栏，但在运行方式上依赖浏览器和在线工作空间，因此在部署或使用前应确认网络可达性和账号统一性。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_011.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_011.jpg)
 
 图 2-4 CodeBuddy Cloud Studio（云端 IDE）主页面
 
 （4）**CodeBuddy CLI 命令行形态**。CodeBuddy CLI 编程形态主要面向终端、自动化和 CI/CD 流水线场景，用于在无图形界面或无须启动完整 IDE 的情况下，直接通过命令调用 CodeBuddy 的生成、改写、说明等能力。典型使用方式：在构建脚本中调用以批量生成模板代码；在提交前调用以进行代码说明或规范性检查；在远程服务器或容器环境中调用以减少手工编辑。图 2-5 所示为 CodeBuddy CLI 形态调用示意。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_012.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_012.jpg)
 
 图 2-5 CodeBuddy CLI 形态调用示意
 
@@ -395,7 +395,7 @@ CodeBuddy 的获取与安装可归结为“四段式流程”——获取安装�
 
 （1）**下载安装包。**在使用本地独立版前，需要从官方发布页面下载与当前操作系统、处理器架构相匹配的安装包，如图 2-6 所示。下载页面通常会同时给出 Windows 版本、macOS Intel 版本以及 macOS Apple/ARM 版本，用户应根据本机情况选择对应版本。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_013.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_013.jpg)
 
 图 2-6 CodeBuddy 安装包下载页面
 
@@ -403,19 +403,19 @@ CodeBuddy 的获取与安装可归结为“四段式流程”——获取安装�
 
 ① 许可确认界面：用户需阅读许可协议并选择“我同意此协议”，方可继续，如图 2-7 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_014.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_014.jpg)
 
 图 2-7 Windows 平台安装向导——许可确认界面
 
 ② 安装路径选择界面：可使用默认路径，也可自定义安装位置，建议使用英文路径以减少后续脚本调用问题，如图 2-8 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_015.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_015.jpg)
 
 图 2-8 Windows 平台安装向导——安装路径选择界面
 
 ③ 选择附加任务界面：可创建桌面快捷方式，也可添加 buddy 命令到 PATH，如图 2-9 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_016.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_016.jpg)
 
 图 2-9 Windows 平台安装向导——选择附加任务界面
 
@@ -423,17 +423,17 @@ CodeBuddy 的获取与安装可归结为“四段式流程”——获取安装�
 
 （3）**macOS 平台安装**。在 macOS 环境中，下载得到的通常为.dmg 或打包的应用文件。双击打开后，将 CodeBuddy 应用图标拖入“Applications”目录即可完成安装，如图 2-11 所示。首次启动若出现系统安全提示，应选择“仍要打开”或在“系统设置-隐私与安全性”中信任该应用，然后再次启动即可。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_017.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_017.jpg)
 
 ▲图 2-10 Windows 平台安装向导——安装完成界面
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_018.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_018.jpg)
 
 图 2-11 macOS 平台安装示意
 
 （4）**首次启动。**首次启动本地独立版 IDE 时，将进入欢迎或登录界面，如图 2-12 所示，界面通常会引导用户进行风格选择、导入配置（从 VS Code 或 Cursor 导入）。随后只需要完成账号认证，不需要立即创建项目。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_019.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_019.jpg)
 
 图 2-12 本地 IDE 首次启动登录界面
 
@@ -443,17 +443,17 @@ CodeBuddy 的获取与安装可归结为“四段式流程”——获取安装�
 
 （1）**VS Code 中的获取**。打开 VS Code，进入左侧的“扩展”（Extensions）面板，在搜索框中输入“CodeBuddy”关键字，即可看到对应插件条目，随后单击“安装”按钮，即可完成在线安装，如图 2-13 所示。若处于内网环境，则可以先在可联网的设备上通过 Open VSX 市场获取 VSIX 格式的插件包，如图 2-14 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_020.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_020.jpg)
 
 ▲图 2-13 在 VS Code 中搜索并安装 CodeBuddy 插件
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_021.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_021.jpg)
 
 图 2-14 在 Open VSX 市场中搜索 CodeBuddy 插件
 
 在本地 VS Code 中，使用“从 VSIX 安装”功能导入 VSIX 文件进行离线安装，如图 2-15 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_022.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_022.jpg)
 
 图 2-15 离线环境下从 VSIX 安装插件
 
@@ -461,7 +461,7 @@ CodeBuddy 的获取与安装可归结为“四段式流程”——获取安装�
 
 （3）**启用与面板位置。**插件安装成功后，IDE 通常会在侧边栏、底部工具栏或命令面板中新增“CodeBuddy”入口，如图 2-16 所示，单击即可打开对话/生成面板。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_023.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_023.jpg)
 
 图 2-16 插件版 CodeBuddy 侧边栏入口
 
@@ -469,7 +469,7 @@ CodeBuddy 的获取与安装可归结为“四段式流程”——获取安装�
 
 表 2-1 CodeBuddy 插件版最低 IDE 版本要求
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_024.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_024.jpg)
 
 在企业或内网环境中，若 IDE 版本由统一镜像或集中管理策略控制，应在插件部署前与运维或 IT 管理部门确认版本基线，以免后续因 IDE 升级受限而影响 CodeBuddy 插件的正常使用。
 
@@ -479,13 +479,13 @@ Cloud Studio 形态无须本地安装，重点在“访问入口正确”与“
 
 （1）**访问与登录**。在浏览器中访问 Cloud Studio 云端工作空间，如图 2-17 所示，进入登录页后使用已有账号进行认证，认证方式可与本地独立版保持一致，以便后续同步模型与项目配置。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_025.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_025.jpg)
 
 图 2-17 Cloud Studio 云端工作空间
 
 （2）**创建在线工作空间。**首次登录后，需创建（或选择）一个在线工作空间，如图 2-18 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_026.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_026.jpg)
 
 图 2-18 Cloud Studio 在线工作空间创建
 
@@ -501,11 +501,11 @@ Cloud Studio 形态无须本地安装，重点在“访问入口正确”与“
 
 ③ 单击对应选项，触发 AI 处理（如单击“解释代码”，生成逻辑说明）。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_027.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_027.jpg)
 
 ▲图 2-19 Cloud Studio 在线 IDE 主界面
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_028.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_028.jpg)
 
 图 2-20 Cloud Studio 在线 IDE——选中代码自动触发场景
 
@@ -549,13 +549,13 @@ npm install -g @tencent-ai/codebuddy-code
 
 安装完成后，需通过登录绑定账号，支持多种登录方式，适配不同模型需求。在终端输入命令“codebuddy”，启动 CLI 形态，如图 2-21 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_029.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_029.jpg)
 
 图 2-21 CLI 形态启动
 
 系统会自动打开浏览器登录界面，如图 2-22 所示。注意，首次使用需完成账号注册。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_030.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_030.jpg)
 
 图 2-22 CLI 形态登录界面
 
@@ -713,7 +713,7 @@ docker run --cpus=4 --memory=8g ...
 
 如图 2-23 所示，CodeBuddy 主界面中央通常是两个主入口：“新建文件夹”和“打开文件夹”。前者适用于从空目录开始创建，并借助 AI 生成项目基础结构，后者适用于已有项目。界面一侧会列出最近打开的项目，便于快速回到上一次的开发环境；另一侧可能给出官方推荐的起步动作，例如“从设计生成页面”“连接后端服务”“安装扩展”“查看使用指南”等，这些是增益功能而非强制配置，可以根据自身场景进行逐步启用。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_031.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_031.jpg)
 
 图 2-23 CodeBuddy 主界面
 
@@ -735,7 +735,7 @@ docker run --cpus=4 --memory=8g ...
 
 真正有别于普通编辑器的是右侧的 AI 辅助面板。这个面板通常处于固定位置，随时可以展开或收起，且与当前打开的文件保持上下文关联。如图 2-24 所示，AI 辅助面板一般包含两种工作模式。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_032.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_032.jpg)
 
 图 2-24 AI 辅助面板模式区分
 
@@ -753,7 +753,7 @@ AI 辅助面板顶部通常有模型选择器，可以在当前可用的大语�
 
 编辑完成后，开发者通常需要执行运行、调试、查看日志等操作，这部分由界面下方的调试与控制台区域承载。如图 2-25 所示，这里一般会以标签页的形式并列“终端”“调试控制台”“问题”“输出”等视图，可以根据当前任务自由切换。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_033.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_033.jpg)
 
 图 2-25 调试与控制台
 
@@ -775,7 +775,7 @@ AI 辅助面板顶部通常有模型选择器，可以在当前可用的大语�
 
 代码版本方面，IDE 集成了 Git 视图，可以看到当前有哪些文件被改动、哪些已经暂存、当前处在哪个分支、最新一次提交是谁做的，也可以在这里直接写提交说明并推送到远程仓库。在需要撰写提交日志或合并请求说明时，可以把当前工作区的改动引用到对话中，让 AI 根据实际改动生成一段符合团队规范的说明文本，免去手动编写的烦琐。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_034.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_034.jpg)
 
 图 2-26 历史记录与检查点
 
@@ -797,7 +797,7 @@ AI 交互方面，特别是 Craft 模式下的一系列生成，会被自动分�
 
 图 2-27 展示了 CodeBuddy 的常用快捷键，更多内容请读者结合实际操作进行学习和拓展，其与其他常用 IDE 基本类似。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_035.jpg)![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_036.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_035.jpg)![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_036.jpg)
 
 图 2-27 CodeBuddy 的常用快捷键
 
@@ -807,7 +807,7 @@ AI 交互方面，特别是 Craft 模式下的一系列生成，会被自动分�
 
 自定义斜杠指令（Slash Command）是在 CodeBuddy 智能开发平台中通过固定前缀“/”触发的快捷操作命令。如图 2-28 所示，在对话式交互环境下，开发者输入预定义的斜杠指令即可直接控制 CodeBuddy 执行特定功能，无须每次从零描述需求。引入斜杠指令旨在提供一种更加高效、标准的调用方式，将常用的开发流程和工作流抽象为简洁的一键命令，从而减少重复、低效的手动输入，让开发者能够专注于真正重要的创造性工作。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_037.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_037.jpg)
 
 图 2-28 斜杠指令的应用
 
@@ -815,7 +815,7 @@ AI 交互方面，特别是 Craft 模式下的一系列生成，会被自动分�
 
 自定义斜杠指令在 CodeBuddy 中以 Markdown 文件（.md）形式组织，其本质都是 Prompt 提示词，和 Skills 一样存在 Frontmatter 元数据区。一个完整的斜杠指令通常由五部分组成，包括触发关键词（命令名称，以斜杠起始）、输入参数（可选的用户输入及其提示描述）、上下文拼装逻辑（如何从当前项目/会话提取所需信息拼入提示）、期望输出（对回答格式或内容的要求）以及后续动作（可选的自动化操作，例如将生成结果回填到代码中或提交代码审查）。通过这些模块化的配置，开发者可以将“与 AI 沟通的口头经验”沉淀为可执行的快捷命令。如图 2-29 所示，在 CodeBuddy IDE 中已经内置了一系列常用的斜杠指令（Built-in Slash Commands），例如/init（项目初始化）、/cr（代码审查）、/tests（单元测试生成）、/explain（代码解释）、/fix（代码修复）以及/summarize（对话总结）等。这些内置命令覆盖了典型的开发场景，充分体现了斜杠指令在智能开发流程中的应用价值。开发者还可以根据自身项目的特殊需求来自定义新的斜杠指令，将更多专属的 AI 能力无缝融入自己的工作流程中。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_038.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_038.jpg)
 
 图 2-29 CodeBuddy IDE 内置的斜杠指令
 
@@ -877,7 +877,7 @@ CodeBuddy 的生成质量高度依赖上下文的准确性，所以它围绕“�
 
 在输入框里输入“@”，系统会弹出一个引用菜单，里面会列出刚才添加过的所有上下文，包括问题提示、终端日志、Git 提交、规则文件、历史对话消息等，如图 2-30 所示。开发者想让模型参考哪一条，就选择哪一条。这样做的好处：不用每次都粘贴完整内容，也不用把终端里的一大串错误再手抄一遍，直接引用即可，模型仍能准确理解并运用这些上下文。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_039.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_039.jpg)
 
 图 2-30 CodeBuddy 上下文管理与引用功能
 
@@ -919,7 +919,7 @@ CodeBuddy 的自动补全并不是孤立的“猜下一行”，而是建立在�
 
 还可以在补全之前先让模型“看一眼”已有的代码结构。如图 2-31 所示，在对话框中先说“我当前项目是分层架构，controller 里只做参数校验和调用 service，service 里做业务逻辑，dao 里做数据库访问，帮我在这个 controller 里加一个查询接口，其他层的代码请自动补齐”，这样生成的内容就是三层对应的，而不是全堆到一个函数里。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_040.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_040.jpg)
 
 图 2-31 Prompt 与上下文
 
@@ -949,7 +949,7 @@ CodeBuddy 的另一个高频用途是“帮我看懂这段代码”。无论是�
 
 此外，如图 2-32 所示，可借助 CodeBuddy 辅助代码解释与调试，要求它“为这段逻辑生成临时日志，日志要包含时间戳、当前用户 ID、接口名，方便排查问题”，它就会生成一段插在关键路径里的日志代码。等问题解决后，再让它“把这些日志删掉”，它就能自动删除刚才添加的日志行。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_041.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_041.jpg)
 
 图 2-32 代码解释与调试
 
@@ -959,7 +959,7 @@ CodeBuddy 的另一个高频用途是“帮我看懂这段代码”。无论是�
 
 CodeBuddy 不仅能够查看代码，还能对代码编写方法进行审查。这一功能的实现需要同时依赖文档、规则与知识库，如图 2-33 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_042.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_042.jpg)
 
 图 2-33 规则和知识文档联动
 
@@ -991,19 +991,19 @@ CodeBuddy 不仅能够查看代码，还能对代码编写方法进行审查。�
 
 （1）输入“/”，单击“Create Command”，实现该指令的调用，如图 2-34 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_043.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_043.jpg)
 
 图 2-34 在对话框中调用 Create Command 指令
 
 （2）自定义指令名称，比如设置为“kdy-report”，如图 2-35 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_044.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_044.jpg)
 
 图 2-35 自定义指令名称
 
 （3）配置自定义指令 md 文件内容，并在对话框中调用该指令，实现一键触发生成，如图 2-36 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_045.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_045.jpg)
 
 图 2-36 调用自定义指令
 
@@ -1031,7 +1031,7 @@ CodeBuddy 的语言处理能力并非依赖简单的“文件扩展名识别”�
 
 CodeBuddy 当前支持诸如 C/C++、Java、Python、JavaScript/TypeScript、Go、PHP、SQL、Kotlin、C#等主流编程语言。常见的前端工程（TS+JSX/TSX）、后端工程（Java/Spring、Go、Python/FastAPI、Node/Koa）、脚本（Python、Node）、数据处理（SQL）都可以在同一个工作区里打开。IDE 会根据文件类型自动切换语法高亮、自动补全词典、调试配置模板，无须用户手动来回设定，如图 2-37 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_046.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_046.jpg)
 
 图 2-37 语言解析支持
 
@@ -1049,7 +1049,7 @@ CodeBuddy 采用模块化设计，将本体与 AI 协同模块分离——既可
 
 插件市场的存在，更意味着后续功能可以按照增量方式交付。例如，官方新推出的“自动将日志转换为结构化输出扩展”或者“识别终端报错并自动生成 GitHub Issue 扩展”，可使用户无须升级整个 IDE，只需在插件面板中搜索、安装并启用即可，如图 2-38 所示。这种分发模式更契合企业内部的版本控制需求——基础 IDE 固定在稳定版本，AI 功能则通过插件按需交付。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_047.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_047.jpg)
 
 图 2-38 插件管理与市场
 
@@ -1135,7 +1135,7 @@ ToDo List 应用是前端开发入门阶段经典且常见的实践案例。本
 
 表 3-1 模块功能映射表
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_048.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_048.jpg)
 
 ## **3.2**
 
@@ -1177,7 +1177,7 @@ CodeBuddy 作为智能编程助手，可在 ToDo List 案例开发的多个环�
 
 为了在上述技术栈基础上循序渐进地完成示例应用，本章后续内容将按照由浅入深的开发阶段组织展开，每一阶段对应明确的学习目标与实践任务，并穿插着引导读者使用 CodeBuddy 进行协作开发，整体教学路径规划如图 3-1 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_049.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_049.jpg)
 
 图 3-1 整体教学路径规划
 
@@ -1241,7 +1241,7 @@ CodeBuddy 作为智能编程助手，可在 ToDo List 案例开发的多个环�
 
 表 3-2 ToDo List 示例的提示词要素拆解表
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_050.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_050.jpg)
 
 通过表 3-2 可知，“好的提示词”实质上是对需求、约束和风格的结构化表达。后续章节在扩展其他案例时，我们可沿用这一结构，对不同场景替换具体内容即可。
 
@@ -1289,7 +1289,7 @@ CodeBuddy 作为智能编程助手，可在 ToDo List 案例开发的多个环�
 
 如图 3-2 所示，CodeBuddy 主要在“方案与代码生成”“问题诊断与修复”“重构与文档完善”三个环节提供支持，而“需求与约束描述”“本地运行与调试”“需求扩展与迭代”等仍然由开发者主导。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_051.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_051.jpg)
 
 图 3-2 开发闭环示意图
 
@@ -1329,13 +1329,13 @@ CodeBuddy 作为智能编程助手，可在 ToDo List 案例开发的多个环�
 
 如图 3-3 所示，可以使用 Cloud Studio 提供的“HTML-CSS-JS”静态网站模板。该模板预置了最基础的前端文件结构，包括一个简单的 HTML 文件、关联的 CSS 样式表，以及一个 JavaScript 脚本入口。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_052.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_052.jpg)
 
 图 3-3 Cloud Studio 选择模板页
 
 选择模板时，在 CodeBuddy 的新建项目对话框中填入项目名称（例如 Hello-AI-Todo），并从模板列表中选择上述的空白前端模板。随后，IDE 会自动为我们生成初始的文件与代码框架，如图 3-4 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_053.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_053.jpg)
 
 图 3-4 自动生成的初始文件与代码框架
 
@@ -1343,7 +1343,7 @@ CodeBuddy 作为智能编程助手，可在 ToDo List 案例开发的多个环�
 
 **第二步，梳理项目目录结构与关键文件。**当示例工程创建完成后，我们可以在 CodeBuddy IDE 左侧的资源管理器中看到生成的项目目录结构，如图 3-5 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_054.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_054.jpg)
 
 图 3-5 示例工程目录结构
 
@@ -1411,7 +1411,7 @@ console.log("Hello-AI-Todo environment is ready.");
 
 **第一步，页面骨架生成**。本节将把 3.2 节梳理出的需求转化为具体提示词，通过与 CodeBuddy 对话生成页面的 HTML 骨架代码。首先，我们需准备一则提示词，向 CodeBuddy 清晰简洁地描述需求（注意避免过度口语化，防止歧义；亦可借助 CodeBuddy 自带的增强提示词功能，详见图 3-6）。以下为示例展示——在对话中如何将需求转化为提示词，并请求 CodeBuddy 生成页面骨架代码。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_055.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_055.jpg)
 
 图 3-6 增强提示词功能
 
@@ -1421,7 +1421,7 @@ console.log("Hello-AI-Todo environment is ready.");
 
 如图 3-7 所示，CodeBuddy 已按照提示词要求生成了页面的基础 HTML 结构，并在标题区、输入区和列表区之间形成了清晰的分区。生成结果采用了 HTML5 语义化标签，并为关键节点配置了可复用的 id 与 class 属性，便于后续在样式表和脚本中进行精确引用。即便读者尚未系统学习全部标签含义，也可以通过结构划分理解页面的整体布局。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_056.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_056.jpg)
 
 图 3-7 生成的基础 HTML 结构
 
@@ -1523,7 +1523,7 @@ placeholder="请输入新任务"
 
 CodeBuddy 根据该提示词返回了一份完整的样式文件，并给出了逐条说明。如图 3-8 所示，左侧为生成后的 style.css 内容，右侧为 CodeBuddy 针对页面布局、标题样式、输入区域、任务列表样式等要点的说明清单。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_057.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_057.jpg)
 
 图 3-8 完整 style.css 内容
 
@@ -1603,7 +1603,7 @@ transform: translateX(4px);
 
 通过以上样式设置，我们实现了简洁、协调的布局效果：页面内容居中且宽度适宜，标题突出且易读，输入区域的组件整齐对齐，列表项清晰分隔。这些样式与我们在 HTML 结构中添加的 id 一一对应，如#input-section、#task-input、#add-button 等，如图 3-9 中的初版 Demo 页面所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_058.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_058.jpg)
 
 图 3-9 初版 Demo 页面
 
@@ -1729,7 +1729,7 @@ document.addEventListener('DOMContentLoaded', function() { ... });
 
 该事件在浏览器完成 HTML 文档解析、DOM 树构建完成后触发，此时页面中的元素已经可以被安全访问。将所有逻辑包裹在这个回调函数内部，可以保证在脚本执行时，taskInput、addBtn、taskList 等元素已经存在于 DOM 中，避免出现“元素为 null 或 undefined”的运行时错误。这也是前端脚本中一个常见的安全实践。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_059.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_059.jpg)
 
 图 3-10 Main.js 关键代码
 
@@ -1803,7 +1803,7 @@ taskInput.addEventListener('keypress', function(event) {
 
 在输入框中输入一条任务内容（例如“编写今天的学习计划”），单击“添加”按钮或直接按下 Enter 键，可以看到下方列表区域中立即出现一条新的列表项，内容正是刚刚输入的文本。继续多次输入并添加，列表将按顺序累积多条任务记录，如图 3-11 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_060.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_060.jpg)
 
 图 3-11 第二版 Demo 页面
 
@@ -1845,7 +1845,7 @@ taskInput.addEventListener('keypress', function(event) {
 
 浏览器端包括常见的 Chrome、Internet Explorer、Firefox、UC 浏览器等多种客户端，它们的首要任务是进行 URL 解析，即将用户输入的网址转化为服务器可识别的请求路径。当浏览器向 Web 服务器发送请求后，服务器根据路径定位 HTML 文件，并与数据库服务器进行交互（包括数据读取、写入与查询），最终将处理结果返回给浏览器。浏览器随后执行网页渲染，将 HTML 文档内容转化为用户可视化的界面。在这一过程中，Web 服务器承担了逻辑处理与数据组织的角色，数据库服务器则保障了底层数据的存储与调用。图 4-1 用箭头清晰展示了“URL 解析—请求发送—数据获取—网页渲染”的全过程，体现了 B/S 架构下浏览器与服务器的高效协同机制。特别值得注意的是，浏览器不仅负责静态内容的呈现，还需解析 HTML 结构、CSS 样式及 JavaScript 逻辑，确保最终界面既具备正确的结构，又具备良好的交互性与可用性。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_061.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_061.jpg)
 
 图 4-1 B/S 架构体系
 
@@ -1863,7 +1863,7 @@ HTML 的语法基于标记（markup）体系，其核心逻辑是通过标签对
 
 HTML 文档具有明确的结构层次：文档类型声明（<!DOCTYPE html>）用于声明标准版本；根元素<html>包含整个文档；<head>部分定义页面的元信息（如标题、字符集、样式表引用）；<body>部分则承载网页的主要可见内容，如图 4-2 所示。其语法强调层级嵌套和闭合完整性，以保证浏览器解析的一致性和渲染的正确性。HTML 的语法规范不仅提升了网页内容的标准化和可移植性，也为后续的自动化解析与 AI 建模提供了明确的规则支撑。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_062.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_062.jpg)
 
 图 4-2 HTML 基本语法示例
 
@@ -1899,7 +1899,7 @@ HTML 文档具有明确的结构层次：文档类型声明（<!DOCTYPE html>�
 
 图 4-3 展示了 HTML 常用的基本标签和语法结构，包括文档结构标签、布局与语义化标签、表单标签、文本内容标签、列表标签、超链接与多媒体标签、表格标签等，更多网页制作的内容请读者课后进行更详细的学习。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_063.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_063.jpg)
 
 图 4-3 HTML 网页基本标签
 
@@ -1927,7 +1927,7 @@ p {
 
 该代码片段的含义是将所有段落元素的字体设置为 Arial 系列，颜色为蓝色，并使文本居中。CSS 的选择器体系包括元素选择器、类选择器（如.class）、ID 选择器（如#id）及伪类选择器（如：hover），能够实现从整体到局部、从静态到动态的精细化控制。CSS 网页样式设计的基本语法如图 4-4 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_064.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_064.jpg)
 
 图 4-4 CSS 网页样式设计的基本语法
 
@@ -1939,7 +1939,7 @@ p {
 
 JavaScript 是一种基于对象和事件驱动的脚本语言，是网页开发中实现动态交互的核心工具。与 HTML 和 CSS 分别负责结构和表现不同，JavaScript 用于处理逻辑与行为，它能够捕获用户的操作（如单击、输入、滚动），并通过文档对象模型（DOM）动态修改网页内容和样式。JavaScript 的引入使网页从静态展示转向了动态交互，支持如表单验证、异步数据请求（AJAX）、动画效果和用户个性化体验等功能。它是现代前端框架（如 React、Vue、Angular）的语言基础，也是 AI 辅助开发必须掌握的关键环节。对于大语言模型而言，理解 JavaScript 的逻辑结构与事件机制，有助于在自动生成网页时输出具备可操作性的交互脚本。其基本交互过程如图 4-5 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_065.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_065.jpg)
 
 图 4-5 HTML、CSS 与 JavaScript 文件 的基本交互过程
 
@@ -1967,7 +1967,7 @@ JavaScript 的语法体系相对简洁，主要包括变量声明、数据类型
 
 在网页开发中，布局是用户体验的基础环节，响应式设计则决定了页面在不同设备与分辨率下的适配效果。网页内容的呈现过程依赖于浏览器对 HTML 文件的解析，其核心机制是生成文档对象模型（DOM）树。在加载 HTML 文档时，浏览器会自上而下解析标记语言，从根节点 <html> 开始，依次建立<head>与<body>层级，并逐步生成嵌套的 DOM 树结构，如图 4-6 所示。DOM 树将网页的静态内容映射为可操作的对象模型，使得 CSS 可以基于选择器应用样式，而 JavaScript 则可以通过事件机制动态操作节点。通过这一解析机制，网页布局不仅是代码的组织，更是语义与结构的逻辑映射。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_066.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_066.jpg)
 
 图 4-6 HTML 网页 DOM 树结构解析
 
@@ -1985,7 +1985,7 @@ JavaScript 的语法体系相对简洁，主要包括变量声明、数据类型
 
 AI 模型在表单生成与交互逻辑设计中具有独特优势。CodeBuddy 能够根据自然语言描述自动生成输入表单及验证逻辑，例如“生成一个注册页面，包含邮箱、密码和确认密码字段，并进行前端验证”，最终生成效果如图 4-7 所示，大语言模型生成的代码会对数据进行校验，如邮箱格式是否正确。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_067.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_067.jpg)
 
 图 4-7 CodyBuddy 生成表单校验代码
 
@@ -2007,7 +2007,7 @@ AI 辅助编程工具（如 CodeBuddy）在模块化与组件化的应用中展�
 
 CodeBuddy 在网页生成中的流程可分为需求分析、语义建模、代码生成、代码编辑与预览、代码优化和部署上线 6 个核心环节。首先，用户通过自然语言描述功能需求，如“生成一个旅游网站首页，含搜索框、图片轮播和用户评论区”。AI 模型会对输入需求进行语义解析，提取关键实体（如页面结构、功能模块）并构建需求向量化表示。其次，模型会调用预训练知识和提示工程技术，将抽象需求转化为具体的 HTML、CSS 和 JavaScript 代码。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_068.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_068.jpg)
 
 图 4-8 CodyBuddy 网页开发的基本流程
 
@@ -2027,7 +2027,7 @@ CodeBuddy 在网页生成中的流程可分为需求分析、语义建模、代�
 
 工作简历的核心功能是作为人岗匹配的证据载体，通过有限篇幅集中呈现候选人与岗位需求之间的契合度。一份高质量的简历通常包括基本信息、求职意向、项目经验等模块，如图 4-9 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_069.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_069.jpg)
 
 图 4-9 求职简历的基本组成
 
@@ -2057,13 +2057,13 @@ CodeBuddy 在网页生成中的流程可分为需求分析、语义建模、代�
 
 对于不同岗位，可追加“行业特定词”，实现小样本下的快速风格迁移。现在，我们打开智联招聘网站，并搜索“网络安全”，如图 4-10 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_070.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_070.jpg)
 
 图 4-10 智联招聘搜索岗位信息
 
 随后选择某个公司的职位描述信息，如图 4-11 所示，从而精准地构建提示词。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_071.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_071.jpg)
 
 图 4-11 网络安全职位描述信息
 
@@ -2131,7 +2131,7 @@ DataCon 2022 大数据安全分析竞赛涉网安全分析赛道全国第二名
 
 ...
 
-请结合职位描述和个人信息生成内容充实的简历。 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_072.png)
+请结合职位描述和个人信息生成内容充实的简历。 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_072.png)
 
  **注意**
 
@@ -2145,49 +2145,49 @@ DataCon 2022 大数据安全分析竞赛涉网安全分析赛道全国第二名
 
 （1）启动 CodeBuddy IDE。如图 4-12 所示，在 Workshop 中新建文件夹，并将其命名为“JIANLI”。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_073.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_073.jpg)
 
 图 4-12 CodeBuddy 构建文件夹
 
 （2）选择对应的模型。在图 4-12 右侧方框内输入先前构建好的提示词，选择对应的模型（默认为“Claude-3.7”），并单击“Send”按钮，如图 4-13 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_074.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_074.jpg)
 
 图 4-13 CodeBuddy 输入提示词
 
 CodeBuddy 经过深度思考后会生成对应的 HTML 代码，如图 4-14 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_075.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_075.jpg)
 
 图 4-14 CodeBuddy 生成简历代码
 
 （3）CodeBuddy IDE 工具会自动打开生成完毕的“resume.html”代码，如图 4-15 所示。随后，我们通过本地浏览器即可打开该网页。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_076.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_076.jpg)
 
 图 4-15 CodeBuddy 打开生成的 HTML 文件
 
 生成简历的显示效果如图 4-16 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_077.jpg)![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_078.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_077.jpg)![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_078.jpg)
 
 图 4-16 CodeBuddy 生成网络安全招聘简历
 
 （4）如果想把头像替换成自定义的图片，那么可以在 CodeBuddy 提示对话框的上侧单击“图片上传（Upload Images）”按钮，并输入图 4-17 所示的提示词。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_079.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_079.jpg)
 
 图 4-17 上传图像并输入提示词
 
 随后，CodeBuddy 会重构代码，并将本地图像路径进行替换，从而生成自定义的头像。其替换的过程如图 4-18 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_080.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_080.jpg)
 
 图 4-18 CodeBuddy 定位并替换图像关键代码
 
 最终显示效果如图 4-19 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_081.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_081.jpg)
 
 图 4-19 生成简历代码在线显示效果
 
@@ -2219,7 +2219,7 @@ MBTI（Myers-Briggs Type Indicator，迈尔斯-布里格斯性格类型指标�
 
 表 4-1 MBTI 测试维度与性格类型
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_082.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_082.jpg)
 
 与传统的性格测评工具相比，MBTI 具有两个突出的特点。其一，它不仅考察个体外显的行为模式，还注重内在的心理偏好。例如，面对新的问题，有些人习惯依赖直觉形成整体印象，另一些人则倾向于通过感官信息和逻辑分析逐步推演。其二，MBTI 测试采用大量情境化的问题来引导被测者选择，例如“你更倾向于在团队中发言，还是安静倾听？”这些情境题能够帮助个体在自我反思中揭示潜在的心理倾向，而非仅仅依赖于表面的行为特征。
 
@@ -2245,47 +2245,47 @@ CodeBuddy 在实现层面的优势在于“能够将测试逻辑与前端交互�
 
 （1）利用 DeepSeek 构建精准提示词。打开 DeepSeek，选择“深度思考”和“联网搜索”模式，输入图 4-20 所示的需求描述。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_083.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_083.jpg)
 
 图 4-20 在 DeepSeek 中输入需求描述
 
 DeepSeek 经过深度思考生成的提示词如图 4-21 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_084.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_084.jpg)
 
 图 4-21 DeepSeek 生成 MBTI 性格测试网页制作提示词
 
 （2）打开 CodeBuddy IDE 软件，并在 Workshop 中创建“MBTI”文件夹，如图 4-22 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_085.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_085.jpg)
 
 图 4-22 创建文件夹
 
 （3）将 DeepSeek 生成的提示词复制到 CodeBuddy IDE 的对话框中，并单击“Send”按钮，如图 4-23 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_086.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_086.jpg)
 
 图 4-23 将 DeepSeek 生成的提示词复制到 CodeBuddy IDE 的对话框中
 
-经过深度思考，CodeBuddy 开启 AI Coding，生成 MBTI 测试网页代码，并生成主页网页 index.html 文件、样式设置 styles.css 文件、JavaScript 渲染 scripts.js 文件，如图 4-24 所示。 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_087.png)
+经过深度思考，CodeBuddy 开启 AI Coding，生成 MBTI 测试网页代码，并生成主页网页 index.html 文件、样式设置 styles.css 文件、JavaScript 渲染 scripts.js 文件，如图 4-24 所示。 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_087.png)
 
  **注意**
 
 不同于先前的案例，本项目将直接利用 CodeBuddy 生成项目运行的提示，并在 IDE 中直接运行本项目。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_088.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_088.jpg)
 
 图 4-24 CodeBuddy 生成 MBTI 测试网页代码
 
 （4）CodeBuddy 直接在底部添加“Terminal”对话框，并自动输入“cd d:/CodeBuddy/workshop/MBTI; python -m http.server 8000”指令，其用于开启 8000 端口的 HTTP 服务。其生成的运行步骤如图 4-25 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_089.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_089.jpg)
 
 图 4-25 CodeBuddy 生成网页项目运行步骤
 
 （5）CodeBuddy 运行该网页并在顶部输入 URL“http://localhost:8000/”，从而打开刚生成的 MBTI 测试网页，如图 4-26 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_090.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_090.jpg)
 
 图 4-26 CodeBuddy 自动访问 MBTI 测试网页
 
@@ -2293,23 +2293,23 @@ DeepSeek 经过深度思考生成的提示词如图 4-21 所示。
 
 （6）单击“Start Test”按钮，测试 MBTI 网页，按照提示要求完成 20 道题目。图 4-27 显示了 MBTI 测试的第一道题目。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_091.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_091.jpg)
 
 图 4-27 MBTI 测试的第一道题目
 
 完成第一道题目后，第二道题目会显示出来，直至 20 道题目回答完毕，如图 4-28 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_092.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_092.jpg)
 
 图 4-28 MBTI 测试的最后一道题目
 
 最终生成的结果如图 4-29 所示，可以看到，受测者属于“ENTP”思维敏捷型性格。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_093.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_093.jpg)
 
 图 4-29 MBTI 测试结果分析
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_087.png)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_087.png)
 
 ##  **提示**
 
@@ -2345,7 +2345,7 @@ DeepSeek 经过深度思考生成的提示词如图 4-21 所示。
 
 接下来，我们尝试利用 DeepSeek 构建精准的提示词，更好地让 CodeBuddy 实现网页编程和代码生成。DeepSeek 生成的提示词如图 4-30 所示，包括利用 Unsplash API 前沿技术来实现图片动态加载，并给出表单交互详细描述。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_094.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_094.jpg)
 
 图 4-30 DeepSeek 生成旅游网站提示词
 
@@ -2359,31 +2359,31 @@ DeepSeek 经过深度思考生成的提示词如图 4-21 所示。
 
 （2）在右下角对话框中输入 DeepSeek 生成的提示词。如图 4-31 所示，我们尝试选择模型“Claude-4.0-Sonnet”，并在提示词中增加中文描述。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_095.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_095.jpg)
 
 图 4-31 CodeBuddy 输入提示词与选择模型
 
 CodeBuddy 生成代码的过程如图 4-32 所示，此时 HTML 代码的核心内容为中文。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_096.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_096.jpg)
 
 图 4-32 CodeBuddy 生成旅游网页代码的过程
 
 随后，CodeBuddy 生成了样式设计文件 styles.css 和 JavaScript 动态宣传文件 script.js，如图 4-33 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_097.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_097.jpg)
 
 图 4-33 CodeBuddy 生成 CSS 和 JS 文件
 
 （3）CodeBuddy 自动调用“node server.js”命令运行程序，并最终显示了生成代码的网页界面，如图 4-34 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_098.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_098.jpg)
 
 图 4-34 CodeBuddy 自动运行程序显示网页界面
 
 （4）通过浏览器访问网页。为更好地展示网页内容，我们通过本地浏览器访问网址“http://localhost:3000”，即可看到自动生成的贵州旅游宣传网页，如图 4-35 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_099.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_099.jpg)
 
 图 4-35 自动生成的贵州旅游宣传网页
 
@@ -2403,23 +2403,23 @@ keywords: 'Xijiang Miao village China'
 
 （5）网站首页顶部分别有“首页”“景点推荐”“旅游攻略”“表单提交”4 个关键页面。单击“景点推荐”可以预览贵州代表性的景区，如图 4-36 和图 4-37 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_100.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_100.jpg)
 
 ▲图 4-36 贵州“黄果树瀑布”等代表性景区
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_101.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_101.jpg)
 
 图 4-37 贵州“遵义会址”等代表性景区
 
 （6）单击“旅游攻略”可以查看贵州旅游的特色建议，如图 4-38 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_102.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_102.jpg)
 
 图 4-38 贵州旅游攻略
 
 此外，网页中部设有搜索对话框，用户输入关键词（如“梵净山”），就可以看到该景区的更多图片及描述，如图 4-39 所示。注意，当前的图片仍需开发者手动替换，或者与大语言模型进行反复对话，直至得到理想的图片为止。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_103.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_103.jpg)
 
 图 4-39 旅游网站搜索功能
 
@@ -2431,7 +2431,7 @@ keywords: 'Xijiang Miao village China'
 
 单击网页顶部的“表单提交”链接，在表单提交页面填写图 4-40 所示的内容。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_104.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_104.jpg)
 
 图 4-40 表单提交页面
 
@@ -2439,7 +2439,7 @@ keywords: 'Xijiang Miao village China'
 
 此时，用户提交的咨询或建议信息成功显示至网页的右侧。旅游表单与统计页面不仅是交互功能的延伸，更能通过收集与分析用户数据，发现不同景点的关注热度、不同群体的旅游偏好，为旅游市场提供数据支持。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_105.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_105.jpg)
 
 图 4-41 表单提交成功提示
 
@@ -2483,7 +2483,7 @@ keywords: 'Xijiang Miao village China'
 
 • 数据处理：提供强大的分布式计算与分析引擎。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_106.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_106.jpg)
 
 图 5-1 大数据核心概念
 
@@ -2491,7 +2491,7 @@ keywords: 'Xijiang Miao village China'
 
 如图 5-2 所示，处理复杂数据的核心技术体系犹如一座工业化的数据工厂，能高速、高效地为人们处理数据。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_107.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_107.jpg)
 
 图 5-2 处理复杂数据的核心技术体系
 
@@ -2509,7 +2509,7 @@ keywords: 'Xijiang Miao village China'
 
 HDFS 旨在通过标准硬件集群，构建一个高可靠性、高吞吐量的分布式存储系统。HDFS 采用“主/从”（Master/Worker）架构，由主节点（NameNode）和从节点（DataNode）构成。HDFS 通过数据分块（Splitting）、副本复制（Replicating）、副本分发（Distributing）等功能确保数据存储的可靠性与高效性，其架构如图 5-3 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_108.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_108.jpg)
 
 图 5-3 HDFS 架构
 
@@ -2579,7 +2579,7 @@ Map 与 Reduce 两个阶段通过 Shuffle 过程紧密衔接，共同构成一�
 
 表 5-1 不同分析目的所对应的经典图表类型
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_109.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_109.jpg)
 
 ## **5.4**
 
@@ -2599,19 +2599,19 @@ Map 与 Reduce 两个阶段通过 Shuffle 过程紧密衔接，共同构成一�
 
 （2）输入提示词“创建一份基于 Windows WSL Ubuntu 环境的 Hadoop 分布式文件系统（HDFS），支持 TB 级数据存储和处理的需求文档，并将文档保存为 md 格式”，如图 5-5 所示，然后用 CodeBuddy 的 Craft 模式创建一份清晰的需求文档，为搭建 Hadoop 分布式文件系统（HDFS）作准备。这里使用的是 Claude-3.7 大语言模型，开发者可以根据自己的需求调用不同的模型。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_110.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_110.jpg)
 
 ▲图 5-4 CodeBuddy 构建文件夹
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_111.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_111.jpg)
 
 图 5-5 用 CodeBuddy 的 Craft 模式来创建一份清晰的需求文档
 
 经过深度思考后，CodeBuddy 开启 AI Coding，生成了一份基于 Windows WSL Ubuntu 环境的 Hadoop 分布式文件系统的自动安装需求文档，包括自动安装的命令、Hadoop 系统配置、核心文件等，如图 5-6 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_112.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_112.jpg)
 
-图 5-6 CodeBuddy 所生成的完整的需求文档 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_113.png)
+图 5-6 CodeBuddy 所生成的完整的需求文档 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_113.png)
 
 **注意**
 
@@ -2619,37 +2619,37 @@ Map 与 Reduce 两个阶段通过 Shuffle 过程紧密衔接，共同构成一�
 
 （3）根据需求文档搭建 Hadoop 环境。在 CodeBuddy IDE 中输入图 5-7 中的提示词，并单击“Send”按钮。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_114.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_114.jpg)
 
 图 5-7 输入提示词
 
 CodeBuddy 接收到提示词指令后，会自动解析先前生成的需求文档，提取与 Hadoop 自动安装相关的命令、系统配置参数以及核心文件等信息。随后，它会对这些指令进行合理的排序和优化，并逐步在 Windows WSL Ubuntu 环境中构建项目结构、编写脚本、启动 Web 界面，具体过程如图 5-8 和图 5-9 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_115.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_115.jpg)
 
 ▲图 5-8 使用 CodeBuddy 自动搭建环境（创建项目结构）
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_116.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_116.jpg)
 
 图 5-9 使用 CodeBuddy 自动搭建环境（Web 界面使用）
 
 （4）运行启动 Hadoop 服务。在资源管理器中，我们可以看到 CodeBuddy 生成的部署 Hadoop 所需的必要文件。接下来，我们直接让 CodeBuddy 根据所生成的项目内容来启动 Hadoop 环境，观察其运行效果，如图 5-10 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_117.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_117.jpg)
 
 图 5-10 CodeBuddy 根据所生成的项目内容来启动 Hadoop 环境
 
 在图 5-11 所示的交互测试运行结果中，我们可以看到 Hadoop 已经在本地端口成功运行。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_118.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_118.jpg)
 
 图 5-11 交互测试运行结果
 
 （5）通过浏览器访问 Hadoop 服务。为了进一步验证 Hadoop 服务是否启动成功，我们通过本地浏览器访问地址“http://localhost:9870”，即可看到图 5-12 所示的 Hadoop 服务状态页面。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_119.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_119.jpg)
 
-图 5-12 通过浏览器访问查看 Hadoop 服务 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_113.png)
+图 5-12 通过浏览器访问查看 Hadoop 服务 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_113.png)
 
 **注意**
 
@@ -2677,13 +2677,13 @@ CodeBuddy 接收到提示词指令后，会自动解析先前生成的需求文�
 
 要求使用中文编写，格式规范清晰，包含必要的代码块和配置示例，最终保存为 README.md 文件。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_120.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_120.jpg)
 
 图 5-13 在 CodeBuddy 中输入相关提示词来创建 Spark 技术栈需求规划文档
 
 （2）根据 CodeBuddy 生成的 Spark 技术栈需求规划文档来搭建 Spark 环境。启动 CodeBuddy 的 Craft 模式，并单击选择“Claude-4.0-Sonnet”模型，如图 5-14 所示，输入以下提示词来开始一键搭建部署 Spark 环境，包括检查安装系统依赖项、设置 SPARK_HOME 环境变量，以及优化 executor 内存分配等。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_121.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_121.jpg)
 
 图 5-14 在 CodeBuddy 中输入相关提示词来根据需求文档搭建 Spark 环境
 
@@ -2703,7 +2703,7 @@ CodeBuddy 接收到提示词指令后，会自动解析先前生成的需求文�
 
 如图 5-15 所示，我们可以看到搭建完成的 Spark 环境在 WSL 中成功运行，其输出结果清晰地展示了 Spark 强大的数据处理能力。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_122.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_122.jpg)
 
 图 5-15 Spark 环境在 WSL 中运行结果
 
@@ -2715,7 +2715,7 @@ CodeBuddy 接收到提示词指令后，会自动解析先前生成的需求文�
 
 （1）通过 CodeBuddy 对接 Hadoop 和 Spark 的环境。如图 5-16 所示，在 CodeBuddy 的交互界面中，通过如下提示词来实现 Hadoop 和 Spark 的环境对接。同时，我们也可以精确地描述对接需求，比如“指定 HDFS 的访问路径”“权限设置”以及“Spark 在读取和写入 HDFS 数据时的具体配置参数”。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_123.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_123.jpg)
 
 图 5-16 通过 CodeBuddy 来对接 Hadoop 和 Spark 环境
 
@@ -2731,7 +2731,7 @@ CodeBuddy 接收到提示词指令后，会自动解析先前生成的需求文�
 
 要求方案清晰可行，适合在 WSL 环境下运行。
 
-随后，CodeBuddy 根据所提供的提示词，成功生成了图 5-17 左侧资源管理器中的 3 个脚本文件，即 hadoop-spark-integration.sh、check-hadoop-spark-status.sh、stop-hadoop-spark.sh。这些文件分别用于启动、检查和停止的执行脚本。 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_113.png)
+随后，CodeBuddy 根据所提供的提示词，成功生成了图 5-17 左侧资源管理器中的 3 个脚本文件，即 hadoop-spark-integration.sh、check-hadoop-spark-status.sh、stop-hadoop-spark.sh。这些文件分别用于启动、检查和停止的执行脚本。 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_113.png)
 
 **注意**
 
@@ -2739,7 +2739,7 @@ CodeBuddy 接收到提示词指令后，会自动解析先前生成的需求文�
 
 接下来，运行启动脚本（hadoop-spark-integration.sh），查看结果，如图 5-17 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_124.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_124.jpg)
 
 图 5-17 运行启动脚本（hadoop-spark-integration.sh）
 
@@ -2747,7 +2747,7 @@ CodeBuddy 接收到提示词指令后，会自动解析先前生成的需求文�
 
 至此，我们已利用 CodeBuddy 实现了 Hadoop 和 Spark 大数据开发环境的成功配置。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_125.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_125.jpg)
 
 图 5-18 组件 YARN 已正常运行
 
@@ -2765,13 +2765,13 @@ CodeBuddy 接收到提示词指令后，会自动解析先前生成的需求文�
 
 在本小节中，为完成上述任务，我们将利用 CodeBuddy 生成机器学习模型训练框架。首先要做的是输入指令，对数据进行机器学习模型训练框架搭建。这里无须自行从头编写代码，仅需按照图 5-19 所示，向 CodeBuddy 输入提示词指令以阐明我们的意图。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_126.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_126.jpg)
 
 图 5-19 CodeBuddy 输入提示词指令
 
 CodeBuddy 随即生成一个结构明晰的函数，如图 5-20 所示，该函数涵盖数据预处理、模型初始化、训练、预测以及模型保存等所有必要步骤。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_127.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_127.jpg)
 
 图 5-20 CodeBuddy 生成一个结构清晰的函数
 
@@ -2791,7 +2791,7 @@ CodeBuddy 会立刻定位问题所在，并修复具体 bug 和错误配置/代�
 
 通过上述案例发现，CodeBuddy 的这种智能调试功能有助于开发者从繁杂的错误排查工作中脱困，进而专注于模型逻辑。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_128.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_128.jpg)
 
 图 5-21 CodeBuddy 定位问题所在
 
@@ -2803,7 +2803,7 @@ CodeBuddy 会立刻定位问题所在，并修复具体 bug 和错误配置/代�
 
 接下来，我们继续输入指令，对模型进行评估和调优。例如，输入“我的随机森林模型在气温预测任务上的*R*²分数为 0.82。此结果较为理想，但我希望了解如何进一步提升。请提供一些关于超参数调优的建议”。CodeBuddy 会如同一位经验丰富的数据科学家，给出具体的优化方向，如图 5-22 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_129.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_129.jpg)
 
 图 5-22 CodeBuddy 提供具体的优化内容和方向
 
@@ -2821,7 +2821,7 @@ CodeBuddy 会立刻定位问题所在，并修复具体 bug 和错误配置/代�
 
 假设正在分析已处理好的气象数据，欲了解“气温”这一参数的分布状况。我们无须再查阅 Matplotlib 或 Plotly 的应用程序编程接口（API）文档，只需在集成开发环境（IDE）中选中包含气温数据的列，然后向 CodeBuddy 发出“请帮我绘制‘气温’的分布直方图和箱线图，以便我检查其分布和异常值”这样的指令，如图 5-23 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_130.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_130.jpg)
 
 图 5-23 向 CodeBuddy 发送绘制气温的分布直方图和箱线图指令
 
@@ -2829,7 +2829,7 @@ CodeBuddy 会立刻定位问题所在，并修复具体 bug 和错误配置/代�
 
 这种“即时提问，即时绘图”的模式，极大提高了数据探索的效率和流畅性。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_131.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_131.jpg)
 
 图 5-24 CodeBuddy 所生成的结果
 
@@ -2845,7 +2845,7 @@ CodeBuddy 会立刻定位问题所在，并修复具体 bug 和错误配置/代�
 
 随后，CodeBuddy 将生成一段结构清晰但较为复杂的代码，此代码与在 src/visualization.py 中所见的 plot_station_map 函数类似。该代码不仅会对经纬度坐标进行处理、创建标记，还会对颜色映射（colormap）进行配置、添加弹出窗口（popup）以显示详细信息，并启用标记聚合（MarkerCluster）功能，从而避免地图显示混乱。由这段代码创建的交互式地图如图 5-25 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_132.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_132.jpg)
 
 图 5-25 CodeBuddy 根据提示词指令使用 Folium 库创建的交互式地图
 
@@ -2867,11 +2867,11 @@ CodeBuddy 会解析上述输入，并自动根据之前工作生成实现该布�
 
 更为重要的是，CodeBuddy 能够助力我们实现前端交互（例如用户单击“执行聚类分析”按钮）与后端分析函数（perform_clustering）以及可视化函数（plot_clustering_results）的无缝衔接，构建一个完整的工作流。如图 5-27 所示，我们能够观察到其运行的数据概览结果。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_133.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_133.jpg)
 
 ▲图 5-26 案例项目的 main.py 文件
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_134.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_134.jpg)
 
 图 5-27 数据概览面板
 
@@ -2883,25 +2883,25 @@ CodeBuddy 会解析上述输入，并自动根据之前工作生成实现该布�
 
 在 Streamlit 生成的网页中，控制面板左侧集成了之前的 AI 功能，如图 5-28 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_135.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_135.jpg)
 
 图 5-28 控制面板左侧功能展示
 
 可以看到，控制面板左侧的详细功能栏包含多个不同的功能模块，例如数据概览、交互式仪表盘、站点分布、参数分析、AI 聚类分析、AI 预测分析、异常检测以及相关性分析等。在这些功能模块中，用户可根据自身需求，对数据可视化相关选项进行选择与操作。用户进入该功能栏的相应模块后，即可开启数据可视化的探索进程，借助不同功能实现数据的多维度、多形式可视化呈现。整个功能面板清晰明确（见图 5-29），可供用户参照图示精准定位各个功能的位置，并依照图中示意进行数据可视化方面的选择与操作。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_136.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_136.jpg)
 
 图 5-29 功能面板
 
 以 AI 预测分析功能为例，当进入相应操作界面后，需首先选定用于预测的相关参数。参数的选取是极为关键的环节，因其将直接影响后续的预测结果。完成参数选定后，即可单击“执行预测分析”按钮。此时，系统将依据气压、湿度等多种相关因素，开展对天气温度的精准预测分析工作。经过一系列复杂的计算与分析流程，最终生成了预测结果，如图 5-30 所示，该结果清晰呈现了温度预测的各项数据及相关信息。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_137.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_137.jpg)
 
 图 5-30 天气温度的预测结果
 
 数据的交互式仪表盘同样也可以在左边的功能栏切换查看，如图 5-31 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_138.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_138.jpg)
 
 图 5-31 交互式仪表盘
 
@@ -2957,7 +2957,7 @@ AI 对新媒体传播的赋能，本质是通过数据处理和算法模型，�
 
 （1）**自然语言处理（NLP）技术**。NLP 是 AI 理解和处理新媒体内容的基础，其核心应用逻辑如图 6-1 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_139.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_139.jpg)
 
 图 6-1 自然语言处理（NLP）技术的核心应用逻辑
 
@@ -2975,7 +2975,7 @@ CodeBuddy 内置了成熟的 NLP 模型封装，只需输入自然语言需求�
 
 • 推荐算法应用：基于协同过滤（CF）、深度学习（DeepFM）等算法，根据用户画像匹配优质内容，实现“千人千面”的精准推送。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_140.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_140.jpg)
 
 图 6-2 用户画像与推荐算法的核心架构和关联
 
@@ -2983,7 +2983,7 @@ CodeBuddy 提供了现成的用户画像构建和推荐算法代码模板，支�
 
 （3）**时序预测与热点识别技术**。该技术是新媒体传播的关键，AI 通过时序预测和热点识别技术，解决了传统传播“滞后性”的痛点，如图 6-3 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_141.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_141.jpg)
 
 图 6-3 时序预测与热点识别技术的核心架构
 
@@ -3001,7 +3001,7 @@ CodeBuddy 支持快速对接多平台数据接口，内置热点预测模型的�
 
 AI 热榜系统的架构需支撑“数据采集—算法处理—服务部署—前端展示”的完整流程，采用“四层架构”设计，如图 6-4 所示，各层职责清晰，CodeBuddy 可针对每层提供开发支持。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_142.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_142.jpg)
 
 图 6-4 热榜系统四层架构
 
@@ -3023,7 +3023,7 @@ AI 热榜系统开发全流程所涉及的具体步骤如下。
 
 （3）**AI 模型集成与调优。**在实际开发时可将核心 AI 模型与系统对接，确保热点预测和精准推送效果。首先通过 CodeBuddy 生成 NLP 语义分析、用户画像构建等代码，直接调用预训练模型；接着用清洗后的历史数据训练推荐算法和预测模型，由 CodeBuddy 生成训练代码，自动划分训练集/测试集，输出模型评估指标；最后根据评估结果（如预测准确率、推荐点击率）调整模型参数，从而提升效果。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_143.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_143.jpg)
 
 图 6-5 AI 热榜系统开发全流程
 
@@ -3033,7 +3033,7 @@ AI 热榜系统开发全流程所涉及的具体步骤如下。
 
 （6）**系统测试与优化。**为全面保障系统质量，通过系统化的测试与调优，提升稳定性与最终效果。在开发完成时，我们首先进行功能测试，可借助 CodeBuddy 生成自动化测试脚本（Pytest）验证热榜生成与推送等核心流程的准确性；继而开展性能测试，模拟高并发场景以定位瓶颈，并通过 CodeBuddy 优化 Redis 缓存策略和数据库查询，降低响应时间，确保系统的响应能力；最终基于测试数据，对热榜权重与模型参数进行校准，持续提升内容捕捉的精准度与用户吸引力。
 
-（7）**部署上线与运维监控。**系统从开发走向生产，重心在确保其平稳落地与长期稳健运行。我们首先通过 CodeBuddy 生成配置代码，将后端服务与 AI 模型封装为容器部署至云端，完成生产环境的搭建；随后配置监控系统负载、接口响应时间，并利用 CodeBuddy 生成异常告警脚本（邮件、短信通知），建立实时监控与告警机制，对系统性能与状态进行持续追踪，做到事前预警与事中快速响应；最终，形成以用户反馈和运营数据为驱动的迭代闭环，持续优化系统功能与业务效果。 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_144.png)
+（7）**部署上线与运维监控。**系统从开发走向生产，重心在确保其平稳落地与长期稳健运行。我们首先通过 CodeBuddy 生成配置代码，将后端服务与 AI 模型封装为容器部署至云端，完成生产环境的搭建；随后配置监控系统负载、接口响应时间，并利用 CodeBuddy 生成异常告警脚本（邮件、短信通知），建立实时监控与告警机制，对系统性能与状态进行持续追踪，做到事前预警与事中快速响应；最终，形成以用户反馈和运营数据为驱动的迭代闭环，持续优化系统功能与业务效果。 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_144.png)
 
  **注意**
 
@@ -3065,7 +3065,7 @@ CodeBuddy 支持 HTML5/CSS3/JS 语法补全、Vue 指令纠错、Bootstrap 组�
 
 表 6-1 CodeBuddy 辅助开发技术栈
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_145.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_145.jpg)
 
 **6.2.2**
 
@@ -3089,7 +3089,7 @@ CodeBuddy 支持 HTML5/CSS3/JS 语法补全、Vue 指令纠错、Bootstrap 组�
 
 （2）启动 CodeBuddy IDE 并选择大语言模型，在图 6-6 中右下角的对话框内输入构建好的提示词，随后单击“Send”按钮提交需求。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_146.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_146.jpg)
 
 图 6-6 CodeBuddy 输入提示词
 
@@ -3105,35 +3105,35 @@ CodeBuddy 经过深度思考后会生成对应的代码，其中包括 5 个关�
 
 • 配置文件和依赖管理。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_147.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_147.jpg)
 
 图 6-7 CodeBuddy 开发本项目网页的 5 个关键步骤
 
 （3）在 CodeBuddy 中单击“Keep”按钮，接受生成的代码。所生成主界面 index.html 的代码如图 6-8 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_148.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_148.jpg)
 
 图 6-8 主界面 index.html 的代码
 
 该项目最终生成代码的目录如图 6-9 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_149.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_149.jpg)
 
 图 6-9 生成代码的目录
 
 （4）通过本地浏览器打开 index.html 页面，如图 6-10 所示。整个界面将展示新媒体营销与热榜信息。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_150.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_150.jpg)
 
 图 6-10 新媒体营销与热榜网页效果
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_151.png)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_151.png)
 
 **注意**
 
 本项目暂无最终效果图，这是因为数据采集部分代码未执行，更多展示的是整个项目的具体实现思路。此外，CodeBuddy 生成了详细的用户使用文档“README.md”，如图 6-11 所示，读者可以按照该步骤执行代码以展示最终网页。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_152.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_152.jpg)
 
 图 6-11 用户使用文档
 
@@ -3157,11 +3157,11 @@ CodeBuddy 经过深度思考后会生成对应的代码，其中包括 5 个关�
 
 若标题采用浅灰色、评论数却用超大字号展示，会导致视觉重心混乱，使用户难以快速获取有效信息。图 6-12 和图 6-13 展示了视觉效果的差异，正确案例中标题和热度作为核心信息，能被用户快速捕捉，而错误案例则会让用户的注意力偏离重点。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_153.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_153.jpg)
 
 ▲图 6-12 错误案例（视觉混乱）
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_154.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_154.jpg)
 
 图 6-13 正确案例（层级清晰）
 
@@ -3173,11 +3173,11 @@ CodeBuddy 经过深度思考后会生成对应的代码，其中包括 5 个关�
 
 图 6-14 和图 6-15 展示了色彩对比图，建议选用饱和度适中的“正绿”“正红”，避免使用高亮度荧光色。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_155.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_155.jpg)
 
 ▲图 6-14 错误案例（色彩刺眼）
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_156.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_156.jpg)
 
 图 6-15 正确案例（色彩舒适）
 
@@ -3215,7 +3215,7 @@ CodeBuddy 经过深度思考后会生成对应的代码，其中包括 5 个关�
 
 CodeBuddy 经过深度思考，生成代码的运行效果如图 6-16 所示。该代码成功显示了热点新闻的信息，并给出了代表性示例，真实开发中将其与数据接口匹配，即可实时动态展现关注的新闻及媒体资讯。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_157.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_157.jpg)
 
 图 6-16 热榜基础网页架构的效果
 
@@ -3241,7 +3241,7 @@ CodeBuddy 经过深度思考，生成代码的运行效果如图 6-16 所示。�
 
 生成代码的效果如图 6-17 所示，此时数据已填充且 UI 界面变得更加美观。在真实开发中，数据通常存储至 JSON 或数据库中，从而更好地实现前端与数据的交互。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_158.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_158.jpg)
 
 图 6-17 榜单数据填充效果
 
@@ -3259,11 +3259,11 @@ CodeBuddy 经过深度思考，生成代码的运行效果如图 6-16 所示。�
 
 最终运行效果如图 6-18 所示，单击“刷新数据”按钮会有对应效果。同时，单击不同榜单栏目，将会显示其热度指数等详细信息，图 6-19 展示了“人工智能新突破”相关信息。**注意**，提示词并非万能，由于个体使用场景与工具响应差异，每个人得到的结果可能有所不同。因此，在使用 CodeBuddy 这类工具时，务必灵活变通，若某功能未正常响应，可直接向其反馈具体问题，譬如“领域筛选功能选择后无反应，请检查代码并修复”，CodeBuddy 将自动定位问题并优化代码。明确这一前提后，回顾整个项目开发过程不难发现：零基础实现网页开发的核心，并非掌握复杂的代码编写能力，而是学会“清晰梳理需求、精准传递指令”，让工具成为高效落地的助力。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_159.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_159.jpg)
 
 ▲图 6-18 动态加载效果
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_160.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_160.jpg)
 
 图 6-19 详情弹窗效果
 
@@ -3305,13 +3305,13 @@ CodeBuddy 经过深度思考，生成代码的运行效果如图 6-16 所示。�
 
 以“视觉层级”构建热榜式阅读秩序的图文排版效果如图 6-20 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_161.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_161.jpg)
 
 图 6-20 视觉痛点锚点示例
 
 图 6-21 展示了视觉信任的示例，通过评论来提升文案的可信度。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_162.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_162.jpg)
 
 图 6-21 视觉信任背书示例
 
@@ -3327,19 +3327,19 @@ CodeBuddy 经过深度思考，生成代码的运行效果如图 6-16 所示。�
 
 （1）**效果验证类（用数据量化产品价值）。**将产品使用效果从“主观描述”转化为“客观数据”，解决用户“效果是否真实”的核心疑虑。例如，种草低卡代餐粥时，用柱状图展示“每份热量仅 89 大卡，约等于 1 个苹果”的对比，比“低卡健康”的文案更具说服力，如图 6-22 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_163.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_163.jpg)
 
 图 6-22 效果验证类可视化分析
 
 （2）**价值对比类（凸显产品核心优势）**。通过与同类产品或用户原有使用习惯对比，突出目标产品的“性价比”或“独特性”，帮助用户做出决策，如图 6-23 所示。例如，种草网红辣条时，用横向柱状图展示“本品价格 9.9 元/100g，某知名品牌 15 元/80g”，直观凸显性价比。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_164.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_164.jpg)
 
 图 6-23 价值对比类可视化分析
 
 （3）**用户反馈类（用聚合数据建立信任）。**将分散的用户评价转化为可视化数据，呈现“多数用户的真实反馈”，利用群体信任效应提升内容可信度。例如，种草自热火锅时，用饼图展示“88%用户给出 5 星好评，9%为 4 星好评，3%为一般”，同时用词云图突出“菜量足、汤底香、方便快捷”等关键词，强化用户信任，如图 6-24 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_165.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_165.jpg)
 
 图 6-24 用户反馈类可视化分析
 
@@ -3375,7 +3375,7 @@ CodeBuddy 经过深度思考，生成代码的运行效果如图 6-16 所示。�
 
 CodeBuddy 经过深度思考后生成的自热米饭种草网页如图 6-25 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_166.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_166.jpg)
 
 图 6-25 自热米饭种草网页
 
@@ -3425,31 +3425,31 @@ CodeBuddy 经过深度思考后生成的自热米饭种草网页如图 6-25 所�
 
 优化后的主界面如图 6-26 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_167.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_167.jpg)
 
 图 6-26 优化后的主界面
 
 **第三步，指令整合与网页嵌入。**优化网页布局，向 CodeBuddy 发送指令完成模块构建，图 6-27 展示了 CodeBuddy 利用上下文关联功能，与先前生成的 HTML 网页关联，再输入完整提示词以优化代码。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_168.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_168.jpg)
 
 图 6-27 CodeBuddy 上下文关联功能
 
 CodeBuddy 经过深度思考重构代码，其思考及代码生成过程如图 6-28 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_169.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_169.jpg)
 
 图 6-28 CodeBuddy 思考及代码生成过程
 
 随后，在生成代码的界面中单击“Keep”按钮，表示接受 CodeBuddy 重构的 HTML 代码，如图 6-29 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_170.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_170.jpg)
 
 图 6-29 接受重构的 HTML 代码
 
 最后，调用本地浏览器打开网页“dormitory-hot-rice-final.html”文件，显示的种草网页如图 6-30 所示，其能自动适应不同的设备，具有较好的扩展能力。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_171.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_171.jpg)
 
 图 6-30 爆火种草网页开发效果图
 
@@ -3479,7 +3479,7 @@ CodeBuddy 经过深度思考重构代码，其思考及代码生成过程如图 
 
 在桌面应用程序开发流程（见图 7-1）中，图形用户界面（Graphical User Interface，GUI）扮演着关键角色。作为以窗口、按钮、菜单、图标等视觉组件为载体的人机交互模式，GUI 通过事件驱动机制实现用户操作与程序逻辑的双向映射，使应用具备可视化、低认知负荷与高交互性等优势。现代 GUI 系统强调组件化布局、跨平台渲染、一致性设计规范，以及对可用性、可访问性和交互反馈速度的优化，是提升应用用户体验（UX）与交互效率（UI Interactive Efficiency）的核心技术。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_172.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_172.jpg)
 
 图 7-1 桌面应用程序开发流程
 
@@ -3497,7 +3497,7 @@ C/S 架构是桌面应用系统最典型且最稳定的体系结构之一，其�
 
 与此相对，B/S（Browser/Server）架构依赖浏览器作为统一客户端入口，所有逻辑均集中于服务器端，前端通过 HTTP/HTTPS 获取动态内容并渲染展示，其优势在于部署更新便捷、跨平台兼容性强，适合大规模用户访问场景。然而，B/S 模型对本地系统资源的访问能力较弱，交互性能受浏览器环境与网络条件制约较为明显，更难以实现高性能硬件调用或离线处理能力。相比之下，C/S 架构具备更强的本地资源控制与响应速度，可深度集成 GPU 加速、设备驱动与安全隔离机制，适用于图像处理、视频编解码、安全运维等高性能桌面应用场景。因此，在 AI 驱动的软件开发范式下，两种架构正呈现互补融合趋势：B/S 负责统一接入与远程协作，C/S 承担高负载与智能计算，共同提升桌面应用的易部署性与算力承载能力。图 7-2 展示了两种架构的区别。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_173.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_173.jpg)
 
 图 7-2 B/S 和 C/S 架构
 
@@ -3509,7 +3509,7 @@ C/S 架构是桌面应用系统最典型且最稳定的体系结构之一，其�
 
 表 7-1 桌面应用系统常用开发工具与编程语言
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_174.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_174.jpg)
 
 在框架层面，还存在多种跨平台桌面应用构建方案，如 Electron、Qt、Flutter、PyWebview。最终，得益于深度学习与编程语义理解的结合，大语言模型正在快速成为桌面应用开发的重要智能算力支撑。通过提示词工程，开发者可以引导 CodeBuddy 自动生成 Python+Tkinter 或 HTML+JavaScript 混合模式的桌面系统，甚至实现功能级别的智能补全、错误修复与性能调优。未来的桌面应用开发将从代码编写过渡到语义驱动与意图编排阶段，实现智能开发。
 
@@ -3525,7 +3525,7 @@ Tkinter 采用面向对象方式组织图形组件（Widget），主要由容器
 
 表 7-2 Tkinter 常用组件及其功能
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_175.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_175.jpg)
 
 清单 7-1 给出了一个 Tkinter 的简单示例代码。
 
@@ -3565,7 +3565,7 @@ root.mainloop()
 
 上述代码的运行结果如图 7-3 所示。首先，创建主窗口 root 并设置标题与界面大小；随后添加 Label 标签组件用于显示提示信息，并通过 Button 按钮与回调函数 on_click()建立事件交互机制。当用户单击按钮时，标签文本内容将随之更新，实现最基础的人机交互功能。最后，调用 mainloop()方法进入事件循环，保持窗口持续响应用户操作。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_176.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_176.jpg)
 
 图 7-3 Tkinter 示例运行结果
 
@@ -3581,7 +3581,7 @@ root.mainloop()
 
 数字图像由离散**像素**（Pixel）构成，每个像素是图像最小的采样单元，包含其亮度或颜色信息。因此，像素矩阵既是图像数据结构的核心表现形式，也是计算机视觉算法操作的基本对象。像素强度在不同成像模型下具有不同语义，如在灰度图中代表亮度，在彩色图中分别表示不同通道的颜色分量。掌握像素模型对于理解图像特征提取、卷积操作及深度学习视觉建模具有重要意义。图 7-4 展示了图像是如何由像素组成的。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_177.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_177.jpg)
 
 图 7-4 图像由像素组成
 
@@ -3635,7 +3635,7 @@ OpenCV（Open Source Computer Vision Library）是应用最广泛的开源�
 
 表 7-3 OpenCV 常用核心函数
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_178.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_178.jpg)
 
 需要强调的是，OpenCV 已集成 ONNX Runtime、DNN 模块等深度学习推理接口，可直接加载主流训练框架（如 PyTorch、TensorFlow）导出的模型文件，支持在本地完成实时的人脸检测、目标识别等 AI 功能。对于 CodeBuddy 这类大语言模型辅助开发系统而言，OpenCV 提供了标准化、可调用的视觉功能 API，使大语言模型能够基于自然语言提示词自动生成图像处理代码，实现“从需求到应用”的快速落地。因此，掌握 OpenCV 的核心用法，是构建智能桌面视觉应用系统的重要知识基石。
 
@@ -3653,7 +3653,7 @@ Gray = 0.299*R*+0.587*G*+0.114*B*   （7-1）
 
 OpenCV 已对该公式进行了底层优化，调用函数 cvtColor(img, cv2.COLOR_BGR2GRAY)实现。下面打开 CodeBuddy 工具，并在对话框中输入图 7-5 所示的提示词。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_179.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_179.jpg)
 
 图 7-5 CodeBuddy 输入提示词
 
@@ -3665,13 +3665,13 @@ OpenCV 已对该公式进行了底层优化，调用函数 cvtColor(img, cv2.CO
 
  cv2.imwrite(output_path, gray)
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_180.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_180.jpg)
 
 图 7-6 CodeBuddy 生成灰度处理代码
 
 运行代码将在本地文件夹生成灰度处理后的图像，如图 7-7 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_181.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_181.jpg)
 
 图 7-7 图像灰度处理效果
 
@@ -3679,7 +3679,7 @@ OpenCV 已对该公式进行了底层优化，调用函数 cvtColor(img, cv2.CO
 
 图像平移（Translation）属于几何变换，通过平移矩阵实现图像在二维坐标系中的位置偏移，用于数据增强与 ROI（Region of Interest）定位。仿射平移矩阵为
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_182.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_182.jpg)
 
 （7-2）
 
@@ -3713,7 +3713,7 @@ cv2.destroyAllWindows()
 
 上述代码的运行结果如图 7-8 所示，整幅图像向右移动了 50 像素，向下移动了 30 像素。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_183.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_183.jpg)
 
 图 7-8 图像移动效果
 
@@ -3721,7 +3721,7 @@ cv2.destroyAllWindows()
 
 锐化（Sharpening）旨在增强图像边缘，通过突出灰度变化较大的区域，使纹理更清晰。常见方法包括基于拉普拉斯算子的锐化、高提升滤波器等。经典锐化卷积核示例如下：
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_184.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_184.jpg)
 
 （7-3）
 
@@ -3755,7 +3755,7 @@ cv2.destroyAllWindows()
 
 运行上述代码，生成图 7-9 所示的效果图。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_185.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_185.jpg)
 
 图 7-9 图像锐化效果图
 
@@ -3799,7 +3799,7 @@ cv2.destroyAllWindows()
 
 （1）打开并登录 CodeBuddy，选择合适的大语言模型，输入图 7-10 所示的提示词。经过深度思考后，CodeBuddy 生成了图像处理系统的主界面代码。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_186.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_186.jpg)
 
 图 7-10 CodeBuddy 输入提示词
 
@@ -3807,7 +3807,7 @@ cv2.destroyAllWindows()
 
 （2）将 CodeBuddy 生成的“image_app.py”文件保存在工程中，如图 7-11 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_187.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_187.jpg)
 
 图 7-11 将 CodeBuddy 生成的“image_app.py”文件保存在工程中
 
@@ -3925,7 +3925,7 @@ def _on_open_image(self):
 
         except Exception as e:
 
-            messagebox.showerror("Open Image Error", f"Failed to open image:\n{e}") ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_188.png)
+            messagebox.showerror("Open Image Error", f"Failed to open image:\n{e}") ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_188.png)
 
 ##  **提示**
 
@@ -3973,51 +3973,51 @@ def _create_buttons(self, parent: tk.Frame):
 
 然而，运行该代码后，我们遇到了第一个错误，如图 7-12 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_189.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_189.jpg)
 
 图 7-12 生成代码提示错误
 
-（3）在 CodeBuddy 提示词对话框中，单击“@（Add context）”按钮，即可实现上下文关联及互动功能。接着，在弹出的下拉菜单中选择“Add File”，再次选择当前需要完善的“image_app.py”文件，如图 7-13 所示。 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_188.png)
+（3）在 CodeBuddy 提示词对话框中，单击“@（Add context）”按钮，即可实现上下文关联及互动功能。接着，在弹出的下拉菜单中选择“Add File”，再次选择当前需要完善的“image_app.py”文件，如图 7-13 所示。 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_188.png)
 
  **注意**
 
 上下文交互功能非常便捷和常用，并且其还有多种关联方法，建议重点关注。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_190.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_190.jpg)
 
 图 7-13 上下文关联
 
 （4）选择代码运行的错误提示，并让大语言模型优化代码，如图 7-14 所示。这里所关联的代码为 CodeBuddy 生成的“image_app.py”文件，大语言模型会结合源码和错误进行自动纠错。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_191.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_191.jpg)
 
 图 7-14 代码纠正提示词
 
 运行结果如图 7-15 所示，可以看到，CodeBuddy 能准确识别错误的位置并给出解决方案。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_192.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_192.jpg)
 
 图 7-15 CodeBuddy 成功解决错误
 
 （5）在 CodeBuddy IDE 中定位代码位置并优化代码，如图 7-16 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_193.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_193.jpg)
 
 图 7-16 定位代码位置并优化代码
 
 最终运行效果如图 7-17 所示，由 CodeBuddy 生成的界面非常美观，并且有界面缩放功能。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_194.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_194.jpg)
 
 图 7-17 图像处理系统主界面
 
 接着，我们单击“Open Image”按钮打开一张本地图像，其显示效果如图 7-18 所示。当我们单击其他按钮时，它会提示该功能还未实现（见图 7-19），整个 CodeBuddy 开发的桌面应用程序与前文构建的提示词基本一致，实现“需求理解→提示词构建→界面呈现→基础交互”的完整闭环设计，后续章节将在此基础上逐步实现完整的处理功能。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_195.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_195.jpg)
 
 ▲图 7-18 打开图像功能实现
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_196.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_196.jpg)
 
 图 7-19 未实现功能提示
 
@@ -4031,17 +4031,17 @@ def _create_buttons(self, parent: tk.Frame):
 
 请在该代码基础上实现“图像灰度处理”和“图像阈值化”功能，单击按钮调用不同的函数实现对应功能，并且不修改源代码的逻辑结构，代码结构清晰且包含注释。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_197.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_197.jpg)
 
 图 7-20 输入图像灰度处理与阈值化提示词
 
 （2）CodeBuddy 会自动生成图像灰度处理与阈值化功能的函数代码，并自动更新“image_app.py”文件。其中，图像灰度处理的关键函数代码如图 7-21 所示，图像阈值化的关键函数代码如图 7-22 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_198.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_198.jpg)
 
 ▲图 7-21 图像灰度处理关键函数代码
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_199.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_199.jpg)
 
 图 7-22 图像阈值化关键函数代码
 
@@ -4079,11 +4079,11 @@ def _on_threshold(self):
 
 （3）运行代码并查看图像处理效果。图 7-23 展示了图像灰度处理的效果，已将原始图像转换为灰度图；图 7-24 展示了图像阈值化的效果，可以自定义阈值进行转换。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_200.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_200.jpg)
 
 ▲图 7-23 图像灰度处理的效果
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_201.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_201.jpg)
 
 图 7-24 图像阈值化的效果
 
@@ -4099,7 +4099,7 @@ def _on_threshold(self):
 
 （2）CodeBuddy 会自动生成图像 Sobel 算子锐化与 Canny 算法边缘检测功能的函数代码，并自动更新“image_app.py”文件。其中，图像 Sobel 锐化的关键函数代码如图 7-25 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_202.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_202.jpg)
 
 图 7-25 图像 Sobel 锐化的关键函数代码
 
@@ -4135,11 +4135,11 @@ def _on_sobel_sharpen(self):
 
 （3）运行代码并查看图像处理效果。图 7-26 展示了图像锐化的效果——已利用 Sobel 算子实现；图 7-27 展示了 Canny 边缘检测的效果。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_203.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_203.jpg)
 
 ▲图 7-26 基于 Sobel 算子的图像锐化效果
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_204.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_204.jpg)
 
 图 7-27 基于 Canny 算法的边缘检测效果
 
@@ -4155,31 +4155,31 @@ def _on_sobel_sharpen(self):
 
 请在该代码基础上实现“图像平移”“直方图均衡化”和“均值滤波”功能，单击按钮调用不同的函数实现对应功能，并且不修改源代码的逻辑结构，代码结构清晰且包含注释。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_205.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_205.jpg)
 
 图 7-28 输入实现其他功能的提示词
 
 CodeBuddy 会自动生成图像平移、直方图均衡化和均值滤波功能的函数代码，并自动更新“image_app.py”文件。其中，图像平移的关键函数代码如图 7-29 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_206.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_206.jpg)
 
 图 7-29 图像平移的关键函数代码
 
 运行代码可实现不同的功能。图 7-30 展示了 CodeBuddy 实现图像平移 50 像素的效果。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_207.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_207.jpg)
 
 图 7-30 CodeBuddy 实现图像平移
 
 图 7-31 展示了 CodeBuddy 实现图像直方图均衡化的效果。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_208.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_208.jpg)
 
 图 7-31 CodeBuddy 实现图像直方图均衡化
 
 图 7-32 展示了 CodeBuddy 实现图像均值滤波的效果。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_209.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_209.jpg)
 
 图 7-32 CodeBuddy 实现图像均值滤波
 
@@ -4247,7 +4247,7 @@ CodeBuddy 可通过自动化脚本生成与环境配置提示降低发布难度�
 
 上述提示词的运行效果如图 7-33 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_210.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_210.jpg)
 
 图 7-33 桌面应用系统打包提示词的运行效果
 
@@ -4283,7 +4283,7 @@ CodeBuddy 可通过自动化脚本生成与环境配置提示降低发布难度�
 
 此外，现代音乐播放器在实现过程中还需处理音频解码与缓存优化问题。常用的音频格式如 MP3、WAV、FLAC 等，其解码过程需调用底层库（如 pydub、pygame.mixer、ffmpeg）或 HTML5 中的 Web Audio API。在 AI 辅助开发框架中，可通过语义分析生成对应的解码与输出代码，以确保音频在不同格式与采样率下的高保真播放效果，CodeBuddy 还能自动匹配音频驱动环境。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_211.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_211.jpg)
 
 图 8-1 大语言模型构建的音乐播放器界面
 
@@ -4445,7 +4445,7 @@ CodeBuddy 能够理解用户对“音乐播放”“音量调节”或“混音�
 
 • 时间显示：格式化并显示当前播放时间和总时长。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_212.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_212.jpg)
 
 图 8-2 HTML5 音频播放器代码的运行效果
 
@@ -4459,7 +4459,7 @@ CodeBuddy 在音频开发中的核心价值体现在两个方面：一是自然�
 
 音乐播放器的基本开发流程可划分为需求分析、界面设计、功能实现与系统集成 4 个阶段，如图 8-3 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_213.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_213.jpg)
 
 图 8-3 音乐播放器的基本开发流程
 
@@ -4507,7 +4507,7 @@ AI 集成层面预留标准化接口，支持智能推荐算法、语音控制�
 
 图 8-4 展示了大语言模型构建详细提示词的过程。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_214.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_214.jpg)
 
 图 8-4 大语言模型构建详细提示词的过程
 
@@ -4519,31 +4519,31 @@ AI 集成层面预留标准化接口，支持智能推荐算法、语音控制�
 
 首先，将提示词输入 CodeBuddy 并选择合适的模型，如图 8-5 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_215.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_215.jpg)
 
 图 8-5 输入提示词并选择模型
 
 经过深度思考，CodeBuddy 开始生成关键代码。图 8-6 展示了其生成代码及思考的过程，含创建 HTML 结构、编写 CSS 样式、创建数据管理模块、创建 UI 渲染模块、创建播放器逻辑控制模块、创建应用主模块、添加默认封面图片 7 个关键步骤。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_216.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_216.jpg)
 
 图 8-6 CodeBuddy 生成代码及思考的过程
 
 随后，CodeBuddy 依次执行 7 个关键步骤并生成代码文件，如图 8-7 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_217.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_217.jpg)
 
 图 8-7 CodeBuddy 执行 7 个关键步骤
 
 最终生成的完整代码呈现出高度结构化的逻辑架构，其模块化设计理念与清晰的依赖关系如图 8-8 所示，充分展现了 CodeBuddy 在软件工程实践中的卓越代码组织能力与系统性开发优势。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_218.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_218.jpg)
 
 图 8-8 代码逻辑架构
 
 接着，将生成的代码用 CodeBuddy IDE 打开，其 index.html 代码如图 8-9 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_219.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_219.jpg)
 
 图 8-9 index.html 代码
 
@@ -4551,7 +4551,7 @@ CodeBuddy 还生成了详细的使用说明文档——README.md，如图 8-10 �
 
 最后，直接在浏览器中打开 index.html 文件即可使用播放器。示例中的音频文件 URL 是虚构的，实际使用时需要替换为真实的音频文件 URL。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_220.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_220.jpg)
 
 图 8-10 使用说明文档
 
@@ -4563,35 +4563,35 @@ CodeBuddy 还生成了详细的使用说明文档——README.md，如图 8-10 �
 
 （1）通过浏览器打开 index.html 文件，其主界面如图 8-11 所示。整个音乐播放器网页包含丰富的按钮和功能，并且具有简洁的界面，高度契合提示词的要求。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_221.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_221.jpg)
 
 图 8-11 音乐播放器主界面
 
 （2）单击“上一曲”或“下一曲”按钮，可以自动播放不同的音乐，如图 8-12 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_222.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_222.jpg)
 
 图 8-12 单击“下一曲”按钮播放音乐
 
 （3）单击右上角的“月亮”按钮，可以将整个界面风格切换为白天的主题。整个网页具有较高的人性化功能，包含了白天和黑夜两种风格，与主流的音乐播放器功能贴近。图 8-13 展示了切换为白天后的风格图。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_223.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_223.jpg)
 
 图 8-13 主界面切换为白天风格
 
 但是，目前音乐播放器无法有效播放歌曲，这是因为界面中呈现的 5 首歌曲均由大语言模型生成，代码中仅给出虚拟的在线链接，需要替换为真实的链接才能播放。图 8-14 展示了 data.js 代码中的虚拟链接。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_224.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_224.jpg)
 
 图 8-14 data.js 代码中的虚拟链接
 
 假设本地 music 文件夹中存放了 5 首歌曲，如图 8-15 所示，并且这些歌曲均为大语言模型结合贵州旅游特色原创。图 8-16 展示了作者利用大语言模型生成的《黔行律动》歌曲。读者可以尝试将 data.js 代码中的虚拟链接替换为本地歌曲。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_225.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_225.jpg)
 
 ▲图 8-15 本地歌曲
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_226.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_226.jpg)
 
 图 8-16 大语言模型原创歌曲《黔行律动》
 
@@ -4603,45 +4603,45 @@ CodeBuddy 还生成了详细的使用说明文档——README.md，如图 8-10 �
 
 （1）在 CodeBuddy 右下角对话框中单击“Add Context”按钮，用来关联上下文，如图 8-17 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_227.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_227.jpg)
 
 图 8-17 单击“Add Context”按钮
 
 （2）在弹出的菜单中选择“File & Folders”，如图 8-18 所示。接着，继续选择需要关联的文件，这里主要选择 data.js 和 player.js 文件，分别表示本地音乐地址和实现播放功能的代码文件，如图 8-19 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_228.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_228.jpg)
 
 ▲图 8-18 选择“File & Folders”
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_229.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_229.jpg)
 
 图 8-19 选择需要优化的文件
 
 （3）输入提示词让 CodeBuddy 优化代码，如图 8-20 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_230.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_230.jpg)
 
 图 8-20 输入优化提示词
 
 （4）CodeBuddy 经过深度思考后对代码进行优化，并生成测试代码 test-audio.html 文件，如图 8-21 所示。该代码旨在本地验证音乐播放功能，同时给出开启服务和端口的建议。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_231.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_231.jpg)
 
 图 8-21 生成测试代码
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_232.png)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_232.png)
 
 **注意**
 
 代码生成成功后，CodeBuddy 会出现相应的提示，如图 8-22 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_233.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_233.jpg)
 
 图 8-22 代码生成成功提示
 
 （5）通过浏览器打开测试网页，5 首音乐都能正常播放。图 8-23 展示了第一首音乐播放到中间区域的状态。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_234.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_234.jpg)
 
 图 8-23 测试代码，音乐能正常播放
 
@@ -4811,7 +4811,7 @@ checkMusicFolder.appendChild(status);
 
 （6）继续与 CodeBuddy 对话，通过图 8-24 所示的提示词优化代码。经过深度思考，CodeBuddy 生成如下内容。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_235.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_235.jpg)
 
 图 8-24 优化网页系统代码的提示词及生成内容
 
@@ -4825,27 +4825,27 @@ checkMusicFolder.appendChild(status);
 
 图 8-25 具体呈现了 CodeBuddy 所进行的优化内容，充分体现其强大的代码交互与改错能力。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_236.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_236.jpg)
 
 图 8-25 优化内容
 
 通过浏览器打开优化后的 index.html 文件，运行效果如图 8-26 所示。再次强调，本书的完整代码推荐读者去开源地址下载和学习。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_237.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_237.jpg)
 
 图 8-26 成功运行音乐播放器
 
 此外，各种播放功能均能成功执行，如“随机播放”和“顺序播放”，或“上一曲”与“下一曲”，如图 8-27 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_238.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_238.jpg)
 
 图 8-27 成功实现“下一曲”按钮功能
 
 优化后的 player.js 文件代码如图 8-28 所示，可用于播放器逻辑控制模块的实现。完整的代码参见本书的配套资源。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_239.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_239.jpg)
 
-图 8-28 优化后的 player.js 文件代码 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_232.png)
+图 8-28 优化后的 player.js 文件代码 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_232.png)
 
 **注意**
 
@@ -4897,7 +4897,7 @@ checkMusicFolder.appendChild(status);
 
 表 9-1 常用的后端开发框架与工具
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_240.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_240.jpg)
 
 **9.1.2**
 
@@ -4905,7 +4905,7 @@ checkMusicFolder.appendChild(status);
 
 在典型的 Web 应用架构中，前端、后端与数据库通过请求—响应机制形成协同工作流程。前端通常运行于浏览器环境，负责界面渲染、用户输入采集与基础校验，其核心任务是将用户操作转化为结构化请求并提交给后端服务。后端作为系统的业务中枢，基于 Web 框架对请求进行解析，执行业务逻辑，根据需要与数据库交互以完成数据的读取、写入或更新操作。数据库则承担数据持久化职责，以结构化形式存储系统的核心业务数据。其基本交互流程如图 9-1 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_241.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_241.jpg)
 
 图 9-1 前端—后端—数据库交互流程
 
@@ -4999,7 +4999,7 @@ SQLite 是一种轻量级的嵌入式关系型数据库系统，其特点是不�
 
 表 9-2 数据库中的常见操作类型及其示例
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_242.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_242.jpg)
 
 ## **9.3**
 
@@ -5021,7 +5021,7 @@ SQLite 是一种轻量级的嵌入式关系型数据库系统，其特点是不�
 
 （5）输出要求：给出项目目录结构说明，给出完整关键代码文件，并展示如何在视图中传递硬编码图书数据与图片路径。
 
-（6）保留 SQLite 默认配置但暂不编写实际增删改查逻辑。 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_243.png)
+（6）保留 SQLite 默认配置但暂不编写实际增删改查逻辑。 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_243.png)
 
 **注意**
 
@@ -5029,23 +5029,23 @@ SQLite 是一种轻量级的嵌入式关系型数据库系统，其特点是不�
 
 （2）打开 CodeBuddy 并选择工程目录，如图 9-2 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_244.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_244.jpg)
 
 图 9-2 选择工程目录
 
 （3）在 CodeBuddy IDE 右下角对话框中选择模型并输入提示词，这里选用系统自带的 GLM-4.6 模型，如图 9-3 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_245.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_245.jpg)
 
 图 9-3 选择模型
 
 该部分输入的提示词如图 9-4 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_246.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_246.jpg)
 
 图 9-4 输入前端和后端网站设计的提示词
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_247.png)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_247.png)
 
 **注意**
 
@@ -5053,67 +5053,67 @@ SQLite 是一种轻量级的嵌入式关系型数据库系统，其特点是不�
 
 （4）经过深度思考，CodeBuddy 将自动生成图书管理系统前端和后端开发的具体方案，以及详细的代码。其开发网站的思路如图 9-5 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_248.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_248.jpg)
 
 图 9-5 CodeBuddy 开发网站的思路
 
 图 9-6 展示了生成项目的目录，包括 library、library_site 和 manage.py 等内容。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_249.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_249.jpg)
 
 图 9-6 生成项目的目录
 
 图 9-7 展示了 CodeBuddy 生成代码的过程。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_250.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_250.jpg)
 
 图 9-7 CodeBuddy 生成代码的过程
 
 （5）CodeBuddy 会自动配置网站，如图 9-8 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_251.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_251.jpg)
 
 图 9-8 CodeBuddy 自动配置网站
 
 随后，调用“python manage.py runserver 0.0.0.0:8000”命令启动服务并监听指定端口号，通过网址访问图书管理系统，如图 9-9 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_252.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_252.jpg)
 
 图 9-9 启动服务访问网站
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_247.png)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_247.png)
 
 **注意**
 
 除了能自动调试和运行，CodeBuddy 还有一个优秀的功能，即能生成完整且详细的使用说明文档，如图 9-10 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_253.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_253.jpg)
 
 图 9-10 生成详细的使用说明文档
 
 （6）在本地浏览器中输入网址“http://127.0.0.1:8000/”即可访问网站。图书管理系统的登录页面如图 9-11 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_254.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_254.jpg)
 
 图 9-11 图书管理系统的登录页面
 
-输入测试用户名 admin 和密码 123456，即可登录系统，登录后的图书管理系统主界面如图 9-12 所示。 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_247.png)
+输入测试用户名 admin 和密码 123456，即可登录系统，登录后的图书管理系统主界面如图 9-12 所示。 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_247.png)
 
 **注意**
 
 整个主界面的书籍描述及布局均由 CodeBuddy 自动生成，并且其具有良好的配图，包括代表性小说《活着》《三体》《红楼梦》等。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_255.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_255.jpg)
 
 图 9-12 图书管理系统主界面
 
 关键代码如图 9-13 和图 9-14 所示，当前数据是以硬编码方式插入并显示，接下来我们将详细讲解如何与数据库结合，进行数据库关联的查询和操作。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_256.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_256.jpg)
 
 ▲图 9-13 models.py 文件代码
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_257.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_257.jpg)
 
 图 9-14 views.py 文件代码
 
@@ -5139,31 +5139,31 @@ SQLite 是一种轻量级的嵌入式关系型数据库系统，其特点是不�
 
 （2）在 CodeBuddy 中输入数据库开发提示词，如图 9-15 所示，然后利用上下文关联功能勾选 9.3 节生成的图书管理系统工程目录“library_site”。整个数据库开发将在先前代码的基础上进行优化，从而生成完整的网站。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_258.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_258.jpg)
 
 图 9-15 输入数据库开发提示词
 
 （3）经过深度思考，CodeBuddy 开始理解工程文件和代码，设计数据库与前端、后端代码交互，从而实现图书管理系统的开发，其完整方案如图 9-16 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_259.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_259.jpg)
 
 图 9-16 CodeBuddy 生成数据库设计的完整方案
 
 整个过程涉及 6 个关键步骤，包括创建用户模型并生成数据库迁移文件、修改视图函数以使用数据库用户验证、添加 10 本书籍到数据库、修改主页面视图从数据库获取书籍数据、创建添加书籍的页面和视图函数，以及测试所有功能确保正常运行，如图 9-17 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_260.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_260.jpg)
 
 图 9-17 CodeBuddy 设计图书管理系统数据库的 6 个关键任务
 
 此外，CodeBuddy 利用其强大的代码理解与生成功能，能够进行自动化的调试与测试。当该过程出现错误时，它会自动解决问题并优化代码，直到程序成功运行。图 9-18 展示了其利用“python manage.py migrate”命令迁移数据并执行数据库操作的过程。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_261.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_261.jpg)
 
 图 9-18 CodeBuddy 自动测试与调试
 
 图 9-19 展示了 CodeBuddy 自动执行第 3 个任务，即添加 10 本书籍到数据库中的过程，其自动生成了 0003_create_initial_books.py 迁移文件，从而执行批量初始化操作。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_262.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_262.jpg)
 
 图 9-19 自动执行添加书籍操作
 
@@ -5243,29 +5243,29 @@ SQLite 是一种轻量级的嵌入式关系型数据库系统，其特点是不�
 
 （4）CodeBuddy 自动创建服务并运行程序，该过程利用“Python manage.py runserver”命令实现，如图 9-20 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_263.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_263.jpg)
 
 图 9-20 CodeBuddy 自动运行程序
 
 当前的系统主界面如图 9-21 所示，可以看到，增加了“添加书籍”按钮。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_264.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_264.jpg)
 
 图 9-21 系统主界面
 
 （5）单击“添加书籍”按钮，进入添加书籍页面，如图 9-22 所示。在对话框中输入《CodeBuddy 领航》一书的详细信息，然后单击“添加书籍”按钮。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_265.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_265.jpg)
 
 图 9-22 添加书籍页面
 
 最终新书成功添加到数据库，并且其能在主界面显示，如图 9-23 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_266.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_266.jpg)
 
 图 9-23 书籍添加成功
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_267.png)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_267.png)
 
 ##  **提示**
 
@@ -5297,7 +5297,7 @@ AI Coding 技术的应用，使跨平台开发进入“自然语言驱动”的�
 
 AICoding 在跨平台开发中的核心作用，不仅在于代码自动生成，还在于根据不同端的能力边界自动调整架构模式，如在 Web 页面中采用 DOM 操作机制，在桌面应用中使用本地 API 调用，而在小程序开发中需遵循“WXML-WXSS-JS”的三层体系。图 10-1 展示了微信小程序开发三层体系的基本逻辑。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_268.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_268.jpg)
 
 图 10-1 微信小程序开发三层体系的基本逻辑
 
@@ -5325,7 +5325,7 @@ AI Coding 的跨平台能力在于支持持续迭代。开发者可通过自然�
 
 表 10-1 网页/网站/桌面应用/小程序开发对比
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_269.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_269.jpg)
 
 **10.1.3**
 
@@ -5381,7 +5381,7 @@ spot: "西江千户苗寨"
 
 表 10-2 常用 WXML 标签及其说明
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_270.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_270.jpg)
 
 总之，WXML 的本质是声明式结构标记与数据驱动渲染，配合 JS 的逻辑处理与 WXSS 的样式，使微信小程序具备高效、组件化的界面构建能力。
 
@@ -5399,19 +5399,19 @@ spot: "西江千户苗寨"
 
 （1）下载并安装微信开发者工具。通过访问微信开发者工具的官方网站，如图 10-2 所示，并根据操作系统类型（例如版本号 2.01.2510241）下载最新版本的“微信开发者工具”。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_271.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_271.jpg)
 
 图 10-2 微信开发者工具的官方网站
 
 在安装并启动“微信开发者工具”后，可以直接选择“微信快捷登录”选项，以便登录到微信开发者工具，如图 10-3 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_272.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_272.jpg)
 
 图 10-3 微信快捷登录至微信开发者工具
 
 （2）创建小程序项目。登录成功后，界面会展示出小程序项目“导入”与“管理”的相关选项，此时可以根据自己的需求，单击左侧导航栏中的“小程序”，并单击“+”进入小程序项目创建页面，如图 10-4 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_273.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_273.jpg)
 
 图 10-4 进入小程序项目创建页面
 
@@ -5419,11 +5419,11 @@ spot: "西江千户苗寨"
 
 表 10-3 小程序项目创建信息
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_274.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_274.jpg)
 
 创建小程序如图 10-5 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_275.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_275.jpg)
 
 图 10-5 创建小程序
 
@@ -5431,37 +5431,37 @@ spot: "西江千户苗寨"
 
 （3）安装 CodeBuddy 腾讯云代码助手插件。完成小程序项目创建后，在“扩展”中输入 “CodeBuddy”，单击“安装”按钮，安装腾讯云代码助手插件，如图 10-6 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_276.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_276.jpg)
 
 图 10-6 安装 CodeBuddy 腾讯云代码助手插件
 
 成功安装 CodeBuddy 腾讯云代码助手插件的界面如图 10-7 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_277.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_277.jpg)
 
 图 10-7 成功安装 CodeBuddy 腾讯云代码助手插件的界面
 
 在界面右上侧的扩展功能区，可以看到 CodeBuddy 腾讯云代码助手插件的图标，如图 10-8 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_278.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_278.jpg)
 
 图 10-8 查看 CodeBuddy 腾讯云代码助手插件
 
 单击该插件图标即可弹出图 10-9 所示的登录框，输入 CodeBuddy 账号信息，完成登录操作。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_279.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_279.jpg)
 
 图 10-9 登录 CodeBuddy 账号
 
 登录后，可选择企业账号或个人账号，如图 10-10 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_280.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_280.jpg)
 
 图 10-10 选择账号
 
 成功登录 CodeBuddy 后即可使用，如图 10-11 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_281.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_281.jpg)
 
 图 10-11 成功登录 CodeBuddy
 
@@ -5473,17 +5473,17 @@ spot: "西江千户苗寨"
 
 CodeBuddy 对话框提供了“Ask”和“Craft”两种模式的切换选项，可以单击切换至 Craft 模式，根据自身场景所需，参考表 10-4 设置 Craft 模式，如图 10-13 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_282.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_282.jpg)
 
 ▲图 10-12 Craft 开发智能体
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_283.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_283.jpg)
 
 ▲图 10-13 Craft 模式设置
 
 表 10-4 Craft 模式设置及状态说明
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_284.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_284.jpg)
 
 接下来，我们将创建 Craft 小程序开发智能体，具体步骤如下。
 
@@ -5493,19 +5493,19 @@ CodeBuddy 对话框提供了“Ask”和“Craft”两种模式的切换选项�
 
 PRD 是产品开发流程中的核心文档，主要用于清晰、准确地描述产品的功能需求、业务逻辑、用户体验要求等关键信息。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_285.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_285.jpg)
 
 图 10-14 输入生成 PRD 的提示词
 
 （2）CodeBuddy 会根据提示词生成具体的执行计划，单击图 10-15 中的“开始”按钮之后，CodeBuddy 将自动生成一个结构化的 PRD。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_286.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_286.jpg)
 
 图 10-15 单击“开始”按钮
 
 所生成的“消消乐游戏项目需求文档”如图 10-16 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_287.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_287.jpg)
 
 图 10-16 Craft 开发智能体根据提示词要求所生成的 PRD
 
@@ -5515,25 +5515,25 @@ PRD 是产品开发流程中的核心文档，主要用于清晰、准确地描�
 
 @PRD.md 请开始任务，当前小程序首页目录为：miniprogram\pages\index
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_288.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_288.jpg)
 
 图 10-17 输入任务指令
 
 Craft 开发智能体在接收到任务指令后，会先从初始化项目结构和配置 app.json 文件开始，分别执行定义小程序的基本配置（如页面路径、窗口样式等）、添加游戏主页面（pages/game/index）到路由中、创建游戏主页面等操作，如图 10-18 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_289.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_289.jpg)
 
 图 10-18 Craft 开发智能体执行 Coding 操作
 
 （4）Craft 运行一段时间后，会询问开发者是否希望继续操作或是否有新的需求。如图 10-19 所示，“接下来，可以开始实现游戏的核心逻辑（如消除玩法、计分系统等）。是否需要继续推进？”如果需求保持不变，只需要单击“继续”按钮，Craft 开发智能体便会继续开发消消乐游戏的核心逻辑。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_290.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_290.jpg)
 
 图 10-19 Craft 开发智能体询问是否继续执行开发任务
 
 如图 10-20 所示，Craft 开发智能体根据“消消乐游戏项目需求文档”要求完成了初版消消乐小程序游戏的开发工作。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_291.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_291.jpg)
 
 图 10-20 Craft 开发智能体完成开发工作
 
@@ -5547,13 +5547,13 @@ Craft 开发智能体在接收到任务指令后，会先从初始化项目结�
 
 在微信开发者工具端，选中某段核心代码并单击右键，从弹出的快捷菜单中依次选择“Tencent Cloud CodeBuddy”→“Generate Documentation”，如图 10-21 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_292.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_292.jpg)
 
 图 10-21 选择快捷菜单中的命令
 
 CodeBuddy 随即会为当前所选中的核心代码生成文档注释，我们可单击“Accept（接受）”或者“Reject（弃用）”来确定是否选择其生成的文档注释，如图 10-22 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_293.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_293.jpg)
 
 图 10-22 CodeBuddy 生成文档注释页面
 
@@ -5561,23 +5561,23 @@ CodeBuddy 随即会为当前所选中的核心代码生成文档注释，我们�
 
 代码审查功能是 CodeBuddy 的另一大亮点。如图 10-23 所示，开发者只需在输入框中输入“/cr”指令，即可启动 CodeBuddy 的代码审查功能。该功能能够自动扫描整个项目代码，识别出潜在的代码质量问题，如代码规范、潜在的性能瓶颈、安全漏洞等。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_294.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_294.jpg)
 
 图 10-23 启动 CodeBuddy 的代码审查功能
 
 在代码审查流程完成之后，CodeBuddy 将输出一份详细的代码审查报告，如图 10-24 所示。该报告涵盖三个主要部分，即“总体评价”“问题列表”和“下一步建议”。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_295.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_295.jpg)
 
 图 10-24 CodeBuddy 代码审查报告
 
 代码审查报告详细列出了所有识别出的问题（见图 10-25），并针对每个问题提供相应的修复建议。开发者可以根据报告的“下一步建议”内容（见图 10-26），逐一修复问题，从而提升代码的整体质量。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_296.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_296.jpg)
 
 ▲图 10-25 CodeBuddy 代码审查所识别出的问题
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_297.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_297.jpg)
 
 图 10-26 CodeBuddy 代码审查报告建议
 
@@ -5585,19 +5585,19 @@ CodeBuddy 随即会为当前所选中的核心代码生成文档注释，我们�
 
 根据代码审查报告中的“下一步建议”内容，可直接在 CodeBuddy 对话框中输入“请帮我切换到 Craft 模式进行全面的代码重构”，并单击下方的“开始”按钮，开始代码重构，如图 10-27 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_298.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_298.jpg)
 
 图 10-27 让 CodeBuddy 进行代码重构
 
 CodeBuddy 将针对识别出的需要改进和优化的相关问题，采取一系列系统性的重构措施。如图 10-28 所示，CodeBuddy 已成功切换到 Craft 模式并完成全面的代码重构，重构后的代码更加健壮、高效，用户体验得到显著提升，游戏功能也更加完善。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_299.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_299.jpg)
 
 图 10-28 CodeBuddy 切换至 Craft 模式并完成代码重构
 
 还可以在 CodeBuddy 的输入框中使用“/fix”指令来启动代码审查和重构功能，如图 10-29 所示。无论是语法错误、逻辑问题的审查，还是代码的重构，一个简单的“/fix”指令就能让 CodeBuddy 自动完成。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_300.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_300.jpg)
 
 图 10-29 通过“/fix”指令来启动代码审查和重构功能
 
@@ -5613,7 +5613,7 @@ CodeBuddy 将针对识别出的需要改进和优化的相关问题，采取一�
 
 在 Android 开发生态中，CodeBuddy 的引入正在深刻变革传统的“手动编码—调试—优化”的线性开发模式。依托深度语义解析、大语言模型代码生成与上下文推断能力，它能自动解析开发者用自然语言表达的需求，将其转换为完整的 Activity 逻辑、UI 布局代码（XML）、网络请求模块、权限声明等核心 Android 组件——图 10-30 清晰展示了这一底层开发逻辑。相较于传统模板化代码生成方式，CodeBuddy 可根据 Android API Level、Jetpack 架构与最佳实践做针对性优化，让生成的代码具备更高的可移植性与工程一致性。同时，其多轮对话中的上下文追踪功能，能让开发者快速调整细节、修改交互逻辑，进而大幅降低迭代成本。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_301.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_301.jpg)
 
 图 10-30 Android 底层开发逻辑
 
@@ -5655,7 +5655,7 @@ CodeBuddy 还在 iOS 调试与兼容优化中提供系统性的辅助能力。�
 
 **知识图谱**（Knowledge Graph，KG）是一种以结构化方式组织、表达和关联知识的语义网络，其核心由实体（Entity）、属性（Attribute）与关系（Relation）组成，通过三元组(head, relation, tail)形式构建可计算、可推理的知识体系，如图 11-1 所示。与传统数据库侧重存储事实不同，知识图谱强调知识间的语义连接及其背后的逻辑结构，从而实现知识的显式化、可视化与可推理。作为一种融合语义网、数据库、自然语言处理与机器学习的跨学科技术，知识图谱不仅关注“存储数据”，更强调“理解知识”，是支撑搜索引擎、智能推荐、问答系统及决策的重要底座。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_302.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_302.jpg)
 
 图 11-1 知识图谱基本组成
 
@@ -5665,7 +5665,7 @@ CodeBuddy 还在 iOS 调试与兼容优化中提供系统性的辅助能力。�
 
 表 11-1 知识图谱主要组成要素（以《西游记》为例）
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_303.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_303.jpg)
 
 在结构与组织层面，知识图谱通常以图结构呈现，由多类型节点与多语义关系构成复杂网络，并进一步区分为概念层（Ontology Layer）与实例层（Instance Layer）。
 
@@ -5689,7 +5689,7 @@ CodeBuddy 还在 iOS 调试与兼容优化中提供系统性的辅助能力。�
 
 在知识图谱体系中，实体识别是构建三元组(entity-relation-entity)的前置步骤，其准确性直接影响后续关系抽取、实体对齐、知识融合与推理质量，因此被视为整个现代知识工程中最关键的技术环节之一。随着大语言模型的发展，实体识别逐渐从规则驱动、特征工程向深度学习与提示词引导的智能提取模式演化，使其在复杂文本场景中具备更强的泛化能力与语义理解能力。图 11-2 展示了实体识别和关系抽取的构建流程及实例。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_304.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_304.jpg)
 
 图 11-2 实体识别和关系抽取的构建流程及实例
 
@@ -5747,7 +5747,7 @@ CodeBuddy 还在 iOS 调试与兼容优化中提供系统性的辅助能力。�
 
 表 11-2 常用知识图谱工具与框架（以《西游记》知识构建为例）
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_305.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_305.jpg)
 
 上述知识图谱工具体系已形成“建模—抽取—融合—推理—问答”的完整链路，为结构化知识的工程化落地奠定了坚实基础。接下来，我们将介绍如何利用 CodeBuddy 等工具，完成威胁情报的自动采集与预处理、自动构建安全知识图谱系统等应用任务，实现从数据到知识的自动化跃迁。
 
@@ -5765,13 +5765,13 @@ CodeBuddy 还在 iOS 调试与兼容优化中提供系统性的辅助能力。�
 
 MITRE ATT&CK 作为国际主流的对手战术、技术与程序（Tactics, Techniques, and Procedures, TTPs）知识库，为威胁情报的标准化表达提供了统一语义框架。其通过战术（Tactics）维度刻画攻击目标（如初始访问、持久化、横向移动等），通过技术（Techniques/Sub-techniques）细化具体实现方式，并给出检测与缓解建议。图 11-3 展示了 ATT&CK 框架官网的 14 个技战术类别，系统地刻画了攻击者从初始访问、执行、持久化、权限提升、防御逃避、凭证访问、发现、横向移动、收集、指挥控制、数据渗漏、影响、资源开发到侦察的完整对抗链条。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_306.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_306.jpg)
 
 图 11-3 ATT&CK 框架官网的 14 个技战术类别
 
 在 APT 组织视角下，ATT&CK 官网为每个 Group 建立独立页面——涵盖组织别名、背景描述、典型技术、所用软件与案例说明，为构建高质量安全知识图谱提供了权威数据源。图 11-4 展示了 APT32 组织技战术的具体描述，该页面将是本节数据采集的核心页面。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_307.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_307.jpg)
 
 图 11-4 APT32 组织技战术的具体描述
 
@@ -5787,17 +5787,17 @@ MITRE ATT&CK 作为国际主流的对手战术、技术与程序（Tactics, Tech
 
 页面中组织名称通常位于<h1>标题区域；“Description”内容存放于 div.description-body 或#description 容器中，通过 Chrome 浏览器的“检查”功能查看的源代码如图 11-5 所示。在信息采集过程中，通常需要分析网站的 DOM 树结构，定位关键节点位置，如特定 id、class 的 DIV 或 Table 标签，再进行精准识别。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_308.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_308.jpg)
 
 图 11-5 浏览器查看“APT32”对应源代码
 
 “Techniques Used”表格则位于<div class="tables-mobile">下，其<table>的最后一列表头为“Use”，包含具体战技术的使用说明，具体源代码如图 11-16 所示。理解这些结构有助于提示 CodeBuddy 正确编写 BeautifulSoup 或 XPath 选择器，避免出现采集字段为空的情况。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_309.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_309.jpg)
 
 图 11-6 APT32 技战术源代码
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_310.png)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_310.png)
 
 **注意**
 
@@ -5827,27 +5827,27 @@ MITRE ATT&CK 作为国际主流的对手战术、技术与程序（Tactics, Tech
 
 （1）打开 CodeBuddy IDE 软件并新建工程，在右下角的对话框中输入提示词，选择合适的大语言模型，单击“Send”按钮发送请求，如图 11-7 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_311.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_311.jpg)
 
 图 11-7 在 CodeBuddy 中输入精准提示词
 
 （2）CodeBuddy 经过深度思考构建两个关键任务，包括编写 MITRE ATT&CK 爬虫脚本、测试爬虫并采集数据，同时生成完整代码，如图 11-8 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_312.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_312.jpg)
 
 图 11-8 CodeBuddy 深度思考构建两个关键任务
 
 随后，通过 CodeBuddy 调用“python mitre_attack_crawler.py”命令自动执行代码。然而，首次运行代码因网络连接问题而显示采集失败，如图 11-9 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_313.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_313.jpg)
 
 图 11-9 代码首次运行错误提示
 
 （3）CodeBuddy 会自动优化代码，增加网络代理以解决网络连接问题，如图 11-10 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_314.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_314.jpg)
 
-图 11-10 CodeBuddy 自动优化代码 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_310.png)
+图 11-10 CodeBuddy 自动优化代码 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_310.png)
 
 **注意**
 
@@ -5855,19 +5855,19 @@ MITRE ATT&CK 作为国际主流的对手战术、技术与程序（Tactics, Tech
 
 （4）通过 IDE 打开代码并运行，如图 11-11 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_315.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_315.jpg)
 
 图 11-11 打开生成的代码并运行
 
 CodeBuddy 成功将 10 个 APT 组织的威胁情报及技战术内容采集到了本地。，图 11-12 展示了采集过程中的具体描述及日志信息。此外，读者可以结合自身需求尝试采集更多威胁情报信息或其他领域的数据。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_316.jpg)![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_317.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_316.jpg)![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_317.jpg)
 
 图 11-12 成功采集威胁情报
 
 最终，完整的数据集将按照提示词要求存储至本地“attack_groups.csv”文件中。图 11-13 展示了 CodeBuddy 成功采集的威胁情报文件内容，其包括序号、APT 组织名称、网址、描述和 Use 用法。需要注意的是，该部分采集的威胁情报仅为最原始的文本内容，后续我们将详细描述经过数据预处理、实体识别和关系抽取后的结构化内容，两者存在一定差异。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_318.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_318.jpg)
 
 图 11-13 成功采集的威胁数据集
 
@@ -5925,7 +5925,7 @@ CodeBuddy 成功将 10 个 APT 组织的威胁情报及技战术内容采集到�
 
 威胁知识抽取是安全知识图谱构建的第一道门槛，其质量直接决定后续图谱的可信度、分析能力以及推理深度。威胁知识抽取通常遵循“数据预处理 → 数据标注 → 实体识别 → 关系抽取”的标准流程。图 11-14 展示了其基本流程，该流程构成威胁知识结构化的基础方法体系。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_319.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_319.jpg)
 
 图 11-14 威胁知识抽取的基本流程
 
@@ -5935,7 +5935,7 @@ CodeBuddy 成功将 10 个 APT 组织的威胁情报及技战术内容采集到�
 
 表 11-3 威胁实体示例
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_320.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_320.jpg)
 
 **11.3.2**
 
@@ -5953,55 +5953,55 @@ AG（APT 组织）、AEQ（攻击工具/家族）、AM（攻击手法）、AV（
 
 （2）在 CodeBuddy 右下角对话框中单击“@”按钮，利用上下文关联功能，与上一阶段所采集的威胁情报文件（attack_groups_sample.csv）进行关联。随后输入完整的提示词，选择合适的大语言模型，单击“Send”按钮实现代码生成，如图 11-15 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_321.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_321.jpg)
 
 图 11-15 利用上下文关联功能及输入提示词
 
 （3）经过深度思考，CodeBuddy 会生成对应的 Python 代码。如图 11-16 所示，提示生成的“threat_entity_extractor.py”文件执行识别失败，CodeBuddy 紧接着优化代码，创建一个精简的脚本“extract.py”来识别威胁实体。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_322.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_322.jpg)
 
 图 11-16 CodeBuddy 生成 Python 代码并进行优化
 
 CodeBuddy 成功理解了提示词，识别了所需要抽取的实体类型，并输出理解过程的描述，如图 11-17 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_323.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_323.jpg)
 
 图 11-17 CodeBuddy 成功识别了实体类型
 
 （4）CodeBuddy 自动运行新生成的“threat-intel-ner.py”代码，并成功识别出 137 个实体，其运行结果如图 11-18 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_324.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_324.jpg)
 
 图 11-18 CodeBuddy 自动运行代码并识别威胁实体
 
 最终识别的威胁实体将存储至“threat_entities_full.csv”文件，如图 11-19 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_325.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_325.jpg)
 
 图 11-19 大语言模型成功识别的威胁实体
 
 “extract.py”文件主要通过大语言模型识别进行规则和正则表达式匹配，从而采集多种类型的命名实体，并为后续知识图谱构建提供支撑。图 11-20 展示了 CodeBuddy 生成的 Python 代码，单击右上角的“Keep”按钮或在对话框中打勾即可接受大语言模型生成的代码。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_326.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_326.jpg)
 
 图 11-20 CodeBuddy 生成的 Python 代码
 
 此外，CodeBuddy 会创建一个数据分析和可视化脚本“analyze_entities.py”，对实体类型进行统计，如图 11-21 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_327.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_327.jpg)
 
 图 11-21 CodeBuddy 生成数据分析和可视化脚本
 
 图 11-22 展示了 CodeBuddy 生成详细的使用说明文档，该 Markdown 文件详细展示了其具体的用法和实体类型。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_328.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_328.jpg)
 
 图 11-22 生成详细的使用说明文档
 
 （5）在 CodeBuddy IDE 的“Terminal”中输入“python analyze_entities.py”命令，即可执行 Python 程序并分析实体内容，如图 11-23 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_329.jpg)![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_330.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_329.jpg)![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_330.jpg)
 
 图 11-23 实体识别结果分析
 
@@ -6043,43 +6043,43 @@ CodeBuddy 成功理解了提示词，识别了所需要抽取的实体类型，�
 
 （2）利用上下文关联功能，与先前采集的威胁文本和实体关联，两个文件分别是“threat_entities_full.csv”和“attack_groups_sample.csv”。随后输入关系抽取提示词，如图 11-24 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_331.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_331.jpg)
 
 图 11-24 输入关系抽取提示词
 
 （3）CodeBuddy 经过深度思考生成关系抽取的 Python 代码“relation_extractor.py”，如图 11-25 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_332.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_332.jpg)
 
 图 11-25 CodeBuddy 生成关系抽取代码
 
 CodeBuddy 生成了详细的运行结果，图 11-26 展示了实体识别系统的结果描述，包括各个实体类型的数量及占比。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_333.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_333.jpg)
 
 图 11-26 实体识别系统的结果描述
 
 图 11-27 展示了关系抽取系统的结果描述，成功识别出 72 条关系三元组，包括使用（uses）、针对（targets）、活动于（operates_in）、涉及（involves）、攻击（attacks）和利用（exploits_software）。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_334.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_334.jpg)
 
 图 11-27 关系抽取系统的结果描述
 
 同时，为了让用户更好地理解生成内容，CodeBuddy 给出了详细的生成文件清单，如图 11-28 所示。当然，针对不同的提示词、应用于不同的场景及选用不同的模型，CodeBuddy 生成的结果也会不同，大家需要结合具体情况进行分析，也可以多次与大语言模型对话，生成更容易理解和可执行的代码。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_335.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_335.jpg)
 
 图 11-28 生成文件清单
 
 最终生成结果如图 11-29 所示，关系将存储至“threat_relations.csv”文件。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_336.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_336.jpg)
 
 图 11-29 最终生成结果
 
 为更好地理解 CodeBuddy 生成代码功能，大家一定要学会阅读大语言模型生成的代码。图 11-30 展示了关系抽取的关键代码，通过 extract_relations_from_sentence 函数实现关系抽取，利用正则匹配实现。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_337.jpg)![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_338.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_337.jpg)![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_338.jpg)
 
 图 11-30 关系抽取的关键代码
 
@@ -6093,7 +6093,7 @@ CodeBuddy 工具给出了后续研究及应用的建议，具体如下。
 
 • 可视化展示——使用 NetworkX 或 Neo4j 可视化关系网络。
 
-至此，系统已完全就绪，所有 CSV 文件均可直接用于后续的知识图谱构建和威胁情报分析。 ![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_339.png)
+至此，系统已完全就绪，所有 CSV 文件均可直接用于后续的知识图谱构建和威胁情报分析。 ![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_339.png)
 
 ## **提示**
 
@@ -6151,41 +6151,41 @@ CodeBuddy 工具给出了后续研究及应用的建议，具体如下。
 
 （1）在 CodeBuddy 中输入知识图谱构建的提示词，并且关联两个 CSV 文件，分别对应实体和关系数据，如图 11-31 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_340.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_340.jpg)
 
 图 11-31 输入知识图谱构建提示词
 
 （2）经过深度思考，CodeBuddy 生成威胁情报知识图谱 HTML 网页代码，并将其命名为“threat_knowledge_graph.html”，如图 11-32 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_341.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_341.jpg)
 
 图 11-32 知识图谱构建代码生成
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_342.png)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_342.png)
 
  **注意**
 
 CodeBuddy 会调用大语言模型理解提示词并生成代码，在生成过程中若出错，它会不断地改进和学习。最终生成的节点数为 90，关系数为 72，这与 CSV 文件中的内容不匹配。我们可以尝试不断与大语言模型对话，从而生成更准确、丰富的知识图谱。图 11-33 展示了知识图谱的功能特性和数据统计。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_343.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_343.jpg)
 
 图 11-33 知识图谱的功能特性和数据统计
 
 此外，CodeBuddy 会生成详细的使用说明文档，如图 11-34 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_344.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_344.jpg)
 
 图 11-34 知识图谱使用说明文档
 
 自此，威胁情报安全知识图谱构建成功，通过浏览器本地打开，最终显示效果如图 11-35 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_345.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_345.jpg)
 
 图 11-35 CodeBuddy 构建的威胁情报安全知识图谱
 
 图 11-36 展示了该知识图谱的 HTML 源代码。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_346.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_346.jpg)
 
 图 11-36 知识图谱的 HTML 源代码
 
@@ -6197,19 +6197,19 @@ CodeBuddy 会调用大语言模型理解提示词并生成代码，在生成过�
 
 通过生成的知识图谱，用户可以看到一个由多个类型实体构成的异构威胁网络。图 11-37 中 AG（APT 组织）通常位于中心位置，向外连接 AEQ（工具）、AV（漏洞）、AT（目标）、AI（行业）、RL（区域）等多类型节点，这呈现出典型的攻击生态结构。例如，APT29 → 使用→ CobaltStrike，APT29 → 利用→ CVE-2017-11882，APT29 → 针对→ 政府部门，形成一条清晰的攻击行为链路。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_347.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_347.jpg)
 
 图 11-37 知识图谱 APT 组织信息
 
 同时，节点分布自然，边关系标签清晰，便于快速理解攻击技术与领域之间的语义模式。在图谱中悬停某个节点，例如某漏洞编号，将弹出气泡窗口显示其标准化实体类型（AV）、CVE 编号与引用次数；悬停边时，将展示关系语义（如“使用”）。单击节点“APT29”后，系统会自动高亮与该实体有关的一阶邻居，并且在右侧侧栏展示其所有关联关系，如图 11-38 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_348.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_348.jpg)
 
 图 11-38 单击节点“APT29”后的显示结果
 
 搜索框支持用户模糊输入，如输入“Office”即可定位到所有相关的软件节点并自动缩放至最佳视图。整个效果演示体现了知识图谱作为交互式威胁分析工具的优势。图 11-39 展示了搜索“APT32”的相关功能，这是来自“Vietnam”的一个攻击组织。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_349.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_349.jpg)
 
 图 11-39 知识图谱搜索功能
 
@@ -6257,7 +6257,7 @@ CodeBuddy 会调用大语言模型理解提示词并生成代码，在生成过�
 
 多智能体系统正是为应对这类复杂问题应运而生的。它不追求让单一模型包揽所有任务，而是构建一组拥有自主能力的智能体，让每个智能体专注于特定领域。这些智能体部署在分布式环境中，能够感知上下文语境、独立推理、执行对应动作，并与其他成员高效沟通。它们之间的关系可能是协作、竞争或协商，宛如一个真实的软件团队，如图 12-1 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_350.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_350.jpg)
 
 图 12-1 多智能体系统开发流程
 
@@ -6283,7 +6283,7 @@ MCP 的核心思想是将“上下文”视为一等公民。它不仅仅传输�
 
 在工程实现上，MCP 采用分层架构，兼顾灵活性与可维护性。最底层是传输层，支持 gRPC、WebSocket 等高效协议，确保低延迟通信；传输层之上是协议层，定义统一的消息格式与序列化规则；再往上是语义层，负责封装意图—约束—证据（ICE）模型，这是实现可解释协作的关键；最顶层是应用层，为开发者提供简洁的 API 接口，如图 12-2 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_351.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_351.jpg)
 
 图 12-2 MCP 协议架构体系
 
@@ -6307,7 +6307,7 @@ CodeBuddy 与 MCP 集成关键要素如表 12-1 所示。
 
 表 12-1 CodeBuddy 与 MCP 集成关键要素
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_352.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_352.jpg)
 
 **12.1.4**
 
@@ -6319,13 +6319,13 @@ CodeBuddy 作为一款智能化 IDE，通过其 MCP（Multi-faceted Co-Pilot）�
 
 CodeBuddy 内置了一个可视化的“MCP”管理面板，如图 12-3 所示，为用户提供了直观便捷的服务管理体验。用户既可以通过“MCP 市场”标签页浏览并一键安装已上架的服务，也可以在“我的 MCP”标签页中对已安装的服务进行启用、禁用、配置或卸载等集中管理。此外，该面板还提供了“添加 MCP”功能，可供用户通过图形化表单来快速配置自定义的或非官方市场的 MCP Server。请留意 CloudBase AIToolKit 这款 MCP，建议提前安装。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_353.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_353.jpg)
 
 图 12-3 CodeBuddy 内置的可视化“MCP”管理面板
 
 选定需要安装的服务。例如，选择 CloudBase AIToolKit 进行安装，单击“安装”按钮后，系统会首先对当前依赖环境进行检测。若检测发现不存在依赖环境，系统将发出报错提醒。若尚未安装依赖环境，则可依据提示选择尝试安装。待依赖环境安装完毕，可重新一键安装 MCP Server。若依赖环境安装失败，则可单击“手动安装指引”按钮进行手动安装。部分 MCP Server 在运行使用时需提供 PERSONAL_ACCESS_TOKEN 或 API Key，因此需申请相应的 PERSONAL_ACCESS_TOKEN 或 API Key。完成安装后，用户就可以在“我的 MCP”标签页中单击右侧的功能启动按钮开启 MCP 相关功能，如图 12-4 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_354.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_354.jpg)
 
 图 12-4 “我的 MCP”标签页
 
@@ -6351,13 +6351,13 @@ pip --version # 输出 PIP 版本号
 
 与 Cursor、Claude Desktop、Cherry Studio 等这些 MCP Host（支持了 MCP 的应用程序）一样，CodeBuddy 也提供了配置 MCP 服务的入口，如图 12-5 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_355.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_355.jpg)
 
 图 12-5 CodeBuddy 所提供配置 MCP 服务的入口
 
 单击“配置 MCP Server”按钮后，在打开的 MCP 服务配置文件中，可以看到所有 MCP 服务均统一在“mcpServers”这一顶层键对象中定义，该对象下的每一个键值（例如“CloudBase AI ToolKit”）代表一个独立的服务，如图 12-6 所示。开发者需为每个服务详细配置其运行参数，如启动命令（“command”）、参数数组（“args”）、环境变量（“env”）、超时时间（“timeout”）、通信类型（“type”）以及是否禁用（“disabled”），以实现对服务行为的精确控制。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_356.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_356.jpg)
 
 图 12-6 MCP 服务配置文件
 
@@ -6371,7 +6371,7 @@ pip --version # 输出 PIP 版本号
 
 在现代智能编程辅助系统中，仅具备代码生成能力已远远不能满足开发者对效率、准确性与工程集成度的综合需求。CodeBuddy 与 MCP 之间的通信机制如图 12-7 所示，CodeBuddy 作为面向真实软件开发场景的智能体，其核心竞争力在于通过 MCP 实现与开发环境、工具链及外部服务的深度协同。MCP 不仅为 CodeBuddy 提供了标准化的调用接口，更构建了一个结构清晰、状态可维护、行为可追溯的通信框架，使其能够从“被动响应”升级为“主动执行”，真正融入软件开发生命周期。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_357.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_357.jpg)
 
 图 12-7 CodeBuddy 与 MCP 之间的通信机制
 
@@ -6383,7 +6383,7 @@ pip --version # 输出 PIP 版本号
 
 CodeBuddy 采用 MCP 定义的模块化通信架构，由客户端（Client）、主机（Host）和服务器（Server）这 3 个核心角色构成，如图 12-8 所示。Client 通常嵌入于集成开发环境（IDE）插件中，负责捕获用户输入并渲染执行结果；Host 是智能体的运行中枢，集成了大语言模型推理引擎、任务规划器、上下文管理器以及 MCP 协议适配层；Server 则代表具体的功能服务端，具备封装文件操作、测试执行、依赖分析、API 调用等原子能力。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_358.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_358.jpg)
 
 图 12-8 CodeBuddy 模块化通信架构
 
@@ -6397,31 +6397,31 @@ CodeBuddy 采用 MCP 定义的模块化通信架构，由客户端（Client）�
 
 在正式启用 CloudBase AI ToolKit 之前，我们需要先完成若干必要的准备工作，其中最为关键的环节是访问腾讯云的官方网站，购置一个适配的云开发环境，如图 12-9 所示。这是我们后续开展开发与部署工作的根基，故需认真做好配置工作。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_359.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_359.jpg)
 
 图 12-9 开通云开发 CloudBase
 
 值得强调的是，对于初次接触腾讯云的新用户而言，无须担忧初期的成本问题。因为腾讯云为首次购买云开发环境的新用户推出了极为优惠的政策——提供长达 6 个月的免费使用时长。优惠政策的详情同样可在官网查询，可参考图 12-10 以获取更直观的信息。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_360.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_360.jpg)
 
 图 12-10 云开发 CloudBase 的支付订单
 
 完成上述配置后，我们可以直接在 CodeBuddy 中进行登录。此时，模型会依据 MCP 中 login 工具的参数规范，生成图 12-11 所示的接口调用。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_361.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_361.jpg)
 
 图 12-11 登录云开发环境并选择使用的环境
 
 在登录成功之后，用户要求“增加一个简单的云函数，并调用”，相关模型会依据 createFunction 工具的参数规范，创建云函数并部署到云端，如图 12-12 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_362.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_362.jpg)
 
 图 12-12 创建云函数并部署到云端
 
 运行成功后，其返回成功创建并调用云函数结果，如图 12-13 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_363.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_363.jpg)
 
 图 12-13 成功创建并调用云函数
 
@@ -6441,13 +6441,13 @@ MCP 的核心使命是在 LLM 的“认知空间”与操作系统的“执行�
 
 （2）**多层次容错与恢复机制**。CodeBuddy 实现了从协议层到任务层的多级容错体系。在协议层，系统对 JSON 格式错误、方法未注册、参数缺失等基础问题进行快速拦截，并记录至调试日志；在业务层，则对具体工具的异常场景进行语义化解析。例如，当 filesystem_write 因目标目录不存在而导致写入失败时，智能体会自动规划“先调用 filesystem_mkdir 创建目录，再重试写入”的修正流程，并向用户说明调整原因。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_364.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_364.jpg)
 
 图 12-14 JSON-RPC 交互电文与错误码体系
 
 对于幂等操作（如文件读取、依赖查询），系统在检测到临时性错误（如网络超时）后，会自动重试一次，避免因瞬时故障中断任务流，如图 12-15 所示。所有调用过程均附带完整审计追踪，包含时间戳、工具名称、输入参数、输出结果及执行状态，支持事后回溯与性能分析，满足企业级开发环境对可观测性与合规性的要求。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_365.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_365.jpg)
 
 图 12-15 语义层恢复的动态任务规划
 
@@ -6463,7 +6463,7 @@ MCP 的核心使命是在 LLM 的“认知空间”与操作系统的“执行�
 
 在 CodeBuddy 与 MCP 协同构建的多智能体编程环境中，复杂软件开发任务难以由单一智能体独立完成。如图 12-16 所示，系统需将开发流程拆解为多个专业化子任务，并由具备不同能力画像的智能体协同执行。这一过程的核心在于建立高效、可靠且可扩展的协作调度机制。本节从通信实现、数据交换、容错恢复、性能优化到典型应用，系统阐述该机制的技术架构与工程实践。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_366.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_366.jpg)
 
 图 12-16 CodeBuddy 与 MCP 协同工作流程
 
@@ -6473,7 +6473,7 @@ MCP 的核心使命是在 LLM 的“认知空间”与操作系统的“执行�
 
 （2）**结构化上下文驱动的数据交换格式。**数据交换的质量直接决定协作准确性。传统函数调用仅传递参数值，而多智能体协作需传递“意图+证据+约束”的复合信息包。在 CodeBuddy 实践中，一次典型的 CodeBuddy 向 TestAgent 发起的调用载荷采用扩展 JSON-RPC 2.0 格式，如图 12-17 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_367.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_367.jpg)
 
 图 12-17 CodeBuddy 向 TestAgent 发起的调用载荷采用扩展 JSON-RPC 2.0 格式
 
@@ -6507,7 +6507,7 @@ MCP 的核心使命是在 LLM 的“认知空间”与操作系统的“执行�
 
 该指令被 CodeBuddy 主控模块捕获后，立即启动任务初始化流程。主控模块首先创建一个全局唯一的任务上下文对象——“任务优化”文本，其内容包含图 12-18 所示的关键信息。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_368.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_368.jpg)
 
 图 12-18 CodeBuddy 根据提示词指令创建“任务优化”文本
 
@@ -6519,13 +6519,13 @@ MCP 的核心使命是在 LLM 的“认知空间”与操作系统的“执行�
 
 通过 CodeBuddy 设计好 MCP 蓝图后，我们需要输入自然语言指令——基于 Python，按照“任务优化.txt”生成相应的 MCP Server。主控模块调度 CodeBuddy 执行代码生成任务。CodeBuddy 基于默认模型，结合上下文中的功能与非功能约束，生成图 12-19 所示的任务清单，并会按照任务清单逐一实现。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_369.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_369.jpg)
 
 图 12-19 CodeBuddy 基于默认模型生成的任务清单
 
 CodeBuddy 会生成多 MCP 系统的结构，其中包括文档规范模块、智能审核引擎、风格优化组件、工作流管理系统、插件扩展机制、系统配置、插件目录等模块和组件，如图 12-20 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_370.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_370.jpg)
 
 图 12-20 CodeBuddy 生成多 MCP 系统的结构
 
@@ -6541,19 +6541,19 @@ CodeBuddy 会自动协调该系统中各核心功能模块的协同工作，确�
 
 • 插件扩展机制采用模块化设计，支持插件扩展，可动态加载自定义审核规则，适配不同文档类型，并提供了如技术术语检查器之类的示例插件。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_371.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_371.jpg)
 
 图 12-21 核心功能模块
 
 CodeBuddy 在完成任务清单的过程中，不仅会按照既定的计划逐一落实各项任务，还会在此基础上，将代码编写工作融入图 12-22 所示的流程中，使整个代码体系得以完善。这一过程无须用户亲自参与编程工作，因为 CodeBuddy 能够通过理解用户以自然语言发出的指令，自动完成整个 MCP 工作流的开发。用户只需用自然语言描述需求或下达指令，就能轻松实现复杂工作流的构建，极大地降低了开发门槛，提高了工作效率。这种智能化的操作方式，使得即便是不具备编程知识的用户，也能够高效地完成开发任务。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_372.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_372.jpg)
 
 图 12-22 CodeBuddy 自动完成整个 MCP 工作流开发
 
 完成后的部分代码如图 12-23 所示。可以看到，CodeBuddy 自动生成了风格优化组件（style-optimizer）的核心服务代码。它非常智能地在 optimize_style 函数中完成了从需求到代码的完整实现，将一个抽象的“风格优化”需求，具体化为包含“AI 特征检测和评分”“去 AI 化处理”“风格统一”“表达优化”和“语气调整”在内的 5 个逻辑严密的执行步骤，并通过清晰的注释加以说明。这让用户不仅能直观地理解功能的完整实现路径，还能跳过烦琐的编码阶段，直接获得结构清晰、高质量的后端服务。正如右侧面板所示，所有任务（7/7）已自动完成，用户可立即参照 API 示例进行测试。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_373.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_373.jpg)
 
 图 12-23 CodeBuddy 完成后的代码展示
 
@@ -6565,13 +6565,13 @@ CodeBuddy 在完成任务清单的过程中，不仅会按照既定的计划逐�
 
 验证分布式系统的首要挑战在于构建可控的测试基准。CodeBuddy 首先生成了一个包含典型缺陷的测试文档 test_document.md，如图 12-24 所示。为了全面覆盖审查规则，该文档被特意植入了三类特征数据：不规范的标题层级（用于测试格式校验器）、口语化的第一人称代词（如“我”“我们”），以及典型的大语言模型生成句式（如“首先，让我们”）。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_374.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_374.jpg)
 
 图 12-24 包含典型缺陷的测试文档 test_document.md
 
 在测试启动初期，系统遇到了 Python 项目中常见的模块路径解析错误（ModuleNotFoundError）。这是由“MCP 服务采用独立进程模型，而测试脚本试图以库的方式直接导入子模块代码”导致的。面对这一运行时异常，CodeBuddy 展示了其工程化的“自愈”能力——并未中断流程等待人工干预，而是即时重构了测试策略，生成了一个独立的单文件测试运行器（Test Runner）demo.py，如图 12-25 所示。这种处理方式解耦了复杂的包依赖链，确保测试逻辑能够在沙箱环境中独立且稳定地运行。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_375.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_375.jpg)
 
 图 12-25 CodeBuddy 自动重构测试策略并生成独立的单文件测试运行器
 
@@ -6583,7 +6583,7 @@ CodeBuddy 在完成任务清单的过程中，不仅会按照既定的计划逐�
 
 最终，测试进程输出一份包含审计凭证的 SYSTEM_STATUS.md 报告，如图 12-26 所示。综合评分 0.94 的结果表明，该 MCP 系统不仅能够识别问题，更能有效地解决问题，完全具备部署上线的工程标准。这一过程完整演示了从“依赖修复”到“逻辑验证”再到“质量交付”的自动化闭环。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_376.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_376.jpg)
 
 图 12-26 包含审计凭证的 SYSTEM_STATUS.md 报告
 
@@ -6599,7 +6599,7 @@ CodeBuddy 在完成任务清单的过程中，不仅会按照既定的计划逐�
 
 随后，CodeBuddy 会自动为 MCP 编写\mcp\settings.json 文件中的集成配置文件，如图 12-27 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_377.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_377.jpg)
 
 图 12-27 CodeBuddy 为 MCP 编写集成配置文件
 
@@ -6607,7 +6607,7 @@ CodeBuddy 在完成任务清单的过程中，不仅会按照既定的计划逐�
 
 解决了依赖问题后，我们需要通过全局配置文件 settings.json 来定义 IDE 与 MCP 服务之间的通信契约。为了应对文档审核场景中可能出现的高并发与长尾延迟，简单的默认配置显然无法满足需求。如图 12-28 所示，我们自定义了一套包含心跳检测、资源配额及自动重启策略的配置方案。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_378.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_378.jpg)
 
 图 12-28 自定义包含心跳检测、资源配额及自动重启策略的配置方案
 
@@ -6615,7 +6615,7 @@ CodeBuddy 在完成任务清单的过程中，不仅会按照既定的计划逐�
 
 随着配置文件的生效，IDE 的 MCP 客户端自动发起了握手请求。通过运行 test_mcp_config.py 脚本进行的最终验收表明，系统成功完成了服务发现（Service Discovery）。包括“comprehensive_document_review”（综合审核）和“optimize_style”（风格优化）在内的 5 个核心工具被成功注册到了 IDE 的工具链中，如图 12-29 所示。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_379.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_379.jpg)
 
 图 12-29 核心工具成功注册到 IDE 的工具链中
 
@@ -6633,7 +6633,7 @@ CodeBuddy 在完成任务清单的过程中，不仅会按照既定的计划逐�
 
 具身智能（Embodied AI）是一种将人工智能系统与真实或虚拟环境深度耦合的智能范式，其核心在于通过传感器实现环境感知、通过执行器产生实际行动，并在“感知—行动—反馈”的闭环中持续学习与优化。相较于传统仅基于符号与文本推理的智能体，具身智能强调智能体与环境的交互与共生关系。在多智能体编程场景中，引入具身智能使得开发智能体不再局限于代码生成与静态分析，而是能够直接感知开发与运行环境的状态，执行真实操作并基于结果反馈进行自我修正。这一范式推动 CodeBuddy 等系统从“工具型编程助手”向“具备环境理解与行动能力的智能开发伙伴”演进，为软件工程智能化奠定了新的理论与技术基础。图 12-30 展示了大语言模型生成的具身智能效果图。
 
-![](img/CodeBuddy领航：AI辅助编程应用·架构·交付_image_380.jpg)
+![](img/CodeBuddy-领航：AI-辅助编程应用·架构·交付_image_380.jpg)
 
 图 12-30 大语言模型生成的具身智能效果图
 

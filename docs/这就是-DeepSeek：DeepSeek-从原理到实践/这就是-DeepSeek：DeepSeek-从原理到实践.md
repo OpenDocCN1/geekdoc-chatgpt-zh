@@ -83,7 +83,7 @@ DeepSeek 作为国内具有代表性的大模型之一，在 Transformer 架构�
 
 资源下载码：zjsdsk
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_000.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_000.jpg)
 
 # **第一章** **DeepSeek 的使命与愿景：开辟 AI 应用新纪元**
 
@@ -101,7 +101,7 @@ DeepSeek 的诞生既是对全球人工智能变革浪潮的深刻响应，也�
 
 DeepSeek 诞生的背景如图 1-1 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_001.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_001.jpg)
 
 图 1-1
 
@@ -109,7 +109,7 @@ DeepSeek 诞生的背景如图 1-1 所示。
 
 DeepSeek 的目标如图 1-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_002.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_002.jpg)
 
 图 1-2
 
@@ -125,7 +125,7 @@ DeepSeek 的名称由“Deep”（深思、深度）和“Seek”（探索、追
 
 DeepSeek 的市场机遇与外部环境可以从图 1-3 所示的几个方面进行分析。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_003.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_003.jpg)
 
 图 1-3
 
@@ -139,7 +139,7 @@ DeepSeek 团队的技术实力与研发经验在短时间内取得了显著突�
 
 DeepSeek 团队的技术贡献如图 1-4 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_004.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_004.jpg)
 
 图 1-4
 
@@ -147,7 +147,7 @@ DeepSeek 团队的技术贡献如图 1-4 所示。
 
 DeepSeek 团队的研发经验丰富，在行业内的突出表现如图 1-5 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_005.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_005.jpg)
 
 图 1-5
 
@@ -241,7 +241,7 @@ DeepSeek 的应用场景非常广泛，涵盖了多个领域和行业，以下�
 
 DeepSeek 系列模型在 AI 领域引起了广泛关注，特别是在性能方面，与其他大语言模型相比，展现出独特的优势。DeepSeek-R1 与几个主流大模型在多个基准测试上的性能对比，如图 1-6 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_006.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_006.jpg)
 
 图 1-6
 
@@ -303,11 +303,11 @@ DeepSeek 的常见应用之一是作为知识库来使用，各行各业的人�
 
 02 进入交互界面，在此可以输入任何问题进行咨询。根据具体需要单击“深度思考（R1）”和“联网搜索”按钮，这样得到的回复结果更贴近需求，如图 1-8 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_007.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_007.jpg)
 
 图 1-7
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_008.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_008.jpg)
 
 图 1-8
 
@@ -391,11 +391,11 @@ DeepSeek 官网为开发者提供了调用 DeepSeek API 的方法，具体操�
 
 02 注册并登录后，DeepSeek 开放平台主页默认显示“用量信息”界面，其中展示了调用 DeepSeek API 的价格信息，如图 1-10 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_009.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_009.jpg)
 
 图 1-9
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_010.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_010.jpg)
 
 图 1-10
 
@@ -403,17 +403,17 @@ DeepSeek 官网为开发者提供了调用 DeepSeek API 的方法，具体操�
 
 04 在对话框中输入 API key 的名称，然后单击“创建”按钮，完成创建工作。此时在“API keys”界面会显示新创建的 API key，如图 1-12 所示。切记，一定不要泄露自己的 API key，避免被他人盗用。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_011.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_011.jpg)
 
 图 1-11
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_012.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_012.jpg)
 
 图 1-12
 
 05 选择左侧导航栏中的“接口文档”选项进入“DeepSeek API 文档”界面，官方为开发者列出了使用 DeepSeek API 的详细教程，如图 1-13 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_013.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_013.jpg)
 
 图 1-13
 
@@ -421,13 +421,13 @@ DeepSeek 官网为开发者提供了调用 DeepSeek API 的方法，具体操�
 
 在 DeepSeek API 的官方教程中提供了实现对话程序的方法，并且分别给出了 Curl、Python 和 Node.js 版本的示例代码，如图 1-14 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_014.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_014.jpg)
 
 图 1-14
 
 例如，下面的代码参考了图 1-14 所示的官方文档，并进行了简单修改，使用调用对话 API 实现了对话功能。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_015.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_015.jpg)
 
 执行后会调用 DeepSeek 解答代码中 message 设置的问题“你知道 DeepSeek 吗？”，并输出回复结果。
 
@@ -451,7 +451,7 @@ deepseek_chat 此次调用花费时间为：3.3688 秒
 
 人工智能的主要分支如图 2-1 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_016.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_016.jpg)
 
 图 2-1
 
@@ -459,7 +459,7 @@ deepseek_chat 此次调用花费时间为：3.3688 秒
 
 人工智能的关键技术如图 2-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_017.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_017.jpg)
 
 图 2-2
 
@@ -485,7 +485,7 @@ deepseek_chat 此次调用花费时间为：3.3688 秒
 
 传统机器学习是一种算法模型，这种模型能够从数据中获取信息，逐渐改进自身的性能，而不依赖于固定的规则。传统机器学习的目标是构建能够自动识别模式的模型，以便对新数据进行分析和预测。传统机器学习的常用概念如图 2-3 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_018.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_018.jpg)
 
 图 2-3
 
@@ -497,13 +497,13 @@ deepseek_chat 此次调用花费时间为：3.3688 秒
 
 深度学习是机器学习中的一个子领域，它专注于使用多层神经网络来模拟人脑处理信息的方式。深度学习利用多层次的非线性变换，自动从数据中提取高级特征和模式，进行分类、预测等任务。它特别擅长处理复杂的数据，如图像、语音和自然语言等。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_019.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_019.jpg)
 
 图 2-4
 
 深度学习是一种通过构建深层的神经网络来进行数据分析和建模的机器学习方法。深度学习模型通常包括多个隐藏层（深度），使得模型可以学习到数据中的复杂和抽象的特征。深度学习的基本概念如图 2-5 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_020.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_020.jpg)
 
 图 2-5
 
@@ -763,7 +763,7 @@ deepseek_chat 此次调用花费时间为：3.3688 秒
 
 传统机器学习模型通常依赖于手动设计的特征，并通过算法从数据中学习这些特征之间的模式。传统的机器学习模型，如线性回归、逻辑回归、支持向量机（SVM）、决策树与随机森林，以及*K*-近邻算法（KNN）等，对计算资源的需求较少，适用于中小规模的数据集。传统机器学习中的模型性能依赖于手动提取和设计特征（即特征工程）。例如，在一个房价预测模型中，需要预先定义特征，如面积、房龄等。图 2-6 所示是一些常见的传统机器学习模型。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_021.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_021.jpg)
 
 图 2-6
 
@@ -771,7 +771,7 @@ deepseek_chat 此次调用花费时间为：3.3688 秒
 
 深度学习模型是一种复杂的神经网络模型，由多层神经元堆叠而成，能够自动学习数据中的特征。深度学习模型尤其擅长处理大规模和高维度数据，如图像、语音和自然语言等领域。深度学习模型能够从原始数据中自动提取特征，而不依赖于手动设计特征。例如，卷积神经网络能够自动学习图像中的边缘、形状和纹理等特征。图 2-7 所示是一些常见的深度学习模型，每种模型在不同的应用场景中有其独特的优势与局限性，实际任务中通常会根据数据特性和问题需求来选择合适的模型类型。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_022.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_022.jpg)
 
 图 2-7
 
@@ -781,7 +781,7 @@ deepseek_chat 此次调用花费时间为：3.3688 秒
 
 表 2-1 传统机器学习模型与深度学习模型的对比
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_023.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_023.jpg)
 
 **4.** **应用场景**
 
@@ -825,7 +825,7 @@ Transformer 架构的基本概念如图 3-1 所示。
 
 **◎ 掩码多头自注意力机制（Masked Multi-Head Self-Attention Mechanism）：**为了避免在生成目标序列时看到未来的信息，解码器的自注意力模块会使用掩码来屏蔽未来位置的输入。这确保了解码器在生成某个位置的输出时，只能依赖于之前位置的信息。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_024.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_024.jpg)
 
 图 3-1
 
@@ -853,7 +853,7 @@ Transformer 架构的基本概念如图 3-1 所示。
 
 随着技术的发展，基于 Transformer 架构的多种变体和改进模型不断涌现，在保持架构优势的同时，进一步拓展了其应用边界和性能上限。Transformer 架构的常见变体产品如图 3-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_025.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_025.jpg)
 
 图 3-2
 
@@ -865,7 +865,7 @@ Transformer 架构的基本概念如图 3-1 所示。
 
 在 DeepSeek 模型中，MHA 机制是其核心架构的重要组成部分，尤其在 DeepSeek-V2 和 DeepSeek-V3 中发挥着关键作用。假设你正在开发一款智能写作助手，旨在帮助用户快速生成高质量的文章。你可以利用 MHA 机制及多头潜在注意力（MLA）机制来实现这一目标。例如，当用户输入一个主题——“如何提高学习效率”时，MHA 机制能够捕捉主题中的关键词及其语义关系，从而生成一份详细的写作大纲。而 MLA 机制则在此基础上进一步优化，通过低秩压缩和旋转位置编码（RoPE）技术，有效减少计算开销，同时确保输出高质量的内容。这一过程如图 3-3 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_026.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_026.jpg)
 
 图 3-3
 
@@ -879,7 +879,7 @@ Transformer 架构的基本概念如图 3-1 所示。
 
 **（3）注意力计算：**每个头通过缩放点积注意力（Scaled Dot-Product Attention）计算查询和键的点积，再通过 Softmax 函数得到注意力权重，最后加权求和值矩阵，生成每个头的输出。对于每个注意力头，计算缩放点积注意力的公式为其中， *dk*为每个头的维度。各头分别计算后，再将所有头的输出拼接起来，通过一个线性变换得到最终输出。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_027.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_027.jpg)
 
 **（4）拼接与融合：**将所有头的输出拼接在一起，通过一个线性变换层整合信息，得到最终的输出。
 
@@ -915,7 +915,7 @@ MLA 机制在智能写作助手等应用场景中，能够高效地捕捉文本�
 
 动态任务分配能够根据变化的条件实时调整，从而提高系统的灵活性和效率。其原理如图 3-4 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_028.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_028.jpg)
 
 图 3-4
 
@@ -963,7 +963,7 @@ MLA 机制在智能写作助手等应用场景中，能够高效地捕捉文本�
 
 动态任务分配的应用场景非常广泛，尤其是在 MoE 架构和多任务学习中，它通过动态选择和分配任务到不同的专家模块或计算资源，显著提升了模型的效率和性能。动态任务分配的应用场景如图 3-5 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_029.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_029.jpg)
 
 图 3-5
 
@@ -1007,7 +1007,7 @@ MLA 机制在智能写作助手等应用场景中，能够高效地捕捉文本�
 
 稀疏激活机制通过在训练过程中考虑参数邻域内的最大损失，提高模型在不确定性区域的泛化能力。稀疏激活机制的实现方式如图 3-6 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_030.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_030.jpg)
 
 图 3-6
 
@@ -1035,7 +1035,7 @@ MoE 架构是一种高效且灵活的架构，其核心特点在于其能够动�
 
 具体来说，MoE 架构的特点如图 3-7 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_031.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_031.jpg)
 
 图 3-7
 
@@ -1077,7 +1077,7 @@ MoE 架构中，权重计算方式主要由门控网络完成。门控网络通�
 
 计算权重的公式为其中，*f**[i]* ( *x*)为门控网络为第*i*个专家计算的原始分数；*g**[i]* (*x*)为归一化后的权重，表示第*i*个专家对当前输入数据的贡献。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_032.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_032.jpg)
 
 ### **3.4.5 应用落地**
 
@@ -1097,7 +1097,7 @@ DeepSeek 中的 MoE 架构具有以下特点。
 
 **◎ 动态路由与专家专业化：**MoE 架构通过门控网络动态选择激活哪些专家，这种选择是基于输入数据的特征进行的。随着训练的进行，专家会自发地专业化，专注于处理特定类型的输入数据，从而提高了模型的多样性和表示能力。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_033.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_033.jpg)
 
 图 3-8
 
@@ -1167,19 +1167,19 @@ LayerNorm 是一种在深度学习中广泛应用的归一化技术，主要用�
 
 LayerNorm 的具体步骤包括计算均值与方差、归一化及应用可学习的缩放和平移参数。
 
-**（1）计算均值和方差：**对于输入向量*x*=[ *x**[1]*,*x**[2]*, …, *x**[H]* ] ，计算其均值*μ**[L]*和方差 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_034.png) 公式为
+**（1）计算均值和方差：**对于输入向量*x*=[ *x**[1]*,*x**[2]*, …, *x**[H]* ] ，计算其均值*μ**[L]*和方差 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_034.png) 公式为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_035.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_035.jpg)
 
 **（2）归一化：**使用均值和方差对输入数据进行归一化，公式为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_036.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_036.jpg)
 
 其中，*ε*是一个小常数（如 10^(-8)或 10^(-10)），用于防止除零。
 
 **（****3）应用可学习的缩放和平移参数：**LayerNorm 在归一化后引入了可学习的参数*γ*和*β*，分别用于缩放和平移，增加了模型的灵活性，公式为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_037.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_037.jpg)
 
 其中，*γ*和*β*是可学习的参数，通常初始化为 1 和 0。
 
@@ -1209,7 +1209,7 @@ RMSNorm 是一种高效的归一化技术，它通过计算输入张量的均方
 
 RMSNorm 仅使用均方根统计进行输入缩放，公式为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_038.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_038.jpg)
 
 其中，*w*为可学习参数；*ε*为一个小常数，用于防止除零。
 
@@ -1217,7 +1217,7 @@ RMSNorm 与 LayerNorm 的对比如表 3-1 所示。
 
 表 3-1 RMSNorm 与 LayerNorm 的对比
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_039.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_039.jpg)
 
 总之，RMSNorm 和 LayerNorm 各有优势，RMSNorm 通过简化计算过程，提高了计算效率和训练稳定性，尤其在大模型和资源受限的场景中表现出色；而 LayerNorm 通过均值归零提供稳定的梯度更新，适用于多种模型。
 
@@ -1405,7 +1405,7 @@ DeepSeek 采用逐词生成技术，通过不断预测并输出下一个最可�
 
 DeepSeek 文本生成的基本机制基于 Transformer 架构和预训练技术，通过逐词生成机制输出连贯、自然的文本。具体来说，文本生成的基本机制如图 4-1 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_040.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_040.jpg)
 
 图 4-1
 
@@ -1547,7 +1547,7 @@ DeepSeek 的概率分布与预测机制在多个领域表现出色，应用场�
 
 DeepSeek 在文本生成中采用了多种采样方法来控制生成文本的多样性和创造性，这些方法通过调整模型的概率分布来实现不同的生成效果。采样方法与文本多样性的具体说明和实际应用如图 4-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_041.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_041.jpg)
 
 图 4-2
 
@@ -1681,7 +1681,7 @@ DeepSeek 的模型压缩与轻量化技术旨在显著降低模型的存储和�
 
 DeepSeek 在推理优化与实时性方面采用了多种先进技术，以提升模型的运行效率和响应速度，满足实时性要求较高的应用场景。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_042.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_042.jpg)
 
 图 4-3
 
@@ -1741,7 +1741,7 @@ DeepSeek 在多个领域展现了强大的实时性能力，应用场景举例�
 
 DeepSeek 在模型的可解释性与透明度方面采取了多项创新措施，致力于打破传统大模型的“黑盒”特性，让用户能够更清晰地理解模型的决策过程。模型的可解释性与透明度的具体说明如图 4-4 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_043.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_043.jpg)
 
 图 4-4
 
@@ -1883,7 +1883,7 @@ DeepSeek 的内部机制融合了先进的 NLP 技术和深度学习架构，旨
 
 **◎** **词汇表大小：**词向量的生成依赖于预定义的词汇表，对于词汇表之外的单词（Out of Vocabulary，OOV），模型无法直接生成向量。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_044.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_044.jpg)
 
 图 5-1
 
@@ -2077,7 +2077,7 @@ Transformer 架构通过自注意力机制处理序列数据，能够捕捉长�
 
 在 DeepSeek 中，语义编码与信息捕捉是通过先进的模型架构和嵌入层设计实现的，并且和 MLA 机制密切相关，具体说明如图 5-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_045.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_045.jpg)
 
 图 5-2
 
@@ -2251,7 +2251,7 @@ DeepSeekMoE 是一种创新的 MoE 架构，旨在通过细粒度专家分割和
 
 DeepSeekMoE 架构的推出背景如图 6-1 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_046.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_046.jpg)
 
 图 6-1
 
@@ -2261,7 +2261,7 @@ DeepSeekMoE 架构的推出背景如图 6-1 所示。
 
 为应对知识混合与知识冗余的挑战，DeepSeek 团队创新性地推出了 DeepSeekMoE 架构。该架构的核心追求是推动专家模块的高度专业化，以便在大规模模型扩展中实现性能提升与计算成本的平衡。DeepSeekMoE 架构借助两大关键策略实现目标：细粒度专家分割和共享专家隔离，具体说明如图 6-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_047.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_047.jpg)
 
 图 6-2
 
@@ -2273,11 +2273,11 @@ DeepSeek 团队引入细粒度专家分割策略，旨在不增加总参数量�
 
 通过细粒度专家分割，MoE 层的输出可以表示为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_048.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_048.jpg)
 
 其中，*l*表示神经网络的层数，用于表示当前处理的是第*l*层的输出或输入；*t*表示输入序列中的位置索引，即当前处理的 Token 在序列中的位置；*m*表示细分倍数，将每个原始专家细分为*m*个小专家，总专家数量变为*mN*；*N*表示原始专家的数量；*k*表示细分后每个输入 Token 激活的专家数量；*K*表示每个输入 Token 在未细分时选择的专家数量（即 Top-*K*路由中的*K*）；T 表示矩阵或向量的转置操作。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_049.png) ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_050.png)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_049.png) ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_050.png)
 
 以一个例子来说明：假设*N*=16，传统的 Top-2 路由策略会产 种可能的组合，而当每个专家被细分为 4 个更小的子专家时，细粒度路由策略可以产生种潜在组合。组合灵活性的显著提升，极大地增强了模型获取更准确、更有针对性知识的能力。
 
@@ -2291,7 +2291,7 @@ DeepSeek 团队引入细粒度专家分割策略，旨在不增加总参数量�
 
 基于细粒度专家分割策略，DeepSeek 团队进一步划分出*M*个专家作为共享专家。无论路由模块如何决策，每个标记都会被固定分配给这些共享专家。为了维持计算成本不变，其他路由专家中被激活的数量相应减少*M*个。在完整的 DeepSeekMoE 架构中，融入共享专家隔离策略的 MoE 层可表达为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_051.jpg)![](img/这就是DeepSeek：DeepSeek从原理到实践_image_052.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_051.jpg)![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_052.jpg)
 
 最终，在 DeepSeekMoE 架构中，共享专家的数量为*K* *s* ，路由专家的总数为*mN*−*K* *s* ，非零门控值的数量为*mK*−*Ks* 。
 
@@ -2301,7 +2301,7 @@ DeepSeekMoE 架构与传统 MoE 架构的对比如表 6-1 所示。
 
 表 6-1 DeepSeekMoE 架构与传统 MoE 架构的对比
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_053.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_053.jpg)
 
 总之，DeepSeek 团队通过创新的 MoE 架构设计，显著提升了模型的计算效率和灵活性，同时降低了资源消耗。
 
@@ -2331,7 +2331,7 @@ DeepSeek 团队提出了一种无辅助损失的负载均衡策略，通过在�
 
 DeepSeek 定义专家级平衡损失为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_054.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_054.jpg)
 
 其中， *α*[1]为超参数，被称为专家级平衡因子，用于调控该损失项对整体训练目标的影响；*N*′为*mK*-*K**[s]*，即经过细粒度分割后参与路由的专家总数减去被隔离为共享专家的数量。
 
@@ -2341,13 +2341,13 @@ DeepSeek 定义专家级平衡损失为
 
 *f**[i]*表示在一个训练批次（或序列）中，选择了专家*i*的令牌数量，其计算方式为其中， *K*′为每个令牌实际激活的细粒度专家数量（ *mK* ），如果存在*K**[s]*个共享专家，则可定义有效激活专家数量为*K*′=*mK*−*K**[s]* ，表示去除共享部分后真正参与差异化路由的专家数量。*T*是参与路由决策的令牌的总数，1 (·)是指示函数，当括号内条件（令牌*t*选择了专家*i*）满足时返回 1，否则返回 0。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_055.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_055.jpg)
 
 **（2）平均亲和度得分*****P******[i]***
 
 *P**[i]*表示在整个批次中所有令牌对所有参与路由的专家的亲和度得分总和，计算公式为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_056.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_056.jpg)
 
 其中，T 是整个批次中令牌的总数； *s**[i][,][t]*是令牌*t*与专家*i*之间的亲和度得分，反映了两者之间的匹配程度。
 
@@ -2357,15 +2357,15 @@ DeepSeek 定义专家级平衡损失为
 
 如果把所有路由专家划分为 D 个组{*E* [1], *E*[2],…, *E**[D]*}，并将每个组部署在单个设备上，设备级平衡损失为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_057.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_057.jpg)
 
-其中， *α*[2]表示超参数，称为设备级平衡因子； ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_058.png)表示第*i*组专家的归一化激活频率，其公式为
+其中， *α*[2]表示超参数，称为设备级平衡因子； ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_058.png)表示第*i*组专家的归一化激活频率，其公式为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_059.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_059.jpg)
 
-其中， ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_060.png)表示在第*i*个设备上被分配的专家数量；而*f**[j]*表示专家*j*在该组内的激活频率。 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_061.png)表示第*i*组专家的累计亲和度得分，计算公式为
+其中， ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_060.png)表示在第*i*个设备上被分配的专家数量；而*f**[j]*表示专家*j*在该组内的激活频率。 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_061.png)表示第*i*组专家的累计亲和度得分，计算公式为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_062.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_062.jpg)
 
 其中， *P**[j]*表示专家*j*的平均亲和度得分。
 
@@ -2377,7 +2377,7 @@ DeepSeekMoE 架构通过细粒度专家分割策略和共享专家隔离策略�
 
 总之，通过上述微调技术的结合使用，能够使 DeepSeekMoE 架构在微调过程中高效利用计算资源，同时保持模型性能，并适应不同的下游任务需求。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_063.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_063.jpg)
 
 图 6-3
 
@@ -2423,7 +2423,7 @@ DeepSeek-V3 不仅整合了传统 Transformer 架构的核心机制，还通过 
 
 DeepSeek-V3 的基本架构仍然基于 Transformer 架构，为了实现高效的推理和经济的训练， DeepSeek-V3 采用了 MLA 机制和 DeepSeekMoE 架构技术。与 DeepSeek-V2 相比，DeepSeek-V3 引入了一种无辅助损失的负载均衡策略，以缓解因负载均衡而导致的性能下降。图 6-4 展示了 DeepSeek-V3 的基础架构。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_064.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_064.jpg)
 
 图 6-4
 
@@ -2639,7 +2639,7 @@ Janus 多模态模型通过解耦视觉编码路径，具有多个方面的优�
 
 **◎** **良好的扩展性：**这种架构具有很强的扩展性，未来可以容纳更多输入类型，如点云、脑电图信号、音频数据等。只需为不同类型输入添加相应的独立编码器提取特征，然后利用统一的 Transformer 架构进行处理，即可实现对多模态数据的融合处理，拓展了模型的应用范围。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_065.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_065.jpg)
 
 图 6-5
 
@@ -2671,7 +2671,7 @@ VQ Tokenizer 基于向量量化技术，能够将图像的连续特征空间映�
 
 生成适配器是连接视觉与语言模态的关键组件，负责将视觉编码后的特征转换为语言模型可理解的表示。它通常采用轻量级结构，如线性投影或跨模态注意力机制，确保高效对接而不过度增加模型复杂度。通过生成适配器，多模态信息得以无缝融合，这显著提升了模型在图文理解与生成任务中的表现。在 Janus 模型中，生成适配器是视觉生成路径的关键组件，如图 6-6 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_066.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_066.jpg)
 
 图 6-6
 
@@ -2721,7 +2721,7 @@ VQ Tokenizer 基于向量量化技术，能够将图像的连续特征空间映�
 
 Janus 模型的预训练分为以下 3 个阶段，每个阶段都有其独特的目标和方法，如图 6-7 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_067.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_067.jpg)
 
 图 6-7
 
@@ -2735,7 +2735,7 @@ Janus-Pro 模型基于 Janus 模型进行了优化，通过改进训练策略、
 
 Janus-Pro 模型主要有 3 个方面的改进，如图 6-8 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_068.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_068.jpg)
 
 图 6-8
 
@@ -2829,7 +2829,7 @@ DeepSeek 的数据准备与预处理包括数据收集、清洗和格式化等�
 
 在 DeepSeek 的数据收集与筛选过程中，通过构建高质量、多样化的训练语料以提升模型的推理和生成能力，该过程主要包括数据来源选择、数据清洗与筛选等关键步骤。数据收集与筛选的具体说明如图 7-1 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_069.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_069.jpg)
 
 图 7-1
 
@@ -2843,7 +2843,7 @@ DeepSeek 的数据准备与预处理包括数据收集、清洗和格式化等�
 
 数据清洗是指对收集到的原始数据进行处理，如去除重复数据、处理缺失值、纠正错误数据等，从而提高数据的准确性和一致性。数据清洗的主要步骤和方法如图 7-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_070.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_070.jpg)
 
 图 7-2
 
@@ -2881,7 +2881,7 @@ DeepSeek 的数据准备与预处理包括数据收集、清洗和格式化等�
 
 在训练 DeepSeek 的过程中，数据增强策略被广泛应用，以提升模型的推理能力和生成质量。具体而言，DeepSeek 采用的数据增强策略如图 7-3 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_071.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_071.jpg)
 
 图 7-3
 
@@ -2997,7 +2997,7 @@ DeepSeek 通过特定的技术手段扩展了模型的上下文长度。例如�
 
 在预训练模型的基础上，监督微调通过利用高质量的标注数据进行进一步训练，可以使模型更好地适应特定任务或领域。监督微调的基本信息如图 7-4 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_072.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_072.jpg)
 
 图 7-4
 
@@ -3033,7 +3033,7 @@ DeepSeek 在微调阶段充分利用了强化学习技术，特别是在 DeepSee
 
 总之，通过在微调过程中引入强化学习，DeepSeek 实现了在特定任务上的性能提升，同时降低了对大规模标注数据的依赖，为大语言模型的训练提供了新的思路。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_073.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_073.jpg)
 
 图 7-5
 
@@ -3213,7 +3213,7 @@ MTP 技术使模型在训练过程中能够学习到更多的信息，提高了�
 
 可解释推理机制旨在提升人工智能模型的决策透明度和可理解性，使模型的推理过程更加清晰和可信。图 8-1 展示了可解释推理机制的技术亮点。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_074.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_074.jpg)
 
 图 8-1
 
@@ -3353,7 +3353,7 @@ DeepSeek-R1 是由 DeepSeek 团队研发的推理模型，它基于强化学习�
 
 DeepSeek-R1 的技术驱动和市场需求如图 9-1 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_075.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_075.jpg)
 
 图 9-1
 
@@ -3485,7 +3485,7 @@ DeepSeek-R1-Zero 的目标函数主要基于规则驱动的奖励机制，整体
 
 **◎** **过程规范性奖励（输出结构约束）：**强制模型在<|FunctionCallBegin|>标签内输出推理过程，在<|FunctionCallEnd|>标签内输出答案，当符合格式要求时给予固定奖励（如+5 分），确保推理链的结构化与可解释性，该设计与 GRPO 算法的策略更新逻辑直接耦合（如通过格式合规性影响优势函数计算）。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_076.png)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_076.png)
 
 在 DeepSeek-R1-Zero 的训练过程中，针对每个问题（记为*i*），GRPO 算法从旧策略（*πθ*[old]）中采样出一组候选输出。随后，通过最大化以下目标函数来优化当前策略*πθ*。具体来说，在 DeepSeek-R1-Zero 的 GRPO 算法中，针对每个候选输出*a**[i]*采用以下策略进行优化。
 
@@ -3497,7 +3497,7 @@ DeepSeek-R1-Zero 的目标函数主要基于规则驱动的奖励机制，整体
 
 优势函数*A**[i]*的计算方式为
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_077.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_077.jpg)
 
 这意味着，在 DeepSeek-R1-Zero 的训练中，每个候选输出的相对优势不仅由其自身的性能决定，还受到该组输出整体分布的影响。具体来说，如果某个候选输出的值高于组内平均值，且该组输出的标准差较大，表明其在组内具有更高的独特性和优越性，因此其优势值会显著提升。这种优势值的增加意味着在策略更新过程中，该候选输出将被赋予更高的权重，从而推动模型向更优的方向进化。
 
@@ -3521,7 +3521,7 @@ DeepSeek-R1-Zero 的目标函数主要基于规则驱动的奖励机制，整体
 
 在 DeepSeek-R1-Zero 的开发过程中，特意没有引入基于神经网络的结果或过程奖励模型，主要原因如图 9-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_078.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_078.jpg)
 
 图 9-2
 
@@ -3583,7 +3583,7 @@ DeepSeek-R1-Zero 的训练跳过了监督微调阶段，其训练模板要求模
 
 **%FFQ4FFL3;FSP὎ಸ䃚㏰᱌䬡⃼**⁎**৺Ꮑ⮱Ꭰ౴䪬Ꮣ**
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_079.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_079.jpg)
 
 图 9-3
 
@@ -3645,7 +3645,7 @@ DeepSeek-R1 的冷启动阶段是其全场景强化学习流程的关键起点�
 
 强制要求模型按“推理过程→答案”的格式生成，如下所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_080.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_080.jpg)
 
 这种设计方式便于后续强化学习阶段奖励模型的自动评估。
 
@@ -3665,7 +3665,7 @@ DeepSeek-R1 的冷启动阶段是其全场景强化学习流程的关键起点�
 
 DeepSeek-R1 的推理导向强化学习是其训练方案中的关键阶段，旨在显著提升模型在推理任务上的表现。DeepSeek-R1 的推理导向强化学习的基本信息如图 9-4 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_081.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_081.jpg)
 
 图 9-4
 
@@ -3701,7 +3701,7 @@ DeepSeek-R1 的全场景强化学习方案中，拒绝采样与监督微调是�
 
 监督微调阶段主要负责实现模型行为的优化功能，如图 9-5 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_082.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_082.jpg)
 
 图 9-5
 
@@ -3737,7 +3737,7 @@ DeepSeek-R1 的拒绝采样与监督微调阶段，通过数据质量筛选与�
 
 建立分层评估系统，以平衡性能与安全，如图 9-6 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_083.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_083.jpg)
 
 图 9-6
 
@@ -3813,13 +3813,13 @@ DeepSeek 还开发了一系列蒸馏模型（如表 9-1 所示），这些模型
 
 表 9-1 蒸馏模型
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_084.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_084.jpg)
 
 上述蒸馏模型在 Hugging Face 平台公开发布，如 DeepSeek-R1-Distill-Llama-70B 在 Hugging Face 平台的信息如图 9-7 所示。大家可以选择需要的模型部署到本地或云服务器进行测试。
 
 注意：在知识蒸馏过程中，DeepSeek-R1 仅应用了监督微调，而未引入强化学习阶段。虽然强化学习能够显著提升模型的性能，但这里的主要目标是凸显知识蒸馏技术本身的高效性。通过利用 DeepSeek-R1 生成的高质量数据对小型模型进行微调，成功地将 DeepSeek-R1 的推理能力迁移到了这些模型中。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_085.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_085.jpg)
 
 图 9-7
 
@@ -3847,11 +3847,11 @@ DeepSeek 还开发了一系列蒸馏模型（如表 9-1 所示），这些模型
 
 在大模型的训练和推理过程中，稀疏矩阵的应用不仅提高了效率，还降低了硬件资源的需求，使其更适合在资源受限的环境中运行。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_086.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_086.jpg)
 
 图 10-1
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_087.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_087.jpg)
 
 图 10-2
 
@@ -3859,7 +3859,7 @@ DeepSeek 还开发了一系列蒸馏模型（如表 9-1 所示），这些模型
 
 在大模型中，稀疏矩阵的主要存储格式如图 10-3 所示，以优化存储空间和计算效率。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_088.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_088.jpg)
 
 图 10-3
 
@@ -3923,7 +3923,7 @@ NSA 的诞生背景如图 10-4 所示。
 
 为了解决这些问题，DeepSeek 团队提出了 NSA，一种具有层次化标记建模的原生可训练稀疏注意力架构。NSA 通过将键和值组织成时间块，并通过 3 个注意力路径处理它们，从而减少每个查询的计算量。这 3 个注意力路径分别是压缩粗粒度标记、选择性保留细粒度标记及用于局部上下文信息的滑动窗口。然后 DeepSeek 团队实现专用内核以最大化其使用效率。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_089.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_089.jpg)
 
 图 10-4
 
@@ -4033,7 +4033,7 @@ NSA 的核心目标是通过稀疏化注意力机制，减少计算和内存访�
 
 总之，DeepSeek 的 NSA 通过标记压缩、标记选择和滑动窗口 3 种策略，实现了稀疏化的注意力机制。这些策略不仅减少了计算和内存访问的开销，还通过动态聚合机制确保了模型对长文本的有效建模能力。同时，NSA 通过硬件优化设计，进一步提升了实际运行效率，使其在长文本任务中表现出色。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_090.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_090.jpg)
 
 图 10-5
 
@@ -4043,7 +4043,7 @@ DeepSeek 采用了当前最先进的大语言模型的常见实践，结合了 G
 
 在 NSA 中，DeepSeek 设置压缩块大小为 32，滑动步长为 16，选择块大小为 64，选择块数量为 16（包括 1 个初始块和 2 个局部块），以及滑动窗口大小为 512。全注意力和稀疏注意力模型都在 2 700 亿个 8K 长度的文本上进行预训练，随后通过 YaRN 继续训练和监督微调 32K 长度的文本，以适应长文本任务。两个模型都训练到完全收敛，以确保公平比较。实验结果显示，NSA 的预训练损失曲线稳定且平滑，且优于全注意力模型。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_091.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_091.jpg)
 
 图 10-6
 
@@ -4129,7 +4129,7 @@ Ollama 是一款专注于大语言模型本地部署与管理的开源框架，O
 
 Ollama 的主要特点和优势如图 11-1 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_092.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_092.jpg)
 
 图 11-1
 
@@ -4137,7 +4137,7 @@ Ollama 的主要特点和优势如图 11-1 所示。
 
 01 登录 Ollama 官网，根据本地计算机的操作系统类型下载对应的版本。目前 Ollama 支持 macOS、Linux 和 Windows 操作系统。这里选择 Windows 操作系统版本，如图 11-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_093.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_093.jpg)
 
 图 11-2
 
@@ -4147,17 +4147,17 @@ Ollama 的主要特点和优势如图 11-1 所示。
 
 04 在“Installing”界面中等待安装完成，如图 11-4 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_094.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_094.jpg)
 
 图 11-3
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_095.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_095.jpg)
 
 图 11-4
 
 05 完成安装后，为了确保 Ollama 服务已启动，在命令行输入下面的命令进行验证。当弹出图 11-5 所示的界面时则表示安装成功。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_096.jpg)![](img/这就是DeepSeek：DeepSeek从原理到实践_image_097.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_096.jpg)![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_097.jpg)
 
 图 11-5
 
@@ -4167,37 +4167,37 @@ Ollama 的主要特点和优势如图 11-1 所示。
 
 01 登录 Ollama 官网，选择顶部的“Models”选项，切换到模型界面，如图 11-6 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_098.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_098.jpg)
 
 图 11-6
 
 02 单击“deepseek-r1”链接，进入 DeepSeek 的模型界面，在下拉列表中有多个不同大小的模型版本，模型大小不同，可适配的计算机显存、显卡及内存配置也不同，如图 11-7 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_099.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_099.jpg)
 
 图 11-7
 
 03 根据硬件配置选择合适的模型版本，假设要安装“1.5b”版本，在下拉列表中选择“1.5b”选项，然后复制对应的命令“ollama run deepseek-r1:1.5b”，如图 11-8 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_100.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_100.jpg)
 
 图 11-8
 
 04 在命令行中输入前面复制的如下命令，按回车键后开始安装“1.5b”版本的 DeepSeek。安装时间可能有点长，需要耐心等待（模型越大等待的时间越长），安装成功的效果如图 11-9 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_101.jpg)![](img/这就是DeepSeek：DeepSeek从原理到实践_image_102.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_101.jpg)![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_102.jpg)
 
 图 11-9
 
 05 安装成功后，可以直接与 DeepSeek 进行对话。例如，输入“你是谁？”命令，按回车键后的对话效果如图 11-10 所示。输入“/bye”命令可退出模型。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_103.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_103.jpg)
 
 图 11-10
 
 注意：安装 deepseek-r1:1.5b 成功后，如果关闭了命令行界面。可以再次打开命令行界面，然后输入如下命令启动与 DeepSeek 的对话功能。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_104.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_104.jpg)
 
 ### **11.1.4 基于本地 DeepSeek 的对话程序**
 
@@ -4215,7 +4215,7 @@ Ollama 的主要特点和优势如图 11-1 所示。
 
 **◎ 依赖库：**安装必要的 Python 库，如 transformers、torch、accelerate 等。可以通过以下命令安装。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_105.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_105.jpg)
 
 **3. 下载模型权重**
 
@@ -4223,7 +4223,7 @@ Ollama 的主要特点和优势如图 11-1 所示。
 
 **（2）通过如下命令下载。**
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_106.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_106.jpg)
 
 **（3）使用 Ollama 自动下载，具体方法参考本书 11.1.3 小节的内容。**
 
@@ -4233,7 +4233,7 @@ Ollama 的主要特点和优势如图 11-1 所示。
 
 **◎ 配置 CUDA 环境：**确保 CUDA 和 cuDNN 已正确安装，并设置如下环境变量。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_107.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_107.jpg)
 
 下面的实例使用 subprocess 模块与 Ollama 进行交互，调用本地的 DeepSeek 实现对话程序。
 
@@ -4241,7 +4241,7 @@ Ollama 的主要特点和优势如图 11-1 所示。
 
 实例文件 Deep01.py（源代码路径：codes\11\Deep01.py）的具体实现代码如下。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_108.jpg)![](img/这就是DeepSeek：DeepSeek从原理到实践_image_109.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_108.jpg)![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_109.jpg)
 
 上述代码的具体说明如下。
 
@@ -4277,7 +4277,7 @@ Chatbox 是一款开源免费的 AI 客户端工具，专为本地部署的 AI �
 
 基于 Chatbox 部署的主要优势如图 11-11 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_110.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_110.jpg)
 
 图 11-11
 
@@ -4289,7 +4289,7 @@ Chatbox 是一款开源免费的 AI 客户端工具，专为本地部署的 AI �
 
 01 登录 Chatbox 官网，单击“免费下载（for Windows）”按钮下载 Windows 版本的安装文件，如图 11-12 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_111.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_111.jpg)
 
 图 11-12
 
@@ -4297,35 +4297,35 @@ Chatbox 是一款开源免费的 AI 客户端工具，专为本地部署的 AI �
 
 03 在“选定安装位置”界面设置安装位置，然后单击“安装”按钮，如图 11-14 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_112.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_112.jpg)
 
 图 11-13
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_113.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_113.jpg)
 
 图 11-14
 
 04 安装完成后，系统会自动运行 Chatbox，单击“使用自己的 API Key 或本地模型”按钮，配置本地部署的模型，如图 11-15 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_114.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_114.jpg)
 
 图 11-15
 
 05 在弹出的“模型提供方”列表中选择“Ollama API”选项，如图 11-16 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_115.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_115.jpg)
 
 图 11-16
 
 06 选择在本地已经部署好的模型，如 11.1.3 小节部署的 1.5b 版本的 DeepSeek，如图 11-17 所示。当然，也可以选择其他已经部署好的模型。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_116.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_116.jpg)
 
 图 11-17
 
 单击“保存”按钮，DeepSeek 被部署到本地，接下来可以可视化使用 DeepSeek 进行对话，如图 11-18 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_117.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_117.jpg)
 
 图 11-18
 
@@ -4337,7 +4337,7 @@ LM Studio 是一个用于开发和部署大语言模型的平台，提供从模
 
 01 登录 LM Studio 官网，根据本地计算机的操作系统类型下载对应的版本。例如，操作系统为 Windows 11 时，单击“下载适用于 Windows 的 LM Studio”按钮下载安装文件，如图 11-19 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_118.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_118.jpg)
 
 图 11-19
 
@@ -4347,11 +4347,11 @@ LM Studio 是一个用于开发和部署大语言模型的平台，提供从模
 
 03 单击“下一步”按钮进入“选定安装位置”界面，设置 LM Studio 的安装路径，如图 11-21 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_119.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_119.jpg)
 
 图 11-20
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_120.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_120.jpg)
 
 图 11-21
 
@@ -4359,11 +4359,11 @@ LM Studio 是一个用于开发和部署大语言模型的平台，提供从模
 
 05 安装完毕后，进入“正在完成 LM Studio 安装向导”界面，单击“完成”按钮完成安装操作，如图 11-23 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_121.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_121.jpg)
 
 图 11-22
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_122.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_122.jpg)
 
 图 11-23
 
@@ -4371,7 +4371,7 @@ LM Studio 是一个用于开发和部署大语言模型的平台，提供从模
 
 01 在计算机“开始”菜单中单击 LM Studio 的启动图标，打开 LM Studio，如图 11-24 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_123.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_123.jpg)
 
 图 11-24
 
@@ -4379,29 +4379,29 @@ LM Studio 是一个用于开发和部署大语言模型的平台，提供从模
 
 03 单击顶部的模型搜索框，输入关键词“DeepSeek”，然后单击“Search more results for‘DeepSeek’”按钮，如图 11-26 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_124.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_124.jpg)
 
 图 11-25
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_125.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_125.jpg)
 
 图 11-26
 
 04 弹出与“DeepSeek”关键词对应的大模型对话框，如图 11-27 所示。选中一个模型，如“DeepSeek R1 Distill (Llama 8B)”，然后单击右下角的“Download 4.92 GB”按钮开始下载。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_126.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_126.jpg)
 
 图 11-27
 
 05 此时将弹出“Downloads”界面，如图 11-28 所示。因为文件比较大，所以需要大家耐心等待。下载完成后单击“Load Model”按钮或按回车键，可加载刚下载的 DeepSeek R1 Distill (Llama 8B)模型。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_127.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_127.jpg)
 
 图 11-28
 
 06 至此，DeepSeek 的安装配置工作全部完成，可以在 LM Studio 界面内与大语言模型进行交互，如图 11-29 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_128.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_128.jpg)
 
 图 11-29
 
@@ -4409,31 +4409,31 @@ LM Studio 是一个用于开发和部署大语言模型的平台，提供从模
 
 LM Studio 提供了与 OpenAI 兼容的 API，这使开发者能够轻松地将原本基于 OpenAI 的应用程序迁移到本地部署的大语言模型环境中。借助这一兼容性设计，开发者可以沿用他们熟悉的 OpenAI API 调用逻辑，无须对现有代码进行大规模重构或调整。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_129.png)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_129.png)
 
-01 单击 LM Studio 底部的按钮，然后单击左侧导航栏中的终端图标 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_130.png)，进入开发者界面，这里展示了 LM Studio API 服务器配置页面，如图 11-30 所示。
+01 单击 LM Studio 底部的按钮，然后单击左侧导航栏中的终端图标 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_130.png)，进入开发者界面，这里展示了 LM Studio API 服务器配置页面，如图 11-30 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_131.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_131.jpg)
 
 图 11-30
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_132.png)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_132.png)
 
 02 在打开的界面中单击按钮，在弹出的菜单中开启“在网络中提供服务”开关，如图 11-31 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_133.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_133.jpg)
 
 图 11-31
 
 03 开启“Status: Running”开关，启动 API 服务器，打开后的界面效果如图 11-32 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_134.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_134.jpg)
 
 图 11-32
 
 04 此时打开浏览器，输入“http://<运行 LM Studio 设备的局域网 IP>:1234/v1/models”，出现图 11-33 所示的界面，则代表 API 服务器已成功运行。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_135.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_135.jpg)
 
 图 11-33
 
@@ -4443,13 +4443,13 @@ Dify 是一个用于开发大语言模型应用的多功能平台，能够连接
 
 01 打开 Dify 官网，登录后单击用户头像，在弹出的列表中选择“设置”选项，在设置界面选择左侧的“模型供应商”选项，在“模型供应商”界面选择“LM Studio”选项，如图 11-34 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_136.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_136.jpg)
 
 图 11-34
 
 02 在弹出的“安装插件”对话框中单击“安装”按钮，如图 11-35 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_137.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_137.jpg)
 
 图 11-35
 
@@ -4467,13 +4467,13 @@ Dify 是一个用于开发大语言模型应用的多功能平台，能够连接
 
 **◎ 最大 token 上限：**4 096。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_138.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_138.jpg)
 
 图 11-36
 
 04 单击“保存”按钮完成模型的添加工作，之后可以创建一个聊天机器人进行测试，如图 11-37 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_139.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_139.jpg)
 
 图 11-37
 
@@ -4485,7 +4485,7 @@ Open WebUI 是一个开源的、用于生成式人工智能模型交互的用�
 
 Open WebUI 的特点和功能如图 11-38 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_140.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_140.jpg)
 
 图 11-38
 
@@ -4495,13 +4495,13 @@ Open WebUI 的特点和功能如图 11-38 所示。
 
 Docker 是一个开源的容器化平台，能够将应用程序及其依赖项打包到独立的容器中，确保在不同环境中运行一致。它通过轻量级的虚拟化技术，简化了应用的部署、管理和扩展过程，广泛应用于开发、测试和生产环境。其核心概念、工作原理和主要优势如图 11-39 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_141.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_141.jpg)
 
 图 11-39
 
 Docker 在 DeepSeek 部署中发挥着至关重要的作用，具体如图 11-40 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_142.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_142.jpg)
 
 图 11-40
 
@@ -4513,7 +4513,7 @@ Docker 在 DeepSeek 部署中发挥着至关重要的作用，具体如图 11-40
 
 02 使用如下命令将 Open WebUI 的源代码从 GitHub 仓库拉取到本地。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_143.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_143.jpg)
 
 03 安装 Node.js 和依赖项。安装 Node.js 时，建议使用 Node Version Manager 管理 Node.js 版本，并安装所需的 Node.js 版本。
 
@@ -4521,7 +4521,7 @@ Docker 在 DeepSeek 部署中发挥着至关重要的作用，具体如图 11-40
 
 05 配置好文件 docker-compose.yml 后，可以启动 Docker 并进入开发模式。使用命令构建镜像并启动容器，通过访问 http://localhost:3000 来访问本地开发环境，如图 11-41 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_144.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_144.jpg)
 
 图 11-41
 
@@ -4529,11 +4529,11 @@ Docker 在 DeepSeek 部署中发挥着至关重要的作用，具体如图 11-40
 
 07 当再次登录时，只需在登录界面输入管理员的账号信息即可，如图 11-43 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_145.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_145.jpg)
 
 图 11-42
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_146.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_146.jpg)
 
 图 11-43
 
@@ -4541,31 +4541,31 @@ Docker 在 DeepSeek 部署中发挥着至关重要的作用，具体如图 11-40
 
 08 首次加载 Open WebUI 界面成功后，可以在“管理员面板>设置>外部连接”里将“OpenAI API”选项关闭，再重新打开页面即可，如图 11-44 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_147.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_147.jpg)
 
 图 11-44
 
 09 按照 11.1.3 小节中的方法，通过 Ollama 部署 DeepSeek。例如，可以使用“1.5b”版本的模型，并复制拉取命令“ollama run deepseek-r1:1.5b”，如图 11-45 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_148.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_148.jpg)
 
 图 11-45
 
 10 登录 Open WebUI 的 Web 界面，在上方搜索框中输入模型的名称（如“ollama run deepseek-r1:1.5b”），搜索并下载，如图 11-46 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_149.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_149.jpg)
 
 图 11-46
 
 11 下载“deepseek-r1:1.5b”模型成功后重启容器，然后登录 Open WebUI，此时会发现 Open WebUI 中已经有了“deepseek-r1:1.5b”模型，如图 11-47 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_150.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_150.jpg)
 
 图 11-47
 
 12 现在可以在 Open WebUI 界面中调用 DeepSeek 进行聊天，如图 11-48 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_151.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_151.jpg)
 
 图 11-48
 
@@ -4577,7 +4577,7 @@ DeepSeek 支持远程和云端部署，用户可以将 DeepSeek 部署到云端�
 
 国内常用的 DeepSeek 远程和云端部署平台如图 11-49 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_152.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_152.jpg)
 
 图 11-49
 
@@ -4587,19 +4587,19 @@ DeepSeek 支持远程和云端部署，用户可以将 DeepSeek 部署到云端�
 
 01 访问腾讯云官网中的 HAI，输入账号信息后登录，如图 11-50 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_153.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_153.jpg)
 
 图 11-50
 
 02 进入 HAI 的“算力管理”界面，如图 11-51 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_154.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_154.jpg)
 
 图 11-51
 
 03 单击“新建”按钮，打开“高性能应用服务 HAI”界面，如图 11-52 所示。在此界面，可以根据自己的实际需求选择云服务配置信息。注意，配置越高，价格越高。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_155.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_155.jpg)
 
 图 11-52
 
@@ -4607,13 +4607,13 @@ DeepSeek 支持远程和云端部署，用户可以将 DeepSeek 部署到云端�
 
 05 购买完成后等待几分钟，DeepSeek 实例就创建成功了。在“算力管理”界面可以查看相关信息，如图 11-53 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_156.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_156.jpg)
 
 图 11-53
 
 06 通过站内短信可以看到 DeepSeek 实例的用户名和密码信息，如图 11-54 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_157.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_157.jpg)
 
 图 11-54
 
@@ -4621,7 +4621,7 @@ DeepSeek 支持远程和云端部署，用户可以将 DeepSeek 部署到云端�
 
 01 访问腾讯云的 DeepSeek 实例主界面，可以看到“连接算力”有 3 个功能块，如图 11-55 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_158.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_158.jpg)
 
 图 11-55
 
@@ -4629,17 +4629,17 @@ DeepSeek 支持远程和云端部署，用户可以将 DeepSeek 部署到云端�
 
 03 此时可以看到腾讯云默认预装了 DeepSeek 的 1.5B 和 7B 版本。也就是说，当前的 UI 界面可以直接使用实例本地的模型。这里选择使用“deepseek-r1:7b”模型，并为其设置一个提示词，如图 11-57 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_159.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_159.jpg)
 
 图 11-56
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_160.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_160.jpg)
 
 图 11-57
 
 04 设置成功后，就可以调用 deepseek-r1:7b 模型进行聊天了，如图 11-58 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_161.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_161.jpg)
 
 图 11-58
 
@@ -4647,25 +4647,25 @@ DeepSeek 支持远程和云端部署，用户可以将 DeepSeek 部署到云端�
 
 01 访问腾讯云的 DeepSeek 实例主界面，单击“CloudStudio”按钮，如图 11-59 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_162.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_162.jpg)
 
 图 11-59
 
 02 进入相应界面后，可以看到一个类似于 VS Code 的界面，这个本质上是一个编码器，如图 11-60 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_163.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_163.jpg)
 
 图 11-60
 
 03 在顶部菜单中选择“终端＞新建终端”选项，如图 11-61 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_164.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_164.jpg)
 
 图 11-61
 
 04 在腾讯云创建的 deepseek-r1:7b 模型即可成功运行，接下来可以进行交互，如图 11-62 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_165.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_165.jpg)
 
 图 11-62
 
@@ -4673,19 +4673,19 @@ DeepSeek 支持远程和云端部署，用户可以将 DeepSeek 部署到云端�
 
 01 访问腾讯云的 DeepSeek 实例主界面，单击“JupyterLab”按钮，如图 11-63 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_166.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_166.jpg)
 
 图 11-63
 
 02 进入相应界面后，可以发现整个界面很整洁、友好，如图 11-64 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_167.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_167.jpg)
 
 图 11-64
 
 03 单击“Terminal”按钮进入命令界面，输入下面的命令后就能调用在腾讯云创建的 deepseek-r1:7b 模型进行聊天，如图 11-65 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_168.jpg)![](img/这就是DeepSeek：DeepSeek从原理到实践_image_169.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_168.jpg)![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_169.jpg)
 
 图 11-65
 
@@ -4703,7 +4703,7 @@ DeepSeek 支持远程和云端部署，用户可以将 DeepSeek 部署到云端�
 
 当 DeepSeek 在全球范围内引发广泛关注后，众多科技公司纷纷宣布已集成 DeepSeek 至其产品生态中。这里的“集成 DeepSeek”是指这些公司通过 API、SDK 或定制化部署等方式，将 DeepSeek 的 AI 能力整合进其服务平台，以提升智能交互体验、优化知识处理效率并增强整体服务能力。集成 DeepSeek 的好处如图 12-1 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_170.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_170.jpg)
 
 图 12-1
 
@@ -4713,25 +4713,25 @@ DeepSeek 支持远程和云端部署，用户可以将 DeepSeek 部署到云端�
 
 下载并安装 Chatbox 后，按照以下步骤通过 DeepSeek API 接入对话服务。01 打开 Chatbox，首先显示一个默认的界面，选择左下角的“设置”选项，如图 12-2 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_171.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_171.jpg)
 
 图 12-2
 
 02 在弹出的“设置”对话框中选择“模型”选项，在“模型提供方”下拉列表中选择“DeepSeek API”选项，如图 12-3 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_172.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_172.jpg)
 
 图 12-3
 
 03 在“API 密钥”文本框中输入开发者的 DeepSeek API Key，如图 12-4 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_173.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_173.jpg)
 
 图 12-4
 
 04 单击“保存”按钮完成设置工作。此时可以通过 Chatbox 调用 DeepSeek 实现聊天功能，如图 12-5 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_174.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_174.jpg)
 
 图 12-5
 
@@ -4743,7 +4743,7 @@ NextChat 是一个开源项目，其核心目标在于帮助用户将 ChatGPT �
 
 NextChat 的主要功能如图 12-6 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_175.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_175.jpg)
 
 图 12-6
 
@@ -4757,17 +4757,17 @@ NextChat 的主要功能如图 12-6 所示。
 
 03 在 NextChat 源代码的根目录中打开命令行或终端，并运行以下命令来安装项目所需的所有依赖项。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_176.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_176.jpg)
 
 或
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_177.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_177.jpg)
 
 04 从 DeepSeek 平台获取专属的 API 密钥，并在 NextChat 的配置文件中输入该密钥及相关模型的详细信息。
 
 05 在命令行或终端中运行以下命令，启动 NextChat 的本地开发服务器。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_178.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_178.jpg)
 
 打开浏览器，输入本地服务器地址（通常为 http://localhost:3000），即可查看 NextChat 界面。
 
@@ -4775,7 +4775,7 @@ NextChat 的主要功能如图 12-6 所示。
 
 01 访问 NextChat 的 GitHub 项目页面，进入 Releases 界面，根据计算机的操作系统下载相应的安装文件，如图 12-7 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_179.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_179.jpg)
 
 图 12-7
 
@@ -4783,17 +4783,17 @@ NextChat 的主要功能如图 12-6 所示。
 
 03 单击“Next”按钮，此时将进入“Choose Install Location”界面，如图 12-9 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_180.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_180.jpg)
 
 图 12-8
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_181.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_181.jpg)
 
 图 12-9
 
 04 完成设置后，单击“Next”按钮，进入“Choose Start Menu Folder”界面，如图 12-10 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_182.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_182.jpg)
 
 图 12-10
 
@@ -4801,29 +4801,29 @@ NextChat 的主要功能如图 12-6 所示。
 
 06 安装完成后，单击“Next”按钮，进入“Completing NextChat Setup”界面，然后单击“Finish”按钮完成安装，如图 12-12 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_183.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_183.jpg)
 
 图 12-11
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_184.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_184.jpg)
 
 图 12-12
 
-07 打开 NextChat，首先看到的是聊天界面。单击界面左下角的“设置”按钮 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_185.png)，如图 12-13 所示。
+07 打开 NextChat，首先看到的是聊天界面。单击界面左下角的“设置”按钮 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_185.png)，如图 12-13 所示。
 
 08 在“设置”界面中，对“模型服务商”“接口地址”“API Key”“自定义模型名”和“模型（model）”等进行设置，如图 12-14 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_186.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_186.jpg)
 
 图 12-13
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_187.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_187.jpg)
 
 图 12-14
 
 09 设置完成后，可调用 DeepSeek 进行对话，如图 12-15 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_188.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_188.jpg)
 
 图 12-15
 
@@ -4863,13 +4863,13 @@ OfficeAI 是一款免费的 AI 办公工具软件，专为 Microsoft Office 和
 
 01 访问 OfficeAI 助手官网，单击“立即下载”按钮下载安装文件，如图 12-16 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_189.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_189.jpg)
 
 图 12-16
 
 02 在安装之前，需要关闭 Office 程序，按照安装向导完成安装，安装完成的界面如图 12-17 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_190.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_190.jpg)
 
 图 12-17
 
@@ -4877,55 +4877,55 @@ OfficeAI 是一款免费的 AI 办公工具软件，专为 Microsoft Office 和
 
 01 安装 OfficeAI 之后，打开 Word 时会看到新增的“OfficeAI”选项卡。在该选项卡中提供了多种实用功能，如“校对”“润色”“排版”“续写”“写作”“翻译”“工具箱”等，如图 12-18 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_191.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_191.jpg)
 
 图 12-18
 
 02 单击“OfficeAI”选项卡最左端的“右侧面板”按钮，即可打开“OfficeAI 助手”面板，这个面板是 Word 中用于与 AI 大模型进行交互的界面，单击“设置”按钮，如图 12-19 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_192.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_192.jpg)
 
 图 12-19
 
 03 在弹出的“设置”对话框中，切换到“ApiKey”选项卡，进行相关设置，如图 12-20 所示。在“API_KEY”文本框中输入自己的 DeepSeek API Key。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_193.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_193.jpg)
 
 图 12-20
 
 04 设置完成后，就可以在右侧的面板中与 DeepSeek 进行对话了，如图 12-21 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_194.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_194.jpg)
 
 图 12-21
 
 05 单击对话下面的“导出到左侧”按钮后，能够将对话内容复制到 Word 中，如图 12-22 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_195.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_195.jpg)
 
 图 12-22
 
 06 在 OfficeAI 中也可以调用本地部署的 DeepSeek。例如，使用在 Ollama 中配置的 deepseek-r1:1.5b 模型，可以在“设置”对话框中选择“本地”选项卡，然后设置“框架”为“Ollama”，“模型名”为“deepseek-r1:1.5b”，如图 12-23 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_196.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_196.jpg)
 
 图 12-23
 
 07 单击“保存”按钮完成设置，此后 OfficeAI 助手便能够调用本地模型，如图 12-24 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_197.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_197.jpg)
 
 图 12-24
 
 08 OfficeAI 助手还提供了续写功能。例如，在 Word 文件里输入文字“我在箭扣长城欣赏落日余晖，”，选中文字，然后单击“OfficeAI”选项卡中的“续写”按钮，此时会调用 DeepSeek 续写相关内容，如图 12-25 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_198.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_198.jpg)
 
 图 12-25
 
 OfficeAI 为 Word 带来了诸多强大的功能，包括 AI 对话、AI 写作、智能校对、AI 排版、AI 绘画、智能替换、AI 翻译、表格、特殊符号，以及图片提取文字等，具体的使用方法可以参考官网教程，如图 12-26 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_199.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_199.jpg)
 
 图 12-26
 
@@ -4935,59 +4935,59 @@ OfficeAI 为 Word 带来了诸多强大的功能，包括 AI 对话、AI 写作�
 
 01 打开 Excel，在“OfficeAI”选项卡的“工具箱”中可以看到多种功能，如“快捷录入”“提取/过滤”“数值批量计算”“四舍五入”等，如图 12-27 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_200.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_200.jpg)
 
 图 12-27
 
 02 单击“OfficeAI”选项卡最左端的“右侧面板”按钮，打开“OfficeAI 助手”面板，这个面板是 Excel 中用于与 AI 大模型进行交互的界面。单击“OfficeAI 助手”面板中的“设置”按钮，如图 12-28 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_201.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_201.jpg)
 
 图 12-28
 
 03 在弹出的“设置”对话框中切换到“ApiKey”选项卡，进行相关设置，如图 12-29 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_202.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_202.jpg)
 
 图 12-29
 
 04 设置完成后，就可以在 Excel 右侧的面板中与 DeepSeek 进行交互，如图 12-30 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_203.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_203.jpg)
 
 图 12-30
 
-05 单击对话下面的 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_204.png)按钮可以复制对话内容，从而方便地将 DeepSeek 的回复粘贴到 Excel 中，如图 12-31 所示。
+05 单击对话下面的 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_204.png)按钮可以复制对话内容，从而方便地将 DeepSeek 的回复粘贴到 Excel 中，如图 12-31 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_205.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_205.jpg)
 
 图 12-31
 
 06 在 Excel 中也可以调用本地部署的 DeepSeek。例如，使用在 Ollama 中配置的 deepseek-r1:1.5b 模型，可以在“设置”对话框中选择“本地”选项卡，然后设置“框架”为“ollama”，“模型名”为“deepseek-r1:1.5b”，如图 12-32 所示。单击“保存”按钮完成设置工作，此时 OfficeAI 助手便能够调用本地模型。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_206.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_206.jpg)
 
 图 12-32
 
 07 通过使用 OfficeAI，可以显著提升办公效率。例如，你可以在对话框中直接输入生成表格的要求。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_207.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_207.jpg)
 
 08 OfficeAI 会按照要求生成表格，并弹出“请选择需要插入的表格”对话框，提示用户可以选择要插入表格的内容，如图 12-33 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_208.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_208.jpg)
 
 图 12-33
 
 09 单击“应用”按钮后可以将 DeepSeek 生成的内容插入 Excel 文件，如图 12-34 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_209.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_209.jpg)
 
 图 12-34
 
 OfficeAI 为 Excel 提供了诸多强大的功能，包括 AI 对话、数据分析、单元格格式、智能替换、聚光灯及公式通等，具体的使用方法可以参考官网教程，如图 12-35 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_210.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_210.jpg)
 
 图 12-35
 
@@ -4999,53 +4999,53 @@ Visual Studio Code（VS Code）是一款由微软开发的免费、开源、跨�
 
 Continue 是一个开源的 AI 代码助手插件，支持 VS Code 和 JetBrains 系列编辑器。它通过接入多种 AI 模型，为开发者提供代码补全、代码生成、代码优化、错误修复及代码解释等功能，致力于提升开发效率和改善编程体验。Continue 插件的基本功能如图 12-36 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_211.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_211.jpg)
 
 图 12-36
 
 ### **12.4.2** **安装 Continue**
 
-01 打开 VS Code，单击左侧导航栏中的扩展图标 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_212.png)，进入“扩展：商店”界面。在搜索框中输入“Continue”，下方列表中会显示相关的搜索结果，如图 12-37 所示。
+01 打开 VS Code，单击左侧导航栏中的扩展图标 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_212.png)，进入“扩展：商店”界面。在搜索框中输入“Continue”，下方列表中会显示相关的搜索结果，如图 12-37 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_213.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_213.jpg)
 
 图 12-37
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_214.png)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_214.png)
 
 02 选择搜索结果列表中的“Continue-Codestral, Claude, and more”选项，进入 Continue 的详细信息界面，如图 12-38 所示。单击按钮安装相应插件。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_215.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_215.jpg)
 
 图 12-38
 
 03 安装完成后，在 Continue 的详细信息界面会显示“卸载”“切换到预发布版本”等功能，如图 12-39 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_216.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_216.jpg)
 
 图 12-39
 
-04 安装完 Continue 插件后，单击 VS Code 左侧导航栏中的 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_217.png)按钮，进入“CONTINUE”界面，然后单击界面右上角的“设置”按钮 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_218.png)，进入 Continue 的配置界面，如图 12-40 所示。
+04 安装完 Continue 插件后，单击 VS Code 左侧导航栏中的 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_217.png)按钮，进入“CONTINUE”界面，然后单击界面右上角的“设置”按钮 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_218.png)，进入 Continue 的配置界面，如图 12-40 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_219.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_219.jpg)
 
 图 12-40
 
 05 在第一次配置时会自动弹出配置文件 config.json，在这个文件中，可以设置接入 DeepSeek 的相关配置信息，包括 DeepSeek 的模型名称和 API Key，示例代码如下。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_220.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_220.jpg)
 
 ### **12.4.3** **调用 DeepSeek 生成代码**
 
 下面以 Python 语言为例进行说明。通过 VS Code 创建一个 Python 程序文件 first.py，然后在 VS Code 中打开这个 Python 文件。
 
-单击 VS Code 左侧导航栏中的 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_221.png)按钮进入“CONTINUE”界面，用户可以直接在这里进行基础的 AI 对话问答，如输入以下问题。
+单击 VS Code 左侧导航栏中的 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_221.png)按钮进入“CONTINUE”界面，用户可以直接在这里进行基础的 AI 对话问答，如输入以下问题。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_222.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_222.jpg)
 
-Continue 会调用 DeepSeek 生产代码，单击生成代码右上角的 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_223.png)按钮后可以将 DeepSeek 生成的代码插入 VS Code 的源文件中，如图 12-41 所示。
+Continue 会调用 DeepSeek 生产代码，单击生成代码右上角的 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_223.png)按钮后可以将 DeepSeek 生成的代码插入 VS Code 的源文件中，如图 12-41 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_224.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_224.jpg)
 
 图 12-41
 
@@ -5059,47 +5059,47 @@ PyCharm 是一款由 JetBrains 开发的专业级 Python 集成开发环境（ID
 
 02 选择“File>Settings”选项，如图 12-43 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_225.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_225.jpg)
 
 图 12-42
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_226.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_226.jpg)
 
 图 12-43
 
 03 在弹出的“Settings”对话框中，单击左侧导航栏的“Plugins”选项。在“Plugins”界面的搜索框中输入“Continue”，然后单击“Install”按钮进行安装，如图 12-44 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_227.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_227.jpg)
 
 图 12-44
 
 04 安装成功后单击“OK”按钮，如图 12-45 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_228.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_228.jpg)
 
 图 12-45
 
-05 回到 PyCharm 主界面，建议先退出 PyCharm，然后重新打开，让插件生效。打开时， PyCharm 右侧边栏有 Continue 按钮 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_229.png)即安装成功，如图 12-46 所示。
+05 回到 PyCharm 主界面，建议先退出 PyCharm，然后重新打开，让插件生效。打开时， PyCharm 右侧边栏有 Continue 按钮 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_229.png)即安装成功，如图 12-46 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_230.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_230.jpg)
 
 图 12-46
 
 ### **12.5.2** **配置 DeepSeek**
 
-01 新建一个 Python 程序文件，如 AI-test1.py，然后单击右侧 Continue 按钮 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_231.png)，在弹出的“Continue”界面中单击右上角的“设置”按钮 ![](img/这就是DeepSeek：DeepSeek从原理到实践_image_232.png)，如图 12-47 所示。
+01 新建一个 Python 程序文件，如 AI-test1.py，然后单击右侧 Continue 按钮 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_231.png)，在弹出的“Continue”界面中单击右上角的“设置”按钮 ![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_232.png)，如图 12-47 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_233.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_233.jpg)
 
 图 12-47
 
 02 在第一次配置时会自动弹出 JSON 格式的配置文件，我们对配置文件进行修改，重点修改下面代码中的 DeepSeek API 密钥选项“apiKey”。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_234.jpg)![](img/这就是DeepSeek：DeepSeek从原理到实践_image_235.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_234.jpg)![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_235.jpg)
 
 03 设置完成后即可将 DeepSeek 接入 PyCharm，此时便可以在 PyCharm 中体验 AI 编程。例如，可以在对话界面中向 DeepSeek 提问编程问题，如图 12-48 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_236.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_236.jpg)
 
 图 12-48
 
@@ -5111,7 +5111,7 @@ PyCharm 是一款由 JetBrains 开发的专业级 Python 集成开发环境（ID
 
 茴香豆（HuixiangDou）是一款专业知识助手，专注于为群聊场景提供高效的技术支持。它通过精心设计的三阶段（预处理、拒绝和响应）处理流程来精准地回答用户问题，有效避免群聊中的消息过载，确保信息交流的高效和有序。茴香豆的主要特点和核心功能如图 12-49 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_237.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_237.jpg)
 
 图 12-49
 
@@ -5121,35 +5121,35 @@ PyCharm 是一款由 JetBrains 开发的专业级 Python 集成开发环境（ID
 
 02 登录 GitHub 网站，访问茴香豆项目页面获取源代码，如图 12-50 所示。也可以通过命令行或终端，使用以下命令克隆茴香豆的 GitHub 仓库。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_238.jpg)![](img/这就是DeepSeek：DeepSeek从原理到实践_image_239.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_238.jpg)![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_239.jpg)
 
 图 12-50
 
 03 在茴香豆源代码的根目录中，找到并打开配置文件 config.ini，设置 remote_type（模型类型）和 API Key 等参数。例如，将“remote_type”设置为“deepseek”，“remote_api_key”设置为自己的 DeepSeek API Key。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_240.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_240.jpg)
 
 04 运行下面的命令启动服务。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_241.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_241.jpg)
 
 ### **12.6.3 微信集成**
 
 01 在 OpenXLab 中打开茴香豆的 Web 客户端，用户可以创建自己的知识库，如图 12-51 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_242.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_242.jpg)
 
 图 12-51
 
 02 输入知识库名称和密码，单击“前往”按钮，进入图 12-52 所示的界面。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_243.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_243.jpg)
 
 图 12-52
 
 03 单击“零开发集成微信”区域中的“查看教程”按钮，会弹出“集成微信”对话框。在该对话框中，复制微信回调地址，如图 12-53 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_244.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_244.jpg)
 
 图 12-53
 
@@ -5159,10 +5159,10 @@ PyCharm 是一款由 JetBrains 开发的专业级 Python 集成开发环境（ID
 
 06 完成上面的设置后，进入微信群聊天界面，当群内有人发送消息时，DeepSeek 聊天机器人就会被触发，如图 12-55 所示。
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_245.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_245.jpg)
 
 图 12-54
 
-![](img/这就是DeepSeek：DeepSeek从原理到实践_image_246.jpg)
+![](img/这就是-DeepSeek：DeepSeek-从原理到实践_image_246.jpg)
 
 图 12-55

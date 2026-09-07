@@ -141,11 +141,11 @@ ChatGPT 采用自监督学习的方式进行训练。这意味着模型在训练
 
 表 1-1 ChatGPT 与传统文本生成模型的区别
 
-![](img/玩转ChatGPT：秒变AI论文写作高手_image_000.jpg)
+![](img/玩转-ChatGPT：秒变-AI-论文写作高手_image_000.jpg)
 
 （续表）
 
-![](img/玩转ChatGPT：秒变AI论文写作高手_image_001.jpg)
+![](img/玩转-ChatGPT：秒变-AI-论文写作高手_image_001.jpg)
 
 ### **1.1.2 ChatGPT 的应用领域和潜在价值**
 
@@ -3511,13 +3511,13 @@ ChatGPT 在数据分析中发挥着重要作用，**ChatGPT**可以用简单明�
 
 表 6-1 产量数据
 
-![](img/玩转ChatGPT：秒变AI论文写作高手_image_002.jpg)
+![](img/玩转-ChatGPT：秒变-AI-论文写作高手_image_002.jpg)
 
 2. 成本数据（见表 6-2）：这些数据包括采矿活动的成本，例如雇佣人员、设备维护、能源消耗等方面的费用。
 
 表 6-2 成本数据
 
-![](img/玩转ChatGPT：秒变AI论文写作高手_image_003.jpg)
+![](img/玩转-ChatGPT：秒变-AI-论文写作高手_image_003.jpg)
 
 3. 设备状态监测……
 

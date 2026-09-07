@@ -174,7 +174,7 @@ DeepSeek 的技术报告开源和透明化举措，是对大模型“黑盒”�
 
 DeepSeek 模型自开源以来，每一代都有着出色的性能，2024 年末开源的 DeepSeek V3 更是能力超越了 GPT-4o-0513 和开源模型 Llama-3.1-405B-Inst。图 1-1 展示了 DeepSeek V3 及其对标模型的性能基准测试。**[图][1][-][1]** **[D][e][e][p][S][e][e][k]** **[V][3][及][其][对][标][模][型][的][性][能][基][准][测][试]**
 
-![](img/DeepSeek硬核技术解读_image_000.jpg)
+![](img/DeepSeek-硬核技术解读_image_000.jpg)
 
 从图 1-1 可知，DeepSeek V3 在所有开源模型中取得了最好的成绩，且与部分闭源模型相比也是各有千秋。各个基准测试的具体介绍如下。
 
@@ -192,7 +192,7 @@ DeepSeek 模型自开源以来，每一代都有着出色的性能，2024 年末
 
 DeepSeek R1 冲破了以 OpenAI 公司为代表的世界领先人工智能公司对中国人工智能的封锁，通过自研技术追赶 OpenAI 公司的先进推理模型 OpenAI-o1-1217。DeepSeek R1 及其对标模型的基准测试性能如图 1-2 所示。**[图][1][-][2]** **[D][e][e][p][S][e][e][k]** **[R][1][及][其][对][标][模][型][的][基][准][测][试][性][能]**
 
-![](img/DeepSeek硬核技术解读_image_001.jpg)
+![](img/DeepSeek-硬核技术解读_image_001.jpg)
 
 由于 DeepSeek R1 属于语言推理模型，因此对比的模型统一变成了语言推理模型。这一类模型更加擅长处理复杂的推理任务，但在普通任务上可能存在输出过长、思考过于复杂等问题。从图 1-2 可以看出，DeepSeek R1 在各个基准测试中都已达到或者接近 SOTA（State Of The Art,目前最先进）的水平。
 
@@ -224,7 +224,7 @@ DeepSeek V3 用成果证明了训练大模型并不需要如此多的顶级显�
 
 DeepSeek V3 模型加载需要的卡数为
 
-![](img/DeepSeek硬核技术解读_image_002.jpg)
+![](img/DeepSeek-硬核技术解读_image_002.jpg)
 
 下面计算 Llama-3.1-405B-Inst 的一次性部署成本（以 BF16 精度为例）。
 
@@ -234,7 +234,7 @@ Llama-3.1-405B-Inst 模型加载需要的内存为
 
 Llama-3.1-405B-Inst 模型加载需要的卡数为
 
-![](img/DeepSeek硬核技术解读_image_003.jpg)
+![](img/DeepSeek-硬核技术解读_image_003.jpg)
 
 以上估算仅考虑模型加载所需卡数和计算量，实际部署需要考虑 KV-cache、分布式推理、内存碎片、PD 分离等因素。值得注意的是，MoE 模型的分发和聚合均属于 All-to-all 通信，在推理过程中通信量是非常大的瓶颈，会拉低推理速度。因此，对于 MoE 模型的分布式推理来说，合理地将计算和通信重叠可极大地缓解通信量导致的通信墙问题，详情可见第八章的 Dualpipe 流水线并行。
 
@@ -616,7 +616,7 @@ Transformer 模型最早由 Vaswani 等人在 2017 年的论文“Attention is�
 
 目前，Transformer 是大语言模型主流架构，因此掌握 Transformer 架构对进一步深入学习大语言模型至关重要。图 2-1 是 Transformer 的基本架构。Transformer 可以分为 Encoder 和 Decoder 两个基本部分。简单来说，Encoder 可以理解为编码器，即将输入的语言或者问题编码成向量，Decoder 可以理解为生成器或者解码器，将 Encoder 编码出的向量生成文字输出。**[图][2][-][1][T][r][a][n][s][f][o][r][m][e][r][的][基][本][架][构]**
 
-![](img/DeepSeek硬核技术解读_image_004.jpg)
+![](img/DeepSeek-硬核技术解读_image_004.jpg)
 
 Encoder 和 Decoder 虽然属于 Transformer 的不同结构部分，但是由相同的基本单元组成，主要包括分词器（Tokenizer）、词嵌入（Embedding）层、位置编码模块、自注意力模块、多头注意力模块、前馈神经网络模块、残差连接和层归一化模块。下面将对以上模块进行详细介绍。
 
@@ -636,19 +636,19 @@ Encoder 和 Decoder 虽然属于 Transformer 的不同结构部分，但是由�
 
 词嵌入（Embedding）层很好地解决了这一个问题。Embedding 层可以理解为一个查询表，每个词对应其中一个*d*[model]维度的向量。下面为一个词嵌入层示例。
 
-![](img/DeepSeek硬核技术解读_image_005.jpg)
+![](img/DeepSeek-硬核技术解读_image_005.jpg)
 
 将分词后的 Token 输入这个查询表，并且根据每一个 Token 查表获得该 Token 的列矩阵，比如输入“我、爱、人工智能、！”，经 Embedding 层后输出的向量为
 
-![](img/DeepSeek硬核技术解读_image_006.jpg)
+![](img/DeepSeek-硬核技术解读_image_006.jpg)
 
 注意：分词器输入到 Embedding 层的并不是 Token 而是 Token_ID，关于 Token_ID 可以理解为词表中该 Token 的顺序。比如 Embedding 的矩阵变成以下矩阵，输入的“我、爱、人工智能、！”这几个 Token 变成 0，2，4，6 这几个 Token_ID：
 
-![](img/DeepSeek硬核技术解读_image_007.jpg)
+![](img/DeepSeek-硬核技术解读_image_007.jpg)
 
 输出矩阵保持不变：
 
-![](img/DeepSeek硬核技术解读_image_008.jpg)
+![](img/DeepSeek-硬核技术解读_image_008.jpg)
 
 **2.2.3 位置编码模块**
 
@@ -656,7 +656,7 @@ Encoder 和 Decoder 虽然属于 Transformer 的不同结构部分，但是由�
 
 Transformer 相关论文中采用的位置编码计算方式如下：
 
-![](img/DeepSeek硬核技术解读_image_009.jpg)![](img/DeepSeek硬核技术解读_image_010.jpg)
+![](img/DeepSeek-硬核技术解读_image_009.jpg)![](img/DeepSeek-硬核技术解读_image_010.jpg)
 
 在输入的注意力层之前，Embedding 层获得的向量可以和以上位置编码相加，从而使词向量获得位置信息：
 
@@ -742,13 +742,13 @@ class PositionalEncoding（nn.Module）:
 
 自注意力模块是 Transformer 模型的核心组成部分，它使得 Transformer 能够在处理序列数据时，有效地捕捉序列中各个元素之间的依赖关系。通过自注意力模块，每个元素都能动态地与序列中的其他所有元素进行“交流”，从而计算出更加精确的表示。这种机制支持并行化计算，极大地提高了训练效率和模型性能。因此，自注意力不仅是 Transformer 架构的关键技术，也是其能够在多种自然语言处理任务中取得卓越表现的重要原因之一。
 
-图 2-2 主要展示自注意力机制的基本原理，核心在于每个输入的 Token（*t*¹，*t*²，*t*³，*t*⁴）的注意力和哪些 Token 有关。比如可以明显看出***Q***¹将参与***K***¹，***K***²，***K***³，***K***⁴的计算。最终输出的 ![](img/DeepSeek硬核技术解读_image_011.jpg)是对所有的***a***[1,]*[i]*进行 Softmax 计算的结果。**[图][2][-][2][自][注][意][力][机][制][的][基][本][原][理]**
+图 2-2 主要展示自注意力机制的基本原理，核心在于每个输入的 Token（*t*¹，*t*²，*t*³，*t*⁴）的注意力和哪些 Token 有关。比如可以明显看出***Q***¹将参与***K***¹，***K***²，***K***³，***K***⁴的计算。最终输出的 ![](img/DeepSeek-硬核技术解读_image_011.jpg)是对所有的***a***[1,]*[i]*进行 Softmax 计算的结果。**[图][2][-][2][自][注][意][力][机][制][的][基][本][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_012.jpg)
+![](img/DeepSeek-硬核技术解读_image_012.jpg)
 
 图 2-3 所示是自注意力机制整体架构。**[图][2][-][3][自][注][意][力][机][制][整][体][架][构]**
 
-![](img/DeepSeek硬核技术解读_image_013.jpg)
+![](img/DeepSeek-硬核技术解读_image_013.jpg)
 
 结合图 2-2 与图 2-3 可知，注意力机制的具体流程如下。
 
@@ -766,17 +766,17 @@ class PositionalEncoding（nn.Module）:
 
 ***V****^i*=***a****^i****W******^V***
 
-5）图 2-3 中的 ![](img/DeepSeek硬核技术解读_image_014.jpg)代表第*j*个 Token 与第*i*个 Token 之间的注意力分数，具体计算方式见图 2-2：
+5）图 2-3 中的 ![](img/DeepSeek-硬核技术解读_image_014.jpg)代表第*j*个 Token 与第*i*个 Token 之间的注意力分数，具体计算方式见图 2-2：
 
-![](img/DeepSeek硬核技术解读_image_015.jpg)
+![](img/DeepSeek-硬核技术解读_image_015.jpg)
 
 注意：注意力分数不满足交换律，即
 
-![](img/DeepSeek硬核技术解读_image_016.jpg)
+![](img/DeepSeek-硬核技术解读_image_016.jpg)
 
 6）注意力机制的最终输出***b****^i*可以理解为*t**^i*与其他所有 Token 进行注意力交互后获得的最后输出向量，即
 
-![](img/DeepSeek硬核技术解读_image_017.jpg)
+![](img/DeepSeek-硬核技术解读_image_017.jpg)
 
 自注意力机制代码如下：
 
@@ -858,11 +858,11 @@ class SelfAttention（nn.Module）:
 
 embed_dim: ***X***为输入 Embedding 层的向量，embed_dim 为输入序列的嵌入维度，形式为[*B*,*T*,*D* ]，其中*B*为 batch_size（即一个批次传入模型的数据数），*T*为文本长度，*D*为模型将文本映射到什么维度。
 
-![](img/DeepSeek硬核技术解读_image_018.jpg)
+![](img/DeepSeek-硬核技术解读_image_018.jpg)
 
 ***W***[Query]、***W***[Key]、***W***[Value]表示 3 个线性变换层，分别用于生成***Q***、***K***、***V***向量，可表示为
 
-![](img/DeepSeek硬核技术解读_image_019.jpg)
+![](img/DeepSeek-硬核技术解读_image_019.jpg)
 
 （2）forward 方法
 
@@ -886,13 +886,13 @@ scores:注意力分数矩阵，形式为[batch_size, seq_len, seq_len]，表�
 
 计算公式为通过 torch.matmul（Q, K.transpose（-2, -1））计算点积，然后除以 sqrt（embed_dim）进行缩放，公式为
 
-![](img/DeepSeek硬核技术解读_image_020.jpg)
+![](img/DeepSeek-硬核技术解读_image_020.jpg)
 
 （5）注意力掩码
 
 如果提供了 mask 矩阵，则将对应位置的注意力分数设置为一个很小的值（如-1e20），以屏蔽无效位置。将***S***加上 mask 矩阵后进行 Softmax 操作的结果如下：
 
-![](img/DeepSeek硬核技术解读_image_021.jpg)
+![](img/DeepSeek-硬核技术解读_image_021.jpg)
 
 （6）计算注意力权重
 
@@ -902,7 +902,7 @@ attention_Weights: 注意力权重，形式为[batch_size, seq_len, seq_len]�
 
 两两 Token 之间的注意力分数***A***计算如下：
 
-![](img/DeepSeek硬核技术解读_image_022.jpg)
+![](img/DeepSeek-硬核技术解读_image_022.jpg)
 
 （7）加权求和得到输出
 
@@ -916,7 +916,7 @@ output:输出序列，形式为[batch_size, seq_len, embed_dim]，每个位置
 
 MHA 机制进一步将这个过程分解为多个注意力头，每个注意力头独立地执行自注意力计算，但使用不同的权重参数集，如图 2-4 所示。这样做的好处是可以让模型从不同的表示子空间中学习信息，从而能够更细致地关注到序列的不同部分或不同类型的依赖关系。最终，MHA 机制通过拼接各个注意力头的输出并经过线性变换整合这些信息，使得模型的整体表达能力得到显著提升。因此，多头注意力机制可以看作对自注意力机制的一个补充和完善，增强了模型处理复杂模式的能力。**[图][2][-][4][M][H][A][机][制][架][构]**
 
-![](img/DeepSeek硬核技术解读_image_023.jpg)
+![](img/DeepSeek-硬核技术解读_image_023.jpg)
 
 MHA 机制的代码如下：
 
@@ -1094,7 +1094,7 @@ class FeedForward（nn.Module）:
 
 残差连接数学原理如下:**[图][2][-][5][残][差][连][接][结][构]**
 
-![](img/DeepSeek硬核技术解读_image_024.jpg)
+![](img/DeepSeek-硬核技术解读_image_024.jpg)
 
 ***y***=*F*（***x***）+***x***
 
@@ -1126,23 +1126,23 @@ class FeedForward（nn.Module）:
 
 首先计算样本均值：
 
-![](img/DeepSeek硬核技术解读_image_025.jpg)
+![](img/DeepSeek-硬核技术解读_image_025.jpg)
 
 然后计算样本方差：
 
-![](img/DeepSeek硬核技术解读_image_026.jpg)
+![](img/DeepSeek-硬核技术解读_image_026.jpg)
 
 最后根据样本均值和方差进行归一化后的样本：
 
-![](img/DeepSeek硬核技术解读_image_027.jpg)
+![](img/DeepSeek-硬核技术解读_image_027.jpg)
 
 ●*μ*是特征向量的均值。
 
 ●*σ*²是特征向量的方差。
 
-● ![](img/DeepSeek硬核技术解读_image_028.jpg)是归一化后的特征值。
+● ![](img/DeepSeek-硬核技术解读_image_028.jpg)是归一化后的特征值。
 
-● ![](img/DeepSeek硬核技术解读_image_029.jpg)是一个很小的常数，用于避免分母为零。
+● ![](img/DeepSeek-硬核技术解读_image_029.jpg)是一个很小的常数，用于避免分母为零。
 
 由以上公式可知，归一化减掉了均值并且除以方差，这相当于统一了样本之间的量纲，从而使不同样本之间可以进行比较。
 
@@ -1150,7 +1150,7 @@ class FeedForward（nn.Module）:
 
 （1）NLP 任务中使用层归一化的原因
 
-假定**activation**（中间激活值）的形式为[*B*，*L*，*H*]，此时输入层归一化的 ![](img/DeepSeek硬核技术解读_image_030.jpg)的形式为[*H*]，也就是在进行归一化时***x***转换为了*B***L* 个形式为 ![](img/DeepSeek硬核技术解读_image_031.jpg)样本。NLP 任务有如下特点。
+假定**activation**（中间激活值）的形式为[*B*，*L*，*H*]，此时输入层归一化的 ![](img/DeepSeek-硬核技术解读_image_030.jpg)的形式为[*H*]，也就是在进行归一化时***x***转换为了*B***L* 个形式为 ![](img/DeepSeek-硬核技术解读_image_031.jpg)样本。NLP 任务有如下特点。
 
 1）序列长度可变
 
@@ -1170,7 +1170,7 @@ class FeedForward（nn.Module）:
 
 （2）CV 任务中使用批归一化的原因
 
-假定**activation**（中间激活值）的形式为[*B*，*H*，*W*，*C*],此时输入批归一化的 ![](img/DeepSeek硬核技术解读_image_032.jpg)的形式为[*B*，*H*，*W*],也就是在进行归一化时***x***转换为了*C*个[*B*,*H*,*W*]形式的 ![](img/DeepSeek硬核技术解读_image_033.jpg)样本。批扫一化任务有如下特点。
+假定**activation**（中间激活值）的形式为[*B*，*H*，*W*，*C*],此时输入批归一化的 ![](img/DeepSeek-硬核技术解读_image_032.jpg)的形式为[*B*，*H*，*W*],也就是在进行归一化时***x***转换为了*C*个[*B*,*H*,*W*]形式的 ![](img/DeepSeek-硬核技术解读_image_033.jpg)样本。批扫一化任务有如下特点。
 
 1）空间维度共享统计量
 
@@ -1186,11 +1186,11 @@ class FeedForward（nn.Module）:
 
 批归一化和层归一化的比较如表 2-1 所示。**[表][2][-][1][批][归][一][化][和][层][归][一][化][的][比][较]**
 
-![](img/DeepSeek硬核技术解读_image_034.jpg)
+![](img/DeepSeek-硬核技术解读_image_034.jpg)
 
 图 2-6 展示了层归一化和批归一化的差别。**[图][2][-][6][层][归][一][化][和][批][归][一][化][的][差][别]**
 
-![](img/DeepSeek硬核技术解读_image_035.jpg)
+![](img/DeepSeek-硬核技术解读_image_035.jpg)
 
 从图 2-6 中可知在 CV 任务中，每一个批次输入的特征矩阵形式是[*B*,*H*,*W*,*C* ]，进行批归一化即在每一个通道上进行特征的归一化，单样本的形式为[*B*,*H*,*W* ]，这种方式更加适合跨通道对比特征，比较适合计算机任务处理。
 
@@ -1304,7 +1304,7 @@ class TransformerBlock（nn.Module）:
 
 **2.2.8 Encoder-Decoder 架构****[图][2][-][7][T][r][a][n][s][f][o][r][m][e][r][的][E][n][c][o][d][e][r][-][D][e][c][o][d][e][r][架][构]**
 
-![](img/DeepSeek硬核技术解读_image_036.jpg)
+![](img/DeepSeek-硬核技术解读_image_036.jpg)
 
 Transformer 由 Encoder（编码器）和 Decoder（解码器）组成，编码器将输入序列映射为隐藏表示并输出到每一个解码器，解码器根据编码器的输出生成目标序列。图 2-7 所示为 Transformer 的 Encoder-Decoder 架构。
 
@@ -1456,29 +1456,29 @@ class Transformer（nn.Module）:
 
 上述具体实现原理来自自注意力机制中的**Mask**变量，它将影响最终注意力分数。在 Encoder 中，**Mask**变量是一个全零矩阵，不会对注意力分数做任何修改。**Mask**变量之前的注意力分数代表任意两个 Token 之间的相关性，**Mask**变量为零时，将使得注意力分数降为 0。以下是 Encoder 中的注意力分数计算，首先是***Q***和***K***的转置相乘：
 
-![](img/DeepSeek硬核技术解读_image_037.jpg)
+![](img/DeepSeek-硬核技术解读_image_037.jpg)
 
 Encoder 中的**Mask**矩阵如下：
 
-![](img/DeepSeek硬核技术解读_image_038.jpg)
+![](img/DeepSeek-硬核技术解读_image_038.jpg)
 
 最终的注意力分数计算如下：
 
-![](img/DeepSeek硬核技术解读_image_039.jpg)
+![](img/DeepSeek-硬核技术解读_image_039.jpg)
 
 Decoder 中的**Mask**是一个对角线及下三角全为 0、上三角全为负无穷的矩阵，由于 Softmax 函数将负无穷的位置全都计算为零，使原本的注意力分数矩阵上三角全为零。这样也就达到了前面 Token 的无法“看到”后面 Token 的目的。本节所有的“看到”指的是注意力分数不为零。以下是 Decoder 中的注意力分数计算。首先是***Q***和***K***的转置相乘：
 
-![](img/DeepSeek硬核技术解读_image_040.jpg)
+![](img/DeepSeek-硬核技术解读_image_040.jpg)
 
 Decoder 中的**Mask**如下：
 
-![](img/DeepSeek硬核技术解读_image_041.jpg)
+![](img/DeepSeek-硬核技术解读_image_041.jpg)
 
 最终注意力分数计算如下：
 
-![](img/DeepSeek硬核技术解读_image_042.jpg)
+![](img/DeepSeek-硬核技术解读_image_042.jpg)
 
-在相同的 ![](img/DeepSeek硬核技术解读_image_043.jpg)输入下，Encoder 和 Decoder 的**Mask**不同，导致最终输出的注意力分数不同。可以看到，***S***[Encoder]所有的值都不为零，这说明在 Encoder 中任意两个 Token 之间都是可以相互“看到”，Decoder 上三角注意力分数全为零，这也可以理解为只有后方的 Token 可以“看到”前面的 Token，反之则不行。
+在相同的 ![](img/DeepSeek-硬核技术解读_image_043.jpg)输入下，Encoder 和 Decoder 的**Mask**不同，导致最终输出的注意力分数不同。可以看到，***S***[Encoder]所有的值都不为零，这说明在 Encoder 中任意两个 Token 之间都是可以相互“看到”，Decoder 上三角注意力分数全为零，这也可以理解为只有后方的 Token 可以“看到”前面的 Token，反之则不行。
 
 **2.Encoder 和 Decoder 的区分**
 
@@ -1546,7 +1546,7 @@ d.计算
 
 给定两个矩阵***A***（*m*×*n*）和***B***（*n*×*p*），它们的乘积***C***是一个*m*×*p*的矩阵，其中***C***的第*i*行第*j*列的元素*c**[i][j]*计算如下：
 
-![](img/DeepSeek硬核技术解读_image_044.jpg)
+![](img/DeepSeek-硬核技术解读_image_044.jpg)
 
 这意味着，***C***的每个元素都是***A***的一行与***B***的一列的点积。
 
@@ -1606,7 +1606,7 @@ Embedding 层的计算量：
 
 注意力分数的计算方法：
 
-![](img/DeepSeek硬核技术解读_image_045.jpg)
+![](img/DeepSeek-硬核技术解读_image_045.jpg)
 
 计算量：
 
@@ -1654,7 +1654,7 @@ MLP 层的总计算量：
 
 简化后：
 
-![](img/DeepSeek硬核技术解读_image_046.jpg)
+![](img/DeepSeek-硬核技术解读_image_046.jpg)
 
 **4.Lm_head 层的计算量推导**
 
@@ -1674,7 +1674,7 @@ Lm_head 层的计算量：
 
 位置编码计算公式：
 
-![](img/DeepSeek硬核技术解读_image_047.jpg)
+![](img/DeepSeek-硬核技术解读_image_047.jpg)
 
 生成位置编码的计算量：
 
@@ -1696,15 +1696,15 @@ Lm_head 层的计算量：
 
 对以上公式进行简化可得出：
 
-![](img/DeepSeek硬核技术解读_image_048.jpg)
+![](img/DeepSeek-硬核技术解读_image_048.jpg)
 
 代入上述各项可得最终结果，则
 
-![](img/DeepSeek硬核技术解读_image_049.jpg)
+![](img/DeepSeek-硬核技术解读_image_049.jpg)
 
 忽略低次项，计算量可以表示为
 
-![](img/DeepSeek硬核技术解读_image_050.jpg)
+![](img/DeepSeek-硬核技术解读_image_050.jpg)
 
 由以上公式可知，Transformer 的计算复杂度最主要和序列长度*n*以及模型的嵌入维度*d*[model]有关，并且与序列长度*n*和嵌入维度*d*[model]呈二次方关系。这也说明了当模型参数量上升、模型处理文本长度增大时，计算速度将大幅下降。
 
@@ -1716,15 +1716,15 @@ Lm_head 层的计算量：
 
 Decoder 中**Mask**矩阵如下：
 
-![](img/DeepSeek硬核技术解读_image_051.jpg)
+![](img/DeepSeek-硬核技术解读_image_051.jpg)
 
 ***Q***矩阵和***K***的转置矩阵乘法计算如下：
 
-![](img/DeepSeek硬核技术解读_image_052.jpg)
+![](img/DeepSeek-硬核技术解读_image_052.jpg)
 
 最终注意力分数矩阵***A***的计算如下：
 
-![](img/DeepSeek硬核技术解读_image_053.jpg)
+![](img/DeepSeek-硬核技术解读_image_053.jpg)
 
 ***A***中任意一个元素*a**[i][j]*表示文本中第*i*个 Token 和第*j*个 Token 之间的关联程度，也叫作注意力分数。以“你好帅啊！”为例，有以下理解。
 
@@ -1734,13 +1734,13 @@ Decoder 中**Mask**矩阵如下：
 
 ●矩阵***A***中*a*[31]>*a*[32]代表对于“帅”字来说，“帅”字更多“看到”“你”字，更少“看到”“好”字。
 
-![](img/DeepSeek硬核技术解读_image_054.jpg)
+![](img/DeepSeek-硬核技术解读_image_054.jpg)
 
 ●，代表***A***矩阵任意一行求和都等于 1，这说明注意力分数其实只是一个权重。
 
 以下是两两 Token 之间的注意力分数矩阵：
 
-![](img/DeepSeek硬核技术解读_image_055.jpg)
+![](img/DeepSeek-硬核技术解读_image_055.jpg)
 
 **2.4.2 具体训练和推理**
 
@@ -1748,7 +1748,7 @@ Decoder 中**Mask**矩阵如下：
 
 训练的时候整个文本序列（图中为“你好帅啊！”）一次性输入，并且一次性输出，如图 2-8 所示。**[图][2][-][8][T][r][a][n][s][f][o][r][m][e][r][训][练][（][并][行][）]**
 
-![](img/DeepSeek硬核技术解读_image_056.jpg)
+![](img/DeepSeek-硬核技术解读_image_056.jpg)
 
 **2.推理**
 
@@ -1788,7 +1788,7 @@ KV-cache 是为了降低以上计算复杂度而设计的。在将文本输入 D
 
 步骤 1 中有无 KV-cache 的实现如图 2-9 所示。**[图][2][-][9][步][骤][1][中][有][无][K][V][-][c][a][c][h][e][的][实][现]**
 
-![](img/DeepSeek硬核技术解读_image_057.jpg)
+![](img/DeepSeek-硬核技术解读_image_057.jpg)
 
 输入“你”，将“你”放入大模型计算，此时由于是第一个 Token，不存在 KV-cache，因此有无 KV-cache 计算方式完全相同，需要计算每一个 Transformer Block 的第一个 Token“你”的***Q***[1]、***K***[1]、***V***[1]值，最后通过 Softmax 预测出第二个 Token“好”。
 
@@ -1798,7 +1798,7 @@ KV-cache 是为了降低以上计算复杂度而设计的。在将文本输入 D
 
 ●**有 KV-cache 方法：**由于步骤 1 中已经输入了 Token 1“你”，所以在 KV-cache 中已经保存了 Token 1“你”的***K***[1]、***V***[1]值。本轮仅输入 Token 2“好”并计算***Q***[2]、***K***[2]、***V***[2]值（比不使用 KV-cache 方法减少了 3 次计算量），然后计算***Q***[2]与所有其他***K***值的 2 个注意力分数***Q**K***^T（这里比不使用 KV-cache 方法减少了 1 次计算量），最后计算 Attention 2 一个值，比不使用 KV-cache 的方法少计算 Attention 1。**[图][2][-][1][0][步][骤][2][中][有][无][K][V][-][c][a][c][h][e][的][实][现]**
 
-![](img/DeepSeek硬核技术解读_image_058.jpg)
+![](img/DeepSeek-硬核技术解读_image_058.jpg)
 
 步骤 3 中有无 KV-cache 的实现如图 2-11 所示。
 
@@ -1806,7 +1806,7 @@ KV-cache 是为了降低以上计算复杂度而设计的。在将文本输入 D
 
 ●**有 KV-cache 方法：**由于之前的步骤中已经输入了 Token 1“你”、Token 2“好”，所以在 KV-cache 中本轮已经保存了 Token 1“你”的***K***[1]、***V***[1]值和 Token 2“好”的***K***[2]、***V***[2]值。本轮仅输入 Token 3“帅”并计算***Q***[3]、***K***[3]、***V***[3]值（比不使用 KV-cache 方法减少 3 次计算量），然后计算***Q***[3]与所有其他的***K***值的 3 个注意力分数***Q**K***^T（这里比不使用 KV-cache 方法减少了 2 次计算），最后计算 Attention 3，并预测下一个 Token。**[图][2][-][1][1][步][骤][3][中][有][无][K][V][-][c][a][c][h][e][的][实][现]**
 
-![](img/DeepSeek硬核技术解读_image_059.jpg)
+![](img/DeepSeek-硬核技术解读_image_059.jpg)
 
 步骤 4 中有无 KV-cache 的实现如图 2-12 所示。
 
@@ -1818,7 +1818,7 @@ KV-cache 是为了降低以上计算复杂度而设计的。在将文本输入 D
 
 首先，之所以 Transformer 的计算复杂度是*O*（Length²），原因在于***Q**K***^T 中***Q***矩阵和***K***矩阵的形式都为[Length，emb_size]。**[图][2][-][1][2][步][骤][4][中][有][无][K][V][-][c][a][c][h][e][的][实][现]**
 
-![](img/DeepSeek硬核技术解读_image_060.jpg)
+![](img/DeepSeek-硬核技术解读_image_060.jpg)
 
 但是从图 2-9 到图 2-12 可知，有 KV-cache 的推理中，每次推理的***Q***矩阵的形式为[1，emb_size],每次计算***Q**K***^T 的复杂度为*O*（Length）。回到之前的例子，如果输入*n*个 Token，经过*N*-*n*次自回归推理后得到总共*N*个 Token，最终***Q**K***^T 计算量应该为
 
@@ -1858,7 +1858,7 @@ Transformer 模型本身不具备捕捉序列顺序的能力，因此需要通�
 
 以下为一个序列长度为 10，*d*为 8 的位置编码矩阵示例。
 
-![](img/DeepSeek硬核技术解读_image_061.jpg)
+![](img/DeepSeek-硬核技术解读_image_061.jpg)
 
 绝对位置编码的优点是简单直观，缺点是难以捕捉序列中元素之间的相对位置关系。注意，绝对位置编码**PE**是直接用加法加到输入 Embedding 向量中，使原有的词向量中存在位置信息，公式如下。
 
@@ -1870,7 +1870,7 @@ Transformer 模型本身不具备捕捉序列顺序的能力，因此需要通�
 
 相对位置编码（Rotary Position Embedding,RoPE）是一种改进的位置编码方法，旨在更好地捕捉序列中元素之间的相对位置关系。这种方法通过旋转矩阵将绝对位置编码转换为相对位置编码。之所以称之为相对位置编码，是因为位置编码在实现时，对绝对位置*m*进行建模，最终通过注意力达到了表达相对位置的目的。
 
-![](img/DeepSeek硬核技术解读_image_062.jpg)
+![](img/DeepSeek-硬核技术解读_image_062.jpg)
 
 RoPE 的公式是复数形式的旋转操作。我们可以将其转换为矩阵形式，从而与旋转矩阵***R****[θ]*联系起来。
 
@@ -1888,29 +1888,29 @@ RoPE 的公式是复数形式的旋转操作。我们可以将其转换为矩阵
 
 对应的矩阵形式为
 
-![](img/DeepSeek硬核技术解读_image_063.jpg)
+![](img/DeepSeek-硬核技术解读_image_063.jpg)
 
 因此，在实际实现中，RoPE 通过旋转矩阵将绝对位置编码转换为相对位置编码。旋转矩阵的形式为
 
-![](img/DeepSeek硬核技术解读_image_064.jpg)
+![](img/DeepSeek-硬核技术解读_image_064.jpg)
 
 对于多维向量，RoPE 将每两个维度组成维度对，每个维度对（2i,2i+1）视为一个复平面，并分别应用旋转矩阵。
 
 对于输入向量***X***的第*i*和第*j*个 Token 向量***x****[i]*和***x****[j]*，旋转操作公式为
 
-![](img/DeepSeek硬核技术解读_image_065.jpg)
+![](img/DeepSeek-硬核技术解读_image_065.jpg)
 
 RoPE 并非独立于 Transformer 的注意力机制，而是与 Transformer 的注意力机制相融合。具体的融合位置后的注意力分数计算如下：
 
-![](img/DeepSeek硬核技术解读_image_066.jpg)
+![](img/DeepSeek-硬核技术解读_image_066.jpg)
 
 计算相对位置注意力得分:
 
-![](img/DeepSeek硬核技术解读_image_067.jpg)
+![](img/DeepSeek-硬核技术解读_image_067.jpg)
 
 其中：
 
-![](img/DeepSeek硬核技术解读_image_068.jpg)
+![](img/DeepSeek-硬核技术解读_image_068.jpg)
 
 由以上结果可知，通过 RoPE（***Q***矩阵和***K***矩阵相乘）的方法注意力分数***A****[i][j]*直接关联到了*j*-*i* 的相对位置，这也就说明模型能够直接捕捉到两个 Token 的相对位置。
 
@@ -1958,7 +1958,7 @@ RoPE 并非独立于 Transformer 的注意力机制，而是与 Transformer 的�
 
 目前，强化学习主要在游戏、下棋等领域应用。接下来，笔者以下象棋为例介绍什么是强化学习。基于强化学习的 AI 象棋如图 3-1 所示。**[图][3][-][1][基][于][强][化][学][习][的][A][I][象][棋]**
 
-![](img/DeepSeek硬核技术解读_image_069.jpg)
+![](img/DeepSeek-硬核技术解读_image_069.jpg)
 
 简单来说，训练一个策略（Actor）模型和环境进行交互（下棋），策略模型基于当前状态（当前局势）会选择一个动作（比如炮二平五）进入下一个状态，环境会反馈一个奖励（Reward）分数，训练模型的最终目标是使整局的奖励数学期望（回报）尽量大，也就相当于最大化动作优势（某一特定动作相对于其他动作的平均价值期望之差）。在下棋过程中，可通过计算奖励和价值来优化模型，以接近以上目标。
 
@@ -1966,13 +1966,13 @@ RoPE 并非独立于 Transformer 的注意力机制，而是与 Transformer 的�
 
 ●**动作（Action）：**走一步棋，比如卒三进一就是一种动作，可以用*A*表示。
 
-●**动作空间（Action Space）：**所有可以选择的动作的集合，比如图 3-1 中右侧的从“炮二平五”到“车一进二”的所有动作，可以用 ![](img/DeepSeek硬核技术解读_image_070.jpg)表示。
+●**动作空间（Action Space）：**所有可以选择的动作的集合，比如图 3-1 中右侧的从“炮二平五”到“车一进二”的所有动作，可以用 ![](img/DeepSeek-硬核技术解读_image_070.jpg)表示。
 
 ●**环境（Environment）：**模型和智能体以外的所有统称，在 AI 象棋中对手、棋盘、打分反馈等统称为环境，可以用*ε*表示。
 
 ●**奖励（Reward）：**每走一步，仅当前步（不考虑后续局势）的综合分数，可以用*R*（*s*,*a*）表示。
 
-![](img/DeepSeek硬核技术解读_image_071.jpg)
+![](img/DeepSeek-硬核技术解读_image_071.jpg)
 
 ●**价值（Value）：**考虑每一步的奖励并且累加起来，对于未来的奖励可能会以折扣的方式计入。计算公式为，其中*γ*是折扣因子。
 
@@ -1980,11 +1980,11 @@ RoPE 并非独立于 Transformer 的注意力机制，而是与 Transformer 的�
 
 ●**状态空间（State Space）：**所有的状态的集合就是状态空间，比如象棋中所有的对局可能就是状态空间，可以用 S 表示。
 
-![](img/DeepSeek硬核技术解读_image_072.jpg)
+![](img/DeepSeek-硬核技术解读_image_072.jpg)
 
 ●**状态价值（State Value）：**系统给一个当前局势综合的分数，这个分数是当前状态下未来所有对局可能的奖励和的期望值。计算公式为，其中*G**[t]*=*R**[t]*+*γR**[t]*[+1]+*γ*²*R**[t]*[+2]+…。
 
-![](img/DeepSeek硬核技术解读_image_073.jpg)
+![](img/DeepSeek-硬核技术解读_image_073.jpg)
 
 ●**动作价值（Action Value）：**每走一步，每个动作后可能获得的局势综合分数，这个分数是当前动作完成后未来所有对局可能的奖励和的期望值。计算公式为
 
@@ -2000,7 +2000,7 @@ RoPE 并非独立于 Transformer 的注意力机制，而是与 Transformer 的�
 
 ●**离线强化学习（Offline Reinforcement Learning）：**指吸收过往经验，这里的经验并不是当前策略正在进行的棋局。
 
-![](img/DeepSeek硬核技术解读_image_074.jpg)
+![](img/DeepSeek-硬核技术解读_image_074.jpg)
 
 ●**重要性采样（Importance Sampling）：**离线学习时，经验样本（过往对局、别人的对局）对于现在的策略模型的重要程度。可以用表示，其中*w**[i]*表示第*i*个样本的重要性权重，*π*表示目标策略，*b*表示行为策略。
 
@@ -2152,7 +2152,7 @@ Plain Text
 
 *G**[t]*表示回报值，也是价值。计算方式为
 
-![](img/DeepSeek硬核技术解读_image_075.jpg)![](img/DeepSeek硬核技术解读_image_076.jpg)
+![](img/DeepSeek-硬核技术解读_image_075.jpg)![](img/DeepSeek-硬核技术解读_image_076.jpg)
 
 表示优势值，代表在状态*s*下采取动作*a*的价值相对于所有动作平均价值之差。
 
@@ -2160,7 +2160,7 @@ Plain Text
 
 ①蒙特卡洛方法。计算公式如下：
 
-![](img/DeepSeek硬核技术解读_image_077.jpg)
+![](img/DeepSeek-硬核技术解读_image_077.jpg)
 
 蒙特卡洛方法对*V*（*s*）的估计是首先计算多个样本序列的价值，然后取平均值作为状态价值。也就是说，蒙特卡洛方法估计的一个样本是一个完整的动作序列，比如一条完整的语句、一盘完整的象棋对弈。很容易可知，蒙特卡洛估计必定是对*V*（*s*）的无偏估计，但是由于最细粒度样本是整局，导致样本少、方差大。
 
@@ -2172,7 +2172,7 @@ Plain Text
 
 ③广义优势方法。计算公式如下：
 
-![](img/DeepSeek硬核技术解读_image_078.jpg)
+![](img/DeepSeek-硬核技术解读_image_078.jpg)
 
 其中，*γ*是折扣因子，用来计算未来奖励的当前价值。*λ*是 GAE 的混合参数，调节了估计的偏差和方差之间的权衡。*δ**[t]*表示时序差异误差（Temporal Difference Error），反映了即时奖励与状态价值预测之间的差异。
 
@@ -2210,13 +2210,13 @@ policy_loss = -min（ratio * advantages_b, clipped_ratio * advantages_b�
 
 计算策略模型损失公式：
 
-![](img/DeepSeek硬核技术解读_image_079.jpg)![](img/DeepSeek硬核技术解读_image_080.jpg)
+![](img/DeepSeek-硬核技术解读_image_079.jpg)![](img/DeepSeek-硬核技术解读_image_080.jpg)
 
-其中，是新旧策略下采取动作*a**[t]*在状态*s**[t]*下的概率比，也就是上文中的重要性采样。 ![](img/DeepSeek硬核技术解读_image_081.jpg)
+其中，是新旧策略下采取动作*a**[t]*在状态*s**[t]*下的概率比，也就是上文中的重要性采样。 ![](img/DeepSeek-硬核技术解读_image_081.jpg)
 
 是一个超参数，用于控制新旧策略之间的偏差程度，通常取值为 0.1 或 0.2。
 
-![](img/DeepSeek硬核技术解读_image_082.jpg) ![](img/DeepSeek硬核技术解读_image_083.jpg)
+![](img/DeepSeek-硬核技术解读_image_082.jpg) ![](img/DeepSeek-硬核技术解读_image_083.jpg)
 
 表示将*r**[t]*（*θ*）值裁剪到范围内。
 
@@ -2438,7 +2438,7 @@ if __name__ == "__main__":
 
 DPO 的损失函数如下：
 
-![](img/DeepSeek硬核技术解读_image_084.jpg)
+![](img/DeepSeek-硬核技术解读_image_084.jpg)
 
 由损失函数可知,（log *π**[θ]*（*y**[w]*|*x*）-log *π*[ref]（*y**[w]*|*x*））是为了让策略模型*π**[θ]*接近正确的偏好的同时不要偏离参考模型*π*[ref]太远。-*β*（log *π**[θ]*（*y**[l]*|*x*）-log *π*[ref]（*y**[l]*|*x*））是为了让策略模型*π**[θ]*远离错误的偏好的同时不要偏离参考模型*π*[ref]太远。
 
@@ -2454,11 +2454,11 @@ DPO 的损失函数如下：
 
 GRPO 算法是 PPO 算法的变体，主要是对优势计算的修改。让我们先回顾一下 PPO 算法的损失函数：
 
-![](img/DeepSeek硬核技术解读_image_085.jpg)
+![](img/DeepSeek-硬核技术解读_image_085.jpg)
 
 优势计算如下：
 
-![](img/DeepSeek硬核技术解读_image_086.jpg)
+![](img/DeepSeek-硬核技术解读_image_086.jpg)
 
 组内归一化（减均值，除以方差）的原因如下。
 
@@ -2658,7 +2658,7 @@ print（"Loss:", loss.item（））
 
 如表 3-1 所示，在以上训练过程中，由于大语言模型执行的是自回归的 NSP 任务，即用前方的 Token 预测下一个 Token，因此训练时的输入 Token 和输出 Token 需要错开一位，以上方无 system 为例，<BOS>和<EOS>分别表示开始符和结束符。**[表][3][-][1][S][F][T][中][输][入][T][o][k][e][n][和][输][出][T][o][k][e][n][位][置][对][比]**
 
-![](img/DeepSeek硬核技术解读_image_087.jpg)
+![](img/DeepSeek-硬核技术解读_image_087.jpg)
 
 **2.DPO 的数据标注格式**
 
@@ -2994,7 +2994,7 @@ Value=（-1）*^s*×2^（*^E*^(-bias）)×（1+*M*）
 
 在大语言模型领域，常用的精度如图 4-1 所示。**[图][4][-][1][常][用][的][精][度]**
 
-![](img/DeepSeek硬核技术解读_image_088.jpg)
+![](img/DeepSeek-硬核技术解读_image_088.jpg)
 
 **1.FP32（32-bit Floating Point）**
 
@@ -3106,7 +3106,7 @@ INT4 是一种 4 位整型格式，多用于深度学习的量化推理。
 
 线性量化的公式：
 
-![](img/DeepSeek硬核技术解读_image_089.jpg)
+![](img/DeepSeek-硬核技术解读_image_089.jpg)
 
 其中，*x*表示输入的浮点数值。scale 表示量化比例因子，通常由数据的最大值和最小值决定。*q*表示量化后的低 bit 整数值。
 
@@ -3122,9 +3122,9 @@ INT4 是一种 4 位整型格式，多用于深度学习的量化推理。
 
 非线性量化的公式：
 
-![](img/DeepSeek硬核技术解读_image_090.jpg)
+![](img/DeepSeek-硬核技术解读_image_090.jpg)
 
-其中， ![](img/DeepSeek硬核技术解读_image_091.jpg)是一个很小的常数，用于避免对零取对数。
+其中， ![](img/DeepSeek-硬核技术解读_image_091.jpg)是一个很小的常数，用于避免对零取对数。
 
 非线性量化的特点如下。
 
@@ -3136,7 +3136,7 @@ INT4 是一种 4 位整型格式，多用于深度学习的量化推理。
 
 对称量化的公式：
 
-![](img/DeepSeek硬核技术解读_image_092.jpg)
+![](img/DeepSeek-硬核技术解读_image_092.jpg)
 
 其中，*b*表示量化的比特数。
 
@@ -3152,7 +3152,7 @@ INT4 是一种 4 位整型格式，多用于深度学习的量化推理。
 
 非对称量化的公式：
 
-![](img/DeepSeek硬核技术解读_image_093.jpg)
+![](img/DeepSeek-硬核技术解读_image_093.jpg)
 
 其中，*b*表示量化的比特数。
 
@@ -3228,13 +3228,13 @@ INT4 是一种 4 位整型格式，多用于深度学习的量化推理。
 
 分组量化又称分块量化。分块量化的核心思想是将输入数据矩阵***X***划分为多个较小的子矩阵（分块），每个分块独立计算并共享一组量化参数。例如，对于一个 10000 行 10000 列的矩阵***X***，可以将其划分为 100 个 1000 行 1000 列的子矩阵，每个子矩阵使用独立的 scale 和 zero 参数进行量化，具体如下。
 
-![](img/DeepSeek硬核技术解读_image_094.jpg)
+![](img/DeepSeek-硬核技术解读_image_094.jpg)
 
 其中，*b*是量化的比特数（如 8bit 量化）。
 
 然后对每个分块进行量化：
 
-![](img/DeepSeek硬核技术解读_image_095.jpg)
+![](img/DeepSeek-硬核技术解读_image_095.jpg)
 
 其中，***X****[i][,][j]*是第*i*行第*j*列的分块。scale*[i][,][j]* 和 zero*[i][,][j]* 是该分块的量化参数。***q****[i][,][j]*是量化后的整数值矩阵。
 
@@ -3242,11 +3242,11 @@ INT4 是一种 4 位整型格式，多用于深度学习的量化推理。
 
 大语言模型大部分采用线性量化，这导致了大语言模型均匀分布的参数更加容易获得较小的量化误差，然而对于大语言模型来说，权重的数值分布是复杂的，并不满足这个条件。另外，由于线性量化的特性，极端的离群值将更加难以量化。因此，分组量化可以减小每一组数据中含有离群值的概率，从而降低量化误差。下面是分组量化的示例：
 
-![](img/DeepSeek硬核技术解读_image_096.jpg)
+![](img/DeepSeek-硬核技术解读_image_096.jpg)
 
 以上分组量化中每个小方块内进行一次量化计算，共享一个量化参数。下面是对整个矩阵进行量化的示例，没有进行分组。
 
-![](img/DeepSeek硬核技术解读_image_097.jpg)
+![](img/DeepSeek-硬核技术解读_image_097.jpg)
 
 上述示例明显地反映了分组量化的优点。具体来说，分组量化的优点如下。
 
@@ -3274,13 +3274,13 @@ INT4 是一种 4 位整型格式，多用于深度学习的量化推理。
 
 图 4-2 展示了 4 种不同的量化分组策略，其中虚线框为量化分组的大小，旁边标注了量化后 scale 的形式。per-tensor 量化是指对整个形式为[*L*,*C*]的 Activation 矩阵或者形式为[*H*,*h*]的 Weight 矩阵进行一次量化。per-tile 量化是指将整个矩阵切分成若干个形式为[*M*,*N*]的小矩阵，对每个形式为[*M*,*N*]的小矩阵进行一次量化。per-token 量化是指将形式为[*L*,*C*]的 Activation 矩阵分组为*L*个形式为[*C*]的向量，对每个形式为[*C*]的向量进行一次量化。**[图][4][-][2][4][种][不][同][的][量][化][分][组][策][略]**
 
-![](img/DeepSeek硬核技术解读_image_098.jpg)
+![](img/DeepSeek-硬核技术解读_image_098.jpg)
 
 per-channel 量化是指将形式为[*C*,*c*]的 Weight 矩阵分组为*c*个形式为[*C*]的向量，对每个形式为[*C*]的向量进行一次量化。
 
 注意：本节所有矩阵中的框代表矩阵分块，比如
 
-![](img/DeepSeek硬核技术解读_image_099.jpg)
+![](img/DeepSeek-硬核技术解读_image_099.jpg)
 
 代表对整个矩阵中的 1.2,2.3,3.4,4.5 这四个值同时进行量化，共享一组 scale 和 zero 值，其中 scale 和 zero 为反量化过程中的重要参数。
 
@@ -3288,63 +3288,63 @@ per-channel 量化是指将形式为[*C*,*c*]的 Weight 矩阵分组为*c*个形
 
 对整个张量使用相同的量化参数，比如对于矩阵***X***就将整个***X***进行一次性量化。下面是线性量化公式：
 
-![](img/DeepSeek硬核技术解读_image_100.jpg)
+![](img/DeepSeek-硬核技术解读_image_100.jpg)
 
 其中，*s*是缩放因子。
 
 以下是量化前后的矩阵：
 
-![](img/DeepSeek硬核技术解读_image_101.jpg)
+![](img/DeepSeek-硬核技术解读_image_101.jpg)
 
 per-tensor 的基本量化分块：
 
-![](img/DeepSeek硬核技术解读_image_102.jpg)
+![](img/DeepSeek-硬核技术解读_image_102.jpg)
 
 **2.per-token 量化**
 
 对每个 Token（行或列）使用不同的量化参数，在大语言模型中一般是对每个 Token 对应的向量进行量化，一般是对 Activation 的量化：
 
-![](img/DeepSeek硬核技术解读_image_103.jpg)
+![](img/DeepSeek-硬核技术解读_image_103.jpg)
 
 其中，*s**[i]*是第*i*个 Token 的缩放因子。
 
 以下是量化前后的矩阵：
 
-![](img/DeepSeek硬核技术解读_image_104.jpg)
+![](img/DeepSeek-硬核技术解读_image_104.jpg)
 
 per-token 的基本量化分块：
 
-![](img/DeepSeek硬核技术解读_image_105.jpg)
+![](img/DeepSeek-硬核技术解读_image_105.jpg)
 
 **3.per-channel 量化**
 
-![](img/DeepSeek硬核技术解读_image_106.jpg)
+![](img/DeepSeek-硬核技术解读_image_106.jpg)
 
 其中，*s**[c]*是第*c*个通道的缩放因子。
 
 以下是量化前后的矩阵：
 
-![](img/DeepSeek硬核技术解读_image_107.jpg)
+![](img/DeepSeek-硬核技术解读_image_107.jpg)
 
 per-channel 的基本量化分块：
 
-![](img/DeepSeek硬核技术解读_image_108.jpg)
+![](img/DeepSeek-硬核技术解读_image_108.jpg)
 
 **4.per-tile 量化**
 
 对张量的每个子块使用不同的量化参数：
 
-![](img/DeepSeek硬核技术解读_image_109.jpg)
+![](img/DeepSeek-硬核技术解读_image_109.jpg)
 
 其中,*s**[i][,][j]*是第（*i*,*j*）个子块的缩放因子。
 
 以下是量化前后的矩阵：
 
-![](img/DeepSeek硬核技术解读_image_110.jpg)
+![](img/DeepSeek-硬核技术解读_image_110.jpg)
 
 per-tile 的基本分块：
 
-![](img/DeepSeek硬核技术解读_image_111.jpg)
+![](img/DeepSeek-硬核技术解读_image_111.jpg)
 
 ### **4.4 影响量化后模型精度与速度的因素**
 
@@ -3414,7 +3414,7 @@ per-tile 的基本分块：
 
 LLM.INT8 ^(¹)是一种针对大语言模型的 8 位整数量化方法，由 Tim Dettmers 等人提出。它的核心思想是通过混合精度量化策略，仅对部分敏感层保留高精度（FP16），而对其他层使用 8 位整数量化，以平衡精度和速度。LLM.INT8 算法量化原理如图 4-3 所示。**[图][4][-][3][L][L][M][.][I][N][T][8][算][法][量][化][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_113.jpg)
+![](img/DeepSeek-硬核技术解读_image_113.jpg)
 
 LLM.INT8 由于混合精度的存在，反量化时也存在混合精度，进而产生额外的计算开销。LLM.INT8 量化伪代码如下：
 
@@ -3580,7 +3580,7 @@ LLM.INT8 算法量化的优势与不足如下。
 
 AWQ（Activation-aware Weight Quantization，激活感知权重量化）是一种基于激活值感知的权重量化方法，由 MIT 等机构提出。如图 4-4 所示，AWQ 的核心思想是通过分析激活值的分布动态识别重要权重，对这些权重进行放大后再统一量化，从而在低比特量化时最小化关键权重的误差。它的创新点在于基于激活值统计自动优化每通道的缩放因子，而非直接保留部分权重为高精度，实现了硬件友好的高效量化。**[图][4][-][4][A][W][Q][原][理][图][4][-][4][（][续][）]**
 
-![](img/DeepSeek硬核技术解读_image_114.jpg)![](img/DeepSeek硬核技术解读_image_115.jpg)
+![](img/DeepSeek-硬核技术解读_image_114.jpg)![](img/DeepSeek-硬核技术解读_image_115.jpg)
 
 我们发现大语言模型权重中存在 1%左右的异常值，如果量化时将这 1%的权重保持在 FP16 的精度，能够显著提升量化效果，PPL 从 43.2（见图 4-4a）下降到 13.0（见图 4-4b），但是混合精度的格式导致硬件效率低。我们提出 AWQ 量化技术（见图 4-4c），AWQ 执行 per-channel 放大保护这 1%的异常值，从而降低量化误差。
 
@@ -3768,11 +3768,11 @@ GPTQ 实现的关键步骤如下。
 
 （1）计算目标
 
-首先，GPTQ 的目标在于量化前后在相同的***X***下输出尽可能相近，比如***W***、 ![](img/DeepSeek硬核技术解读_image_116.jpg)分别为量化前后的权重，***X***为输入的 Activation。
+首先，GPTQ 的目标在于量化前后在相同的***X***下输出尽可能相近，比如***W***、 ![](img/DeepSeek-硬核技术解读_image_116.jpg)分别为量化前后的权重，***X***为输入的 Activation。
 
 GPTQ 算法的损失计算如下：
 
-![](img/DeepSeek硬核技术解读_image_117.jpg)
+![](img/DeepSeek-硬核技术解读_image_117.jpg)
 
 （2）Hessian 近似计算
 
@@ -3800,7 +3800,7 @@ GPTQ 支持 2～4 位超低比特量化，显存占用减少 75%以上，但是�
 
 3 种量化方法对比如表 4-1 所示。**[表][4][-][1][3][种][量][化][方][法][对][比]**
 
-![](img/DeepSeek硬核技术解读_image_118.jpg)
+![](img/DeepSeek-硬核技术解读_image_118.jpg)
 
 可见，LLM.INT8 适用于需要快速部署的大模型场景。AWQ 适用于对显存敏感的低比特量化任务（如边缘设备）。GPTQ 在极端压缩场景下表现优异，但需要更多计算资源。
 
@@ -3822,11 +3822,11 @@ GPTQ 支持 2～4 位超低比特量化，显存占用减少 75%以上，但是�
 
 Reduce 操作是将多个节点上的数据通过某种操作（如求和、求最大值等）合并到一个节点上。图 5-1 为 Reduce 操作原理图，即将 Device0 到 Device3 上的矩阵聚合（图中为加号）到 Device0 上。**[图][5][-][1]** **[R][e][d][u][c][e][操][作][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_119.jpg)
+![](img/DeepSeek-硬核技术解读_image_119.jpg)
 
 假设有*n*个节点，每个节点有一个数据向量***v****[i]*，Reduce 操作可以表示为
 
-![](img/DeepSeek硬核技术解读_image_120.jpg)
+![](img/DeepSeek-硬核技术解读_image_120.jpg)
 
 其中，⊕表示某种规约操作，如求和、平均。
 
@@ -3844,7 +3844,7 @@ Reduce 操作是将多个节点上的数据通过某种操作（如求和、求�
 
 Broadcast 操作将一个节点上的数据广播（复制）到其他所有节点。图 5-2 为 Broadcast 操作原理图，将 Device0 上的向量复制到所有设备上。**[图][5][-][2]** **[B][r][o][a][d][c][a][s][t][操][作][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_121.jpg)
+![](img/DeepSeek-硬核技术解读_image_121.jpg)
 
 假设有一个节点上的数据向量***v***，Broadcast 操作可以表示为
 
@@ -3866,11 +3866,11 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 如图 5-3 所示，Gather 操作是指将 Device0 到 Device3 上的矩阵收集到同一个 Device 上，由于不进行聚合操作，Device0 上的矩阵参数量为各个 Device 上的参数量之和。**[图][5][-][3]** **[G][a][r][t][h][e][r][操][作][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_122.jpg)
+![](img/DeepSeek-硬核技术解读_image_122.jpg)
 
 假设有*m*个节点，每个节点有一个数据向量***v****[i]*，Gather 操作可以表示为
 
-![](img/DeepSeek硬核技术解读_image_123.jpg)
+![](img/DeepSeek-硬核技术解读_image_123.jpg)
 
 在 Gather 操作中，每个节点需要将自己的数据发送到一个目标节点（通常是根节点），则
 
@@ -3886,11 +3886,11 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 如图 5-4 所示，Scatter 操作将一个节点（Device0）上的数据分发到多个节点（Device0 到 Device3）上。Scatter 操作为 Gather 操作的逆操作。**[图][5][-][4]** **[S][c][a][t][t][e][r][操][作][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_124.jpg)
+![](img/DeepSeek-硬核技术解读_image_124.jpg)
 
 假设有一个节点上的数据矩阵***v***，Scatter 操作可以表示为
 
-![](img/DeepSeek硬核技术解读_image_125.jpg)
+![](img/DeepSeek-硬核技术解读_image_125.jpg)
 
 在 Scatter 操作中，根节点需要将数据分发到其他所有节点，则
 
@@ -3906,11 +3906,11 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 如图 5-5 所示，All-Reduce 操作将多个节点（Device0 到 Device3）上的数据通过某种操作聚合，并将结果广播到所有节点（Device0 到 Device3）。**[图][5][-][5]** **[A][l][l][-][R][e][d][u][c][e][操][作][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_126.jpg)
+![](img/DeepSeek-硬核技术解读_image_126.jpg)
 
 假设有*n*个节点，每个节点有一个数据向量***v****[i]*，All-Reduce 操作可以表示为
 
-![](img/DeepSeek硬核技术解读_image_127.jpg)
+![](img/DeepSeek-硬核技术解读_image_127.jpg)
 
 在 All-Reduce 操作中，每个节点需要将自己的数据发送给其他所有节点，并最终接收全局归约结果。假设使用树形或环形算法，则
 
@@ -3926,11 +3926,11 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 如图 5-6 所示，All-Gather 操作将多个节点（Device0 到 Device3）上的数据收集到所有节点（Device0 到 Device3）上，每个节点最终拥有所有数据。**[图][5][-][6]** **[A][l][l][-][G][a][t][h][e][r][操][作][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_128.jpg)
+![](img/DeepSeek-硬核技术解读_image_128.jpg)
 
 假设有*n*个节点，每个节点有一个数据向量***v****[i]*，All-Gather 操作可以表示为
 
-![](img/DeepSeek硬核技术解读_image_129.jpg)
+![](img/DeepSeek-硬核技术解读_image_129.jpg)
 
 在 All-Gather 操作中，每个节点需要将自己的数据发送给其他所有节点，并接收其他所有节点的数据，则
 
@@ -3946,7 +3946,7 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 数据并行是一种并行计算的技术，通过将输入数据分割成若干部分并分配给多个设备（如 GPU）来加速大规模数据处理任务的执行，如图 5-7 所示。数据并行的核心思想是每个设备执行相同的计算逻辑但作用于不同的数据片段。具体来说，模型副本被复制到各个设备上，而输入数据集则被划分为多个小批次，每个设备处理不同的数据批次。在计算完成后，通过通信机制（如 All-Reduce）汇总或平均化各设备的结果，以更新模型参数，保证所有设备上的模型副本同步。这种方法不仅能够加快训练和推理的速度，还能够扩展到非常大的数据集和复杂的模型结构中，适用于需要大量数据处理的任务，如图像识别、自然语言处理等。**[图][5][-][7]** **[数][据][并][行]**
 
-![](img/DeepSeek硬核技术解读_image_130.jpg)
+![](img/DeepSeek-硬核技术解读_image_130.jpg)
 
 如图 5-7 所示，数据并行即在不同设备（GPU0 和 GPU1）上保存相同的模型权重，将数据 BATCH_DATA 分为多个微批次（mirco_batch0，mirco_batch1）分别传入不同设备（GPU0 和 GPU1）进行计算的过程。各个微批次前向传播完成后将各个设备上的梯度做一次 All-Reduce 操作，保证不同设备上的模型权重始终相同。
 
@@ -3956,11 +3956,11 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 假设有一个权重矩阵***W***和一个输入矩阵***x***，具体如下：
 
-![](img/DeepSeek硬核技术解读_image_131.jpg)
+![](img/DeepSeek-硬核技术解读_image_131.jpg)
 
 **2.输入矩阵拆分**
 
-![](img/DeepSeek硬核技术解读_image_132.jpg)
+![](img/DeepSeek-硬核技术解读_image_132.jpg)
 
 ***x***[1]是矩阵***x***的第一列。
 
@@ -3968,15 +3968,15 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 **3.并行计算**
 
-![](img/DeepSeek硬核技术解读_image_133.jpg)
+![](img/DeepSeek-硬核技术解读_image_133.jpg)
 
 **4.结果合并**
 
-![](img/DeepSeek硬核技术解读_image_134.jpg)
+![](img/DeepSeek-硬核技术解读_image_134.jpg)
 
 **5.结果验证**
 
-![](img/DeepSeek硬核技术解读_image_135.jpg)
+![](img/DeepSeek-硬核技术解读_image_135.jpg)
 
 ### **5.3** **张量并行**
 
@@ -3984,7 +3984,7 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 如图 5-8 所示，张量并行是一种将模型的张量（如权重矩阵）拆分到多个设备（如 GPU）上并行计算的技术，主要用于加速大规模深度学习模型的训练和推理。它的核心思想是将一个大的张量（如权重矩阵）按行或列拆分成多个子张量，分配到不同的设备上并行计算。每个设备只处理部分数据，最后通过通信机制（如 All-Reduce）合并结果。**[图][5][-][8]** **[张][量][并][行]**
 
-![](img/DeepSeek硬核技术解读_image_136.jpg)
+![](img/DeepSeek-硬核技术解读_image_136.jpg)
 
 **5.3.1** **张量并行——行并行**
 
@@ -3992,23 +3992,23 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 假设我们有一个权重矩阵***W***和一个输入矩阵***x***，具体如下：
 
-![](img/DeepSeek硬核技术解读_image_137.jpg)
+![](img/DeepSeek-硬核技术解读_image_137.jpg)
 
 **2.权重矩阵拆分**
 
 将矩阵***W***按行拆分为两个子矩阵***W***[1]和***W***[2]，分别分配到两个设备上：
 
-![](img/DeepSeek硬核技术解读_image_138.jpg)
+![](img/DeepSeek-硬核技术解读_image_138.jpg)
 
 ●***W***[1]是矩阵***W***的前两行。
 
 ●***W***[2]是矩阵***W***的后两行。
 
-![](img/DeepSeek硬核技术解读_image_139.jpg)
+![](img/DeepSeek-硬核技术解读_image_139.jpg)
 
 **3.结果验证**
 
-![](img/DeepSeek硬核技术解读_image_140.jpg)
+![](img/DeepSeek-硬核技术解读_image_140.jpg)
 
 **5.3.2** **张量并行——列并行**
 
@@ -4016,7 +4016,7 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 假设原始权重矩阵***W***和输入矩阵***x***如下：
 
-![](img/DeepSeek硬核技术解读_image_141.jpg)
+![](img/DeepSeek-硬核技术解读_image_141.jpg)
 
 **2.权重矩阵与输入矩阵的拆分**
 
@@ -4024,15 +4024,15 @@ Gather 操作将多个节点上的数据收集到一个节点上，但不进行�
 
 权重矩阵***W***的拆分：按列拆分为***W***[1]（前两列）和***W***[2]（第三列）：
 
-![](img/DeepSeek硬核技术解读_image_142.jpg)
+![](img/DeepSeek-硬核技术解读_image_142.jpg)
 
 输入矩阵***x***的拆分：与权重矩阵拆分对齐，按列拆分为***x***[1]（前两行）和***x***[2]（第三行）：
 
-![](img/DeepSeek硬核技术解读_image_143.jpg)
+![](img/DeepSeek-硬核技术解读_image_143.jpg)
 
 **3.结果验证**
 
-![](img/DeepSeek硬核技术解读_image_144.jpg)
+![](img/DeepSeek-硬核技术解读_image_144.jpg)
 
 **5.3.3** **行并行与列并行的差别**
 
@@ -4110,7 +4110,7 @@ return x
 
 综上所述，张量并行中的行并行和列并行对比如表 5-1 所示。**[表][5][-][1]** **[张][量][并][行][中][的][行][并][行][和][列][并][行][对][比]**
 
-![](img/DeepSeek硬核技术解读_image_145.jpg)
+![](img/DeepSeek-硬核技术解读_image_145.jpg)
 
 ### **5.4** **流水线并行**
 
@@ -4118,21 +4118,21 @@ return x
 
 图 5-9 中每个颜色代表不同的卡，F 代表前向传播，B 代表反向传播，某个数据批次在第一个设备的第一个模型层前向传播后将结果传递到第二个设备上的第二个模型层，依此类推。当前向传播完成后，从最后一个模型层进行反向传播更新参数，再将梯度传递到上一个层的设备上进行反向传播。**[图][5][-][9]** **[朴][素][流][水][线][并][行]**
 
-![](img/DeepSeek硬核技术解读_image_146.jpg)
+![](img/DeepSeek-硬核技术解读_image_146.jpg)
 
 流水线并行最大的的缺点是存在气泡，气泡可以见图 5-9 中的空白部分，所有空白部分占整个流水线面积的比值是气泡比。不难计算出朴素流水线并行的气泡比是：
 
-![](img/DeepSeek硬核技术解读_image_147.jpg)
+![](img/DeepSeek-硬核技术解读_image_147.jpg)
 
 其中，*K*表示流水线的深度，即图 5-9 中 F[0]或者 B[0]的数量。
 
 为了解决气泡占比的问题，后续出现了 GPipe 方案。这种方案的核心思想是将 Batch 切分成多个 micro_batch，从而降低等待时间。如图 5-10 所示，深蓝色部分为前向传播，绿色部分为反向传播，GPipe 流水线的气泡比为
 
-![](img/DeepSeek硬核技术解读_image_148.jpg)
+![](img/DeepSeek-硬核技术解读_image_148.jpg)
 
 其中，*K*为流水线深度，*M*为微批次的数量。**[图][5][-][1][0]** **[G][P][i][p][e][流][水][线]**
 
-![](img/DeepSeek硬核技术解读_image_149.jpg)
+![](img/DeepSeek-硬核技术解读_image_149.jpg)
 
 ### **5.5** **序列并行**
 
@@ -4140,7 +4140,7 @@ return x
 
 如图 5-11 所示，对于注意力层来说，输入是一个[*S*（Sequence）,*B*（Batch_size）,*D*（dim）]的向量，将其按照*S*维度切分成*m*个 Chunk 并分别计算***Q***、***K***、***V***，再将 Chunk 分配到不同设备上进行 Attention Score 计算。由于单向注意力的存在，靠后的 Chunk 需要获得靠前 Chunk 的***K***、***V***值，这部分需要进行额外的通信。**[图][5][-][1][1]** **[序][列][并][行]**
 
-![](img/DeepSeek硬核技术解读_image_150.jpg)
+![](img/DeepSeek-硬核技术解读_image_150.jpg)
 
 对于 MLP 层来说，需要将不同 Chunk 在注意力层的计算结果分配到不同设备上以进行 MLP 层的计算，最终输出 MLP 层的结果并进入下一个注意力层。
 
@@ -4176,9 +4176,9 @@ DeepSeek 基于 Transformer 架构主要进行了两大创新：一是使用 MoE
 
 DeepSeek V3 架构如图 6-1 所示，其中主要包括 MoE 和 MLA。**[图][6][-][1][D][e][e][p][S][e][e][k][V][3][架][构]**[（来自 DeepSeek V3 技术报告）]
 
-![](img/DeepSeek硬核技术解读_image_151.jpg)
+![](img/DeepSeek-硬核技术解读_image_151.jpg)
 
-图中 Concatenate 操作表示将 ![](img/DeepSeek硬核技术解读_image_152.jpg)和 ![](img/DeepSeek硬核技术解读_image_153.jpg)两个向量进行堆叠操作，Apply RoPE 操作代表将***h****[t]*矩阵转换为带有 RoPE 的***K***矩阵。
+图中 Concatenate 操作表示将 ![](img/DeepSeek-硬核技术解读_image_152.jpg)和 ![](img/DeepSeek-硬核技术解读_image_153.jpg)两个向量进行堆叠操作，Apply RoPE 操作代表将***h****[t]*矩阵转换为带有 RoPE 的***K***矩阵。
 
 本章将对 MoE 和 MLA 架构进行详细讲解。首先从代码和计算量、原理方面介绍 MoE 架构，并介绍门控单元、“专家”并行等概念。然后介绍从 MHA 到 GQA 再到 MLA 的演进过程、注意力结构、KV-cache 的使用方法等。接着介绍 BPE 和 BBPE 分词器的核心原理，以及对分词效果的影响。最后从多模态架构方面介绍 DeepSeek VL2，并且介绍 MiniCPM-V 多模态模型是如何处理高清图片输入丢失细节的问题。
 
@@ -4188,7 +4188,7 @@ DeepSeek V3 架构如图 6-1 所示，其中主要包括 MoE 和 MLA。**[图][
 
 从前文可知，Transformer 的 MLP 层就是多个线性层，这就导致了*O*（hidden_size²）的计算复杂度高。为了解决这一问题，DeepSeek 采用 MoE 架构替换了 MLP 层，本质上说，是使用多个参数量更小的并行 MLP 代替了原有的一个 MLP 并且每次前向传播仅选取一部分进行激活。**[图][6][-][2][M][o][E][与][M][L][P][架][构][示][意][图]**
 
-![](img/DeepSeek硬核技术解读_image_154.jpg)
+![](img/DeepSeek-硬核技术解读_image_154.jpg)
 
 如图 6-2 所示，MoE 即多个并行的参数量更小的 MLP 层，MoE 的输入***X***进行分发（Dispatch）操作时选择所有的共享专家和*k*个路由专家对输入***X***进行投票，并对投票结果进行加权相加，然后获得最终结果。
 
@@ -4732,11 +4732,11 @@ MoE 通过引入专家机制，显著降低了计算量。下面是 MoE 架构�
 
 每个“专家”对每个 Token 的计算量为
 
-![](img/DeepSeek硬核技术解读_image_155.jpg)
+![](img/DeepSeek-硬核技术解读_image_155.jpg)
 
 **3.MoE 和 MLP 架构下的计算量对比**
 
-![](img/DeepSeek硬核技术解读_image_156.jpg)
+![](img/DeepSeek-硬核技术解读_image_156.jpg)
 
 MoE 架构下的计算量下降的原因如下。
 
@@ -4750,7 +4750,7 @@ MoE 架构下的计算量下降的原因如下。
 
 每个“专家”的输入维度为*h*/*n*^(1/2)，远低于 MLP 架构下的输入维度*h*，从而降低了矩阵乘法的计算量。
 
-由于*k*<<*n* ,因此 ![](img/DeepSeek硬核技术解读_image_157.jpg)远小于 1，计算量大幅下降。
+由于*k*<<*n* ,因此 ![](img/DeepSeek-硬核技术解读_image_157.jpg)远小于 1，计算量大幅下降。
 
 值得注意的是，模型训练成本不仅仅来自计算量，还涉及通信量和训练方法。在 MoE 架构下，由于稀疏问题，存在与计算成本相比巨大的通信成本，所以在实际训练中，训练成本的下降并不等同于计算量的下降。
 
@@ -4760,21 +4760,21 @@ MoE 架构下的计算量下降的原因如下。
 
 图 6-3 所示为注意力机制演进路线。**[图][6][-][3][注][意][力][机][制][演][进][路][线]**[（来自 DeepSeek V3 技术报告）]
 
-![](img/DeepSeek硬核技术解读_image_158.jpg)
+![](img/DeepSeek-硬核技术解读_image_158.jpg)
 
 MHA 在前文中已经详细讲解，GQA 是在 MHA 的基础上将注意力头分成了*N*组，***Q***矩阵数量与注意力头数相同，每组注意力头共用同一个***K***、***V***矩阵，这样一来，GQA 的 KV-cache 的内存占用降到 MHA 的 1/*N*。MQA 相比 GQA 更加极端，让*N*=1，使得所有的注意力头共用一个***K***、***V***矩阵，虽然 KV-cache 的内存占用下降非常多，但是也导致了比较大的性能下降。MLA 的核心思想是对***K***、***V***矩阵进行低秩压缩，从而降低 KV-cache 占用并且无性能下降。
 
 不同注意力机制对比如表 6-1 所示。**[表][6][-][1][不][同][注][意][力][机][制][对][比][（][续][）]**
 
-![](img/DeepSeek硬核技术解读_image_159.jpg)![](img/DeepSeek硬核技术解读_image_160.jpg)
+![](img/DeepSeek-硬核技术解读_image_159.jpg)![](img/DeepSeek-硬核技术解读_image_160.jpg)
 
-表中，*n**[h]*表示 MHA 中一个 Transformer Block 的注意力头数，*d**[h]*表示每个 Transformer 层的维度，*l*表示 Transformer Block 的层数，*n**[g]*表示 GQA 中有多少个组，*d**[c]*表示 MLA 中低秩矩阵的维度， ![](img/DeepSeek硬核技术解读_image_161.jpg)表示 MLA 中 ROPE 的维度。
+表中，*n**[h]*表示 MHA 中一个 Transformer Block 的注意力头数，*d**[h]*表示每个 Transformer 层的维度，*l*表示 Transformer Block 的层数，*n**[g]*表示 GQA 中有多少个组，*d**[c]*表示 MLA 中低秩矩阵的维度， ![](img/DeepSeek-硬核技术解读_image_161.jpg)表示 MLA 中 ROPE 的维度。
 
 **6.2.1 MHA**
 
 图 6-4 所示为 MHA 实现原理。**[图][6][-][4][M][H][A][实][现][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_162.jpg)
+![](img/DeepSeek-硬核技术解读_image_162.jpg)
 
 MHA 的代码实现过程如下。
 
@@ -4800,7 +4800,7 @@ value = value.view（batch_size, len_k, self.num_heads, self.dim_head）.pe
 
 3）计算注意力，图 6-4 中缺乏此操作，下式为注意力计算公式：
 
-![](img/DeepSeek硬核技术解读_image_163.jpg)
+![](img/DeepSeek-硬核技术解读_image_163.jpg)
 
 代码实现如下：
 
@@ -4864,7 +4864,7 @@ score = self.attention_out（score）
 
 1）***W******^Q***、***W******^K***、***W******^V***的个数不同。
 
-图 6-4 的第 3 和第 4 步中，***X***通过和第*i*个注意力头的 ![](img/DeepSeek硬核技术解读_image_164.jpg)、 ![](img/DeepSeek硬核技术解读_image_165.jpg)、 ![](img/DeepSeek硬核技术解读_image_166.jpg)投影得到第*i*个注意力头的***q****[i]*，***k****[i]*，***v****[i]*的值。
+图 6-4 的第 3 和第 4 步中，***X***通过和第*i*个注意力头的 ![](img/DeepSeek-硬核技术解读_image_164.jpg)、 ![](img/DeepSeek-硬核技术解读_image_165.jpg)、 ![](img/DeepSeek-硬核技术解读_image_166.jpg)投影得到第*i*个注意力头的***q****[i]*，***k****[i]*，***v****[i]*的值。
 
 代码中只有一个***W******^Q***即 self.project_q，将***X***与 self.project_q 相乘后得到所有注意力头的***q***值，再对***q***进行维度的切分，获得***q****[i]*。
 
@@ -4872,7 +4872,7 @@ score = self.attention_out（score）
 
 2）图 6-4 中第 4 和第 5 步之间缺少注意力计算，即图 6-4 中的***Z***应该是用下式计算得到的：
 
-![](img/DeepSeek硬核技术解读_image_167.jpg)
+![](img/DeepSeek-硬核技术解读_image_167.jpg)
 
 **6.2.2 GQA**
 
@@ -4880,7 +4880,7 @@ score = self.attention_out（score）
 
 MHA 和 GQA 的***Q***、***K***、***V***对比如图 6-5 所示。MHA 的***Q***、***K***、***V***三者数量都和注意力头数 num_heads 相同。GQA 中***Q***的数量仍然和注意力头数 num_heads 相等。将注意力头数 num_heads 平均分成多个 Group，***K***和***V***被每一个 Group 中的所有注意力头共用。**[图][6][-][5][M][H][A][和][G][Q][A][的]*****[Q]*****[、]*****[K]*****[、]*****[V]*****[对][比]**
 
-![](img/DeepSeek硬核技术解读_image_168.jpg)
+![](img/DeepSeek-硬核技术解读_image_168.jpg)
 
 **2.GQA 的优势**
 
@@ -4908,11 +4908,11 @@ GQA 的计算流程如图 6-6 所示。
 
 *d****[Q]***=n_group×*d****[V]***
 
-![](img/DeepSeek硬核技术解读_image_169.jpg)
+![](img/DeepSeek-硬核技术解读_image_169.jpg)
 
 其中，*d****[Q]***表示***Q***矩阵的输出维度，*d****[K]***表示***K***矩阵的输出维度，n_head 表示注意力头数，groups 表示一共将注意力头分为几组，n_group 表示每组有多少个注意力头。**[图][6][-][6][G][Q][A][计][算][流][程][示][意][图]**
 
-![](img/DeepSeek硬核技术解读_image_170.jpg)
+![](img/DeepSeek-硬核技术解读_image_170.jpg)
 
 **4.GQA 的代码实现**
 
@@ -5006,7 +5006,7 @@ attn_output = self.o_proj（attn_output）
 
 相比于 GQA，MLA 在同样节省 KV-cache 的情况下获得了更好的性能。MLA 的计算流程如图 6-7 所示。**[图][6][-][7][M][L][A][的][计][算][流][程][示][意][图][（][不][考][虑][R][o][P][E][）]**
 
-![](img/DeepSeek硬核技术解读_image_171.jpg)
+![](img/DeepSeek-硬核技术解读_image_171.jpg)
 
 图 6-7 中 low_rank<<*H*，low_rank 代表低秩矩阵***C***的输出维度，从而使得在***K***、***V***进入***W******^K***和***W******^V***之前维度下降。由于***K***和***V***在推理时都需要被缓存，因此降低***K***、***V***的维度将会减少推理时所需的显存。
 
@@ -5054,19 +5054,19 @@ MLA 的维度压缩过程可表示为
 
 其中，
 
-![](img/DeepSeek硬核技术解读_image_172.jpg)
+![](img/DeepSeek-硬核技术解读_image_172.jpg)
 
 表示降维矩阵，将隐藏层特征映射到低维潜在空间。
 
-![](img/DeepSeek硬核技术解读_image_173.jpg)
+![](img/DeepSeek-硬核技术解读_image_173.jpg)
 
 表示升维矩阵，将潜在变量映射回头维度空间。
 
-![](img/DeepSeek硬核技术解读_image_174.jpg)
+![](img/DeepSeek-硬核技术解读_image_174.jpg)
 
 表示潜在变量，表示压缩后的特征。
 
-![](img/DeepSeek硬核技术解读_image_175.jpg)
+![](img/DeepSeek-硬核技术解读_image_175.jpg)
 
 表示输入隐藏层特征。
 
@@ -5074,21 +5074,21 @@ MLA 的维度压缩过程可表示为
 
 强行在压缩后的***K***[rec]上应用 RoPE：
 
-![](img/DeepSeek硬核技术解读_image_176.jpg)
+![](img/DeepSeek-硬核技术解读_image_176.jpg)
 
 其中,
 
-![](img/DeepSeek硬核技术解读_image_177.jpg)
+![](img/DeepSeek-硬核技术解读_image_177.jpg)
 
 表示重构后的键向量。
 
-![](img/DeepSeek硬核技术解读_image_178.jpg)
+![](img/DeepSeek-硬核技术解读_image_178.jpg)
 
 表示旋转位置编码矩阵，用于对位置信息进行编码。
 
 （3）冲突点
 
-***W***[up]是升维后的低秩投影矩阵，但矩阵的秩并没有上升（秩*d****[C]***=64）， ![](img/DeepSeek硬核技术解读_image_179.jpg)是满秩旋转矩阵（秩*d*[head]=128），这意味着 RoPE 的旋转作用被限制在低秩子空间内，无法覆盖完整的*d*[head]维度。
+***W***[up]是升维后的低秩投影矩阵，但矩阵的秩并没有上升（秩*d****[C]***=64）， ![](img/DeepSeek-硬核技术解读_image_179.jpg)是满秩旋转矩阵（秩*d*[head]=128），这意味着 RoPE 的旋转作用被限制在低秩子空间内，无法覆盖完整的*d*[head]维度。
 
 （4）解决方案
 
@@ -5830,7 +5830,7 @@ Tokenized 'lowest': [b'low', b'est']
 
 DeepSeek VL2 是 DeepSeek 系列中的多模态大模型，可以接受图像输入、文本输出。DeepSeek VL2 模型的结构如图 6-8 所示。和一般的多模态大模型一样，DeepSeek VL2 主要包括图像编码器、跨模态适配层、大语言模型 3 部分。**[图][6][-][8][D][e][e][p][S][e][e][k][V][L][2][模][型][的][结][构]**[（来自 DeepSeek VL2 技术报告）]
 
-![](img/DeepSeek硬核技术解读_image_180.jpg)
+![](img/DeepSeek-硬核技术解读_image_180.jpg)
 
 首先将图像编码成特征向量，这些向量会通过跨横态适配层映射到大语言模型的特征空间，然后将这些特征向量和文本 Token 一起拼接起来送入大语言模型，此时大语言模型同时获得文本和图像的特征向量，从而根据图像的特征向量和文本进行回复。
 
@@ -5852,7 +5852,7 @@ DeepSeek VL2 是 DeepSeek 系列中的多模态大模型，可以接受图像�
 
 图 6-9 展示了在将图像特征融合到大语言模型之前的处理逻辑。**[图][6][-][9][图][像][特][征][融][合][到][大][语][言][模][型][之][前][的][处][理][逻][辑]**
 
-![](img/DeepSeek硬核技术解读_image_181.jpg)
+![](img/DeepSeek-硬核技术解读_image_181.jpg)
 
 DeepSeek VL2 的高清图像处理使用自适应切图方案，具体流程如下。
 
@@ -6174,7 +6174,7 @@ MoE 架构基于“专家”进行分布式训练，将模型划分为多个“�
 
 MoE 架构通过亲和度*s**[i][,][t]*来表示第*i*个“专家”对第*t*个 Token 的影响，并且作为投票权重。因此，亲和度可以直接影响负载均衡，且修改后的亲和度不影响投票权重。MoE 的亲和度计算公式如下：
 
-![](img/DeepSeek硬核技术解读_image_182.jpg)
+![](img/DeepSeek-硬核技术解读_image_182.jpg)
 
 其中：
 
@@ -6204,11 +6204,11 @@ MoE 架构通过亲和度*s**[i][,][t]*来表示第*i*个“专家”对第*t*�
 
 本方法来自 DeepSeek V3 技术报告，属于损失函数型负载均衡，可用于序列间的“专家”负载均衡。以下是 DeepSeek V3 的序列间负载均衡损失函数：
 
-![](img/DeepSeek硬核技术解读_image_183.jpg)
+![](img/DeepSeek-硬核技术解读_image_183.jpg)
 
 其中：
 
-*s**[i][,][t]*表示第*i*个“专家”和第*t*个 Token 的亲和度， ![](img/DeepSeek硬核技术解读_image_184.jpg)表示第*i*个“专家”和第*t*个 Token 的相对亲和度。
+*s**[i][,][t]*表示第*i*个“专家”和第*t*个 Token 的亲和度， ![](img/DeepSeek-硬核技术解读_image_184.jpg)表示第*i*个“专家”和第*t*个 Token 的相对亲和度。
 
 *K**[r]*表示选取的 Top *k*值。
 
@@ -6216,21 +6216,21 @@ MoE 架构通过亲和度*s**[i][,][t]*来表示第*i*个“专家”对第*t*�
 
 下面以图 7-1 为例对上述公式进行讲解。**[图][7][-][1]** **[序][列][间][负][载][均][衡][损][失][计][算][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_185.jpg)
+![](img/DeepSeek-硬核技术解读_image_185.jpg)
 
 1）根据第六章 MoEGate 函数计算出的亲和度*s**[i][,][t]*代表第*i*个专家和第*t*个 Token 之间的亲和度。
 
-2）*s**[i][,][t]*在“专家”维度上归一化的 ![](img/DeepSeek硬核技术解读_image_186.jpg)代表该“专家”对第*t*个 Token 的亲和度占所有“专家”对第*t*个 Token 的亲和度的百分比。
+2）*s**[i][,][t]*在“专家”维度上归一化的 ![](img/DeepSeek-硬核技术解读_image_186.jpg)代表该“专家”对第*t*个 Token 的亲和度占所有“专家”对第*t*个 Token 的亲和度的百分比。
 
 3）将*s**[i][,][t]*在文本维度上求平均得到的每个“专家”的*P**[i]*代表该文本序列对第*i*个“专家”的平均亲和度。
 
 4）*f**[i]*代表对于每个“专家”来说，平均一个序列进入 Top *k*的频率。
 
-![](img/DeepSeek硬核技术解读_image_187.jpg)
+![](img/DeepSeek-硬核技术解读_image_187.jpg)
 
 5）最终用于平衡各“专家”之间的负载。
 
-![](img/DeepSeek硬核技术解读_image_188.jpg)
+![](img/DeepSeek-硬核技术解读_image_188.jpg)
 
 从上文分析中可知，*P**[i]*可以理解为频率，*f**[i]*可以理解为亲和度的值，且*P**[i]*与*f**[i]*正相关。这很容易联想到信息熵，其中*P*（*x**[i]*）和 log*P*（*x**[i]*）正相关。不难证明，当*P*（*x**[i]*）最平均时，熵值最小。因此，反向传播导致∑*P**[i]**f**[i]*减少时，将导致*f**[i]*更加均衡，也就是平衡负载。
 
@@ -6238,7 +6238,7 @@ MoE 架构通过亲和度*s**[i][,][t]*来表示第*i*个“专家”对第*t*�
 
 注意，*g**[i][,][t]*=*s**[i][,][t]*+*b**[i][,][t]*仅用于判断使用哪些“专家”，但不作为“专家”的投票权重。以表 7-1 为例进行说明，按照*g**[i][,][t]*的大小选择前*k*个“专家”，输出结果用*s**[i][,][t]*作为投票权重。**[表][7][-][1]** **[增][加][负][载][均][衡][系][数][后][的][计][算]**
 
-![](img/DeepSeek硬核技术解读_image_189.jpg)
+![](img/DeepSeek-硬核技术解读_image_189.jpg)
 
 1）选择前*k*个“专家”，公式如下：
 
@@ -6248,11 +6248,11 @@ Top *k*（*g*·,*t*,*k*）={*i*|*g**[i][,][t]*是前*k*大的值}
 
 2）归一化亲和度权重，对选中的前*k*个“专家”的亲和度*s**[i][,][t]*进行归一化：
 
-![](img/DeepSeek硬核技术解读_image_190.jpg)
+![](img/DeepSeek-硬核技术解读_image_190.jpg)
 
 3）加权求和。使用归一化后的权重*W**[i][,][t]*对专家输出***y****[i]*进行加权求和，得到最终输出：
 
-![](img/DeepSeek硬核技术解读_image_191.jpg)
+![](img/DeepSeek-硬核技术解读_image_191.jpg)
 
 **7.2.3** **节点与卡间的通信负载均衡**
 
@@ -6274,39 +6274,39 @@ Top *k*（*g*·,*t*,*k*）={*i*|*g**[i][,][t]*是前*k*大的值}
 
 为了提高设备的利用效率，设备级负载均衡技术尤为重要，其损失计算如下：
 
-![](img/DeepSeek硬核技术解读_image_192.jpg)
+![](img/DeepSeek-硬核技术解读_image_192.jpg)
 
 解释如下。
 
-![](img/DeepSeek硬核技术解读_image_193.jpg)
+![](img/DeepSeek-硬核技术解读_image_193.jpg)
 
 1）将所有的“专家”分为*D*组,每组占用一个设备（显卡）。
 
-2） ![](img/DeepSeek硬核技术解读_image_194.jpg)代表平均每个文本序列与第*i*个“专家”的亲和度。
+2） ![](img/DeepSeek-硬核技术解读_image_194.jpg)代表平均每个文本序列与第*i*个“专家”的亲和度。
 
-3） ![](img/DeepSeek硬核技术解读_image_195.jpg)代表第*j*个组内所有“专家”的亲和度总和。
+3） ![](img/DeepSeek-硬核技术解读_image_195.jpg)代表第*j*个组内所有“专家”的亲和度总和。
 
-4） ![](img/DeepSeek硬核技术解读_image_196.jpg)代表第*j*个组内每个“专家”被选上（被选中前*k*）的平均频率。
+4） ![](img/DeepSeek-硬核技术解读_image_196.jpg)代表第*j*个组内每个“专家”被选上（被选中前*k*）的平均频率。
 
-![](img/DeepSeek硬核技术解读_image_197.jpg)
+![](img/DeepSeek-硬核技术解读_image_197.jpg)
 
-5）表示最终用于平衡设备负载的损失函数，因为 ![](img/DeepSeek硬核技术解读_image_198.jpg)和 ![](img/DeepSeek硬核技术解读_image_199.jpg)都是设备级的，因此损失值越小，设备负载越平衡。
+5）表示最终用于平衡设备负载的损失函数，因为 ![](img/DeepSeek-硬核技术解读_image_198.jpg)和 ![](img/DeepSeek-硬核技术解读_image_199.jpg)都是设备级的，因此损失值越小，设备负载越平衡。
 
 **7.3.2** **“专家”级负载均衡**
 
 本节“专家”级负载均衡与 7.3.1 节中的负载均衡基本一致，这里不再赘述。“专家”级负载均衡损失计算如下：
 
-![](img/DeepSeek硬核技术解读_image_200.jpg)
+![](img/DeepSeek-硬核技术解读_image_200.jpg)
 
 **7.3.3** **通信负载均衡**
 
 为了保证 Token 能够比较平均地分发到不同的节点上，DeepSeek V2 在最终的损失函数上加上了节点间的通信平衡 Loss。通信负载均衡损失计算如下：
 
-![](img/DeepSeek硬核技术解读_image_201.jpg)
+![](img/DeepSeek-硬核技术解读_image_201.jpg)
 
 解释如下。
 
-![](img/DeepSeek硬核技术解读_image_202.jpg)
+![](img/DeepSeek-硬核技术解读_image_202.jpg)
 
 1）将所有的“专家”分为*D*组,每组占用一个设备（显卡）。
 
@@ -6314,13 +6314,13 @@ Top *k*（*g*·,*t*,*k*）={*i*|*g**[i][,][t]*是前*k*大的值}
 
 3）*P**[j]*代表平均每个文本序列与第*j*个“专家”的亲和度。
 
-4） ![](img/DeepSeek硬核技术解读_image_203.jpg)代表第*i*个组内所有专家的亲和度总和。
+4） ![](img/DeepSeek-硬核技术解读_image_203.jpg)代表第*i*个组内所有专家的亲和度总和。
 
-5） ![](img/DeepSeek硬核技术解读_image_204.jpg)代表第*j*个设备被选上（被选中前*k*）的平均频率。
+5） ![](img/DeepSeek-硬核技术解读_image_204.jpg)代表第*j*个设备被选上（被选中前*k*）的平均频率。
 
-![](img/DeepSeek硬核技术解读_image_205.jpg)
+![](img/DeepSeek-硬核技术解读_image_205.jpg)
 
-6）表示最终用于平衡设备负载的损失函数，因为 ![](img/DeepSeek硬核技术解读_image_206.jpg)和 ![](img/DeepSeek硬核技术解读_image_207.jpg)都是设备级的，因此损失值越小，设备负载越平衡。
+6）表示最终用于平衡设备负载的损失函数，因为 ![](img/DeepSeek-硬核技术解读_image_206.jpg)和 ![](img/DeepSeek-硬核技术解读_image_207.jpg)都是设备级的，因此损失值越小，设备负载越平衡。
 
 ## **第八章 DeepSeek V3 在基础设施层的优化**
 
@@ -6366,7 +6366,7 @@ Top *k*（*g*·,*t*,*k*）={*i*|*g**[i][,][t]*是前*k*大的值}
 
 DeepSeek V3 的混合精度训练框架与传统混合精度训练框架有所不同，传统的混合精度训练框架如图 8-1 所示。**[图][8][-][1][传][统][的][混][合][精][度][训][练][框][架]**
 
-![](img/DeepSeek硬核技术解读_image_208.jpg)
+![](img/DeepSeek-硬核技术解读_image_208.jpg)
 
 首先，模型的前向传播都采用 FP16 精度，这是因为前向传播过程并不会产生高精度的小数。
 
@@ -6386,11 +6386,11 @@ DeepSeek V3 的混合精度训练框架与传统混合精度训练框架有所�
 
 如果使用如 Adam 之类的二阶优化器，则
 
-![](img/DeepSeek硬核技术解读_image_209.jpg)![](img/DeepSeek硬核技术解读_image_210.jpg)
+![](img/DeepSeek-硬核技术解读_image_209.jpg)![](img/DeepSeek-硬核技术解读_image_210.jpg)
 
 其中，*η*表示学习率。
 
-    ![](img/DeepSeek硬核技术解读_image_211.jpg)表示数值稳定性常数。
+    ![](img/DeepSeek-硬核技术解读_image_211.jpg)表示数值稳定性常数。
 
 Adam 的动量***m****[t]*和二阶矩估计***v****[t]*是指数移动平均值，随着训练步数增加，这些累积值可能变得极小或极大。使用低精度计算时，可能出现数值溢出问题，因此采用高精度计算，保持数值稳定。
 
@@ -6410,7 +6410,7 @@ DeepSeek V3 是目前已知公开第一个使用 FP8 混合精度进行训练�
 
 GEMM（General Matrix to Matrix Multiplication，通用矩阵乘法）是线性代数中的基本运算，用于实现两个矩阵相乘。在深度学习和科学计算中，GEMM 是核心操作之一，其本质是通过矩阵乘法将输入数据与权重结合，生成输出矩阵。
 
-![](img/DeepSeek硬核技术解读_image_212.jpg)
+![](img/DeepSeek-硬核技术解读_image_212.jpg)
 
 GEMM 的数学表达式为***C***=***A***×***B***，其中***A***是*m*×*n*矩阵，***B***是*n*×*p*矩阵，结果***C***是*m*×*p*矩阵。每个元素*c**[i][j]*通过行-列点积计算，则
 
@@ -6442,7 +6442,7 @@ FP8 相比 FP16 在理论上的优势主要体现在以下几方面。
 
 DeepSeek V3 的混合精度训练框架如图 8-2 所示。**[图][8][-][2][D][e][e][p][S][e][e][k][V][3][的][混][合][精][度][训][练][框][架]**[（来自 DeepSeek V3 技术报告）]
 
-![](img/DeepSeek硬核技术解读_image_213.jpg)
+![](img/DeepSeek-硬核技术解读_image_213.jpg)
 
 可以看到，Fprop、Dgrad 和 Wgrad 的加法操作都是使用 FP32，这也许意味着累加精度都是 FP32（具体可见后文的 FP8 精度溢出问题），在这个加法操作中混合精度是 FP8 和 FP32，因此要进行 FP8 到 FP32 的反量化操作。另外需要解释的是图 8-2 中有两个 Weight，Master Weight 是保存在优化器中将被梯度更新的权重（精度为 FP32），Weight 是用于计算前向、后向传播的权重。另外，Optimizer State 是优化器中的一阶动量和二阶动量，都使用 FP16 进行保存。
 
@@ -6458,11 +6458,11 @@ dInput*Weight=dOutput=>InputGradient*Weight=OutputGradient
 
 在上一节中已经知道，大模型训练过程中主要的时间消耗在两个阶段：计算与通信。MoE 的训练需要将 Activation 和 Weight 加载到机器中，然后进行计算。在分布式训练中，对 Activation 和 Weight 的加载需要大量的时间，而计算量和通信量基本都是固定的。如何将计算与通信同步进行变成了影响效率的重要问题。通信与计算重叠的原理如图 8-3 所示。**[图][8][-][3][通][信][与][计][算][重][叠][的][原][理]**
 
-![](img/DeepSeek硬核技术解读_image_214.jpg)
+![](img/DeepSeek-硬核技术解读_image_214.jpg)
 
 在模型训练中，计算量主要包括 3 个部分：前向传播计算、反向传播计算、权重更新，分别对应图 8-4 中的 F、B、W。**[图][8][-][4][前][向][传][播][、][反][向][传][播][、][权][重][更][新]**
 
-![](img/DeepSeek硬核技术解读_image_215.jpg)
+![](img/DeepSeek-硬核技术解读_image_215.jpg)
 
 在 MoE 中，由于每个 Token 要分发到 Top *k*个“专家”上进行计算，这个分发过程叫作 Dispatch。在这些“专家”上计算出来的结果需要进行汇总获得最终结果，汇聚过程叫作 Combine。这两个都是 All to All 过程，代表可能存在任意两个设备进行通信，如图 8-5 所示。
 
@@ -6486,7 +6486,7 @@ Dualpipe 中 MoE 层的反向传播流程如图 8-7 所示。
 
 1）在更新权重的同时进行通信分发。**[图][8][-][5][M][o][E][中][的][D][i][s][p][a][t][c][h][和][C][o][m][b][i][n][e][流][程][图][8][-][6][D][u][a][l][p][i][p][e][前][向][传][播][顺][序]**[（来自 DeepSeek V3 技术报告）]**[图][8][-][7][D][u][a][l][p][i][p][e][中][M][o][E][层][的][反][向][传][播][顺][序]**[（来自 DeepSeek V3 技术报告）]
 
-![](img/DeepSeek硬核技术解读_image_216.jpg)![](img/DeepSeek硬核技术解读_image_217.jpg)![](img/DeepSeek硬核技术解读_image_218.jpg)
+![](img/DeepSeek-硬核技术解读_image_216.jpg)![](img/DeepSeek-硬核技术解读_image_217.jpg)![](img/DeepSeek-硬核技术解读_image_218.jpg)
 
 2）通信分发后在 Attention 层进行梯度计算。
 
@@ -6496,31 +6496,31 @@ Dualpipe 中 MoE 层的反向传播流程如图 8-7 所示。
 
 DeepSeek V3 模型按前向传播的顺序分为 Layer0，Layer1 到 Layer7 共 8 层，如图 8-8 所示。**[图][8][-][8][D][e][e][p][S][e][e][k][V][3][模][型][切][分]**
 
-![](img/DeepSeek硬核技术解读_image_219.jpg)
+![](img/DeepSeek-硬核技术解读_image_219.jpg)
 
 从图 8-8 可知，若共存在 8 个 Device，将两个模型实例对称地切分到不同的 Device 中，具体切分方法如表 8-1 所示。**[表][8][-][1][D][u][a][l][p][i][p][e][模][型][层][切][分][（][续][）]**
 
-![](img/DeepSeek硬核技术解读_image_220.jpg)![](img/DeepSeek硬核技术解读_image_221.jpg)
+![](img/DeepSeek-硬核技术解读_image_220.jpg)![](img/DeepSeek-硬核技术解读_image_221.jpg)
 
 **2.Dualpipe 宏观讲解**
 
 如图 8-9 所示，横坐标是时间，纵坐标代表不同的 Device，在纵向上 Dualpipe 是对称的。图 8-9 中的数字表示数据的微批次，黄色小块表示前向传播（1 个时间单位），绿色长块表示包括梯度计算和参数更新的反向传播（2 个时间单位），绿色小块表示梯度计算（1 个时间单位），蓝色小块表示单独进行反向传播的参数更新（1 个时间单位），黄色加上绿色的长块表示包括前向传播和反向传播（共 3 个时间单位）。**[图][8][-][9][D][u][a][l][p][i][p][e][宏][观][示][意][图]**
 
-![](img/DeepSeek硬核技术解读_image_222.jpg)
+![](img/DeepSeek-硬核技术解读_image_222.jpg)
 
 对图 8-9 中框出的蓝色框进行了放大获得前向和反向传播重叠实例，如图 8-10 所示。**[图][8][-][1][0][前][向][和][反][向][传][播][重][叠][实][例]**
 
-![](img/DeepSeek硬核技术解读_image_223.jpg)
+![](img/DeepSeek-硬核技术解读_image_223.jpg)
 
 该图表示数据批次 4 在 Device4 上的 Layer4 上进行前向传播（黄色块）的同时，数据批次 10 在 Device4 上的 Layer3 上进行反向传播（长绿色块），这样一来这个实例就可以完全对应上之前的通信与计算重叠的原理图。正因为如此，设计的前向传播和反向传播可以在同一个 Device 上交替进行计算和通信，从而使通信时间被计算时间掩盖。
 
 流水线并行有一个非常重要的缺点就是存在气泡，也就是流水线设计等原因导致某些时间存在 Device，不进行计算和通信的情况，从而降低了资源利用率。图 8-11 和图 8-12 展示了 1F1B、ZF1B 流水线并行，其中灰色和白色空格表示气泡。**[图][8][-][1][1][1][F][1][B][流][水][线][并][行][图][8][-][1][2][Z][F][1][B][流][水][线][并][行]**
 
-![](img/DeepSeek硬核技术解读_image_224.jpg)![](img/DeepSeek硬核技术解读_image_225.jpg)
+![](img/DeepSeek-硬核技术解读_image_224.jpg)![](img/DeepSeek-硬核技术解读_image_225.jpg)
 
 衡量流水线并行的一个核心指标是气泡占比，代表气泡在整个流水线并行中的时间占比。不同流水线并行效率对比如表 8-2 所示。**[表][8][-][2][不][同][流][水][线][并][行][效][率][对][比]**
 
-![](img/DeepSeek硬核技术解读_image_226.jpg)
+![](img/DeepSeek-硬核技术解读_image_226.jpg)
 
 可以明显发现，在气泡占比中，Dualpipe<ZF1B<1F1B，这也表明 Dualpipe 提升了训练效率。
 
@@ -6588,7 +6588,7 @@ DeepSeek V3 模型按前向传播的顺序分为 Layer0，Layer1 到 Layer7 共
 
 通过上述示例的第四步舍入处理，我们可知当加法结果超过 Tensor Core 的最大位数时，将造成舍入误差，从而变成数值溢出。
 
-![](img/DeepSeek硬核技术解读_image_227.jpg) ![](img/DeepSeek硬核技术解读_image_228.jpg)
+![](img/DeepSeek-硬核技术解读_image_227.jpg) ![](img/DeepSeek-硬核技术解读_image_228.jpg)
 
 由 2.4 节矩阵计算基础可知，会得到一个矩阵，矩阵***C***中每个值都要进行 10000 次乘法与加法，这种情况很容易造成数值溢出，从而导致截断误差。因为目前 Tensor Core 仅有 14 位精度，训练过程中容易造成精度损失，从而导致模型训练效果下降。通过 DeepSeek 的实验证明，以*K*=4096 的两个随机矩阵的 GEMM 运算为例，Tensor Core 中的有限累积精度导致最大相对误差接近 2%。为此，DeepSeek 采用了转移到 CUDA Core 的方法来提高精度。CUDA Core 中可以进行 FP32 格式的高精度计算。
 
@@ -6598,7 +6598,7 @@ DeepSeek V3 模型按前向传播的顺序分为 Layer0，Layer1 到 Layer7 共
 
 DeepSeek V3 的分块量化计算的同时使用 Tensor Core 和 CUDA Core，避免了在 Tensor Core 上 FP8 计算的数值溢出问题。DeepSeek V3 量化和增加累积精度运算具体如图 8-13 所示。**[图][8][-][1][3][D][e][e][p][S][e][e][k][V][3][量][化][和][增][加][累][积][精][度][运][算]**[（来自 DeepSeek V3 技术报告）]
 
-![](img/DeepSeek硬核技术解读_image_229.jpg)
+![](img/DeepSeek-硬核技术解读_image_229.jpg)
 
 如图 8-13a 所示，DeepSeek V3 的 Activation 采用了在线 pertoken-perchanel 量化的方式。pertoken-perchanel 量化是对每个[1,*N**[c]*]的向量进行量化。
 
@@ -6622,13 +6622,13 @@ DeepSeek V3 的技术报告中花了大量的篇幅介绍如何解决量化与 
 
 由图 8-14 可知，MMA 计算一般是 Activation 和 Weight 的矩阵乘法，最终输出 Output 矩阵。***A***[1]为 Activation 的第一行，***W***[1]和***W***[2]分别为 Activation 的第一列和第二列，Output 中 1 的位置应该为***A***[1]与***W***[1]相乘，即 Activation 的行与 Output 的列相乘。**[图][8][-][1][4][矩][阵][计][算]**
 
-![](img/DeepSeek硬核技术解读_image_230.jpg)
+![](img/DeepSeek-硬核技术解读_image_230.jpg)
 
 （2）矩阵分块计算
 
 矩阵分块计算如图 8-15 所示。**[图][8][-][1][5][矩][阵][分][块][计][算]**
 
-![](img/DeepSeek硬核技术解读_image_231.jpg)
+![](img/DeepSeek-硬核技术解读_image_231.jpg)
 
 由图 8-15 可知，矩阵也可以进行分块计算，***A***[1]分解为[***a***[1],***a***[2],***a***[3],***a***[4]]四个形式相同的行向量，将[***W***[1],***W***[2]]合并后分解为***w***[1]、***w***[2]、***w***[3]、***w***[4]形式相同的矩阵，最终 Output 结果不变。注意：矩阵分块时需要保证***a***[1]的列数等于***w***[1]的行数。图 8-15 中标黄的矩阵乘法操作代表在 Tensor Core 中进行。矩阵分块计算公式如下：
 
@@ -6636,13 +6636,13 @@ DeepSeek V3 的技术报告中花了大量的篇幅介绍如何解决量化与 
 
 请注意以上的分块存在：
 
-![](img/DeepSeek硬核技术解读_image_232.jpg)
+![](img/DeepSeek-硬核技术解读_image_232.jpg)
 
 （3）矩阵分块后的量化计算
 
 为了解决 FP8 量化、FP32 反量化，以及 Tensor Core 的 FP8 数值溢出问题，在矩阵分块计算的基础上进行了量化，具体操作如图 8-16 所示。**[图][8][-][1][6][矩][阵][分][块][后][的][量][化][计][算]**
 
-![](img/DeepSeek硬核技术解读_image_233.jpg)
+![](img/DeepSeek-硬核技术解读_image_233.jpg)
 
 注意：图 8-16 中标黄的矩阵乘法操作代表在 Tensor Core 中进行，标绿代表操作在 CUDA Core 中进行。
 
@@ -6666,7 +6666,7 @@ DeepSeek V3 的技术报告中花了大量的篇幅介绍如何解决量化与 
 
 5）结合以上式子可得：
 
-![](img/DeepSeek硬核技术解读_image_234.jpg)
+![](img/DeepSeek-硬核技术解读_image_234.jpg)
 
 由于*q**[i]*和*Q**[i]*都是数，并非矩阵，可以使用矩阵数乘的交换律：
 
@@ -7258,7 +7258,7 @@ RLHF 数据的构建步骤如下。
 
 DeepSeek Math 数据统计如表 9-1 所示**[表][9][-][1][D][e][e][p][S][e][e][k][M][a][t][h][数][据][统][计]**
 
-![](img/DeepSeek硬核技术解读_image_235.jpg)
+![](img/DeepSeek-硬核技术解读_image_235.jpg)
 
 （3）覆盖复杂性
 
@@ -7306,7 +7306,7 @@ Plain Text
 
 一般大语言模型从预训练到 SFT 都是采用 NTP 方法。NTP 方法是训练过程中用前*N*个 Token 去预测接下来的第*N*+1 个 Token。Meta 发表的“Better & Faster Large Language Models via Multi-Token Prediction”论文中提出了一种多令牌预测（Mult-Token Predict，MTP）方法。该方法具体是在共享的主干网络后并行多个 Lm_head 进行文本预测，其中 Lm_head1 预测第*N*+1 个 Token、Lm_head2 预测第*N*+2 个 Token，依此类推，共有 4 个 Lm_head 用于预测文本，并且每个 Lm_head 都获得一个 Loss，最终模型训练的 Loss 为这四个 Lm_head 的 Loss 加权之和，如图 10-1 所示。**[图][1][0][-][1][M][e][t][a][的][M][T][P][方][法]**
 
-![](img/DeepSeek硬核技术解读_image_236.jpg)
+![](img/DeepSeek-硬核技术解读_image_236.jpg)
 
 **2.传统 NTP 方法的优势**
 
@@ -7342,7 +7342,7 @@ Skip-gram 的实现原理如下。
 
 ●目标函数通常为负对数似然函数，即
 
-![](img/DeepSeek硬核技术解读_image_237.jpg)
+![](img/DeepSeek-硬核技术解读_image_237.jpg)
 
 其中,*P*（*w**[c]*|*w**[t]*）是给定目标词*w**[t]*时，上下文词*w**[c]*的概率。
 
@@ -7358,7 +7358,7 @@ DeepSeek V3 的 MTP 结构如图 10-2 所示。
 
 ●预测第*N*+1 个 Token 的主网络的输出将传到预测第*N*+2 个 Token 的 MTP 模块 1 中，预测第*N*+2 个 Token 的主网络输出将传到预测第*N*+3 个 Token 的 MTP 模块 2 中，依此类推。**[图][1][0][-][2][D][e][e][p][S][e][e][k][V][3][的][M][T][P][结][构]**
 
-![](img/DeepSeek硬核技术解读_image_238.jpg)
+![](img/DeepSeek-硬核技术解读_image_238.jpg)
 
 主模型实现原理如下。
 
@@ -7694,7 +7694,7 @@ Plain Text
 
 每个候选 Token 的接受概率计算：
 
-![](img/DeepSeek硬核技术解读_image_239.jpg)
+![](img/DeepSeek-硬核技术解读_image_239.jpg)
 
 若随机采样值小于接受概率，则接受该 Token；否则，拒绝并终止后续验证。
 
@@ -7724,9 +7724,9 @@ Plain Text
 
 ●键值压缩维度*d**[c]*为 512。
 
-●查询压缩维度 ![](img/DeepSeek硬核技术解读_image_240.jpg)为 1536。
+●查询压缩维度 ![](img/DeepSeek-硬核技术解读_image_240.jpg)为 1536。
 
-●解耦查询和键的每头维度 ![](img/DeepSeek硬核技术解读_image_241.jpg)为 64。
+●解耦查询和键的每头维度 ![](img/DeepSeek-硬核技术解读_image_241.jpg)为 64。
 
 MoE 层参数设计如下。
 
@@ -7750,7 +7750,7 @@ MoE 层参数设计如下。
 
 DeepSeek V3 获得如此出众的效果，其高质量的 SFT 数据功不可没。目前，各模型厂商的 SFT 数据的构建流程不尽相同。用于 DeepSeek V3 SFT 数据生成的数据模型构建流程如图 10-3 所示。**[图][1][0][-][3][用][于][D][e][e][p][S][e][e][k][V][3][S][F][T][数][据][生][成][的][数][据][模][型][构][建][流][程]**
 
-![](img/DeepSeek硬核技术解读_image_242.jpg)
+![](img/DeepSeek-硬核技术解读_image_242.jpg)
 
 该数据模型构建的核心步骤如下。
 
@@ -7774,7 +7774,7 @@ DeepSeek V3 获得如此出众的效果，其高质量的 SFT 数据功不可�
 
 **10.1.5 强化学习**
 
-![](img/DeepSeek硬核技术解读_image_243.jpg)
+![](img/DeepSeek-硬核技术解读_image_243.jpg)
 
 在强化学习中，语言模型输出一个语言序列，每个 Token（*w**[t]*）代表一个动作（*a**[t]*），每个动作（*a**[t]*）后的状态转换（*s**[t]*→*s**[t]*+1）都应该有一个对应的奖励（*r**[t]*）。强化学习的最终目标从长远来看是获得尽可能高的奖励期望值（），如果每个动作（*a**[t]*）都能得到一个奖励值（*r**[t]*），奖励密度会较高，从而获得更具泛化性和综合性能的最终策略模型（*π**[θ]*）。从这个方面考虑，确实应该建立过程奖励模型（Process Reward Model，PRM），但是为语言模型建立逐 Token 的 PRM 存在以下问题。
 
@@ -7802,7 +7802,7 @@ DeepSeek V3 获得如此出众的效果，其高质量的 SFT 数据功不可�
 
 对于无法使用硬编码奖励的任务，采用论文“Constitutional AI: Harmlessness from AI Feedback”的方法获得奖励，如图 10-4 所示。该方法的核心是如何根据原则训练有较好泛化性的 PM（Prefer Model）。**[图][1][0][-][4][从][“][C][o][n][s][t][i][t][u][t][i][o][n][a][l][A][I][:][H][a][r][m][l][e][s][s][n][e][s][s][f][r][o][m][A][I][F][e][e][d][b][a][c][k][”][论][文][中][获][得][奖][励][的][方][法]**
 
-![](img/DeepSeek硬核技术解读_image_244.jpg)
+![](img/DeepSeek-硬核技术解读_image_244.jpg)
 
 SFT 阶段的具体实现如下。
 
@@ -7848,7 +7848,7 @@ DeepSeek 开源的推理模型包括 DeepSeek R1 和 DeepSeek R1-Zero。它们
 
 使用基于结果奖励的强化学习是 DeepSeek R1 的一大特色，也是 DeepSeek R1 获得如此高性能、高关注的原因。图 10-5 展示了在 AIME 测试集上基于结果奖励的强化学习迭代步数与准确率之间的关系。可以发现，随着强化学习迭代步数的增加，准确率上升明显。并且从图 10-6 中可以看到，随着迭代步数的增加，回复长度逐渐增加。**[图][1][0][-][5][强][化][学][习][迭][代][步][数][与][准][确][率][的][关][系]**[（来自 DeepSeek R1 技术报告）]**[图][1][0][-][6][迭][代][步][数][与][回][复][长][度][的][关][系]**[（来自 DeepSeek R1 技术报告）]
 
-![](img/DeepSeek硬核技术解读_image_245.jpg)![](img/DeepSeek硬核技术解读_image_246.jpg)
+![](img/DeepSeek-硬核技术解读_image_245.jpg)![](img/DeepSeek-硬核技术解读_image_246.jpg)
 
 具体来说，DeepSeek R1 的训练流程如图 10-7 所示。
 
@@ -7866,7 +7866,7 @@ DeepSeek 开源的推理模型包括 DeepSeek R1 和 DeepSeek R1-Zero。它们
 
 7）迭代第 2～6 步。**[图][1][0][-][7][D][e][e][p][S][e][e][k][R][1][的][训][练][流][程]**
 
-![](img/DeepSeek硬核技术解读_image_247.jpg)
+![](img/DeepSeek-硬核技术解读_image_247.jpg)
 
 **10.2.3 DeepSeek R1 的奖励和奖励模型**
 
@@ -8428,7 +8428,7 @@ def get_cosine_scaled_reward（
 
 由于 GRPO 和 PPO 算法中存在以下正则项：
 
-![](img/DeepSeek硬核技术解读_image_248.jpg)![](img/DeepSeek硬核技术解读_image_249.jpg) ![](img/DeepSeek硬核技术解读_image_250.jpg)
+![](img/DeepSeek-硬核技术解读_image_248.jpg)![](img/DeepSeek-硬核技术解读_image_249.jpg) ![](img/DeepSeek-硬核技术解读_image_250.jpg)
 
 其中，刚开始时，代表更新前的模型在当前输入*s**[t]*下获得输出*a**[t]*的概率。对于没有利用 Long-cot 数据集进行 SFT 的模型来说，这一项的值将比预训练模型的值更大，导致正则项过大，从而使模型收敛更慢。
 
@@ -8530,7 +8530,7 @@ DeepSeek V3/R1 的“专家”数量众多，并且每层 256 个“专家”�
 
 如图 11-1 所示，对于 Prefill 阶段，两个 Batch 的计算和通信交错进行。一个 Batch 在进行计算的时候可以掩盖另一个 Batch 的通信开销。**[图][1][1][-][1][P][r][e][f][i][l][l][阶][段][的][双][B][a][t][c][h][计][算][和][通][信][重][叠]**[（来自 DeepSeek 的知乎官方报告）]
 
-![](img/DeepSeek硬核技术解读_image_251.jpg)
+![](img/DeepSeek-硬核技术解读_image_251.jpg)
 
 图 11-1 中浅色和深色代表两条不同的流水线，即 Dualpipe 的两个分支：深色分支 A 和浅色分支 B。图 11-1 中深色的 MLP 计算指的是“路由专家”的计算操作，Shared 代表“共享专家”的计算操作。图 11-1 中存在两条流水线并行，目的是掩盖通信时间。单条流水线的执行顺序是：Attention 层计算→MoE 层的分发（Dispatch）通信→MLP 层的“路由专家”计算→MoE 层的汇聚（Combine）通信→Shared 层的“共享专家”计算。
 
@@ -8548,7 +8548,7 @@ DeepSeek V3/R1 的“专家”数量众多，并且每层 256 个“专家”�
 
 图 11-2 中浅色和深色代表两条不同的流水线，即 Dualpipe 的两个分支：深色分支 A 和浅色分支 B。图 11-2 中的 ATTN-0 计算指的是***Q**K***^T 操作之前的矩阵乘法，ATTN-1 代表包括***Q**K***^T 操作在内的后续的 Attention 层计算操作。**[图][1][1][-][2][D][e][c][o][d][e][阶][段][的][双][B][a][t][c][h][计][算][和][通][信][重][叠]**[（来自 DeepSeek 的知乎官方报告）]
 
-![](img/DeepSeek硬核技术解读_image_252.jpg)
+![](img/DeepSeek-硬核技术解读_image_252.jpg)
 
 与 Prefill 阶段相同，图 11-2 中存在两条流水线并行，目的是掩盖通信时间。单条流水线的执行顺序是：ATTN-0 计算→ATTN-1 计算→MoE 层的分发（Dispatch）通信→MLP 层的“路由专家”计算→MoE 层的汇聚（Combine）通信→Shared 层的“共享专家”计算。
 

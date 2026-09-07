@@ -58,7 +58,7 @@ Vibe 编程的浪潮刚刚开始，无论你选择参与、观望还是批判、
 
 当您发现错误时，请登录异步社区，按书名搜索，进入本书页面，点击“发表勘误”，输入勘误信息，点击“提交勘误”按钮即可（见下图）。本书的作者和编辑会对您提交的勘误进行审核，在确认并接受后，您将获赠异步社区的 100 积分。积分可用于在异步社区兑换优惠券、样书或奖品。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_000.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_000.jpg)
 
 **与我们联系**
 
@@ -200,7 +200,7 @@ Vibe 编程的出现正在打破这一“常态”，以“意图驱动、人机
 
 早期的命令式编程对底层细节依赖极强。以穿孔卡片为例（见图 1-1），每一条程序指令都要以物理孔洞的形式凿刻在卡片上。这不仅使人机交互效率低，还要求开发者必须精确掌握寄存器、存储地址和跳转逻辑等复杂的知识。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_002.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_002.jpg)
 
 图 1-1 穿孔卡片（图片源自维基百科）
 
@@ -276,7 +276,7 @@ Vibe 编程的出现正在打破这一“常态”，以“意图驱动、人机
 
 表 1-1 传统开发流程和 Vibe 编程开发流程的差异
 
-![](img/Vibe编程：探索AI时代编程新范式_image_004.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_004.jpg)
 
 ## **1.3** **Vibe 编程的基石**
 
@@ -344,7 +344,7 @@ Vibe 编程的出现不是偶然的技术爆发，而是长期演化和积淀下
 
 1946 年 2 月 14 日，ENIAC（电子数字积分计算机，见图 2-1）在宾夕法尼亚大学启用，这台占地 167 平方米的庞然大物由 17468 个电子管组成，每秒能执行 5000 次加法运算。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_005.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_005.jpg)
 
 图 2-1 ENIAC（图片源自维基百科）
 
@@ -352,7 +352,7 @@ Vibe 编程的出现不是偶然的技术爆发，而是长期演化和积淀下
 
 UNIVAC I（见图 2-2）被誉为“世界上第一台商业化计算机”，相较于 ENIAC，在程序存储与输入方式上取得了突破：将程序与硬件分离、使用穿孔纸带一次性加载指令，使同一套系统能够执行不同运算，这标志着“通用计算”走向现实。但是，UNIVAC I 对操作者提出了近乎严苛的要求，哪怕只是计算 1 到 100 的累加，也需要编写超过 200 条二进制指令，相当于在 16 列穿孔纸带上打出 4000 多个孔。每个程序都像是一次对硬件架构的定制“补丁”，无法复制，难以修改。开发流程不仅烦琐，还极度依赖操作者的细致与耐心，效率非常低下。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_006.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_006.jpg)
 
 图 2-2 UNIVAC I（图片源自维基百科）
 
@@ -364,13 +364,13 @@ UNIVAC I（见图 2-2）被誉为“世界上第一台商业化计算机”，�
 
 1963 年，IBM 为其 7094 晶体管计算机（见图 2-3）推出宏汇编器，它引入了宏定义机制，支持条件汇编与递归展开功能。开发者可定义带参数的宏，并通过当且仅当为假（if and only if false，IFF）/当且仅当为真（if and only if true，IFT）时执行条件伪指令和迭代伪指令等，灵活地复用代码模板，从而显著提升了程序的可维护性与复用性。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_007.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_007.jpg)
 
 图 2-3 IBM 7094 晶体管计算机（图片作者：ArnoldReinhold）
 
 然而，早期的宏汇编器普遍存在全局作用域污染的问题，即不同模块中的同名宏可能互相覆盖，引发难以追踪的程序错误。直到 1970 年，DEC 公司在其 PDP-11 迷你计算机（见图 2-4）上推出 MACRO-11 汇编器，首次引入 LOCAL 关键字，实现了宏定义的作用域隔离。这一机制有效解决了命名冲突问题，并被后续的 NASM 编译器和 GNU 汇编器等现代工具广泛继承，汇编语言逐步趋于工程化。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_008.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_008.jpg)
 
 图 2-4 PDP-11 迷你计算机（图片作者：Stefan_Kögl）
 
@@ -416,7 +416,7 @@ $
 
 在计算机发展的黎明时期，基于 x86 架构的汇编语言编程堪称开发者的“极限挑战”。以 1981 年发布的 MS-DOS 1.0 引导程序（见图 2-5）为例，哪怕是一段简单的系统启动代码，在当时也要求开发者如同维修精密仪器一般精确控制每一个段寄存器和偏移地址，每一个细节出错都可能导致系统运行失败。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_009.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_009.jpg)
 
 图 2-5 MS-DOS 1.0 引导程序界面（图片源自维基百科）
 
@@ -946,7 +946,7 @@ Jupyter Notebook 最初由 IPython 项目演化而来，专为 Python 交互式
 
 ·硬件面板直接输入。以 IBM 650 为代表的计算机通过面板上的二进制开关手动输入每条指令，每字节需拨动开关 8 次并通过指示灯确认。这种方式不仅耗时耗力，也极难维护，本质上代码成了硬件电路的映射。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_010.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_010.jpg)
 
 图 2-6 专用凿孔机（图片源自维基百科）
 
@@ -966,7 +966,7 @@ Jupyter Notebook 最初由 IPython 项目演化而来，专为 Python 交互式
 
 因为受限于 DOS 的 64 KB 内存段机制，即每个程序最多只能直接访问 64 KB 的数据，所以在编辑较大文档时常面临内存溢出、响应迟缓或功能受限的问题，尤其在进行分页预览、长文档跳转等操作时尤为明显。用户必须频繁手动保存并拆分文档，增加了出错风险。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_011.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_011.jpg)
 
 图 2-7 WordStar 3.0 界面截图（图片作者：Plenz）
 
@@ -986,7 +986,7 @@ Jupyter Notebook 最初由 IPython 项目演化而来，专为 Python 交互式
 
 1998 年发布的 Visual Studio 6.0 引入 IntelliSense，实现了语法提示与自动补全功能。例如，输入“std::”可联想出所有 C++ STL 容器。同时，开发者可通过右键点击变量，查看其内存地址及对应的内存映射，或快速跳转至其定义与引用位置。这些交互式功能显著增强了跨文件导航与代码理解能力，使大型项目的开发与维护更加高效。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_012.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_012.jpg)
 
 图 2-8 Turbo Pascal 2.0
 
@@ -994,7 +994,7 @@ Jupyter Notebook 最初由 IPython 项目演化而来，专为 Python 交互式
 
 Eclipse（见图 2-9）于 1999 年发布，凭借其插件化架构迅速成为 Java 开发的主力工具。其开源生态吸引大量第三方扩展，支持 Java EE、数据库、构建工具等一体化开发。NetBeans 则以可视化设计器和多语言支持成为跨平台开发的典范，其模块化架构影响深远。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_013.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_013.jpg)
 
 图 2-9 Eclipse 编辑器
 
@@ -1014,7 +1014,7 @@ Eclipse（见图 2-9）于 1999 年发布，凭借其插件化架构迅速成为
 
 VS Code 作为现代编辑器的标杆，其简洁界面（见图 2-10）集成代码编辑、调试和版本控制等功能，通过主题与插件可实现高度定制化。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_014.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_014.jpg)
 
 图 2-10 VS Code 编辑器
 
@@ -1038,7 +1038,7 @@ VS Code 作为现代编辑器的标杆，其简洁界面（见图 2-10）集成
 
 图灵机由无限长的纸带、读写头和状态控制器构成，通过简单规则，理论上可模拟任何计算过程。图灵机定义了“可计算性”边界，为计算机科学发展奠定了理论基石，也成为衡量计算系统能力的关键标准。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_015.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_015.jpg)
 
 图 2-11 图灵机的艺术表示（图片源自维基百科）
 
@@ -1058,7 +1058,7 @@ VS Code 作为现代编辑器的标杆，其简洁界面（见图 2-10）集成
 
 例如，Visual Basic（见图 2-12）是经典的可视化编程语言，开发者能够通过直观的图形用户界面（graphical user interface，GUI）设计器，将按钮、文本框等控件拖曳到窗体上，再使用简单的 Basic 语言编写事件驱动代码，快速搭建 Windows 应用程序。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_016.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_016.jpg)
 
 图 2-12 Visual Basic 编辑器
 
@@ -1066,7 +1066,7 @@ Dreamweaver（见图 2-13）则是网页开发领域的代表性工具，它支�
 
 尽管当时可视化编辑平台功能有限，应用场景主要集中于中小型项目或特定领域，但可视化操作降低了开发门槛，初现低代码雏形。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_017.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_017.jpg)
 
 图 2-13 Dreamweaver 工作区
 
@@ -1376,7 +1376,7 @@ Vibe 编程凭借低代码、可视化与意图驱动的特性，为软件开发
 
 学习者只需通过图形化界面完成流程搭建，系统便会自动生成对应的代码，实现“创作即学习”的有趣体验，如图 4-1 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_018.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_018.jpg)
 
 图 4-1 “创作即学习”闭环
 
@@ -1412,7 +1412,7 @@ Blake Anderson 的创业经历堪称 AI 赋能个体开发者的典范，堪比
 
 Blake 打造了一款恋爱社交应用 Plug AI（原名为 RizzGPT，见图 4-2）。Plug AI 不仅具备对话实时分析与情感识别能力，还创新性地推出了“恋爱人格画像”功能，借助语义情感分析为用户匹配专属沟通策略，如同为用户配备一位“恋爱沟通导师”。这种深度交互模式极大提升了产品吸引力，其付费转化率高达 35%，远超行业平均水平。在商业策略上，Blake 采用“基础功能免费+高级订阅+虚拟商品”的组合模式，使得单付费用户平均收入（average revenue per paying user，ARPPU）达到 12.8 美元。借助 TikTok 上的#RizzGPTChallenge 话题营销，用户创作的“AI 恋爱教学”短视频迅速走红，总播放量突破 27 亿次，助推产品上线首年营收突破 1000 万美元，成为独立开发者借助 AI 成功创业的典范。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_019.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_019.jpg)
 
 图 4-2 Plug AI
 
@@ -1422,7 +1422,7 @@ Blake 打造了一款恋爱社交应用 Plug AI（原名为 RizzGPT，见图 4-
 
 其中，“胃之书”App（见图 4-3）融合大语言模型与美食知识图谱，为用户带来了前所未有的美食体验。只需输入“番茄”“鸡蛋”之类的食材组合，“胃之书”App 便能基于 AI 分析生成营养评估、烹饪步骤与个性化饮食建议，就像贴身营养师一样。该 App 在小红书引发“AI 食谱创作”热潮，凭借独特功能和优质体验，连续 14 天稳居 App Store 美食类榜单前三名，单月广告与会员收入高达 1.7 万美元。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_020.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_020.jpg)
 
 图 4-3 “胃之书”App
 
@@ -1430,7 +1430,7 @@ Blake 打造了一款恋爱社交应用 Plug AI（原名为 RizzGPT，见图 4-
 
 “小猫补光灯”应用（见图 4-4）的开发者陈云飞将 Vibe 编程的高效发挥到了极致，成为圈内广为传颂的案例。面对小红书博主对补光的实际需求，他在 Cursor 编辑器中输入自然语言指令“开发双区域智能补光功能，支持动态照片（live photo，俗称“Live 图”）实时处理。”，仅用 1 小时便完成了产品原型开发。应用上线后，单日下载量突破 2 万次，Pro 版付费转化率高达 22%，实现“小时级开发，百万级营收”的传奇，充分证明了 Vibe 编程在独立开发中的巨大潜力。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_021.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_021.jpg)
 
 图 4-4 “小猫补光灯”应用
 
@@ -1510,7 +1510,7 @@ AI 生成代码虽然高效，却经常忽略代码质量、可维护性、安�
 
 要理解大语言模型的工作方式，关键在于认识到它们并非真正“理解”代码或需求，而是基于海量的训练数据和概率算法进行模式匹配与内容生成。大语言模型的核心机制是序列预测：大语言模型接收输入文本（即提示词），结合已生成的内容，预测下一个最可能的词元 ^(³)（token），如此循环直至达到预设长度或遇到结束标记，整体逻辑大致如图 5-1 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_023.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_023.jpg)
 
 图 5-1 大语言模型执行流程
 
@@ -1700,7 +1700,7 @@ Cursor 主要提供两种规则类型。
 
 ·用户规则（user rule）：在 Cursor 的设置中定义全局性的用户规则，适用于用户本机的所有项目。缺点是无法提交到 Git 中，无法在团队之间共享。用户规则通常用于设定用户的个人偏好，如编程语言、语气或常用的代码片段、库引入方式等。用户规则仅支持纯文本格式，不支持.mdc（Markdown components）文件。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_024.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_024.jpg)
 
 图 5-2 Cursor Rules 示例（图片源自 INSTRUCTA.AI 官网）
 
@@ -1712,7 +1712,7 @@ Cursor 允许用户在编辑器设置中添加全局用户提示词，这相当�
 
 Cursor 官方文档也提到过，编写恰当的系统提示词有助于模型更好地了解自己的职责和用户的偏好，从而提供更精确的回答。例如，“你是一名经验丰富的代码助理，所有输出必须符合公司内部的代码风格指南”相当于为模型定义一个长期的人设和行为准则——“扮演某种角色并遵守某些规则”，你也可以在这里加入团队代码规范、风格指南等说明，确保模型无论在哪个项目中都遵循统一的准则回答问题。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_025.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_025.jpg)
 
 图 5-3 设置全局用户提示词
 
@@ -1740,7 +1740,7 @@ metadata_field_2: value_2
 
 表 5-1 元数据字段的作用和示例
 
-![](img/Vibe编程：探索AI时代编程新范式_image_026.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_026.jpg)
 
 注意，需要谨慎采用 alwaysApply 字段，该字段主要针对那些具有普遍性的项目指令（如“本项目所有后端接口均使用 Python 3.10 和 Django REST Framework”）。滥用 alwaysApply: true 可能导致上下文窗口过早饱和，影响 AI 生成代码的性能。
 
@@ -1750,7 +1750,7 @@ metadata_field_2: value_2
 
 表 5-2 项目规则类型划分
 
-![](img/Vibe编程：探索AI时代编程新范式_image_027.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_027.jpg)
 
 无论规则如何被激活，其核心作用机制是相同的：当一个规则被应用时，它的.mdc 文件中的规则内容部分会被包含在发送给大语言模型的提示词的起始部分，大语言模型会在“阅读”这些规则之后再进行响应，起到一个初始引导效果。
 
@@ -1842,7 +1842,7 @@ alwaysApply: false
 
 这几类规则文件最终会呈现出图 5-4 所示的开发规则。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_028.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_028.jpg)
 
 图 5-4 用户设置表单开发规则
 
@@ -1866,13 +1866,13 @@ Cursor 规则虽然很有用，但编写起来很麻烦，好在开发者不必�
 
 除此之外，更推荐开发者直接使用 Cursor 的/Generate Cursor Rules 命令来生成具体的规则内容，如图 5-5 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_029.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_029.jpg)
 
 图 5-5 自动生成 React 编码规范
 
 这个命令很灵活，你可以直接输入目标（见图 5-5）；也可以基于会话中的交互内容总结出新的编码规范，如图 5-6 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_030.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_030.jpg)
 
 图 5-6 根据上下文总结编码规范
 
@@ -1896,7 +1896,7 @@ Vibe 编程这一术语容易让人有一种过程轻松、几乎不费吹灰之
 
 这一原则在 Vibe 编程方法论中同样适用。Vibe 编程强调的是“沉浸式、高效、有感知”的开发体验，而这种体验的前提，正是清晰、明确的项目方向，如果大语言模型在没有得到适当引导的情况下运行，很可能会臆造信息，或生成功能正确但与整体项目目标或约束不符的代码。在首行代码出现之前，必须明确：要解决什么问题，为谁解决，不解决什么问题。需求分析过程如图 5-7 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_031.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_031.jpg)
 
 图 5-7 需求分析过程
 
@@ -1942,7 +1942,7 @@ Vibe 编程这一术语容易让人有一种过程轻松、几乎不费吹灰之
 
 表 5-3 传统需求规划与 Vibe 编程需求规划的差异
 
-![](img/Vibe编程：探索AI时代编程新范式_image_032.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_032.jpg)
 
 在实际项目中，建议团队成员养成结构化表达需求的习惯，无论是编写开发任务、提交 issue，还是与 AI 协作，使用的提示词工程都应围绕“背景-目标-方式-限制”这一核心框架展开。尤其在多人协作和持续交付的流程中，这一标准化写作方式将极大提高项目的连贯性和可维护性。拆解一个需求，可从以下 4 个维度进行。
 
@@ -2664,7 +2664,7 @@ AI 可能生成功能正确但与战略优先级或架构原则不符的代码�
 
 除了代码作者外，在商业项目中通常会引入更多相关方共同审查代码。严格来说，代码审查并不是工程化手段，而是一种管理方法，具体的实操方式灵活多变。有些团队会根据需求粒度定期发起线下代码审查会议，线下聚集团队成员集中讨论变更代码的实现，直至与会大部分成员通过后方可合入主干。有些团队则要求代码开发完毕后在 GitLab 或 GitHub 系统上创建 Pull requests（拉取请求），经审查员审查通过后再将变更代码合入主干，如图 5-8 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_033.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_033.jpg)
 
 图 5-8 GitHub Pull requests 功能示例
 
@@ -2804,7 +2804,7 @@ git log
 
 在当前的 AI 驱动开发环境中，你无须机械记忆所有 Git 命令，只需将需求告诉 AI，AI 便能准确生成代码并执行相应的操作指令。例如，在 Cursor 中可以使用快捷键“Ctrl + `”打开 Terminal（终端）后，再按下“Ctrl + k”启动 AI Chat，输入需求（如“切换分支：chore/test，并将当前所有变更内容添加到暂存区，之后提交代码并推送到远程服务器”），如图 5-9 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_034.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_034.jpg)
 
 图 5-9 终端 AI 交互
 
@@ -2980,9 +2980,9 @@ Response:
 
 # XiaoHongShu AI Content Generator
 
-##  ![](img/Vibe编程：探索AI时代编程新范式_image_035.jpg) ********核心创新**** & ****技术亮点********
+##  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_035.jpg) ********核心创新**** & ****技术亮点********
 
-###  ![](img/Vibe编程：探索AI时代编程新范式_image_036.jpg) ****AI-Driven Content Intelligence****
+###  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_036.jpg) ****AI-Driven Content Intelligence****
 
 - ********多模型融合策略********:支持 OpenAI GPT-4o、Gemini Pro、Claude-3 动态切换，基于 Vercel AI SDK 统一抽象层
 
@@ -2990,7 +2990,7 @@ Response:
 
 - ********风格迁移算法********:6 种预训练风格模型（小红书/专业/科学/文艺/随意/极简），支持零样本学习风格转换
 
-###  ![](img/Vibe编程：探索AI时代编程新范式_image_037.jpg) ****Pure SVG Rendering Engine****
+###  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_037.jpg) ****Pure SVG Rendering Engine****
 
 - ********零依赖矢量渲染********:无须 Canvas/WebGL，纯 SVG + CSS 实现高保真卡片生成（960×1280 小红书标准）
 
@@ -2998,7 +2998,7 @@ Response:
 
 - ********实时预览管道********:WebSocket + Server-Sent Events 实现毫秒级渲染反馈
 
-###  ![](img/Vibe编程：探索AI时代编程新范式_image_038.jpg) ****Enterprise-Grade Architecture****
+###  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_038.jpg) ****Enterprise-Grade Architecture****
 
 - ****Nx-style Monorepo****:pnpm workspace + TypeScript Project References 实现代码共享与类型安全
 
@@ -3006,7 +3006,7 @@ Response:
 
 - ********可观测性体系********:结构化日志 + 性能监控 + 错误追踪的完整应用性能管理解决方案
 
-###  ![](img/Vibe编程：探索AI时代编程新范式_image_039.jpg) ****Streaming & Real-time Experience**  **
+###  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_039.jpg) ****Streaming & Real-time Experience**  **
 
 - ********流式内容生成********:基于 ReadableStream API 实现分片处理，降低首屏时间 60%+
 
@@ -3014,9 +3014,9 @@ Response:
 
 - ********错误恢复机制********:Circuit Breaker + Retry with Exponential Backoff 保障服务稳定性
 
-##  ![](img/Vibe编程：探索AI时代编程新范式_image_040.jpg) ********快速导航********
+##  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_040.jpg) ********快速导航********
 
-|  ![](img/Vibe编程：探索AI时代编程新范式_image_041.jpg) 技术文档 |  ![](img/Vibe编程：探索AI时代编程新范式_image_042.jpg) 系统架构 |  ![](img/Vibe编程：探索AI时代编程新范式_image_043.jpg) 开发指南 |  ![](img/Vibe编程：探索AI时代编程新范式_image_044.jpg) 用户手册 |
+|  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_041.jpg) 技术文档 |  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_042.jpg) 系统架构 |  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_043.jpg) 开发指南 |  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_044.jpg) 用户手册 |
 
 |:---:|:---:|:---:|:---:|
 
@@ -3024,7 +3024,7 @@ Response:
 
 ---
 
-##  ![](img/Vibe编程：探索AI时代编程新范式_image_045.jpg) 项目简介
+##  ![](img/Vibe-编程：探索-AI-时代编程新范式_image_045.jpg) 项目简介
 
 ### 项目目的
 
@@ -3062,7 +3062,7 @@ Cursor 是一款基于 Visual Studio Code（简称 VS Code）构建的 AI 原生
 
 Cursor 的安装过程比较简单，首先访问 Cursor 的官方网站（如图 6-1 所示），然后点击 Download 按钮，适用于你机器的操作系统的安装程序将自动下载，下载完成后，运行安装程序并等待安装完成。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_046.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_046.jpg)
 
 图 6-1 Cursor 官网
 
@@ -3070,43 +3070,43 @@ Cursor 的安装过程比较简单，首先访问 Cursor 的官方网站（如�
 
 表 6-1 不同操作系统的安装方式
 
-![](img/Vibe编程：探索AI时代编程新范式_image_047.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_047.jpg)
 
 安装完成后，还需要开启若干配置，以进一步提升 Cursor 效率。
 
 ·充值开通会员。虽然免费版本有试用额度，但性能较差，不如 Pro 版本，两者即使只有 10%的性能差异，在乘积效应下效率偏差也会非常大，所以建议直接使用 Pro 版本。
 
-·开启隐私模式。Cursor 内部的许多模型处理操作都发生在云端，所以不可避免地需要将本地代码发送到 Cursor 服务器，如果担心合规风险，可以开启隐私模式，该模式下 Cursor 保证不会私自存储你的代码。开启路径为：点击右上角的配置按钮（ ![](img/Vibe编程：探索AI时代编程新范式_image_048.jpg)），在 Cursor Settings 对话框中点击 General，将 Privacy mode 设置为 enabled，如图 6-2 所示。
+·开启隐私模式。Cursor 内部的许多模型处理操作都发生在云端，所以不可避免地需要将本地代码发送到 Cursor 服务器，如果担心合规风险，可以开启隐私模式，该模式下 Cursor 保证不会私自存储你的代码。开启路径为：点击右上角的配置按钮（ ![](img/Vibe-编程：探索-AI-时代编程新范式_image_048.jpg)），在 Cursor Settings 对话框中点击 General，将 Privacy mode 设置为 enabled，如图 6-2 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_049.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_049.jpg)
 
 图 6-2 开启隐私模式
 
-![](img/Vibe编程：探索AI时代编程新范式_image_050.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_050.jpg)
 
 ·开启 auto-run 模式。Cursor Agent 工作过程中可能需要调用不少本地命令行工具，如 npm、Vitest 等，出于安全性考虑，Cursor 默认不会直接调用这类命令，而是弹出对话框，由用户决定是否执行命令。建议将部分安全性风险较低的命令设置为自动执行，让 Cursor 绕过用户操作直接执行这些命令，从而提升执行效率。开启路径为：点击右上角配置按钮（），在 Cursor Settings 对话框中点击 Features，进入功能配置界面，勾选 Enable auto-run mode 下方相应的复选框，开启自动运行模式，如图 6-3 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_051.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_051.jpg)
 
 图 6-3 开启 auto-run 模式
 
 对于前端开发者，建议将 npm、pnpm、Vitest、eslint、webpack 等常见工具设置为 Command allowlist 白名单。
 
-·开启 Codebase Indexing。Codebase Indexing 是 Cursor 的关键特性之一。简单来说，该功能会向量化整个项目的内容并加密存储到 Cursor 的云端数据库中，后续执行大语言模型请求时可到该数据库获取向量知识，进而对仓库代码建立更深的理解，Cursor 生成的代码也会跟已有代码的关联性更强（如相似的技术栈、编码风格等）。开启路径为：点击右上角配置按钮（ ![](img/Vibe编程：探索AI时代编程新范式_image_048.jpg)），在 Cursor Settings 对话框中点击 Features，进入功能配置界面，向下滑动找到 Codebase Indexing 配置项，开启 Enabled 选项，如图 6-4 所示。
+·开启 Codebase Indexing。Codebase Indexing 是 Cursor 的关键特性之一。简单来说，该功能会向量化整个项目的内容并加密存储到 Cursor 的云端数据库中，后续执行大语言模型请求时可到该数据库获取向量知识，进而对仓库代码建立更深的理解，Cursor 生成的代码也会跟已有代码的关联性更强（如相似的技术栈、编码风格等）。开启路径为：点击右上角配置按钮（ ![](img/Vibe-编程：探索-AI-时代编程新范式_image_048.jpg)），在 Cursor Settings 对话框中点击 Features，进入功能配置界面，向下滑动找到 Codebase Indexing 配置项，开启 Enabled 选项，如图 6-4 所示。
 
 ·关闭 Auto。Cursor 0.47 之后支持在 Agent 或 Chat 回话过程中根据任务类型自动选择合适的模型来完成任务，但实测效果并不好，更推荐在具体场景中选择某个固定模型。例如，对于编码类问题，建议选择 claude-4-sonnet；对于通识类问题，建议选择 gpt-4o；而对于中文写作类问题，则建议选择 deepseek 等。切换模型的操作方法如图 6-5 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_052.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_052.jpg)
 
 ▲图 6-4 开启 Codebase Indexing
 
-![](img/Vibe编程：探索AI时代编程新范式_image_053.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_053.jpg)
 
 ▲图 6-5 切换模型
 
 ·导入 VS Code 设置。如果你已经在使用 VS Code，那么强烈建议使用 Import VS Code Extentions and Settings 命令导入 VS Code 设置，如图 6-6 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_054.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_054.jpg)
 
 图 6-6 导入 VS Code 配置
 
@@ -3202,7 +3202,7 @@ git config --global user.email "your_email@example.com"
 
 （3）注册并登录成功后，进入 API keys 管理页面，点击右上角“+Create new secret key”按钮来创建 API key，如图 6-7 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_055.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_055.jpg)
 
 图 6-7 创建 OpenAI API Token
 
@@ -3222,15 +3222,15 @@ git clone -b scaffold git@github.com:Tecvan-fe/xiaohongshu-generator.git
 
 xiaohongshu-generator/
 
-├── ![](img/Vibe编程：探索AI时代编程新范式_image_056.jpg) docs/ # 项目文档
+├── ![](img/Vibe-编程：探索-AI-时代编程新范式_image_056.jpg) docs/ # 项目文档
 
 │ ├── ...
 
 │
 
-├── ![](img/Vibe编程：探索AI时代编程新范式_image_056.jpg) packages/ # Monorepo 源码目录
+├── ![](img/Vibe-编程：探索-AI-时代编程新范式_image_056.jpg) packages/ # Monorepo 源码目录
 
-│ ├── ![](img/Vibe编程：探索AI时代编程新范式_image_056.jpg) server/ # 后端服务
+│ ├── ![](img/Vibe-编程：探索-AI-时代编程新范式_image_056.jpg) server/ # 后端服务
 
 │ │ ├── src/
 
@@ -3242,7 +3242,7 @@ xiaohongshu-generator/
 
 │ │
 
-│ ├── ![](img/Vibe编程：探索AI时代编程新范式_image_056.jpg) web/ # 前端应用
+│ ├── ![](img/Vibe-编程：探索-AI-时代编程新范式_image_056.jpg) web/ # 前端应用
 
 │ │ ├── src/
 
@@ -3258,7 +3258,7 @@ xiaohongshu-generator/
 
 │ │
 
-│ ├── ![](img/Vibe编程：探索AI时代编程新范式_image_056.jpg) logger/ # 日志工具包
+│ ├── ![](img/Vibe-编程：探索-AI-时代编程新范式_image_056.jpg) logger/ # 日志工具包
 
 │ │ ├── src/
 
@@ -3270,7 +3270,7 @@ xiaohongshu-generator/
 
 │ │
 
-│ └── ![](img/Vibe编程：探索AI时代编程新范式_image_056.jpg) utils/ # 工具函数包
+│ └── ![](img/Vibe-编程：探索-AI-时代编程新范式_image_056.jpg) utils/ # 工具函数包
 
 │ ├── src/
 
@@ -3282,7 +3282,7 @@ xiaohongshu-generator/
 
 │
 
-├── ![](img/Vibe编程：探索AI时代编程新范式_image_057.jpg) 配置文件
+├── ![](img/Vibe-编程：探索-AI-时代编程新范式_image_057.jpg) 配置文件
 
 │ ├── package.json # 根 package.json(Monorepo 配置)
 
@@ -3494,7 +3494,7 @@ Vibe 编程绝非盲目编程，与传统开发类似，在正式启动软件开
 
 即可生成一份详尽的技术设计文档，这里摘取部分关键内容。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_058.jpg)![](img/Vibe编程：探索AI时代编程新范式_image_059.jpg)![](img/Vibe编程：探索AI时代编程新范式_image_060.jpg)![](img/Vibe编程：探索AI时代编程新范式_image_061.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_058.jpg)![](img/Vibe-编程：探索-AI-时代编程新范式_image_059.jpg)![](img/Vibe-编程：探索-AI-时代编程新范式_image_060.jpg)![](img/Vibe-编程：探索-AI-时代编程新范式_image_061.jpg)
 
 虽然借助大语言模型能够快速获得结构化的技术方案草稿，但在实际应用中，初稿往往仍存在多处不符合实际开发节奏、忽略细节或存在误导的内容。因此，建议从完整性、准确性与必要性这 3 个维度，系统地评估与优化技术设计文档内容。例如本示例就存在以下若干明显问题。
 
@@ -3704,7 +3704,7 @@ Vibe 编程绝非盲目编程，与传统开发类似，在正式启动软件开
 
 ➢ POST/api/content/parse-pdf——解析 PDF 文件，提取文本内容并分析结构。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_062.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_062.jpg)
 
 图 6-8 llms.txt 示例
 
@@ -3724,7 +3724,7 @@ Vibe 编程绝非盲目编程，与传统开发类似，在正式启动软件开
 
 整体接口调用逻辑如图 6-9 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_063.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_063.jpg)
 
 图 6-9 接口调用时序
 
@@ -3748,13 +3748,13 @@ Cursor 将自动完成一系列关键开发操作，包括但不限于：
 
 （2）查阅 package.json 中的命令定义，确定启动指令，本章示例中的启动指令为图 6-10 所示的 dev 指令。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_064.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_064.jpg)
 
 图 6-10 package.json 样例
 
 确定启动指令后，只需在命令行中输入 OPENAI_API_KEY=sk-proj-xxx npm run dev 即可启动系统，其中 OPENAI_API_KEY 值是 6.1.1 节申请的 ChatGPT API key。如果启动失败，命令行一般会输出详尽的错误消息，如图 6-11 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_065.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_065.jpg)
 
 图 6-11 使用命令行环境的 Add to Chat 命令
 
@@ -3788,7 +3788,7 @@ Cursor 将尝试分析并修复相关错误，如果首次修复未成功，可�
 
 ➢ 使用 Cursor 的/Generate Cursor Rules 命令生成新的技术规范文档，如图 6-12 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_066.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_066.jpg)
 
 图 6-12 自动生成 Cursor Rules
 
@@ -3856,19 +3856,19 @@ Cursor 将尝试分析并修复相关错误，如果首次修复未成功，可�
 
 （1）默认状态页。页面加载完成后，默认展示一个对话输入框，如图 6-13 所示。用户可输入提示词，触发内容生成请求。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_067.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_067.jpg)
 
 图 6-13 Web 系统默认状态
 
 （2）中间过渡页。用户输入提示词后，页面需进入加载状态（见图 6-14），主要用于提示系统运行状态，避免无解。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_068.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_068.jpg)
 
 图 6-14 加载状态页
 
 （3）结果展示页。服务器端生成内容后，页面需将返回结果以结构化形式展示，展示内容包括小红书风格的内容卡片、生成的标题与文案等（见图 6-15），此页还应支持内容导出功能，为用户提供素材留存或复用能力。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_069.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_069.jpg)
 
 图 6-15 结果页
 
@@ -3894,7 +3894,7 @@ pnpm install
 
 （2）确认启动命令：打开 package.json 文件，查阅项目中定义的启动脚本。以本示例项目为例，执行图 6-16 所示的命令，启动开发进程 npm run dev。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_070.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_070.jpg)
 
 图 6-16 启动命令示例
 
@@ -3902,7 +3902,7 @@ pnpm install
 
 一旦开发服务器成功启动，只需在浏览器上用命令行输出的地址（见图 6-17）访问本地服务，即可实时查看页面渲染效果。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_071.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_071.jpg)
 
 图 6-17 启动效果
 
@@ -3948,7 +3948,7 @@ pnpm install
 
 在传统的开发流程中，这类样式错误通常可以通过浏览器的开发者工具快速定位并修复。但在 Vibe 编程场景中，我们更希望由 AI 工具来完成修复任务，其难点在于 Cursor 这样的 AI 工具与浏览器是两套完全割裂的系统，它无法像开发者那样直接“看到”浏览器中的渲染效果，更无法自动识别视图层出现的问题。因此，如果希望借助 Cursor 修复此类前端 UI 问题，关键在于如何将浏览器的当前状态告诉它，让 Cursor 获得足够的信息来进行分析与决策。具体而言，可以考虑使用以下两种方式实现这种信息通路。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_072.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_072.jpg)
 
 图 6-18 “小红书内容生成器”项目早期生成版本的页面内容
 
@@ -3958,7 +3958,7 @@ pnpm install
 
 例如，在前文的异常示例中，我们可以直接将图 6-18 所示的页面渲染缺失样式的截图粘贴到 Cursor 的对话框中（见图 6-19），由其判断是否存在样式文件未导入、组件未挂载、DOM 结构异常等问题，并尝试生成修复补丁。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_073.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_073.jpg)
 
 图 6-19 使用浏览器截图
 
@@ -3980,13 +3980,13 @@ pnpm install
 
 （1）下载插件。进入 BrowserTools Github Release 页面（https://github.com/ AgentDeskAI/browser-tools-mcp/releases），下载浏览器插件，如图 6-20 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_074.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_074.jpg)
 
 图 6-20 下载 BrowserTools 插件包
 
 （2）安装插件。解压缩下载的插件压缩包，使用 Chrome 浏览器打开 chrome:// extensions/页面（如图 6-21 所示），点击 Load unpacked 按钮加载并安装插件。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_075.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_075.jpg)
 
 图 6-21 安装浏览器插件
 
@@ -4012,13 +4012,13 @@ npx -y @agentdeskai/browser-tools-server@latest
 
 }
 
-![](img/Vibe编程：探索AI时代编程新范式_image_076.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_076.jpg)
 
 图 6-22 配置 MCP
 
 （5）在需要测试的浏览器标签页中，按 F12 键，开启开发者工具，如图 6-23 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_077.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_077.jpg)
 
 图 6-23 Chrome 开发者工具示例
 
@@ -4046,7 +4046,7 @@ npx -y @agentdeskai/browser-tools-server@latest
 
 总的来说，调试阶段的挑战不仅在于“发现问题”，更在于“将问题表达给模型”，这正是 Vibe 编程与传统开发模式间的巨大差异所在。我们不仅要掌握调试技术，更要学会如何与 AI 有效沟通，让模型在有限的上下文中能做出正确判断与补全。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_078.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_078.jpg)
 
 图 6-24 结构清晰、样式可控的 Web 页面
 
@@ -4066,7 +4066,7 @@ npx -y @agentdeskai/browser-tools-server@latest
 
 此后 Cursor 就会在 packages/web/src/api 目录下为每一个接口生成对应的类型定义，并生成调用函数，如图 6-25 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_079.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_079.jpg)
 
 图 6-25 接口类型定义示例
 
@@ -4080,7 +4080,7 @@ npx -y @agentdeskai/browser-tools-server@latest
 
 此后，可以重新启动页面，调试整体的数据交互流程。在这个阶段，调试的重点不再是样式或组件布局，而是网络请求的发起与响应是否符合预期。为此，建议使用浏览器内置的开发者工具进行辅助分析。以 Chrome 浏览器为例，只需按下快捷键 F12 即可开启图 6-26 所示的调试面板，并切换至 Network 标签页，实时观察页面中各类接口请求的发起、状态码、数据响应与时延情况。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_080.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_080.jpg)
 
 图 6-26 网络请求调试面板
 
@@ -4094,7 +4094,7 @@ npx -y @agentdeskai/browser-tools-server@latest
 
 在 Cursor 中导出对话记录非常简单：点击图 6-27 所示的 Agent 面板右上角的“…”按钮，在弹出的菜单中选择 Export Chat 选项，即可将完整的聊天记录导出为本地文件。建议将该文件保存在项目根目录下，与代码仓库一并管理。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_081.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_081.jpg)
 
 图 6-27 导出对话记录
 
@@ -4200,7 +4200,7 @@ echo "构建完成！前端资源已复制到 packages/server/public 目录"
 
 增加这一步操作后，部署时只需将生成的 bundle.js 文件及必要配置上传至云平台即可完成发布，无须附带冗余的源码或依赖，打包结果如图 6-28 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_082.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_082.jpg)
 
 图 6-28 服务器端代码打包效果示例
 
@@ -4238,7 +4238,7 @@ Vercel 的部署理念非常明确，即通过自动化流程降低部署门槛�
 
 注册完成后，系统会提示你创建一个“团队”（Team），所有项目管理、部署、权限控制等都将基于团队空间展开。如图 6-29 所示，点击右上角头像，在弹出的菜单中选择 Create Team，完成基础信息填写，即可进入团队管理面板。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_083.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_083.jpg)
 
 图 6-29 团队管理面板
 
@@ -4254,7 +4254,7 @@ vercel login
 
 按提示完成登录授权，即可开始使用 Vercel CLI，如图 6-30 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_084.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_084.jpg)
 
 图 6-30 登录 Vercel 账号
 
@@ -4324,7 +4324,7 @@ vercel pull
 
 注意，首次执行上述命令时，对于 Link to existing project?选项务必选择 N（见图 6-31），这样 Vercel 会自动创建新项目并与本地目录绑定，避免手动配置。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_085.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_085.jpg)
 
 图 6-31 避免绑定已有项目
 
@@ -4344,7 +4344,7 @@ vercel deploy --prebuilt --prod --archive=tgz
 
 部署完成后，Vercel 会输出两个重要的统一资源定位符（uniform resource locator，URL），如图 6-32 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_086.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_086.jpg)
 
 图 6-32 部署完成后，生成临时访问链接
 
@@ -4354,11 +4354,11 @@ vercel deploy --prebuilt --prod --archive=tgz
 
 ·第二个链接指向该实例的临时线上访问地址，如图 6-34 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_087.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_087.jpg)
 
 ▲图 6-33 部署实例的管理面板
 
-![](img/Vibe编程：探索AI时代编程新范式_image_088.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_088.jpg)
 
 ▲图 6-34 访问效果
 
@@ -4370,11 +4370,11 @@ vercel deploy --prebuilt --prod --archive=tgz
 
 （1）进入 Vercel 首页（见图 6-35），点击对应项目进入项目管理页，如图 6-36 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_089.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_089.jpg)
 
 ▲图 6-35 Vercel 首页
 
-![](img/Vibe编程：探索AI时代编程新范式_image_090.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_090.jpg)
 
 ▲图 6-36 项目管理页
 
@@ -4398,7 +4398,7 @@ vercel deploy --prebuilt --prod --archive=tgz
 
 （1）访问 GitHub 官网，注册账号后创建新仓库，之后复制项目创建成功页面里展示的若干 git 命令，如图 6-37 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_091.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_091.jpg)
 
 图 6-37 项目创建成功的命令提示
 
@@ -4422,19 +4422,19 @@ git push -u origin main
 
 （2）点击 Create Token，输入名称并确认创建密钥，如图 6-38 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_092.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_092.jpg)
 
 图 6-38 创建密钥
 
 （3）页面将弹出一次性展示的词元值（如图 6-39 所示），请务必复制并离线保存，该信息无法再次查看。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_093.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_093.jpg)
 
 图 6-39 复制密钥
 
 （4）打开 GitHub 项目的 Settings 菜单，在 Secrets and variables 的子菜单中选择 Actions 命令，如图 6-40 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_094.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_094.jpg)
 
 图 6-40 GitHub Actions 添加密钥
 
@@ -4442,7 +4442,7 @@ git push -u origin main
 
 （6）在弹出的对话框中填入密钥名称 VERCEL_TOKEN，并将刚刚生成的词元值粘贴至 Secret 字段中，点击 Add secret，如图 6-41 所示。
 
-![](img/Vibe编程：探索AI时代编程新范式_image_095.jpg)
+![](img/Vibe-编程：探索-AI-时代编程新范式_image_095.jpg)
 
 图 6-41 设置密钥
 
@@ -4542,9 +4542,9 @@ jobs:
 
           vercel deploy --prebuilt --prod --archive=tgz --logs --token=${{ secrets.VERCEL_TOKEN }}
 
-          echo " ![](img/Vibe编程：探索AI时代编程新范式_image_096.jpg) 部署成功！"
+          echo " ![](img/Vibe-编程：探索-AI-时代编程新范式_image_096.jpg) 部署成功！"
 
-          echo " ![](img/Vibe编程：探索AI时代编程新范式_image_097.jpg) 项目已成功部署到 Vercel"
+          echo " ![](img/Vibe-编程：探索-AI-时代编程新范式_image_097.jpg) 项目已成功部署到 Vercel"
 
 该流水线主要有以下功能。
 

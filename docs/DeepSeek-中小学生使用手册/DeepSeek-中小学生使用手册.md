@@ -1569,7 +1569,7 @@ CPA 学习法的核⼼
 
 81 / 83
 
-![](img/DeepSeek中小学生使用手册_index-82_1.png)
+![](img/DeepSeek-中小学生使用手册_index-82_1.png)
 
 少年商学院 · DeepSeek 中⼩学⽣使⽤⼿册
 
@@ -1595,8 +1595,8 @@ CPA 学习法的核⼼
 
 82 / 83
 
-![](img/DeepSeek中小学生使用手册_index-83_1.jpg)
+![](img/DeepSeek-中小学生使用手册_index-83_1.jpg)
 
-![](img/DeepSeek中小学生使用手册_index-83_2.png)
+![](img/DeepSeek-中小学生使用手册_index-83_2.png)
 
-![](img/DeepSeek中小学生使用手册_index-83_3.jpg)
+![](img/DeepSeek-中小学生使用手册_index-83_3.jpg)

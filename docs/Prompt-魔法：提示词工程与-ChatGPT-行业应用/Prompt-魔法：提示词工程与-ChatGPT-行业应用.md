@@ -83,7 +83,7 @@
 
 表 1-1 GPT 迭代的主要版本和时间线
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_000.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_000.jpg)
 
 2023 年 3 月 18 日，美国公司 Midjourney 宣布了第 5 版商业 AI 图像生成服务。与上一版本相比，第 5 版服务解决了 AI 生成图像细节不清晰等问题，可以生成适合电影画面比例的图像。有平面设计师评价道：“此前版本就像是近视患者没有戴上眼镜，而第 5 版就是戴上眼镜的清晰效果。”
 
@@ -253,7 +253,7 @@ ChatGPT 的背后是 gpt-3.5-turbo 模型，而 GPT-4 是 OpenAI 随后推出的
 
 打开 https://platform.openai.com/signup，使用手机号码和接收的验证码进行注册，完成注册后打开 https://chat.openai.com/auth/login 登录。登录后即可在 https://platform.openai.com/playground? mode=chat 中和 ChatGPT 对话。在该界面选择不同的 Mode 和 Model，可以为不同模式选择不同的模型分支，如图 2-1 所示。一般来说，对于聊天模式，默认选择 gpt-3.5-turbo 即可。对于不需要开发应用接入 ChatGPT 的用户来说，到这一步就可以了。如果有接入开发应用的需求，则需要进行下一步。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_001.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_001.jpg)
 
 图 2-1 对话示例
 
@@ -265,7 +265,7 @@ ChatGPT 的背后是 gpt-3.5-turbo 模型，而 GPT-4 是 OpenAI 随后推出的
 
 使用 POST 方法请求 https://api.openai.com/v1/chat/completions，注意在消息头中设置好密钥，并且把消息体的内容替换为自己的内容。举例如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_002.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_002.jpg)
 
 第四步，进一步使用 GPT-4。
 
@@ -307,7 +307,7 @@ Midjourney 是一种基于扩散模型的图像生成工具，可以根据用户
 
 查看屏幕正下方的对话框。在对话框中输入“/settings”，弹出配置选项，如图 2-2 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_003.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_003.jpg)
 
 图 2-2 Midjourney 设置参数说明
 
@@ -323,11 +323,11 @@ Midjourney 是一种基于扩散模型的图像生成工具，可以根据用户
 
 选择好参数之后，在对话框中输入“/imagine”，选择弹出的指令，在 prompt 指令后面输入你想要的关键词，按回车键（如图 2-3 所示），就会生成对应的图片，如图 2-4 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_004.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_004.jpg)
 
 图 2-3 Midjourney 生成图片指令：一只浅黄色柯基的全身照（-g5 表示注重图片细节）
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_005.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_005.jpg)
 
 图 2-4 Midjourney 生成图片例子
 
@@ -335,7 +335,7 @@ Midjourney 是一种基于扩散模型的图像生成工具，可以根据用户
 
 ❑ 混合指令。使用图片混合指令“blend”（如图 2-5a 所示），根据提示上传两张图片，这里我们使用上面生成的图片，得到的结果如图 2-5b 所示。可以看到，图片融合的形象取自小狗，而金属的质感取自机器人。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_006.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_006.jpg)
 
 图 2-5 Midjourney 图片融合例子
 
@@ -351,25 +351,25 @@ DALL·E 这个名字源于西班牙著名艺术家 Salvador Dalí和广受欢�
 
 此处使用的 API 密钥同 ChatGPT，以图像生成为例，使用方法如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_007.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_007.jpg)
 
 除了图像生成，API 使用方法还支持图像编辑和图像变种。图像编辑即给定一张图片，并用文本描述编辑需求，同时使用掩模图片指定编辑区域，举例如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_008.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_008.jpg)
 
 在这个例子中，原图、掩模图片和生成图片如图 2-6 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_009.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_009.jpg)
 
 图 2-6 图像编辑示例
 
 图像变种即基于给定图片，在不改变图像基本内容的情况下得到新图片，示例如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_010.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_010.jpg)
 
 图像变种示例如图 2-7 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_011.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_011.jpg)
 
 图 2-7 图像变种示例
 
@@ -391,7 +391,7 @@ Stable Diffusion 是由 Stability AI 公司资助和塑造的，技术许可�
 
 Stable Diffusion 同样需要 API 密钥，该密钥需要从 https://beta.dreamstudio.ai/account 获取。以 Python 语言为例，调用 API 从文本生成图像的方法如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_012.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_012.jpg)
 
 更多 API 使用方法（如以图生图等）参见 https://platform.stability.ai/rest-api 文档说明，此处不再赘述。
 
@@ -401,7 +401,7 @@ Stable Diffusion 同样需要 API 密钥，该密钥需要从 https://beta.drea
 
 准备好这些东西之后，从 https://github.com/Stability-AI/stablediffusion 下载代码，并从 https://huggingface.co/stabilityai 下载最新的模型文件。当前最新的模型文件是 2.1 版本。随后在代码文件夹下运行如下命令，开启创作之旅吧！
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_013.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_013.jpg)
 
 ## **2.6 工具的选择**
 
@@ -421,13 +421,13 @@ Stable Diffusion 同样需要 API 密钥，该密钥需要从 https://beta.drea
 
 这三个图像生成工具未来一定会具备越来越完善的功能和丰富的设置。为了方便读者选取最适合自己的工具，我们对比一下 3 个图像生成工具截至本书完稿时的使用特点，如表 2-1 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_014.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_014.jpg)
 
 图 2-8 图像生成工具迭代时间轴
 
 表 2-1 3 个图像生成工具比较
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_015.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_015.jpg)
 
 在这 3 个工具中，Midjourney 的社区活跃度最高、设置较丰富，生成的图片适用场景最广。因此本书涉及图像生成的内容时以 Midjourney 为主，其他两个工具为辅进行举例。图像生成还有其他工具和公司，包括 Jasper AI、NovelAI Diffusion（一个专注于二次元的图像生成）等，本书不再赘述。
 
@@ -687,7 +687,7 @@ ICL 的应用场景非常广泛，例如在情感分析任务中，只需加入�
 
 以下就是一个例子：在先给出例子之后，加上“让我们逐步思考”这个提示词，ChatGPT 往往就能给到准确的回答。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_016.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_016.png)
 
 **Prompt：**
 
@@ -699,7 +699,7 @@ Q：在万圣节，Katie 和她的姐姐合并了她们收到的糖果。Katie �
 
 A：让我们逐步思考。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_017.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_017.png)
 
 **回答：**
 
@@ -713,7 +713,7 @@ A：让我们逐步思考。
 
 大语言模型的思维链推理能力可以通过融合自洽性来实现。自洽性解码策略使用少量样本 CoT 提示来采样多个多样化的推理路径，并生成多个候选句子。然后，该策略会评估每个候选句子与先前生成的句子的相似度，并选择最相似的句子作为下一个句子，以提高推理的准确性。这种方法可以在数学和常识推理任务中提高思维链提示的准确性，并已经被最近的研究证明有效。因此，自洽性是一种很有用的解码策略，可以显著提高大语言模型的思维链推理能力。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_018.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_018.png)
 
 **Prompt：**
 
@@ -735,7 +735,7 @@ A：詹森原本有 20 个棒棒糖，因为他现在只剩下 12 个棒棒糖�
 
 Q：当我 6 岁时，我的妹妹只有我的一半年龄。现在我 70 岁了，我的妹妹多大了？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_019.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_019.png)
 
 **回答：**
 
@@ -771,13 +771,13 @@ ChatGPT 能够对代码（无论是它自己生产的，还是用户提交的）
 
 值得注意的是，给 ChatGPT 发送关于代码的问题时，代码可以用“```”符号括起来，以方便机器区分代码部分。下面我们用一段简单的代码测试一下 ChatGPT 对代码的检查能力。在第一轮问答中，我们给的 Prompt 主要包含的是代码函数主体，它首先指出了错误的原因，并且给出了修改方法。值得注意的是，它提出了更符合 Python 风格的列表推导式的写法。在第二轮问答中，Prompt 指定了采用的语法，可以看到，它完美地解决了这个问题。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_020.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_020.png)
 
 **Prompt：**
 
 下面这段代码的错误是什么？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_021.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_022.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_021.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_022.png)
 
 **回答：**
 
@@ -785,39 +785,39 @@ ChatGPT 能够对代码（无论是它自己生产的，还是用户提交的）
 
 为了避免这个错误，您可以使用不同的变量名来区分内外循环，例如 j 和 k。或者，您可以使用列表推导式来简化代码。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_023.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_023.png)
 
 **Prompt：**
 
 那请你修改这段代码，用列表推导式的方法。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_024.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_024.png)
 
 **回答：**
 
 修改后的代码如下：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_025.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_025.jpg)
 
 上面只是一个简单的入门例子。下面我们通过两轮对话让 ChatGPT 改进自己的代码。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_026.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_026.png)
 
 **Prompt：**
 
 写一段 Python 代码，接收用户输入并添加到 SQL 数据库中。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_027.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_027.png)
 
 **回答：**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_028.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_029.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_028.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_029.png)
 
 **Prompt：**
 
 上述这段代码有处理 SQL 注入吗？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_030.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_030.png)
 
 **回答：**
 
@@ -831,13 +831,13 @@ SQL 注入是在将用户输入直接拼接到 SQL 语句中执行时可能出�
 
 那么执行的 SQL 语句就是：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_031.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_031.jpg)
 
 这会先插入 John 的记录，然后执行 DELETE 语句删除 users 表的所有数据！
 
 为了处理 SQL 注入，我们需要对用户输入进行校验和转义。修复后的代码如下：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_032.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_032.jpg)
 
 我们做了两处修改。这样，即使用户输入恶意内容，也不会影响 SQL 语句的正确执行，处理了 SQL 注入攻击问题。
 
@@ -847,23 +847,23 @@ SQL 注入是在将用户输入直接拼接到 SQL 语句中执行时可能出�
 
 ChatGPT 可以利用代码库或互联网资源，推荐出最合适的代码片段，帮助程序员节约编写时间。如下面的例子，我们给出类名和函数名，并给出各个函数的功能，ChatGPT 就能补全所有代码。此外，我们可以提出使用广播机制来节省循环和条件判断的时间，指示 ChatGPT 做相应的修改。请注意，限于篇幅，笔者编辑的时候删掉了部分浅显的注释。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_033.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_033.png)
 
 **Prompt：**
 
 补全下面的 kNN 类，不使用 sklearn，使用 find_nn 方法找到一个样本点的 k 个近邻，根据多数投票预测该样本的类别。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_034.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_035.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_034.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_035.png)
 
 **回答：**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_036.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_037.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_038.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_036.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_037.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_038.png)
 
 **Prompt：**
 
 你给我的代码中，find_nn 采用遍历的计算方法，能不能使用向量化的计算方法来节省运行时间？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_039.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_039.png)
 
 **回答：**
 
@@ -871,25 +871,25 @@ ChatGPT 可以利用代码库或互联网资源，推荐出最合适的代码片
 
 为了使用向量化的计算方法，你需要修改 find_nn 方法的代码，如下所示：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_040.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_041.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_040.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_041.jpg)
 
 ### **4.1.3 代码生成**
 
 为了提高开发效率，ChatGPT 可以协助自动生成代码。常用的 Prompt 包括：使用某个特定函数实现某项功能、使用某种算法实现某项功能、不使用某个函数或者算法实现功能，等等。举例如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_042.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_042.png)
 
 **Prompt：**
 
 能不能不使用 atomicAdd 实现累加？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_043.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_043.png)
 
 **回答：**
 
 不使用 atomicAdd 实现累加的方法有很多，具体取决于你的需求和场景。一种可能的方法是使用 compare-and-swap，这是一种原子操作，可以用来实现任意的原子操作。compare-and-swap 的原理是，给定一个地址、一个旧值和一个新值，如果地址中的值等于旧值，就用新值替换它，否则不做任何操作。你可以用这个操作来实现累加，例如：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_044.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_044.jpg)
 
 ### **4.1.4 解决复杂问题**
 
@@ -897,13 +897,13 @@ ChatGPT 可以利用代码库或互联网资源，推荐出最合适的代码片
 
 第一，业务逻辑不断调整。此时，边界条件容易增多，分支判断容易变得臃肿。单纯靠人工在这种代码中找到问题并非易事，ChatGPT 却显得颇为游刃有余。以倒计时功能为例，在初始代码中，笔者将这个简单的功能复杂化，把漏洞藏得比较深，让 ChatGPT 纠错并简化这个代码。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_045.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_045.png)
 
 **Prompt：**
 
 我希望这段代码根据输入起到倒计时的作用，它虽然能运行，但是功能有错误，倒计时到 01:00:59 之后跳到了 00:59:59，帮我修改代码。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_046.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_047.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_046.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_047.png)
 
 **回答：**
 
@@ -911,17 +911,17 @@ ChatGPT 可以利用代码库或互联网资源，推荐出最合适的代码片
 
 您可以添加一个判断条件，如果分钟数和小时数都为 0，就不要再减去 1，而是直接跳出循环，这样就可以避免这个问题。修改后的代码为：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_048.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_048.jpg)
 
 第二，多种技术问题交织。比如在机器学习应用过程中，为了处理多种来源的数据，通常需要综合各种技术手段。值得注意的是，用户首先要对该场景下的问题掌握得较为透彻，知道哪些难点需要打通。不然，得到的也不会是个好的方案。对比如下两个例子。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_049.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_049.png)
 
 **Prompt：**
 
 给我一个提取 PDF 中文字的方案。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_050.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_050.png)
 
 **回答：**
 
@@ -929,15 +929,15 @@ ChatGPT 可以利用代码库或互联网资源，推荐出最合适的代码片
 
 1）使用 PyPDF2 打开 PDF 文件并提取每一页作为图像。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_051.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_051.jpg)
 
 2）使用 OpenCV 对每一页图像进行文本检测和提取。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_052.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_053.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_052.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_053.jpg)
 
 3）合并所有的文本并返回。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_054.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_054.jpg)
 
 上面的例子中，ChatGPT 给出的方案存在如下问题。
 
@@ -947,13 +947,13 @@ ChatGPT 可以利用代码库或互联网资源，推荐出最合适的代码片
 
 为了获得更好的解决方案，我们修改指令，让 ChatGPT 更能理解这个场景。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_055.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_055.png)
 
 **Prompt：**
 
 给我一个提取 PDF 中文字的方案，这些 PDF 既有影印版，又有文字版本，版式比较灵活，我希望最后提取出来的文字断句正常，而且比较符合人类对 PDF 的阅读顺序。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_056.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_056.png)
 
 **回答：**
 
@@ -971,7 +971,7 @@ ChatGPT 可以利用代码库或互联网资源，推荐出最合适的代码片
 
 具体实现可以参考以下代码：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_057.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_058.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_057.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_058.jpg)
 
 ## **4.2 代码评审**
 
@@ -983,13 +983,13 @@ ChatGPT 可以利用代码库或互联网资源，推荐出最合适的代码片
 
 代码缺陷小则引发线上故障，影响业务正常运行，大则可能给企业造成重大经济损失，甚至使企业信用受损。为了在交付之前消灭代码缺陷，完整的单元测试必不可少。编写单元测试是重复性较高的工作，且要写较多的注释，以解释每个测试的测试目的。ChatGPT 在这方面表现得游刃有余。请看下面的例子。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_059.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_059.png)
 
 **Prompt：**
 
 我要写一个网站注册的函数 register(name)，实现与用户数据库的校验，如果用户数据库中没有这个用户则可以成功添加，但是如果用户数据库中有这个用户，则返回失败并提示用户更换一个用户名。请帮我编写完整的单元测试。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_060.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_060.png)
 
 **回答：**
 
@@ -997,23 +997,23 @@ Python 有一个内置的单元测试框架，叫作 unittest，它基于 Java �
 
 为了编写一个单元测试，您需要先导入 unittest 模块，然后创建一个继承自 unittest.TestCase 的类，这个类就是一个测试用例。在这个类中，您可以定义一些以 test_ 开头的方法，这些方法就是具体的测试函数。每个测试函数都应该使用 assert 语句来检查代码的输出是否符合预期。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_061.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_062.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_061.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_062.jpg)
 
 ### **4.2.2 风格约束**
 
 在团队协作开发的项目中，统一的代码风格可以提高代码可读性，降低理解难度，从而在代码评审和后续迭代中方便审查和维护，避免无谓的争议。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_063.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_063.png)
 
 **Prompt：**
 
 将函数从面向过程的风格改写为面向对象的风格：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_064.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_065.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_064.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_065.png)
 
 **回答：**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_066.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_067.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_066.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_067.jpg)
 
 ### **4.2.3 代码注释与文档**
 
@@ -1021,13 +1021,13 @@ Python 有一个内置的单元测试框架，叫作 unittest，它基于 Java �
 
 有了 ChatGPT 等工具，添加注释已经变得非常方便。添加注释时，你可以仅提供完整的代码，因为 ChatGPT 有足够的能力读懂它并给出注释和文档。如果你觉得自己的代码比较复杂，可以简单描述它的输入参数和核心功能。举例如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_068.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_068.png)
 
 **Prompt：**
 
 下面这段代码实现的是训练并保存模型的功能，请对代码行添加必要的注释，并形成文档，告诉有可能使用这个脚本的人应该怎样准备数据、训练自己的模型。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_069.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_070.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_071.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_069.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_070.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_071.png)
 
 **回答：**
 
@@ -1041,31 +1041,31 @@ Python 有一个内置的单元测试框架，叫作 unittest，它基于 Java �
 
 此外，我们建议用户指示 ChatGPT 在文档中向其他新手解释代码的设计理念和一些考量，尤其是当这些考量涉及不同方案的优缺点的比较与折中的时候。下面的例子是 Redis 数据库的源代码，Redis 采用了渐进式 rehash 的方法对数据表进行扩容。这种设计方法要求 Redis 对数据表进行增、删、查、改时都进行相应的改动。ChatGPT 在对查找函数进行注释的时候，充分地考虑到了这背后的原因。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_072.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_072.png)
 
 **Prompt：**
 
 以下是在哈希表中查找插入位置的源代码，请为这段代码添加必要的注释，并对 rehash 过程的设计进行说明，方便后续其他人对此代码进行维护。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_073.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_074.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_075.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_073.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_074.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_075.png)
 
 **回答：**
 
 哈希表的 rehash 过程是渐进的，在进行其他操作（比如查找插入位置等）时渐进地将节点从旧表迁移至新表，最终使用新表替换旧表。查找插入位置，如正在进行 rehash 操作时，返回新表（即表 1）的插入位置，否则返回旧表（即表 0）的插入位置。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_076.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_077.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_076.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_077.jpg)
 
 ## **4.3 迁移与架构**
 
 架构师是“程序猿”中的“高阶猿”，对于这类需要具备全局观的工作，AIGC 也能提供相当程度的辅助，包括设计协助（询问一些关于项目类型或材料应用的需求或者提供一些设计建议和创意）、成本估算（根据功能安排人员、排期和软硬件成本）等。举例如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_078.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_078.png)
 
 **Prompt：**
 
 我想将 Linux 下 Python 2 的代码迁移到 Windows 下 Python 3 的代码，给出注意事项。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_079.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_079.png)
 
 **回答：**
 
@@ -1075,13 +1075,13 @@ Python 有一个内置的单元测试框架，叫作 unittest，它基于 Java �
 
 在复杂系统需求下，我们需要在 Prompt 中明确身份、总体目标、细分目标和输出规范这四个部分。举例如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_080.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_080.png)
 
 **Prompt：**
 
 从 IT 架构师的角度，给出将 CMS 集成到 IT 环境中的方法，包括业务需求分析、执行差距分析以及将新系统的功能映射到现有的 IT 环境。接下来的步骤是创建解决方案、确定物理网络蓝图、定义系统集成接口和部署环境蓝图。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_081.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_081.png)
 
 **回答：**
 
@@ -1103,13 +1103,13 @@ Python 有一个内置的单元测试框架，叫作 unittest，它基于 Java �
 
 综上所述，将 CMS 集成到 IT 环境中需要进行全面的分析和设计，并确保系统能够与现有系统无缝协同工作。这需要 IT 架构师与业务部门、系统管理员和开发人员密切合作，制订合适的计划并实施。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_082.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_082.png)
 
 **Prompt：**
 
 我想把一个商业合同审查的系统代码进行迁移，并且与财务管理系统、法务系统和库存管理系统做对接，应该怎么做？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_083.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_083.png)
 
 **回答：**
 
@@ -1131,13 +1131,13 @@ Python 有一个内置的单元测试框架，叫作 unittest，它基于 Java �
 
 以 Flutter 为例，Flutter 是一门为了适配各种客户端的前端界面而诞生的新语言。笔者作为一个没有接触过前端编程的人，尝试着通过 New Bing，得到关于 Flutter 的更多背景和学习曲线。下面是笔者的学习过程。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_084.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_084.png)
 
 **Prompt：**
 
 对一个没有学习过前端基础的人来说，如何快速学习 Flutter？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_085.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_085.png)
 
 **回答：**
 
@@ -1161,13 +1161,13 @@ Flutter 是一个开源的 UI 软件开发工具包，用于创建跨平台的�
 
 [4] https://www.youtube.com/watch?v=VPvVD8t02U8.“Flutter Course for Beginners-37-hour Cross Platform App...-YouTube”.
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_086.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_086.png)
 
 **Prompt：**
 
 可以简单介绍一个 Flutter 的历史和发展方向吗？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_087.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_087.png)
 
 **回答：**
 
@@ -1179,13 +1179,13 @@ Flutter 的发展方向是成为一个全栈的应用开发框架，它不仅可
 
 笔者最开始问的是一个比较宽泛的“如何快速学习”类型的问题，得到的回答包含四个方面。值得注意的是，它能够理解笔者没有前端基础，相应地给出“补课”建议，非常有条理。随后，笔者想要搞清楚它的历史和发展方向，这对于学习它和其他语言之间的关系很有帮助。它能够回答出 Flutter 的初衷是将各个前端语言进行统一。通过它的回答，笔者已经可以理解，Flutter 的出现是为了解决各种操作系统下的前端语言重复开发的成本问题，它的发展是为了减少应用开发者的工作量。紧接着，笔者通过它了解了基本的语法。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_088.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_088.png)
 
 **Prompt：**
 
 Flutter 的基本语法是什么样的？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_089.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_089.png)
 
 **回答：**
 
@@ -1213,19 +1213,19 @@ Dart 的基本语法包括以下内容：
 
 ❑ 异步编程的技巧，如`Future<void> fetchUserOrder() async{...}`或`await fetchUserOrder();`。</void>
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_090.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_090.png)
 
 **Prompt：**
 
 补全 Flutter 代码，实现上下左右四个键对贪吃蛇游戏的控制。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_091.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_092.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_091.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_092.png)
 
 **回答：**
 
 我尝试了一下，给你一个可能的代码片段，你可以在你的代码中加入或修改它。请注意，这只是一个简单的示例，可能不是最优或最完善的解决方案，你可能需要根据你的具体需求和设计来调整或优化它。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_093.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_094.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_095.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_093.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_094.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_095.jpg)
 
 在基本语法的基础上，笔者想要尝试应用开发，在这里构建一个贪吃蛇的 Android 应用程序。可以看到，它的输出符合语法，并且对于游戏结束、计分等规则有比较完善的考虑。
 
@@ -1247,7 +1247,7 @@ Dart 的基本语法包括以下内容：
 
 这部分最少应该包含主语、谓语和宾语，为了达到更加细致的效果，我们还可以加入准确的形容词和副词。图 5-1a 展示了“小狗在沙滩上玩小球”的例子，图 5-1b 中展示了“浅黄色柯基在宽阔的沙滩上跳起来玩小球”的例子。这里增加了三个有效信息，分别是狗的颜色和品种、狗的动作、沙滩的形容词，可以看到，图 5-1b 中增加了狗和球的互动性，同时沙滩背景的占比更大一些。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_096.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_096.jpg)
 
 图 5-1 Midjourney 生成关于小狗在沙滩上玩球的图（一）
 
@@ -1259,7 +1259,7 @@ Dart 的基本语法包括以下内容：
 
 以前在拍照的时候，我们需要使用专业的相机，并且需要对不同场景的需求使用不同参数（例如光圈、快门等）。但是在 AIGC 工具中，我们不需要指定这些专业参数，只需要指定对应场景。图 5-2b 增加了“动作捕捉场景”，就可以达到使用摄影器材的效果。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_097.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_097.jpg)
 
 图 5-2 Midjourney 生成关于小狗在沙滩上玩球的图（二）
 
@@ -1273,11 +1273,11 @@ Dart 的基本语法包括以下内容：
 
 最后就是根据我们的使用场景，设定图像的尺寸、比例或者像素等。如果需要做海报，通常要调整纵横比，也要相应地将像素设置为双倍的清晰度。在图 5-4 的例子中，我们使用“--ar 16:9”调整图像的比例为 16:9，使用“--q 2”调整像素为双倍于普通长宽的像素，得到的图像几乎已经可以直接用于主题海报或者广告宣传了。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_098.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_098.jpg)
 
 图 5-3 Midjourney 生成关于元宵节兔子的图（一）
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_099.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_099.jpg)
 
 图 5-4 Midjourney 生成关于元宵节兔子的图（二）
 
@@ -1285,13 +1285,13 @@ Dart 的基本语法包括以下内容：
 
 很多时候，创作者经常面临创意枯竭的局面，在这种情况下当然难以直接使用绘画生成工具来得到满意的作品。那么，不妨换个思路，先让 ChatGPT 为我们设计一套方案！举例来说，如果要以“未来城市”为主题创作绘画作品，我们首先让 ChatGPT 帮我们想象，未来城市这样的画作中应该包含什么元素。请看下面的对话：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_100.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_100.png)
 
 **Prompt：**
 
 以“未来城市”为主题的绘画作品里面应该包含什么样的物品和元素呢？只给出回答，不用展开解释。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_101.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_101.png)
 
 **回答：**
 
@@ -1299,13 +1299,13 @@ Dart 的基本语法包括以下内容：
 
 我们可以根据 ChatGPT 的回答，为这些元素安排一个合理的组合。下面是我们的 Prompt：从仰视的视角看具有太阳能电池板和绿植外墙的高楼大厦，一个女人戴着虚拟现实眼镜，未来主义、环保主义、科幻风。图 5-5 是生成的图片。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_102.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_102.jpg)
 
 图 5-5 Midjourney 生成关于“未来城市”的图片
 
 有时候，也可以省去 ChatGPT 帮助我们想象的步骤，比如直接使用 Midjourney 生成抗病毒的商标图片，使用的 Prompt 为“抗病毒、图标对称、平面风格”。生成的图片如图 5-6a 所示，其中 U4 的盾牌效果最贴合预期。点击“U4”推送大图，随后复制它的链接作为参考图片，增加 Prompt：“3D 的浅黄色玻璃质感盾牌，抗病毒，对称商标，图像权重为 2”（其中--iw 2 用于指定图像权重）。结果如图 5-6b 所示，效果都比较符合预期。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_103.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_103.jpg)
 
 图 5-6 使用 Midjourney 迭代“抗病毒”商标创意图（图 a 用于寻找合适的形象，图 b 在此基础上提升质感和效果）
 
@@ -1315,19 +1315,19 @@ Dart 的基本语法包括以下内容：
 
 使用 Prompt：背景是日本樱花树街道，粉色头发的日本萌妹子，身穿校服，背着书包，需要眼睛比较大。生成的结果如图 5-7 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_104.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_104.jpg)
 
 图 5-7 Midjourney 生成的日本风壁纸
 
 使用 Prompt：夜晚，微光，光线追踪，蘑菇房子，饱满的蘑菇，露水，小道，萤火虫，小精灵，微距摄影，大量的细节，质感，毛茸茸，虚化，晶莹剔透，电影色调，丁达尔效应，光斑，游戏场景，概念设定，8K，摄影，错综复杂，超详细，专业照明，虚幻引擎，幻想，概念艺术，锐焦，插图。生成的结果如图 5-8 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_105.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_105.jpg)
 
 图 5-8 Midjourney 生成的蘑菇房壁纸
 
 使用 Prompt：高清，细节多，光线明亮，超高清，远山，背景，夕阳，池塘，绿树。生成的结果如图 5-9 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_106.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_106.jpg)
 
 图 5-9 Midjourney 生成的风景壁纸
 
@@ -1349,7 +1349,7 @@ Dart 的基本语法包括以下内容：
 
 第一步，生成人物全身照。使用 Prompt：一个大眼睛的、穿着一件蓝色的篮球服的卡通女孩的全身照。生成的结果如图 5-10 所示，其中 U4 的结果最符合预期。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_107.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_107.jpg)
 
 图 5-10 Midjourney 生成篮球女孩的图片
 
@@ -1357,13 +1357,13 @@ Dart 的基本语法包括以下内容：
 
 第三步，更换场景。在 Prompt 的地方填上图片链接，并增加其他词语进行控制。图 5-11 展示了该形象在篮球场（图 5-11a）和骑自行车（图 5-11b）两个场景下的图片。其中，图 5-11a 使用的 Prompt 为“图片网址+篮球比赛，明亮的篮球场背景，迪士尼盲盒风格，精细的光泽”，图 5-11b 使用的 Prompt 为“图片网址+骑自行车，明亮的篮球场背景，迪士尼盲盒风格，精细的光泽”。可以看到，这些图片都很好地保留了图 5-10 中 U4 的人物特征，辫子、短裤、袜子和瞳孔、五官比例都比较统一。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_108.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_108.jpg)
 
 图 5-11 Midjourney 生成篮球女孩的不同场景
 
 第四步，系列表情。除了不同的动作场景，我们还可以使用原始的标准形象来生成一套表情包，在参考图的网址后面加上指令“表情包，表情列表”就可以达到这个目的（如图 5-12a 所示）。由于表情包属于一次性生成多个图片，为了让机器维持统一的人物形象风格，再显式地指定一次，即人物特征为单马尾、大眼睛的篮球女孩。此外，如果要追求更高程度的一致性，可以直接指定不同动作的若干个通道，如图 5-12b 所示。它的指令为：“六通道分别显示不同姿势”。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_109.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_109.jpg)
 
 图 5-12 Midjourney 生成篮球女孩的不同表情
 
@@ -1371,7 +1371,7 @@ Dart 的基本语法包括以下内容：
 
 对于负责游戏设计工作的用户来说，AIGC 工具提供了一个非常实用的功能，即批量生成风格统一的道具。在 Midjourney 中，对应的指令是“表格”。图 5-13 中展示了两个不同的例子，图 5-13a 的 Prompt 为“五颜六色宝石的游戏表格”，图 5-13b 的 Prompt 为“各种棱柱形的魔法宝石和水晶的设计表格”。可以看到，图 5-13a 中的元素已经可以直接用于设计“连连看”类型的小游戏，图 5-13b 则更加适合作为游戏角色的道具。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_110.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_110.jpg)
 
 图 5-13 Midjourney 生成的道具图列表
 
@@ -1379,7 +1379,7 @@ Dart 的基本语法包括以下内容：
 
 对于故事书的创作者来说，他有时候需要在一个场景中变换人物或者视角，这个时候，维持背景的稳定性就显得非常重要。使用 Midjourney 的以图生图功能，可以达到这个目标。图 5-14 展示了同一个书房背景与不同人物的组合。可以看到，背景中书柜、窗户、台灯、桌子和椅子的相对位置关系和大小关系得到了很好的保持，两个人物各自的形象和穿着也基本保持一致。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_111.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_111.jpg)
 
 图 5-14 Midjourney 背景与人物的叠加，保持了背景的一致性和人物各自的特点
 
@@ -1389,7 +1389,7 @@ Dart 的基本语法包括以下内容：
 
 比如一个潮男形象，使用 Prompt：高画质，最高质量，个性张扬，另类，挑染，最高清晰度，晕染，渐变，黑白灰色调，酷，皮夹克，高冷，男性，暗黑，少年，毛衣，忧郁，凌乱的头发，凌厉的眼神，飞舞的发丝，哑色调，白色抽象背景，灰色头发，动态，个人照片。生成的结果如图 5-15 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_112.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_112.jpg)
 
 图 5-15 Midjourney 生成的潮男电商图
 
@@ -1397,11 +1397,11 @@ Dart 的基本语法包括以下内容：
 
 比如一个美女形象，使用 Prompt：pixiv 艺术品，精美的（写实风格），极致脸蛋，吹弹可破的肌肤，照片级别写实风格，星星般的眼睛，彩虹渐变头发，闪闪发亮的首饰，七彩颜料泼洒背景，穿着显身材的时装，侧面，美丽，极高的质量，身材比例协调，非常漂亮。生成的结果如图 5-17 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_113.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_113.jpg)
 
 图 5-16 Midjourney 生成的少女电商图
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_114.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_114.jpg)
 
 图 5-17 Midjourney 生成的美女电商图
 
@@ -1409,11 +1409,11 @@ Dart 的基本语法包括以下内容：
 
 如果你是要做一个城市相关的海报，要体现高楼大厦和万里晴空的感觉，需要一个底图，则使用 Prompt：夏天，蓝天白云，云上城市，电影照明，体积照明，史诗般的构图，照片写实，非常细节，辛烷渲染，创意，HDR。生成的结果如图 5-19 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_115.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_115.jpg)
 
 图 5-18 Midjourney 生成的情人节活动 banner 图
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_116.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_116.jpg)
 
 图 5-19 Midjourney 生成的海报底图
 
@@ -1425,11 +1425,11 @@ Dart 的基本语法包括以下内容：
 
 以酒店装修为例，使用 Prompt：酒店前台，南洋复古风格，加入丰富的欧式线条建筑，色调沉稳主色调胡桃木色点缀绿色。生成的结果如图 5-21 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_117.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_117.jpg)
 
 图 5-20 Midjourney 生成的卫生间效果图
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_118.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_118.jpg)
 
 图 5-21 Midjourney 生成的酒店前台效果图
 
@@ -1441,7 +1441,7 @@ Dart 的基本语法包括以下内容：
 
 使用 Prompt：英俊、黑头发的卡通男孩在参加跑步比赛，从开始跑步到结束跑步的 6 通道图，采用宫崎骏的风格。生成的结果如图 5-22 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_119.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_119.jpg)
 
 图 5-22 Midjourney 生成 6 个连续的动作
 
@@ -1451,7 +1451,7 @@ Midjourney 提供了生成视频的指令，以“--vedio”作为 Prompt 的结
 
 注意，使用这一指令得到的视频其实表现的是迭代计算过程中图像的动态变化，因此，这个视频适合作为动画场景切换的过渡画面（比如花的生长、雨的落下等），而不适合作为连续动作等用途。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_120.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_120.jpg)
 
 图 5-23 使用 Midjourney 获取视频
 
@@ -1477,7 +1477,7 @@ Midjourney 提供了生成视频的指令，以“--vedio”作为 Prompt 的结
 
 随后又回到了第一张。打开 After Effects，添加图片之间的过渡动画，就可以得到一个无限循环的动画了。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_121.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_121.jpg)
 
 图 5-24 Dall·E 2 使用向外绘画功能生成的图片，每一张都是上一张图片向外延申的结果
 
@@ -1485,19 +1485,19 @@ Midjourney 提供了生成视频的指令，以“--vedio”作为 Prompt 的结
 
 对于从事 3D 设计行业的用户来说，图像生成工具可以直接生成有质感的 3D 图像。但是在更多的时候，从事这个行业的用户需要更加精细地控制和修改 3D 图像的细节。这就需要使用代码进行控制。虽然 ChatGPT 本身并不直接涉及 3D 建模，但是，它可以与其他技术和工具结合使用来改变 3D 建模的方式，并对设计师和机械行业产生影响。用户可以使用 ChatGPT 来生成 3D 软件的控制代码，从而大幅度提高 3D 建模的工作效率。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_122.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_122.png)
 
 **Prompt：**
 
 给我一个 Blender 代码，在 20 单位的半径中随机添加 100 个可旋转的方块。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_123.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_123.png)
 
 **回答：**
 
 以下是一个使用 Blender Python API 随机添加 100 个可旋转方块的代码示例：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_124.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_125.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_124.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_125.jpg)
 
 这段代码首先设置了 Blender 场景的单位和光标位置，然后定义了 create_cube 函数，用于创建带有随机旋转的方块。接下来的 add_cubes 函数使用循环语句创建 100 个随机位置的方块，并调用 create_cube 函数来将它们添加到场景中。最后，clear_scene 函数用于清除场景中的所有物体，并通过调用 clear_scene 和 add_cubes 来执行整个过程。
 
@@ -1523,11 +1523,11 @@ Prompt 中的不同词语是用逗号分开的，但其实还可以写多重 Pro
 
 在双冒号后面还可以加入权重（不写则为默认值 1），权重也可以是负数，加入负数的权重会抑制元素的出现。如图 5-26a 所示，Prompt 为“生机勃勃的郁金香田”；如图 5-26b 所示，Prompt 为“生机勃勃的郁金香田::红色::-0.5”。可以看到，加入反向 Prompt 抑制了红色的出现。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_126.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_126.jpg)
 
 图 5-25 Midjourney“热狗”生成图对比
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_127.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_127.jpg)
 
 图 5-26 Midjouney 中使用反向 Prompt 前后的对比
 
@@ -1537,13 +1537,13 @@ Prompt 中的不同词语是用逗号分开的，但其实还可以写多重 Pro
 
 在“万能 AI 助手”App 中，单击其中的“绘图”功能，选择“图生图”（图 5-27a），上传儿童画照片（图 5-27b），在“补充描述”中写入期望让图片变成的效果。比如“画作描述一个，武侠世界，在空中两人追逐”。滑动页面设置其他参数，特别是“选择风格”，比如我们选择“水墨”风格（图 5-27c），然后生成。这样就能获得一张风格鲜明，同时接近成人画的作品，如图 5-28 所示，孩子一定会很惊讶和开心，从而对绘画进一步产生兴趣。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_128.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_128.jpg)
 
 图 5-27 “万能 AI 助手”操作界面
 
 本章系统地介绍了图像类型生成工具的 Prompt 应该如何构成，以及创作的灵感来源应该如何寻找。在这个基础上，我们详细介绍了从各种场景的素材创作到 3D、动图、短视频等高阶的生成玩法，相信可以给大家带来有用的启发。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_129.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_129.jpg)
 
 图 5-28 根据上传照片生成的水墨风格的图片
 
@@ -1575,13 +1575,13 @@ ChatGPT 可以通过对游戏角色进行训练和学习，生成自然语言对
 
 针对游戏策划阶段，使用 ChatGPT 可以提高撰写游戏脚本中的台词模块的效率。下面是一个具体示例。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_130.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_130.png)
 
 **Prompt：**
 
 你是一位魔法师，我向你请教一套时空穿梭的魔法，你认为需要考验我通过才愿意传授，请拟写对应的回答话术。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_131.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_131.png)
 
 **回答：**
 
@@ -1591,13 +1591,13 @@ ChatGPT 可以通过对游戏角色进行训练和学习，生成自然语言对
 
 ChatGPT 可以通过阅读大量的小说和电影剧本，来生成游戏故事情节。在这个过程中，ChatGPT 必须能够识别剧情的关键点并根据它生成与该游戏环境相关的情节。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_132.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_132.png)
 
 **Prompt：**
 
 你是一位游戏编剧，现在需要一个古代故事，大将军征战沙场的故事，请写出 500 字的剧情梗概。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_133.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_133.png)
 
 **回答：**
 
@@ -1617,7 +1617,7 @@ ChatGPT 可以通过阅读大量的小说和电影剧本，来生成游戏故事
 
 可以使用以下 Prompt 定义角色：设定几个冒险游戏的游戏角色以及他们的性格和台词。这一类 Prompt 特别适合去定义游戏中的 NPC 角色。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_134.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_134.png)
 
 **Prompt：**
 
@@ -1655,7 +1655,7 @@ ChatGPT 可以通过阅读大量的小说和电影剧本，来生成游戏故事
 
 ChatGPT 可以根据游戏中的文字和语音数据分析玩家的情感状态和意图，从而对玩家的行为作出相应的反应，如传达希望和同情的情感等。这可以让玩家更好地享受游戏中的互动，得到更好的情感体验。比如我们可以使用：“将下面的文本分类为正面、负面或中性情感，不需要额外的分析和解释：”，再加上想要分析的文本即可。举一个例子。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_135.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_135.png)
 
 **Prompt：**
 
@@ -1663,7 +1663,7 @@ ChatGPT 可以根据游戏中的文字和语音数据分析玩家的情感状态
 
 老铁 666
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_136.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_136.png)
 
 **回答：**
 
@@ -1673,7 +1673,7 @@ ChatGPT 可以根据游戏中的文字和语音数据分析玩家的情感状态
 
 ChatGPT 可以将游戏中的文字和语音翻译成多种语言，如英语、日语、韩语等，从而使得世界不同国家和地区的用户能够更好地进行游戏互动。翻译的 Prompt 例子可以是“请将给定的游戏台词翻译成地道的英语：”，然后加上想要翻译的游戏台词。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_137.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_137.png)
 
 **Prompt：**
 
@@ -1681,7 +1681,7 @@ ChatGPT 可以将游戏中的文字和语音翻译成多种语言，如英语、
 
 “果然，先爱上的那个人，是输家。”
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_138.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_138.png)
 
 **回答：**
 
@@ -1689,7 +1689,7 @@ ChatGPT 可以将游戏中的文字和语音翻译成多种语言，如英语、
 
 有时候 ChatGPT 会给出额外的解释，这个时候可以用“请将给定的游戏台词翻译成地道的英语，不给出额外的解释和分析：”来去掉不必要的信息。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_139.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_139.png)
 
 **Prompt：**
 
@@ -1697,7 +1697,7 @@ ChatGPT 可以将游戏中的文字和语音翻译成多种语言，如英语、
 
 若轻云之蔽日，若流风之回雪。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_140.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_140.png)
 
 **回答：**
 
@@ -1711,13 +1711,13 @@ ChatGPT 可以通过对玩家的行为进行数据分析，判断下一步可能
 
 那么我们可以通过 ChatGPT 来得到能够实现我们目标功能的 Prompt：“生成一些能够实现这个功能的 Prompt，”，再加上我们想要的场景。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_141.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_141.png)
 
 **Prompt：**
 
 生成一些能够实现这个功能的 Prompt，例如，当玩家在游戏中陷入困境时，ChatGPT 可以通过分析他们的行为和游戏状态来提供有用的提示。例如，如果玩家一直在同一区域徘徊而没有进展，ChatGPT 可以建议他们探索其他区域或查找隐藏的道路；如果玩家在攻击敌人时遇到困难，ChatGPT 可以建议他们尝试使用不同的武器或技能，并提供相应的提示和建议；如果玩家在解谜游戏中卡住了，ChatGPT 可以提供一些提示，以帮助他们找到正确的解决方案。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_142.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_142.png)
 
 **回答：**
 
@@ -1751,13 +1751,13 @@ ChatGPT 可以在游戏中训练新手，教导如何玩游戏，并向玩家传
 
 例如，我们可以通过 Prompt——“设计游戏中新玩家刚登录的引导词，你的名字是 Assistant”来让 ChatGPT 生成新玩家的引导词。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_143.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_143.png)
 
 **Prompt：**
 
 设计游戏中新玩家刚登录的引导词，你的名字是 Assistant。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_144.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_144.png)
 
 **回答：**
 
@@ -1801,13 +1801,13 @@ ChatGPT 擅长于数据分析。它可以利用在游戏中收集的大量数据
 
 以下是关于游戏经济系统的例子。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_145.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_145.png)
 
 **Prompt：**
 
 如何设计一个游戏的经济系统以最大化收入并同时保持平衡？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_146.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_146.png)
 
 **回答：**
 
@@ -1849,7 +1849,7 @@ ChatGPT 可以生成非线性的游戏情节，从而大大增加游戏的可玩
 
 我们可以把这个情景作为描述，加入 Prompt 中，然后再加上：“根据以上情景，开始跟用户进行交互”，这样用户就可以获得和 ChatGPT 进行非线性游戏的交互体验了。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_147.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_147.png)
 
 **Prompt：**
 
@@ -1867,7 +1867,7 @@ ChatGPT 可以生成非线性的游戏情节，从而大大增加游戏的可玩
 
 根据以上情景，开始跟用户进行交互。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_148.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_148.png)
 
 **回答：**
 
@@ -1889,7 +1889,7 @@ ChatGPT 可以生成各种类型的美术设计，包括角色设计、场景设
 
 比如一个国风游戏，需要一个夜晚庭院荷花池的原画。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_149.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_149.png)
 
 **Prompt：**
 
@@ -1897,13 +1897,13 @@ ChatGPT 可以生成各种类型的美术设计，包括角色设计、场景设
 
 生成的夜晚庭院荷花池的原画如图 6-1 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_150.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_150.jpg)
 
 图 6-1 夜晚庭院荷花池的原画
 
 比如一个赛博朋克游戏，需要一个因为核战争导致的灰尘笼罩的未来城市原画。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_151.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_151.png)
 
 **Prompt：**
 
@@ -1911,21 +1911,21 @@ ChatGPT 可以生成各种类型的美术设计，包括角色设计、场景设
 
 生成的未来城市原画如图 6-2、图 6-3、图 6-4 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_152.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_152.jpg)
 
 图 6-2 因为核战争导致的灰尘笼罩的未来城市原画（1）
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_153.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_153.jpg)
 
 图 6-3 因为核战争导致的灰尘笼罩的未来城市原画（2）
 
 比如要设计一个游戏角色，未来科技女性犀利的感觉。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_154.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_154.jpg)
 
 图 6-4 因为核战争导致的灰尘笼罩的未来城市原画（3）
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_155.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_155.png)
 
 **Prompt：**
 
@@ -1933,13 +1933,13 @@ ChatGPT 可以生成各种类型的美术设计，包括角色设计、场景设
 
 设计结果如图 6-5 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_156.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_156.jpg)
 
 图 6-5 未来科技女性犀利的游戏角色
 
 比如要设计一个机甲 NPC。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_157.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_157.png)
 
 **Prompt：**
 
@@ -1947,13 +1947,13 @@ ChatGPT 可以生成各种类型的美术设计，包括角色设计、场景设
 
 设计结果如图 6-6 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_158.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_158.jpg)
 
 图 6-6 机甲 NPC
 
 比如设计一辆在赛车游戏中的道具卡车。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_159.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_159.png)
 
 **Prompt：**
 
@@ -1961,7 +1961,7 @@ ChatGPT 可以生成各种类型的美术设计，包括角色设计、场景设
 
 设计结果如图 6-7 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_160.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_160.jpg)
 
 图 6-7 赛车游戏中的道具卡车
 
@@ -1989,13 +1989,13 @@ ChatGPT 可以对社会热点数据进行文本分析，以识别包含“最热
 
 例如：当大多数人谈论有关健身房和器材的话题时，ChatGPT 可以搜索热门话题、健身、压力等主题的创意知识点，每个话题的开放性以及潜在的受众人数。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_161.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_161.png)
 
 **Prompt：**
 
 你是一位健身和器材博主，请研究一下目前这个主题下最火的文章标题、社会热点新闻，请整理 10 个给我。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_162.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_162.png)
 
 **回答：**
 
@@ -2027,13 +2027,13 @@ ChatGPT 可以根据自媒体人的搜索历史、阅读偏好以及其他因素
 
 例如，当自媒体人以前搜索了一些有关马拉松的文章时，ChatGPT 可以向他推荐相关的马拉松城市、马拉松赛事等最近的热点新闻。当然这可以根据你经常与 ChatGPT 的对话，让它变成你的信息管家。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_163.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_163.png)
 
 **Prompt：**
 
 最近马拉松圈子有什么热点？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_164.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_164.png)
 
 **回答：**
 
@@ -2057,13 +2057,13 @@ ChatGPT 可以对社交媒体普及度和关注度进行数据分析，以识别
 
 总之，通过帮助自媒体人找到最新、最热的社会热点，ChatGPT 可以协助自媒体人创造出更具有吸引力的、有创意的内容，提高其受众关注度和网站流量。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_165.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_165.png)
 
 **Prompt：**
 
 请把 2023 年 1 月 27 日娱乐圈最火的 5 个热点事件汇总发给我。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_166.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_166.png)
 
 **回答：**
 
@@ -2087,13 +2087,13 @@ ChatGPT 可以辅助自媒体人做活动策划，列举如下。
 
 ChatGPT 可以通过与自媒体人的对话，了解企划活动的目的、主题，以及目标读者群的兴趣爱好等方面的信息，根据这些信息推荐合适的活动主题。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_167.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_167.png)
 
 **Prompt：**
 
 我要举办一个小米手机周年庆粉丝抽奖活动，请列出 5 个活动主题。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_168.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_168.png)
 
 **回答：**
 
@@ -2113,13 +2113,13 @@ ChatGPT 可以通过与自媒体人的对话，了解企划活动的目的、主
 
 ChatGPT 可以向自媒体人推荐一些宣传活动的模板和设计方案，或者推荐一些社交媒体广告平台，并提供一些宣传文案和标语供自媒体人使用。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_169.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_169.png)
 
 **Prompt：**
 
 我要举办一个小米手机周年庆粉丝抽奖活动，活动时间是 2023 年 1 月 1 日至 1 月 20 日，请写出一个策划案，包括：活动规则、活动安排、推广方式和渠道等。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_170.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_170.png)
 
 **回答：**
 
@@ -2173,13 +2173,13 @@ ChatGPT 可以向自媒体人推荐一些宣传活动的模板和设计方案，
 
 总之，通过帮助自媒体人找到对标内容，ChatGPT 可以帮助他更好地升级自己的内容质量，提高读者的阅读体验，增加网站流量并拓展自己的粉丝群。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_171.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_171.png)
 
 **Prompt：**
 
 给我提供关于 ChatGPT 创建内容的一些具体案例，并给出详细出处和链接。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_172.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_172.png)
 
 **回答：**
 
@@ -2207,13 +2207,13 @@ ChatGPT 可以向自媒体人推荐一些宣传活动的模板和设计方案，
 
 ChatGPT 可以为自媒体人分析和比较竞争对手的文章和关键词，为自媒体人提供参考和灵感，帮助他们优化文章。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_174.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_174.png)
 
 **Prompt：**
 
 我的文章标题《“淄博烧烤”走红带动当地民宿行业》，请为了更高的阅读量，进行标题的关键词优化。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_175.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_175.png)
 
 **回答：**
 
@@ -2235,13 +2235,13 @@ ChatGPT 能直接根据你的主题、梗概、大纲写文章。ChatGPT 也能�
 
 **示例一**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_176.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_176.png)
 
 **Prompt：**
 
 写 5 个标题，主题是自媒体人如何利用 ChatGPT 创建内容？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_177.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_177.png)
 
 **回答：**
 
@@ -2259,13 +2259,13 @@ ChatGPT 能直接根据你的主题、梗概、大纲写文章。ChatGPT 也能�
 
 **示例二**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_178.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_178.png)
 
 **Prompt：**
 
 我要写一篇文章，主题是：自媒体人员如何利用 ChatGPT 创建内容？请帮我列一个文章大纲。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_179.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_179.png)
 
 **回答：**
 
@@ -2321,13 +2321,13 @@ C.临近未来：ChatGPT 与人类创意写作的“友谊之路”
 
 **示例三**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_180.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_180.png)
 
 **Prompt：**
 
 以小红书爆款文章的风格改写标题“自媒体人如何利用 ChatGPT 创建内容？”，给出 5 个推荐。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_181.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_181.png)
 
 **回答：**
 
@@ -2345,7 +2345,7 @@ C.临近未来：ChatGPT 与人类创意写作的“友谊之路”
 
 **示例四**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_182.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_182.png)
 
 **Prompt：**
 
@@ -2353,7 +2353,7 @@ C.临近未来：ChatGPT 与人类创意写作的“友谊之路”
 
 人工智能是计算机科学的一个分支，它企图了解智能的实质，并生产出一种新的能以人类智能相似的方式做出反应的智能机器，该领域的研究包括机器人、语言识别、图像识别、自然语言处理和专家系统等。人工智能从诞生以来，理论和技术日益成熟，应用领域也不断扩大，可以设想，未来人工智能带来的科技产品，将会是人类智慧的“容器”。人工智能可以对人的意识、思维的信息过程进行模拟。人工智能不是人的智能，但能像人那样思考，也可能超过人的智能。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_183.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_183.png)
 
 **回答：**
 
@@ -2363,13 +2363,13 @@ C.临近未来：ChatGPT 与人类创意写作的“友谊之路”
 
 **示例五**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_184.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_184.png)
 
 **Prompt：**
 
 创建一篇微信公众号文章，主题是“自媒体人如何利用 ChatGPT 创建内容？”，以通俗易懂的风格来写作，以第一人称来写，多用主动句式，字数为 800 字。这篇文章是给 ChatGPT 初学者看的，要简洁易懂。每个段落要添加标题和副标题，标题要有创意，能吸引人。文章最少要有三部分，包括关键词：ChatGPT、自媒体、提示词、效率提升。同时为这篇微信公众号文章创建一个 100 字以内的文章摘要。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_185.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_185.png)
 
 **回答：**
 
@@ -2425,13 +2425,13 @@ ChatGPT 可以助力自媒体人开展创意思考，提供新鲜、个性化的
 
 另外，ChatGPT 可以帮助化繁为简，简化短视频脚本的框架结构，使它更易于理解和掌握。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_186.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_186.png)
 
 **Prompt：**
 
 自媒体人正在撰写一份关于上海市的纪实短视频脚本，可以帮助细化重点，使短视频内容更能突出主题。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_187.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_187.png)
 
 **回答：**
 
@@ -2455,13 +2455,13 @@ ChatGPT 可以协助自媒体人对文章或者产品进行思考，评论出自
 
 例如：自媒体人写了一篇有关某种旅游方式的文章，ChatGPT 可以帮助他润色该文章，优化语言表达风格，增强内容的可读性。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_188.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_188.png)
 
 **Prompt：**
 
 针对“爬北京长城的旅游感受”，给我写出 10 条评论。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_189.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_189.png)
 
 **回答：**
 
@@ -2493,13 +2493,13 @@ ChatGPT 可以帮助自媒体人提供针对性的解答，针对不同的客户
 
 同时，ChatGPT 也可以确定字数、句式、文本风格等因素，使话术更简单易读，使客户与客服之间的交流更顺畅。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_190.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_190.png)
 
 **Prompt：**
 
 你是一位客服人员，有人咨询“苹果手机如何下载软件”，请用尽量通俗易懂的语言，并分要点回答。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_191.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_191.png)
 
 **回答：**
 
@@ -2533,13 +2533,13 @@ ChatGPT 可以帮助自媒体人提供针对性的解答，针对不同的客户
 
 ChatGPT 可以根据输入的关键词，自动生成与关键词相关的行业研究报告，包括行业背景、市场概述、技术创新、前景预测等方面。同时，它也可以针对行业趋势的变化、竞争格局等问题提供有针对性的见解。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_192.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_192.png)
 
 **Prompt：**
 
 请针对养老行业，给我一个行业报告，包括市场情况、技术创新、前景预测、政策机会等。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_193.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_193.png)
 
 **回答：**
 
@@ -2567,13 +2567,13 @@ ChatGPT 可以根据输入的关键词，自动生成与关键词相关的行业
 
 企业在开展竞品分析时，可以利用 ChatGPT 输入竞争对手的名称、核心产品或者特点等关键词，并根据需求生成针对性的竞品分析报告。此外，ChatGPT 还能帮助企业对比不同竞争对手的优劣势，为企业制定战略提供有力支持。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_194.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_194.png)
 
 **Prompt：**
 
 请做个竞品分析，分析在汉堡领域，麦当劳和汉堡王各自的优劣势是什么？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_195.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_195.png)
 
 **回答：**
 
@@ -2615,13 +2615,13 @@ ChatGPT 用于市场调研，有如下优势。
 
 下面来看一个实际案例。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_196.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_196.png)
 
 **Prompt：**
 
 请帮我写一份关于中国短视频行业的分析报告，要求包括市场规模、平台竞争、用户画像和商业模式。同时，详细分析中国短视频行业的市场规模和增长趋势、参与者和竞争格局、风险和机会。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_197.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_197.png)
 
 **回答：**
 
@@ -2659,7 +2659,7 @@ ChatGPT 用于市场调研，有如下优势。
 
 我们知道企业级的报告很讲究形式，大家喜欢看表，所以你可以让 ChatGPT 以表格的形式进行呈现。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_198.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_198.png)
 
 **Prompt：**
 
@@ -2667,7 +2667,7 @@ ChatGPT 用于市场调研，有如下优势。
 
 品牌|成立时间|公司描述
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_199.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_199.png)
 
 **回答：**
 
@@ -2697,13 +2697,13 @@ ChatGPT 用于市场调研，有如下优势。
 
 品牌定位，于公司而言，包括公司名称、公司口号、使命愿景价值观等，于产品或业务而言，包括产品名称、产品口号、卖点等。这些内容的产出往往需要大量的备选方案，以往通过多人头脑风暴和策划者几个通宵来产生，ChatGPT 很擅长这样的工作，而且能通过上下文和多轮对话，进一步理解你的思路从而提供高质量的结果。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_200.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_200.png)
 
 **Prompt：**
 
 我正在创办一个新的服装品牌，为平面设计师销售 T 恤衫。根据以下专家的意见，给我 5 个品牌名称的想法：Alexandra Watkins, Brad Flowers。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_201.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_201.png)
 
 **回答：**
 
@@ -2735,13 +2735,13 @@ ChatGPT 用于市场调研，有如下优势。
 
 ### **8.3.1 做营销日历**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_202.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_202.png)
 
 **Prompt：**
 
 和女性有关的节日有哪些？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_203.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_203.png)
 
 **回答：**
 
@@ -2759,13 +2759,13 @@ ChatGPT 用于市场调研，有如下优势。
 
 ChatGPT 能整理各大传播渠道信息，并利用它很强的分析能力，按各种标准对信息进行排序。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_204.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_204.png)
 
 **Prompt：**
 
 我要进行樱花节活动宣传，给我列出 10 个宣传渠道，并按推荐顺序排序且说明原因。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_205.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_205.png)
 
 **回答：**
 
@@ -2795,13 +2795,13 @@ ChatGPT 能整理各大传播渠道信息，并利用它很强的分析能力，
 
 创意罗列，也称头脑风暴，是比较费神费脑的事情，对人来说是一种负担，但对 ChatGPT 来说则是小菜一碟。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_206.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_206.png)
 
 **Prompt：**
 
 给我 6 个推广笔记本电脑的营销活动的创意想法。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_207.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_207.png)
 
 **回答：**
 
@@ -2823,13 +2823,13 @@ ChatGPT 能整理各大传播渠道信息，并利用它很强的分析能力，
 
 ChatGPT 有很强的文字扩写能力，当你把“骨架”搭建完毕后，它可以针对每个要点进行扩写。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_208.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_208.png)
 
 **Prompt：**
 
 请针对上面提到的“游戏比赛”进行方案细化，包括未来 6 个月的传播渠道、传播内容、核心主题、事件营销活动，每个内容都要展开。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_209.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_209.png)
 
 **回答：**
 
@@ -2869,13 +2869,13 @@ ChatGPT 有很强的文字扩写能力，当你把“骨架”搭建完毕后，
 
 ❑ 我想开发一款产品，如果你是用户，列举出你最需要的一个功能。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_210.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_210.png)
 
 **Prompt：**
 
 我想开发一款在线教育平台产品，目标用户是小学生及其家长，请帮我细化用户需求、产品价值和需要考虑的约束条件。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_211.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_211.png)
 
 **回答：**
 
@@ -2915,13 +2915,13 @@ ChatGPT 有很强的文字扩写能力，当你把“骨架”搭建完毕后，
 
 ❑ 市场条件：你的产品需要有清晰明确的市场定位和竞争优势，分析目标用户的需求和行为，同时需要有有效的市场推广和运营策略，吸引和留住用户。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_212.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_212.png)
 
 **Prompt：**
 
 如果你是一名小学生的家长，你对这个产品最需要的一个功能是什么？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_213.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_213.png)
 
 **回答：**
 
@@ -2935,13 +2935,13 @@ ChatGPT 有很强的文字扩写能力，当你把“骨架”搭建完毕后，
 
 ❑ 根据产品功能定义和竞品调研的情况，从产品经理的角度，指定一款产品的发展策略、获客渠道和合理的 KPI 目标。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_214.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_214.png)
 
 **Prompt：**
 
 我想让你担任产品评审员，深入的调研 iPhone 11 Pro Max，包括优点、缺点、功能，以及与市场上其他产品的比较。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_215.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_215.png)
 
 **回答：**
 
@@ -3017,7 +3017,7 @@ iPhone 11 Pro Max 的缺点：
 
 通过这样的 Prompt，我们就可以更有效地与技术人员沟通产品需求，并为后续的产品开发和测试提供基础。详细示例如下所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_216.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_216.png)
 
 **Prompt：**
 
@@ -3045,11 +3045,11 @@ iPhone 11 Pro Max 的缺点：
 
 5）操作流程描述图。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_217.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_217.png)
 
 **回答：**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_218.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_218.jpg)
 
 ## **9.3 快速写周报**
 
@@ -3075,7 +3075,7 @@ iPhone 11 Pro Max 的缺点：
 
 **示例一**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_219.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_219.png)
 
 **Prompt：**
 
@@ -3089,7 +3089,7 @@ iPhone 11 Pro Max 的缺点：
 
 ❑ 完成推理路径可视化 V1.2 开发。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_220.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_220.png)
 
 **回答：**
 
@@ -3107,7 +3107,7 @@ iPhone 11 Pro Max 的缺点：
 
 **示例二**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_221.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_221.png)
 
 **Prompt：**
 
@@ -3119,7 +3119,7 @@ iPhone 11 Pro Max 的缺点：
 
 ❑ 当前问题：误识别、卡顿、更多功能（翻译、购物等）。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_222.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_222.png)
 
 **回答：**
 
@@ -3167,7 +3167,7 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 在撰写简历的时候，很重要的一点是根据岗位描述、润色过往经历。在现实生活中，如果忽视这一点，往往会导致简历没有针对性，显得不出彩。在使用 ChatGPT 等工具的时候，如果忽视这一点，则往往得不到有针对性的内容。请看下面的例子。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_223.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_223.png)
 
 **Prompt：**
 
@@ -3187,7 +3187,7 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 ❑ 个人评价性格开朗乐观，待人友好，善于与人沟通
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_224.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_224.png)
 
 **回答：**
 
@@ -3203,7 +3203,7 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 可以看到，在这个例子中，ChatGPT 只是给出了一些大方向上的建议，并没有具体地完成润色。下面是改进后的例子。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_225.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_225.png)
 
 **Prompt：**
 
@@ -3235,7 +3235,7 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 润色我的简历：（简历部分同上，省略）
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_226.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_226.png)
 
 **回答：**
 
@@ -3309,19 +3309,19 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 ❑ 为我将这些文档转换成 PDF 格式，并加上水印和密码保护。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_227.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_227.png)
 
 **Prompt：**
 
 对以下文档进行主题分类，并整理成表格记录：《员工手册》《法蓝公司规章制度》《新人福利》《财务部工作职责和组织架构介绍》《财务部盖章申领表》《财务部小额发票自助报销表》《财务部应收款对账表》《财务部大额对公转账申请表》《财务部合同审核记录表》《财务部 2022 年一季度工作总结》《财务部 2022 年二季度工作总结》《财务部 2022 年三季度工作总结》《一季度公司报表》《二季度公司报表》。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_228.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_228.png)
 
 **回答：**
 
 以下是对这些文档的主题分类和表格记录：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_229.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_229.jpg)
 
 ## **9.6 海外推广**
 
@@ -3335,13 +3335,13 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 ❑ 为我找出竞争对手在海外市场的表现，并给出优化建议。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_230.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_230.png)
 
 **Prompt：**
 
 我的产品是智能摄像头，通过物联网连接和搭载端侧智能算法，实现实时、低功耗、准确的公众场合下异常行为识别，包括恐袭、犯罪、突发疾病等。为我撰写一份针对美国市场的产品说明书，包括产品介绍、使用方法、注意事项、维护保养四个模块，突出产品的优势和特色。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_231.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_231.png)
 
 **回答：**
 
@@ -3397,13 +3397,13 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 ❑ 某个产品的功能涉及如下四个子功能，请为各个子功能写测试用例。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_232.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_232.png)
 
 **Prompt：**
 
 你是一位测试工程师，请针对如下功能写测试用例：手机号短信验证登录。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_233.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_233.png)
 
 **回答：**
 
@@ -3465,13 +3465,13 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 **示例一**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_234.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_234.png)
 
 **Prompt：**
 
 你是一位健身教练，我需要一份健身计划，我是 30 岁男性，身高 180 厘米，体重 80 公斤，期望能在 3 个月练出腹肌。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_235.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_235.png)
 
 **回答：**
 
@@ -3573,13 +3573,13 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 **示例二**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_236.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_236.png)
 
 **Prompt：**
 
 我要做一个经典川菜，叫毛血旺，请问怎么做？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_237.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_237.png)
 
 **回答：**
 
@@ -3643,13 +3643,13 @@ c）更多功能：由于语音输入具有较高的灵活性和扩展性，以�
 
 ❑ 对以下文本进行审核，并总结违规原因。如果有需要人工进一步审核的，请标记为待定。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_238.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_238.png)
 
 **Prompt：**
 
 你是一位内容审核官，请对如下内容进行审核，判断是否出现负面内容：从他们对我们商务舱客人的态度，就会有感觉，包括你有什么问题，他也是气势汹汹地走过来，很冷冰冰地跟你说英语，比如有一次我的飞机餐吃完了，想躺下休息，就把餐盘放在旁边，空乘就会过来告诉我说你怎么可以这样。刘先生说：“我的朋友也遇到比如送餐，他（空乘）可能会先服务外国客人，中国客人会慢一点，怎么说呢，也没有到歧视、让你发飙的地步，会非常好地拿捏对你不友善的尺度。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_239.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_239.png)
 
 **回答：**
 
@@ -3687,13 +3687,13 @@ ChatGPT 可以用它对数据的分析能力和有效的算法来生成预测和
 
 ❑ 从报表中提炼出核心观点，对未来的某个细分市场做出预测建议。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_240.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_240.png)
 
 **Prompt：**
 
 请针对以下内容，总结成更加清晰的数据结果：合肥、西安、南昌去年分别以 16.9 万、12.29 万、10.06 万人口增量位列三、四、五位，排在其后的昆明、武汉、郑州去年的人口增量分别为 9.8 万、9.01 万、8.6 万。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_241.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_241.png)
 
 **回答：**
 
@@ -3723,13 +3723,13 @@ ChatGPT 可以通过分析语言的使用场景和上下文，为写商业策划
 
 ❑ 为某个项目写一份商业计划书，面向的群体是社会面的二级投资者。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_242.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_242.png)
 
 **Prompt：**
 
 我要做一个用 ChatGPT 陪老年人聊天，来预防老年痴呆的创业项目，请给我写一个商业计划书。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_243.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_243.png)
 
 **回答：**
 
@@ -3769,13 +3769,13 @@ ChatGPT 可以通过分析语言的使用场景和上下文，为写商业策划
 
 ❑ 公司季度报超预期，以董事会名义向各个股东和投资者发邮件，巩固大家对公司的信心。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_244.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_244.png)
 
 **Prompt：**
 
 我的 App 要发布 3.0 版本，涉及新功能“消息对话”“社区动态”，请帮我写一份电子邮件告知公司全员。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_245.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_245.png)
 
 **回答：**
 
@@ -3839,11 +3839,11 @@ ChatGPT 可以融入客户经理的工作流程中，比如帮助阅读研报做
 
 通过以上的方式，我们可以就可以快速得到一个总结，回答如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_246.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_246.jpg)
 
 图 10-1 AI 分析比亚迪未来的前景
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_247.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_247.png)
 
 **回答：**
 
@@ -3867,13 +3867,13 @@ ChatGPT 还可以提供一系列有关客户会见的建议和指导，帮助客
 
 总而言之，借助 ChatGPT 的帮助，客户经理可以更加系统和有针对性地制订会见客户的计划，并且在会议中展示专业知识、满足客户需求，从而取得更好的销售成果。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_248.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_248.png)
 
 **Prompt：**
 
 我需要跟我的客户做一个股票、保险、基金配置的复盘，这是我们第一次见面，我对客户的情况还不是很了解。他今年 31 岁，从事 IT 行业，在银行存款几十万，请帮我制订一个会见客户的计划，包括地点选择和具体话术。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_249.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_249.png)
 
 **回答：**
 
@@ -3909,7 +3909,7 @@ ChatGPT 还可以提供一系列有关客户会见的建议和指导，帮助客
 
 鉴于此，支行的员工往往需要为不同平台设计不同的文案，会耗费大量的时间。有了 ChatGPT 之后，我们可以输入类似“帮我写一个小红书风格的文案，推广我们××机构的××活动，可以用同义的 Emoji 来替代文本”，从而实现快速出稿。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_250.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_250.png)
 
 **Prompt：**
 
@@ -3917,7 +3917,7 @@ ChatGPT 还可以提供一系列有关客户会见的建议和指导，帮助客
 
 得到的回答如图 10-2 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_251.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_251.jpg)
 
 图 10-2 设计小红书风格的文案
 
@@ -3947,13 +3947,13 @@ ChatGPT 还可以提供一系列有关客户会见的建议和指导，帮助客
 
 比如 ChatGPT 可以帮助生成具体会计准则下的 Python 代码：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_252.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_252.png)
 
 **Prompt：**
 
 请帮我生成一段计算 IFRS 9 会计准则下预期信用损失（Expected Credit Loss）的 Python 代码。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_253.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_253.png)
 
 **回答：**
 
@@ -3963,7 +3963,7 @@ IFRS 9 要求金融机构对金融资产的信用风险进行更加精确的量
 
 以下是一个可能的代码实现。这个简化示例假设有三个阶段，按照 IFRS 9 的规定来计算 ECL。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_254.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_254.jpg)
 
 计算预期信用损失（ECL）。
 
@@ -3979,29 +3979,29 @@ IFRS 9 要求金融机构对金融资产的信用风险进行更加精确的量
 
 返回：float，预期信用损失。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_255.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_255.jpg)
 
 请注意，这个代码示例是非常简化的。在实际环境中，可能需要考虑许多其他因素，如宏观经济变量、债务人特定的信息等，以更准确地计算预期信用损失。请在使用此代码的基础上进行适当的修改和测试，以确保它满足您的具体需求和法规要求。
 
 然后我们还可以很快地把这段代码变成 VBA 的语言。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_256.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_256.png)
 
 **Prompt：**
 
 请帮我把这段 Python 代码转换成 VBA 代码。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_257.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_257.png)
 
 **回答：**
 
 当然！以下是上述 Python 代码的 VBA 版本。这个代码段可以被插入 Excel 的 VBA 编辑器中，并且可能被用于一个更广泛的金融分析工作簿中。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_258.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_258.jpg)
 
 你可以通过在 Excel 中输入一个公式来调用这个函数，例如：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_259.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_259.jpg)
 
 这个函数会返回预期信用损失值。同样地，请注意这是一个非常简化的示例，可能需要进一步定制以满足你的具体需求和合规要求。
 
@@ -4009,13 +4009,13 @@ IFRS 9 要求金融机构对金融资产的信用风险进行更加精确的量
 
 下面是一个简单示例，Prompt 如图 10-3 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_260.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_260.jpg)
 
 图 10-3 做信贷审批报告
 
 回答如图 10-4 所示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_261.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_261.jpg)
 
 图 10-4 信贷审批报告结果
 
@@ -4041,13 +4041,13 @@ IFRS 9 要求金融机构对金融资产的信用风险进行更加精确的量
 
 我们可以通过 ChatGPT 来实现这个过程。例如以下情景，我们通过输入“客户连续两个月没有进行贷款还款，请帮我生成一段催收的短信，要有礼貌且不违反法律”，可以得到一个兼顾客户情绪、银行利益的催收短信模板。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_262.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_262.png)
 
 **Prompt：**
 
 客户连续两个月没有进行贷款还款，请帮我生成一段催收的短信，要有礼貌且不违反法律。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_263.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_263.png)
 
 **回答：**
 
@@ -4069,19 +4069,19 @@ IFRS 9 要求金融机构对金融资产的信用风险进行更加精确的量
 
 我们可以让 ChatGPT 帮我们写量化交易策略。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_264.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_264.png)
 
 **Prompt：**
 
 编写一个量化交易的均值回归策略的 Python 代码。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_265.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_265.png)
 
 **回答：**
 
 以下是一个简单的均值回归策略的量化交易 Python 代码示例：
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_266.jpg)![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_267.jpg)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_266.jpg)![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_267.jpg)
 
 请注意，此示例代码仅供参考，并不包含完整的交易实现和必要的风险管理措施。在实际应用中，你可能需要进行更多的数据预处理、调整策略参数、添加交易规则和风控等步骤。此外，你还需要考虑交易成本、滑点、停止损益和其他因素来完善策略。请务必在实际应用前进行充分的策略测试和风险评估。
 
@@ -4099,13 +4099,13 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 下面是一个利用 ChatGPT 帮助金融机构编写微电影剧本的例子。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_268.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_268.png)
 
 **Prompt：**
 
 帮我为招商银行信用卡中心编写微电影剧本。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_269.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_269.png)
 
 **回答：**
 
@@ -4191,13 +4191,13 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 以下是一个打造智能客服人设的 Prompt 例子。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_270.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_270.png)
 
 **Prompt：**
 
 帮我写一个打造金融行业智能客服人设的例子，客服名字是金融助手小花，字数 200 字。给出人设名称和角色描述。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_271.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_271.png)
 
 **回答：**
 
@@ -4213,7 +4213,7 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 小花的目标是为客户提供便捷、高效和个性化的金融服务，使他们在金融决策中感到更加自信和放心。她不仅仅是一名智能助手，更是客户的金融导师和信赖的伙伴，与客户共同成长和取得财务成功。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_272.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_272.png)
 
 **Prompt：**
 
@@ -4231,7 +4231,7 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 帮忙回答以下问题：我想要办理储蓄业务。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_273.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_273.png)
 
 **回答：**
 
@@ -4287,25 +4287,25 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 在下面的例子中，我们最开始的提问是概括论文的核心观点。在第二轮问答中，我们自然而然地希望了解作者为了论证这个观点进行的实验设计。从回复中我们了解到，第一是迭代剪枝算法的适用范围，第二是 MNIST 和 CIFAR10 数据集相对比较简单，作为论证来说不是特别充分。我们进一步提问这篇论文能够从什么方向上改进。从第三次回复中可以看到，迭代剪枝这个方法的适用性有待提高，稀疏子网络方法的本质也有待进一步挖掘。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_274.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_274.png)
 
 **Prompt：**
 
 用一句话概括论文“The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks”（作者：Jonathan Frankle 和 Michael Carbin）的核心观点。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_275.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_275.png)
 
 **回答：**
 
 这篇论文提出了“彩票假说”，即稠密的随机初始化的神经网络中存在一些稀疏的子网络（“中奖彩票”），它们具有特别有效的初始权重，可以单独训练并达到与原网络相当甚至更高的测试准确率。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_276.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_276.png)
 
 **Prompt：**
 
 论文是如何论证这个观点的？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_277.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_277.png)
 
 **回答：**
 
@@ -4317,13 +4317,13 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 ❑ 分析了中奖彩票的初始化权重和结构特征，探讨了它们为什么能够有效地训练。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_278.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_278.png)
 
 **Prompt：**
 
 这篇论文的论证方法有什么优点，有什么局限呢？如果有局限，可以从什么方向上改进呢？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_279.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_279.png)
 
 **回答：**
 
@@ -4351,13 +4351,13 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 在下面的例子中，New Bing 给出了三个具有研究潜力的课题，同时对该课题下的现有方法进行了比较。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_280.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_280.png)
 
 **Prompt：**
 
 给出这个主题的三个未解决的问题：人工智能在教育中的应用。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_281.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_281.png)
 
 **回答：**
 
@@ -4369,13 +4369,13 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 ❑ 人工智能如何与教师和学生建立良好的互动和信任？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_282.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_282.png)
 
 **Prompt：**
 
 针对第一个问题，请总结三个具有代表性的论文或者案例，在这些例子中，它们的评估方法各有什么优劣？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_283.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_283.png)
 
 **回答：**
 
@@ -4401,13 +4401,13 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 下面是一个让 New Bing 拟标题的例子，通过这个例子，我们可以看到 New Bing 的总结能力较强。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_284.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_284.png)
 
 **Prompt：**
 
 根据论文相关内容（主题：人工智能在教育中的应用。方法：文献综述和案例分析。结果：人工智能在教育中有提高效率、个性化、普惠等优势，但也面临技术、伦理、社会等挑战。结论：人工智能在教育中有巨大的潜力和价值，但也需要注意规范和平衡其发展和应用），给出一个合适的标题。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_285.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_285.png)
 
 **回答：**
 
@@ -4415,13 +4415,13 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 除了总结之外，科研人员也可以尝试让 New Bing 起草论文的局部内容。值得注意的是，相比直接生成全篇论文，交互式、模块化地生成局部内容然后进行拼接得到的论文质量更高。对比下面两个 Prompt 得到的不同结果。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_286.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_286.png)
 
 **Prompt：**
 
 写关于聚类的综述。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_287.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_287.png)
 
 **回答：**
 
@@ -4433,13 +4433,13 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 [3] 常用聚类算法综述.知乎.https://zhuanlan.zhihu.com/p/78382376.
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_288.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_288.png)
 
 **Prompt：**
 
 写关于聚类的综述，围绕高斯混合分布聚类方法、谱聚类方法和其他较为著名的方法，阐述不同方法背后的数据分布假设以及适用范围，对比不同方法的优劣。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_289.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_289.png)
 
 **回答：**
 
@@ -4467,25 +4467,25 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 ❑ 围绕某个主题总结现有的技术，重点围绕 A 技术和 B 技术。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_290.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_290.png)
 
 **Prompt：**
 
 给一个非计算机科学领域的人简单地介绍深度学习。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_291.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_291.png)
 
 **回答：**
 
 深度学习是人工智能的子领域，它使用多层的神经网络来从大量的数据中学习抽象和复杂的特征和规律，从而实现各种智能任务，比如图像识别、自然语言处理、语音识别等。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_292.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_292.png)
 
 **Prompt：**
 
 列举这个方向三个热门的工作。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_293.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_293.png)
 
 **回答：**
 
@@ -4505,13 +4505,13 @@ ChatGPT 可以与金融机构合作，编写微电影剧本，创造引人入胜
 
 上面这个例子展示的是一个非计算机领域的人和 New Bing 的问答。当代社会，由于各个领域的细分子领域太多、太难，即使是教授、专家也难以全盘掌握。下面这个例子展示的是符号表示学派的学者对深度学习中 Transformer 结构的疑惑和 New Bing 的解答。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_294.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_294.png)
 
 **Prompt：**
 
 Transformer 能表示知识吗？知识还有什么表示方式？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_295.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_295.png)
 
 **回答：**
 
@@ -4529,25 +4529,25 @@ Transformer 是一种深度学习模型，它可以处理序列数据，如自�
 
 ❑ 向量表示：用向量空间来表示知识，如词向量、实体向量等。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_296.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_296.png)
 
 **Prompt：**
 
 有了 Transformer 之后，传统的知识表示方式是否没有价值了？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_297.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_297.png)
 
 **回答：**
 
 我认为传统的知识表示方式仍然有价值，因为它们可以提供更多结构化和逻辑化的知识，而 Transformer 主要是基于统计和神经网络的知识表示。在这个方面，一种可能的方法是将传统的知识表示方式和 Transformer 结合起来，以实现更强大和更灵活的知识表示和使用方式。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_298.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_298.png)
 
 **Prompt：**
 
 我听了陆奇的讲座，他认为知识图谱没有作用，你怎么看？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_299.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_299.png)
 
 **回答：**
 
@@ -4567,13 +4567,13 @@ Transformer 是一种深度学习模型，它可以处理序列数据，如自�
 
 ❑ 评价该论文在领域的学术贡献，是否做出原创性理论或方法，是否对现有理论和方法做出新的阐述，或者是否对现有方法做了改进。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_300.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_300.png)
 
 **Prompt：**
 
 读下面的论文“Natural Language Descriptions of Deep Visual Features”（链接：https://arxiv.org/abs/2201.11114），从期刊评审员的角度审查该论文，批判性地评估论文的研究、方法和结论，并对论文的优点和缺点提出建设性的评价。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_301.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_301.png)
 
 **回答：**
 
@@ -4609,7 +4609,7 @@ ChatGPT 拥有海量数据，并有很强的语义分析能力，所以可以高
 
 ❑ 阅读问题和学生回答，进行批改，引导学生更好地回答问题。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_302.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_302.png)
 
 **Prompt：**
 
@@ -4627,7 +4627,7 @@ ChatGPT 拥有海量数据，并有很强的语义分析能力，所以可以高
 
 三（纲）五（常）；
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_303.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_303.png)
 
 **回答：**
 
@@ -4667,13 +4667,13 @@ ChatGPT 也可以用于组织和管理课堂互动和评估过程。学生可以
 
 比如，一个 ChatGPT 可以告诉学生如何提交作业，如何参加在线课程，或者为备考提供提示和建议。为了满足不同学生的需求和偏好，这些指导可以采用机器学习算法来个性化定制。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_304.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_304.png)
 
 **Prompt：**
 
 老师，请问驾考科目一是什么样的题目类型？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_305.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_305.png)
 
 **回答：**
 
@@ -4713,13 +4713,13 @@ ChatGPT 可以提供丰富的计算和辅助工具，如学术写作辅助、语
 
 ChatGPT 具备强大的语义能力，可以与人进行近乎人类的互动，从而提供精神鼓励、情绪陪伴，帮助学生度过有挑战的学习时光。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_306.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_306.png)
 
 **Prompt：**
 
 老师，为什么英语单词我总是背不会？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_307.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_307.png)
 
 **回答：**
 
@@ -4793,13 +4793,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 借助 ChatGPT 我们可以加速了解行业这个过程，从而更快地帮助我们的客户。下面我们以了解光伏能源行业为例，给大家做一个展示。我们首先要给出一个角色定义的提示词：“我是一个管理咨询师，我想快速了解光伏能源行业。”这个时候 ChatGPT 就会开始进入咨询师的角色来给出它对光伏能源行业的宏观理解。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_308.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_308.png)
 
 **Prompt：**
 
 我是一个管理咨询师，我想快速了解光伏能源行业。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_309.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_309.png)
 
 **回答：**
 
@@ -4819,13 +4819,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 我们可以继续向下挖掘更多的信息，比如：“哪些网站可以帮助我进一步了解这个行业？”“通过哪些资料可以深入了解这个行业？”我们可以一直往下挖到更多的信息来源，从而在和行业专家讨论之前先建立自己的基本框架，让沟通更加高效。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_310.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_310.png)
 
 **Prompt：**
 
 哪些网站可以帮助我进一步了解这个行业？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_311.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_311.png)
 
 **回答：**
 
@@ -4841,13 +4841,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 此外，像财新网、能源拓展网、环球新能源网和太阳能电池网等一些能源行业的门户网站，在提供行业新闻和服务方面也有很深厚的积累和内容优势，你也可以参考这些门户网站来获取相关信息。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_312.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_312.png)
 
 **Prompt：**
 
 通过哪些资料可以深入了解这个行业？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_313.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_313.png)
 
 **回答：**
 
@@ -4867,13 +4867,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 除此之外，ChatGPT 还可以为我们提供各个行业的细分市场、产业分布以及上下游产业。通过这些 Prompt，每一个咨询师都像有了自己的贴身助理一样，帮助自己了解不同行业的关键信息。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_314.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_314.png)
 
 **Prompt：**
 
 光伏行业有哪些细分市场？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_315.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_315.png)
 
 **回答：**
 
@@ -4893,13 +4893,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 总之，随着技术的不断发展，光伏行业的应用领域日趋多样化和细分化，未来还将不断涌现出更多的市场机遇。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_316.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_316.png)
 
 **Prompt：**
 
 全球光伏产业的分布是怎样的？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_317.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_317.png)
 
 **回答：**
 
@@ -4917,13 +4917,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 总体来说，全球光伏市场在分布上非常广泛，各国家和地区也在不断采取各种手段来支持和推动光伏产业的发展，尤其是中国在近年来的快速经济发展和政府支持下，成为全球光伏产业的领跑者。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_318.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_318.png)
 
 **Prompt：**
 
 光伏产业的上下游产业都有哪些？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_319.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_319.png)
 
 **回答：**
 
@@ -4947,13 +4947,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 假设一个汽车制造业的客户现在要在亚洲设立区域中心，我们可以先通过给 ChatGPT 以下提示词，得到一些建议。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_320.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_320.png)
 
 **Prompt：**
 
 我的客户想要在亚洲设立区域总部，客户属于汽车制造业，请问设立在哪个城市是最好的，分析不同城市的优势和劣势。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_321.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_321.png)
 
 **回答：**
 
@@ -4975,13 +4975,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 我们还可以提出很多问题让 ChatGPT 帮我们厘清思路，比如我们可以问：“对于汽车制造业的公司来说，设立区域总部需要考虑的核心问题有哪些？”甚至可以是具体某一个方向上的问题，比如：“在政策和法规方面，有哪些需要了解清楚的点？”“如果我们要在东京建立区域总部，我们可以去和哪些机构对接来获得落地、合规和税务优惠政策支持？”“如果我们要在新加坡建立区域总部，我们可以去和哪些机构对接来获得落地、合规和税务优惠政策支持？”
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_322.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_322.png)
 
 **Prompt：**
 
 对于汽车制造业的公司来说，设立区域总部需要考虑的核心问题有哪些？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_323.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_323.png)
 
 **回答：**
 
@@ -4999,13 +4999,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 总之，设立区域总部需要考虑的因素很多，除了上述几点以外，还需结合企业自身需求、税收成本、人力和公司文化等因素进行综合考量，以达到尽可能优质的运营环境。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_324.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_324.png)
 
 **Prompt：**
 
 在政策和法规方面，有哪些需要了解清楚的点？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_325.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_325.png)
 
 **回答：**
 
@@ -5025,13 +5025,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 总之，在设立区域总部时，需要了解当地的政策和法规情况，确保企业运营合法合规，以避免未来的不必要的风险。在这个过程中，与当地的政府机构、律师、税务师进行沟通和协商也是非常重要的。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_326.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_326.png)
 
 **Prompt：**
 
 如果我们要在东京建立区域总部，我们可以去和哪些机构对接来获得落地、合规和税务优惠政策支持？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_327.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_327.png)
 
 **回答：**
 
@@ -5049,13 +5049,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 这些机构可以在设立区域总部、遵守当地法律法规、享受税务优惠等方面提供相关支持服务，建议您根据具体情况，结合自身需要与当地机构进行接触和沟通。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_328.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_328.png)
 
 **Prompt：**
 
 如果我们要在新加坡建立区域总部，我们可以去和哪些机构对接来获得落地、合规和税务优惠政策支持？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_329.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_329.png)
 
 **回答：**
 
@@ -5067,13 +5067,13 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 当我们敲定方案后，也可以让 ChatGPT 给敲定的方案打个草稿。示例如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_330.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_330.png)
 
 **Prompt：**
 
 我需要用简练的文字向我们从事汽车制造业的客户说明为什么区域总部应该设在上海而不是东京，要给出具体的观点和数据。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_331.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_331.png)
 
 **回答：**
 
@@ -5097,7 +5097,7 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 一个最简单的总结内容的方式是使用以下提示词：“帮我把这些内容总结成关键要点。”详细示例如下。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_332.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_332.png)
 
 **Prompt：**
 
@@ -5109,7 +5109,7 @@ ChatGPT 作为一个大型语言模型，具有自然语言处理、知识管理
 
 ChatGPT 马上就会按照你的指令整理成 PPT 上的关键要点，保留关键信息和数据。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_333.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_333.png)
 
 **回答：**
 
@@ -5139,13 +5139,13 @@ ChatGPT 马上就会按照你的指令整理成 PPT 上的关键要点，保留�
 
 这部分工作也可以“外包”给 ChatGPT。比如通过指令“通过以上数据我们可以得到什么底层逻辑？”，ChatGPT 就可以帮我们分析之前的数据，并且挖掘其中值得关注的关键信息。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_334.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_334.png)
 
 **Prompt：**
 
 通过以上数据我们可以得到什么底层逻辑？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_335.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_335.png)
 
 **回答：**
 
@@ -5163,13 +5163,13 @@ ChatGPT 马上就会按照你的指令整理成 PPT 上的关键要点，保留�
 
 最后，在做报告的时候，我们往往需要打磨 PPT 的大标题和小标题，ChatGPT 也完全可以胜任这部分工作。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_336.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_336.png)
 
 **Prompt：**
 
 请帮我设计下 PPT 的大标题。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_337.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_337.png)
 
 **回答：**
 
@@ -5203,13 +5203,13 @@ ChatGPT 可以在跨国沟通中发挥重要作用。以下是它在跨国沟通
 
 **1.帮助提醒发邮件时要注意的文化差异**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_338.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_338.png)
 
 **Prompt：**
 
 我准备给菲律宾的客户写邮件，沟通下我们的项目进度，有哪些文化差异需要注意？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_339.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_339.png)
 
 **回答：**
 
@@ -5231,13 +5231,13 @@ ChatGPT 可以在跨国沟通中发挥重要作用。以下是它在跨国沟通
 
 **2.用尊重对方使用习惯的方式给客户写英文邮件**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_340.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_340.png)
 
 **Prompt:**
 
 帮我给泰国银行客户写一封英文邮件，介绍什么是 IFRS 9 以及为什么需要我们这样的咨询公司对它的模型进行验证，请注意泰国本地的文化习惯。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_341.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_341.png)
 
 **回答：**
 
@@ -5281,13 +5281,13 @@ Yours sincerely,
 
 **3.出差其他国家需要尊重的文化习惯**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_342.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_342.png)
 
 **Prompt:**
 
 我需要去印度尼西亚共和国（以下简称印尼）出差，请问有什么需要注意的文化习惯吗？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_343.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_343.png)
 
 **回答：**
 
@@ -5311,13 +5311,13 @@ Yours sincerely,
 
 **4.不同国家的团队成员如何提前了解文化差异，调整彼此之间的沟通方式**
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_344.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_344.png)
 
 **Prompt:**
 
 我的团队里有几个来自印度和澳大利亚的同事，这两个国家文化上有什么需要注意的事情？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_345.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_345.png)
 
 **回答：**
 
@@ -5369,13 +5369,13 @@ ChatGPT 可以帮助咨询公司建立数据分析和算法模型，通过该模
 
 ChatGPT 可以通过对大量数据的学习和分析，为咨询公司定制针对性的策略建议。它可以根据产业趋势、客户需求及数据情况，为咨询公司提供数据分析服务，形成全面、有针对性的咨询策略，助力企业的发展和转型。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_346.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_346.png)
 
 **Prompt：**
 
 请对 2020 年前后北京市的人口结构进行分析。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_347.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_347.png)
 
 **回答：**
 
@@ -5441,13 +5441,13 @@ ChatGPT 通过学习客户需求的模式和行业发展的趋势，为客户提
 
 我们可以首先用一个简单的提示词，让 ChatGPT 给学生提供一些标题。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_348.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_348.png)
 
 **Prompt：**
 
 我想写一篇亲情主题的作文，帮我起一个标题。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_349.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_349.png)
 
 **回答：**
 
@@ -5455,13 +5455,13 @@ ChatGPT 通过学习客户需求的模式和行业发展的趋势，为客户提
 
 有了标题之后我们可以进一步帮学生构建写作的思路和框架。我们可以输入以下提示。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_350.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_350.png)
 
 **Prompt：**
 
 我想写一篇作文，标题是：当亲情遇见时光——写在心中的温馨记忆。请帮我构思一个作文大纲。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_351.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_351.png)
 
 **回答：**
 
@@ -5519,13 +5519,13 @@ C.呼吁读者重视和关爱自己的亲人
 
 我们也可以通过 ChatGPT 积累好词好句，学习修辞手法。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_352.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_352.png)
 
 **Prompt：**
 
 我现在在写一篇有关亲情的作文，帮我提供一些作文中可以使用的好词好句，要多用各种修辞手法。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_353.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_353.png)
 
 **回答：**
 
@@ -5585,13 +5585,13 @@ C.呼吁读者重视和关爱自己的亲人
 
 文言文也是一个对于大部分家长和小孩都比较头疼的内容。很多家长的文言文功底其实并不扎实，再加上远离校园，很多文言文知识早就忘记了，如果这个时候辅导孩子功课，可以说是一件让人颇为头疼的事情。如果我们可以借助大语言模型来学习文言文，将事半功倍。以下是使用 ChatGPT 翻译文言文的例子。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_354.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_354.png)
 
 **Prompt：**
 
 将以下文言文翻译成白话文：九月契丹大举入寇时以虏寇深入中外震骇召群臣问方略王钦若临江人请幸金陵陈尧叟阆州人请幸成都帝以问寇准，准曰：“不知谁为陛下画此二策？”帝曰：“卿姑断其可否，勿问其人也。”准曰：“臣欲得献策之人，斩以衅鼓，然后北伐耳！陛下神武，将臣协和，若大驾亲征，敌当自遁；不然，出奇以挠其谋，坚守以老其师，劳佚之势，我得胜算矣。奈何弃庙社，欲幸楚、蜀，所在人心崩溃，敌乘胜深入，天下可复保耶？”帝意乃决，因问准日：“今虏骑驰突，而天雄军实为重镇，万一陷没，则河朔皆虏境也。轨为可守？”准以王钦若荐，且曰：“宜速召面谕，授敕俾行。”钦若至，未及有言，准遽曰：“主上亲征，非臣子辞难之日，参政为国柄臣，当体此意。”钦若惊惧不敢辞。闰月乙亥，以参知政事王钦若判天雄军兼都部署。契丹主隆绪同其母萧氏遣其统军顺国王萧挞览攻威虏、顺安军，三路都部署击败之，斩偏将，获其辎重。又攻北平砦及保州，复为州砦兵所败。挞览与契丹主及其母合众攻定州，宋兵拒于唐河，击其游骑。契丹遂驻兵阳城淀，号二十万，每纵游骑剽掠，小不利辄引去，徜徉无斗志。是时，故将王继忠为契丹言和好之利，契丹以为然，遣李兴议和。帝日：“朕岂欲穷兵，惟思息战。如许通和，即当遣使。”冬十月，遣曹利用诣契丹军。十二月庚辰，契丹使韩杞持书与曹利用俱来，请盟。利用言契丹欲得关南地。帝曰：“所言归地事极无名，若必邀求，朕当决战！若欲货财，汉以玉帛赐单于，有故事，宜许之。”契丹犹觊关南，遣其监门卫大将军姚东之持书复议，帝不许而去。利用竟以银十万两、绢二十万匹成约而还。（节选自《宋史纪事本末·契丹盟好》）
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_355.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_355.png)
 
 **回答：**
 
@@ -5599,7 +5599,7 @@ C.呼吁读者重视和关爱自己的亲人
 
 古诗词鉴赏也可以用 ChatGPT 来解答。比如我们可以给古诗词鉴赏的问题后面加上“请给出以上古诗词鉴赏问题的答题步骤和最终答案。”，那么 ChatGPT 就可以给出准确的答案和答题思路。这样孩子不仅得到了一个答案，还能学会答题的思路和技巧。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_356.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_356.png)
 
 **Prompt：**
 
@@ -5617,7 +5617,7 @@ C.呼吁读者重视和关爱自己的亲人
 
 请给出以上古诗词鉴赏问题的答题步骤和最终答案。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_357.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_357.png)
 
 **回答：**
 
@@ -5655,13 +5655,13 @@ C.呼吁读者重视和关爱自己的亲人
 
 ChatGPT 可以帮我们进行英语语法纠错。比如使用 Prompt：“帮我将这个英语句子的语法错误改正并且给出解释：”再加上有语法错误的句子。以下就是一个具体的例子，可以看到，ChatGPT 不仅可以给出正确的英语表达，而且可以对语法错误的原因进行解释，帮助学生举一反三。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_358.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_358.png)
 
 **Prompt：**
 
 帮我将这个英语句子的语法错误改正并且给出解释：I are happy that you is here.请用中文回答。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_359.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_359.png)
 
 **回答：**
 
@@ -5673,13 +5673,13 @@ ChatGPT 可以帮我们进行英语语法纠错。比如使用 Prompt：“帮�
 
 这样的英语辅导非常个性化，学生完全可以通过它对自己薄弱的地方进行加强。比如，我们可以通过 Prompt“给出十个有语法错误的英语句子”来得到一些错句。再通过另外一个 Prompt“将这十个英语句子的语法错误纠正并且给出具体原因。”来得到正确的句子和解释，从而加深对于英语语法的理解。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_360.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_360.png)
 
 **Prompt：**
 
 给出十个有语法错误的英语句子，将这十个英语句子的语法错误纠正并且给出具体原因。请问中文回答。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_361.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_361.png)
 
 **回答：**
 
@@ -5751,7 +5751,7 @@ Explanation：这里需要使用“have gone”的形式来表示“去过”�
 
 最简单的用法就是直接把作文题目和要求给到 ChatGPT。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_362.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_362.png)
 
 **Prompt：**
 
@@ -5769,7 +5769,7 @@ Yours，
 
 Li Hua
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_363.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_363.png)
 
 **回答：**
 
@@ -5789,7 +5789,7 @@ Li Hua
 
 另外一种用法就是用它来改写孩子的作文。ChatGPT 的写作水平比绝大部分母语是英语的人写得还好。从这个角度来说，ChatGPT 是一个顶级外教，我们应该利用好这个资源。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_364.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_364.png)
 
 **Prompt：**
 
@@ -5823,7 +5823,7 @@ Conclusion:
 
 In conclusion, being a smary online learner is imporant for us middle shcoolers. We should use tools like Gugle for research, be careful with our infomration, avoid plagrasim, and stay focused. By being smart online learners, we can make the most of the Internat and achieve great things.
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_365.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_365.png)
 
 **回答：**
 
@@ -5861,13 +5861,13 @@ In conclusion, becoming smart online learners is vital for us as midd
 
 比如我们可以让它告诉我们：为什么大海是蓝色的？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_366.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_366.png)
 
 **Prompt：**
 
 为什么大海是蓝色的？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_367.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_367.png)
 
 **回答：**
 
@@ -5881,13 +5881,13 @@ In conclusion, becoming smart online learners is vital for us as midd
 
 或者用最简单的语言来解释什么是计算机科学。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_368.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_368.png)
 
 **Prompt：**
 
 用最简单的语言来解释什么是计算机科学？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_369.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_369.png)
 
 **回答：**
 
@@ -5903,13 +5903,13 @@ In conclusion, becoming smart online learners is vital for us as midd
 
 ChatGPT 是一种基于机器学习的人工智能程序，它可以通过分析语言模式和上下文，帮助家长和他们的孩子进行交流和沟通。如果家长想要向他们的孩子讲解一些高深的概念（比如量子力学、黑洞等），但又不知道如何描述清楚，那么他们可以向 ChatGPT 提出问题，ChatGPT 会根据孩子的年龄、学习水平和理解程度，尽量用通俗易懂的语言帮助家长解释这些概念。从而让孩子更容易地理解和学习这些高深的科学知识。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_370.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_370.png)
 
 **Prompt：**
 
 请用通俗易懂的语言，让小朋友明白“量子力学”。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_371.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_371.png)
 
 **回答：**
 
@@ -5919,13 +5919,13 @@ ChatGPT 是一种基于机器学习的人工智能程序，它可以通过分析
 
 学习过程需要技巧，ChatGPT 能链接海量的数据，在短时间内帮你筛选出最优质的技巧，从而让家长在家庭辅导中用巧方法让孩子快速学习，达到事半功倍的结果。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_372.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_372.png)
 
 **Prompt：**
 
 背九九乘法表，有什么技巧？
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_373.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_373.png)
 
 **回答：**
 
@@ -5947,13 +5947,13 @@ ChatGPT 是一种基于机器学习的人工智能程序，它可以通过分析
 
 比如学生需要策划语文课的情景表演，就可以借助 ChatGPT 来得到一些灵感。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_374.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_374.png)
 
 **Prompt：**
 
 帮忙策划一下语文课的情景剧课堂表演，主题是考试不要作弊。要生动活泼。
 
-![](img/Prompt魔法：提示词工程与ChatGPT行业应用_image_375.png)
+![](img/Prompt-魔法：提示词工程与-ChatGPT-行业应用_image_375.png)
 
 **回答：**
 

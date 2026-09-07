@@ -60,7 +60,7 @@ DeepSeek 如同教育领域的魔法钥匙，能够开启教学智能化的全�
 
 DeepSeek 能够通过精准分析学情、智能生成教案与开发创新教学素材，实现备课质效的突破。它能化身“教研员”“资深骨干教师”“学科理论专家”，随时提供专业支持，构建起“1 人+1 机”的高质量教学团队。DeepSeek 可依据学生特点生成针对性学情报告，为分层教学提供依据。还能一键生成结构化教案，并融入多种创新教学活动，大幅提升备课效率与质量。此外，DeepSeek 还能生成各类创新教学素材，如 AI 历史人物、古诗可视化视频、函数闯关游戏、思维导图、统计图表、交互式动画、英语动态绘本以及 3D 模型等，使抽象概念变得生动具体，显著增强学生的学习兴趣。
 
-![](img/DeepSeek教师实战手册_image_002.jpg)
+![](img/DeepSeek-教师实战手册_image_002.jpg)
 
 **图 1-1 DeepSeek 赋能教师的 6 大核心能力**
 
@@ -102,19 +102,19 @@ DeepSeek 在教师专业发展方面能够发挥关键作用，助力教师打�
 
 1）在浏览器中输入 DeepSeek 网址（www.deepseek.com），按回车键访问，即可进入 DeepSeek 官网，如图 1-2 所示。
 
-![](img/DeepSeek教师实战手册_image_003.jpg)
+![](img/DeepSeek-教师实战手册_image_003.jpg)
 
 **图 1-2 访问 DeepSeek 官网**
 
 2）单击“开始对话”，即可弹出 DeepSeek 的注册登录界面，如图 1-3 所示。可选择使用手机号/微信/邮箱注册，建议使用手机号验证码登录，方便快捷，安全性高。
 
-![](img/DeepSeek教师实战手册_image_004.jpg)
+![](img/DeepSeek-教师实战手册_image_004.jpg)
 
 **图 1-3 DeepSeek 注册登录界面**
 
 3）注册并登录后，便进入 DeepSeek 的对话界面，如图 1-4 所示。
 
-![](img/DeepSeek教师实战手册_image_005.jpg)
+![](img/DeepSeek-教师实战手册_image_005.jpg)
 
 **图 1-4 DeepSeek 对话界面**
 
@@ -122,11 +122,11 @@ DeepSeek 在教师专业发展方面能够发挥关键作用，助力教师打�
 
 1）在应用商店搜索 DeepSeek，找到由杭州深度求索科技有限公司研发的 DeepSeek—AI 智能助手，并下载。请注意：在应用商店搜索 DeepSeek 后，会出现许多名称包含 DeepSeek 的第三方工具，要仔细辨别，避免下载其他付费工具或非完整版的 DeepSeek。应用商店检索结果如图 1-5 所示，官方正版 DeepSeek 下载页面如图 1-6 所示。
 
-![](img/DeepSeek教师实战手册_image_006.jpg)
+![](img/DeepSeek-教师实战手册_image_006.jpg)
 
 **图 1-5 应用商店检索结果**
 
-![](img/DeepSeek教师实战手册_image_007.jpg)
+![](img/DeepSeek-教师实战手册_image_007.jpg)
 
 **图 1-6 官方正版 DeepSeek 下载页面**
 
@@ -136,15 +136,15 @@ DeepSeek 在教师专业发展方面能够发挥关键作用，助力教师打�
 
 4）登录后，点击“开启对话”即可进入 DeepSeek 的对话界面（如图 1-9 所示）。
 
-![](img/DeepSeek教师实战手册_image_008.jpg)
+![](img/DeepSeek-教师实战手册_image_008.jpg)
 
 **图 1-7 同意界面**
 
-![](img/DeepSeek教师实战手册_image_009.jpg)
+![](img/DeepSeek-教师实战手册_image_009.jpg)
 
 **图 1-8 手机版注册登录界面**
 
-![](img/DeepSeek教师实战手册_image_010.jpg)
+![](img/DeepSeek-教师实战手册_image_010.jpg)
 
 **图 1-9 手机版 DeepSeek 对话界面**
 
@@ -152,7 +152,7 @@ DeepSeek 在教师专业发展方面能够发挥关键作用，助力教师打�
 
 现在你已经正式进入 DeepSeek 的对话界面。DeepSeek 主要包括三大核心功能区：指令输入区、历史对话区和系统设置区。网页端和手机端的核心功能区位置基本一致，这里以网页端为例。DeepSeek 界面三大核心功能区如图 1-10 所示。
 
-![](img/DeepSeek教师实战手册_image_011.jpg)
+![](img/DeepSeek-教师实战手册_image_011.jpg)
 
 **图 1-10 DeepSeek 界面三大核心功能区**
 
@@ -226,7 +226,7 @@ DeepSeek 不仅支持以文字形式输入指令，还可以单击发送按钮�
 
 指令输入区如图 1-11 所示。
 
-![](img/DeepSeek教师实战手册_image_012.jpg)
+![](img/DeepSeek-教师实战手册_image_012.jpg)
 
 **图 1-11 指令输入区**
 
@@ -240,7 +240,7 @@ DeepSeek 不仅支持以文字形式输入指令，还可以单击发送按钮�
 
 **Tips：**如果你希望 DeepSeek 参考之前的对话内容，可以简要提及之前的讨论；如果你希望 DeepSeek 完全忽略历史消息，也可以在新指令中明确指出这一点，DeepSeek 会根据你的最新提问来回答。
 
-![](img/DeepSeek教师实战手册_image_013.jpg)
+![](img/DeepSeek-教师实战手册_image_013.jpg)
 
 **图 1-12 历史对话区**
 
@@ -250,7 +250,7 @@ DeepSeek 不仅支持以文字形式输入指令，还可以单击发送按钮�
 
 在 DeepSeek 界面中，单击左下角的头像，并单击“系统设置”即可进入设置界面（如图 1-13 所示）。在设置界面，可以设置界面语言和主题，进行账户管理及查看服务协议。
 
-![](img/DeepSeek教师实战手册_image_014.jpg)
+![](img/DeepSeek-教师实战手册_image_014.jpg)
 
 **图 1-13 单击“系统设置”**
 
@@ -298,7 +298,7 @@ DeepSeek 不仅支持以文字形式输入指令，还可以单击发送按钮�
 
 **表 1-1 5W2H+E 通用公式教育场景应用**
 
-![](img/DeepSeek教师实战手册_image_015.jpg)
+![](img/DeepSeek-教师实战手册_image_015.jpg)
 
 注意，大模型（DeepSeek）输出内容的底层逻辑是基于语料进行概率推理，这意味着大模型输出的内容无法做到完全准确，这正是我们使用 5W2H+E 模板的重要原因。提供给 DeepSeek 的指令不同，输出的结果也会不同，只有明确告知 DeepSeek 角色、输出格式、参考示例等信息，才能得到更精准的输出内容。该通用公式中的每一项，都是为了让输出内容更符合你的要求、更精准或更专业。
 
@@ -374,11 +374,11 @@ DeepSeek 不仅支持以文字形式输入指令，还可以单击发送按钮�
 
 精准指令的输出内容如下。
 
-![](img/DeepSeek教师实战手册_image_016.jpg)
+![](img/DeepSeek-教师实战手册_image_016.jpg)
 
 （续）
 
-![](img/DeepSeek教师实战手册_image_017.jpg)
+![](img/DeepSeek-教师实战手册_image_017.jpg)
 
 （2）案例 2：课堂场景通用公式使用示例
 
@@ -598,7 +598,7 @@ AI 技术在创建丰富多彩的教学素材方面展现出巨大潜力，如�
 
 DeepSeek 输出内容如下。
 
-![](img/DeepSeek教师实战手册_image_018.jpg)
+![](img/DeepSeek-教师实战手册_image_018.jpg)
 
 **2.第二步：班级学生数据分析**
 
@@ -616,7 +616,7 @@ DeepSeek 输出内容如下。
 
 DeepSeek 输出内容如下。
 
-![](img/DeepSeek教师实战手册_image_019.jpg)
+![](img/DeepSeek-教师实战手册_image_019.jpg)
 
 **3.第三步：精准学情分析方案生成**
 
@@ -638,7 +638,7 @@ DeepSeek 输出的“浮力”单元精准学情分析方案（部分）如下�
 
 1.学生分层名单（匿名）
 
-![](img/DeepSeek教师实战手册_image_020.jpg)
+![](img/DeepSeek-教师实战手册_image_020.jpg)
 
 2.分层教学重点、难点及策略
 
@@ -772,7 +772,7 @@ DeepSeek 输出内容（部分）如下。
 
 第一步，选择高分辨率的秦始皇肖像图。注意：口部要清晰，便于用 AI 工具让其“说话”。笔者选择图 2-1 作为秦始皇的肖像图。
 
-![](img/DeepSeek教师实战手册_image_021.jpg)
+![](img/DeepSeek-教师实战手册_image_021.jpg)
 
 **图 2-1 秦始皇的肖像图**
 
@@ -804,35 +804,35 @@ DeepSeek 的输出内容如下。
 
 ❑单击右上角的“开启即梦”（如图 2-2 所示），进入即梦 AI 的首页。
 
-![](img/DeepSeek教师实战手册_image_022.jpg)
+![](img/DeepSeek-教师实战手册_image_022.jpg)
 
 **图 2-2 单击“开启即梦”**
 
 ❑进入即梦 AI 首页后，单击首页左下角的“登录”（如图 2-3 所示），选择抖音扫码登录或手机号验证码登录。
 
-![](img/DeepSeek教师实战手册_image_023.jpg)
+![](img/DeepSeek-教师实战手册_image_023.jpg)
 
 **图 2-3 单击左下角的“登录”**
 
 ❑扫码登录后，为了让秦始皇“说话”，单击首页右侧的“数字人”功能（如图 2-4 所示），进入编辑页面。
 
-![](img/DeepSeek教师实战手册_image_024.jpg)
+![](img/DeepSeek-教师实战手册_image_024.jpg)
 
 **图 2-4 单击“数字人”**
 
 ❑在页面左侧“角色”处，导入已下载的秦始皇肖像图。在“快速模式”处，有“大师”（更生动逼真的动效）、“快速”（更快的生成速度）、基础（仅修改人物口型）三个模式的对口型效果，可根据需要选择，这里以“快速模式”为例。单击“音频”，在输入框中输入 DeepSeek 生成的秦始皇台词。在下方可以选择音色和说话速度，此处选择“儒雅大叔”作为秦始皇的声音，说话速度保持原速不变。参数设置情况如图 2-5 和图 2-6 所示。
 
-![](img/DeepSeek教师实战手册_image_025.jpg)
+![](img/DeepSeek-教师实战手册_image_025.jpg)
 
 **图 2-5 选择“快速模式”**
 
-![](img/DeepSeek教师实战手册_image_026.jpg)
+![](img/DeepSeek-教师实战手册_image_026.jpg)
 
 **图 2-6 输入台词，选择音色和说话速度**
 
 ❑各项参数都设置好后，单击右侧图标即可生成视频（注意：即梦 AI 每天都会赠送一定额度的免费积分，每次使用即梦 AI 的功能都会消耗一定积分），等待视频生成后下载即可，如图 2-7 所示。
 
-![](img/DeepSeek教师实战手册_image_027.jpg)
+![](img/DeepSeek-教师实战手册_image_027.jpg)
 
 **图 2-7 下载视频**
 
@@ -888,19 +888,19 @@ DeepSeek 生成的视频脚本如下。
 
 ❑进入即梦 AI 的首页，然后单击页面上方中间位置的“视频生成”（如图 2-8 所示）。
 
-![](img/DeepSeek教师实战手册_image_028.jpg)
+![](img/DeepSeek-教师实战手册_image_028.jpg)
 
 **图 2-8 单击“视频生成”**
 
 ❑在“视频生成”编辑界面，粘贴 DeepSeek 输出的场景 1 的画面描述。“视频模型”可根据个人喜好进行调整，不同模型生成的视频质量也不尽相同。“生成时长”固定为 5 秒，因此仅粘贴场景 1 的描述即可。“视频比例”可根据具体情境进行调整，此处设置为 16∶9。“视频生成”参数设置如图 2-9 所示。
 
-![](img/DeepSeek教师实战手册_image_029.jpg)
+![](img/DeepSeek-教师实战手册_image_029.jpg)
 
 **图 2-9 “视频生成”参数设置**
 
 ❑单击右侧图标，生成完成后即可下载，如图 2-10 所示。
 
-![](img/DeepSeek教师实战手册_image_030.jpg)
+![](img/DeepSeek-教师实战手册_image_030.jpg)
 
 **图 2-10 生成视频后下载**
 
@@ -952,35 +952,35 @@ DeepSeek 生成的视频脚本如下。
 
 DeepSeek 输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_031.jpg)
+![](img/DeepSeek-教师实战手册_image_031.jpg)
 
 第二步：单击“复制”，复制 DeepSeek 生成的 HTML 代码（如图 2-11 所示）。
 
-![](img/DeepSeek教师实战手册_image_032.jpg)
+![](img/DeepSeek-教师实战手册_image_032.jpg)
 
 **图 2-11 复制 DeepSeek 生成的 HTML 代码**
 
 第三步：在计算机中的任意一个文件夹内新建一个文本文档（如图 2-12 所示）。
 
-![](img/DeepSeek教师实战手册_image_033.jpg)
+![](img/DeepSeek-教师实战手册_image_033.jpg)
 
 **图 2-12 新建一个文本文档**
 
 第四步：打开新建的文本文档，粘贴刚才 DeepSeek 生成的 HTML 代码（如图 2-13 所示）。
 
-![](img/DeepSeek教师实战手册_image_034.jpg)
+![](img/DeepSeek-教师实战手册_image_034.jpg)
 
 **图 2-13 粘贴 HTML 代码**
 
 第五步：关闭该文本文档，鼠标右键单击该文本文档，选择“重命名”（如图 2-14 所示）。
 
-![](img/DeepSeek教师实战手册_image_035.jpg)
+![](img/DeepSeek-教师实战手册_image_035.jpg)
 
 **图 2-14 重命名文本文档**
 
 第六步：单击重命名后，可以看到该文本文档的文件名及扩展名（即新建文本文档.txt，如图 2-15 所示）。如果看不到“.txt”，请先按第七步操作；如果能看到，则直接跳到第八步。
 
-![](img/DeepSeek教师实战手册_image_036.jpg)
+![](img/DeepSeek-教师实战手册_image_036.jpg)
 
 **图 2-15 文件名及扩展名**
 
@@ -988,11 +988,11 @@ DeepSeek 输出内容（部分）如下。
 
 第八步：修改文本文档的扩展名，即将“.txt”修改为“.html”，按回车键确定。系统会弹出一个对话框，提示“如果改变文件扩展名，可能会导致文件不可用，确定要更改吗？”单击“确定”，文件的扩展名便修改成功了（修改后如图 2-17 所示）。这样做是为了让浏览器能够将代码解析为可视化的游戏界面。
 
-![](img/DeepSeek教师实战手册_image_037.jpg)
+![](img/DeepSeek-教师实战手册_image_037.jpg)
 
 **图 2-16 显示文件扩展名步骤**
 
-![](img/DeepSeek教师实战手册_image_038.jpg)
+![](img/DeepSeek-教师实战手册_image_038.jpg)
 
 **图 2-17 修改后的状态**
 
@@ -1002,7 +1002,7 @@ DeepSeek 输出内容（部分）如下。
 
 界面效果如图 2-18 所示。
 
-![](img/DeepSeek教师实战手册_image_039.jpg)
+![](img/DeepSeek-教师实战手册_image_039.jpg)
 
 **图 2-18 函数闯关游戏界面**
 
@@ -1014,7 +1014,7 @@ DeepSeek 输出内容（部分）如下。
 
 ● 随机化游戏内容，用户每次重新开始游戏时，3 个任务中的函数参数和正确答案随机生成，并显示相应的函数图像。
 
-![](img/DeepSeek教师实战手册_image_040.jpg)
+![](img/DeepSeek-教师实战手册_image_040.jpg)
 
 **图 2-19 任务 1 完成后的界面**
 
@@ -1024,11 +1024,11 @@ DeepSeek 输出内容（部分）如下。
 
 DeepSeek 的第二版输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_041.jpg)![](img/DeepSeek教师实战手册_image_042.jpg)
+![](img/DeepSeek-教师实战手册_image_041.jpg)![](img/DeepSeek-教师实战手册_image_042.jpg)
 
 第十三步：复制 DeepSeek 生成的第二版 HTML 代码，将刚才的文件扩展名由“.html”改回“.txt”，双击打开文本文档，删除之前的全部代码，粘贴 DeepSeek 生成的第二版 HTML 代码并保存，再将文件扩展名由“.txt”改为“.html”，修改成功后，双击打开即可显示第二版函数闯关游戏，如图 2-20 所示。
 
-![](img/DeepSeek教师实战手册_image_043.jpg)
+![](img/DeepSeek-教师实战手册_image_043.jpg)
 
 **图 2-20 第二版函数闯关游戏**
 
@@ -1056,7 +1056,7 @@ DeepSeek 的第二版输出内容（部分）如下。
 
 DeepSeek 生成的 Mermaid 格式的内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_044.jpg)
+![](img/DeepSeek-教师实战手册_image_044.jpg)
 
 第二步：复制 Mermaid 格式内容。
 
@@ -1064,7 +1064,7 @@ DeepSeek 生成的 Mermaid 格式的内容（部分）如下。
 
 在浏览器地址栏输入 https://app.diagrams.net/并访问 draw.io 官网，进入首页后单击“创建新绘图”（操作界面如图 2-21 所示）。
 
-![](img/DeepSeek教师实战手册_image_045.jpg)
+![](img/DeepSeek-教师实战手册_image_045.jpg)
 
 **图 2-21 draw.io 创建新绘图界面**
 
@@ -1072,7 +1072,7 @@ DeepSeek 生成的 Mermaid 格式的内容（部分）如下。
 
 在弹出窗口中将文档命名为“化学反应类型思维导图”，选择存储路径后，单击“创建”并“保存”（如图 2-22 所示）。
 
-![](img/DeepSeek教师实战手册_image_046.jpg)
+![](img/DeepSeek-教师实战手册_image_046.jpg)
 
 **图 2-22 文档创建与保存界面**
 
@@ -1080,13 +1080,13 @@ DeepSeek 生成的 Mermaid 格式的内容（部分）如下。
 
 单击顶部菜单栏“+”图标，选择“Mermaid...”，即可弹出 Mermaid 代码填写框。其打开操作如图 2-23 所示。
 
-![](img/DeepSeek教师实战手册_image_047.jpg)
+![](img/DeepSeek-教师实战手册_image_047.jpg)
 
 **图 2-23 打开 Mermaid 代码填写框**
 
 清空 Mermaid 代码框的默认内容，粘贴 DeepSeek 输出的 Mermaid 代码，单击“插入”，代码插入操作如图 2-24 所示。
 
-![](img/DeepSeek教师实战手册_image_048.jpg)
+![](img/DeepSeek-教师实战手册_image_048.jpg)
 
 **图 2-24 Mermaid 代码插入操作**
 
@@ -1094,7 +1094,7 @@ DeepSeek 生成的 Mermaid 格式的内容（部分）如下。
 
 单击“插入”后将自动生成思维导图（如图 2-25 所示），可通过拖拽节点调整布局，并可使用右侧格式栏修改颜色、字体等视觉元素。
 
-![](img/DeepSeek教师实战手册_image_049.jpg)
+![](img/DeepSeek-教师实战手册_image_049.jpg)
 
 **图 2-25 自动生成的思维导图**
 
@@ -1102,7 +1102,7 @@ DeepSeek 生成的 Mermaid 格式的内容（部分）如下。
 
 样式修改满意后，单击左上角“文件”→“导出为”，可选择 PNG、SVG、PDF 等格式导出，导出操作如图 2-26 所示。
 
-![](img/DeepSeek教师实战手册_image_050.jpg)
+![](img/DeepSeek-教师实战手册_image_050.jpg)
 
 **图 2-26 导出操作**
 
@@ -1128,7 +1128,7 @@ DeepSeek 生成的 Mermaid 格式的内容（部分）如下。
 
 DeepSeek 生成的 HTML 代码内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_051.jpg)![](img/DeepSeek教师实战手册_image_052.jpg)
+![](img/DeepSeek-教师实战手册_image_051.jpg)![](img/DeepSeek-教师实战手册_image_052.jpg)
 
 第二步：生成并应用图表。
 
@@ -1140,7 +1140,7 @@ DeepSeek 生成的 HTML 代码内容（部分）如下。
 
 下面以《浮力》单元为例，展示生成该类教学素材的实施步骤。
 
-![](img/DeepSeek教师实战手册_image_053.jpg)
+![](img/DeepSeek-教师实战手册_image_053.jpg)
 
 **图 2-27 气候类型数据可视化界面示例**
 
@@ -1160,7 +1160,7 @@ DeepSeek 生成的 HTML 代码内容（部分）如下。
 
 DeepSeek 的输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_054.jpg)![](img/DeepSeek教师实战手册_image_055.jpg)
+![](img/DeepSeek-教师实战手册_image_054.jpg)![](img/DeepSeek-教师实战手册_image_055.jpg)
 
 第二步：复制 DeepSeek 输出的代码，在计算机任意文件夹中新建一个文本文件，粘贴代码并保存，将该文件的扩展名由“.txt”改为“.html”，保存后双击，用任意浏览器打开，即可显示浮力原理 SVG 动画。浮力原理 SVG 动画画面如图 2-28 所示。
 
@@ -1168,7 +1168,7 @@ DeepSeek 的输出内容（部分）如下。
 
 这一方法除用于制作浮力原理的 SVG 动画外，还可用于制作物理、数学、化学、生物、地理，以及信息技术、艺术等学科的 SVG 动画。
 
-![](img/DeepSeek教师实战手册_image_056.jpg)
+![](img/DeepSeek-教师实战手册_image_056.jpg)
 
 **图 2-28 浮力原理 SVG 动画画面**
 
@@ -1234,43 +1234,43 @@ Day 3 周三
 
 第三步：在浏览器地址栏输入豆包 AI 官网的网址：https://www.doubao.com，并访问，操作如图 2-29 所示。
 
-![](img/DeepSeek教师实战手册_image_057.jpg)
+![](img/DeepSeek-教师实战手册_image_057.jpg)
 
 **图 2-29 访问豆包 AI 官方网站**
 
 第四步：在豆包 AI 首页找到并单击右上角的“登录”按钮，即可使用手机号码和短信验证码登录，操作如图 2-30 所示。
 
-![](img/DeepSeek教师实战手册_image_058.jpg)
+![](img/DeepSeek-教师实战手册_image_058.jpg)
 
 **图 2-30 豆包 AI 的登录操作**
 
 第五步：登录后，在界面中找到并单击“图像生成”，即可进入“图像生成”编辑界面，操作如图 2-31 所示。
 
-![](img/DeepSeek教师实战手册_image_059.jpg)
+![](img/DeepSeek-教师实战手册_image_059.jpg)
 
 **图 2-31 进入“图像生成”编辑界面操作**
 
 第六步：在对话框中粘贴 DeepSeek 生成的“Day 1 周一”部分的内容，选择并单击“风格”，滑动鼠标滑轮到最下方，单击“绘本”风格，然后单击“发送”，操作如图 2-32 所示。
 
-![](img/DeepSeek教师实战手册_image_060.jpg)
+![](img/DeepSeek-教师实战手册_image_060.jpg)
 
 **图 2-32 粘贴内容，选择风格**
 
 第七步：豆包 AI 生成的结果如图 2-33 所示，选择一张满意的图片，保存即可（如均不满意，可以让豆包 AI 重新生成，或向 DeepSeek 反馈结果，让 DeepSeek 输出新的指令）。
 
-![](img/DeepSeek教师实战手册_image_061.jpg)
+![](img/DeepSeek-教师实战手册_image_061.jpg)
 
 **图 2-33 豆包 AI 生成的结果**
 
 第八步：生成绘本图片之后，我们还能让图片动起来。怎样让静态的绘本图片动起来呢？这就要借助视频生成 AI（如即梦 AI、豆包 AI）。这里以豆包 AI 为例，它的操作更为便捷，可在同一款 AI 中直接将绘本图片转换为所需视频。选择一张满意的绘本图片并单击，即可在界面右侧放大显示该图片。单击右上角的“生成视频”，即可进入该绘本图片的视频生成界面，如图 2-34 所示。
 
-![](img/DeepSeek教师实战手册_image_062.jpg)
+![](img/DeepSeek-教师实战手册_image_062.jpg)
 
 **图 2-34 绘本图生视频操作**
 
 第九步：在视频生成的指令输入框中，可输入你希望图片如何动起来的描述。也可以不填写，交由豆包自动生成（我这里不进行填写，让豆包独立生成）。单击右下角的“发送”，等待视频生成即可，视频生成编辑界面如图 2-35 所示。
 
-![](img/DeepSeek教师实战手册_image_063.jpg)
+![](img/DeepSeek-教师实战手册_image_063.jpg)
 
 **图 2-35 视频生成编辑界面**
 
@@ -1308,37 +1308,37 @@ DeepSeek 的输出内容如下。
 
 第六步：在浏览器地址栏输入 Tripo 官网的网址：https://www.tripo3d.ai/，并访问，然后单击“免费开始使用”即可进入 Tripo 官网首页界面，如图 2-38 所示。
 
-![](img/DeepSeek教师实战手册_image_064.jpg)
+![](img/DeepSeek-教师实战手册_image_064.jpg)
 
 **图 2-36 图片生成界面进入方法**
 
-![](img/DeepSeek教师实战手册_image_065.jpg)
+![](img/DeepSeek-教师实战手册_image_065.jpg)
 
 **图 2-37 图片生成界面编辑操作**
 
 第七步：在 Tripo 首页，单击右上角“注册/登录”按钮，即可进入登录界面，在登录界面单击“免费注册”，可使用邮箱免费注册 Tripo 账号。账号注册后，登录即可，如图 2-39 所示。
 
-![](img/DeepSeek教师实战手册_image_066.jpg)
+![](img/DeepSeek-教师实战手册_image_066.jpg)
 
 **图 2-38 网址访问及 Tripo 官网首页进入方法**
 
-![](img/DeepSeek教师实战手册_image_067.jpg)
+![](img/DeepSeek-教师实战手册_image_067.jpg)
 
 **图 2-39 账号注册方法**
 
 第八步：登录后，我们在 Tripo 首页单击“生成 3D 模型”，上传刚才下载的心脏 2D 图，单击“生成”，等待心脏 3D 模型生成即可，如图 2-40 所示。
 
-![](img/DeepSeek教师实战手册_image_068.jpg)
+![](img/DeepSeek-教师实战手册_image_068.jpg)
 
 **图 2-40 Tripo 首页 3D 内容生成编辑操作**
 
 第九步：心脏 3D 模型生成后，单击下方的“下载”，如图 2-41 所示，将 3D 模型文件下载到本地，作为教学活动素材，在课堂上可以用相应软件（如 3D 画图等）打开，演示给学生看。除此之外，也可单击下方的“定制到家”，如图 2-42 所示），将其定制为摆件并邮寄到学校（也可基于生成的心脏 3D 模型，通过第三方平台进行定制），用 3D 实物模型进行展示。
 
-![](img/DeepSeek教师实战手册_image_069.jpg)
+![](img/DeepSeek-教师实战手册_image_069.jpg)
 
 **图 2-41 单击“下载”按钮**
 
-![](img/DeepSeek教师实战手册_image_070.jpg)
+![](img/DeepSeek-教师实战手册_image_070.jpg)
 
 **图 2-42 单击“定制到家”按钮**
 
@@ -1582,7 +1582,7 @@ DeepSeek 能够为小组讨论提供智能分组和结构化讨论框架。DeepS
 
 DeepSeek 输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_071.jpg)
+![](img/DeepSeek-教师实战手册_image_071.jpg)
 
 （2）结构化讨论框架生成
 
@@ -1640,7 +1640,7 @@ DeepSeek 能够设计教学目标导向的互动序列，形成连贯的教学�
 
 DeepSeek 输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_072.jpg)
+![](img/DeepSeek-教师实战手册_image_072.jpg)
 
 DeepSeek 的这种协助使教师能够构建逻辑清晰、内容丰富且富有吸引力的多模态学习环境，从而促进学习者对知识的更全面获取与内化。
 
@@ -1780,7 +1780,7 @@ DeepSeek 输出内容（部分）如下。
 
 2.具体任务内容
 
-![](img/DeepSeek教师实战手册_image_073.jpg)
+![](img/DeepSeek-教师实战手册_image_073.jpg)
 
 3.小组合作流程指南
 
@@ -1822,11 +1822,11 @@ DeepSeek 输出内容（部分）如下。
 
 2.具体任务内容
 
-![](img/DeepSeek教师实战手册_image_074.jpg)
+![](img/DeepSeek-教师实战手册_image_074.jpg)
 
 （续）
 
-![](img/DeepSeek教师实战手册_image_075.jpg)
+![](img/DeepSeek-教师实战手册_image_075.jpg)
 
 由上述案例可见，DeepSeek 通过构建创新且具有整合性的学习体验，促进更具活力、更具相关性的学习，为学生应对需要跨学科思维和综合问题解决能力的复杂现实挑战做好准备。
 
@@ -1948,19 +1948,19 @@ DeepSeek 构建的教学评价闭环体系，不仅展现了其强大的技术�
 
 按照前面的介绍，登录 DeepSeek 网页端，进入主界面后，单击对话框右侧的“上传附件”按钮，选择刚刚整理好的文档或表格进行上传。
 
-![](img/DeepSeek教师实战手册_image_076.jpg)
+![](img/DeepSeek-教师实战手册_image_076.jpg)
 
 **图 4-1** **新建备忘录**
 
-![](img/DeepSeek教师实战手册_image_077.jpg)
+![](img/DeepSeek-教师实战手册_image_077.jpg)
 
 **图 4-2** **点击“扫描文稿”**
 
-![](img/DeepSeek教师实战手册_image_078.jpg)
+![](img/DeepSeek-教师实战手册_image_078.jpg)
 
 **图 4-3** **扫描过程**
 
-![](img/DeepSeek教师实战手册_image_079.jpg)
+![](img/DeepSeek-教师实战手册_image_079.jpg)
 
 **图 4-4** **导出操作**
 
@@ -2046,7 +2046,7 @@ DeepSeek 输出内容（部分）如下。
 
 题目 1：古诗鉴赏《春夜洛城闻笛》（满分 5 分）
 
-![](img/DeepSeek教师实战手册_image_080.jpg)
+![](img/DeepSeek-教师实战手册_image_080.jpg)
 
 注：高频错误：80%学生未关联《折杨柳》曲文化背景，60%分析情感单薄。
 
@@ -2306,7 +2306,7 @@ DeepSeek 的输出内容（部分）如下：
 
 2.分概念掌握情况详析
 
-![](img/DeepSeek教师实战手册_image_081.jpg)
+![](img/DeepSeek-教师实战手册_image_081.jpg)
 
 ……
 
@@ -2340,7 +2340,7 @@ DeepSeek 输出内容（部分）如下。
 
 2.个人积分排行榜（附具体来源）
 
-![](img/DeepSeek教师实战手册_image_082.jpg)
+![](img/DeepSeek-教师实战手册_image_082.jpg)
 
 这种可视化呈现有助于教师识别课堂中的“沉默者”或“主导者”，从而进行有针对性的干预。
 
@@ -2376,7 +2376,7 @@ DeepSeek 输出内容（部分）如下：
 
 评价维度与具体行为指标如下表所示。
 
-![](img/DeepSeek教师实战手册_image_083.jpg)
+![](img/DeepSeek-教师实战手册_image_083.jpg)
 
 此外，DeepSeek 能够辅助学生生成具有建设性的评语。学生只需输入评价要点，DeepSeek 便能将其转化为专业、具有鼓励性和指导意义的反馈，有效避免出现空泛评价。教师也可以利用 DeepSeek 对学生生成的评语进行审核和优化，确保其质量。
 
@@ -2422,7 +2422,7 @@ DeepSeek 输出内容（部分）如下。
 
 2.各知识模块得分率分析
 
-![](img/DeepSeek教师实战手册_image_084.jpg)
+![](img/DeepSeek-教师实战手册_image_084.jpg)
 
 基于测试分析结果，DeepSeek 还可为每位学生生成个性化的学习报告和补救建议，精准推荐复习材料或专项练习。同时，它能为教师提供班级层面的教学调整策略建议，如调整教学重点等，从而实现“以评促教”的闭环。这种深化应用使总结性评价从单纯的“成绩单”变为“教学诊断书”。教师可以根据 DeepSeek 提供的细致分析，识别出教学中存在的问题，这能够促进教师基于数据进行教学反思和策略迭代，将每一次总结性评价都转化为提升教学质量、优化教学设计的宝贵机会，真正实现教学的动态优化。
 
@@ -2668,11 +2668,11 @@ STEM 探索区：结合理科教学，摆放竹子力学结构模型（如竹桥
 
 DeepSeek 的输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_085.jpg)
+![](img/DeepSeek-教师实战手册_image_085.jpg)
 
 第二步：复制 DeepSeek 输出的 HTML 代码，在计算机任意文件夹中新建一个文本文档，将 HTML 代码粘贴并保存，再将该文本文档的扩展名由“.txt”修改为“.html”，保存后双击，用任意浏览器打开，即可显示“智能点名系统”界面，如图 5-1 所示。
 
-![](img/DeepSeek教师实战手册_image_086.jpg)
+![](img/DeepSeek-教师实战手册_image_086.jpg)
 
 **图 5-1** **智能点名系统界面**
 
@@ -2720,13 +2720,13 @@ DeepSeek 的输出内容（部分）如下。
 
 DeepSeek 的输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_087.jpg)
+![](img/DeepSeek-教师实战手册_image_087.jpg)
 
 第二步：将 DeepSeek 输出的 HTML 代码转换为可视化界面。
 
 多功能小组积分管理系统界面如图 5-2 所示。
 
-![](img/DeepSeek教师实战手册_image_088.jpg)
+![](img/DeepSeek-教师实战手册_image_088.jpg)
 
 **图 5-2** **多功能小组积分管理系统界面**
 
@@ -2776,13 +2776,13 @@ DeepSeek 的输出内容（部分）如下。
 
 DeepSeek 的输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_089.jpg)
+![](img/DeepSeek-教师实战手册_image_089.jpg)
 
 第二步：将 DeepSeek 输出的 HTML 代码转换为可视化界面。
 
 任务即时打卡系统界面如图 5-3 所示。
 
-![](img/DeepSeek教师实战手册_image_090.jpg)
+![](img/DeepSeek-教师实战手册_image_090.jpg)
 
 **图 5-3** **任务即时打卡系统界面**
 
@@ -2862,7 +2862,7 @@ DeepSeek 的输出内容（部分）如下。
 
 DeepSeek 的输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_091.jpg)![](img/DeepSeek教师实战手册_image_092.jpg)
+![](img/DeepSeek-教师实战手册_image_091.jpg)![](img/DeepSeek-教师实战手册_image_092.jpg)
 
 第二步：将 DeepSeek 输出的 HTML 代码转换为可视化界面。
 
@@ -2870,25 +2870,25 @@ DeepSeek 的输出内容（部分）如下。
 
 进入系统后，可看到科幻蓝主题主界面。左侧设有数据总览、智能点名、任务打卡、积分管理四大功能区。单击左上角“导入名单”并成功导入班级学生名单后，名单将自动同步至上述四大功能区，如图 5-4 所示。
 
-![](img/DeepSeek教师实战手册_image_093.jpg)
+![](img/DeepSeek-教师实战手册_image_093.jpg)
 
 **图 5-4** **智能班级管理系统主界面**
 
 导入测试班的学生名单后，单击左侧的“智能点名”，即可进入智能点名功能区。该功能区在 5.2.1 节智能点名系统的基础上有如下变化：主题改为科幻蓝；答对问题将增加积分。智能点名功能区界面如图 5-5 所示。
 
-![](img/DeepSeek教师实战手册_image_094.jpg)
+![](img/DeepSeek-教师实战手册_image_094.jpg)
 
 **图 5-5** **智能点名功能区界面**
 
 单击左侧的“任务打卡”，即可进入任务打卡功能区。该功能区在 5.2.2 节任务即时打卡系统的基础上有如下变化：主题改为科幻蓝；为每位学生附加显示小组信息；对完成任务的学生增加积分。任务打卡功能区界面如图 5-6 所示。
 
-![](img/DeepSeek教师实战手册_image_095.jpg)
+![](img/DeepSeek-教师实战手册_image_095.jpg)
 
 **图 5-6** **任务打卡功能区界面**
 
 单击左侧的“积分管理”，即可进入积分管理功能区。前文提到的学生日常行为表现记录、课堂表现等，多在此功能区进行记录与导出。在积分管理功能区的“积分操作”框中，可按小组或学生，就不同原因进行加减分操作；加减分原因支持自定义，并可依据班规（如日常行为规范、学习规范等）设置快捷加减分原因和分值。积分操作管理界面和积分操作框如图 5-7 所示。
 
-![](img/DeepSeek教师实战手册_image_096.jpg)
+![](img/DeepSeek-教师实战手册_image_096.jpg)
 
 **图 5-7** **积分操作管理界面和积分操作框**
 
@@ -2898,33 +2898,33 @@ DeepSeek 的输出内容（部分）如下。
 
 “小组管理”框下方可查看小组成员详情，包括个人积分、积分贡献率等小组成员详情界面如图 5-10 所示。
 
-![](img/DeepSeek教师实战手册_image_097.jpg)
+![](img/DeepSeek-教师实战手册_image_097.jpg)
 
 **图 5-8** **积分日志界面**
 
-![](img/DeepSeek教师实战手册_image_098.jpg)
+![](img/DeepSeek-教师实战手册_image_098.jpg)
 
 **图 5-9** **小组积分榜和小组管理界面**
 
-![](img/DeepSeek教师实战手册_image_099.jpg)
+![](img/DeepSeek-教师实战手册_image_099.jpg)
 
 **图 5-10** **小组成员详情界面**
 
 “小组成员详情”框下方是积分抽奖区，包括“抽奖转盘”、“抽奖设置”、“中奖记录”三大区。抽奖转盘用于积分抽奖；抽奖设置可自定义奖品池（支持导入 Excel 格式的奖品清单及其概率），设置抽奖所需积分等；中奖记录可查看学生抽奖后的中奖情况。积分抽奖区界面如图 5-11 所示。
 
-![](img/DeepSeek教师实战手册_image_100.jpg)
+![](img/DeepSeek-教师实战手册_image_100.jpg)
 
 **图 5-11** **积分抽奖区界面**
 
 积分抽奖区下方为系统设置区，可在该区域设置系统标题、主题颜色和积分榜显示的小组数量，并支持一键重置所有数据。系统设置区界面如图 5-12 所示。
 
-![](img/DeepSeek教师实战手册_image_101.jpg)
+![](img/DeepSeek-教师实战手册_image_101.jpg)
 
 **图 5-12** **系统设置区界面**
 
 单击“小组积分榜”下方的“导出数据”，即可将本系统的全部相关数据导出为 Excel 格式，导出后的 Excel 数据示例如图 5-13 所示。
 
-![](img/DeepSeek教师实战手册_image_102.jpg)
+![](img/DeepSeek-教师实战手册_image_102.jpg)
 
 **图 5-13** **导出后的 Excel 数据示例**
 
@@ -2996,39 +2996,39 @@ DeepSeek 输出内容（部分）如下。
 
 第三步：在浏览器地址栏输入 Kimi 网址（https://kimi.moonshot.cn/）并访问，如图 5-14 所示。
 
-![](img/DeepSeek教师实战手册_image_103.jpg)
+![](img/DeepSeek-教师实战手册_image_103.jpg)
 
 **图 5-14** **Kimi 首页**
 
 第四步：单击页面左下角的“登录”，在弹出的界面中，使用手机号和验证码完成注册并登录即可，如图 5-15 所示。
 
-![](img/DeepSeek教师实战手册_image_104.jpg)
+![](img/DeepSeek-教师实战手册_image_104.jpg)
 
 **图 5-15** **Kimi 注册登录操作**
 
 第五步：找到并单击页面左侧的“Kimi+”，然后单击右侧的“PPT 助手”，即可进入 AiPPT 会话界面，如图 5-16 所示。
 
-![](img/DeepSeek教师实战手册_image_105.jpg)
+![](img/DeepSeek-教师实战手册_image_105.jpg)
 
 **图 5-16** **Kimi+的选项卡界面**
 
 第六步：将 DeepSeek 的输出结果粘贴至 AiPPT 对话框中，单击发送，等待 AiPPT 输出内容。如图 5-17 所示。
 
-![](img/DeepSeek教师实战手册_image_106.jpg)
+![](img/DeepSeek-教师实战手册_image_106.jpg)
 
 **图 5-17** **与 AiPPT 对话的方法**
 
 第七步：AiPPT 输出内容后，单击“一键生成 PPT”按钮（如图 5-18 所示），选择一个合适的模板（可以从“教育培训”类中选择），然后单击下方“一键生成 PPT”（如图 5-19 所示），等待 PPT 生成即可，生成的 PPT 如图 5-20 所示。
 
-![](img/DeepSeek教师实战手册_image_107.jpg)
+![](img/DeepSeek-教师实战手册_image_107.jpg)
 
 **图 5-18** **单击“一键生成 PPT”按钮**
 
-![](img/DeepSeek教师实战手册_image_108.jpg)
+![](img/DeepSeek-教师实战手册_image_108.jpg)
 
 **图 5-19** **模板选择**
 
-![](img/DeepSeek教师实战手册_image_109.jpg)
+![](img/DeepSeek-教师实战手册_image_109.jpg)
 
 **图 5-20** **生成的 PPT 示例**
 
@@ -3038,7 +3038,7 @@ DeepSeek 输出内容（部分）如下。
 
 接下来，我们可以基于家长会 PPT 的纯文字版，根据各页的描述，采用 2.4.5 节提到的方法生成相应图表，同时穿插图片、视频，使家长会 PPT 更为完善。例如，PPT 第 4 页提到的八年级各学科平均分雷达图如图 5-21 所示。
 
-![](img/DeepSeek教师实战手册_image_110.jpg)
+![](img/DeepSeek-教师实战手册_image_110.jpg)
 
 **图 5-21** **八年级各学科平均分雷达图**
 
@@ -3076,7 +3076,7 @@ DeepSeek 输出内容（部分）如下。
 
 （基于附件数据提炼）
 
-![](img/DeepSeek教师实战手册_image_111.jpg)
+![](img/DeepSeek-教师实战手册_image_111.jpg)
 
 **2.话术设计阶段**
 
@@ -3116,17 +3116,17 @@ DeepSeek 输出内容（部分）如下。
 
 1.核心问题分析
 
-![](img/DeepSeek教师实战手册_image_112.jpg)
+![](img/DeepSeek-教师实战手册_image_112.jpg)
 
 （续）
 
-![](img/DeepSeek教师实战手册_image_113.jpg)
+![](img/DeepSeek-教师实战手册_image_113.jpg)
 
 2.精准改进计划
 
 （1）家庭支持方案
 
-![](img/DeepSeek教师实战手册_image_114.jpg)
+![](img/DeepSeek-教师实战手册_image_114.jpg)
 
 以上内容涵盖家校沟通的完整流程，该方案通过 DeepSeek 实现从信息整合、话术设计到报告生成的一站式解决方案。在实际应用中，教师可根据沟通对象特点、时间安排等情况进行简化。例如，对日常表现稳定的学生，可省略部分深度分析步骤；针对紧急沟通需求，可直接使用 DeepSeek 生成关键话术要点。灵活运用 DeepSeek 的各项功能，既能保证家校沟通的专业性与针对性，又能大幅提升家校协同育人效率，使家校沟通真正成为家校共育的坚实桥梁。
 
@@ -3168,7 +3168,7 @@ DeepSeek 输出内容（部分）如下。
 
 3.分学段活动设计
 
-![](img/DeepSeek教师实战手册_image_115.jpg)
+![](img/DeepSeek-教师实战手册_image_115.jpg)
 
 ......
 
@@ -3196,11 +3196,11 @@ DeepSeek 输出内容（部分）如下。
 
 DeepSeek 输出内容（部分）如下。
 
-![](img/DeepSeek教师实战手册_image_116.jpg)
+![](img/DeepSeek-教师实战手册_image_116.jpg)
 
 将 HTML 代码转换为可视化网页后的效果如图 5-22 所示。
 
-![](img/DeepSeek教师实战手册_image_117.jpg)
+![](img/DeepSeek-教师实战手册_image_117.jpg)
 
 **图 5-22** **校园科技节家长邀请函**
 
@@ -3546,7 +3546,7 @@ DeepSeek 输出内容（部分）如下：
 
 此部分主要关注学生在项目进行过程中的表现，侧重于学习态度、探究精神和协作能力。
 
-![](img/DeepSeek教师实战手册_image_118.jpg)
+![](img/DeepSeek-教师实战手册_image_118.jpg)
 
 文字综述：
 
@@ -3656,11 +3656,11 @@ DeepSeek 输出内容（部分）如下。
 
 1.跨学科融合分析表
 
-![](img/DeepSeek教师实战手册_image_119.jpg)
+![](img/DeepSeek-教师实战手册_image_119.jpg)
 
 （续）
 
-![](img/DeepSeek教师实战手册_image_120.jpg)
+![](img/DeepSeek-教师实战手册_image_120.jpg)
 
 ……
 
@@ -3720,7 +3720,7 @@ PBL 的核心要素以项目任务为载体，通过跨学科整合、学生主�
 
 **表 6-1 典型的 PBL 教学方案涵盖的六个基本模块**
 
-![](img/DeepSeek教师实战手册_image_121.jpg)
+![](img/DeepSeek-教师实战手册_image_121.jpg)
 
 通过这样的结构化设计，学生不仅能掌握知识，还能在真实情境下锻炼综合探究能力。
 
@@ -3912,15 +3912,15 @@ DeepSeek 输出内容如下。
 
 1.教学实施策略
 
-![](img/DeepSeek教师实战手册_image_122.jpg)
+![](img/DeepSeek-教师实战手册_image_122.jpg)
 
 （续）
 
-![](img/DeepSeek教师实战手册_image_123.jpg)
+![](img/DeepSeek-教师实战手册_image_123.jpg)
 
 2.评价方式
 
-![](img/DeepSeek教师实战手册_image_124.jpg)
+![](img/DeepSeek-教师实战手册_image_124.jpg)
 
 通过以上六个步骤，教师可以借助 DeepSeek，逐步构建一个与 PBL 的六大模块结构相契合的完整教学方案。该流程不仅契合你在书中提出的理论框架，也为教师提供了可操作、可调整、可复用的 AI 辅助路径。
 
@@ -4366,7 +4366,7 @@ DeepSeek 输出的模板内容（部分）如下。
 
 教学设计通用模板
 
-![](img/DeepSeek教师实战手册_image_125.jpg)
+![](img/DeepSeek-教师实战手册_image_125.jpg)
 
 （2）设计与优化
 
@@ -4970,7 +4970,7 @@ DeepSeek 输出的数据分析结果（部分）如图 7-1 所示（数据为示
 
 根据《AI 情境创设在初中语文古诗词教学中的应用探索》目前的研究进展情况（上传研究进展报告），评估研究过程中存在的潜在风险和问题，并提出优化建议。
 
-![](img/DeepSeek教师实战手册_image_126.jpg)
+![](img/DeepSeek-教师实战手册_image_126.jpg)
 
 **图 7-1 数据分析结果**
 
@@ -5086,4 +5086,4 @@ AI 幻觉的一个典型情形是，当 AI 被要求解释复杂的科学概念�
 
 # **推荐阅读**
 
-![](img/DeepSeek教师实战手册_image_127.jpg)![](img/DeepSeek教师实战手册_image_128.jpg)![](img/DeepSeek教师实战手册_image_129.jpg)![](img/DeepSeek教师实战手册_image_130.jpg)![](img/DeepSeek教师实战手册_image_131.jpg)
+![](img/DeepSeek-教师实战手册_image_127.jpg)![](img/DeepSeek-教师实战手册_image_128.jpg)![](img/DeepSeek-教师实战手册_image_129.jpg)![](img/DeepSeek-教师实战手册_image_130.jpg)![](img/DeepSeek-教师实战手册_image_131.jpg)

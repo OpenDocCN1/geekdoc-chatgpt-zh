@@ -128,7 +128,7 @@ OpenClaw 正是在这样的背景下诞生。作为新一代个人 AI 操作系�
 
 当您发现错误时，请登录异步社区（https://www.epubit.com/），按书名搜索，进入本书页面，点击“发表勘误”，输入勘误信息，点击“提交勘误”按钮即可（见下页图）。本书的作者和编辑会对您提交的勘误进行审核，确认并接受后，您将获赠异步社区的 100 积分。积分可用于在异步社区兑换优惠券、样书或奖品。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_001.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_001.png)
 
 **与我们联系**
 
@@ -718,7 +718,7 @@ openclaw onboard --install-daemon    #普通用户本地安装，启动后
 
 openclaw onboard    # root 用户使用
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_005.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_005.png)
 
 图 2-3 OpenClaw onboard 向导工具启动成功
 
@@ -734,7 +734,7 @@ openclaw onboard    # root 用户使用
 
 onboard 向导工具会引导用户完成以下核心配置环节，配置过程中的选择界面如图 2-4 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_006.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_006.png)
 
 图 2-4 OpenClaw 初始化向导配置选择
 
@@ -744,7 +744,7 @@ onboard 向导工具会引导用户完成以下核心配置环节，配置过程
 
 **注意：**如果你打算让 Agent 执行复杂的工具调用，强烈建议选择最新一代的强大模型，以降低提示词注入（Prompt Injection）的风‍险。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_007.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_007.png)
 
 图 2-5 OpenClaw 大模型的 API Key 配置与网关参数配置
 
@@ -760,7 +760,7 @@ onboard 向导工具会引导用户完成以下核心配置环节，配置过程
 
 openclaw gateway status
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_008.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_008.png)
 
 图 2-6 OpenClaw 网关正常运行状态
 
@@ -4528,7 +4528,7 @@ if not api_key:
 
 首先，访问腾讯云官方网站，完成账号注册与实名认证。登录后，在产品菜单中找到“轻量应用服务器”选项，点击进入产品页，再选择“立即购买”，即可跳转到购买服务器配置页面，如图 8-1 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_024.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_024.png)
 
 图 8-1 轻量应用服务器配置页面
 
@@ -4544,13 +4544,13 @@ if not api_key:
 
 确认各项配置无误后，点击“立即购买”进入订单确认页面，核对信息无误后完成支付即可。轻量应用服务器的订单确认页面如图 8-2 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_025.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_025.png)
 
 图 8-2 轻量应用服务器的订单确认页面
 
 支付完成后稍等片刻，腾讯云的后台系统会自动完成服务器的分配与初始化操作，随后即可在控制台的实例列表中查看该服务器。初始化完成后的页面如图 8-3 所示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_026.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_026.png)
 
 图 8-3 腾讯云轻量应用服务器控制台实例列表与登录页面
 
@@ -4564,13 +4564,13 @@ if not api_key:
 
 在默认情况下，云服务器的防火墙会拦截绝大多数来自外部的访问请求，以保障服务器的安全。为了让外部网络能够正常访问 OpenClaw 提供的服务，需要在腾讯云的控制台中手动配置防火墙规则，开放指定的网络端口。图 8-4 所示为从管理实例进入配置的入‍口。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_027.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_027.png)
 
 图 8-4 目标实例配置入口
 
 回到腾讯云轻量应用服务器的实例详情页面，找到并点击“防火墙”选项卡，即可查看当前生效的防火墙规则列表，具体操作入口如图 8-5 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_028.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_028.png)
 
 图 8-5 防火墙配置入口
 
@@ -4642,7 +4642,7 @@ pm2 start openclaw --name "openclaw-gateway" -- gateway
 
 登录阿里云首页，在导航栏选择“产品→轻量应用服务器”，直接选择预装了 OpenClaw 应用的套餐，如图 8-6 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_029.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_029.png)
 
 图 8-6 阿里云预装 OpenClaw 应用的轻量应用服务器购买页面
 
@@ -4664,7 +4664,7 @@ pm2 start openclaw --name "openclaw-gateway" -- gateway
 
 直接点击右侧的“一键放通”按钮，系统会自动在服务器防火墙中添加规则，允许外部网络访问 OpenClaw 的服务端‍口。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_030.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_030.png)
 
 图 8-7 OpenClaw 核心配置编辑面板
 
@@ -4674,7 +4674,7 @@ pm2 start openclaw --name "openclaw-gateway" -- gateway
 
 点击“初始化”按钮，触发绑定百炼大模型 API Key 的配置流程，系统会弹出一个配置向导，如图 8-8 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_031.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_031.png)
 
 图 8-8 API Key 配置向导页面（左：系统推荐；右：手动输入）
 
@@ -4688,7 +4688,7 @@ pm2 start openclaw --name "openclaw-gateway" -- gateway
 
 **注意：**请务必妥善保管这个包含 Token 的完整 URL。任何持有该链接的人都能直接绕过登录验证，直接获得 OpenClaw 控制台的管理员权限。可以在“基础配置”区域随时“查看 Token”或“重启 OpenClaw 网关”刷新 Token。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_032.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_032.png)
 
 图 8-9 OpenClaw 简洁版的 WebUI 面板
 
@@ -4984,7 +4984,7 @@ OpenClaw 官方团队对飞书提供了深度的原生支持，其最大亮点�
 
 • App Secret（应用密钥）。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_033.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_033.png)
 
 图 9-1 飞书企业自建应用详情页面
 
@@ -5034,13 +5034,13 @@ OpenClaw 官方团队对飞书提供了深度的原生支持，其最大亮点�
 
 之所以重点强调这项配置，是因为当你在飞书中向 OpenClaw 发起指令（例如让机器人做自我介绍、查询联系人信息、基于通讯录完成任务调度等）时，机器人需要通过该权限读取用户身份、所属组织等基础信息，以完成身份校验、上下文匹配并生成合规的回‍复。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_034.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_034.png)
 
 图 9-2 飞书应用身份权限开通界面
 
 如果未开通该权限，机器人会因无法获取必要的用户数据而直接导致交互失败，无法正常响应你的请求，甚至出现功能异常。因此，在部署 OpenClaw 时，必须确保该权限项已经正确配置，是机器人正常运行的核心前提之一。已开通的核心权限如图 9-3 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_035.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_035.png)
 
 图 9-3 机器人运行所需的核心权限
 
@@ -5058,7 +5058,7 @@ OpenClaw 官方团队对飞书提供了深度的原生支持，其最大亮点�
 
 图 9-4 所示为 OpenClaw 初始化（onborad）配置页面中的渠道选择页面（左图），按照指引一步步操作即可（参考右图），过程中会自动安装飞书对应的插‍件。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_036.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_036.png)
 
 图 9-4 OpenClaw 初始化配置页面中的渠道（Channel）选择
 
@@ -5076,7 +5076,7 @@ OpenClaw 官方团队对飞书提供了深度的原生支持，其最大亮点�
 
 如果配置中将 dmPolicy 保持为默认的 pairing 模式，机器人会立即回复一串包含字母和数字的配对码，如图 9-5 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_037.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_037.png)
 
 图 9-5 dmPolicy 默认 pairing 模式下的交互配对流程
 
@@ -5098,13 +5098,13 @@ openclaw pairing approve feishu <你的配对码>
 
 使用具有管理员权限的账号，登录企业微信的管理后台（https://work.weixin.qq.com/）。登录后，首先需要获取企业的唯一标识：在导航栏选择“我的企业”，在左侧菜单点击“企业信息”，将页面滚动到底部，即可看到一个名为企业 ID 的字符串，请将其复制并妥善保管，如图 9-6 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_038.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_038.png)
 
 图 9-6 企业微信获取企业 ID 的页面
 
 接下来，在导航栏切换到“应用管理”页面，在“应用”选项卡的“自建”区域，点击“创建应用”按钮。在创建页面中，为 AI 助手上传一个专业的应用 Logo，填写应用名称（例如“AI 智能助手”），并根据需要选择该应用在企业内部的可见范围（如全公司可见，或仅指定部门可见），如图 9-7 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_039.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_039.png)
 
 图 9-7 企业微信管理后台自建应用创建页面
 
@@ -5116,7 +5116,7 @@ openclaw pairing approve feishu <你的配对码>
 
 这两个参数，连同刚才获取的企业 ID，共同构成了 OpenClaw 调用企业微信 API 的核心凭证，如图 9-8 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_040.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_040.png)
 
 图 9-8 企业微信自建应用的 AgentId 与 Secret
 
@@ -5238,13 +5238,13 @@ openclaw plugins install @sunnoy/wecom@latest
 
 请访问钉钉开发者后台，并使用具有相应权限的账号登录。在首页点击右上角的图标，即可查看企业 ID（CorpId），请复制并妥善保管，如图 9-9 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_041.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_041.png)
 
 图 9-9 获取钉钉企业 ID
 
 在导航栏选择 App Development，然后在“企业内部开发”点击“机器人”，在应用列表页面点击“创建应用”按钮。在弹出的表单中，填写应用名称（如“OpenClaw 办公助手”）和应用描述，并上传应用图标，如图 9-10 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_042.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_042.png)
 
 图 9-10 钉钉开发者后台机器人应用创建页面
 
@@ -5254,7 +5254,7 @@ openclaw plugins install @sunnoy/wecom@latest
 
 • Client Secret（即 AppSecret）。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_043.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_043.png)
 
 图 9-11 获取机器人应用的 Client ID 与 Client Secret
 
@@ -5266,7 +5266,7 @@ openclaw plugins install @sunnoy/wecom@latest
 
 配置完成后点击发布，页面会生成一个专属的 RobotCode，请将这个代码一并记录下来，后续配置插件时会用到，如图 9-12 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_044.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_044.png)
 
 图 9-12 开启机器人配置并获取 RobotCode
 
@@ -5472,7 +5472,7 @@ clawhub install jimliu/baoyu-skills/baoyu-post-to-wechat
 
 首先，我们需要在飞书开放平台（open.feishu.cn）创建一个企业自建应用，作为与 OpenClaw 交互的桥梁。登录飞书开放平台后，点击“创建企业自建应用”，将其命名为“公众号全能编辑”。在左侧导航栏找到“凭证与基础信息”，记录下 App ID 和 App Secret，这两个值用于 OpenClaw 的鉴权配置，如图 10-1 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_045.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_045.png)
 
 图 10-1 飞书应用凭证信息页面
 
@@ -5482,7 +5482,7 @@ clawhub install jimliu/baoyu-skills/baoyu-post-to-wechat
 
 完成上述配置后，创建一个应用版本并申请发布。审核通过后，就可以在飞书中搜索到这个机器人。发布成功后，会在飞书开发者助手收到机器人上线推送提醒，如图 10-2 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_046.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_046.png)
 
 图 10-2 机器人发布成功上线提醒
 
@@ -5738,7 +5738,7 @@ OpenClaw 支持三种 API Key 注入方式，优先级从高到低依次如下�
 
 最后，确认公众号类型为已认证的微信服务号，因为订阅号没有草稿箱相关的 API 权限。如果是订阅号，请在 EXTEND.md 中将发布方式改为 browser。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_048.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_048.png)
 
 图 10-4 微信公众号基本配置与 IP 白名单页面
 
@@ -5750,7 +5750,7 @@ OpenClaw 支持三种 API Key 注入方式，优先级从高到低依次如下�
 
 第一次连接时，系统会提示需要先配对。复制提示中的配对命令 openclaw pairing approve feishu 7JNCA6D9 并在服务器终端执行，如图 10-5 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_049.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_049.png)
 
 图 10-5 飞书机器人首次连接配对提示
 
@@ -5766,19 +5766,19 @@ OpenClaw 支持三种 API Key 注入方式，优先级从高到低依次如下�
 
 几分钟后，飞书会收到一条完整的回复，并提示选择发布方式。本例中使用 API 方式推送，按要求提供 AppID 与 AppSecret 即可继续，如图 10-7 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_051.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_051.png)
 
 图 10-7 通过 API 方式推送文章到公众号草稿箱
 
 等待片刻，你会收到“发布成功”的通知，如图 10-8 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_052.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_052.png)
 
 图 10-8 公众号草稿推送成功通知
 
 此时登录微信公众号后台，在草稿箱中就能看到这篇排版精美、内容翔实的文章，如图 10-9 所示。预览确认无误后，便可直接发布，最终效果如图 10-10 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_053.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_053.png)
 
 图 10-9 微信公众号后台草稿箱内容
 
@@ -5844,7 +5844,7 @@ clawhub install xiaohongshu-ops
 
 在电脑上登录小红书网页版，按 F12 键打开开发者工具，在 Application→Cookies 中找到 web_session 等关键字段，将其复制下来备用，如图 11-1 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_055.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_055.png)
 
 图 11-1 提取小红书网页版的 Cookie
 
@@ -6010,7 +6010,7 @@ openclaw agents add xhs_operator --workspace "~/.openclaw/workspace-xhs"
 
 打开飞书，搜索刚刚发布的“小红书自动化运营”机器人，进入私聊界面。第一次与 OpenClaw 建立连接时，系统会先提示完成配对操作。配对完成后，发送“请介绍你自己”指令，确认机器人的人设和能力是否符合预设要求，操作过程如图 11-2 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_056.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_056.png)
 
 图 11-2 首次连接并确认小红书运营助手人设
 
@@ -6018,13 +6018,13 @@ openclaw agents add xhs_operator --workspace "~/.openclaw/workspace-xhs"
 
 Agent 收到指令后，会先搜索当前流行的极简手冲器具和咖啡豆推荐，再结合人设创作一篇情绪价值拉满的种草文案，生成后会向你确认两项内容：文案是否需要修改；提供配图的本地文件路径（即 OpenClaw 服务器上的图片地址）。文案创作结果如图 11-3 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_057.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_057.png)
 
 图 11-3 返回的小红书种草文案结果
 
 如果回复“文案没问题，请配上/home/admin/images/coffee_1.png 和/home/admin/images/ coffee_2.png 这两张图后发布。”Agent 将启动无头浏览器，自动登录小红书创作者中心，上传指定的图片、填入创作好的文案，并模拟人类操作点击“发布”按钮。发布成功后，它会将发布成功的页面截图发送回飞书，如图 11-4 所示。小红书站内正式发布的内容如图 11-5 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_058.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_058.png)
 
 图 11-4 小红书文案发布成功通知
 
@@ -6086,7 +6086,7 @@ clawhub install exa-web-search-free
 
 首先，我们需要在飞书开放平台创建一个企业自建应用，作为与 OpenClaw 交互的桥梁。登录飞书开放平台后，点击“创建企业自建应用”，将其命名为“产品经理”。在左侧导航栏找到“凭证与基础信息”，记录下 App ID 和 App Secret，这两个值将用于 OpenClaw 的鉴权配置，如图 12-1 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_060.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_060.png)
 
 图 12-1 飞书应用凭证信息页面
 
@@ -6096,7 +6096,7 @@ clawhub install exa-web-search-free
 
 最后，进入“事件订阅”页面，配置方式选择“使用长连接接收事件”（该方式比传统的 Webhook 更稳定，且不需要公网 IP），并添加 im.message.receive_v1（接收消息）事件。完成配置后，创建应用版本并申请发布。审核通过后，就可以在飞书中找到这个机器人了，如图 12-2 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_061.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_061.png)
 
 图 12-2 产品经理机器人发布成功提醒
 
@@ -6188,7 +6188,7 @@ openclaw agents add writer --workspace "~/.openclaw/workspace-writer"
 
 "model": "dashscope/qwen3.5-plus", // PM 需要更强的逻辑推理能力，使用阿里的模型
 
-"identity": { "name": "产品经理", "emoji": " ![tb1" }},{"id": "researcher","workspace": "~/.openclaw/workspace-researcher","model": "dashscope/qwen3.5-plus", // 使用阿里的模型"identity": { "name": "研究员", "emoji": " ![tb1](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_063.png)" }
+"identity": { "name": "产品经理", "emoji": " ![tb1" }},{"id": "researcher","workspace": "~/.openclaw/workspace-researcher","model": "dashscope/qwen3.5-plus", // 使用阿里的模型"identity": { "name": "研究员", "emoji": " ![tb1](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_063.png)" }
 
 },
 
@@ -6298,11 +6298,11 @@ openclaw agents add writer --workspace "~/.openclaw/workspace-writer"
 
 几分钟后，Writer 会在飞书群组中输出一份结构完整、数据翔实、包含竞品对比表格的专业市场调研报告，如图 12-3 和图 12-4 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_064.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_064.png)
 
 图 12-3 在飞书群组向 PM 下达调研需求
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_065.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_065.png)
 
 图 12-4 飞书群组内调研结果反馈
 
@@ -6466,7 +6466,7 @@ Paste an authentication token 为令牌登录方式，需手动填入预先�
 
 首先，在飞书开放平台创建一个企业自建应用，作为与 OpenClaw 交互的入口。登录飞书开放平台后，点击“创建企业自建应用”，应用名称设为“产品经理”。在左侧导航栏进入“凭证与基础信息”页面，记录 App ID 和 App Secret，这两个参数将用于 OpenClaw 的鉴权配置，如图 13-3 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_069.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_069.png)
 
 图 13-3 飞书应用凭证信息页面
 
@@ -6476,7 +6476,7 @@ Paste an authentication token 为令牌登录方式，需手动填入预先�
 
 最后进入“事件订阅”页面，配置方式选择“使用长连接接收事件”（比传统的 Webhook 方式更稳定且无须公网 IP），并添加 im.message.receive_v1（接收消息）事件。配置完成后，创建一个应用版本并申请发布，审核通过后就可以在飞书中使用这个机器人了，如图 13-4 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_070.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_070.png)
 
 图 13-4 飞书机器人发布成功提醒
 
@@ -6614,7 +6614,7 @@ steps:
 
         "model": "anthropic/claude-sonnet-4-5",
 
-        "identity": { "name": "全栈工程师", "emoji": " ![tb1" }      },      {        "id": "reviewer",        "workspace": "~/.openclaw/workspace-reviewer",        "model": "anthropic/claude-opus-4-5", // Reviewer 需要更强的逻辑推理能力        "identity": { "name": "资深架构师", "emoji": " ![tb1](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_072.png)" }
+        "identity": { "name": "全栈工程师", "emoji": " ![tb1" }      },      {        "id": "reviewer",        "workspace": "~/.openclaw/workspace-reviewer",        "model": "anthropic/claude-opus-4-5", // Reviewer 需要更强的逻辑推理能力        "identity": { "name": "资深架构师", "emoji": " ![tb1](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_072.png)" }
 
       },
 
@@ -6626,7 +6626,7 @@ steps:
 
         "model": "anthropic/claude-sonnet-4-5",
 
-        "identity": { "name": "测试工程师", "emoji": " ![tb1](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_073.png)" },
+        "identity": { "name": "测试工程师", "emoji": " ![tb1](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_073.png)" },
 
         "tools": {
 
@@ -6732,7 +6732,7 @@ openclaw pairing approve feishu BUFLH4AH
 
 随后向飞书中的 coder 机器人发送开发指令“@coder 请在当前项目中开发一个基于 HTML5 Canvas 的贪吃蛇游戏。要求包含计分系统、食物随机生成逻辑以及碰撞检测（撞墙或撞自己即游戏结束）”。发送界面如图 13-5 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_074.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_074.png)
 
 图 13-5 向 coder 机器人下达贪吃蛇游戏开发指令
 
@@ -6750,7 +6750,7 @@ openclaw pairing approve feishu BUFLH4AH
 
 由于默认工作空间~/.openclaw/workspace-coder 不会自动推送代码至仓库，可再次向机器人发送指令完成提交与推送，如图 13-6 所示。推送成功后的代码仓库结构如图 13-7 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_075.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_075.png)
 
 图 13-6 发送指令将项目代码推送到 GitHub
 
@@ -6870,7 +6870,7 @@ openclaw-notebooklm-install
 
 首先，在飞书开放平台创建一个企业自建应用，作为与 OpenClaw 交互的入口。登录平台后，点击“创建企业自建应用”，将其命名为“产品经理”。在左侧导航栏进入“凭证与基础信息”，记录下 App ID 和 App Secret，这两个值将用于 OpenClaw 的鉴权配置，如图 14-1 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_077.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_077.png)
 
 图 14-1 飞书应用凭证信息页面
 
@@ -6882,7 +6882,7 @@ openclaw-notebooklm-install
 
 完成配置后，创建应用版本并申请发布。审核通过后，即可在飞书中找到这个机器人，飞书开发者助手会收到机器人发布成功的推送提醒，如图 14-2 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_078.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_078.png)
 
 图 14-2 飞书机器人发布成功提醒
 
@@ -7000,7 +7000,7 @@ openclaw agents add knowledge_bot --workspace "~/.openclaw/workspace-knowle
 
 Agent 会自动抓取网页内容，调用 MCP 工具将其上传至 NotebookLM，同时完成内容总结并保存到笔记中。几秒钟后，你会收到机器人回复“已成功将 DeepSeek API 计费标准保存到笔记”，操作过程如图 14-3 所‍示。
 
-![](img/OpenClaw觉醒：基于AI智能体的超级生产力构建指南_image_079.png)
+![](img/OpenClaw-觉醒：基于-AI-智能体的超级生产力构建指南_image_079.png)
 
 图 14-3 飞书发送知识收集请求
 

@@ -2,13 +2,13 @@
 
 # **作者介绍**
 
-![](img/DeepSeek探索未至之境_image_000.jpg)
+![](img/DeepSeek-探索未至之境_image_000.jpg)
 
 **胡耀文**
 
 2014—2016 年连续三年获得微软 MVP，高级软件开发工程师，精通 C/C++、Java、Python 等技术语言。曾参与编写的书籍有：《Visual C++ 2010 开发指南》《Windows 8 指南》《Windows CE 7 开发实战详解》《微软云计算》《Windows Azure 开发与部署》《Visual C++ 2012 开发》《Java 语言程序设计》《Java Web 开发实战》《Python 快乐编程基础入门》《Python 快乐编程网络爬虫》《C 语言程序设计》《MySQL 从入门到精通》《Python 快乐编程人工智能》等。
 
-![](img/DeepSeek探索未至之境_image_001.jpg)
+![](img/DeepSeek-探索未至之境_image_001.jpg)
 
 **朱钢**
 
@@ -68,7 +68,7 @@ DeepSeek 的爆火必然加剧人工智能（AI）市场的竞争。一方面，
 
 本书有完整的配套学习资料（PPT、代码、视频、软件安装包资源），读者可以使用手机扫描下方的二维码进行获取，若您在学习本书的过程中发现疑问或错漏之处，也可以通过扫描以下二维码与我们取得联系。
 
-![](img/DeepSeek探索未至之境_image_002.jpg)
+![](img/DeepSeek-探索未至之境_image_002.jpg)
 
 ## **特别声明**
 
@@ -94,7 +94,7 @@ DeepSeek 自 2024 年底推出以来，凭借其低成本、高性能的优势�
 
 DeepSeek（深度求索）是由中国人工智能企业深度求索（DeepSeek Inc.）自主研发的第三代通用 AI 系统，于 2024 年底正式发布。截至 2025 年 3 月，其旗舰产品 DeepSeek-R1 代表了当前中文大模型领域的技术制高点，自推出后便受到广泛关注。DeepSeek 的官方 logo 如图 1.1 所示。
 
-![](img/DeepSeek探索未至之境_image_003.jpg)
+![](img/DeepSeek-探索未至之境_image_003.jpg)
 
 图 1.1 DeepSeek 的官方 logo
 
@@ -134,7 +134,7 @@ DeepSeek 作为中国 AI 技术的代表，凭借其强大的技术实力和全�
 
 DeepSeek 在与国际竞争对手的较量中，依托国内企业的多方面支持，展现出了强大的竞争力和发展潜力。通过与国内高科技企业的深度合作，DeepSeek 不仅加速了技术的创新与落地，还构建了完整的产业生态，为其全球化战略提供了坚实的后盾。国内多家企业宣布介入 DeepSeek，如图 1.2 所示。
 
-![](img/DeepSeek探索未至之境_image_004.jpg)
+![](img/DeepSeek-探索未至之境_image_004.jpg)
 
 图 1.2 国内多家企业宣布介入 DeepSeek
 
@@ -144,7 +144,7 @@ DeepSeek 在与国际竞争对手的较量中，依托国内企业的多方面�
 
 DeepSeek 在国际化进程中积极开展合作，通过与全球领先的科技公司、研究机构和行业伙伴建立战略合作关系，不断拓展其技术影响力和市场覆盖范围。DeepSeek 与微软、英伟达、西门子等国际巨头在云计算、硬件加速和工业物联网等领域展开深度合作，共同推动 AI 技术在制造、医疗、金融等行业的创新应用。DeepSeek 在国外的生态合作伙伴矩阵图如图 1.3 所示。
 
-![](img/DeepSeek探索未至之境_image_005.jpg)
+![](img/DeepSeek-探索未至之境_image_005.jpg)
 
 图 1.3 DeepSeek 在国外的生态合作伙伴矩阵图
 
@@ -156,7 +156,7 @@ DeepSeek 是一款功能强大的 AI 工具，用户可以通过其官网网页�
 
 首先，用户访问 DeepSeek 官网或下载手机 App，然后注册账号并登录。图 1.4 所示为 DeepSeek 启动后的功能界面。
 
-![](img/DeepSeek探索未至之境_image_006.jpg)
+![](img/DeepSeek-探索未至之境_image_006.jpg)
 
 图 1.4 DeepSeek 启动后的功能界面
 
@@ -186,11 +186,11 @@ DeepSeek 确实能够显著提升人们的工作效率，帮助用户自动化�
 
 例如，用户是一名大三计算机系的学员，需要写一篇关于 DeepSeek 的 500 字技术文章，并且以总结的形式输出。用户只需在对话框中输入需求，如图 1.5 所示，然后点击右下角的蓝色发送按钮，即可得到想要的内容，如图 1.6 所示。
 
-![](img/DeepSeek探索未至之境_image_007.jpg)
+![](img/DeepSeek-探索未至之境_image_007.jpg)
 
 图 1.5 DeepSeek 功能界面输入要求
 
-![](img/DeepSeek探索未至之境_image_008.jpg)
+![](img/DeepSeek-探索未至之境_image_008.jpg)
 
 图 1.6 DeepSeek 给出的结果
 
@@ -204,7 +204,7 @@ DeepSeek 正在无时无刻改变着人们的生活和工作方式，接下来�
 
 律师在 DeepSeek 上提问时，通常需要获取法律条文解释、案例分析及法律建议等。因此，提问时应注重精准性和逻辑性，如图 1.7 所示。
 
-![](img/DeepSeek探索未至之境_image_009.jpg)
+![](img/DeepSeek-探索未至之境_image_009.jpg)
 
 图 1.7 律师的提问技巧
 
@@ -212,7 +212,7 @@ DeepSeek 正在无时无刻改变着人们的生活和工作方式，接下来�
 
 医生在 DeepSeek 上提问时，可能涉及疾病诊断、治疗方案及医学研究等。因此，提问时应注重专业性和准确性，如图 1.8 所示。
 
-![](img/DeepSeek探索未至之境_image_010.jpg)
+![](img/DeepSeek-探索未至之境_image_010.jpg)
 
 图 1.8 医生的提问技巧
 
@@ -220,7 +220,7 @@ DeepSeek 正在无时无刻改变着人们的生活和工作方式，接下来�
 
 学生在 DeepSeek 上提问时，通常涉及学习问题、作业帮助及考试准备等。因此，提问时应清晰具体，如图 1.9 所示。
 
-![](img/DeepSeek探索未至之境_image_011.jpg)
+![](img/DeepSeek-探索未至之境_image_011.jpg)
 
 图 1.9 学生的提问技巧
 
@@ -228,7 +228,7 @@ DeepSeek 正在无时无刻改变着人们的生活和工作方式，接下来�
 
 程序员在 DeepSeek 上提问时，通常涉及代码调试、技术方案及工具使用等。因此，提问时应注重逻辑性和可复现性，如图 1.10 所示。
 
-![](img/DeepSeek探索未至之境_image_012.jpg)
+![](img/DeepSeek-探索未至之境_image_012.jpg)
 
 图 1.10 程序员的提问技巧
 
@@ -236,7 +236,7 @@ DeepSeek 正在无时无刻改变着人们的生活和工作方式，接下来�
 
 旅行家在 DeepSeek 上提问时，通常涉及旅行规划、目的地推荐及注意事项等。因此，提问时应注重细节和实用性，如图 1.11 所示。
 
-![](img/DeepSeek探索未至之境_image_013.jpg)
+![](img/DeepSeek-探索未至之境_image_013.jpg)
 
 图 1.11 旅行家的提问技巧
 
@@ -244,7 +244,7 @@ DeepSeek 正在无时无刻改变着人们的生活和工作方式，接下来�
 
 作者在 DeepSeek 上提问时，通常涉及写作技巧、灵感获取及出版建议等。因此，提问时应注重创意和实用性，如图 1.12 所示。
 
-![](img/DeepSeek探索未至之境_image_014.jpg)
+![](img/DeepSeek-探索未至之境_image_014.jpg)
 
 图 1.12 作者的提问技巧
 
@@ -268,13 +268,13 @@ DeepSeek 正在无时无刻改变着人们的生活和工作方式，接下来�
 
 将 DeepSeek 与费曼学习法结合，可以显著提升学习效率和知识掌握程度。费曼学习法的核心是通过“以教为学”的方式，将复杂的概念简单化、清晰化。而 DeepSeek 作为一个强大的信息获取和问题解决工具，可以帮助用户在费曼学习法的每个步骤中更高效地实现目标。DeepSeek 结合费曼学习法概念图如图 1.13 所示。
 
-![](img/DeepSeek探索未至之境_image_015.jpg)
+![](img/DeepSeek-探索未至之境_image_015.jpg)
 
 图 1.13 DeepSeek 结合费曼学习法概念图
 
 DeepSeek 结合费曼学习法流程图如图 1.14 所示。
 
-![](img/DeepSeek探索未至之境_image_016.jpg)
+![](img/DeepSeek-探索未至之境_image_016.jpg)
 
 图 1.14 DeepSeek 结合费曼学习法流程图
 
@@ -340,7 +340,7 @@ DeepSeek 作为一款先进的智能工具，其应用场景广泛且多样，�
 
 DeepSeek 内容创作概念图如图 1.15 所示。
 
-![](img/DeepSeek探索未至之境_image_017.jpg)
+![](img/DeepSeek-探索未至之境_image_017.jpg)
 
 图 1.15 DeepSeek 内容创作概念图
 
@@ -358,7 +358,7 @@ DeepSeek 在教育与学习领域展现了强大的辅助能力，成为学生�
 
 DeepSeek 教育与学习概念图如图 1.16 所示。
 
-![](img/DeepSeek探索未至之境_image_018.jpg)
+![](img/DeepSeek-探索未至之境_image_018.jpg)
 
 图 1.16 DeepSeek 教育与学习概念图
 
@@ -374,7 +374,7 @@ DeepSeek 在商业与营销领域展现了卓越的价值，成为企业提升�
 
 DeepSeek 商业与营销应用概念图如图 1.17 所示。
 
-![](img/DeepSeek探索未至之境_image_019.jpg)
+![](img/DeepSeek-探索未至之境_image_019.jpg)
 
 图 1.17 DeepSeek 商业与营销应用概念图
 
@@ -390,7 +390,7 @@ DeepSeek 在科技与研发领域展现了强大的技术实力，成为开发�
 
 DeepSeek 科技与研发概念图如图 1.18 所示。
 
-![](img/DeepSeek探索未至之境_image_020.jpg)
+![](img/DeepSeek-探索未至之境_image_020.jpg)
 
 图 1.18 DeepSeek 科技与研发概念图
 
@@ -406,7 +406,7 @@ DeepSeek 在媒体与娱乐领域展现了强大的创意支持能力，成为�
 
 DeepSeek 媒体与娱乐概念图如图 1.19 所示。
 
-![](img/DeepSeek探索未至之境_image_021.jpg)
+![](img/DeepSeek-探索未至之境_image_021.jpg)
 
 图 1.19 DeepSeek 媒体与娱乐概念图
 
@@ -422,7 +422,7 @@ DeepSeek 在个人生活领域展现了贴心的智能化服务，成为用户�
 
 DeepSeek 个人生活概念图如图 1.20 所示。
 
-![](img/DeepSeek探索未至之境_image_022.jpg)
+![](img/DeepSeek-探索未至之境_image_022.jpg)
 
 图 1.20 DeepSeek 个人生活概念图
 
@@ -436,7 +436,7 @@ DeepSeek 致力于推动跨领域协作，通过整合不同学科的专业知�
 
 DeepSeek 跨领域协作概念图如图 1.21 所示。
 
-![](img/DeepSeek探索未至之境_image_023.jpg)
+![](img/DeepSeek-探索未至之境_image_023.jpg)
 
 图 1.21 DeepSeek 跨领域协作概念图
 
@@ -458,7 +458,7 @@ DeepSeek 作为一款强大的 AI 工具，能够与多种创意和生产力工�
 
 首先，使用 DeepSeek 生成短视频文案。打开 DeepSeek 并启动，在输入框中输入“帮我写 5 条关于旅行感受的文案标题”，生成标题如图 2.1 所示。
 
-![](img/DeepSeek探索未至之境_image_024.jpg)
+![](img/DeepSeek-探索未至之境_image_024.jpg)
 
 图 2.1 DeepSeek 生成旅行感受标题
 
@@ -466,11 +466,11 @@ DeepSeek 作为一款强大的 AI 工具，能够与多种创意和生产力工�
 
 短视频文案生成后，接着打开剪映 App 并启动，在剪映 App 首页点击【AI 图文成片】选项，如图 2.3 所示。
 
-![](img/DeepSeek探索未至之境_image_025.jpg)
+![](img/DeepSeek-探索未至之境_image_025.jpg)
 
 图 2.2 DeepSeek 生成短视频文案
 
-![](img/DeepSeek探索未至之境_image_026.jpg)
+![](img/DeepSeek-探索未至之境_image_026.jpg)
 
 图 2.3 剪映首页功能界面
 
@@ -478,17 +478,17 @@ DeepSeek 作为一款强大的 AI 工具，能够与多种创意和生产力工�
 
 点击【图文成片】选项后会弹出一个新的功能界面，如图 2.5 所示。
 
-![](img/DeepSeek探索未至之境_image_027.jpg)
+![](img/DeepSeek-探索未至之境_image_027.jpg)
 
 图 2.4 剪映 AI 图文成片功能界面
 
-![](img/DeepSeek探索未至之境_image_028.jpg)
+![](img/DeepSeek-探索未至之境_image_028.jpg)
 
 图 2.5 剪映图文成片功能界面
 
 然后选择【自由编辑文案】选项，在输入框中粘贴在 DeepSeek 中生成的内容，点击右上角的【应用】选项，如图 2.6 所示
 
-![](img/DeepSeek探索未至之境_image_029.jpg)
+![](img/DeepSeek-探索未至之境_image_029.jpg)
 
 图 2.6 剪映图文成片输入框界面
 
@@ -496,15 +496,15 @@ DeepSeek 作为一款强大的 AI 工具，能够与多种创意和生产力工�
 
 图 2.7 中共有 3 个功能选项，如果用户没有指定的素材，那么选择【智能匹配素材】选项。如果用户想上传自己的素材，那么选择【使用本地素材】选项。这里选择【智能匹配素材】选项，点击后等待视频生成即可，短视频预览界面如图 2.8 所示。
 
-![](img/DeepSeek探索未至之境_image_030.jpg)
+![](img/DeepSeek-探索未至之境_image_030.jpg)
 
 图 2.7 剪映选择素材功能界面
 
-![](img/DeepSeek探索未至之境_image_031.jpg)
+![](img/DeepSeek-探索未至之境_image_031.jpg)
 
 图 2.8 剪映生成的短视频预览界面
 
-接着，用户可以进行视频预览，查看生成的短视频内容是否符合预期。用户也可以根据自己的喜好调整字幕样式、字体和颜色，或添加背景音乐或音效，还可以使用剪映的滤镜和特效功能来提升视频质感。 ![](img/DeepSeek探索未至之境_image_032.jpg)
+接着，用户可以进行视频预览，查看生成的短视频内容是否符合预期。用户也可以根据自己的喜好调整字幕样式、字体和颜色，或添加背景音乐或音效，还可以使用剪映的滤镜和特效功能来提升视频质感。 ![](img/DeepSeek-探索未至之境_image_032.jpg)
 
 **注意事项**
 
@@ -520,13 +520,13 @@ DeepSeek 作为一款强大的 AI 工具，能够与多种创意和生产力工�
 
 首先，打开 DeepSeek，输入需要的文案要求。例如，用户需要生成一个卖橙子的数字人视频，可以在 DeepSeek 中输入“写一份卖橙子的口播文档，内容要求 500 字，产地湖南，售价 5 元 1 斤，感兴趣的朋友可以直接拍下，24 小时内发货。”接下来，DeepSeek 会生成一段适合口播的文案，如图 2.9 所示。
 
-![](img/DeepSeek探索未至之境_image_033.jpg)
+![](img/DeepSeek-探索未至之境_image_033.jpg)
 
 图 2.9 DeepSeek 生成口播文案
 
 口播文案生成之后，打开剪映 App 并启动，在剪映 App 首页点击【数字人】选项，如图 2.10 所示。
 
-![](img/DeepSeek探索未至之境_image_034.jpg)
+![](img/DeepSeek-探索未至之境_image_034.jpg)
 
 图 2.10 剪映首页功能界面
 
@@ -534,11 +534,11 @@ DeepSeek 作为一款强大的 AI 工具，能够与多种创意和生产力工�
 
 接着，会出现橙子园背景的素材，再选择合适的橙子园背景视频，如图 2.12 所示。
 
-![](img/DeepSeek探索未至之境_image_035.jpg)
+![](img/DeepSeek-探索未至之境_image_035.jpg)
 
 图 2.11 剪映数字人功能界面
 
-![](img/DeepSeek探索未至之境_image_036.jpg)
+![](img/DeepSeek-探索未至之境_image_036.jpg)
 
 图 2.12 剪映数字人挑选背景
 
@@ -546,17 +546,17 @@ DeepSeek 作为一款强大的 AI 工具，能够与多种创意和生产力工�
 
 选择数字人形象后，点击【下一步】按钮，在弹出的文案输入框中，将之前在 DeepSeek 生成的口播文案粘贴进去，此时用户还可根据个人喜好，选择合适的配音风格和音色，如图 2.14 所示。
 
-![](img/DeepSeek探索未至之境_image_037.jpg)
+![](img/DeepSeek-探索未至之境_image_037.jpg)
 
 图 2.13 剪映数字人形象挑选界面
 
-![](img/DeepSeek探索未至之境_image_038.jpg)
+![](img/DeepSeek-探索未至之境_image_038.jpg)
 
 图 2.14 剪映数字人口播内容界面
 
 在数字人创建成功后，进入预览界面，如图 2.15 所示。
 
-![](img/DeepSeek探索未至之境_image_039.jpg)
+![](img/DeepSeek-探索未至之境_image_039.jpg)
 
 图 2.15 剪映数字人预览界面
 
@@ -576,11 +576,11 @@ DeepSeek +即梦 AI 的组合，可以帮助用户快速实现复杂的特效�
 
 然后，打开即梦 AI，在即梦 AI 的功能界面找到【视频生成】选项，如图 2.17 所示。
 
-![](img/DeepSeek探索未至之境_image_040.jpg)
+![](img/DeepSeek-探索未至之境_image_040.jpg)
 
 图 2.16 DeepSeek 生成文档
 
-![](img/DeepSeek探索未至之境_image_041.jpg)
+![](img/DeepSeek-探索未至之境_image_041.jpg)
 
 图 2.17 即梦 AI 功能界面
 
@@ -588,11 +588,11 @@ DeepSeek +即梦 AI 的组合，可以帮助用户快速实现复杂的特效�
 
 文字输入完成后，点击右下角的【生成】按钮，系统根据文案自动生成视频，如图 2.19 所示。
 
-![](img/DeepSeek探索未至之境_image_042.jpg)
+![](img/DeepSeek-探索未至之境_image_042.jpg)
 
 图 2.18 即梦 AI 文字输入页面
 
-![](img/DeepSeek探索未至之境_image_043.jpg)
+![](img/DeepSeek-探索未至之境_image_043.jpg)
 
 图 2.19 即梦 AI 生成的效果
 
@@ -608,11 +608,11 @@ DeepSeek +即梦 AI 的组合，可以帮助用户快速实现复杂的特效�
 
 然后，会出现上传图片或文件的功能界面，这里点击【文件】选项，如图 2.21 所示。
 
-![](img/DeepSeek探索未至之境_image_044.jpg)
+![](img/DeepSeek-探索未至之境_image_044.jpg)
 
 图 2.20 DeepSeek 功能界面
 
-![](img/DeepSeek探索未至之境_image_045.jpg)
+![](img/DeepSeek-探索未至之境_image_045.jpg)
 
  图 2.21 DeepSeek 上传图片或文件的功能界面
 
@@ -620,29 +620,29 @@ DeepSeek +即梦 AI 的组合，可以帮助用户快速实现复杂的特效�
 
 户型图上传成功后，在输入框中输入详细的装修需求，如“设计风格北欧风，预算范围 30 万，所在城市武汉，材料用环保材料，设施包含：地暖和中央空调，户型图已上传附件中。”如图 2.23 所示。
 
-![](img/DeepSeek探索未至之境_image_046.jpg)
+![](img/DeepSeek-探索未至之境_image_046.jpg)
 
 图 2.22 DeepSeek 上传图片成功
 
-![](img/DeepSeek探索未至之境_image_047.jpg)
+![](img/DeepSeek-探索未至之境_image_047.jpg)
 
 图 2.23 在 DeepSeek 中输入装修需求
 
 完成需求输入并提交，DeepSeek 很快就给出了具体的装修方案，如图 2.24 所示。
 
-![](img/DeepSeek探索未至之境_image_048.jpg)
+![](img/DeepSeek-探索未至之境_image_048.jpg)
 
 图 2.24 DeepSeek 生成的装修方案
 
 接着，打开即梦 AI，在即梦 AI 功能界面中找到【图片生成】选项，然后将在 DeepSeek 中生成的文字版装修方案粘贴到即梦 AI 的输入框中，如图 2.25 所示。
 
-![](img/DeepSeek探索未至之境_image_049.jpg)
+![](img/DeepSeek-探索未至之境_image_049.jpg)
 
 图 2.25 在即梦 AI 中输入装修方案
 
 点击【生成】按钮，等待片刻，即梦 AI 会根据文案生成高清装修效果图，如图 2.26 所示。
 
-![](img/DeepSeek探索未至之境_image_050.jpg)
+![](img/DeepSeek-探索未至之境_image_050.jpg)
 
 图 2.26 即梦 AI 生成的装修效果图
 
@@ -662,23 +662,23 @@ DeepSeek +即梦 AI 的组合，可以帮助用户快速实现复杂的特效�
 
 歌词生成后，打开豆包，选择【音乐生成】选项，如图 2.28 所示。
 
-![](img/DeepSeek探索未至之境_image_051.jpg)
+![](img/DeepSeek-探索未至之境_image_051.jpg)
 
 图 2.27 DeepSeek 生成歌词的界面
 
-![](img/DeepSeek探索未至之境_image_052.jpg)
+![](img/DeepSeek-探索未至之境_image_052.jpg)
 
 图 2.28 豆包的音乐生成功能界面
 
 点击后弹出输入框界面，在输入框中粘贴在 DeepSeek 中生成的歌词，此时用户还可以根据需求选择流行、氛围、人声、时长的功能，如图 2.29 所示。
 
-![](img/DeepSeek探索未至之境_image_053.jpg)
+![](img/DeepSeek-探索未至之境_image_053.jpg)
 
 图 2.29 在豆包中复制歌词并选择音乐风格
 
 确认需求后，点击界面右下角的蓝色发送按钮即可完成音乐创作。音乐生成结果如图 2.30 所示。
 
-![](img/DeepSeek探索未至之境_image_054.jpg)
+![](img/DeepSeek-探索未至之境_image_054.jpg)
 
 图 2.30 音乐生成成功的界面
 
@@ -696,19 +696,19 @@ DeepSeek +即梦 AI 的组合，可以帮助用户快速实现复杂的特效�
 
 确认需求后，点击界面右下角的蓝色发送按钮，系统将自动生成海报。最终生成的海报如图 2.34 所示。
 
-![](img/DeepSeek探索未至之境_image_055.jpg)
+![](img/DeepSeek-探索未至之境_image_055.jpg)
 
 图 2.31 DeepSeek 生成海报提示词
 
-![](img/DeepSeek探索未至之境_image_056.jpg)
+![](img/DeepSeek-探索未至之境_image_056.jpg)
 
 图 2.32 豆包功能界面
 
-![](img/DeepSeek探索未至之境_image_057.jpg)
+![](img/DeepSeek-探索未至之境_image_057.jpg)
 
 图 2.33 豆包中设置图片参数
 
-![](img/DeepSeek探索未至之境_image_058.jpg)
+![](img/DeepSeek-探索未至之境_image_058.jpg)
 
 图 2.34 海报制作完成
 
@@ -732,7 +732,7 @@ DeepSeek +即梦 AI 的组合，可以帮助用户快速实现复杂的特效�
 
 首先，打开 Ollama 官方网站，在主页上单击【Download】按钮，用户可以根据自己的操作系统选择相应的安装包进行下载，或者扫描本书提供的资源二维码获取与本书配套的安装包。以 Windows 系统为例，下载完成后，双击 OllamaSetup.exe 安装文件，接着单击【Install】按钮开始安装，如图 3.1 所示。安装过程简洁快捷，无须进行额外的配置或操作，稍等片刻即可完成安装。
 
-![](img/DeepSeek探索未至之境_image_059.jpg)
+![](img/DeepSeek-探索未至之境_image_059.jpg)
 
 图 3.1 安装 Ollama
 
@@ -746,7 +746,7 @@ Ollama 安装完成后，为了确认其是否成功部署，需要进行安装�
 
 打开 Windows 系统终端后，输入并执行指令“ollama --version”，以查询版本信息。如果终端显示 Ollama 的版本号（例如：ollama version is ××.××.××），则说明 Ollama 已成功安装到当前系统中。具体效果如图 3.2 所示。
 
-![](img/DeepSeek探索未至之境_image_060.jpg)
+![](img/DeepSeek-探索未至之境_image_060.jpg)
 
 图 3.2 验证 Ollama 是否安装成功
 
@@ -758,7 +758,7 @@ Ollama 安装完成后，为了确认其是否成功部署，需要进行安装�
 
 ■ **Linux 系统：**可以通过 Systemd 创建守护进程，将服务配置为系统服务，以确保其在后台持续运行，并在系统重启后自动启动。
 
-![](img/DeepSeek探索未至之境_image_061.jpg)
+![](img/DeepSeek-探索未至之境_image_061.jpg)
 
 **补充说明：**
 
@@ -774,13 +774,13 @@ Ollama 平台对 DeepSeek 系列模型的广泛兼容性，为用户提供了硬
 
 打开 Windows 系统终端，输入并执行指令“ollama run deepseek-r1:7b”后，系统将自动从 Ollama 模型库拉取约 4.7GB 的模型文件。当 Windows 系统终端中显示“success”提示时，表明模型已成功加载至内存。此时可输入“你好，请自我介绍”等测试语句，观察模型生成的中文回复质量，如图 3.3 所示。
 
-![](img/DeepSeek探索未至之境_image_062.jpg)
+![](img/DeepSeek-探索未至之境_image_062.jpg)
 
 图 3.3 安装 DeepSeek-R1 7B 模型
 
 接着，打开 Windows 系统终端程序，输入并执行指令“ollama list”，此时若 Windows 系统终端显示的模型列表中包含“deepseek-r1:7b”，则表明该模型已成功加载至本地运行环境，如图 3.4 所示。
 
-![](img/DeepSeek探索未至之境_image_063.jpg)
+![](img/DeepSeek-探索未至之境_image_063.jpg)
 
 图 3.4 Ollama 已部署模型列表
 
@@ -796,13 +796,13 @@ Open WebUI 作为完全开源项目，一直严格遵循 AGPLv3 许可协议，
 
 读者可以从 Docker 官方网站下载最新版本的 Docker 容器化平台，或者扫描本书提供的资源二维码获取与本书配套的安装包。下载完成后，打开 Docker 安装包，单击【OK】按钮开始安装，如图 3.5 所示。
 
-![](img/DeepSeek探索未至之境_image_064.jpg)
+![](img/DeepSeek-探索未至之境_image_064.jpg)
 
 图 3.5 Docker 容器化平台安装界面
 
 安装完成后，系统会提示用户必须重新启动 Windows 以完成配置，如图 3.6 所示。
 
-![](img/DeepSeek探索未至之境_image_065.jpg)
+![](img/DeepSeek-探索未至之境_image_065.jpg)
 
 图 3.6 Docker 容器化平台安装完成
 
@@ -820,13 +820,13 @@ always ghcr.io/open-webui/open-webui:main
 
 Open WebUI 部署完成后，用户可通过浏览器进入管理员账号创建页面，输入名称、电子邮箱和密码创建管理员账号，如图 3.7 所示。
 
-![](img/DeepSeek探索未至之境_image_066.jpg)
+![](img/DeepSeek-探索未至之境_image_066.jpg)
 
 图 3.7 创建管理员账号
 
 创建管理员账号后，就可以正常使用了。首先选择已部署的 DeepSeek-R1 7B 模型，然后在输入框中输入“你好，欢迎你入住我的电脑。”如图 3.8 所示。
 
-![](img/DeepSeek探索未至之境_image_067.jpg)
+![](img/DeepSeek-探索未至之境_image_067.jpg)
 
 图 3.8 进入聊天功能页面
 
@@ -840,19 +840,19 @@ CodeGPT 是一款深度融入 JetBrains、VS Code 等集成开发环境（Integ
 
 首先，应完成模型的本地部署。在 Windows 系统终端中执行指令“ollama pull deepseek-coder:1.3b”，从 Ollama 平台获取模型，如图 3.9 所示。对于硬件配置，建议设备至少配备 8GB 可用内存以确保模型流畅运行。
 
-![](img/DeepSeek探索未至之境_image_068.jpg)
+![](img/DeepSeek-探索未至之境_image_068.jpg)
 
 图 3.9 部署 DeepSeek-Coder 1.3B 模型
 
 接下来，进入开发环境配置阶段。在 VS Code 扩展商店搜索“CodeGPT”官方插件并完成安装。该插件作为连接 IDE 与 AI 模型的中枢，支持多种本地及云端模型接入，如图 3.10 所示。
 
-![](img/DeepSeek探索未至之境_image_069.jpg)
+![](img/DeepSeek-探索未至之境_image_069.jpg)
 
 图 3.10 安装 CodeGPT 插件
 
 安装完成后，需要在插件设置中将模型供应商切换为“Ollama”，如图 3.11 所示。
 
-![](img/DeepSeek探索未至之境_image_070.jpg)
+![](img/DeepSeek-探索未至之境_image_070.jpg)
 
 图 3.11 切换模型供应商
 
@@ -860,11 +860,11 @@ CodeGPT 是一款深度融入 JetBrains、VS Code 等集成开发环境（Integ
 
 此时，系统会自动建立 VS Code 与本地模型服务之间的通信链路。完成基础配置后，可通过实际编码场景验证集成效果。在代码编辑界面使用快捷键（默认为 Ctrl+Shift+G）唤醒智能辅助功能，模型将根据当前上下文提供代码补全建议、错误检测及自然语言解释，如图 3.13 所示。
 
-![](img/DeepSeek探索未至之境_image_071.jpg)
+![](img/DeepSeek-探索未至之境_image_071.jpg)
 
 图 3.12 设置使用的模型
 
-![](img/DeepSeek探索未至之境_image_072.jpg)
+![](img/DeepSeek-探索未至之境_image_072.jpg)
 
 图 3.13 生成计算斐波那契数列函数
 
@@ -876,19 +876,19 @@ CodeGPT 是一款深度融入 JetBrains、VS Code 等集成开发环境（Integ
 
 首先，在 Windows 系统终端中输入并执行指令“ollama serve”，以启动 Ollama 本地服务，如图 3.14 所示。该指令会在本地环境中建立一个稳定的连接。通过该服务，用户能够更好地管理模型的运行与调度，为验证 DeepSeek 模型提供可靠的基础。
 
-![](img/DeepSeek探索未至之境_image_073.jpg)
+![](img/DeepSeek-探索未至之境_image_073.jpg)
 
 图 3.14 启动 Ollama 本地服务
 
 启动 Ollama 本地服务后，打开一个新的终端窗口并在其中输入指令“ollama run deepseek-r1:7b”。该指令会将 DeepSeek-R1 7B 模型加载到内存中并进入指令模式。执行该指令后，系统将启动 DeepSeek 模型并进入等待状态，准备接收用户输入的数据，如图 3.15 所示。
 
-![](img/DeepSeek探索未至之境_image_074.jpg)
+![](img/DeepSeek-探索未至之境_image_074.jpg)
 
 图 3.15 加载 DeepSeek-R1 7B 模型
 
 接着，在指令窗口输入产品的基本信息，如“生成产品推广语，要求精练、简洁、精准，产品是老年手机，特点是字体大、声音大、有一键求救功能。”这个指令生成了模型产品的类型、特点、产品受众，以及推广语句的长度，如图 3.16 所示。
 
-![](img/DeepSeek探索未至之境_image_075.jpg)
+![](img/DeepSeek-探索未至之境_image_075.jpg)
 
 图 3.16 生成产品推广语
 
@@ -928,7 +928,7 @@ DeepSeek-R1 7B 模型经过推理思考后，生成了符合要求的推广语�
 
 最后，对 Ollama 的启动情况以及 DeepSeek-R1 7B 模型的部署状况进行验证。为实现这一目的，需借助浏览器来获取相关信息。在浏览器的地址栏中输入“localhost:11434/api/tags”并按回车键，如图 3.17 所示。
 
-![](img/DeepSeek探索未至之境_image_076.jpg)
+![](img/DeepSeek-探索未至之境_image_076.jpg)
 
 图 3.17 本地安装的模型信息
 
@@ -942,7 +942,7 @@ DeepSeek-R1 7B 模型经过推理思考后，生成了符合要求的推广语�
 
 模型接收到指令后，将执行解析流程。首先对输入文本进行语义特征抽取，识别与需求相关的核心表述；然后通过语义分析定位需求触发词，包括“需要”“要求”“应支持”等关键动词；最后生成符合规范的结构化需求清单。由图 3.18 可知，输出结果采用三级结构呈现，第三级条目包含加粗显示的需求描述主体，并在右侧以浅色字体展示了具体的描述。
 
-![](img/DeepSeek探索未至之境_image_077.jpg)
+![](img/DeepSeek-探索未至之境_image_077.jpg)
 
 图 3.18 需求分析结果
 
@@ -974,7 +974,7 @@ DeepSeek-R1 7B 模型经过推理思考后，生成了符合要求的推广语�
 
 ■ **main.py**：担任控制中枢角色，整合各个功能。该文件通过标准输入获取目标路径，调用 readCode.py 文件获取数据，并经过 operate.py 文件处理后输出结果，如图 3.19 所示。
 
-![](img/DeepSeek探索未至之境_image_078.jpg)
+![](img/DeepSeek-探索未至之境_image_078.jpg)
 
 图 3.19 项目结构
 
@@ -984,23 +984,23 @@ readCode.py 文件用来实现读取代码文件内容的功能。它接收一�
 
 首先，打开 CodeGPT 插件，在输入框中输入以下指令初始化 readCode.py：“生成 Python 代码，用于读取传进来的文件内容，读取出来的内容返回给调用方。”按回车键后，用户便会看到 CodeGPT 插件自动生成的代码，如图 3.20 所示。
 
-![](img/DeepSeek探索未至之境_image_079.jpg)
+![](img/DeepSeek-探索未至之境_image_079.jpg)
 
 图 3.20 插件生成的 readCode 代码
 
 接着，单击【Insert Code】按钮，将生成的代码插入 readCode.py 文件中。以下是 CodeGPT 生成的代码示例。
 
-![](img/DeepSeek探索未至之境_image_080.jpg)
+![](img/DeepSeek-探索未至之境_image_080.jpg)
 
 为了实现仅读取 Python 文件的功能，需要添加文件类型校验的逻辑。因此，继续在 CodeGPT 的输入框中输入新的指令“增加参数 file_path 是否是 Python 文件，如果不是，则打印提示信息：‘文件 file_path 不是 Python 文件’。”该指令明确了文件类型的校验规则，并指定了在文件类型校验不通过时需要执行的操作。生成的代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_081.jpg)
+![](img/DeepSeek-探索未至之境_image_081.jpg)
 
 这段代码在上一段代码的基础上，增加了通过“os.path.splitext(file_path) ”获取文件路径的扩展名，并将扩展名保存在变量“ext”中。接着，检查文件的扩展名是否为“.py”，即是否为 Python 文件。若文件扩展名不是“.py”，则返回一条提示信息，指明该文件不是 Python 文件。
 
 为了提高代码分析的准确性，需要限制被分析代码的规模，这里以最大 200 KB 为例。在 CodeGPT 的输入框中输入最后一个指令“校验 file_path 格式是否是 python 文件后，增加校验文件大小是否超过 200 KB，如果超过了，则打印提示信息：‘文件 file_path 大小超过 200 KB’。”该指令限定了传入文件的大小不能超过 200KB，从而确保分析的代码规模在可控范围内。生成的代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_082.jpg)
+![](img/DeepSeek-探索未至之境_image_082.jpg)
 
 这次的输出增加了获取指定路径文件大小的代码，用于判断指定路径文件是否超过 200KB。首先，利用“os.path.getsize(file_path) ”获取指定文件路径 file_path 的大小，返回值是文件的字节数。然后，通过将字节数除以 1024，将文件单位转换为 KB。接下来，代码将判断文件的大小是否超过 200KB，如果超过了，即“if file_size > 200”条件为真，程序会执行“print(f'文件{file_path}大小超过 200KB')”语句，并输出一条提示信息，告诉用户文件的大小已经超过了 200KB。至此，readCode.py 文件的功能已经完成。
 
@@ -1016,13 +1016,13 @@ operate.py 文件用来实现根据操作类型，执行对应操作的代码。
 
 第一步，初始化 operate.py 文件。在 CodeGTP 的输入框中输入第一个指令“生成 Python 代码，传入一个参数，校验传入的参数是否是整数，如果不是整数则打印：操作类型参数必须是整数类型。”将生成一个包含校验输入参数是否为整数的 operate()函数。
 
-![](img/DeepSeek探索未至之境_image_083.jpg)
+![](img/DeepSeek-探索未至之境_image_083.jpg)
 
 这段代码首先检查传入的 number 是否为整数类型且不是布尔类型。具体来说，使用“isinstance(number, int) ”判断 number 是否是整数类型，使用“not isinstance(number, bool) ”确保 number 不是布尔类型。因为在 Python 中，布尔类型是整数的子类，True 和 False 实际上是整数类型的一部分。只有在 number 是整数且不是布尔类型时，函数才会返回该整数。如果 number 的类型不符合要求，则打印一条错误信息，提示操作类型参数必须是整数类型，并返回退出程序。
 
 第二步，校验输入的参数。在 CodeGPT 的输入框中输入第二个指令“增加校验传入的参数只能是 0、1、2 中的数字，如果参数值不符合要求则打印：操作类型参数只能是 0、1、2 中的一个。”该指令限定了参数的取值范围，要求传入的参数必须是 0、1、2 中的一个。其目的是强化输入的合法性验证，确保程序仅处理预定范围内的值。如果传入的参数超出这一范围，程序会打印错误信息：“操作类型参数只能是 0、1、2 中的一个”，以便用户能够快速发现并修正输入错误。这一步骤不仅提升了系统的健壮性，还能有效防止因不符合预期的输入而导致的程序异常或错误，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_084.jpg)
+![](img/DeepSeek-探索未至之境_image_084.jpg)
 
 第三步，根据不同数字执行对应操作。在 CodeGPT 的输入框中输入第三个指令“校验通过后，根据输入的数字执行不同的操作。”该指令的目的是根据用户传入的数字参数（0、1、2）执行相应的操作。通过这种方式，程序能够根据输入值有选择性地执行预定义的功能。例如：
 
@@ -1034,15 +1034,15 @@ operate.py 文件用来实现根据操作类型，执行对应操作的代码。
 
 这种设计使用户能够更直观地控制程序的行为，并根据实际需求选择不同的操作，从而提升程序的灵活性和实用性，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_085.jpg)
+![](img/DeepSeek-探索未至之境_image_085.jpg)
 
 第四步，在每个 if 分支中调用 DeepSeek-R1 7B 模型。在 CodeGPT 的输入框中输入第四个指令“在每个 if 分支中增加调用本地 Ollama 部署的 DeepSeek-R1 7B 模型，并将返回值返回给函数调用方。”这一指令将在代码中调用本地部署的 DeepSeek-R1 7B 模型的函数，从而实现与模型的交互功能。具体来说，在每个 if 分支中执行相应操作时，都会调用本地模型并获取其返回值，最终将结果返回给函数的调用方，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_086.jpg)
+![](img/DeepSeek-探索未至之境_image_086.jpg)
 
 下面编写 call_deepseek_r1_7b()函数，实现调用 DeepSeek-R1 7B 模型的功能。这一步骤需要手动完成。首先，在 Windows 系统终端中输入并执行指令“pip install ollama”，将 Ollama 包安装到项目中。安装完成后，将 Ollama 引入 operate.py 文件中。接着，在 operate.py 文件中新建 call_deepseek_r1_7b()函数。该函数内部会调用本地通过 Ollama 部署的 DeepSeek-R1 7B 模型，以实现与模型的交互功能，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_087.jpg)
+![](img/DeepSeek-探索未至之境_image_087.jpg)
 
 call_deepseek_r1_7b()函数接收两个参数：prompt 和 temperature。其中，prompt 是用户输入的提示信息；temperature 是控制生成文本随机性的参数，默认值为 0.7，值越高生成的文本越随机，值越低则生成的文本越确定。
 
@@ -1062,13 +1062,13 @@ main.py 文件作为程序的协调文件，负责整合 readCode.py 和 operate
 
 以下是 main.py 的代码示例。
 
-![](img/DeepSeek探索未至之境_image_088.jpg)
+![](img/DeepSeek-探索未至之境_image_088.jpg)
 
 在以上代码中，首先，导入自定义 readCode.py 和 operate.py 文件。其次，在主程序入口部分，先让用户输入要操作的 Python 代码文件完整路径，再让用户选择要执行的操作（添加代码注释、检查代码规范、检查代码风险）并将输入转换为整数。接着，使用 readCode.py 文件的 read_file()函数读取用户指定路径的代码内容。最后，调用 operate.py 文件的 operate()函数，根据用户选择的操作类型和读取的代码内容进行相应操作。
 
 接下来，验证程序是否可以正确运行。打开 Windows 系统终端，输入指令“python .\main.py”，再输入代码文件路径和要执行的操作，最后按回车键确认。在等待几秒后，控制台将打印出执行的结果，如图 3.21 所示。
 
-![](img/DeepSeek探索未至之境_image_089.jpg)
+![](img/DeepSeek-探索未至之境_image_089.jpg)
 
 图 3.21 操作执行结果
 
@@ -1092,19 +1092,19 @@ main.py 文件作为程序的协调文件，负责整合 readCode.py 和 operate
 
 首先，打开腾讯云官方网站，使用已注册账号登录后，在页面顶部导航栏选择【开发者工具】分类下的【Cloud Studio】产品选项。进入该服务的空间管理界面后，单击左侧功能菜单中的【空间模板】选项，此时系统将呈现多种开发环境模板，并在模板筛选区域选择【AI 模板】类别标签，如图 4.1 所示。
 
-![](img/DeepSeek探索未至之境_image_090.jpg)
+![](img/DeepSeek-探索未至之境_image_090.jpg)
 
 图 4.1 AI 模板页面
 
 接着，从模板列表中找到【Ollama】模板。单击该模板后，系统将弹出【选择空间规格】窗口，此处需重点选择【免费基础型】资源套餐，如图 4.2 所示。该套餐配置包含 8 核 CPU、32GB 内存和 16GB 的显存，适用于个人开发者进行模型调试与轻量级 AI 应用测试。确认资源配置无误后，单击左下角的【新建】按钮提交创建请求。
 
-![](img/DeepSeek探索未至之境_image_091.jpg)
+![](img/DeepSeek-探索未至之境_image_091.jpg)
 
 图 4.2 【选择空间规格】窗口
 
 最后，云平台将自动进入资源调度阶段，该过程通常耗时 1～3 分钟。部署完成后，自动跳转到【高性能工作空间】，在【高性能工作空间】页面中可查看新建的 Ollama 实例，其状态指示灯将由橙色闪烁转为常亮绿色，如图 4.3 所示。
 
-![](img/DeepSeek探索未至之境_image_092.jpg)
+![](img/DeepSeek-探索未至之境_image_092.jpg)
 
 图 4.3 新建的 Ollama 实例
 
@@ -1114,13 +1114,13 @@ main.py 文件作为程序的协调文件，负责整合 readCode.py 和 operate
 
 单击新建的 Ollama 实例，系统将自动载入 IDE 工作台，使用快捷键“Ctrl+J”打开终端面板。首先，在终端面板中输入并执行指令“mkdir -p ollamamodels &&cd ollamamodels”，创建专属模型目录。这个指令既能保持工作区整洁，又可避免权限冲突问题，如图 4.4 所示。
 
-![](img/DeepSeek探索未至之境_image_093.jpg)
+![](img/DeepSeek-探索未至之境_image_093.jpg)
 
 图 4.4 在终端面板中创建专属模型目录
 
 接着，输入并执行指令“ollama run deepseek-r1:7b”，启动模型部署流程。此时系统将自动连接 Ollama 官方仓库，开始分块下载约 4.7GB 的模型文件，在常规网络环境下，该过程通常持续 3～5 分钟。下载进度条达到 100%后，终端面板会显示“success”成功提示，并立即转入交互式指令行界面，出现“>>>”符号表示模型已就绪，如图 4.5 所示。
 
-![](img/DeepSeek探索未至之境_image_094.jpg)
+![](img/DeepSeek-探索未至之境_image_094.jpg)
 
 图 4.5 使用命令部署 DeepSeek-R1 7B 模型
 
@@ -1132,13 +1132,13 @@ main.py 文件作为程序的协调文件，负责整合 readCode.py 和 operate
 
 以 DeepSeek-R1 32B 模型为例，在空间模板的 AI 模板页面中选择【DeepSeek -R1】模板后，在弹出的【选择空间规格】窗口中选择【DeepSeek 32B】模板，单击左下角的【下一步】按钮，云平台将自动进入资源调度阶段，如图 4.6 所示。
 
-![](img/DeepSeek探索未至之境_image_095.jpg)
+![](img/DeepSeek-探索未至之境_image_095.jpg)
 
 图 4.6 一键部署配置
 
 经过几分钟的等待，系统会自动加载 IDE 工作台，并同时打开 README.md 文件和 Open WebUI 界面，如图 4.7 所示。
 
-![](img/DeepSeek探索未至之境_image_096.jpg)
+![](img/DeepSeek-探索未至之境_image_096.jpg)
 
 图 4.7 IDE 工作台界面
 
@@ -1150,19 +1150,19 @@ main.py 文件作为程序的协调文件，负责整合 readCode.py 和 operate
 
 首先，单击 Open WebUI 左上角的【Open In Browser】按钮，如图 4.8 所示。
 
-![](img/DeepSeek探索未至之境_image_097.jpg)
+![](img/DeepSeek-探索未至之境_image_097.jpg)
 
 图 4.8 Open In Browser
 
 系统将在浏览器的新标签页中打开 Open WebUI 界面，如图 4.9 所示。
 
-![](img/DeepSeek探索未至之境_image_098.jpg)
+![](img/DeepSeek-探索未至之境_image_098.jpg)
 
 图 4.9 在浏览器的新标签页中打开 Open WebUI 界面
 
 然后，创建新工作区，在工作区界面中单击【设置】按钮，进入设置页面，选择【聊天设置】选项，将“工作区 LLM 提供者”设置为 Ollama，再将工作区聊天模型调整为“deepseek-r1:32b”模型，完成上述配置后，用户即可在聊天界面中使用 DeepSeek-R1 32B 模型进行交互操作，如图 4.10 所示。
 
-![](img/DeepSeek探索未至之境_image_099.jpg)
+![](img/DeepSeek-探索未至之境_image_099.jpg)
 
 图 4.10 设置聊天使用模型
 
@@ -1170,11 +1170,11 @@ main.py 文件作为程序的协调文件，负责整合 readCode.py 和 operate
 
 接着，返回聊天窗口，在对话框中输入 ToDoList 软件需求：“我要做一个 ToDoList 软件，它包含任务增删改查功能，任务定时提醒功能，以及邀请他人一起完成任务的功能。帮我生成关于这个软件的需求。”查看输出需求，如图 4.11 和图 4.12 所示。
 
-![](img/DeepSeek探索未至之境_image_100.jpg)
+![](img/DeepSeek-探索未至之境_image_100.jpg)
 
 图 4.11 输出结果 1
 
-![](img/DeepSeek探索未至之境_image_101.jpg)
+![](img/DeepSeek-探索未至之境_image_101.jpg)
 
 图 4.12 输出结果 2
 
@@ -1200,7 +1200,7 @@ main.py 文件作为程序的协调文件，负责整合 readCode.py 和 operate
 
 首先，访问 Open WebUI 交互平台，在界面左上角的模型选择器中选取“DeepSeek-R1 32B”作为当前会话引擎。然后，输入指令：“请根据如下内容，分析出需求，要求简洁明了。每个需求条目需包含编号、需求描述。”该指令设计实现了三项目标：明确分析任务的输出格式规范；限定需求描述的表述特征；确保需求条目间的逻辑独立性。接着，在指令后面粘贴项目概述的内容。在等待数秒后，DeepSeek 将会给出整理后的需求，如图 4.13 所示。
 
-![](img/DeepSeek探索未至之境_image_102.jpg)
+![](img/DeepSeek-探索未至之境_image_102.jpg)
 
 图 4.13 需求分析结果
 
@@ -1224,7 +1224,7 @@ main.py 文件作为程序的协调文件，负责整合 readCode.py 和 operate
 
 首先，在终端面板中输入并执行指令“mkdir LearningEnglish”，创建名为“LEARNINGENGLISH”的工程文件夹，并使用 Visual Studio Code 打开该文件夹。接着，在该文件夹内创建 5 个 Python 文件，分别用于实现不同的功能，如图 4.14 所示。
 
-![](img/DeepSeek探索未至之境_image_103.jpg)
+![](img/DeepSeek-探索未至之境_image_103.jpg)
 
 图 4.14 项目结构
 
@@ -1246,7 +1246,7 @@ comm.py 文件负责存储与模型对话时所使用的指令前缀及调用模
 
 在调用模型方面，这里对 3.2.4 小节 operate.py 文件中的 call_deepseek_r1_7b()函数进行了修改。该函数负责实际与模型进行交互，并根据用户输入的指令前缀、场景模式以及其他参数，调用模型来生成适当的回应，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_104.jpg)
+![](img/DeepSeek-探索未至之境_image_104.jpg)
 
 这段代码定义了一个名为 comm 的类，主要用于与 DeepSeek-R1 32B 模型进行交互，并管理用户选择的场景指令前缀。以下是代码的主要功能说明。
 
@@ -1268,15 +1268,15 @@ word.py 文件用来实现单词的汉译英和英译汉功能，通过一问一
 
 在 word.py 文件中，首先定义了一个名为 Word 的类，该类包含 start()方法和 execute()方法。其中，start()方法作为 Word 类的入口，负责初始化类的基本功能，并启动相应的流程；execute()方法则是 Word 类的业务核心，负责执行具体的业务逻辑，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_105.jpg)
+![](img/DeepSeek-探索未至之境_image_105.jpg)
 
 接下来，在 start()方法中补充具体的逻辑。首先，start()方法会向用户展示一个提示信息，要求用户选择翻译功能。提示内容包括两项选择：1．英译汉，2．汉译英。用户通过输入 1 或 2 来选择相应的功能。当用户选择完毕后，start()方法会接收用户输入的数字，并根据输入值执行相应的转换操作，将数字转换为对应的翻译功能名称（如“英译汉”或“汉译英”）。接着，提示用户输入要执行的轮数，并接收用户输入的值。最后，把转换后的翻译功能名称和执行的轮数传递给 execute()方法，作为参数进行进一步处理，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_106.jpg)
+![](img/DeepSeek-探索未至之境_image_106.jpg)
 
 然后，在 execute()方法中实现多轮翻译功能的核心逻辑流程。execute()方法接收翻译功能名称与轮数参数，通过循环结构控制执行轮数。根据用户选择的翻译功能（“英译汉”或“汉译英”），动态构建差异化的提示词模板，调用下层模型生成目标词汇。在每轮交互中，程序按照固定格式输出题干，采集用户输入的翻译答案，并二次调用模型进行答案校验。execute()方法通过字符串拼接方式构建验证提示，直接将用户输入的答案与原始词汇进行关联验证，这种设计实现了自动批改功能。同时 call()方法作为基础服务层，承担着与模型交互的关键职责。call()方法将接收的提示消息直接转发至 comm 类的 call_deepseek_r1_7b()方法，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_107.jpg)
+![](img/DeepSeek-探索未至之境_image_107.jpg)
 
 **3．实现场景对话功能（dialogue.py）**
 
@@ -1284,11 +1284,11 @@ dialogue.py 文件通过模拟真实的对话场景帮助用户提高交流能�
 
 首先，在 dialogue.py 文件中添加一个名为 Dialogue 的类，并在其中定义 start()方法和 call()方法。这两个方法将作为 dialogue.py 文件的入口方法和基础服务层，与 word.py 文件中的 start()方法和 call()方法的作用相似，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_108.jpg)
+![](img/DeepSeek-探索未至之境_image_108.jpg)
 
 接着，在 start()方法中获取当前的场景并构造一个包含该场景描述的简短对话消息。该消息应以中文形式简要描述场景，并用于开始与用户进行英语对话。在对话结束后，程序应输出“对话结束”，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_109.jpg)
+![](img/DeepSeek-探索未至之境_image_109.jpg)
 
 在 start()方法中，首先，调用 com.get_scene()方法来获取当前场景并将其存储在变量 scene 中。然后，拼接出一个 message 字符串，这个消息包含了对话场景的描述，要求生成一个简短的对话，每次对话都用中文描述场景。接着，开启与用户进行场景对话，并在对话结束后输出“对话结束”。再调用 self.call()方法将这个消息传递给外部处理，并打印出来。最后，进入一个 while 循环等待用户输入。每次用户输入后，调用 self.call()方法处理该输入并输出结果。
 
@@ -1298,19 +1298,19 @@ writing.py 文件可以根据不同场景自动生成题目，并对用户输入
 
 同样，在 writing.py 文件中先添加一个 Writing 类，然后添加 start()方法和 call()方法，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_110.jpg)
+![](img/DeepSeek-探索未至之境_image_110.jpg)
 
 接着，实现 start()方法的逻辑。自动生成写作题目并对用户输入的内容进行分析和评分。首先，系统需要获取与当前场景相关的背景信息，该信息将用于生成与该场景匹配的写作题目。生成的题目需要通过系统与外部服务或模型交互来获得，并以清晰的方式提供给用户。
 
 接下来，用户可以基于生成的题目输入自己的文本，系统需要对用户输入的内容进行详细评估，评分标准包括内容的完整性、语言的准确性以及逻辑的严谨性。同时，系统还应能够识别并指出用户文本中存在的不准确语句或单词。最后，系统要输出评分结果，并提供改进建议，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_111.jpg)
+![](img/DeepSeek-探索未至之境_image_111.jpg)
 
 **5．实现主程序功能（main.py）**
 
 main.py 文件作为程序的入口点，负责根据用户输入调用不同的功能。它接收两个输入参数：场景和功能，并根据这些输入动态选择并执行相应的功能逻辑。通过这种方式，main.py 实现了对程序整体流程的协调与控制，确保用户能够根据需求灵活选择场景和功能进行操作，代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_112.jpg)
+![](img/DeepSeek-探索未至之境_image_112.jpg)
 
 这段代码目的是实现一个简单的交互式程序，用户可以根据不同场景和功能选择不同的练习模式，程序根据用户的选择执行相应的操作。
 
@@ -1322,7 +1322,7 @@ main.py 文件作为程序的入口点，负责根据用户输入调用不同的
 
 最后，验证程序是否能够正常运行。打开云平台的终端面板，输入指令“python .\main.py”，然后依次输入场景、功能以及要执行的操作，按回车键确认。等待几秒后，控制台将输出执行结果，如图 4.15 所示。
 
-![](img/DeepSeek探索未至之境_image_113.jpg)
+![](img/DeepSeek-探索未至之境_image_113.jpg)
 
 图 4.15 操作执行结果
 
@@ -1352,7 +1352,7 @@ API 的使用就类比人们平时使用手机进行网络购物。手机购物�
 
 在这个过程中，购物平台就像是 API，负责连接用户和仓库；购买请求就像是 API 请求数据；仓库准备商品就像是接收数据。
 
-![](img/DeepSeek探索未至之境_image_114.jpg)
+![](img/DeepSeek-探索未至之境_image_114.jpg)
 
 图 5.1 手机购物下单仓库出货示意图
 
@@ -1364,13 +1364,13 @@ DeepSeek 作为一个功能强大的 AI 平台，其 API 接口为开发者提�
 
 首先，访问 DeepSeek 的【API 开放平台】并完成注册。注册成功后，在平台的左侧栏中找到【API keys】选项，如图 5.2 所示。
 
-![](img/DeepSeek探索未至之境_image_115.jpg)
+![](img/DeepSeek-探索未至之境_image_115.jpg)
 
 图 5.2 DeepSeek API 开放平台界面
 
 然后，单击【API keys】选项，打开创建 API keys 界面，如图 5.3 所示。
 
-![](img/DeepSeek探索未至之境_image_116.jpg)
+![](img/DeepSeek-探索未至之境_image_116.jpg)
 
 图 5.3 创建 API keys 界面
 
@@ -1382,7 +1382,7 @@ DeepSeek 作为一个功能强大的 AI 平台，其 API 接口为开发者提�
 
 DeepSeek 的官方 API 文档是理解和使用 API 的关键，用户可以在官网【API 开放平台】界面中找到【接口文档】选项，如图 5.4 所示。
 
-![](img/DeepSeek探索未至之境_image_117.jpg)
+![](img/DeepSeek-探索未至之境_image_117.jpg)
 
 图 5.4 DeepSeek API 开放平台界面（接口文档）
 
@@ -1406,19 +1406,19 @@ DeepSeek API 的响应通常包含 JSON 格式的数据，用户需要解析这�
 
 DeepSeek 除了与常用工具结合使用外，还支持通过 API 集成到第三方软件中直接使用，如图 5.5 所示。
 
-![](img/DeepSeek探索未至之境_image_118.jpg)
+![](img/DeepSeek-探索未至之境_image_118.jpg)
 
 图 5.5 DeepSeek API 开放平台界面（实用集成）
 
 单击【实用集成】选项，打开第三方集成的选择界面，如图 5.6 所示。
 
-![](img/DeepSeek探索未至之境_image_119.jpg)
+![](img/DeepSeek-探索未至之境_image_119.jpg)
 
 图 5.6 实用集成选择界面
 
 单击图 5.6 中的任意功能选项，会打开该功能的 API 接入文档。用户可以通过这个文档获取详细的调用方式和接口说明，将 DeepSeek 的功能集成到自己的应用程序中。
 
-![](img/DeepSeek探索未至之境_image_120.jpg)
+![](img/DeepSeek-探索未至之境_image_120.jpg)
 
 **注意：**
 
@@ -1452,7 +1452,7 @@ DeepSeek 系列典型模型的结构参数与适用场景对比如表 5.1 所示
 
 **表**5.1 DeepSeek**系列典型模型的结构参数与适用场景对比**
 
-![](img/DeepSeek探索未至之境_image_121.jpg)
+![](img/DeepSeek-探索未至之境_image_121.jpg)
 
 示例：DeepSeek-V3 的推理流程大致分为如下 4 步。
 
@@ -1736,7 +1736,7 @@ deepseek-reasoner 是 DeepSeek 推出的一款先进推理模型，旨在通过�
 
 下面用一个 Python 示例代码，展示如何使用 deepseek-reasoner 进行非流式交互。具体代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_122.jpg)![](img/DeepSeek探索未至之境_image_123.jpg)![](img/DeepSeek探索未至之境_image_124.jpg)![](img/DeepSeek探索未至之境_image_125.jpg)
+![](img/DeepSeek-探索未至之境_image_122.jpg)![](img/DeepSeek-探索未至之境_image_123.jpg)![](img/DeepSeek-探索未至之境_image_124.jpg)![](img/DeepSeek-探索未至之境_image_125.jpg)
 
 在上述示例中，Python 脚本使用 deepseek-reasoner 模型进行多轮对话。具体功能如下：
 
@@ -1804,7 +1804,7 @@ pip install openai python-dotenv pandas
 
 在项目根目录下创建.env 文件，包含以下内容：
 
-![](img/DeepSeek探索未至之境_image_126.jpg)
+![](img/DeepSeek-探索未至之境_image_126.jpg)
 
 ■ **DEEPSEEK_API_KEY：**用于身份验证，调用 DeepSeek API。
 
@@ -1812,7 +1812,7 @@ pip install openai python-dotenv pandas
 
 （3）核心代码。
 
-![](img/DeepSeek探索未至之境_image_127.jpg)![](img/DeepSeek探索未至之境_image_128.jpg)![](img/DeepSeek探索未至之境_image_129.jpg)
+![](img/DeepSeek-探索未至之境_image_127.jpg)![](img/DeepSeek-探索未至之境_image_128.jpg)![](img/DeepSeek-探索未至之境_image_129.jpg)
 
 下面对上述示例核心代码的具体运行过程进行讲解。
 
@@ -1850,7 +1850,7 @@ prompt = f"""识别以下合同条款的类型：
 
 调用 DeepSeek API 示例代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_130.jpg)
+![](img/DeepSeek-探索未至之境_image_130.jpg)
 
 上述示例使用异步方式调用 DeepSeek API，发送提示词并获取模型返回的结果。
 
@@ -1866,11 +1866,11 @@ context = self._get_legal_context(clause_type)
 
 根据合同条款类型，从法律条款知识库中查找对应的法律上下文。如果未找到匹配的条款类型，则返回默认提示信息：“相关法律条款未收录”。提示词设计示例代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_131.jpg)
+![](img/DeepSeek-探索未至之境_image_131.jpg)
 
 上述示例提示模型基于法律上下文分析合同条款的风险点，并要求以 JSON 格式返回结果。调用 DeepSeek API 的示例代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_132.jpg)
+![](img/DeepSeek-探索未至之境_image_132.jpg)
 
 上述示例使用异步方式调用 DeepSeek API，发送提示词并获取模型返回的结果。
 
@@ -1888,7 +1888,7 @@ self.validate_analysis(analysis_data)
 
 返回一个包含以下信息的字典，示例代码如下所示。
 
-![](img/DeepSeek探索未至之境_image_133.jpg)
+![](img/DeepSeek-探索未至之境_image_133.jpg)
 
 ⑦ 打印结果，示例代码如下所示。
 
@@ -1898,11 +1898,11 @@ print(json.dumps(result, indent=2, ensure_ascii=False))
 
 （4）知识库示例（clause_database.csv）。
 
-![](img/DeepSeek探索未至之境_image_134.jpg)
+![](img/DeepSeek-探索未至之境_image_134.jpg)
 
 （5）运行结果示例。
 
-![](img/DeepSeek探索未至之境_image_135.jpg)
+![](img/DeepSeek-探索未至之境_image_135.jpg)
 
 **3．部署方案**
 
@@ -1910,13 +1910,13 @@ print(json.dumps(result, indent=2, ensure_ascii=False))
 
 将分析器作为 Web 服务部署，方便其他应用程序调用。具体示例如下所示。
 
-![](img/DeepSeek探索未至之境_image_136.jpg)
+![](img/DeepSeek-探索未至之境_image_136.jpg)
 
 （2）Streamlit 交互界面。
 
 下面提供一个简单的用户界面，用户可以直接在该界面中输入合同条款并获取分析结果。具体示例如下所示。
 
-![](img/DeepSeek探索未至之境_image_137.jpg)
+![](img/DeepSeek-探索未至之境_image_137.jpg)
 
 **4．效果评估指标表**
 
@@ -1924,7 +1924,7 @@ print(json.dumps(result, indent=2, ensure_ascii=False))
 
 **表**5.2 **效果评估指标表**
 
-![](img/DeepSeek探索未至之境_image_138.jpg)
+![](img/DeepSeek-探索未至之境_image_138.jpg)
 
 本案例通过 DeepSeek API 调用其底层模型（deepseek-chat）来结合多阶段提示工程、法律知识库嵌入，通过提示词引导模型输出风险严重性等技术，实现了一个高效、智能的“法律合同风险分析助手”系统。该系统实现了异步编程和结果格式化输出，具有高并发性能和友好的用户体验。
 
@@ -1964,7 +1964,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.1 DeepSeek**分布式训练的关键技术**
 
-![](img/DeepSeek探索未至之境_image_139.jpg)
+![](img/DeepSeek-探索未至之境_image_139.jpg)
 
 6.1.4 分布式训练的使用场景
 
@@ -2002,7 +2002,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.2 **自然语言处理技术的优势**
 
-![](img/DeepSeek探索未至之境_image_140.jpg)
+![](img/DeepSeek-探索未至之境_image_140.jpg)
 
 6.2.3 自然语言处理技术的应用场景
 
@@ -2010,7 +2010,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.3 **自然语言处理技术的应用场景**
 
-![](img/DeepSeek探索未至之境_image_141.jpg)
+![](img/DeepSeek-探索未至之境_image_141.jpg)
 
 ## **6.3** **计算机视觉**
 
@@ -2022,7 +2022,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.4 **计算机视觉技术的核心能力**
 
-![](img/DeepSeek探索未至之境_image_142.jpg)
+![](img/DeepSeek-探索未至之境_image_142.jpg)
 
 6.3.2 计算机视觉技术的优势
 
@@ -2030,7 +2030,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.5 **计算机视觉技术的优势**
 
-![](img/DeepSeek探索未至之境_image_143.jpg)
+![](img/DeepSeek-探索未至之境_image_143.jpg)
 
 6.3.3 计算机视觉技术的应用案例
 
@@ -2038,7 +2038,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.6 **计算机视觉技术的应用案例**
 
-![](img/DeepSeek探索未至之境_image_144.jpg)
+![](img/DeepSeek-探索未至之境_image_144.jpg)
 
 6.3.4 计算机视觉技术的实现流程
 
@@ -2046,7 +2046,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.7 **计算机视觉技术的实现流程**
 
-![](img/DeepSeek探索未至之境_image_145.jpg)
+![](img/DeepSeek-探索未至之境_image_145.jpg)
 
 6.3.5 计算机视觉技术的未来发展方向
 
@@ -2054,7 +2054,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.8 **计算机视觉技术的未来发展方向**
 
-![](img/DeepSeek探索未至之境_image_146.jpg)
+![](img/DeepSeek-探索未至之境_image_146.jpg)
 
 ## **6.4** **强化学习**
 
@@ -2066,7 +2066,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.9 **强化学习包含**8**个核心概念**
 
-![](img/DeepSeek探索未至之境_image_147.jpg)
+![](img/DeepSeek-探索未至之境_image_147.jpg)
 
 6.4.2 强化学习的技术框架
 
@@ -2076,7 +2076,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.10 **强化学习的技术框架**
 
-![](img/DeepSeek探索未至之境_image_148.jpg)
+![](img/DeepSeek-探索未至之境_image_148.jpg)
 
 未来研究方向：未来研究可进一步深入探讨强化学习算法在复杂动态环境中的适应性优化，探索如何更好地融合多种算法优势以提升智能体的学习效率和决策能力；同时，随着硬件技术的发展，研究如何在资源受限的设备上高效实现强化学习算法也是一个重要方向；此外，结合更多领域的实际需求，拓展强化学习算法的应用边界，将是未来研究的重要任务。
 
@@ -2104,7 +2104,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 在围棋 AI 领域的强化学习应用中取得了里程碑式的突破，其技术架构基于 AlphaGo 核心思想并进行了系统性优化。AI 模拟下围棋的概念图如图 6.1 所示。
 
-![](img/DeepSeek探索未至之境_image_149.jpg)
+![](img/DeepSeek-探索未至之境_image_149.jpg)
 
 图 6.1 AI 模拟下围棋的概念图
 
@@ -2118,7 +2118,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 《星际争霸 II》作为即时战略游戏的巅峰之作，其复杂环境对 AI 提出了三大核心挑战。第一，战争迷雾机制导致高达 80%的环境信息不可观测，要求智能体具备强大的态势推理能力；第二，职业选手级别的操作速度需求（每分钟操作次数 APM>600），远超传统 AI 决策频率；第三，对局平均时长超过 20 分钟的战略持续性，需要统筹资源采集、科技升级、兵力调配等多维度长期规划。《星际争霸 II》游戏的概念图如图 6.2 所示。
 
-![](img/DeepSeek探索未至之境_image_150.jpg)
+![](img/DeepSeek-探索未至之境_image_150.jpg)
 
 图 6.2 《星际争霸 II》游戏的概念图
 
@@ -2134,7 +2134,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 强化学习技术同样在《DOTA 2》中实现了多重技术革新与行业应用突破。《DOTA 2》游戏的概念图如图 6.3 所示。
 
-![](img/DeepSeek探索未至之境_image_151.jpg)
+![](img/DeepSeek-探索未至之境_image_151.jpg)
 
 图 6.3 《DOTA 2》游戏的概念图
 
@@ -2150,7 +2150,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 在机器人控制领域，特别是在人形机器人动态平衡控制方面，取得了显著进展。机器人平衡控制示意图如图 6.4 所示。
 
-![](img/DeepSeek探索未至之境_image_152.jpg)
+![](img/DeepSeek-探索未至之境_image_152.jpg)
 
 图 6.4 机器人平衡控制示意图
 
@@ -2164,7 +2164,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 在工业机械臂柔性装配领域，特别是在新能源汽车电池生产线中，取得了显著的技术突破和经济效益。工业机械臂工作场景示意图如图 6.5 所示。
 
-![](img/DeepSeek探索未至之境_image_153.jpg)
+![](img/DeepSeek-探索未至之境_image_153.jpg)
 
 图 6.5 工业机械臂工作场景示意图
 
@@ -2178,7 +2178,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 无人机集群协同是近年来无人机技术的重要发展方向，其核心在于通过先进的算法和通信技术，实现多架无人机的高效协作。无人机集群协同场景示意图如图 6.6 所示。
 
-![](img/DeepSeek探索未至之境_image_154.jpg)
+![](img/DeepSeek-探索未至之境_image_154.jpg)
 
 图 6.6 无人机集群协同场景示意图
 
@@ -2220,7 +2220,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.11 **强化学习算法对比分析表**
 
-![](img/DeepSeek探索未至之境_image_155.jpg)
+![](img/DeepSeek-探索未至之境_image_155.jpg)
 
 每种算法都有其适用的场景和局限性，选择时需要根据具体问题的特点进行权衡。
 
@@ -2238,7 +2238,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 **表**6.12 **模拟环境奖励值对比真实环境奖励值**
 
-![](img/DeepSeek探索未至之境_image_156.jpg)
+![](img/DeepSeek-探索未至之境_image_156.jpg)
 
 表 6.12 展示了模拟环境和真实环境训练的奖励值变化趋势。虽然示例数据并非来自实际实验，但能够有效说明两种环境的典型差异。模拟环境能够快速生成大量数据，适合初期训练和算法验证；而真实环境虽然数据获取成本高、速度慢，但能提供更贴近实际需求的数据。
 
@@ -2258,7 +2258,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 强化学习作为 AI 领域的关键技术，在多个领域展现出巨大的应用潜力。其未来发展方向对于拓展其应用领域具有重要意义，深入研究这些发展方向，有助于更好地应对当前强化学习面临的挑战，进一步提升其性能和应用价值。目前，DeepSeek 在强化学习中的综合表现如图 6.7 所示。
 
-![](img/DeepSeek探索未至之境_image_157.jpg)
+![](img/DeepSeek-探索未至之境_image_157.jpg)
 
 图 6.7 DeepSeek 在强化学习中的综合表现
 
@@ -2320,7 +2320,7 @@ DeepSeek 分布式训练主要涉及以下 4 个关键技术，如表 6.1 所示
 
 随着 AI 技术的快速发展，制造业正经历一场深刻的变革。AI 技术在提高生产效率、降低成本、优化供应链管理等方面展现出巨大潜力。接下来，将探讨 AI 技术在制造业的应用现状，并对比 DeepSeek 与行业均值的表现，如图 7.1 所示。
 
-![](img/DeepSeek探索未至之境_image_158.jpg)
+![](img/DeepSeek-探索未至之境_image_158.jpg)
 
 图 7.1 AI 技术在制造业领域的使用情况
 
@@ -2356,7 +2356,7 @@ DeepSeek 在自监督学习、迁移学习、大规模数据处理、模型解�
 
 DeepSeek 在 2023—2028 年+的技术演进分为三个阶段，如图 7.2 所示。
 
-![](img/DeepSeek探索未至之境_image_159.jpg)
+![](img/DeepSeek-探索未至之境_image_159.jpg)
 
 图 7.2 DeepSeek 技术路线图
 
@@ -2420,7 +2420,7 @@ DeepSeek 技术发展方向（2023—2028 年+）解析。
 
 **表**7.1** 行业生态的**3**个领域**
 
-![](img/DeepSeek探索未至之境_image_160.jpg)
+![](img/DeepSeek-探索未至之境_image_160.jpg)
 
 （5）可持续技术探索。
 
@@ -2444,7 +2444,7 @@ DeepSeek 技术发展方向（2023—2028 年+）解析。
 
 ■ **2027**年：在自动驾驶领域实现多传感器融合决策的毫秒级响应。
 
-■ **2028**年至以后：初步构建具备常识推理能力的 AGI 测试平台（通过图灵测试扩展版）。 ![](img/DeepSeek探索未至之境_image_161.jpg)
+■ **2028**年至以后：初步构建具备常识推理能力的 AGI 测试平台（通过图灵测试扩展版）。 ![](img/DeepSeek-探索未至之境_image_161.jpg)
 
 **注意：**
 
@@ -2532,7 +2532,7 @@ AI 的未来技术突破与生态演进将聚焦于下一代 AI 核心能力的�
 
 Coze 平台定位于开发者社区，近日宣布全面支持 DeepSeek 系列模型，进一步加强了其在 AI 应用开发中的能力。该平台提供了一套完整的工具和服务，旨在简化和优化智能体的开发和部署流程，特别是在电商导购、舆情监控等具体应用场景中，如图 8.1 所示。
 
-![](img/DeepSeek探索未至之境_image_162.jpg)
+![](img/DeepSeek-探索未至之境_image_162.jpg)
 
 图 8.1 Coze 平台界面
 
@@ -2544,25 +2544,25 @@ Coze 的可视化工作流编辑平台使得开发者可以通过拖曳的方式
 
 Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（对话流模式）和多 Agents 模式，如图 8.2 所示。
 
-![](img/DeepSeek探索未至之境_image_163.jpg)
+![](img/DeepSeek-探索未至之境_image_163.jpg)
 
 图 8.2 Coze 智能体的编排模式界面
 
 ■ **单 Agent（LLM 模式）：**通过一个智能体独立完成所有任务。单 Agent 模式的操作界面主要由【人设与回复逻辑】【技能】【知识】【记忆】【对话体验】【预览与调试】等模块组成，需要用户自行设置。在该模式下，如果选择调用 DeepSeek-V3，则不再支持设置技能、知识、记忆模块的功能；如果调用 DeepSeek-R1，则不影响设置以上所有功能模块，如图 8.3 所示。
 
-![](img/DeepSeek探索未至之境_image_164.jpg)
+![](img/DeepSeek-探索未至之境_image_164.jpg)
 
 图 8.3 调用 DeepSeek-V3 界面
 
 ■ **单 Agent（对话流模式）：**对话流模式（Beta）通过对话流配置，在画布中拖曳不同的任务节点来设计复杂的多步骤任务，以提升智能体处理复杂任务的效率。在该模式下，无须设置【人设与回复逻辑】模块，可以设置【记忆】【对话体验】模块。智能体有且只有一个对话流，每次对话都一定会调用该对话流，如图 8.4 所示。
 
-![](img/DeepSeek探索未至之境_image_165.jpg)
+![](img/DeepSeek-探索未至之境_image_165.jpg)
 
 图 8.4 【对话流】界面
 
 ■ **多 Agents 模式：**Coze 平台为搭建更复杂、功能更全面的智能体提供了多 Agents 模式。该模式通过多个 Agents 配置发挥每个 Agent 的高效设定，最后协作将复杂任务完成。多 Agents 模式相当于单 Agent（LLM 模式）+单 Agent（对话流模式）组合，如图 8.5 所示。
 
-![](img/DeepSeek探索未至之境_image_166.jpg)
+![](img/DeepSeek-探索未至之境_image_166.jpg)
 
 图 8.5 多 Agents 模式界面
 
@@ -2574,7 +2574,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 “提示词”也可以理解为指令，表示让大模型扮演的角色和完成的任务。智能体通过调用大语言模型对输入的“人设与回复逻辑”内容进行理解，然后输出结果，如图 8.6 所示。
 
-![](img/DeepSeek探索未至之境_image_167.jpg)
+![](img/DeepSeek-探索未至之境_image_167.jpg)
 
 图 8.6 【提示词】界面
 
@@ -2584,7 +2584,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 技能模块通过插件、工作流、触发器等方式不断拓展模型的能力边界，如图 8.7 所示。
 
-![](img/DeepSeek探索未至之境_image_168.jpg)
+![](img/DeepSeek-探索未至之境_image_168.jpg)
 
 图 8.7 【技能】界面
 
@@ -2598,7 +2598,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 知识模块为智能体提供动态数据支持，增强模型回复的准确性和相关性。它通过集成大量本地文件或实时网站信息，解决了大模型知识的静态限制。知识模块支持文本、表格、照片三种上传类型，如图 8.8 所示。
 
-![](img/DeepSeek探索未至之境_image_169.jpg)
+![](img/DeepSeek-探索未至之境_image_169.jpg)
 
 图 8.8 【知识库设置】界面
 
@@ -2612,7 +2612,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 记忆模块使大模型在交互中具备了对话连续性和个性化能力。尽管大模型本身仅支持一问一答的交互，Coze 通过在应用层增加记忆模块，让智能体可以“记住”先前的对话内容，提供更自然的对话体验。四种记忆形式如图 8.9 所示。
 
-![](img/DeepSeek探索未至之境_image_170.jpg)
+![](img/DeepSeek-探索未至之境_image_170.jpg)
 
 图 8.9 【记忆】界面
 
@@ -2628,7 +2628,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 对话体验模块为智能体设置开场白、用户问题建议、快捷指令、背景图片、语音、用户输入方式等，以增强用户和智能体的交互效果，如图 8.10 所示。
 
-![](img/DeepSeek探索未至之境_image_171.jpg)
+![](img/DeepSeek-探索未至之境_image_171.jpg)
 
 图 8.10 【对话体验】界面
 
@@ -2648,7 +2648,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 预览与调试模块使用户能够快速识别并解决潜在的问题。借助该模，用户可以与智能体进行实时对话，实时查看智能体的执行过程和响应信息，从而依据实际情况对相关配置进行优化。预览与调试模块不仅适用于开发阶段的调试，也适合线上环境中的故障排查，如图 8.11 所示。
 
-![](img/DeepSeek探索未至之境_image_172.jpg)
+![](img/DeepSeek-探索未至之境_image_172.jpg)
 
 图 8.11 【预览与调试】界面
 
@@ -2658,13 +2658,13 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 （1）对话流：对话流通过与用户的实时对话交互来处理复杂的业务逻辑、多轮对话中的动态交互，并且支持多组连续输入输出，强调上下文管理与意图识别，如图 8.12 所示。
 
-![](img/DeepSeek探索未至之境_image_173.jpg)
+![](img/DeepSeek-探索未至之境_image_173.jpg)
 
 图 8.12 【对话流】界面
 
 （2）工作流：工作流用于自动化处理特定功能性请求，从单一输入（用户请求）到固定输出（机器响应），强调任务拆解与流程控制，如图 8.13 所示。
 
-![](img/DeepSeek探索未至之境_image_174.jpg)
+![](img/DeepSeek-探索未至之境_image_174.jpg)
 
 图 8.13 【工作流】界面
 
@@ -2704,7 +2704,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 （1）对话流：包含两个必选的预置参数，如图 8.14 所示。
 
-![](img/DeepSeek探索未至之境_image_175.jpg)
+![](img/DeepSeek-探索未至之境_image_175.jpg)
 
 图 8.14 【对话流】界面
 
@@ -2712,7 +2712,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 （2）工作流：无须预置参数，可以自定义，如图 8.15 所示。
 
-![](img/DeepSeek探索未至之境_image_176.jpg)
+![](img/DeepSeek-探索未至之境_image_176.jpg)
 
 图 8.15 【工作流】界面
 
@@ -2720,7 +2720,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 对话流可以嵌入工作流，对话流和工作流可以相互转换。在资源库栏中，在工作流或者对话流的操作菜单下都有切换的按钮，如图 8.16 所示。
 
-![](img/DeepSeek探索未至之境_image_177.jpg)
+![](img/DeepSeek-探索未至之境_image_177.jpg)
 
 图 8.16 对话流和工作流的转换界面
 
@@ -2728,7 +2728,7 @@ Coze 智能体的编排模式，支持单 Agent（LLM 模式）、单 Agent（�
 
 利用 DeepSeek 和 Coze 可以构建一个智能体，一键生成爆款图文（小红书、抖音、微信）。首先，搭建一个基础框架，流程图如下：
 
-![](img/DeepSeek探索未至之境_image_178.jpg)
+![](img/DeepSeek-探索未至之境_image_178.jpg)
 
 8.4.1 流程解析
 
@@ -2758,25 +2758,25 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 首先，进入 Coze 主页，在页面左侧单击【工作空间】选项，在弹出的菜单中选择【项目开发】选项；然后单击页面右上角的【创建】按钮，如图 8.17 所示。
 
-![](img/DeepSeek探索未至之境_image_179.jpg)
+![](img/DeepSeek-探索未至之境_image_179.jpg)
 
 图 8.17 【创建智能体】界面
 
 继续单击【创建智能体】按钮，如图 8.18 所示。
 
-![](img/DeepSeek探索未至之境_image_180.jpg)
+![](img/DeepSeek-探索未至之境_image_180.jpg)
 
 图 8.18 创建智能体或创建应用界面
 
 然后，在【标准创建】菜单栏下，填写【智能体名称】【智能体功能介绍】，图标用 AI 直接生成，如图 8.19 所示。
 
-![](img/DeepSeek探索未至之境_image_181.jpg)
+![](img/DeepSeek-探索未至之境_image_181.jpg)
 
 图 8.19 【创建智能体】菜单界面
 
 接着，进入编排模式界面，默认选择【单 Agent（LLM 模式）】，先在编排下面选择【DeepSeek-R1】模型，然后填写【人设与回复逻辑】，最后单击星号图标自动优化提示词，如图 8.20 所示。
 
-![](img/DeepSeek探索未至之境_image_182.jpg)
+![](img/DeepSeek-探索未至之境_image_182.jpg)
 
 图 8.20 【爆款图文创作】界面
 
@@ -2784,75 +2784,75 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 在【技能】功能栏中，单击工作流右边的【+】按钮，在弹出的对话框中填写【工作流名称】【工作流描述】，然后单击【确认】按钮，如图 8.21 所示。
 
-![](img/DeepSeek探索未至之境_image_183.jpg)
+![](img/DeepSeek-探索未至之境_image_183.jpg)
 
 图 8.21 【创建工作流】界面
 
 直接跳转至工作流编排画布，开始节点和结束节点默认在该画布中，不能删除。单击【+】按钮，选择大模型节点，将开始节点和大模型节点联结，开始节点设置界面如图 8.22 所示。将大模型名称修改为【提取链接】，节点设置如图 8.23 所示。
 
-![](img/DeepSeek探索未至之境_image_184.jpg)
+![](img/DeepSeek-探索未至之境_image_184.jpg)
 
 图 8.22 开始节点设置界面
 
-![](img/DeepSeek探索未至之境_image_185.jpg)
+![](img/DeepSeek-探索未至之境_image_185.jpg)
 
 图 8.23 【提取链接】界面
 
 用与添加大模型节点相同的方式，添加一个插件的节点，会弹出【添加插件】界面，选择【链接读取】插件，如图 8.24 所示。
 
-![](img/DeepSeek探索未至之境_image_186.jpg)
+![](img/DeepSeek-探索未至之境_image_186.jpg)
 
 图 8.24 【添加插件】界面
 
 先将【链接读取】插件联结【提取链接】节点，然后设置【链接读取】节点，如图 8.25 所示。
 
-![](img/DeepSeek探索未至之境_image_187.jpg)
+![](img/DeepSeek-探索未至之境_image_187.jpg)
 
 图 8.25 【链接读取】界面
 
 继续添加大模型节点，将名称修改为“提取原文文案”，联结【链接读取】节点，设置模型（DeepSeek-R1）、输入（链接读取节点的 data）以及系统提示词，如图 8.26 所示。
 
-![](img/DeepSeek探索未至之境_image_188.jpg)
+![](img/DeepSeek-探索未至之境_image_188.jpg)
 
 图 8.26 【提取原文文案】界面
 
 继续添加大模型节点，将名称修改为“爆款分析”，联结【提取原文文案】节点。然后设置模型、输入和系统提示词，如图 8.27 所示。
 
-![](img/DeepSeek探索未至之境_image_189.jpg)
+![](img/DeepSeek-探索未至之境_image_189.jpg)
 
 图 8.27 【爆款分析】界面
 
 再添加大模型节点，将名称修改为“爆款文案生成”，联结【爆款分析】节点。然后设置模型、输入和系统提示词，如图 8.28 所示。这里为了后面对应文案的标题（title）和内容（content），为输出设置了两个变量，如图 8.29 所示。
 
-![](img/DeepSeek探索未至之境_image_190.jpg)
+![](img/DeepSeek-探索未至之境_image_190.jpg)
 
 图 8.28 【爆款文案生成】界面 1
 
-![](img/DeepSeek探索未至之境_image_191.jpg)
+![](img/DeepSeek-探索未至之境_image_191.jpg)
 
 图 8.29 【爆款文案生成】界面 2
 
 单击【+】按钮，这次选择添加一个【循环】节点，先联结【爆款文案生成】节点，然后填写参数设置，如图 8.30 所示。
 
-![](img/DeepSeek探索未至之境_image_192.jpg)
+![](img/DeepSeek-探索未至之境_image_192.jpg)
 
 图 8.30 参数设置界面
 
 接下来，设置循环体，先在循环体中添加一个大模型节点，然后将名称修改为“制图提示词生成”，最后设置输入变量和系统提示词，如图 8.31 所示。
 
-![](img/DeepSeek探索未至之境_image_193.jpg)
+![](img/DeepSeek-探索未至之境_image_193.jpg)
 
 图 8.31 【制图提示词生成】界面
 
 在循环体中，添加一个图像处理类别中的【提示词优化】节点，联结【制图提示词生成】节点，设置如图 8.32 所示。
 
-![](img/DeepSeek探索未至之境_image_194.jpg)
+![](img/DeepSeek-探索未至之境_image_194.jpg)
 
 图 8.32 【制图提示词生成】节点界面
 
 联结【提示词优化】节点，添加一个【图像生成】节点，设置模型、比例、生成质量、输入变量以及提示词，如图 8.33 所示。
 
-![](img/DeepSeek探索未至之境_image_195.jpg)
+![](img/DeepSeek-探索未至之境_image_195.jpg)
 
 图 8.33 【图像生成】界面
 
@@ -2860,13 +2860,13 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 将【图像生成】节点联结循环体的【结束】节点，这时要记住返回【循环】节点，重新设置输出变量，如图 8.34 所示。
 
-![](img/DeepSeek探索未至之境_image_196.jpg)
+![](img/DeepSeek-探索未至之境_image_196.jpg)
 
 如图 8.34 循环界面
 
 最后，将【循环】节点与【结束】节点联结，【结束】节点设置如图 8.35 所示。
 
-![](img/DeepSeek探索未至之境_image_197.jpg)
+![](img/DeepSeek-探索未至之境_image_197.jpg)
 
 图 8.35 【结束】节点设置
 
@@ -2874,7 +2874,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 从开始节点到结束节点，所有节点已经联结且完善设置。接下来，在右侧的预览测试窗口中输入一个爆款视频的网络地址链接，单击右下角的【试运行】按钮，稍待几分钟，可以看到输出结果，如图 8.36 所示。
 
-![](img/DeepSeek探索未至之境_image_198.jpg)
+![](img/DeepSeek-探索未至之境_image_198.jpg)
 
 图 8.36 测试界面
 
@@ -2882,19 +2882,19 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 最后，填写【版本号】【版本描述】，单击【发布】按钮，发布工作流，如图 8.37 所示。
 
-![](img/DeepSeek探索未至之境_image_199.jpg)
+![](img/DeepSeek-探索未至之境_image_199.jpg)
 
 图 8.37 发布版本号界面
 
 工作流发布完成后，会跳转至智能体编排界面，用户可以自行设置技能、知识、记忆等模块，然后单击右上角的【发布】按钮，如图 8.38 所示。
 
-![](img/DeepSeek探索未至之境_image_200.jpg)
+![](img/DeepSeek-探索未至之境_image_200.jpg)
 
 图 8.38 发布界面
 
 用户可选择发布平台，默认支持发布到 Coze 商店和豆包，还可以授权发布到其他平台，包括飞书、抖音、微信、掘金等。此外，Coze 支持将智能体发布为 Web API，使用户能够在任何系统中通过 API 调用智能体，如图 8.39 所示。
 
-![](img/DeepSeek探索未至之境_image_201.jpg)
+![](img/DeepSeek-探索未至之境_image_201.jpg)
 
 图 8.39 【发布记录】界面
 
@@ -2902,7 +2902,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 智能体发布后，用户可以在编排页查看发布历史，并支持在不同版本之间进行切换，还可以随时编辑修改工作流或数据库的相应参数。用户不仅可以在平台中随时调用智能体，还可以将智能体分享到社交渠道中使用，以便在今后的工作中灵活使用智能体。但是每次更新智能体之后，都需要再次发布智能体，将智能体的新功能更新至线上环境。
 
-![](img/DeepSeek探索未至之境_image_202.jpg)
+![](img/DeepSeek-探索未至之境_image_202.jpg)
 
 **注意：**
 
@@ -2924,7 +2924,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 借助 DeepSeek，求职者能够从了解公司背景、面试问题准备到解答技巧，全方位提升面试通过率。通过这一 AI 工具，用户可以获得详尽的公司分析报告，精准把握企业文化及需求。同时，DeepSeek 提供了定制化的面试问题预测和策略建议，可以帮助求职者有针对性地进行准备。
 
-![](img/DeepSeek探索未至之境_image_203.jpg)
+![](img/DeepSeek-探索未至之境_image_203.jpg)
 
 ## **案例二 如何结合 DeepSeek 打造个人 IP 文案**
 
@@ -2940,7 +2940,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 在 DeepSeek 中输入“旅行博主的 IP 定位。”DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_204.jpg)
+![](img/DeepSeek-探索未至之境_image_204.jpg)
 
 通过以上不同的定位方式，旅行博主可以根据自己的兴趣、特长和目标受众，打造独特的个人 IP 形象，吸引特定的粉丝群体。
 
@@ -2950,7 +2950,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 在 DeepSeek 中输入“旅行摄影的内容计划。”DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_205.jpg)
+![](img/DeepSeek-探索未至之境_image_205.jpg)
 
 通过以上内容计划，旅行摄影博主可以系统地输出高质量内容，吸引更多粉丝并实现品牌变现。
 
@@ -2960,7 +2960,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 在 DeepSeek 中输入“这个地方很美，适合拍照。针对这句内容进行情感渲染与语言优化。”DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_206.jpg)
+![](img/DeepSeek-探索未至之境_image_206.jpg)
 
 通过 DeepSeek 的智能优化，使得旅行内容创作变得更加高效且富有感染力。它不仅帮助用户提炼出更精准的语言风格，还让文字与画面完美融合，使每一篇游记都充满诗意与情感。无论是渲染风景的美丽，还是表达内心的感悟，DeepSeek 都让内容更具吸引力，让读者仿佛身临其境，感受到旅行的温度与美好。
 
@@ -2970,7 +2970,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 在 DeepSeek 中输入“小众旅行现在为什么更受欢迎，是否有相关数据。”DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_207.jpg)
+![](img/DeepSeek-探索未至之境_image_207.jpg)
 
 通过 DeepSeek 的分析结果，用户可以清晰地看到小众旅行的受欢迎程度得到了充分的数据支持。这一趋势主要源于游客对独特体验的追求、对个性化旅程的偏好、对环保理念的认同，以及避开人潮的强烈需求。这些因素共同推动了小众旅行的兴起，并使其成为现代旅游市场中的重要趋势。
 
@@ -2980,7 +2980,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 在 DeepSeek 中输入“塑造旅行摄影个性风格。”DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_208.jpg)
+![](img/DeepSeek-探索未至之境_image_208.jpg)
 
 塑造旅行摄影的个性风格是一个持续探索和实践的过程。通过明确主题、掌握技术、形成视觉语言并讲述故事，用户可以逐渐打造出独特的摄影风格。
 
@@ -2990,7 +2990,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 在 DeepSeek 中输入“旅行摄影如何创新与保持独特视角。”DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_209.jpg)
+![](img/DeepSeek-探索未至之境_image_209.jpg)
 
 旅行摄影的创新与独特视角源于对世界的敏锐观察、对技术的熟练掌握以及对个人风格的不断探索。通过打破常规、关注细节、融入文化和情感，用户可以创作出独具魅力的旅行摄影作品。
 
@@ -3000,7 +3000,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 在 DeepSeek 中输入“旅行博主推广策略。”DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_210.jpg)
+![](img/DeepSeek-探索未至之境_image_210.jpg)
 
 旅行博主的推广策略需要结合内容创作、平台运营、粉丝互动和品牌合作等多方面因素。通过打造高质量内容、优化平台运营、与粉丝互动以及持续学习创新，旅行博主可以逐步提升影响力和知名度，最终实现个人品牌的成功推广。
 
@@ -3012,7 +3012,7 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 旅行博主的变现方式多种多样，DeepSeek 会推荐用户与旅行品牌合作推广，开设摄影课程或出版电子书，销售摄影作品或周边产品。用户可根据推荐，制订变现计划，并使用 DeepSeek 撰写合作提案。
 
-![](img/DeepSeek探索未至之境_image_211.jpg)
+![](img/DeepSeek-探索未至之境_image_211.jpg)
 
 **9．总结**
 
@@ -3032,11 +3032,11 @@ DeepSeek 使用自然语言处理模型分析 Coze 智能体提取的标题、�
 
 在 DeepSeek 中输入“创作一篇以‘故乡的秋天’为主题的散文。”DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_212.jpg)
+![](img/DeepSeek-探索未至之境_image_212.jpg)
 
 接着优化生成的内容，如果生成的内容中缺少我们想要的关键词，可以在 DeepSeek 中输入“增加几个关键词‘儿时的游戏，金黄稻田，湛蓝天空’。”DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_213.jpg)
+![](img/DeepSeek-探索未至之境_image_213.jpg)
 
 通过 DeepSeek 的帮助，用户可以高效完成散文创作的各个环节，从主题挖掘到语言优化，从细节雕琢到风格塑造。DeepSeek 不仅提升了创作效率，还为作品注入了更多艺术性和创新性。无论是新手作家还是资深创作者，DeepSeek 都能成为用户散文创作的得力助手，让用户的文字更具感染力和影响力。
 
@@ -3046,11 +3046,11 @@ DeepSeek 能够为代码自动生成详细注释，帮助用户更轻松地理�
 
 给以下代码加注释
 
-![](img/DeepSeek探索未至之境_image_214.jpg)
+![](img/DeepSeek-探索未至之境_image_214.jpg)
 
 DeepSeek 给出的结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_215.jpg)
+![](img/DeepSeek-探索未至之境_image_215.jpg)
 
 DeepSeek 不仅能够为程序代码自动生成详细的注释，还能深入讲解整个程序的运行逻辑，帮助用户全面理解代码的执行流程和设计思路。通过智能分析代码的结构、变量、函数调用以及控制流，DeepSeek 能够清晰地解释每一步的作用和意义，甚至指出潜在的问题或优化点。无论是初学者学习编程，还是开发者维护复杂项目，DeepSeek 的注释和逻辑讲解功能都能显著降低理解成本，提升开发效率。此外，这种深入的解释还能帮助团队更好地进行代码审查和知识共享，推动项目的持续改进和高效协作。
 
@@ -3058,7 +3058,7 @@ DeepSeek 不仅能够为程序代码自动生成详细的注释，还能深入�
 
 作为辅助工具，DeepSeek 可以显著提升投资分析与决策的效能，从而助力投资者制定出更为科学的投资策略。在资产配置方面，DeepSeek 能够根据风险评估、波动率、预期收益等关键因素，为投资者提供量身定制的资产配置方案。接下来，通过一个具体示例来演示这一过程，在 DeepSeek 中输入“我的预期年化收益目标为 5%-8%，可接受的回撤范围在 15%以内，目前有 100 万的资产，请给我一份包含各类资产及策略的详细资产配置方案。”基于这些条件，DeepSeek 将迅速生成一份个性化的配置建议，结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_216.jpg)
+![](img/DeepSeek-探索未至之境_image_216.jpg)
 
 通过这种方式，DeepSeek 不仅简化了复杂的资产配置过程，还为投资者提供了更加精准、高效的决策支持，帮助他们在波动的市场环境中实现更为稳健的投资回报。这种以数据驱动的资产配置方法，有助于投资者更好地平衡风险与收益，实现其长期的投资目标。此外，DeepSeek 的智能分析能力还能够实时跟踪市场动态，为投资者提供及时的调整建议，以确保其资产配置策略始终与市场变化保持同步。综上所述，借助 DeepSeek 进行投资分析和资产配置，是投资者在当今复杂多变的金融市场中不可或缺的利器。
 
@@ -3068,13 +3068,13 @@ DeepSeek 可作为辅助工具来提升宝宝的食欲，通过整合营养学�
 
 在 DeepSeek 中输入“为 3 岁的孩子推荐一些富含维生素 C 且容易接受的食物。”DeepSeek 会列出如水果、蔬菜等多种选择，结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_217.jpg)
+![](img/DeepSeek-探索未至之境_image_217.jpg)
 
 通过以上方式，DeepSeek 不仅为家长提供了科学的饮食指导，还促进了宝宝对健康饮食的兴趣，帮助他们从小养成良好的饮食习惯。这种以科技为支撑的方法，使得营养健康管理变得更加便捷和高效，为宝宝的健康成长提供了有力保障。
 
 如果孩子表现出对吃饭的兴趣不高，可以用 DeepSeek 探索多种方法来培养儿童的用餐乐趣，从而激发他们的食欲，将用餐时间转变为家庭中的欢乐时刻。例如，在 DeepSeek 中输入“有哪些创意方法可以增加儿童用餐的乐趣？”DeepSeek 会提供一系列多样化的建议，从互动餐桌游戏到创意菜品摆盘，甚至是涉及食物主题的手工艺活动，旨在让用餐体验更加生动有趣，结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_218.jpg)
+![](img/DeepSeek-探索未至之境_image_218.jpg)
 
 无论是日常饮食规划还是应对挑食问题，家长们都可以利用 DeepSeek 发现更多适合自己宝宝的健康美食，让营养和美味并存，为孩子的健康打下坚实基础。
 
@@ -3098,11 +3098,11 @@ DeepSeek 可以为家庭每月开销制定合理的预算，即通过分析用�
 
 将上述信息输入 DeepSeek 中，以便其能够进行全面分析。例如：“我们的家庭月收入是 15000 元。固定支出包括房租 4000 元、车贷 2000 元、保险费用 800 元；可变支出平均每月约 3000 元用于食品、1000 元用于交通、1500 元用于娱乐和其他杂项。我们希望每月能储蓄至少 2000 元作为紧急基金或未来投资，制定合理预算。”结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_219.jpg)
+![](img/DeepSeek-探索未至之境_image_219.jpg)
 
 输入以上内容，DeepSeek 将运用其先进的算法，综合考虑您的收入水平、固定与变动开销的比例，以及储蓄目标，为您量身定制一个既符合实际又具有前瞻性的月度预算建议，结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_220.jpg)
+![](img/DeepSeek-探索未至之境_image_220.jpg)
 
 总而言之，DeepSeek 通过智能分析功能可以更加科学地管理家庭财务，确保每一分钱都花在刀刃上，同时为实现财务自由和未来规划奠定坚实基础。
 
@@ -3112,7 +3112,7 @@ DeepSeek 不仅能够发掘那些鲜为人知的小众宝藏旅行地，还能�
 
 例如，用户可以在 DeepSeek 中输入“计划在 2025 年五一假期（5 月 1 日至 3 日），从上海启程，进行一次短途旅行，预算设定为 5000 元人民币，我特别喜欢自然风光和历史文化。”基于这些信息，DeepSeek 将智能筛选并推荐合适的旅行目的地，同时提供一份精心规划的行程单，以及预算的合理分配建议，结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_221.jpg)
+![](img/DeepSeek-探索未至之境_image_221.jpg)
 
 DeepSeek 不仅是一个智能旅行规划工具，更是用户探索世界的得力助手，用科技的力量让旅行变得更加个性化、高效和经济。
 
@@ -3132,7 +3132,7 @@ DeepSeek 在法律服务方面的优势包括但不限于：
 
 例如，当用户需要起草一份专业的租聘合同时，无须从零开始或寻求模板，只需在 DeepSeek 中输入“生成一份租聘合同。”DeepSeek 便会利用其强大的语言处理和数据分析能力，迅速为您定制一份符合法律规范、包含所有必要条款的租聘合同。这一过程不仅高效便捷，还能确保合同的准确性和专业性，涵盖租赁双方的基本信息、租赁物的详细描述、租金及支付方式、租赁期限、违约责任等关键要素，结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_222.jpg)
+![](img/DeepSeek-探索未至之境_image_222.jpg)
 
 通过这种方式，即便是对法律术语或合同格式不熟悉的用户，也能轻松获得一份高质量的租聘合同。DeepSeek 的智能生成服务极大地简化了文档创建流程，节省了时间和精力，同时保证了合同内容的全面性和合法性。无论是个人房东还是商业租赁机构，都能通过这一工具快速、安全地达成租赁协议，为租赁交易提供坚实的法律基础。
 
@@ -3152,7 +3152,7 @@ DeepSeek 在制定个性化健身方案方面的优势包括但不限于：
 
 通过 DeepSeek 的智能分析，用户可以获得量身定制的健康方案，包括但不限于定制的营养餐单、适合办公室环境的简易运动指导，以及日常活动量的增加策略。用户只需按照 DeepSeek 的指导，逐步调整自己的生活方式，便能在三个月内看到显著的改善，从而提升整体的生活质量和工作效率。
 
-![](img/DeepSeek探索未至之境_image_223.jpg)
+![](img/DeepSeek-探索未至之境_image_223.jpg)
 
 ## **案例十一 DeepSeek 可用于购物比价**
 
@@ -3170,7 +3170,7 @@ DeepSeek 在购物比价方面的优势包括但不限于：
 
 例如，用户想要在 3 月 8 日为女朋友选购一套备受推崇的神仙水护肤套装作为礼物，可以通过 DeepSeek 轻松实现价格比较，找到最划算的购买渠道。只需在 DeepSeek 中输入“想买一瓶神仙水化妆品送女朋友，帮我对比下哪个平台更便宜。”DeepSeek 便会启动其强大的实时比价功能，迅速扫描各大电商平台，包括官方网站及知名零售商，提供最新的价格对比和可能的促销活动信息，结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_224.jpg)
+![](img/DeepSeek-探索未至之境_image_224.jpg)
 
 利用 DeepSeek 这一便捷工具，用户不仅能够节省时间，避免逐个网站搜索和比较的烦琐过程，还能确保把握住最佳购买时机，以最优惠的价格为心爱的人选购到高品质的护肤礼物。DeepSeek 的智能比价系统会考虑到包括税费、运费以及任何适用的优惠券或折扣码，提供一个全面的价格分析，让用户做出最经济实惠的购买决策。
 
@@ -3178,7 +3178,7 @@ DeepSeek 在购物比价方面的优势包括但不限于：
 
 DeepSeek 可以作为家教辅导的有力工具，帮助学生提高学习效率和成绩。例如，家长可以在 DeepSeek 中输入“小明是一名初中二年级的学生，他在数学方面遇到了一些困难，尤其是在代数部分。他的父母希望找到一种方法来帮助他提高成绩，并建立对数学的兴趣。”DeepSeek 将基于这些信息，为小明定制一系列针对性措施，如精选适合其水平的代数教程、提供趣味性的数学练习题等学习体验激发他对数学的探索欲，结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_225.jpg)
+![](img/DeepSeek-探索未至之境_image_225.jpg)
 
 家长可以根据 DeepSeek 所提供的方法进行选择，孩子在学习过程中遇到问题时，可以随时向 DeepSeek 提问，获得详细的解答和解释。
 
@@ -3198,7 +3198,7 @@ DeepSeek 在术语解释方面的优势包括但不限于：
 
 在学习旅程中，用户若遭遇不熟悉的术语，如“递归神经网络”，借助 DeepSeek 这一强大工具，只需简单输入“什么是递归神经网络。”DeepSeek 便能迅速提供详尽的解释，涵盖递归神经网络的基础知识、应用领域及其在解决序列数据处理问题中的独特优势，结果如下图所示。
 
-![](img/DeepSeek探索未至之境_image_226.jpg)
+![](img/DeepSeek-探索未至之境_image_226.jpg)
 
 作为一款智能信息检索与理解工具，DeepSeek 不仅能够帮助学生和专业人士高效获取复杂术语的准确含义，还能通过其自然语言处理技术，将抽象概念以易于理解的方式呈现，助力用户深入理解概念背后的科学原理和实践应用。无论是学术研究、项目开发还是日常学习，DeepSeek 都能作为得力的知识助手，加速用户对新知识的掌握，提升信息检索与理解的效率，使学习过程更加顺畅，研究成果更加深入。
 

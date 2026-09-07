@@ -49,7 +49,7 @@
 
 本书提供源代码、PPT 课件，请读者用微信扫描下方的二维码下载。如果在学习本书的过程中发现问题或有疑问，可发送邮件至 booksaga@126.com，邮件主题为“DeepSeek 高效数据分析：从数据清洗到行业案例”。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_001.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_001.jpg)
 
 现代 AI 工具的出现彻底改变了我们的工作方式。它们不仅能够自动化烦琐的任务，减少人为错误，还能以前所未有的速度处理大量数据，揭示隐藏的模式和趋势。更重要的是，AI 工具使得复杂的数据分析技术变得触手可及，即使是没有深厚数学背景的用户也能轻松应用。在这个竞争激烈的时代，掌握 AI 工具已成为职场人士必备的技能之一。无论是提高工作效率、增强竞争力，还是开拓新的职业机会，学习和运用 AI 工具都将为你带来显著的优势。因此，人人都应当积极拥抱 AI 技术，将其融入日常工作中，以实现更高效、更智能的工作模式。
 
@@ -65,7 +65,7 @@
 
 # **DeepSeek 概述**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_002.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_002.jpg)
 
 在当今数字化时代，数据分析对于企业和个人都至关重要，而 DeepSeek 作为一种强大的大语言模型，在高效数据分析方面发挥着重要作用。为了助力后续深入学习 DeepSeek，本章着重介绍 DeepSeek 相关基础知识，包括 DeepSeek 简介、本地部署 DeepSeek 以及在线开发环境。
 
@@ -125,7 +125,7 @@ DeepSeek 贯穿数据分析的全生命周期，其价值体现如表 1-1 所示
 
 **表 1-1 在数据分析价值链中的独特定位**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_003.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_003.jpg)
 
 以上介绍了 DeepSeek 在数据分析领域的核心能力。接下来，我们将通过本地部署实践、数据加载实战、清洗预处理案例等具体内容，深入展现这个智能分析平台如何将数据分析从“技术活”转变为“对话艺术”。
 
@@ -137,25 +137,25 @@ DeepSeek 贯穿数据分析的全生命周期，其价值体现如表 1-1 所示
 
 **1.3.1 安装 Ollama**
 
-本地部署 DeepSeek 可借助 Ollama 实现。Ollama 是一款能在本地轻松运行大模型的工具，它支持快速下载、管理模型，操作简单，让用户无须复杂配置就能在本地使用。下面我们来介绍具体的安装步骤。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_004.jpg)
+本地部署 DeepSeek 可借助 Ollama 实现。Ollama 是一款能在本地轻松运行大模型的工具，它支持快速下载、管理模型，操作简单，让用户无须复杂配置就能在本地使用。下面我们来介绍具体的安装步骤。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_004.jpg)
 
  进入 Ollama 网站，直接单击 Download 按钮，如图 1-1 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_005.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_005.jpg)
 
 图 1-1 下载 Ollama
 
 然后，根据你的操作系统类型（Windows、macOS 或 Linux）选择下载安装包。下面以 Windows 系统为例进行说明，其他操作系统的操作步骤大同小异，如图 1-2 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_006.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_006.jpg)
 
 图 1-2 下载 Windows 版本
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_007.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_007.jpg)
 
- 下载完成后，找到安装程序文件并双击运行。在弹出的安装向导中，按提示逐步完成安装，如选择安装路径等。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_008.jpg)
+ 下载完成后，找到安装程序文件并双击运行。在弹出的安装向导中，按提示逐步完成安装，如选择安装路径等。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_008.jpg)
 
- 安装完成后，为方便使用，可将 Ollama 的安装目录添加到系统的环境变量中。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_009.jpg)
+ 安装完成后，为方便使用，可将 Ollama 的安装目录添加到系统的环境变量中。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_009.jpg)
 
  打开 Windows 命令提示符或 PowerShell 窗口，输入“ollama”命令。若显示相关帮助信息，说明安装成功，之后你就能使用 Ollama 管理和运行模型了。
 
@@ -165,11 +165,11 @@ DeepSeek 贯穿数据分析的全生命周期，其价值体现如表 1-1 所示
 
 **表 1-2 DeepSeek-R1 类型信息**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_010.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_010.jpg)
 
 通过命令行下载 R1 模型，在命令行窗口输入下载命令，例如 ollama run deepseek-r1:8b，再按 Enter 键执行即可。接下来需要较长时间的等待。安装完毕后，即可直接通过命令行与大模型进行交互，如图 1-3 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_011.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_011.jpg)
 
 图 1-3 安装 DeepSeek
 
@@ -181,29 +181,29 @@ Chatbox 是一款 AI 客户端应用和智能助手，支持众多先进的 AI �
 
 打开浏览器，在地址栏中输入 Chatbox 官网网址，进入官网下载页面后，根据安装软件的设备系统，单击对应的下载按钮，如图 1-4 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_012.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_012.jpg)
 
 图 1-4 下载 Chatbox
 
 安装过程其实非常简单，就像平常安装任何软件一样。下载软件后，打开安装包，按照提示进行安装，单击“下一步”按钮即可。安装 Chatbox 后，双击程序的图标即可打开客户端，可以看到一个非常简洁的界面，如图 1-5 所示，在界面下方输入你的问题。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_013.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_013.jpg)
 
 图 1-5 Chatbox 界面
 
-在 Windows 环境下完成 Chatbox 的安装后，需要添加 API 密钥。Chatbox 支持多个大模型，不同的模型需要不同的 API 密钥。在 Chatbox 中添加 API 密钥的步骤如下： ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_004.jpg)
+在 Windows 环境下完成 Chatbox 的安装后，需要添加 API 密钥。Chatbox 支持多个大模型，不同的模型需要不同的 API 密钥。在 Chatbox 中添加 API 密钥的步骤如下： ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_004.jpg)
 
- 打开 Chatbox 应用程序。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_007.jpg)
+ 打开 Chatbox 应用程序。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_007.jpg)
 
- 单击界面左下角的“设置”，进入“设置”界面。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_008.jpg)
+ 单击界面左下角的“设置”，进入“设置”界面。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_008.jpg)
 
- 在“模型”中，找到“模型提供方”选项，选择 OLLAMA API。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_009.jpg)
+ 在“模型”中，找到“模型提供方”选项，选择 OLLAMA API。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_009.jpg)
 
- 在“API 域名”输入框中输入本地大模型的密钥 http://127.0.0.1:11434。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_014.jpg)
+ 在“API 域名”输入框中输入本地大模型的密钥 http://127.0.0.1:11434。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_014.jpg)
 
  其他项保持默认设置即可。最后单击“保存”按钮保存设置，如图 1-6 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_015.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_015.jpg)
 
 图 1-6 设置 Chatbox
 
@@ -221,11 +221,11 @@ Chatbox 是一款 AI 客户端应用和智能助手，支持众多先进的 AI �
 
 API 调用代码如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_016.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_016.jpg)
 
 程序输出如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_017.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_018.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_019.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_020.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_017.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_018.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_019.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_020.jpg)
 
 **2．代码解释**
 
@@ -235,7 +235,7 @@ API 调用代码如下：
 
 API 调用代码如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_021.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_022.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_021.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_022.jpg)
 
 程序输出如下：
 
@@ -309,101 +309,101 @@ Cursor 支持多种主流编程语言，包括 Python、Java、C/C#、JavaScript
 
 首先，打开 Cursor 官方网站，单击页面上的“下载 WINDOWS”按钮进行下载，如图 1-7 所示。Cursor 的安装过程较简单，此处不再赘述。需要注意的是，Cursor 的版本更新速度较快，因此在使用过程中建议定期检查并进行升级，以确保获取该软件最新的功能。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_023.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_023.jpg)
 
 图 1-7 下载 Cursor
 
 **2．Cursor 的使用方法**
 
-1）注册账号 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_004.jpg)
+1）注册账号 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_004.jpg)
 
  登录系统。单击界面右上方的 Sign in 按钮登录软件，如果有账号，需要输入邮箱，然后单击 Continue 按钮，再输入用户名和密码，如图 1-8 和图 1-9 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_024.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_024.jpg)
 
 图 1-8 输入邮箱地址
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_025.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_025.jpg)
 
 图 1-9 输入密码
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_007.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_007.jpg)
 
  创建账号。如果没有账号，需要创建自己的账号。单击 Sign up 按钮，输入姓名、邮箱地址等信息，方便后续的邮箱验证。然后，单击 Continue 按钮进行后续操作，如图 1-10 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_026.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_026.jpg)
 
 图 1-10 创建账号
 
-2）安装插件 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_004.jpg)
+2）安装插件 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_004.jpg)
 
  选择 Extensions 选项。
 
 单击软件菜单栏中的 View 选项卡，找到 Extensions 选项，如图 1-11 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_027.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_027.jpg)
 
 图 1-11 选择 Extensions 选项
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_007.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_007.jpg)
 
  安装编译插件。
 
 同样单击扩展按钮，在搜索框内输入 Python（其他语言选择相应的插件），单击 Install 按钮，如图 1-12 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_028.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_028.jpg)
 
 图 1-12 安装编译插件
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_008.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_008.jpg)
 
  设置解释器。
 
 如果尚未配置解释器，需要选择对应的解释器，或者单击 Enter interpreter path…，输入你想指定的解释器的路径。这里配置 Python 解释器，根据需要配置 Python 版本，如图 1-13 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_029.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_029.jpg)
 
 图 1-13 配置解释器
 
-3）开始使用 Cursor ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_004.jpg)
+3）开始使用 Cursor ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_004.jpg)
 
  新建文件。如果要打开已有的文件，可以单击菜单栏中的 File 选项卡，找到 Open File…选项，如图 1-14 所示。如果要新建文件，需要单击 New File…图标新建文件，命名文件时需要添加扩展名，例如 Python 加.py，C 语言加.c，如图 1-15 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_030.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_030.jpg)
 
 图 1-14 打开文件
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_031.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_031.jpg)
 
 图 1-15 新建文件
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_007.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_007.jpg)
 
  召唤 AI。在打开的 Python 文件中，可以按 Ctrl+K 组合键呼出聊天对话框，选择大模型为 deepseek-r1，如图 1-16 所示。这是本书默认的开发环境。受制于本地硬件环境，不能安装较高版本的 DeepSeek，只能使用在线开发环境。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_032.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_032.jpg)
 
 图 1-16 聊天对话框
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_008.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_008.jpg)
 
  输入提示语，例如“数据集为[17.23,15.23,14.65,12.00,10.62]，请输出该数据集的垂直条形图”。然后按 Enter 键开始编译代码，自动生成对应的 Python 代码，如图 1-17 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_033.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_033.jpg)
 
 图 1-17 输入提示语
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_009.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_009.jpg)
 
- 运行代码。单击图 1-17 右上方的 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_034.jpg)按钮运行 Python 代码，输出的条形图如图 1-18 所示。
+ 运行代码。单击图 1-17 右上方的 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_034.jpg)按钮运行 Python 代码，输出的条形图如图 1-18 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_035.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_035.jpg)
 
 图 1-18 条形图
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_014.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_014.jpg)
 
- 确认代码。如果输出的结果满足分析要求，可以按 Ctrl+Enter 组合键进行确认；如果不符合分析要求，可以按 Ctrl+Backspace 组合键修改提示语。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_036.jpg)
+ 确认代码。如果输出的结果满足分析要求，可以按 Ctrl+Enter 组合键进行确认；如果不符合分析要求，可以按 Ctrl+Backspace 组合键修改提示语。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_036.jpg)
 
  询问代码。如果对代码存在疑惑，可以框选存疑代码片段，使用 Ctrl+L 组合键呼出聊天框进行询问，还可以找出代码中存在的问题。
 
@@ -419,7 +419,7 @@ Cursor 支持多种主流编程语言，包括 Python、Java、C/C#、JavaScript
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_037.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_038.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_039.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_037.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_038.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_039.jpg)
 
 我们看到，DeepSeek 凭借其强大的语言处理能力和智能分析算法，根据具体的需求，自动对企业 2024 年经营业绩数据报告展开了全面而深入的分析与挖掘。在这个过程中，DeepSeek 以高效的运算速度和精准的逻辑判断，对这份涵盖了众多关键数据和复杂信息的经营业绩报告进行逐行逐句的解读与剖析。
 
@@ -437,7 +437,7 @@ Cursor 支持多种主流编程语言，包括 Python、Java、C/C#、JavaScript
 
 # **利用 DeepSeek 进行数据加载**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_040.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_040.jpg)
 
 由于数据的格式不同，其存储形式也呈现多样化，要获取这些数据，需要采用不同的方法。本章介绍如何利用 DeepSeek 读取不同存储形态的数据，包括离线数据、数据库数据、Web 在线数据等，为后续数据分析时方便读取各种类型数据奠定基础。
 
@@ -461,7 +461,7 @@ CSV 文本数据通常用于在不同系统或软件之间传输数据，以及�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_041.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_042.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_041.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_042.jpg)
 
 其中，read_csv()函数是 Pandas 库中用于读取 CSV 文件的函数，它可以将 CSV 文件中的数据读取到 Pandas 的 DataFrame 中，方便进行数据分析和处理。这个函数非常灵活，支持多种参数来适应不同的 CSV 格式。
 
@@ -523,7 +523,7 @@ Excel 文件通常用于存储和管理各种类型的数据，如财务数据�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_043.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_044.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_043.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_044.jpg)
 
 其中，read_excel()函数是 Pandas 库中用于读取 Excel 文件的函数。它可以读取 Excel 文件中的一个或多个工作表，并将其转换为 DataFrame 对象。这个函数非常灵活，支持多种参数来定制数据读取的过程。
 
@@ -573,7 +573,7 @@ df = pd.read_excel('filename.xlsx')
 
 为了让 DeepSeek 读取本地图片数据，首先，用户需要将图片文档上传到平台，这可以通过单击“上传”按钮并选择要上传的文件来完成。图片文档可以是一个图表、图像等，例如图 2-1 中的 2023 年天气质量等级分布的堆积条形图。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_045.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_045.jpg)
 
 图 2-1 2023 年天气质量等级分布
 
@@ -585,7 +585,7 @@ df = pd.read_excel('filename.xlsx')
 
 提示语和输出如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_046.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_047.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_048.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_046.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_047.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_048.jpg)
 
 **2.1.4 读取 PDF 文件数据**
 
@@ -615,19 +615,19 @@ PyPDF2 库是一个功能强大且广泛应用于 Python 编程中的工具，�
 
 图 2-2 是某医院患者随访 PDF 文件数据，包括病人号、随访天数、随访月数、治疗方式等关键信息。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_049.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_049.jpg)
 
 图 2-2 医院患者随访数据
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_050.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_051.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_052.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_050.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_051.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_052.jpg)
 
 运行上述 Python 代码，就会将“某医院患者随访数据.pdf”文件中的数据另存为“某医院患者随访数据.xlsx”文件中解析的表 2-1 所示的随访数据。
 
 **表 2-1 患者随访数据**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_053.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_053.jpg)
 
 **2.1.5 读取 XML 格式数据**
 
@@ -643,7 +643,7 @@ XML（Extensible Markup Language，可扩展标记语言）格式的数据常�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_054.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_055.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_054.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_055.jpg)
 
 其中，xml.etree.ElementTree 是 Python 中一个非常实用的用于处理 XML 数据的库，主要功能如下：
 
@@ -661,7 +661,7 @@ XML（Extensible Markup Language，可扩展标记语言）格式的数据常�
 
 **表 2-2 颜色编码表**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_056.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_056.jpg)
 
 **2.2 读取数据库数据**
 
@@ -685,7 +685,7 @@ Oracle 在金融、电信、制造业等众多行业中发挥着关键作用，�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_057.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_058.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_059.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_057.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_058.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_059.jpg)
 
 其中，cx_Oracle 是 Python 中连接 Oracle 数据库的模块，connect()函数用于创建一个数据库连接。主要参数包括：
 
@@ -709,7 +709,7 @@ Oracle 在金融、电信、制造业等众多行业中发挥着关键作用，�
 
 运行上述 Python 代码，输出结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_060.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_060.jpg)
 
 **2.2.2 读取 MySQL 数据库数据**
 
@@ -725,7 +725,7 @@ MySQL 是一种广泛使用的开源关系数据库管理系统。它具有高�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_061.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_062.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_063.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_061.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_062.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_063.jpg)
 
 Python 可以直接读取 MySQL 数据库，需要安装 pymysql 库。create_engine(mysql+pymysql)是 Python 中用于连接 MySQL 数据库的函数，它使用了 pymysql 驱动程序来实现 MySQL 的连接和操作。主要参数如下：
 
@@ -751,7 +751,7 @@ Python 可以直接读取 MySQL 数据库，需要安装 pymysql 库。create_en
 
 运行上述 Python 代码，输出结果如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_064.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_064.jpg)
 
 **2.2.3 读取 SQL Server 数据库数据**
 
@@ -767,7 +767,7 @@ SQL Server 是由微软推出的关系数据库管理系统，它具有强大�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_065.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_066.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_067.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_065.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_066.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_067.jpg)
 
 create_engine(mssql+pymssql)是 Python 中用于创建与 Microsoft SQL Server 数据库进行交互的引擎。其中，mssql 是数据库类型，pymssql 是 Python 的 MSSQL 数据库驱动。主要参数如下：
 
@@ -799,7 +799,7 @@ create_engine(mssql+pymssql)是 Python 中用于创建与 Microsoft SQL Server
 
 运行上述 Python 代码，输出结果如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_068.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_068.jpg)
 
 **2.2.4 读取 Kingbase 数据库数据**
 
@@ -815,13 +815,13 @@ Kingbase 是一款国产数据库管理系统，它具有高可靠性、高性�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_069.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_070.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_071.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_069.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_070.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_071.jpg)
 
 psycopg2 库是 Python 开发者在处理 PostgreSQL 数据库时的得力工具，它的功能丰富、易用性强、可靠性高，为开发高效、稳定的数据库应用程序提供了有力支持。
 
 运行上述 Python 代码，输出结果如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_072.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_072.jpg)
 
 **2.2.5 读取 OceanBase 数据库数据**
 
@@ -837,11 +837,11 @@ OceanBase 是一款专为分布式环境设计的数据库，其通过多副本�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_073.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_074.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_075.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_073.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_074.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_075.jpg)
 
 运行上述 Python 代码，输出结果如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_076.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_076.jpg)
 
 **2.3 读取 Web 在线数据**
 
@@ -911,7 +911,7 @@ UCI 机器学习库中的红酒数据集通常包括以下两个主要的数据�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_077.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_078.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_079.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_077.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_078.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_079.jpg)
 
 这里使用 urlopen()函数和 loadtxt()函数加载了 Web 在线数据。urlopen()函数是 Python 标准库中 urllib.request 模块中的一个函数，用于打开 URL 并获取其内容。该函数的主要参数如下：
 
@@ -947,7 +947,7 @@ loadtxt()函数是 Python 中 NumPy 模块中的一个函数，用于从文本�
 
 运行上述 Python 代码，输出结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_080.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_080.jpg)
 
 **2.4 本章小结**
 
@@ -957,7 +957,7 @@ loadtxt()函数是 Python 中 NumPy 模块中的一个函数，用于从文本�
 
 # **利用 DeepSeek 进行数据清洗**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_081.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_081.jpg)
 
 在真实数据中，数据可能包含大量的重复值、缺失值和异常值，这非常不利于后续分析，因此需要对各种“脏数据”进行针对性的处理，以获得干净的数据。本章将介绍如何利用 DeepSeek 进行数据检测和处理，包括重复值、缺失值、异常值的检测和处理等。
 
@@ -1049,7 +1049,7 @@ Jaccard 相似度是一种基于集合的相似度计算方法。它通过计算
 
 **表 3-1 商品订单信息表**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_082.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_082.jpg)
 
 小王不得不花费大量的时间和精力来甄别这些重复记录，确定哪些是真正的重复数据，哪些可能是系统错误或其他原因导致的看似重复实则不同的记录。他需要逐一核对订单的详细信息，包括订单编号、客户信息、下单时间等，以确保准确地识别出重复数据。这个过程不仅烦琐枯燥，而且充满了不确定性，因为稍有疏忽就可能导致错误的判断。
 
@@ -1057,13 +1057,13 @@ Jaccard 相似度是一种基于集合的相似度计算方法。它通过计算
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_083.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_084.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_085.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_083.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_084.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_085.jpg)
 
 DeepSeek 根据需求，自动输出检测重复值的 Python 代码，运行上述代码，即可实现打印输出商品订单信息表中的重复值数据，如表 3-2 所示。
 
 **表 3-2 重复值数据**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_086.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_086.jpg)
 
 **3.1.2 重复值的处理**
 
@@ -1103,13 +1103,13 @@ DeepSeek 根据需求，自动输出检测重复值的 Python 代码，运行上
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_087.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_088.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_089.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_087.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_088.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_089.jpg)
 
 运行上述 Python 代码，输出重复值处理后的数据如表 3-3 所示。
 
 **表 3-3 订单明细表（重复值）_ 处理后**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_090.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_090.jpg)
 
 **3.2 缺失值的检测与处理**
 
@@ -1153,7 +1153,7 @@ DeepSeek 根据需求，自动输出检测重复值的 Python 代码，运行上
 
 **表 3-4 客户信息表**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_091.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_091.jpg)
 
 为了确保数据分析的准确性和可靠性，避免任何可能的偏差，小王决定利用当下极为热门的人工智能工具 DeepSeek 来检测数据集中的缺失值。他深知，缺失值作为数据清洗过程中的一大挑战，若处理不当，极易对后续的分析结果产生误导。
 
@@ -1161,13 +1161,13 @@ DeepSeek 根据需求，自动输出检测重复值的 Python 代码，运行上
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_092.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_093.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_094.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_092.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_093.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_094.jpg)
 
 运行上述 Python 代码，输出异常值检测后的数据，如表 3-5 所示。
 
 **表 3-5 客户信息表（缺失值）_ 检测**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_095.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_095.jpg)
 
 **3.2.2 缺失值的处理**
 
@@ -1259,17 +1259,17 @@ DeepSeek 根据需求，自动输出检测重复值的 Python 代码，运行上
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_096.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_097.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_098.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_096.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_097.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_098.jpg)
 
 运行上述 Python 代码，输出结果如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_099.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_099.jpg)
 
 运行上述 Python 代码，输出缺失值处理后的数据，如表 3-6 所示。
 
 **表 3-6 客户信息表（缺失值）_ 处理方法 1**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_100.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_100.jpg)
 
 **方法二：常数值填充**
 
@@ -1281,17 +1281,17 @@ DeepSeek 根据需求，自动输出检测重复值的 Python 代码，运行上
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_101.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_102.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_101.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_102.jpg)
 
 运行上述 Python 代码，输出结果如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_103.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_104.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_103.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_104.jpg)
 
 运行上述 Python 代码，输出缺失值处理后的数据，如表 3-7 所示。
 
 **表 3-7 客户信息表（缺失值）_ 处理方法 2**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_105.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_105.jpg)
 
 **方法三：其他填充方法**
 
@@ -1303,17 +1303,17 @@ DeepSeek 根据需求，自动输出检测重复值的 Python 代码，运行上
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_106.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_107.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_108.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_106.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_107.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_108.jpg)
 
 运行上述 Python 代码，输出结果如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_109.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_110.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_109.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_110.jpg)
 
 运行上述 Python 代码，输出缺失值处理后的数据，如表 3-8 所示。
 
 **表 3-8 客户信息表（缺失值）_ 处理方法 3**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_111.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_111.jpg)
 
 **3.3 异常值的检测与处理**
 
@@ -1391,19 +1391,19 @@ T-test 的优点是在小样本情况下也能进行有效的假设检验。但�
 
 **表 3-9 商品订单表**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_112.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_112.jpg)
 
 为保证分析结果准确无误，避免分析过程出现偏差，小王深思熟虑后，决定借助当下极为热门的人工智能工具 DeepSeek 来检测数据。他怀着一丝期待，精心准备提示语，详细地描述自己面临的问题与具体需求，期望能借助其强大的功能解决难题。
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_113.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_114.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_115.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_113.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_114.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_115.jpg)
 
 运行上述 Python 代码，输出异常值检测结果，如表 3-10 所示。
 
 **表 3-10 订单明细表（异常值）_ 检测**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_116.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_116.jpg)
 
 **3.3.2 异常值的处理**
 
@@ -1515,13 +1515,13 @@ T-test 的优点是在小样本情况下也能进行有效的假设检验。但�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_117.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_118.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_119.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_117.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_118.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_119.jpg)
 
 运行上述 Python 代码，输出异常值处理后的数据，如表 3-11 所示。
 
 **表 3-11 订单明细表（异常值）_ 处理方法 1**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_120.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_120.jpg)
 
 **方法二：常数值填充**
 
@@ -1533,13 +1533,13 @@ T-test 的优点是在小样本情况下也能进行有效的假设检验。但�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_121.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_122.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_121.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_122.jpg)
 
 运行上述 Python 代码，输出异常值处理后的数据，如表 3-12 所示。
 
 **表 3-12 订单明细表（异常值）_ 处理方法 2**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_123.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_123.jpg)
 
 **方法三：其他填充方法**
 
@@ -1551,13 +1551,13 @@ T-test 的优点是在小样本情况下也能进行有效的假设检验。但�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_124.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_125.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_126.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_124.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_125.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_126.jpg)
 
 运行上述 Python 代码，输出异常值处理后的数据，如表 3-13 所示。
 
 **表 3-13 订单明细表（异常值）_ 处理方法 3**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_127.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_127.jpg)
 
 **3.4 本章小结**
 
@@ -1575,7 +1575,7 @@ T-test 的优点是在小样本情况下也能进行有效的假设检验。但�
 
 # **利用 DeepSeek 进行数据预处理**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_128.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_128.jpg)
 
 数据预处理至关重要，它能去除噪声、纠正错误，使数据更准确可靠，提升后续分析和建模效果，为决策提供高质量的数据基础，确保结果的有效性。本章我们将介绍如何利用 DeepSeek 进行数据预处理，包括数据集成、数据转换、数据集划分等。
 
@@ -1611,21 +1611,21 @@ T-test 的优点是在小样本情况下也能进行有效的假设检验。但�
 
 · 数据虚拟化集成：通过虚拟化技术将不同数据源中的数据“虚拟”成一个统一的数据视图，用户可以通过统一的接口对数据进行访问和查询，这种方法可以减少数据冗余和复杂性，提高数据的可访问性和灵活性。
 
-**4．数据集成的实施步骤** ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_129.jpg)
+**4．数据集成的实施步骤** ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_129.jpg)
 
- 确定需求：明确集成的目的和需求，如确定需要整合哪些数据源、整合后的数据结构和格式等。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_130.jpg)
+ 确定需求：明确集成的目的和需求，如确定需要整合哪些数据源、整合后的数据结构和格式等。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_130.jpg)
 
- 数据源分析：对需要整合的数据源进行分析，了解每个数据源的数据结构、数据格式、数据质量等情况。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_131.jpg)
+ 数据源分析：对需要整合的数据源进行分析，了解每个数据源的数据结构、数据格式、数据质量等情况。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_131.jpg)
 
- 数据清洗：对数据源中的数据进行清洗和处理，去除重复数据、处理缺失值、纠正错误数据等，以保证整合后的数据质量。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_132.jpg)
+ 数据清洗：对数据源中的数据进行清洗和处理，去除重复数据、处理缺失值、纠正错误数据等，以保证整合后的数据质量。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_132.jpg)
 
- 数据映射：将不同数据源中的数据映射到统一的数据结构中，以便进行后续的数据转换和整合。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_133.jpg)
+ 数据映射：将不同数据源中的数据映射到统一的数据结构中，以便进行后续的数据转换和整合。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_133.jpg)
 
- 数据转换：对映射后的数据进行转换和整合，使其符合整合后的数据结构和格式要求。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_134.jpg)
+ 数据转换：对映射后的数据进行转换和整合，使其符合整合后的数据结构和格式要求。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_134.jpg)
 
- 数据加载：将转换后的数据加载到目标系统或数据仓库中，完成数据集成的过程。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_135.jpg)
+ 数据加载：将转换后的数据加载到目标系统或数据仓库中，完成数据集成的过程。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_135.jpg)
 
- 数据验证：对整合后的数据进行验证和检验，确保数据的准确性和完整性。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_136.jpg)
+ 数据验证：对整合后的数据进行验证和检验，确保数据的准确性和完整性。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_136.jpg)
 
  数据维护：建立数据维护的机制，监控数据的变化和更新，及时处理数据异常和问题，确保整合后的数据持续有效。
 
@@ -1675,13 +1675,13 @@ T-test 的优点是在小样本情况下也能进行有效的假设检验。但�
 
 在 Python 中，通常使用 Pandas 库进行数据的横向合并。在其他环境中，如 SQL 数据库或 Excel，也有相应的合并功能。
 
-**5．使用 Pandas 进行横向合并** ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_129.jpg)
+**5．使用 Pandas 进行横向合并** ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_129.jpg)
 
- 导入 Pandas 库：import pandas as pd。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_130.jpg)
+ 导入 Pandas 库：import pandas as pd。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_130.jpg)
 
- 加载数据集：使用 pd.read_csv()或其他相关函数加载数据集到 Pandas DataFrame 中。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_131.jpg)
+ 加载数据集：使用 pd.read_csv()或其他相关函数加载数据集到 Pandas DataFrame 中。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_131.jpg)
 
- 选择合并方法：Pandas 提供了多种合并方法，如 merge()、concat()等。其中，merge()函数通常用于基于共同字段的横向合并。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_132.jpg)
+ 选择合并方法：Pandas 提供了多种合并方法，如 merge()、concat()等。其中，merge()函数通常用于基于共同字段的横向合并。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_132.jpg)
 
  执行合并操作：调用 pd.merge()函数，指定要合并的 DataFrame，设置 on 参数为共同的关键字段，选择合并类型（如 inner、left、right、outer）。
 
@@ -1723,7 +1723,7 @@ print(result)
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_137.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_138.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_137.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_138.jpg)
 
 运行上述 Python 代码，“订单明细表.xlsx”和“客户信息表.xlsx”就会合并为“订单明细表 _ 横向合并.xlsx”。
 
@@ -1809,7 +1809,7 @@ print(merged_df)
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_139.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_140.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_139.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_140.jpg)
 
 运行上述 Python 代码，“2023 年 10 月份订单明细表.xlsx”“2023 年 11 月份订单明细表.xlsx”和“2023 年 12 月份订单明细表.xlsx”就会合并为“订单明细表 _ 纵向合并.xlsx”。
 
@@ -1895,7 +1895,7 @@ Min-max 标准化将数据缩放到一个给定的最小值和最大值之间，
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_141.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_142.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_143.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_141.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_142.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_143.jpg)
 
 运行上述 Python 代码，“贷款客户数据.xlsx”文件中的数据将经过预处理，并保存为“贷款客户数据 _ 标准化处理.xlsx”文件。
 
@@ -1957,7 +1957,7 @@ print(binary_df)
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_144.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_145.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_144.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_145.jpg)
 
 运行上述 Python 代码，“贷款客户数据.xlsx”文件中的数据将经过预处理，并保存为“贷款客户数据 _ 二值化处理.xlsx”文件。
 
@@ -1971,13 +1971,13 @@ print(binary_df)
 
 等宽离散化是一种常用的数据离散化方法，它将连续型数据按照相同宽度的区间进行划分，确保每个区间的取值范围相同。
 
-等宽离散化的步骤如下： ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_129.jpg)
+等宽离散化的步骤如下： ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_129.jpg)
 
- 计算数据的最小值和最大值，确定数据的取值范围。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_130.jpg)
+ 计算数据的最小值和最大值，确定数据的取值范围。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_130.jpg)
 
- 设定划分区间的个数或区间宽度。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_131.jpg)
+ 设定划分区间的个数或区间宽度。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_131.jpg)
 
- 根据数据的取值范围和区间宽度，计算出每个区间的边界。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_132.jpg)
+ 根据数据的取值范围和区间宽度，计算出每个区间的边界。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_132.jpg)
 
  将原始数据根据所属的区间进行离散化，用表示区间的离散值来代替原始的连续型数据。
 
@@ -2003,13 +2003,13 @@ print(binary_df)
 
 等频离散化是另一种常用的数据离散化方法，它将连续型数据按照相同数量的数据点进行划分，确保每个区间内包含近似相同数量的数据点。
 
-等频离散化的步骤如下： ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_129.jpg)
+等频离散化的步骤如下： ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_129.jpg)
 
- 确定要分成的区间个数。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_130.jpg)
+ 确定要分成的区间个数。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_130.jpg)
 
- 根据数据的数量和区间个数，计算每个区间应包含的数据点个数。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_131.jpg)
+ 根据数据的数量和区间个数，计算每个区间应包含的数据点个数。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_131.jpg)
 
- 将数据按照升序排序，然后按照每个区间应包含的数据点个数将数据划分为多个区间。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_132.jpg)
+ 将数据按照升序排序，然后按照每个区间应包含的数据点个数将数据划分为多个区间。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_132.jpg)
 
  将每个区间的区间边界作为离散值，用来表示每个数据点所属的区间。
 
@@ -2035,13 +2035,13 @@ print(binary_df)
 
 基于聚类的离散化方法是一种将连续型数据离散化为若干区间的方法，通过聚类算法来确定区间划分的方式。这种方法可以根据数据的特点和分布情况，自动确定最佳的区间划分方式，适用于各种数据分布情况。
 
-基于聚类的离散化方法的步骤如下： ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_129.jpg)
+基于聚类的离散化方法的步骤如下： ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_129.jpg)
 
- 选择合适的聚类算法，如 K 均值聚类、层次聚类等。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_130.jpg)
+ 选择合适的聚类算法，如 K 均值聚类、层次聚类等。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_130.jpg)
 
- 设定要划分的区间个数或者其他需要的参数。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_131.jpg)
+ 设定要划分的区间个数或者其他需要的参数。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_131.jpg)
 
- 使用聚类算法对连续型数据进行聚类，将数据点划分到不同的簇中。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_132.jpg)
+ 使用聚类算法对连续型数据进行聚类，将数据点划分到不同的簇中。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_132.jpg)
 
  根据聚类结果，确定每个簇的区间边界作为离散值，用来表示每个数据点所属的区间。
 
@@ -2075,7 +2075,7 @@ print(binary_df)
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_146.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_147.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_146.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_147.jpg)
 
 运行上述 Python 代码，“贷款客户数据.xlsx”文件中的数据将经过预处理，并保存为“贷款客户数据 _ 离散化处理.xlsx”文件。
 
@@ -2169,7 +2169,7 @@ print(binary_df)
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_148.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_149.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_148.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_149.jpg)
 
 运行上述 Python 代码，“客户违约预测数据.xlsx”数据集就会被划分为“客户违约预测数据 _ 测试集.xlsx”和“客户违约预测数据 _ 训练集.xlsx”两个数据集。
 
@@ -2215,7 +2215,7 @@ print(binary_df)
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_150.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_151.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_150.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_151.jpg)
 
 运行上述 Python 代码，“客户违约预测数据.xlsx”数据集就会被划分为“客户违约预测数据 _ 测试集.xlsx”“客户违约预测数据 _ 训练集.xlsx”“客户违约预测数据 _ 验证集.xlsx”3 个数据集。
 
@@ -2235,13 +2235,13 @@ print(binary_df)
 
 · 灵活性：分层抽样特别适用于总体情况复杂、各单位之间差异较大、单位较多的情况。
 
-**3．分层抽样的具体步骤** ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_129.jpg)
+**3．分层抽样的具体步骤** ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_129.jpg)
 
- 划分层次：根据总体单位的某种属性或特征（如性别、年龄、职业等），将总体划分为若干互不重叠的层。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_130.jpg)
+ 划分层次：根据总体单位的某种属性或特征（如性别、年龄、职业等），将总体划分为若干互不重叠的层。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_130.jpg)
 
- 确定抽样比例：根据各层在总体中的比重，确定各层的抽样比例。抽样比例可以根据各层的单位数量、变异性等因素来确定。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_131.jpg)
+ 确定抽样比例：根据各层在总体中的比重，确定各层的抽样比例。抽样比例可以根据各层的单位数量、变异性等因素来确定。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_131.jpg)
 
- 随机抽样：在每个层中，按照确定的抽样比例进行随机抽样，获取各层的样本单位。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_132.jpg)
+ 随机抽样：在每个层中，按照确定的抽样比例进行随机抽样，获取各层的样本单位。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_132.jpg)
 
  汇总分析：将各层的样本单位汇总，形成一个完整的样本集，并进行统计分析。
 
@@ -2277,7 +2277,7 @@ print(binary_df)
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_152.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_153.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_152.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_153.jpg)
 
 运行上述 Python 代码，就会使用分层抽样法将“客户违约预测数据.xlsx”数据集划分为“客户违约预测数据 _ 分层抽样法 _ 测试集.xlsx”和“客户违约预测数据 _ 分层抽样法 _ 训练集.xlsx”两个数据集。
 
@@ -2297,7 +2297,7 @@ print(binary_df)
 
 # **利用 DeepSeek 进行数据探索**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_154.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_154.jpg)
 
 在数据分析之前，一般需要对数据进行初步的探索，用于对数据进行总结和描述，从而更好地理解数据的特征和趋势。本章将结合实例，详细介绍如何利用 DeepSeek 进行数据探索，包括描述性分析、频数分析、探索分析、交叉表分析、相关分析、偏相关分析等，以及这些分析的具体操作，并对结果进行解释。
 
@@ -2317,13 +2317,13 @@ print(binary_df)
 
 简单算术平均数是将总体各单位每一个标志值加总得到的标志总量除以单位总量而求出的平均指标。其计算方法如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_155.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_155.jpg)
 
 简单算术平均数适用于总体单位数较少的未分组资料。如果所给的资料是已经分组的次数分布数列，则算术平均数的计算应采用加权算术平均数的形式。
 
 加权算术平均数是首先用各组的标志值乘以相应的各组单位数求出各组标志总量，并加总求得总体标志总量，而后将总体标志总量和总体单位总量对比。其计算过程如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_156.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_156.jpg)
 
 其中，*f*表示各组的单位数，或者说是频数和权数。
 
@@ -2341,7 +2341,7 @@ print(binary_df)
 
 方差的计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_157.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_157.jpg)
 
 **4．标准差**
 
@@ -2349,7 +2349,7 @@ print(binary_df)
 
 方差的平方根就是标准差，标准差的计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_158.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_158.jpg)
 
 **5．百分位数**
 
@@ -2361,9 +2361,9 @@ print(binary_df)
 
 变异系数是将标准差或平均差与其平均数对比所得的比值，又称离散系数，计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_159.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_159.jpg)
 
-*V*、*σ*、 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_160.jpg)分别表示变异系数、标准差和平均值。变异系数是一个无名数的数值，可用于比较不同数列的变异程度。其中，最常用的变异系数是标准差系数。
+*V*、*σ*、 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_160.jpg)分别表示变异系数、标准差和平均值。变异系数是一个无名数的数值，可用于比较不同数列的变异程度。其中，最常用的变异系数是标准差系数。
 
 *σ*
 
@@ -2371,7 +2371,7 @@ print(binary_df)
 
 偏度是对分布偏斜方向及程度的测度。常用三阶中心矩除以标准差的三次方表示数据分布的相对偏斜程度，用*a*[3]表示。其计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_161.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_161.jpg)
 
 其中，*a*[3]为正，表示分布为右偏；如果*a*[3]为负，则表示分布为左偏。
 
@@ -2379,7 +2379,7 @@ print(binary_df)
 
 峰度是频数分布曲线与正态分布相比较，顶端的尖峭程度。统计上常用四阶中心矩测定峰度，其计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_162.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_162.jpg)
 
 当*a*[4]=3 时，分布曲线为正态分布。
 
@@ -2391,7 +2391,7 @@ print(binary_df)
 
 Z 标准化得分是指某一数据与平均数的距离以标准差为单位的测量值。其计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_163.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_163.jpg)
 
 其中，*Z*即为*X*的*Z*标准化得分。*Z*标准化数据越大，说明它离平均数越远。
 
@@ -2417,17 +2417,17 @@ Z 标准化得分是指某一数据与平均数的距离以标准差为单位的
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_164.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_165.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_166.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_164.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_165.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_166.jpg)
 
 运行上述 Python 代码，输出描述性分析的结果如下：
 
 数据预览：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_167.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_167.jpg)
 
 描述性统计分析结果：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_168.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_168.jpg)
 
 **5.2 频数分析**
 
@@ -2471,7 +2471,7 @@ Z 标准化得分是指某一数据与平均数的距离以标准差为单位的
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_169.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_170.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_169.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_170.jpg)
 
 运行上述 Python 代码，输出频数分析的结果如下：
 
@@ -2489,7 +2489,7 @@ Z 标准化得分是指某一数据与平均数的距离以标准差为单位的
 
 居民消费水平频率分布直方图及正态曲线如图 5-1 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_171.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_171.jpg)
 
 图 5-1 频率分布直方图和正态曲线
 
@@ -2529,15 +2529,15 @@ Z 标准化得分是指某一数据与平均数的距离以标准差为单位的
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_172.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_173.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_172.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_173.jpg)
 
 运行上述 Python 代码，输出探索分析的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_174.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_174.jpg)
 
 不同颜色手机评分的统计分析结果：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_175.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_175.jpg)
 
 正态性检验结果（W 值，p 值）：
 
@@ -2591,11 +2591,11 @@ Name: 评分, dtype: object
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_176.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_177.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_176.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_177.jpg)
 
 运行上述 Python 代码，输出交叉表分析的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_178.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_178.jpg)
 
 **5.5 相关分析**
 
@@ -2633,7 +2633,7 @@ Name: 评分, dtype: object
 
 *ii*
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_179.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_180.jpg) ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_181.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_179.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_180.jpg) ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_181.jpg)
 
 其中，，。
 
@@ -2657,7 +2657,7 @@ Name: 评分, dtype: object
 
 等级相关用来考察两个变量中至少有一个为定序变量时的相关系数。例如，学历与收入之间的关系。它的计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_182.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_182.jpg)
 
 其中，*d*表示*y*的等级和*x*的等级之差，*n*为样本容量。
 
@@ -2669,7 +2669,7 @@ Name: 评分, dtype: object
 
 肯德尔等级相关系数利用变量的等级来计算一致对数目*U*和非一致对数目*V*，采用非参数检验的方法来衡量定序变量之间的相关程度。其计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_183.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_183.jpg)
 
 **5.5.2 案例：铁路和公路货运量分析**
 
@@ -2689,19 +2689,19 @@ Name: 评分, dtype: object
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_184.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_185.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_184.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_185.jpg)
 
 运行上述 Python 代码，输出相关分析的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_186.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_186.jpg)
 
 相关系数矩阵：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_187.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_187.jpg)
 
 铁路货运量与公路货运量相关性热力图，如图 5-2 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_188.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_188.jpg)
 
 图 5-2 相关系数热力图
 
@@ -2725,7 +2725,7 @@ Name: 评分, dtype: object
 
 *nij*
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_189.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_189.jpg)
 
 式中右边均为*g*-*l*阶的偏相关系数，其中*l*[1]，*l*[2]，…，*l*为自然数从 1 到*n*除去*i*和*j*的不同组合。
 
@@ -2733,7 +2733,7 @@ Name: 评分, dtype: object
 
 一般我们主要研究一阶偏相关，如分析变量*X*[1]和变量*l*[2]之间的净相关时，控制变量*X*[3]的线性影响。*X*[1]和*X*[2]之间的一阶偏相关系数公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_190.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_190.jpg)
 
 **5.6.2 案例：铁路和公路货运量分析**
 
@@ -2749,11 +2749,11 @@ Name: 评分, dtype: object
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_191.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_192.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_191.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_192.jpg)
 
 运行上述 Python 代码，输出偏相关分析的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_193.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_193.jpg)
 
 上面给出了含控制变量“水运货运量”和“民航货运量”时，“铁路货运量”和“公路货运量”间的偏相关分析结果。可以明显看到，在剔除控制变量“水运货运量”和“民航货运量”的影响后，“铁路货运量”和“公路货运量”间的偏相关系数为-0.453755，显著性水平为 0.007031。因此，我们可以认为“铁路货运量”和“公路货运量”间存在低度相关关系。
 
@@ -2765,7 +2765,7 @@ Name: 评分, dtype: object
 
 # **利用 DeepSeek 进行回归分析**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_194.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_194.jpg)
 
 回归分析是研究一个因变量与一个或多个自变量之间的线性或非线性关系的一种统计分析方法。它是基于观测数据建立变量间适当的依赖关系，以分析数据内在规律，可用于预测、控制等问题。本章将详细介绍如何利用 DeepSeek 进行回归分析，包括线性回归、曲线回归、逻辑回归等常用的回归分析方法及其案例。
 
@@ -2781,7 +2781,7 @@ Name: 评分, dtype: object
 
 多元线性回归模型是日常工作中应用频繁的模型，公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_195.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_195.jpg)
 
 其中，*x*[1]…*x*是自变量，*y*是因变量，*β*[0]是截距，*β*[1]…*β*是变量回归系数，*ε*是误差项的随机变量。
 
@@ -2797,7 +2797,7 @@ Name: 评分, dtype: object
 
 如果想让我们的预测值尽量准确，就必须让真实值与预测值的差值最小，即让误差平方和最小，用公式表达如下，具体推导过程可参考相关的资料。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_196.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_196.jpg)
 
 损失函数只是一种策略，有了策略，我们还要用适合的算法进行求解。在线性回归模型中，求解损失函数就是求与自变量相对应的各个回归系数和截距。有了这些参数，我们才能实现模型的预测（输入*x*，输出*y*）。
 
@@ -2829,7 +2829,7 @@ Name: 评分, dtype: object
 
 如果一个回归直线预测非常准确，它就需要让来自*x*的影响尽可能大，而让来自无法预测干扰项的影响尽可能小，也就是说*x*影响占比越高，预测效果就越好。下面我们来看如何定义这些影响，并形成指标。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_197.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_198.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_197.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_198.jpg)
 
 SST（Total Sum of Squares，总平方和）：变差总平方和。
 
@@ -2839,19 +2839,19 @@ SSE（Error Sum of Squares，残差平方和）：除*x*影响之外的其他
 
 总平方和、回归平方和、残差平方和以及三者之间的关系如图 6-1 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_199.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_199.jpg)
 
 图 6-1 线性回归
 
 它们之间的关系是：SSR 越高，代表回归预测越准确，观测点越靠近直线，即越大，直线拟合越好。因此，判定系数的定义就自然地引出来了，我们一般称为*R*[2]。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_200.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_200.jpg)
 
 **2．估计标准误差**
 
 判定系数*R*[2]的意义是由*x*引起的影响占总影响的比例来判断拟合程度的。当然，我们也可以从误差的角度来评估，也就是用残差 SSE 进行判断。估计标准误差是均方残差的平方根，可以标注实际观测点在直线周围散布的情况。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_201.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_201.jpg)
 
 估计标准误差与判定系数相反，*S*反映了预测值与真实值之间误差的大小。误差越小，就说明拟合度越高；相反，误差越大，就说明拟合度越低。
 
@@ -2881,11 +2881,11 @@ SSE（Error Sum of Squares，残差平方和）：除*x*影响之外的其他
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_202.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_203.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_204.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_205.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_202.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_203.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_204.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_205.jpg)
 
 运行上述 Python 代码，输出线性回归的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_206.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_206.jpg)
 
 给出了线性回归模型的回归系数及相应的一些统计量，包括模型的截距、年龄和月收入的系数，以及模型的均方误差、R² 得分，具体如下：
 
@@ -2899,19 +2899,19 @@ R² 得分：0.9753885628854427
 
 在进行数据分析和建模过程中，除得到各种分析结果外，还输出了实际值与预测值的拟合图，这可以为模型的改进和优化提供方向，如图 6-2 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_207.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_207.jpg)
 
 图 6-2 实际值与预测值的拟合图
 
 还给出了标准化残差的直方图，它以直观的图形方式展示标准化残差的分布情况，如图 6-3 所示。从图表可以看出，标准化后的残差基本满足正态分布。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_208.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_208.jpg)
 
 图 6-3 标准化残差的直方图
 
 图 6-4 给出了回归标准化残差的 P-P 图。该 P-P 图是以实际观察值的累计概率为横轴，以正态分布的累计概率为纵轴，如果样本数据来自正态分布的话，则所有散点都应该分布在对角线附近。从图表可以看出，分布结果正是如此，因此可以判断标准化残差基本服从正态分布，与图 6-3 给出的结果一致。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_209.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_209.jpg)
 
 图 6-4 标准化残差的 P-P 图
 
@@ -2949,11 +2949,11 @@ R² 得分：0.9753885628854427
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_210.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_211.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_212.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_213.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_210.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_211.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_212.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_213.jpg)
 
 运行上述 Python 代码，输出曲线回归的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_214.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_214.jpg)
 
 给出了曲线回归模型的回归系数及相应的一些统计量，包括模型的截距、负债率系数，以及模型的均方误差、R² 得分，具体如下：
 
@@ -2971,13 +2971,13 @@ R² 得分: 0.9987631530765341
 
 在进行数据分析和建模过程中，除得到各种分析结果外，还输出了实际值与预测值的拟合图，这可以为模型的改进和优化提供方向，如图 6-5 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_215.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_215.jpg)
 
 图 6-5 实际值与预测值的拟合图
 
 回归曲线直观地展示了自变量与因变量之间的关系。通过观察回归曲线的形状和趋势，可以快速了解信用额度使用率与负债率两个变量之间的大致关系，如图 6-6 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_216.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_216.jpg)
 
 图 6-6 回归曲线
 
@@ -3017,15 +3017,15 @@ R² 得分: 0.9987631530765341
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_217.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_218.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_219.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_217.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_218.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_219.jpg)
 
 运行上述 Python 代码，输出逻辑回归的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_220.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_220.jpg)
 
 输出逻辑回归模型的各种评估指标，具体如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_221.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_221.jpg)
 
 给出了逻辑回归模型的回归系数及相应的一些统计量，包括模型的截距、月收入、负债率系数，具体如下：
 
@@ -3035,17 +3035,17 @@ R² 得分: 0.9987631530765341
 
 下面建立“是否违约”与影响因素“月收入”（*x*[1]）和“负债率”（*x*[2]）的近似关系，即：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_222.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_222.jpg)
 
 进行指数变换，得出：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_223.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_223.jpg)
 
 即可对客户违约的概率进行预测。
 
 此外，还输出了逻辑回归的接收者操作特征曲线（即 ROC 曲线），如图 6-7 所示。从图形可以看出，曲线下面积（AUC）是 1，说明模型的分类性能非常好。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_224.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_224.jpg)
 
 图 6-7 ROC 曲线
 
@@ -3057,7 +3057,7 @@ R² 得分: 0.9987631530765341
 
 # **利用 DeepSeek 进行聚类分析**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_225.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_225.jpg)
 
 聚类分析能在无先验知识的情况下，将数据划分成不同的簇，发现数据中的潜在模式，为市场细分、图像识别等提供决策依据，提升数据分析的深度。本章将详细介绍如何利用 DeepSeek 进行聚类分析，包括 K-Means 聚类、手肘法判断聚类数、轮廓系数法判断聚类数等。
 
@@ -3069,31 +3069,31 @@ R² 得分: 0.9987631530765341
 
 海明距离：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_226.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_226.jpg)
 
 欧氏距离：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_227.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_227.jpg)
 
 马氏距离：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_228.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_228.jpg)
 
 聚类分析通常分为两类，即基于原型的聚类和基于层次的聚类。基于原型的聚类将每个簇表示为一个原型，如质心、中心点等，然后将每个样本分配给最近的原型所在的簇。常见的基于原型的聚类算法包括 K-Means、高斯混合模型等。基于层次的聚类则是将样本逐步合并成越来越大的簇，或者逐步分裂成越来越小的簇。
 
-聚类分析的建模通常包括以下几个步骤： ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_229.jpg)
+聚类分析的建模通常包括以下几个步骤： ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_229.jpg)
 
-数据预处理：对原始数据进行清洗、去噪、归一化等处理，以便于后续聚类分析。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_230.jpg)
+数据预处理：对原始数据进行清洗、去噪、归一化等处理，以便于后续聚类分析。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_230.jpg)
 
-特征选择：根据实际需求选择合适的特征，并进行特征降维，以减少计算量和提高聚类效果。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_231.jpg)
+特征选择：根据实际需求选择合适的特征，并进行特征降维，以减少计算量和提高聚类效果。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_231.jpg)
 
-确定聚类数量：根据实际需求和数据特点，确定聚类的数量。常用的方法包括手肘法、轮廓系数法等。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_232.jpg)
+确定聚类数量：根据实际需求和数据特点，确定聚类的数量。常用的方法包括手肘法、轮廓系数法等。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_232.jpg)
 
-选择聚类算法：根据数据特点和聚类需求，选择合适的聚类算法。常用的算法包括 K-Means、DBSCAN、层次聚类等。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_233.jpg)
+选择聚类算法：根据数据特点和聚类需求，选择合适的聚类算法。常用的算法包括 K-Means、DBSCAN、层次聚类等。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_233.jpg)
 
-模型训练：使用选定的聚类算法对数据进行训练，得到聚类模型。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_234.jpg)
+模型训练：使用选定的聚类算法对数据进行训练，得到聚类模型。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_234.jpg)
 
-模型评估：对聚类模型进行评估，检查聚类效果是否满足实际需求。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_235.jpg)
+模型评估：对聚类模型进行评估，检查聚类效果是否满足实际需求。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_235.jpg)
 
 结果应用：根据聚类结果进行后续分析或决策。
 
@@ -3107,15 +3107,15 @@ K-Means 聚类能自动将数据划分为有意义的群组，便于理解数据
 
 K-Means 聚类是一种常用的聚类算法，它将数据集分成*K*个簇，每个簇包含最接近其质心的数据点。K-Means 算法是一种无监督学习算法，主要用于聚类分析。
 
-**1．算法原理** ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_229.jpg)
+**1．算法原理** ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_229.jpg)
 
-初始化：首先随机选择*K*个数据点作为初始聚类中心。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_230.jpg)
+初始化：首先随机选择*K*个数据点作为初始聚类中心。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_230.jpg)
 
-分配数据点：对于每个数据点，计算它到每个聚类中心的距离，将其分配到距离最近的聚类中心所属的簇中。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_231.jpg)
+分配数据点：对于每个数据点，计算它到每个聚类中心的距离，将其分配到距离最近的聚类中心所属的簇中。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_231.jpg)
 
-更新聚类中心：重新计算每个簇中所有数据点的均值，作为新的聚类中心。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_232.jpg)
+更新聚类中心：重新计算每个簇中所有数据点的均值，作为新的聚类中心。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_232.jpg)
 
-重复步骤 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_230.jpg)和 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_231.jpg)：不断重复上述过程，直到聚类中心不再发生变化或者达到预设的迭代次数为止。
+重复步骤 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_230.jpg)和 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_231.jpg)：不断重复上述过程，直到聚类中心不再发生变化或者达到预设的迭代次数为止。
 
 **2．算法优势**
 
@@ -3157,11 +3157,11 @@ K-Means 聚类是一种常用的聚类算法，它将数据集分成*K*个簇，
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_236.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_237.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_238.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_236.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_237.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_238.jpg)
 
 运行上述 Python 代码，绘制数据集的散点图，如图 7-1 所示。从图形可以看出，数据集可以分为 3 类，即*K*为 3。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_239.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_239.jpg)
 
 图 7-1 K-Means 聚类结果
 
@@ -3169,13 +3169,13 @@ K-Means 聚类是一种常用的聚类算法，它将数据集分成*K*个簇，
 
 **表 7-1** **KMeans()函数参数**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_240.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_240.jpg)
 
 Kmeans.fit()函数是 sklearn.cluster 中 K-Means 聚类算法的一部分，其作用是通过对数据的聚类分析，将数据分为*k*个不同的类别，使得每个类别内的数据相似度尽可能高，而不同类别之间的相似度尽可能低，它是基于数据的不同特征维度之间的欧几里得距离来计算相似度的。Kmeans.fit()函数参数如表 7-2 所示。
 
 **表 7-2** **Kmeans.fit()函数参数**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_241.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_241.jpg)
 
 **7.3** **手肘法判断聚类数**
 
@@ -3187,7 +3187,7 @@ Kmeans.fit()函数是 sklearn.cluster 中 K-Means 聚类算法的一部分，其
 
 手肘法判断聚类数的核心指标是误差平方和（Sum of Squared Errors，SSE），或称为组内平方和，它是所有样本的聚类误差，代表了聚类效果的好坏，公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_242.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_242.jpg)
 
 其中，*C*表示第*i*个簇，*p*是*C*中的样本点，*m*是*C*的质心（*C*中所有样本的均值）。
 
@@ -3201,7 +3201,7 @@ i*iiii*
 
 将不同聚类数目对应的 SSE 绘制成曲线，这条曲线的形状类似于一个人的手肘，如图 7-2 所示。在曲线的“肘部”位置，SSE 的下降趋势发生明显变化，从这个点开始，继续增加聚类数目带来的 SSE 减少幅度变得不那么显著。这个“肘部”对应的聚类数目就被认为是比较合适的聚类数目。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_243.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_243.jpg)
 
 图 7-2 手肘法
 
@@ -3231,11 +3231,11 @@ i*iiii*
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_244.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_245.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_246.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_244.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_245.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_246.jpg)
 
 运行上述 Python 代码，输出手肘法判断聚类数的折线图，如图 7-3 所示。从图形可以看出，对于这个数据集的聚类而言，最佳聚类数是 3。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_247.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_247.jpg)
 
 图 7-3 手肘法判断聚类数
 
@@ -3269,7 +3269,7 @@ i*iiii*
 
 *ii*
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_248.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_248.jpg)
 
 轮廓系数法的判断标准如下：
 
@@ -3313,11 +3313,11 @@ i*iiii*
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_249.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_250.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_251.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_249.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_250.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_251.jpg)
 
 运行上述 Python 代码，输出轮廓系数法判断聚类数的折线图，如图 7-4 所示。从图形可以初步判断，当聚类数为 3 时，轮廓系数最大，即对于该数据集来说，聚成 3 类比较合适。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_252.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_252.jpg)
 
 图 7-4 轮廓系数法判断聚类数
 
@@ -3329,7 +3329,7 @@ i*iiii*
 
 # **利用 DeepSeek 进行时间序列分析**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_253.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_253.jpg)
 
 时间序列分析能揭示数据随时间的变化规律，并预测未来趋势。它在金融、气象等领域有广泛应用，为决策提供前瞻性依据，有助于把握动态变化，提升风险管理和资源规划的有效性。本章将详细介绍如何利用 DeepSeek 进行时间序列分析，包括时间序列分析概述、指数平滑法及其案例、ARIMA 算法及其案例等。
 
@@ -3343,13 +3343,13 @@ i*iiii*
 
 时序数据可以是时点数，也可以是时期数。例如，图 8-1 是通过 Excel 绘制的 2015 年至 2024 年我国普通高等学校数量的条形图，该时序数据是由 10 个时期数组成的数列。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_254.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_254.jpg)
 
 图 8-1 普通高等学校数量
 
 分析时间序列数据的目的是通过样本数据构建时间序列模型，从而进行未来数据的预测。例如，可以根据我国 2014 年至 2023 年共计 10 年的年末总人口历史数据，使用 Excel 为折线图添加趋势线，建立人口预测模型，从而对我国未来的人口数进行预测。通过模型的比较分析，发现多项式模型比较合适，*R*[2]达到了 0.9756，如图 8-2 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_255.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_255.jpg)
 
 图 8-2 年末总人口数的预测
 
@@ -3361,7 +3361,7 @@ i*iiii*
 
 时间序列数据是按时间方向排列的数据，例如股票交易变动的数据。图 8-3 显示的是 2020 年 7 月 31 日上证指数的分时数据，它反映了 7 月 31 日这个交易日上证指数的变化情况。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_256.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_256.jpg)
 
 图 8-3 上证指数分时图
 
@@ -3369,7 +3369,7 @@ i*iiii*
 
 固有序列数据是不宜以时间为变量，但数据存在固有的测序序列。例如，生物 DNA 测序数据是指分析特定 DNA 片段的碱基序列，也就是腺嘌呤（A）、胸腺嘧啶（T）、胞嘧啶（C）与鸟嘌呤（G）的排列方式。如图 8-4 所示，快速 DNA 测序方法的出现极大地推动了生物学和医学的研究和发展。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_257.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_257.jpg)
 
 图 8-4 生物 DNA 序列
 
@@ -3411,7 +3411,7 @@ i*iiii*
 
 一次指数平滑的递推关系公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_258.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_258.jpg)
 
 其中，*s*是第*i*步经过平滑的值，*x*是这个时间的实际数据。*α*是加权因子，取值范围为[0,1]，它控制着新旧信息之间的权重平衡。当*α*接近 1 时，我们只保留当前数据点（即完全没有对序列进行平滑操作）；当*α*接近 0 时，我们只保留前面的平滑值，整个曲线是一条水平的直线。在该方法中，越早的平滑值作用越小，从这个角度来看，指数平滑法像拥有无限记忆且权值呈指数级递减的移动平均法。
 
@@ -3419,7 +3419,7 @@ i*iiii*
 
 一次指数平滑法的预测公式为：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_259.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_259.jpg)
 
 因此，一次指数平滑法得到的预测结果在任何时候都是一条直线，并不适合于具有总体趋势的时间序列，如果用来处理有总体趋势的序列，平滑值将滞后于原始数据，除非*α*的值非常接近 1，但这样使得序列不够平滑。
 
@@ -3427,13 +3427,13 @@ i*iiii*
 
 二次指数平滑法保留了平滑信息和趋势信息，使得模型可以预测具有趋势的时间序列。二次指数平滑法有两个等式和两个参数：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_260.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_260.jpg)
 
 其中，*t*代表平滑后的趋势，当前趋势的未平滑值是当前平滑值*s*和上一个平滑值*s*的差，*s*为当前平滑值，是在一次指数平滑基础上加入了上一步的趋势信息*t*，利用这种方法进行预测，就取最后的平滑值，然后每增加一个时间步长，就在该平滑值上增加一个平滑值*t*，公式如下：
 
 *iii*-1*ii*-1*i*
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_261.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_261.jpg)
 
 在计算形式上，这种方法与三次指数平滑法类似。因此，二次指数平滑法也被称为无季节性的 Holt-Winter 平滑法。
 
@@ -3441,11 +3441,11 @@ i*iiii*
 
 三次指数平滑法相比二次指数平滑法，增加了第三个量来描述季节性，累加式季节性对应的等式为：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_262.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_262.jpg)
 
 累乘式季节性对应的等式为：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_263.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_263.jpg)
 
 其中，*p*为周期性的分量，代表周期的长度；*x*为模型预测的等式。
 
@@ -3493,11 +3493,11 @@ data = [12, 15, 13, 16, 14, 17, 15, 18, 16, 19]
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_264.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_265.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_266.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_264.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_265.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_266.jpg)
 
 运行上述 Python 代码，输出指数平滑法的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_267.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_267.jpg)
 
 未来 6 个月的制造业采购经理指数预测结果如下：
 
@@ -3517,7 +3517,7 @@ dtype: float64
 
 指数平滑法绘制的折线图如图 8-5 所示。可以看到，预测值（橙色线条）比较接近实际值（蓝色线条），但是在数据波动较大的地方仍有一定误差。如果需要更准确的预测结果，可以通过调整平滑系数等参数进行优化。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_268.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_268.jpg)
 
 图 8-5 指数平滑法预测
 
@@ -3543,7 +3543,7 @@ ARIMA 模型最重要的地方在于时序数据的平稳性。平稳性是要�
 
 自回归模型是描述当前值与历史值之间的关系的模型，是一种用变量自身的历史事件数据对自身进行预测的方法。其公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_269.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_269.jpg)
 
 其中，*y*是当前值，*μ*是常数项，*p*是阶数，*γ*是自相关系数，*ε*是误差值。
 
@@ -3563,7 +3563,7 @@ ARIMA 模型最重要的地方在于时序数据的平稳性。平稳性是要�
 
 移动平均模型关注的是自回归模型中的误差项的累加。它能够有效地消除预测中的随机波动。其公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_270.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_270.jpg)
 
 其中，各个字母的意义与 AR 公式相同，*θ*为 MA 公式的相关系数。
 
@@ -3573,7 +3573,7 @@ ARIMA 模型最重要的地方在于时序数据的平稳性。平稳性是要�
 
 将自回归模型与移动平均模型相结合，便可以得到移动平均模型。其公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_271.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_271.jpg)
 
 在这个公式中，*p*与*q*分别为自回归模型与移动平均模型的阶数，是需要人为定义的。*γ*与*θ*分别是两个模型的相关系数，是需要求解的。如果原始数据不满足平稳性要求而进行了差分，则为差分自相关移动平均模型（ARIMA），将差分后所得的新数据代入 ARMA 公式中即可。
 
@@ -3609,15 +3609,15 @@ CPI 的计算方法通常采用抽样调查和加权平均的方式。统计部�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_272.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_273.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_272.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_273.jpg)
 
 运行上述 Python 代码，输出 ARIMA 模型的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_274.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_274.jpg)
 
 程序还输出居民消费价格指数 ARIMA 模型时间序列的折线图，其中蓝色代表实际值，橙色代表预测值，如图 8-6 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_275.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_275.jpg)
 
 图 8-6 居民消费价格指数 ARIMA 模型
 
@@ -3627,7 +3627,7 @@ CPI 的计算方法通常采用抽样调查和加权平均的方式。统计部�
 
 **表 8-1 模型结果预测**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_276.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_276.jpg)
 
 **8.4 本章小结**
 
@@ -3637,7 +3637,7 @@ CPI 的计算方法通常采用抽样调查和加权平均的方式。统计部�
 
 # **利用 DeepSeek 进行模型评估**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_277.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_277.jpg)
 
 模型评估能衡量模型性能，确定其准确性、稳定性等，帮助发现模型不足，以便改进优化，确保模型在实际应用中可靠有效，为模型的优化和改进提供有价值的参考，提升工作效率。本章将详细介绍如何利用 DeepSeek 进行模型评估，包括模型评估方法、欠拟合、过拟合等。
 
@@ -3655,7 +3655,7 @@ CPI 的计算方法通常采用抽样调查和加权平均的方式。统计部�
 
 **表 9-1** **混淆矩阵 1**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_278.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_278.jpg)
 
 通过混淆矩阵，我们可以计算出真实狗的数量（行相加）为 6（5+1），真实猫的数量为 4（0+4），预测值分类得到狗的数量（列相加）为 5（5+0），分类得到猫的数量为 5（1+4）。
 
@@ -3673,13 +3673,13 @@ CPI 的计算方法通常采用抽样调查和加权平均的方式。统计部�
 
 **表 9-2** **混淆矩阵 2**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_279.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_279.jpg)
 
 **1．准确率**
 
 准确率（accuracy）是样本中类别预测正确的比例，计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_280.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_280.jpg)
 
 准确率反映模型类别预测的正确能力，包含两种情况：正例被预测为正例，反例被预测为反例。我们可以通过混淆矩阵的计算得出模型的准确率。
 
@@ -3687,7 +3687,7 @@ CPI 的计算方法通常采用抽样调查和加权平均的方式。统计部�
 
 精确率（precision）是被预测为正例的样本中，真实的正例所占的比例，计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_281.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_281.jpg)
 
 精确率反映模型对正例的预测能力，该指标的关注点在正例上，如果我们对正例的预测准确性很关注，那么精确率是一个不错的指标。例如，在医学病情诊断上，患者在意的是“不要误诊”。
 
@@ -3697,7 +3697,7 @@ CPI 的计算方法通常采用抽样调查和加权平均的方式。统计部�
 
 召回率（recall）又称灵敏度（sensitivity），是在真实的正例样本中，被预测为正例的样本所占的比例，即真阳性率，计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_282.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_282.jpg)
 
 召回率反映模型对正例的覆盖率，即“不允许有一条漏网之鱼”，如果我们关注的是对真实正例样本预测为正的全面性，那么召回率是很好的指标。例如，在一些灾害检测的场景中，任何一次灾害的漏检都是难以接受的，此时召回率就是很合适的指标。
 
@@ -3707,7 +3707,7 @@ CPI 的计算方法通常采用抽样调查和加权平均的方式。统计部�
 
 F1-score 是兼顾精准率与召回率的模型评价指标，计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_283.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_283.jpg)
 
 对精准率或召回率没有特殊要求时，评价一个模型的优劣需要同时考虑精准率与召回率，此时可以考虑使用 F1-score。F1-score 考虑了 precision、recall 数值大小的影响，只有当二者都比较高时，F1-score 才会比较大。
 
@@ -3723,7 +3723,7 @@ F1-score 是兼顾精准率与召回率的模型评价指标，计算公式如�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_284.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_285.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_284.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_285.jpg)
 
 运行上述 Python 代码，输出的结果如下：
 
@@ -3735,7 +3735,7 @@ F1-score 是兼顾精准率与召回率的模型评价指标，计算公式如�
 
 分类报告：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_286.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_286.jpg)
 
 **9.1.2** **ROC 曲线及案例**
 
@@ -3743,7 +3743,7 @@ ROC 曲线的全称是“受试者工作特征”，通常用来衡量一个二�
 
 ROC 曲线的横轴表示的是 FPR，即错误地预测为正例的概率；纵轴表示的是 TPR，即正确地预测为正例的概率。二者的计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_287.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_287.jpg)
 
 AUC 是一个数值，它是 ROC 曲线与坐标轴围成的面积。很明显，TPR 越大，FPR 越小，模型效果越好，ROC 曲线就越靠近左上角，表明模型效果越好，此时 AUC 值越大，极端情况下为 1。由于 ROC 曲线一般都处于*y*=*x*直线的上方，因此 AUC 的取值范围一般在 0.5 和 1 之间。
 
@@ -3771,11 +3771,11 @@ ROC 曲线是根据分类器对不同样本的预测概率绘制而成的。对�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_288.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_289.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_290.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_288.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_289.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_290.jpg)
 
 运行上述 Python 代码，输出的结果如图 9-1 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_291.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_291.jpg)
 
 图 9-1 ROC 曲线
 
@@ -3791,7 +3791,7 @@ ROC 曲线是根据分类器对不同样本的预测概率绘制而成的。对�
 
 为解决这个问题，即避免增加自变量而高估*R*平方，需要对*R*平方进行调整。采用的方法是用样本量*n*和自变量的个数*k*来调整*R*平方，调整后的*R*平方的计算公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_292.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_292.jpg)
 
 从公式可以看出，调整后的*R*平方同时考虑了样本量（*n*）和回归中自变量的个数（*k*）的影响，这使得调整后的*R*平方永远小于*R*平方，并且调整后的*R*平方的值不会由于回归中自变量个数的增加而越来越接近 1。
 
@@ -3809,7 +3809,7 @@ ROC 曲线是根据分类器对不同样本的预测概率绘制而成的。对�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_293.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_294.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_295.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_293.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_294.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_295.jpg)
 
 运行上述 Python 代码，输出 4 个模型的*R*平方值如下：
 
@@ -3831,7 +3831,7 @@ ROC 曲线是根据分类器对不同样本的预测概率绘制而成的。对�
 
 均方误差（MSE），表示预测值和观测值之间差异（残差平方）的平均值，公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_296.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_296.jpg)
 
 即：真实值减去预测值，然后对差值进行平方，再求和，最后求平均值。这个公式其实就是线性回归的损失函数。在线性回归中，我们的目标是让这个损失函数的数值最小。
 
@@ -3839,7 +3839,7 @@ ROC 曲线是根据分类器对不同样本的预测概率绘制而成的。对�
 
 均方根误差（RMSE），表示预测值和观测值之间差异（残差）的样本标准差，公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_297.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_297.jpg)
 
 即：均方误差的平方根，均方根误差是有单位的，与样本数据是一样的。
 
@@ -3847,7 +3847,7 @@ ROC 曲线是根据分类器对不同样本的预测概率绘制而成的。对�
 
 平均绝对误差（MAE）表示预测值和观测值之间绝对误差的平均值，公式如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_298.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_298.jpg)
 
 MAE 是一种线性分数，所有个体差异在平均值上的权重都相等，而 RMSE 相比 MAE，会对高的差异惩罚更多。
 
@@ -3863,7 +3863,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_299.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_300.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_301.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_299.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_300.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_301.jpg)
 
 运行上述 Python 代码，输出 4 个模型的 R 平方值、均方误差（MSE）、均方根误差（RMSE）和平均绝对误差（MAE）如下：
 
@@ -3903,7 +3903,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_302.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_303.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_302.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_303.jpg)
 
 运行上述 Python 代码，输出交叉验证的结果如下：
 
@@ -3921,13 +3921,13 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 学习曲线通常包含两条曲线：一条表示模型在训练集上的性能，另一条表示模型在验证集（或测试集）上的性能。这两条曲线随着训练集大小的增加而变化，通常关注的是模型的准确率或误差率。
 
-**2．学习曲线的绘制步骤** ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_304.jpg)
+**2．学习曲线的绘制步骤** ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_304.jpg)
 
-数据分割：首先，将数据集分为训练集和验证集（或测试集）。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_305.jpg)
+数据分割：首先，将数据集分为训练集和验证集（或测试集）。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_305.jpg)
 
-逐步训练：然后，从训练集中选择不同大小的子集（例如，从一个样本开始，逐渐增加到全部样本）进行模型训练。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_306.jpg)
+逐步训练：然后，从训练集中选择不同大小的子集（例如，从一个样本开始，逐渐增加到全部样本）进行模型训练。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_306.jpg)
 
-评估和记录：在每个训练集大小下，评估模型在训练集和验证集上的性能，并记录下来。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_307.jpg)
+评估和记录：在每个训练集大小下，评估模型在训练集和验证集上的性能，并记录下来。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_307.jpg)
 
 绘制曲线：最后，根据记录的数据绘制学习曲线，通常是以训练集大小为横轴，模型误差率为纵轴。
 
@@ -3953,15 +3953,15 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_308.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_309.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_310.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_308.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_309.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_310.jpg)
 
 运行上述 Python 代码，输出的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_311.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_311.jpg)
 
 输出的学习曲线如图 9-2 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_312.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_312.jpg)
 
 图 9-2 学习曲线
 
@@ -4009,7 +4009,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_313.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_314.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_315.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_313.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_314.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_315.jpg)
 
 运行上述 Python 代码，输出的结果如下：
 
@@ -4019,7 +4019,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 输出的学习曲线如图 9-3 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_316.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_316.jpg)
 
 图 9-3 学习曲线
 
@@ -4055,7 +4055,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_317.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_318.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_319.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_317.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_318.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_319.jpg)
 
 运行上述 Python 代码，输出的结果如下：
 
@@ -4065,7 +4065,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 输出的学习曲线如图 9-4 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_320.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_320.jpg)
 
 图 9-4 学习曲线
 
@@ -4075,7 +4075,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 # **第十章利用 DeepSeek 撰写分析报告**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_321.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_321.jpg)
 
 数据分析报告是一种沟通与交流的形式，其主要目的在于将分析结果、可行性建议以及其他有价值的信息传递给管理人员。数据分析报告需要对数据进行适当的包装，以便让阅读者能够正确理解分析结果并做出准确的判断。此外，报告应能够支持管理人员做出有针对性、可操作且具有战略意义的决策。本章将详细介绍如何利用 DeepSeek 撰写数据分析报告。
 
@@ -4117,19 +4117,19 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 本案例结合某母婴商品数据，对母婴商品销售背后的大数据进行分析，旨在挖掘出消费者购买行为背后的规律和特点，从而为商家提供更好的销售建议或搜索结果。通过对用户在电商平台的浏览、搜索、购买等行为进行分析，我们可以发现用户的消费习惯、购买偏好和需求，从而为商家提供有针对性的营销策略建议和商品推荐。
 
-具体分析步骤如下： ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_322.jpg)
+具体分析步骤如下： ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_322.jpg)
 
-数据收集：首先，我们需要收集某母婴商品平台上的用户行为数据，包括用户 ID、商品 ID、商品类别、商品根类别、购买数量、购买时间、性别等。这些数据可以帮助我们了解用户的消费行为和偏好。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_323.jpg)
+数据收集：首先，我们需要收集某母婴商品平台上的用户行为数据，包括用户 ID、商品 ID、商品类别、商品根类别、购买数量、购买时间、性别等。这些数据可以帮助我们了解用户的消费行为和偏好。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_323.jpg)
 
-数据预处理：对收集到的数据进行清洗和预处理，包括去除重复数据、填补缺失值、转换数据格式等。这一步有助于提高数据的质量和可用性。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_324.jpg)
+数据预处理：对收集到的数据进行清洗和预处理，包括去除重复数据、填补缺失值、转换数据格式等。这一步有助于提高数据的质量和可用性。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_324.jpg)
 
-用户特征分析：对用户的基本信息进行分析，了解用户的年龄、性别、地域分布等特征，为商家提供更加精准的客户对象。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_325.jpg)
+用户特征分析：对用户的基本信息进行分析，了解用户的年龄、性别、地域分布等特征，为商家提供更加精准的客户对象。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_325.jpg)
 
-购买行为分析：对用户的购买行为进行分析，包括购买数量、购买时间等数据。通过购买数量的统计分析，我们可以发现哪些商品受到用户的青睐，以及用户购买的频率和数量。对购买时间的分析可以帮助商家了解用户的购买习惯，如哪些时间段是用户的购物高峰期，以便商家合理安排促销活动和库存管理。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_326.jpg)
+购买行为分析：对用户的购买行为进行分析，包括购买数量、购买时间等数据。通过购买数量的统计分析，我们可以发现哪些商品受到用户的青睐，以及用户购买的频率和数量。对购买时间的分析可以帮助商家了解用户的购买习惯，如哪些时间段是用户的购物高峰期，以便商家合理安排促销活动和库存管理。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_326.jpg)
 
-商品类别分析：对商品类别和商品根类别进行分析，以便了解用户在不同商品类别的消费偏好。通过对商品类别和商品根类别的交叉分析，我们可以发现用户在不同商品类别的购买行为是否存在关联，从而帮助商家进行商品组合销售和营销策略的制定。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_327.jpg)
+商品类别分析：对商品类别和商品根类别进行分析，以便了解用户在不同商品类别的消费偏好。通过对商品类别和商品根类别的交叉分析，我们可以发现用户在不同商品类别的购买行为是否存在关联，从而帮助商家进行商品组合销售和营销策略的制定。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_327.jpg)
 
-搜索行为分析：对用户的搜索行为进行分析，了解用户在平台上的兴趣点和关注点，以便商家可以针对性地推送相关商品和优惠信息。 ![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_328.jpg)
+搜索行为分析：对用户的搜索行为进行分析，了解用户在平台上的兴趣点和关注点，以便商家可以针对性地推送相关商品和优惠信息。 ![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_328.jpg)
 
 结果应用：根据以上分析结果，商家可以制定有针对性的营销策略和商品推荐，提高销售额和用户满意度。同时，商家还可以根据用户的行为数据优化商品布局、提高商品质量、提升服务水平等，从而提升竞争力。
 
@@ -4157,7 +4157,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 **表 10-1** **母婴销售数据**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_329.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_329.jpg)
 
 通过分析这些数据，我们可以回答以下问题：
 
@@ -4181,7 +4181,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_330.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_331.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_330.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_331.jpg)
 
 经过以上数据清洗步骤，数据集都已经全部清洗完毕，现在的数据是比较干净的，为后续的数据分析工作打下基础。
 
@@ -4197,11 +4197,11 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_332.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_333.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_334.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_332.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_333.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_334.jpg)
 
 对商品销售数据进行用户性别分析，女婴占比 51.4%，男婴占比 45.9%，女婴相比男婴受众更多，营销时可倾向于对女婴进行宣传，如图 10-1 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_335.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_335.jpg)
 
 图 10-1 用户性别分析
 
@@ -4215,11 +4215,11 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_336.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_337.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_338.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_336.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_337.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_338.jpg)
 
 对商品销售数据进行不同性别用户群体的商品偏好分析。从购买量来看，男女婴都偏好 28、50008168 以及 50014815 类型的商品，如图 10-2 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_339.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_339.jpg)
 
 图 10-2 用户偏好分析
 
@@ -4233,11 +4233,11 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_340.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_341.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_340.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_341.jpg)
 
 从商品的季度销量情况来看，在 2023 年季度商品的销量是不断增长的，在第四季度达到峰值，超过了 10 000 件，其次是第三季度，接近 8 000 件，如图 10-3 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_342.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_342.jpg)
 
 图 10-3 商品季度销售量分析
 
@@ -4253,11 +4253,11 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_343.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_344.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_345.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_343.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_344.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_345.jpg)
 
 从商品的月度销量情况来看，在 2023 年的 11 月份销量最多，超过了 4000 件，其次是 10 月份，超过了 3200 件，如图 10-4 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_346.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_346.jpg)
 
 图 10-4 商品月度销售量分析
 
@@ -4273,11 +4273,11 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_347.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_348.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_349.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_347.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_348.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_349.jpg)
 
 从商品的每日销量情况来看，2023 年 11 月 10 日的销量最高，接近 2000 件，这可能与购物节有关，如图 10-5 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_350.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_350.jpg)
 
 图 10-5 商品每日销售量分析
 
@@ -4291,11 +4291,11 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_351.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_352.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_353.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_351.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_352.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_353.jpg)
 
 从畅销商品月度销售量情况来看，2023 年全年 6 种商品的销量变化趋势基本保持一致，其中 28 类型的商品在每个月基本都是排名第一，如图 10-6 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_354.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_354.jpg)
 
 图 10-6 月度销售变化趋势
 
@@ -4315,7 +4315,7 @@ MAE 是一种线性分数，所有个体差异在平均值上的权重都相等�
 
 # **案例：DeepSeek 金融量化数据分析**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_355.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_355.jpg)
 
 在当今数字化浪潮席卷金融领域的大背景下，股票投资已不再是单纯依赖直觉与经验的“艺术”，而是逐渐演变为一门融合了先进技术与精准数据的科学。本章聚焦于一个极具代表性的案例—运用 DeepSeek 进行金融量化数据分析，特别是基于 K 线图技术的深度挖掘。通过这一实践，不仅能够揭示隐藏在价格波动背后的规律，还能为投资者提供洞察视角，助力其在瞬息万变的股市中把握先机、规避风险。
 
@@ -4349,13 +4349,13 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_356.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_357.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_356.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_357.jpg)
 
 下载的股票数据包含股票的交易日期、股票代码、每日开盘价、最高价、最低价、收盘价、成交量、成交金额和复权状态共 9 个指标，具体如表 11-1 所示。
 
 **表 11-1** **交易数据字段**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_358.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_358.jpg)
 
 **11.2** **数据基础分析**
 
@@ -4369,15 +4369,15 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_359.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_360.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_361.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_359.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_360.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_361.jpg)
 
 运行上述 Python 代码，输出的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_362.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_362.jpg)
 
 输出的股票收盘价折线图如图 11-1 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_363.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_363.jpg)
 
 图 11-1 收盘价折线图
 
@@ -4391,19 +4391,19 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_364.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_365.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_366.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_364.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_365.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_366.jpg)
 
 运行上述 Python 代码，输出的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_367.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_367.jpg)
 
 描述性统计结果：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_368.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_368.jpg)
 
 输出的开盘价、最高价、最低价、收盘价的描述性统计条形图如图 11-2 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_369.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_369.jpg)
 
 图 11-2 描述性统计
 
@@ -4419,11 +4419,11 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_370.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_371.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_372.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_370.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_371.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_372.jpg)
 
 运行上述 Python 代码，输出的时间序列图如图 11-3 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_373.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_373.jpg)
 
 图 11-3 成交量时间序列图
 
@@ -4437,11 +4437,11 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_374.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_375.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_376.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_374.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_375.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_376.jpg)
 
 运行上述 Python 代码，输出的时间序列图如图 11-4 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_377.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_377.jpg)
 
 图 11-4 收盘价和成交量时间序列图
 
@@ -4455,11 +4455,11 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_378.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_379.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_380.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_378.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_379.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_380.jpg)
 
 运行上述 Python 代码，输出的 K 线图如图 11-5 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_381.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_381.jpg)
 
 图 11-5 K 线图
 
@@ -4477,15 +4477,15 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_382.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_383.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_382.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_383.jpg)
 
 运行上述 Python 代码，输出的结果如下：
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_384.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_385.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_384.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_385.jpg)
 
 输出的相关系数矩阵如图 11-6 所示，图中用颜色来代表相关系数大小。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_386.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_386.jpg)
 
 图 11-6 相关系数矩阵
 
@@ -4503,11 +4503,11 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_387.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_388.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_389.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_387.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_388.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_389.jpg)
 
 运行上述 Python 代码，输出的 K 线图如图 11-7 所示。在图中比较 5 日均线和 20 日均线，特别是关注它们的交叉点，这些是交易的时机。移动平均线策略最简单的方式就是：当 5 日均线从下方超越 20 日均线时，买入股票，当 5 日均线从上方越到 20 日均线之下时，卖出股票。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_390.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_390.jpg)
 
 图 11-7 5 日均线与 20 日均线 K 线图
 
@@ -4519,11 +4519,11 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_391.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_392.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_391.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_392.jpg)
 
 运行上述 Python 代码，输出 2024 年第二季度股票交易时机的折线图，如图 11-8 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_393.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_393.jpg)
 
 图 11-8 股票交易时机分析
 
@@ -4541,7 +4541,7 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 # **案例：DeepSeek 电商平台数据分析**
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_394.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_394.jpg)
 
 互联网是一个信息共享平台，各大网购平台拥有着巨量的消费者购买评论数据。这些数据逐渐成为消费者制定购买决策的依据，以及制造商升级产品的重要参考。但是，如何在浩瀚的文本评论数据中挖掘到有价值、有参考的信息成为新的挑战。本章将详细介绍如何利用 DeepSeek 进行电商平台数据分析。
 
@@ -4569,11 +4569,11 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_395.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_396.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_397.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_395.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_396.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_397.jpg)
 
 运行上述 Python 代码，输出每日商品订单量日历图，如图 12-1 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_398.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_398.jpg)
 
 图 12-1 每日商品订单量日历图
 
@@ -4589,11 +4589,11 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_399.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_400.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_401.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_399.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_400.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_401.jpg)
 
 运行上述 Python 代码，输出每月商品销售额折线图，如图 12-2 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_402.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_402.jpg)
 
 图 12-2 每月商品销售额折线图
 
@@ -4611,11 +4611,11 @@ Baostock 金融数据接口可以免费获取股票数据、指数数据、季�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_403.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_404.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_405.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_403.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_404.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_405.jpg)
 
 运行上述 Python 代码，输出不同区域销售业绩雷达图，如图 12-3 所示。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_406.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_406.jpg)
 
 图 12-3 不同区域销售业绩雷达图
 
@@ -4647,11 +4647,11 @@ Jieba 分词工具支持中文简体、中文繁体分词，还支持自定义�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_407.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_408.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_409.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_407.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_408.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_409.jpg)
 
 运行上述 Python 代码，生成如图 12-4 所示的条形图。绘制的条形图以直观的视觉形式呈现，使得人们能够一目了然地看出各个关键词的重要程度和分布差异，有助于深入了解客户对商品的评价和需求，为商品的改进和优化提供有价值的参考。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_410.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_410.jpg)
 
 图 12-4 关键词条形图
 
@@ -4669,11 +4669,11 @@ Jieba 分词工具支持中文简体、中文繁体分词，还支持自定义�
 
 提示语和输出如下。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_411.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_412.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_413.jpg)![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_414.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_411.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_412.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_413.jpg)![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_414.jpg)
 
 运行上述 Python 代码，生成如图 12-5 所示的词云，可以很直观地看出哪些关键词是客户关注的，其中关键词越大，代表关注的客户数量越多。
 
-![](img/DeepSeek高效数据分析：从数据清洗到行业案例_image_415.jpg)
+![](img/DeepSeek-高效数据分析：从数据清洗到行业案例_image_415.jpg)
 
 图 12-5 关键词词云
 

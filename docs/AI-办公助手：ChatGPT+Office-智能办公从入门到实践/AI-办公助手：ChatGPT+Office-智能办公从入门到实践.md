@@ -2,7 +2,7 @@
 
 # **作者介绍**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_000.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_000.jpg)
 
 **宫祺**
 
@@ -36,7 +36,7 @@
 
 为了方便读者学习，本书还特别赠送了一些辅助学习资源，如视频讲解，感兴趣的读者可扫描下面的二维码下载。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_001.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_001.jpg)
 
 尽管作者和编辑团队在编写过程中已竭尽所能，但限于时间、篇幅等原因，加之 ChatGPT 模型的更新迭代较快，书中难免存在疏漏之处，恳请各位读者能体谅包涵，给予反馈。
 
@@ -46,7 +46,7 @@
 
 # **入门篇**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_002.jpg)![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_003.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_002.jpg)![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_003.jpg)
 
 ## **第一章**
 
@@ -62,13 +62,13 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 **步骤 01** 开始注册。打开 OpenAI 官方网站，如果是初次使用 ChatGPT，单击右上角的 Try ChatGPT 按钮，如图 1.1 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_004.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_004.jpg)
 
 图 1.1
 
 在跳转之后的页面中单击 Sign up 按钮，如图 1.2 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_005.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_005.jpg)
 
 图 1.2
 
@@ -80,17 +80,17 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 在“密码”文本框中输入登录密码，单击“继续”按钮，如图 1.4 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_006.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_006.jpg)
 
 ▲图 1.3
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_007.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_007.jpg)
 
 图 1.4
 
 **步骤 03** 进行邮箱验证。此时 OpenAI 会向之前输入的电子邮箱发送一封验证邮件，在邮箱内查收该邮件，单击邮件内的 Verify email address 按钮进行验证，如图 1.5 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_008.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_008.jpg)
 
 图 1.5
 
@@ -100,11 +100,11 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 在新打开的页面中单击 Log in 按钮，如图 1.7 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_009.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_009.jpg)
 
 ▲图 1.6
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_010.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_010.jpg)
 
 图 1.7
 
@@ -112,11 +112,11 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 在“密码”文本框中输入注册时设置的密码，然后单击“继续”按钮，即可进入 ChatGPT 首页，如图 1.9 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_011.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_011.jpg)
 
 ▲图 1.8
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_012.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_012.jpg)
 
 图 1.9
 
@@ -128,13 +128,13 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 在首页左上角的 ChatGPT 3.5 处单击，在弹出的下拉列表中单击 Upgrade to Plus 按钮，如图 1.10 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_013.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_013.jpg)
 
 图 1.10
 
 在打开的页面中选择自己需要的版本，单击其下方对应的按钮，在跳转的订阅页面中进行支付即可，如图 1.11 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_014.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_014.jpg)
 
 图 1.11
 
@@ -146,7 +146,7 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 **步骤 01** 输入问题或关键词。在 ChatGPT 首页界面底部的对话框中输入：什么是人工智能？然后单击右侧的箭头按钮或者按 Enter 键进行提交，如图 1.12 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_015.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_015.jpg)
 
 图 1.12
 
@@ -160,23 +160,23 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 **步骤 03** 管理回答。将鼠标指针移至答案界面附近，会在答案下方出现 4 个操作按钮，依次是 Read Aloud（朗读）、Copy（复制）、Regenerate（重新生成）、Bad Response（错误回复），单击相对应的按钮，便会立刻执行这些操作，如图 1.14 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_016.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_016.jpg)
 
 ▲图 1.13
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_017.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_017.jpg)
 
 图 1.14
 
 **步骤 04** 暂停生成回答。在等待 ChatGPT 生成回答的过程中，如果想要暂停生成回答，单击对话框右侧出现的“暂停”按钮即可，如图 1.15 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_018.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_018.jpg)
 
 图 1.15
 
 **步骤 05** 上传文件。ChatGPT 4.0 版本支持上传文件，单击对话框左侧的“上传”按钮，即可向 ChatGPT 发送相应的文件（包括图片、文档等），如图 1.16 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_019.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_019.jpg)
 
 图 1.16
 
@@ -188,11 +188,11 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 单击 Archive 按钮，可以对这条对话记录进行归档，如图 1.18 所示。对于归档后的对话记录，可以在“设置”中进行查看。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_020.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_020.jpg)
 
 ▲图 1.17
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_021.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_021.jpg)
 
 图 1.18
 
@@ -202,7 +202,7 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 **步骤 07** 账号设置与管理。单击 ChatGPT 界面左下方的用户名会弹出一个列表，如图 1.19 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_022.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_022.jpg)
 
 图 1.19
 
@@ -216,7 +216,7 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 **步骤 01** 打开应用插件页面。进入 ChatGPT 首页，单击左上角的 Explore GPTs 按钮，如图 1.20 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_023.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_023.jpg)
 
 图 1.20
 
@@ -224,11 +224,11 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 在看到感兴趣的应用插件以后，单击该应用插件按钮即可，如图 1.22 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_024.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_024.jpg)
 
 ▲图 1.21
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_025.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_025.jpg)
 
 图 1.22
 
@@ -238,7 +238,7 @@ ChatGPT 是由 OpenAI 开发的大型人工智能语言模型，能够理解和�
 
 **步骤 03** 使用应用插件。在弹出的页面中单击 Start Chat 按钮，即可开始使用该应用插件，如图 1.23 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_026.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_026.jpg)
 
 图 1.23
 
@@ -386,7 +386,7 @@ ChatGPT 与 PPT 的结合为用户提供了一个从内容创意到文本撰写�
 
 # **实践篇**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_027.jpg)![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_028.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_027.jpg)![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_028.jpg)
 
 ## **第二章**
 
@@ -404,7 +404,7 @@ ChatGPT 与 PPT 的结合为用户提供了一个从内容创意到文本撰写�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_029.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_029.jpg)
 
 **2．操作步骤**
 
@@ -548,7 +548,7 @@ ChatGPT 可以根据需要汇报的主题与受众来帮助用户梳理和构建
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_030.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_030.jpg)
 
 **2．操作步骤**
 
@@ -682,7 +682,7 @@ ChatGPT 可以根据需要汇报的主题与受众来帮助用户梳理和构建
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_031.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_031.jpg)
 
 **2．操作步骤**
 
@@ -864,7 +864,7 @@ ChatGPT 可以根据需要汇报的主题与受众来帮助用户梳理和构建
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_032.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_032.jpg)
 
 **2．操作步骤**
 
@@ -1032,7 +1032,7 @@ ChatGPT 可以根据需要汇报的主题与受众来帮助用户梳理和构建
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_033.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_033.jpg)
 
 **2．操作步骤**
 
@@ -1126,7 +1126,7 @@ ChatGPT 可以根据需要汇报的主题与受众来帮助用户梳理和构建
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_034.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_034.jpg)
 
 **2．操作步骤**
 
@@ -1218,7 +1218,7 @@ ChatGPT 可以根据需要汇报的主题与受众来帮助用户梳理和构建
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_035.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_035.jpg)
 
 **2．操作步骤**
 
@@ -1358,7 +1358,7 @@ ChatGPT 可以根据需要汇报的主题与受众来帮助用户梳理和构建
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_036.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_036.jpg)
 
 **2．操作步骤**
 
@@ -1460,7 +1460,7 @@ ChatGPT 可以根据需要汇报的主题与受众来帮助用户梳理和构建
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_037.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_037.jpg)
 
 **2．操作步骤**
 
@@ -1620,7 +1620,7 @@ ChatGPT 可以作为智能助手，从文档结构、段落组织和语言风格
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_038.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_038.jpg)
 
 **2．操作步骤**
 
@@ -1744,7 +1744,7 @@ ChatGPT 可以作为智能助手，从文档结构、段落组织和语言风格
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_039.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_039.jpg)
 
 **2．操作步骤**
 
@@ -1868,7 +1868,7 @@ C．展望未来的研究方向和政策发展趋势
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_040.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_040.jpg)
 
 **2．操作步骤**
 
@@ -1924,7 +1924,7 @@ ChatGPT 在润色论文方面具有很大优势，不仅可以帮助用户检查
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_041.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_041.jpg)
 
 **2．操作步骤**
 
@@ -1992,7 +1992,7 @@ ChatGPT 在润色论文方面具有很大优势，不仅可以帮助用户检查
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_042.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_042.jpg)
 
 **2．操作步骤**
 
@@ -2158,7 +2158,7 @@ ChatGPT 能根据教师提供的具体要求和教学目标，生成定制化的
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_043.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_043.jpg)
 
 **2．操作步骤**
 
@@ -2282,7 +2282,7 @@ ChatGPT 不仅可以帮助用户对课程内容进行梳理和规划，而且可
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_044.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_044.jpg)
 
 **2．操作步骤**
 
@@ -2402,7 +2402,7 @@ She __________ to the store every morning to buy groceries.
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_045.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_045.jpg)
 
 **2．操作步骤**
 
@@ -2522,7 +2522,7 @@ She __________ to the store every morning to buy groceries.
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_046.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_046.jpg)
 
 **2．操作步骤**
 
@@ -2636,7 +2636,7 @@ Today, I stand before you not just to talk about success, but to di
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_047.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_047.jpg)
 
 **2．操作步骤**
 
@@ -2718,7 +2718,7 @@ Today, I stand before you not just to talk about success, but to di
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_048.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_048.jpg)
 
 **2．操作步骤**
 
@@ -2822,7 +2822,7 @@ Today, I stand before you not just to talk about success, but to di
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_049.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_049.jpg)
 
 **2．操作步骤**
 
@@ -2994,7 +2994,7 @@ Today, I stand before you not just to talk about success, but to di
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_050.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_050.jpg)
 
 **2．操作步骤**
 
@@ -3082,7 +3082,7 @@ ChatGPT 作为强大的智能辅助工具，可以以多种方式来帮助用户
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_051.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_051.jpg)
 
 **2．操作步骤**
 
@@ -3196,7 +3196,7 @@ ChatGPT 作为强大的智能辅助工具，可以以多种方式来帮助用户
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_052.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_052.jpg)
 
 **2．操作步骤**
 
@@ -3326,7 +3326,7 @@ ChatGPT 可以帮助用户生成节目草案、收集节目资料、编写台词
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_053.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_053.jpg)
 
 **2．操作步骤**
 
@@ -3416,7 +3416,7 @@ ChatGPT 可以根据得到的消息、资料和数据等快速生成标准化的
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_054.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_054.jpg)
 
 **2．操作步骤**
 
@@ -3518,7 +3518,7 @@ ChatGPT 可以在撰写评论文章的过程中提供多方面的帮助，包括
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_055.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_055.jpg)
 
 **2．操作步骤**
 
@@ -3614,7 +3614,7 @@ ChatGPT 可以在撰写评论文章的过程中提供多方面的帮助，包括
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_056.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_056.jpg)
 
 **2．操作步骤**
 
@@ -3764,7 +3764,7 @@ ChatGPT 可以在撰写评论文章的过程中提供多方面的帮助，包括
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_057.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_057.jpg)
 
 **2．操作步骤**
 
@@ -3862,7 +3862,7 @@ ChatGPT 可以根据用户提供的企业或项目信息快速起草商业计划
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_058.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_058.jpg)
 
 **2．操作步骤**
 
@@ -3962,7 +3962,7 @@ ChatGPT 可以根据用户提供的企业或项目信息快速起草商业计划
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_059.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_059.jpg)
 
 **2．操作步骤**
 
@@ -4090,7 +4090,7 @@ ChatGPT 可以帮助用户厘清编写产品手册的思路，用户可以向它
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_060.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_060.jpg)
 
 **2．操作步骤**
 
@@ -4258,7 +4258,7 @@ ChatGPT 可以帮助用户厘清编写产品手册的思路，用户可以向它
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_061.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_061.jpg)
 
 **2．操作步骤**
 
@@ -4346,7 +4346,7 @@ ChatGPT 可以生成大量创意，同时帮助用户对品牌的定位、受众
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_062.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_062.jpg)
 
 **2．操作步骤**
 
@@ -4442,7 +4442,7 @@ ChatGPT 可以帮助用户快速生成文案初稿，提高创作效率，同时
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_063.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_063.jpg)
 
 **2．操作步骤**
 
@@ -4556,7 +4556,7 @@ ChatGPT 可以根据内容主题，生成既新颖又具有吸引力的爆款标
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_064.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_064.jpg)
 
 **2．操作步骤**
 
@@ -4652,7 +4652,7 @@ ChatGPT 能够根据用户提供的信息按特定的结构和格式来辅助撰
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_065.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_065.jpg)
 
 **2．操作步骤**
 
@@ -4756,7 +4756,7 @@ ChatGPT 能够根据用户提供的信息按特定的结构和格式来辅助撰
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_066.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_066.jpg)
 
 **2．操作步骤**
 
@@ -4844,7 +4844,7 @@ ChatGPT 不仅能帮助用户撰写传统的文本文章，还能生成问答、
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_067.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_067.jpg)
 
 **2．操作步骤**
 
@@ -4942,7 +4942,7 @@ ChatGPT 可以帮助用户在短时间内撰写出内容丰富、结构完整的
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_068.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_068.jpg)
 
 **2．操作步骤**
 
@@ -5054,7 +5054,7 @@ ChatGPT 可以成为用户创作短视频脚本的助手，从提供创意、剧
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_069.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_069.jpg)
 
 **2．操作步骤**
 
@@ -5164,7 +5164,7 @@ ChatGPT 能够根据直播需求快速生成脚本的草案，也可以根据反
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_070.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_070.jpg)
 
 **2．操作步骤**
 
@@ -5284,7 +5284,7 @@ ChatGPT 可以成为用户规划旅行的强大工具，它能够快速提供个
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_071.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_071.jpg)
 
 **2．操作步骤**
 
@@ -5394,7 +5394,7 @@ ChatGPT 可以帮助用户根据申请的具体职位来定制简历，同时还
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_072.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_072.jpg)
 
 **2．操作步骤**
 
@@ -5492,7 +5492,7 @@ ChatGPT 可以模拟用户在面试时可能遇到的问题，帮助用户熟悉
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_073.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_073.jpg)
 
 **2．操作步骤**
 
@@ -5614,7 +5614,7 @@ ChatGPT 可以根据用户的兴趣、技能、教育背景等来帮助用户规
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_074.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_074.jpg)
 
 **2．操作步骤**
 
@@ -5720,7 +5720,7 @@ ChatGPT 可以为用户提供关于个人品牌建设的各种建议，涵盖了
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_075.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_075.jpg)
 
 **2．操作步骤**
 
@@ -5840,7 +5840,7 @@ ChatGPT 可以在预算制定、储蓄策略、投资规划、保险需求分析
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_076.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_076.jpg)
 
 **2．操作步骤**
 
@@ -5930,7 +5930,7 @@ ChatGPT 擅长迅速分析和处理大量任务信息，这为用户合理安排
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_077.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_077.jpg)
 
 **2．操作步骤**
 
@@ -6034,7 +6034,7 @@ ChatGPT 可以凭借庞大的数据支撑提供多样化的团建活动创意，
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_078.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_078.jpg)
 
 **2．操作步骤**
 
@@ -6146,7 +6146,7 @@ ChatGPT 可以凭借庞大的数据支撑提供多样化的团建活动创意，
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_079.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_079.jpg)
 
 **2．操作步骤**
 
@@ -6252,7 +6252,7 @@ ChatGPT 可以凭借庞大的数据支撑提供多样化的团建活动创意，
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_080.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_080.jpg)
 
 **2．操作步骤**
 
@@ -6358,7 +6358,7 @@ ChatGPT 可以凭借庞大的数据支撑提供多样化的团建活动创意，
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_081.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_081.jpg)
 
 **2．操作步骤**
 
@@ -6378,7 +6378,7 @@ ChatGPT 可以帮助用户迅速搭建表格的基本框架，包括行、列的
 
 **ChatGPT：**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_082.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_082.jpg)
 
 图 3.1
 
@@ -6394,7 +6394,7 @@ ChatGPT 可以帮助用户迅速搭建表格的基本框架，包括行、列的
 
 **ChatGPT：**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_083.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_083.jpg)
 
 图 3.2
 
@@ -6402,7 +6402,7 @@ ChatGPT 可以帮助用户迅速搭建表格的基本框架，包括行、列的
 
 **ChatGPT：**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_084.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_084.jpg)
 
 图 3.3
 
@@ -6412,7 +6412,7 @@ ChatGPT 可以帮助用户迅速搭建表格的基本框架，包括行、列的
 
 **步骤 04** 应用与进一步处理。在确认了表格草案之后，可以将其内容复制、粘贴到 Excel 中，利用 Excel 的一些功能继续对表格进行调整与美化，确保整个表格易于阅读且满足所有先前确定的需求和格式要求。选择生成的表格，右击，选择“复制”命令，如图 3.4 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_085.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_085.jpg)
 
 图 3.4
 
@@ -6430,7 +6430,7 @@ ChatGPT 可以帮助用户迅速搭建表格的基本框架，包括行、列的
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_086.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_086.jpg)
 
 **2．操作步骤**
 
@@ -6472,7 +6472,7 @@ ChatGPT 可以快速理解和提取文本中的关键信息，并且将散乱的
 
 **ChatGPT：**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_087.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_087.jpg)
 
 图 3.5
 
@@ -6488,7 +6488,7 @@ ChatGPT 可以快速理解和提取文本中的关键信息，并且将散乱的
 
 生成结果如图 3.6 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_088.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_088.jpg)
 
 图 3.6
 
@@ -6506,7 +6506,7 @@ ChatGPT 可以快速理解和提取文本中的关键信息，并且将散乱的
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_089.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_089.jpg)
 
 **2．操作步骤**
 
@@ -6608,7 +6608,7 @@ ChatGPT 不仅可以即时向用户提供对特定快捷操作的查询响应，
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_090.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_090.jpg)
 
 **2．操作步骤**
 
@@ -6626,7 +6626,7 @@ ChatGPT 能够根据用户提供的具体情况和需求，快速提供解决方
 
 如果你的 Excel 版本支持 MAXIFS 函数，这将是一个简单直接的方法。MAXIFS 函数可以根据一个或多个条件来计算最大值。假设销售代表的名字在 A 列，销售额在 B 列，那么你可以使用如下公式来找到特定销售代表的最高销售额，如图 3.7 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_091.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_091.jpg)
 
 图 3.7
 
@@ -6638,7 +6638,7 @@ ChatGPT 能够根据用户提供的具体情况和需求，快速提供解决方
 
 1．选中一个单元格输入以下公式，如图 3.8 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_092.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_092.jpg)
 
 图 3.8
 
@@ -6666,7 +6666,7 @@ ChatGPT 能够根据用户提供的具体情况和需求，快速提供解决方
 
 单击对话框左侧的“上传”按钮上传文件，等文件传输完成后，按 Enter 键或者单击右侧的箭头按钮发送，如图 3.9 所示。然后等待 ChatGPT 生成结果即可。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_093.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_093.jpg)
 
 图 3.9
 
@@ -6702,7 +6702,7 @@ ChatGPT 能够根据用户提供的具体情况和需求，快速提供解决方
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_094.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_094.jpg)
 
 **2．操作步骤**
 
@@ -6750,7 +6750,7 @@ VLOOKUP 函数是 Excel 中非常强大的工具，用于在表格或范围中�
 
 VLOOKUP 函数的基本语法如下，如图 3.10 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_095.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_095.jpg)
 
 图 3.10
 
@@ -6774,7 +6774,7 @@ VLOOKUP 函数的基本语法如下，如图 3.10 所示。
 
 假设我们有一个简单的员工工资表，如图 3.11 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_096.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_096.jpg)
 
 图 3.11
 
@@ -6790,7 +6790,7 @@ VLOOKUP 函数的基本语法如下，如图 3.10 所示。
 
 ● 我们要在 E2 单元格输入以下公式，如图 3.12 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_097.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_097.jpg)
 
 图 3.12
 
@@ -6820,7 +6820,7 @@ ChatGPT 中含有大量的函数公式，在需要使用某些函数公式时，
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_098.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_098.jpg)
 
 **2．操作步骤**
 
@@ -6852,7 +6852,7 @@ ChatGPT 可以根据用户描述的需求，生成相应的公式，并且可以
 
 我已了解了您的需求，您需要计算过去 12 个月销售数据的平均值。您可以使用 Excel 中的 AVERAGE 函数来实现这一功能。下面是相应的函数公式，如图 3.13 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_099.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_099.jpg)
 
 图 3.13
 
@@ -6860,7 +6860,7 @@ ChatGPT 可以根据用户描述的需求，生成相应的公式，并且可以
 
 **步骤 03** 验证和调整。用户可以将 ChatGPT 提供的建议应用到 Excel 中，并验证其是否符合自己的预期。选择上述函数公式，右击，选择“复制”命令，如图 3.14 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_100.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_100.jpg)
 
 图 3.14
 
@@ -6874,7 +6874,7 @@ ChatGPT 可以根据用户描述的需求，生成相应的公式，并且可以
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_101.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_101.jpg)
 
 **2．操作步骤**
 
@@ -6896,7 +6896,7 @@ ChatGPT 可以根据用户描述的需求，生成相应的公式，并且可以
 
 你提到的公式似乎有一个小小的格式错误。正确的 AVERAGEIF 函数格式是这样的，如图 3.15 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_102.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_102.jpg)
 
 图 3.15
 
@@ -6908,7 +6908,7 @@ ChatGPT 可以根据用户描述的需求，生成相应的公式，并且可以
 
 你的公式中似乎缺少了一个逗号分隔的 criteria 和 average_range。根据你的描述，正确的公式应该如图 3.16 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_103.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_103.jpg)
 
 图 3.16
 
@@ -6934,7 +6934,7 @@ ChatGPT 可以根据需求帮助用户解读、编写和检查函数公式，其
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_104.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_104.jpg)
 
 **2．操作步骤**
 
@@ -7024,7 +7024,7 @@ Excel 中的求和函数（SUM）是一种非常基础且常用的用来计算�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_105.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_105.jpg)
 
 **2．操作步骤**
 
@@ -7138,7 +7138,7 @@ ChatGPT 可以使用易于用户理解的语言提供指导，帮助用户学习
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_106.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_106.jpg)
 
 **2．操作步骤**
 
@@ -7246,7 +7246,7 @@ Excel 的函数公式类型有很多，其中日期和时间函数是处理和�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_107.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_107.jpg)
 
 **2．操作步骤**
 
@@ -7372,7 +7372,7 @@ NOW()函数会自动插入当前日期和时间，同样，在每次工作表重
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_108.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_108.jpg)
 
 **2．操作步骤**
 
@@ -7390,7 +7390,7 @@ ChatGPT 可以根据用户的需求提供定制化的步骤和例子，帮助用
 
 DATEDIF 函数是专门用于计算两个日期之间差异的函数。它的语法如下，如图 3.17 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_109.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_109.jpg)
 
 图 3.17
 
@@ -7404,7 +7404,7 @@ DATEDIF 函数是专门用于计算两个日期之间差异的函数。它的语
 
 **示例：**如果你想计算 2023 年 1 月 1 日到 2024 年 1 月 1 日之间的完整月数，可以使用以下公式，如图 3.18 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_110.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_110.jpg)
 
 图 3.18
 
@@ -7414,7 +7414,7 @@ DATEDIF 函数是专门用于计算两个日期之间差异的函数。它的语
 
 **示例：**要计算 2023 年 1 月 1 日和 2024 年 1 月 1 日之间的天数，可以使用以下公式，如图 3.19 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_111.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_111.jpg)
 
 图 3.19
 
@@ -7422,7 +7422,7 @@ DATEDIF 函数是专门用于计算两个日期之间差异的函数。它的语
 
 如果需要计算工作日的数量（即排除周末和指定的假日），可以使用 NETWORKDAYS 函数。它的语法如图 3.20 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_112.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_112.jpg)
 
 图 3.20
 
@@ -7432,7 +7432,7 @@ start_date 和 end_date 分别为起始日期和结束日期。
 
 **示例：**要计算 2023 年 1 月 1 日至 2024 年 1 月 1 日之间的工作日数量，并排除 2023 年 1 月 2 日这一假日，可以使用以下公式，如图 3.21 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_113.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_113.jpg)
 
 图 3.21
 
@@ -7460,7 +7460,7 @@ start_date 和 end_date 分别为起始日期和结束日期。
 
 3．在 C1 单元格中输入 DATEDIF 函数来计算两个日期之间的完整月份差异。公式如图 3.22 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_114.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_114.jpg)
 
 图 3.22
 
@@ -7476,7 +7476,7 @@ start_date 和 end_date 分别为起始日期和结束日期。
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_115.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_115.jpg)
 
 **2．操作步骤**
 
@@ -7546,7 +7546,7 @@ start_date 和 end_date 分别为起始日期和结束日期。
 
 **2．编写提取函数：**你可以直接使用 MID 函数从每个身份证号码中提取前 8 位数字来获取出生日期。如果身份证号码存储在 A2 单元格中，则可以在 B2 单元格中写入以下公式，如图 3.23 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_116.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_116.jpg)
 
 图 3.23
 
@@ -7560,7 +7560,7 @@ start_date 和 end_date 分别为起始日期和结束日期。
 
 如果需要将提取的出生日期从数字格式转换为日期格式，可以使用 DATE 函数进行处理，如图 3.24 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_117.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_117.jpg)
 
 图 3.24
 
@@ -7584,7 +7584,7 @@ LEFT(B2,4) 提取年份，MID(B2,5,2) 提取月份，RIGHT(B2,2) 提取日。
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_118.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_118.jpg)
 
 **2．操作步骤**
 
@@ -7652,7 +7652,7 @@ ChatGPT 可以根据用户的具体需求提供相关的函数使用示例和步
 
 **数据表：**如图 3.25 所示为产品销售数据表。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_119.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_119.jpg)
 
 图 3.25
 
@@ -7668,7 +7668,7 @@ ChatGPT 可以根据用户的具体需求提供相关的函数使用示例和步
 
 **Excel 专家：**首先，你需要使用 MATCH 函数来找到“铅笔”在 B 列的位置。公式如图 3.26 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_120.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_120.jpg)
 
 图 3.26
 
@@ -7678,7 +7678,7 @@ ChatGPT 可以根据用户的具体需求提供相关的函数使用示例和步
 
 **Excel 专家：**完美！现在你可以用这个位置通过 INDEX 函数从销售量列 C 中获取对应的销售量。公式如图 3.27 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_121.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_121.jpg)
 
 图 3.27
 
@@ -7702,7 +7702,7 @@ ChatGPT 可以根据用户的具体需求提供相关的函数使用示例和步
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_122.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_122.jpg)
 
 **2．操作步骤**
 
@@ -7742,7 +7742,7 @@ ChatGPT 可以根据用户的具体需求提供相关的函数使用示例和步
 
 **单击对话框左侧的“上传”按钮上传 Excel 文件，等文件传输完成后，按 Enter 键或者单击右侧的箭头按钮发送，如图 3.28 所示。然后等待 ChatGPT 生成结果即可。**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_123.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_123.jpg)
 
 图 3.28
 
@@ -7768,7 +7768,7 @@ ChatGPT 可以根据用户的具体需求提供相关的函数使用示例和步
 
 图 3.29 所示是各个区域的销售情况。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_124.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_124.jpg)
 
 图 3.29
 
@@ -7788,7 +7788,7 @@ ChatGPT 可以根据用户的具体需求提供相关的函数使用示例和步
 
 （略）
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_125.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_125.jpg)
 
 图 3.30
 
@@ -7836,7 +7836,7 @@ Excel VBA（Visual Basic for Applications）是一个强大的编程工具�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_126.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_126.jpg)
 
 **2．操作步骤**
 
@@ -7852,7 +7852,7 @@ ChatGPT 可以根据用户的具体需求提供定制化的 VBA 解决方案，�
 
 当然可以帮助你！首先，你需要有一个包含销售数据的工作表，假设销售额数据在 B 列。图 3.31 所示是一个基本的 VBA 代码示例，可以实现你的需求。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_127.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_127.jpg)
 
 图 3.31
 
@@ -7864,7 +7864,7 @@ ChatGPT 可以根据用户的具体需求提供定制化的 VBA 解决方案，�
 
 如果你只想复制特定的列（例如 A 和 B 列），可以修改复制命令来只复制这些列。图 3.32 所示是修改后的代码。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_128.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_128.jpg)
 
 图 3.32
 
@@ -7938,7 +7938,7 @@ Excel 插件是一种用于扩展和增强 Excel 功能的工具，它们可以�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_129.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_129.jpg)
 
 **2．操作步骤**
 
@@ -7946,7 +7946,7 @@ Excel 插件是一种用于扩展和增强 Excel 功能的工具，它们可以�
 
 **步骤 01** 获取加载项。先在 Excel 中打开一张空白的工作表，在“开始”工作区中单击“加载项”按钮，如图 3.33 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_130.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_130.jpg)
 
 图 3.33
 
@@ -7960,11 +7960,11 @@ Excel 插件是一种用于扩展和增强 Excel 功能的工具，它们可以�
 
 加载完成之后，可以在工作表最右侧看到这个插件的图表与面板，如图 3.35 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_131.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_131.jpg)
 
 ▲图 3.34
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_132.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_132.jpg)
 
 图 3.35
 
@@ -7978,11 +7978,11 @@ Excel 插件是一种用于扩展和增强 Excel 功能的工具，它们可以�
 
 2．在跳转页面中单击 API 按钮，如图 3.37 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_133.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_133.jpg)
 
 ▲图 3.36
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_134.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_134.jpg)
 
 图 3.37
 
@@ -7990,11 +7990,11 @@ Excel 插件是一种用于扩展和增强 Excel 功能的工具，它们可以�
 
 4．在验证页面进行电话验证及创建新的密钥即可，如图 3.39 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_135.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_135.jpg)
 
 ▲图 3.38
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_136.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_136.jpg)
 
 图 3.39
 
@@ -8012,7 +8012,7 @@ Excel 插件是一种用于扩展和增强 Excel 功能的工具，它们可以�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_137.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_137.jpg)
 
 **2．操作步骤**
 
@@ -8024,11 +8024,11 @@ Excel 插件是一种用于扩展和增强 Excel 功能的工具，它们可以�
 
 单击“上传文件”按钮，上传需要操作的表格，如图 3.41 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_138.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_138.jpg)
 
 ▲图 3.40
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_139.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_139.jpg)
 
 图 3.41
 
@@ -8040,13 +8040,13 @@ Excel 插件是一种用于扩展和增强 Excel 功能的工具，它们可以�
 
 **步骤 03** 输入指令与获取结果。表格上传完成后，在对话框中输入指令：将整个表格按支出金额由低到高的方式重新进行排序，单击右侧的箭头按钮或按下 Enter 键，如图 3.42 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_140.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_140.jpg)
 
 图 3.42
 
 生成结果如图 3.43 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_141.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_141.jpg)
 
 图 3.43
 
@@ -8056,7 +8056,7 @@ Excel 插件是一种用于扩展和增强 Excel 功能的工具，它们可以�
 
 **步骤 04** 导出表格。单击“下载文件”按钮，选择“表格 1”选项即可对生成的表格进行保存，如图 3.44 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_142.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_142.jpg)
 
 图 3.44
 
@@ -8098,7 +8098,7 @@ PPT 大纲是指制作 PPT 时所使用的概要性内容框架，用于规划�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_143.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_143.jpg)
 
 **2．操作步骤**
 
@@ -8232,7 +8232,7 @@ PPT 大纲是指制作 PPT 时所使用的概要性内容框架，用于规划�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_144.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_144.jpg)
 
 **2．操作步骤**
 
@@ -8410,7 +8410,7 @@ PPT 的视觉呈现往往对演示效果有着重要的影响，一个设计精�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_145.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_145.jpg)
 
 **2．操作步骤**
 
@@ -8546,7 +8546,7 @@ PPT 的配图在传达信息、吸引观众注意力、增强理解和记忆，�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_146.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_146.jpg)
 
 **2．操作步骤**
 
@@ -8580,7 +8580,7 @@ PPT 的配图在传达信息、吸引观众注意力、增强理解和记忆，�
 
 **ChatGPT：**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_147.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_147.jpg)
 
 图 4.1
 
@@ -8596,17 +8596,17 @@ PPT 的配图在传达信息、吸引观众注意力、增强理解和记忆，�
 
 如果想要退出该编辑页面，单击“关闭”按钮即可，如图 4.3 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_148.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_148.jpg)
 
 ▲图 4.2
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_149.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_149.jpg)
 
 图 4.3
 
 **在编辑图像时，可以在右侧的对话框中将需要进行调整的具体需求告诉 ChatGPT，例如：**“将选中的云朵进行删除并重新生成图片。”这样就可以得到一张重新生成的图像，如图 4.4 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_150.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_150.jpg)
 
 图 4.4
 
@@ -8632,7 +8632,7 @@ PPT 的配图在传达信息、吸引观众注意力、增强理解和记忆，�
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_151.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_151.jpg)
 
 **2．操作步骤**
 
@@ -8726,7 +8726,7 @@ ChatGPT 可以为用户快速提供有效的信息，包括最新的或最受欢
 
 **1．思维导图**
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_152.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_152.jpg)
 
 **2．操作步骤**
 
@@ -8780,23 +8780,23 @@ ChatGPT 可以为用户快速提供有效的信息，包括最新的或最受欢
 
 **步骤 02** 一键生成 PPT。首先利用类似 MindShow 这样的在线生成 PPT 的网站来完成演示文稿。打开 MindShow 官网，注册后进行登录，进入 MindShow 官网首页，单击“导入生成 PPT”按钮，如图 4.5 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_153.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_153.jpg)
 
 图 4.5
 
 选择“Markdown”格式，复制之前由 ChatGPT 生成的文本内容，粘贴到该页面的文本框内，然后单击“导入创建”按钮，如图 4.6 和图 4.7 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_154.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_154.jpg)
 
 ▲图 4.6
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_155.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_155.jpg)
 
 图 4.7
 
 在新弹出的页面中，既可以在左侧继续对 PPT 的文案细节进行调整，又可以在右下方的模板库内更换 PPT 的模板与布局。同时，还可以在右上方对 PPT 进行演示预览。调整完毕后，单击“下载”按钮，选择要导出的文件格式，导出文件，即可完成整个 PPT 的创作，如图 4.8 所示。
 
-![](img/AI办公助手：ChatGPT+Office智能办公从入门到实践_image_156.jpg)
+![](img/AI-办公助手：ChatGPT+Office-智能办公从入门到实践_image_156.jpg)
 
 图 4.8
 

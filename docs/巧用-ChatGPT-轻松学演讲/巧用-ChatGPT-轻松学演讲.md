@@ -997,7 +997,7 @@ ChatGPT 是一个由 OpenAI 团队开发的一种人工智能语言模型。Chat
 
 现在我们来看看 ChatGPT 自己如何回答这个问题。
 
-![](img/巧用ChatGPT轻松学演讲_image_000.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_000.jpg)
 
 用户：
 
@@ -1115,7 +1115,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 表 5.1 GPT 系列模型的发展历程
 
-![](img/巧用ChatGPT轻松学演讲_image_001.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_001.jpg)
 
 ### **5.1.4**
 
@@ -1161,7 +1161,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 表 5.2 语言模型的发展里程碑
 
-![](img/巧用ChatGPT轻松学演讲_image_002.jpg)![](img/巧用ChatGPT轻松学演讲_image_003.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_002.jpg)![](img/巧用-ChatGPT-轻松学演讲_image_003.jpg)
 
 ### **5.1.5**
 
@@ -1233,7 +1233,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 在浏览器中输入 https：//chat.openai.com，然后按下回车键。页面载入后，你会看到一个注册和登录界面。左侧的“Log in”按钮是登录，右侧的“Sign up”按钮是注册，我们单击“Sign up”按钮，如图 5.1 所示。
 
-![](img/巧用ChatGPT轻松学演讲_image_004.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_004.jpg)
 
 图 5.1 注册界面
 
@@ -1245,11 +1245,11 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 此时，需要输入你为登录 ChatGPT 设置的密码。请注意，此密码可以与你的邮箱密码不同，但一定要牢记，并在输入完成后，单击“Continue”按钮继续注册，如图 5.3 所示。
 
-![](img/巧用ChatGPT轻松学演讲_image_005.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_005.jpg)
 
 ▲图 5.2 输入邮箱界面
 
-![](img/巧用ChatGPT轻松学演讲_image_006.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_006.jpg)
 
 图 5.3 输入密码界面
 
@@ -1257,7 +1257,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 如果你看到此界面，则意味着 ChatGPT 官方已向你的邮箱发送了一封验证邮件。为了完成注册，你需要前往你的邮箱，并进行确认操作，如果邮箱内没有收到确认邮件，可以单击界面下方的“Resend email”按钮，重新发送电子邮件，如图 5.4 所示。
 
-![](img/巧用ChatGPT轻松学演讲_image_007.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_007.jpg)
 
 图 5.4 邮件验证界面
 
@@ -1269,11 +1269,11 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 现在，你需要通过国外的手机号码来接收验证码以完成验证。在接下来的步骤中，我们会介绍如何获取用来接收平台验证码的手机号码。此时，请不要关闭当前页面，新建页面来注册接码平台账号，稍后将重返此界面，如图 5.6 所示。
 
-![](img/巧用ChatGPT轻松学演讲_image_008.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_008.jpg)
 
 ▲图 5.5 输入基本信息界面
 
-![](img/巧用ChatGPT轻松学演讲_image_009.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_009.jpg)
 
 图 5.6 验证手机号码界面
 
@@ -1287,7 +1287,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 首先请在另一个页面中打开网站 https：//sms-activate.org/，然后单击该网站右上角的“注册”按钮，并使用你的邮箱进行注册，如图 5.7 所示。此网站对注册邮箱并无限制。如果你未能成功收到验证邮件，请尝试多次发送验证邮件，或者检查你的垃圾邮件箱。
 
-![](img/巧用ChatGPT轻松学演讲_image_010.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_010.jpg)
 
 图 5.7 接码平台注册界面
 
@@ -1295,7 +1295,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 请单击页面右上角的“充值”按钮，使用支付宝完成支付，如图 5.8 所示。目前最低付款金额为 2 美元。在前期，你只需要支付 2 美元即可。请注意，货币单位为美元。
 
-![](img/巧用ChatGPT轻松学演讲_image_011.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_011.jpg)
 
 图 5.8 充值入口界面
 
@@ -1303,7 +1303,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 充值完成后，请在左侧输入框中输入“openai”，并选择最适合你的接收验证码的号码，如图 5.9 所示。我们推荐使用印度尼西亚的手机号，以获取最佳性价比。
 
-![](img/巧用ChatGPT轻松学演讲_image_012.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_012.jpg)
 
 图 5.9 购买手机号界面
 
@@ -1311,7 +1311,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 购买成功后，系统将为你分配一个手机号码，以接收临时验证码，如图 5.10 所示。请注意，该验证码仅在 20 分钟内有效。如果你未能成功接收，请随时取消订单，系统会将费用退还至你的账户。同时，如果你希望尝试其他国家的手机号，请随时选择并重复上述操作。
 
-![](img/巧用ChatGPT轻松学演讲_image_013.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_013.jpg)
 
 图 5.10 临时手机号界面
 
@@ -1325,7 +1325,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 现在，我们保留接码平台的页面，并返回刚才注册 ChatGPT 时填写手机号的界面，在输入框中填入刚刚在接码平台获得的手机号码，然后单击“Send code”按钮获取验证码，如图 5.11 所示。
 
-![](img/巧用ChatGPT轻松学演讲_image_014.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_014.jpg)
 
 图 5.11 输入手机号界面
 
@@ -1333,7 +1333,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 接下来的验证码将会发送到你刚才使用的接码平台，请注意查收。找到验证码后，请复制它，如图 5.12 所示。
 
-![](img/巧用ChatGPT轻松学演讲_image_015.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_015.jpg)
 
 图 5.12 接收验证码界面
 
@@ -1341,7 +1341,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 最后，将验证码填入 ChatGPT 上的输入框（图 5.13）中，就完成了整个注册过程。系统将自动验证验证码和跳转界面。
 
-![](img/巧用ChatGPT轻松学演讲_image_016.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_016.jpg)
 
 图 5.13 输入验证码界面
 
@@ -1351,7 +1351,7 @@ GPT 模型的基本工作原理主要包括以下几个步骤。
 
 注册成功后，你会看到 ChatGPT 的主界面，如图 5.14 所示。在这个界面中，你可以看到一个输入框、一个输出界面，以及一些设置选项。
 
-![](img/巧用ChatGPT轻松学演讲_image_017.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_017.jpg)
 
 图 5.14 ChatGPT 主界面
 
@@ -1373,7 +1373,7 @@ ChatGPT 的主界面还提供了一些设置选项，可以让你进行个性化
 
 现在，让我们来尝试你的第一个交互。在输入框中，输入一个简单的问题，比如“你好，你是谁？”，按下回车键。几秒钟后，你就可以在输出框中看到 ChatGPT 的回答了，如图 5.15 所示。
 
-![](img/巧用ChatGPT轻松学演讲_image_018.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_018.jpg)
 
 图 5.15 输出界面
 
@@ -1513,7 +1513,7 @@ ChatGPT 不仅是你的智能对话助手，更是你在演讲舞台上的得力
 
 让我们通过一个示例来看看，如果不使用分隔符，可能导致指令执行出错的情况。在这个例子中，我们的指令是冒号前面的部分，也就是让 ChatGPT“概括以下内容”，而冒号后的部分是需要 ChatGPT 处理的具体内容。但因为没有使用分隔符明确区分指令和需要处理的内容，导致 ChatGPT 错误地执行了我们的指令，造成了“提示注入”的问题。
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1525,7 +1525,7 @@ ChatGPT 不仅是你的智能对话助手，更是你在演讲舞台上的得力
 
 然而，如果我们在相同的示例中加入分隔符，例如三个等号，ChatGPT 将明确知道哪部分是我们的指令，哪部分是需要处理的内容，从而成功执行我们的命令。
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1547,7 +1547,7 @@ ChatGPT 不仅是你的智能对话助手，更是你在演讲舞台上的得力
 
 为了更便捷地获取特定的输出形式，你可以要求 ChatGPT 以 HTML、JSON、Markdown 或表格等结构化格式展示结果。例如，假设我们要求 ChatGPT 生成三本虚构图书的详细信息，包括书名、作者和类型，并要求其以表格格式呈现。结果是，我们得到了三本规整的虚构图书信息，它们以表格的方式被结构化地展示出来。这样的输出形式的优势在于，我们可以直接将其整合进 PowerPoint 演示文稿中。
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1557,7 +1557,7 @@ ChatGPT 不仅是你的智能对话助手，更是你在演讲舞台上的得力
 
 当然可以！以下是三本虚构演讲类图书的详细信息，按照书名、作者和类型的顺序排列。
 
-![](img/巧用ChatGPT轻松学演讲_image_020.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_020.jpg)
 
 **3.技巧三：检查条件是否满足**
 
@@ -1565,7 +1565,7 @@ ChatGPT 不仅是你的智能对话助手，更是你在演讲舞台上的得力
 
 在以下示例中，我们提供了一个描述演讲稿写作步骤的文本段落，并用一个提示让 ChatGPT 从中提取具体步骤。如果 ChatGPT 在文本中找到了步骤化的指令，就以特定的形式返回输出；如果没有找到步骤化的指令，则让它返回“未发现”。从 ChatGPT 的回应中，我们可以看到它成功找到了文本中的步骤化指令，并按步骤返回了输出。
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1615,7 +1615,7 @@ ChatGPT 不仅是你的智能对话助手，更是你在演讲舞台上的得力
 
 在接下来的例子里，我们提供了一段并未明确包含步骤的演讲稿文本，然后对 ChatGPT 施加了同样的指令。在这种情况下，ChatGPT 的回应是“未发现”。
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1651,7 +1651,7 @@ ChatGPT 不仅是你的智能对话助手，更是你在演讲舞台上的得力
 
 在以下这个实例中，我们提供了一个对话作为参考样本。在这个对话中，问题是“你会为失败而遗憾吗？”并附带了回答：“我认为自己不会为尝试后的失败而遗憾，反而那些想做却从未付诸行动的事情会一直困扰着我。”因为我们已经指示 ChatGPT 要以一致的风格回答问题，所以当我们提出下一个问题“你会为放弃而后悔吗？”时，由于 ChatGPT 已有参考样本，它会以类似的方式回答这个问题，如“我认为自己不会为放弃而后悔，因为放弃也是一种选择，有时放弃可以让我们更专注于更有价值的事情。只要我认真思考并采取了适当的行动，我就能接受这个决定，并从中学习。”
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1683,7 +1683,7 @@ ChatGPT 不仅是你的智能对话助手，更是你在演讲舞台上的得力
 
 首先，我们来看一个复杂任务，开始只在指令中明确了目的却没有明确步骤。我们的目的是想让 ChatGPT 处理这段英文“The most precious thing in this world is the human brain.The most valuable asset we have is that we’ve all gone through tough days and tough experiences, and a lot of failures and mistakes.It is because of our tough lives that we are different”，以表格形式输出一句话的中文总结和中文关键词。从结果中我们可以看出，虽然 ChatGPT 给出了答案，但质量并不高。
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1697,13 +1697,13 @@ The most precious thing in this world is the human brain.The most va
 
 **ChatGPT：**
 
-![](img/巧用ChatGPT轻松学演讲_image_021.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_021.jpg)
 
 接下来，我们给出完成该复杂任务的一系列步骤，来展示这一技巧的效果。
 
 首先我们给出了英文文本，并给出一个指令，该指令执行以下操作。第一，用一句英文总结上方三个等号里面的文本。第二，将总结的文本翻译成中文。第三，在中文文本中提炼关键词。第四，以表格形式输出一句话的中文总结和中文关键词。
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1731,7 +1731,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 关键词：人类大脑、珍贵、宝贵、资产、艰难经历、失败、与众不同
 
-![](img/巧用ChatGPT轻松学演讲_image_022.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_022.jpg)
 
 **2.技巧二：让模型先自我梳理再提供结论**
 
@@ -1739,7 +1739,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 在具体操作中，我们可以让 ChatGPT 评估一个学生的解答是否正确。首先我们拿到一道数学题，然后是学生的解答。
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1793,7 +1793,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 在完成你自己的解答之前，不要决定学生的解答是否正确。务必确保你自己已经解决了这个问题。
 
-![](img/巧用ChatGPT轻松学演讲_image_019.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_019.jpg)
 
 用户：
 
@@ -1893,7 +1893,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 以下是一个没有设定角色的对话示例与设定角色为演讲教练的对话示例的对比。在未设定角色的情况下，你可能会提出一个开放性问题，如“告诉我关于上台前紧张的信息”。ChatGPT 的回答可能包罗万象，但可能不够具体或不够有针对性。
 
-![](img/巧用ChatGPT轻松学演讲_image_023.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_023.jpg)
 
 用户：
 
@@ -1919,7 +1919,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 然而，当我们设定 ChatGPT 的角色为“演讲教练”并提出同样的问题时，它的回答会更加专业，更加具有针对性。
 
-![](img/巧用ChatGPT轻松学演讲_image_023.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_023.jpg)
 
 用户：
 
@@ -1963,7 +1963,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 这个例子中的上下文信息包括了你是一个初级演讲者、你即将参加选拔比赛、你担心自己的表现可能会让支持你的人失望等。有了这些上下文信息，ChatGPT 可以根据这些具体的语境给出比之前更具体、更有针对性的回答。
 
-![](img/巧用ChatGPT轻松学演讲_image_023.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_023.jpg)
 
 用户：
 
@@ -2063,7 +2063,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 表 6.1 ChatGPT 提示词结构框架
 
-![](img/巧用ChatGPT轻松学演讲_image_024.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_024.jpg)
 
 这是一个常见的提示词结构框架，理解这个框架将有助于你更高效地与 ChatGPT 进行交互。然而，这只是一个起点，随着你与 ChatGPT 的交互深入，你可以创造更具创新性的提示词结构来满足你的特殊需求。
 
@@ -2117,7 +2117,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 ③使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_025.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_025.jpg)
 
 用户：
 
@@ -2193,7 +2193,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 ③使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_025.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_025.jpg)
 
 用户：
 
@@ -2297,7 +2297,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 ③使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_025.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_025.jpg)
 
 用户：
 
@@ -2451,7 +2451,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 ●分段提供问卷数据作为上下文资料，如图 7.1 所示。
 
-![](img/巧用ChatGPT轻松学演讲_image_026.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_026.jpg)
 
 图 7.1 分段输入
 
@@ -2465,7 +2465,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 ③使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_025.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_025.jpg)
 
 用户：
 
@@ -2475,7 +2475,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 我已确认收到你的信息。这是一个包含十个人对于食品安全的观点和期望的列表。如果你有任何关于食品安全的具体问题或需要进一步讨论某个观点，请告诉我。
 
-![](img/巧用ChatGPT轻松学演讲_image_025.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_025.jpg)
 
 用户：
 
@@ -2485,7 +2485,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 我已确认收到你补充的信息。这是另外十个人对于食品安全的观点和期望的列表。如果你有关于这些观点的具体问题或需要进一步讨论某个观点，请告诉我。
 
-![](img/巧用ChatGPT轻松学演讲_image_025.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_025.jpg)
 
 用户：
 
@@ -2601,7 +2601,7 @@ The human brain is the most precious and valuable asset shaped by to
 
 （3）使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_025.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_025.jpg)
 
 用户：
 
@@ -2703,7 +2703,7 @@ ChatGPT 在理解了上下文信息后，提出了 5 个主题：“保障食品
 
 ③使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -2803,7 +2803,7 @@ ChatGPT 为食品科学家提供了详细的背景信息和观点。这些内容
 
 ③使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -2901,7 +2901,7 @@ ChatGPT 为食品科学家提供了详细的背景信息和观点。这些内容
 
 （3）使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3085,7 +3085,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 ●开场白部分。
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3121,7 +3121,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 ●主体部分 1。
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3157,7 +3157,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 ●主体部分 2。
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3195,7 +3195,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 ●主体部分 3。
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3231,7 +3231,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 ●结尾部分。
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3369,7 +3369,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 ③使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3379,7 +3379,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 收到
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3389,7 +3389,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 收到
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3399,7 +3399,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 收到
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3409,7 +3409,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 收到
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3419,7 +3419,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 收到
 
-![](img/巧用ChatGPT轻松学演讲_image_027.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_027.jpg)
 
 用户：
 
@@ -3553,7 +3553,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 ①开场白部分。
 
-![](img/巧用ChatGPT轻松学演讲_image_028.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_028.jpg)
 
 用户：
 
@@ -3565,7 +3565,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 ②主体部分。
 
-![](img/巧用ChatGPT轻松学演讲_image_028.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_028.jpg)
 
 用户：
 
@@ -3693,7 +3693,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 （3）使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_028.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_028.jpg)
 
 用户：
 
@@ -3703,7 +3703,7 @@ ChatGPT 将会根据你的主题和观点，以及你的初步演讲大纲，来
 
 收到。
 
-![](img/巧用ChatGPT轻松学演讲_image_028.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_028.jpg)
 
 用户：
 
@@ -3831,7 +3831,7 @@ ChatGPT 不仅可以帮助你撰写演讲稿，还可以在你准备演讲的过
 
 （3）使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_029.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_029.jpg)
 
 用户：
 
@@ -3961,7 +3961,7 @@ ChatGPT 可能会给出在某些地方应该停顿的建议，但在实际演讲
 
 （3）使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_030.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_030.jpg)
 
 用户：
 
@@ -4111,7 +4111,7 @@ ChatGPT 可能会给出在某些地方应该停顿的建议，但在实际演讲
 
 （3）使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_031.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_031.jpg)
 
 用户：
 
@@ -4207,7 +4207,7 @@ ChatGPT 可能会给出在某些地方应该停顿的建议，但在实际演讲
 
 （3）使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_031.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_031.jpg)
 
 用户：
 
@@ -4317,7 +4317,7 @@ ChatGPT 根据食品科学家的需求，提供了一些可能被问到的问题
 
 （3）使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_032.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_032.jpg)
 
 用户：
 
@@ -4405,7 +4405,7 @@ ChatGPT 根据食品科学家的需求，提供了一些可能被问到的问题
 
 （3）使用提示词与 ChatGPT 的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_032.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_032.jpg)
 
 用户：
 
@@ -4655,7 +4655,7 @@ MiniMax 开发，专为数据增强和压缩设计，能生成丰富的数据并
 
 （2）使用提示词与讯飞星火认知大模型的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_033.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_033.jpg)
 
 用户：
 
@@ -4771,7 +4771,7 @@ MiniMax 开发，专为数据增强和压缩设计，能生成丰富的数据并
 
 （2）使用提示词与讯飞星火认知大模型的对话。
 
-![](img/巧用ChatGPT轻松学演讲_image_033.jpg)
+![](img/巧用-ChatGPT-轻松学演讲_image_033.jpg)
 
 用户：
 
