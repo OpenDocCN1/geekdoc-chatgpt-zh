@@ -1,0 +1,334 @@
+
+
+因此，由含源线性单口网络传递给可变负载`RL`的功率最大的条件是：负载`RL`应与戴维南（或诺顿）等效电阻相等，此即最大功率传输定理。
+
+![](images/txt002_118.jpg "pagenumber_ebook=35,pagenumber_book=23")
+
+图1-43　连接外电路负载为`RL`的线性网络
+
+![](images/txt002_119.jpg "pagenumber_ebook=35,pagenumber_book=23")
+
+图1-44　负载`RL`的功率曲线
+
+注意：最大功率传输定理是在`RL`可变的情况下得出的。如果`RS`可变而`RL`固定，则应使`RS`尽量减小，才能使`RL`获得的功率增大。当`RS`=0时，`RL`获得最大功率。
+
+## 例1-15
+在图1 - 45（a）所示电路中，负载电阻可以任意改变，`RL`等于多大时可获得最大功率？求出该最大功率`Pmax`。
+
+![](images/txt002_120.jpg "pagenumber_ebook=36,pagenumber_book=24")
+
+图1-45　例1-15图（1）
+
+### 解
+求开路电压`uOC`。首先将`RL`断开，并设`uOC`如图1 - 45（b）所示。由电阻串联分压关系及两点间电压的基本概念，易求得：
+
+![](images/txt002_121.jpg "pagenumber_ebook=36,pagenumber_book=24")
+
+求等效内阻`RS`。将图1 - 45（b）变为图1 - 46（a），由电阻串并联等效，得：
+
+![](images/txt002_122.jpg "pagenumber_ebook=36,pagenumber_book=24")
+
+![](images/txt002_123.jpg "pagenumber_ebook=36,pagenumber_book=24")
+
+图1-46　例1-15图（2）
+
+由最大功率传输定理可知，当`RL = RS = 20Ω`时，可获得最大功率。此时
+
+![](images/txt002_124.jpg "pagenumber_ebook=36,pagenumber_book=24")
+
+需要注意，求等效电路时应先将负载开路，再应用戴维南定理（或诺顿定理）将电路简化，此时负载和等效电阻相等时得到最大功率传输。
+
+# 1.5.5 受控源及含受控源电路的分析
+受控源是一种电路模型，是实际存在的电子器件，如晶体管、运算放大器及变压器等，它们均具有输入端的电压（电流）能控制输出端的电压或电流的特点。
+
+受控源是一种双口元件，它含有两条支路，一条为控制支路，这条支路或为开路或为短路，另一条为受控支路，这条支路或用一个受控“电压源”表明其电压受控制的性质或用一个受控“电流源”表明其电流受控制的性质。这两种电源并非严格意义上的电源，只是一种借用。电源代表外界对电路施加的影响或约束，如信号源，而受控源只是表明电路内部电子器件中所发生的物理现象的一种模型，它只是表明电压、电流“转移”关系的一种方式而已。当受控源从电路中取出之后，将失去受控源的含义。
+
+受控源用菱形符号表示。根据控制支路是开路还是短路和受控支路是电压源还是电流源，受控源可分为4种，如图1 - 47所示。
+
+![](images/txt002_125.jpg "pagenumber_ebook=37,pagenumber_book=25")
+
+图1-47　4种受控源
+
+（a）电压控制电压源；（b）电压控制电流源；（c）电流控制电压源；（d）电流控制电流源
+
+当图1 - 47中的`μ`、`g`、`γ`、`α`是常数时，受控源是线性元件，其电压、电流关系以代数方程的形式出现，所以电阻电路分析，包括线性受控源分析。
+
+## 例1-16
+求出图1 - 48所示电路的等效电路。
+
+![](images/txt002_126.jpg "pagenumber_ebook=37,pagenumber_book=25")
+
+图1-48　例1-16图（1）
+
+### 解
+根据独立源等效转换规则，将受控源及其他支路等效为图1 - 49（a）所示电路，再进一步等效为图1 - 49（b）所示电路。
+
+![](images/txt002_127.jpg "pagenumber_ebook=37,pagenumber_book=25")
+
+图1-49　例1-16图（2）
+
+由图1 - 49（b）可写出伏安关系式
+
+![](images/txt002_128.jpg "pagenumber_ebook=38,pagenumber_book=26")
+
+即
+
+![](images/txt002_129.jpg "pagenumber_ebook=38,pagenumber_book=26")
+
+画出等效电路，如图1 - 50所示。
+
+![](images/txt002_130.jpg "pagenumber_ebook=38,pagenumber_book=26")
+
+图1-50　例1-16图（3）
+
+受控源的电压源模型与电流源模型可以像独立源一样互相转换，分析含受控源的电路时，可先按独立电源处理，最后设法把控制量求出，则问题得解。因此在进行电路等效变换时，注意保留受控源的控制量。
+
+# 第2章 正弦交流稳态电路
+本章主要介绍正弦交流稳态电路的分析方法。内容包括正弦信号及其相量表示，正弦交流电路中电阻、电感、电容元件的伏安特性及其相量形式，阻抗与导纳，正弦交流稳态电路分析的一般方法。
+
+前面研究的电路都是在直流电源作用下的稳态电路，其特点是激励和响应都是常数。本章介绍在单一频率正弦交流激励下的线性电路，电路的激励和响应的大小以及方向都随着时间的变化而变化。正弦交流稳态电路的分析由于涉及三角函数的运算而显得相对复杂，但在采用复数代替正弦量进行运算之后，正弦交流稳态电路的分析变得和直流稳态电路的分析一样简单。
+
+## 2.1 正弦信号
+
+### 2.1.1 正弦信号
+1. 周期信号
+
+在介绍正弦信号之前，先介绍周期信号。周期信号是指瞬时幅值随时间重复变化的信号。常见的周期信号有脉冲信号、正弦信号等，如图2 - 1所示。
+
+![](images/txt003_1.jpg "pagenumber_ebook=39,pagenumber_book=27")
+
+图2-1　常见的周期信号
+
+周期信号涉及3个参数，分别是周期、频率及平均值。
+
+（1） 周期：重复一次所需的时间，用`T`表示，单位为秒（s）。
+
+（2） 频率：单位时间内重复的次数，用`f`表示，单位为赫兹（Hz）。周期与频率互为倒数，即
+
+![](images/txt003_2.jpg "pagenumber_ebook=39,pagenumber_book=27")
+
+图2 - 1（b）中，参数为角频率，用`ω`表示代表相位角随时间的变化率，单位为弧度/秒（rad/s），角频率`ω`与频率`f`之间的关系为
+
+![](images/txt003_3.jpg "pagenumber_ebook=40,pagenumber_book=28")
+
+（3） 平均值：信号的平均值等于一个周期的平均值，其计算方法为
+
+![](images/txt003_4.jpg "pagenumber_ebook=40,pagenumber_book=28")
+
+2. 正弦信号及其3个特征量
+
+随时间呈正弦或余弦规律变化的电流或电压，统称为正弦信号。如前所述，正弦信号是周期信号，可用瞬时表达式或波形图来描述。正弦电压`u(t)`的瞬时表达式为
+
+![](images/txt003_5.jpg "pagenumber_ebook=40,pagenumber_book=28")
+
+正弦电流`i(t)`的瞬时表达式为
+
+![](images/txt003_6.jpg "pagenumber_ebook=40,pagenumber_book=28")
+
+以正弦电压为例，`Um`为正弦信号的最大值，又称振幅或者幅值；`ωt+φu`为正弦电压的相位角，`ω`为角频率，`uφ`是`t=0`时相位角的大小，简称初相角或初相位，单位是度或是弧度。幅值、角频率和初相位合称为正弦信号的3个特征量。正弦信号对应于周期信号的3个参数可用3个特征量求得。
+
+例2 - 1 画出`u(t)=10cos(103t +15°)V`的波形，并指出其振幅、角频率、频率和初相角。
+
+解 `Um =10 V`，`ω=103 rad/s` ，`φu=15°`，![](images/txt003_7.jpg "pagenumber_ebook=40,pagenumber_book=28")。其波形如图2 - 2所示。
+
+### 2.1.2 同频率正弦交流电的相位差
+对于式（2 - 4）及式（2 - 5）所表示的电压和电流的表达式，两者的相位差为
+
+![](images/txt003_8.jpg "pagenumber_ebook=40,pagenumber_book=28")
+
+图2-2　例2-1图
+
+![](images/txt003_9.jpg "pagenumber_ebook=40,pagenumber_book=28")
+
+![](images/txt003_10.jpg "pagenumber_ebook=40,pagenumber_book=28")
+
+图2-3　3种特殊的相位关系
+
+（a）同相；（b）反相；（c）正交
+
+![](images/txt003_11.jpg "pagenumber_ebook=41,pagenumber_book=29")
+
+例2 - 2 求出图2 - 4中两同频正弦量的相位超前和落后关系。
+
+![](images/txt003_12.jpg "pagenumber_ebook=41,pagenumber_book=29")
+
+图2-4　例2-2图
+
+解 图2 - 4中，电压、电流频率相同，但初相角不同，
+
+![](images/txt003_13.jpg "pagenumber_ebook=41,pagenumber_book=29")
+
+则两正弦量的相位差为
+
+![](images/txt003_14.jpg "pagenumber_ebook=41,pagenumber_book=29")
+
+因此，`φ＜0`，电压落后于电流75°。
+
+### 2.1.3 正弦信号的有效值
+正弦电流、电压的瞬时值是随时间变化的，但在电工技术中，往往并不需要知道它们在每一瞬间的大小，在这种情况下，就需要为它规定一个表征大小的特定值，这就是有效值。交流电的有效值的定义是：将交流电流`i(t)`和直流电流`I`分别加到两个阻值相同的电阻上，如果两个电阻在相同时间内消耗的能量一样，则把直流电流`I`的大小定义为交流电流`i(t)`的有效值。
+
+设正弦电流`i(t)=Im cos ω t`，其有效值`I`与振幅的关系为
+
+![](images/txt003_15.jpg "pagenumber_ebook=41,pagenumber_book=29")
+
+## 2.2 正弦信号的相量表示
+
+### 2.2.1 电路中的正弦信号
+在一个电阻为`R`的支路上施加一个正弦电压`u(t)=Um cos(ωt+φu)`，如图2 - 5所示。在电阻中产生的电流为
+
+![](images/txt003_16.jpg "pagenumber_ebook=41,pagenumber_book=29")
+
+![](images/txt003_17.jpg "pagenumber_ebook=42,pagenumber_book=30")
+
+即电流仍是角频率`ω`的正弦量，改变的只是振幅和初相角，在电感支路上也一样。因为对一个正弦量进行微分、积分、相加，乘以或除以常数都不会改变其角频率，改变的只有振幅和初相角。
+
+![](images/txt003_18.jpg "pagenumber_ebook=42,pagenumber_book=30")
+
+图2-5　电阻支路
+
+![](images/txt003_19.jpg "pagenumber_ebook=42,pagenumber_book=30")
+
+图2-6　电容支路
+
+### 2.2.2 相量法
+相量是代表同一频率正弦量的复数，引入相量之后，可以把正弦交流电路中三角函数之间的运算转变成复数之间的运算，从而降低正弦交流电路分析的难度。在介绍相量之前，首先复习一下有关复数的基本知识。
+
+1. 复数
+1） 复数的4种表示方法
+
+复数的表示方法有很多种，各种形式之间可以互相转换。
+
+（1） 代数形式。
+
+复数的代数形式为
+
+![](images/txt003_20.jpg "pagenumber_ebook=42,pagenumber_book=30")
+
+其中，`a`、`b`均为实数。`a`称为复数的实部；`b`称为复数的虚部；`j`称为虚数符号，`2j=-1`。
+
+（2） 复平面中的向量表示。
+
+![](images/txt003_21.jpg "pagenumber_ebook=42,pagenumber_book=30")
+
+![](images/txt003_22.jpg "pagenumber_ebook=42,pagenumber_book=30")
+
+图2-7　复数的复平面表示
+
+![](images/txt003_23.jpg "pagenumber_ebook=43,pagenumber_book=31")
+
+（4） 复指数形式。
+
+根据欧拉公式
+
+![](images/txt003_24.jpg "pagenumber_ebook=43,pagenumber_book=31")
+
+复数可以用复指数形式表示为
+
+![](images/txt003_25.jpg "pagenumber_ebook=43,pagenumber_book=31")
+
+在电路分析中为了方便起见，常把这种复指数形式的复数写成极坐标形式：
+
+![](images/txt003_26.jpg "pagenumber_ebook=43,pagenumber_book=31")
+
+2） 复数的运算
+
+（1） 复数的加减法。
+
+复数的加减法可以以复数的代数形式进行。
+
+![](images/txt003_27.jpg "pagenumber_ebook=43,pagenumber_book=31")
+
+即两个复数相加减，等于它们的实部相加减，虚部相加减。
+
+复数的加减法还可以在复平面内用矢量的加减法进行计算，即三角形法则，相关知识在初高中已经介绍过，这里不再详述。
+
+（2） 复数的乘除法。
+
+复数的乘除法以复数的复指数形式或极坐标形式进行较为方便。
+
+① 复指数形式：
+
+![](images/txt003_28.jpg "pagenumber_ebook=43,pagenumber_book=31")
+
+② 极坐标形式：
+
+![](images/txt003_29.jpg "pagenumber_ebook=43,pagenumber_book=31")
+
+可见，两个复数相乘是模相乘，辐角相加；两个复数相除是模相除，辐角相减。
+
+复数乘法也可以用代数形式直接计算，其满足乘法的分配律，即
+
+![](images/txt003_30.jpg "pagenumber_ebook=43,pagenumber_book=31")
+
+![](images/txt003_31.jpg "pagenumber_ebook=44,pagenumber_book=32")
+
+（4） 复数的相等。
+
+两个复数相等即实部相等同时虚部相等，或者模相等同时辐角相等。
+
+2. 正弦信号的相量表示
+
+![](images/txt003_32.jpg "pagenumber_ebook=44,pagenumber_book=32")
+
+其中`Um`为幅度，`φ`为幅角。
+
+由以上可以推断，正弦量与相量之间有对应关系，见表2 - 1。
+
+表2-1　正弦量与相量之间的对应关系
+
+![](images/txt003_33.jpg "pagenumber_ebook=44,pagenumber_book=32")
+
+总的来说就是，相量与正弦量之间是对应关系，没有相等的关系，但可用相量代替正弦量去参加运算，这会使运算量大大减小。正弦量的振幅、初相角和有效值分别对应振幅相量的幅值、幅角、有效值的幅值。
+
+相量在数学上的运算规律就是复数的运算规律。关于正弦量与相量的关系有一个重要的结论，这就是多个正弦量和的相量等于这些正弦量相量的和。
+
+![](images/txt003_34.jpg "pagenumber_ebook=44,pagenumber_book=32")
+
+则其有效值相量为
+
+![](images/txt003_35.jpg "pagenumber_ebook=45,pagenumber_book=33")
+
+根据`i=2cos(1 000t -50°)`，得其振幅相量为
+
+![](images/txt003_36.jpg "pagenumber_ebook=45,pagenumber_book=33")
+
+其有效值相量为
+
+![](images/txt003_37.jpg "pagenumber_ebook=45,pagenumber_book=33")
+
+相位差为
+
+![](images/txt003_38.jpg "pagenumber_ebook=45,pagenumber_book=33")
+
+即电压超前，电流落后于电压30°。
+
+![](images/txt003_39.jpg "pagenumber_ebook=45,pagenumber_book=33")
+
+3. 相量图
+
+![](images/txt003_40.jpg "pagenumber_ebook=45,pagenumber_book=33")
+
+![](images/txt003_41.jpg "pagenumber_ebook=45,pagenumber_book=33")
+
+图2-8　电压和电流的相量图表示
+
+## 2.3 动态元件
+在正弦交流稳态电路中，除了电阻、电源元件之外，还将遇到储存磁场能的电感以及储存电场能的电容元件，因此在介绍正弦交流稳态电路分析方法之前必须了解它们的特性。
+
+### 2.3.1 电容元件
+电容元件是实际电容器的理想化模型，其符号如图2 - 9所示。
+
+电容元件是存储电场能的器件，存储的电量与电压的关系特性称为电容的伏库特性。对于线性电容元件，电容中存储的电量与电压成正比例关系，用公式可表示为
+
+![](images/txt003_42.jpg "pagenumber_ebook=45,pagenumber_book=33")
+
+![](images/txt003_43.jpg "pagenumber_ebook=45,pagenumber_book=33")
+
+图2-9　电容元件的符号
+
+其中比例系数`C`称为电容量，电容量的单位是法拉（F）。常用电容器的电容量约为几皮法至几千微法。
+
+根据电流强度的定义
+
+![](images/txt003_44.jpg "pagenumber_ebook=46,pagenumber_book=34")
+
