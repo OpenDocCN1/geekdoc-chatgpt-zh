@@ -1,0 +1,338 @@
+
+
+# 操作步骤
+
+在此秘籍中，我们将读取有毒评论数据集，该数据集存储为一组`.csv`文件：
+
+1. 我们将从导入开始：
+
+```
+>>from torchtext.data import TabularDataset
+```
+
+2. 我们将选择训练列：
+
+```
+>>train_datafields = [("id", None),
+                 ("content", Review), ("Business", Label),
+                 ("SciTech", Label), ("Sports", Label),
+                 ("World", Label)]
+```
+
+3. 然后，我们将选择测试列：
+
+```
+>>test_datafields = [("id", None),
+                  ("content", Review)]
+```
+
+4. 然后，我们将阅读训练和验证`.csv`文件：
+
+```
+>>train, valid = TabularDataset.splits(path='NewsClassification', 
+                                    train='train.csv',
+                                    valid='valid.csv',
+                                    format='csv',
+                                    skip_header=True,
+                                    fields=train_datafields)
+```
+
+5. 接下来，我们将读取测试`.csv`文件：
+
+```
+>>test = TabularDataset(path="NewsClassification/test.csv",
+                    format='csv',
+                    skip_header=True,
+                    fields=test_datafields)
+```
+
+6. 然后，我们将建立词汇表：
+
+```
+>>Review.build_vocab(train, min_freq=2)
+```
+
+通过此秘籍，我们定义了数据集的格式。
+
+## 工作原理
+
+我们使用`torchtext`中的`TabularDataset`模块读取 CSV 文件，该文件也可以用于读取 TSV，JSON 和 Python 字典中的输入，这些字典定义了列的数据集。 然后，我们定义了一个元组数组，其中每个元组都是一对列和`Field`对象（定义要应用的文本转换），但是在最终数据集中不需要特定的列。 然后，我们将在 ID 列中看到的该列的相应`Field`对象设置为`None`。
+
+在此秘籍中，我们使用了新闻分类数据集。 我们在其中一个文本列中应用了`Review`字段，并在其余列中应用了`Label`字段。 对于`test_datafield`，我们将具有新闻内容，因此对于`content`列，我们应用了`Review`字段，并完全删除了`id`列。 然后，我们在`TabularDataset`中使用`splits`方法，并将其传递到训练和验证文件所在的根文件夹路径中。 我们还使用`train`和`valid`参数传入了训练和验证文件的文件名。
+
+我们将文件格式指定为`csv`，并通过将`skip_header`设置为`True`以及`fields`参数中的必需列来删除标题行，并且对数据集进行了相同的测试。 最后，我们在`Fields`对象中调用了`build_vocab()`方法，以建立可能的单词库，在数据集中的出现次数最少为两次。 不在词汇表中的单词将在验证和测试集中分配一个未知标签。
+
+## 更多
+
+您可以使用`Vocab`模块在`torchtext`中构建词汇表。 除了`TabularDataset`之外，还有其他类型的数据集可以使用，具体取决于手头的 NLP 任务-例如，对于语言翻译任务，我们可以使用`TranslationDataset`类。
+
+## 另见
+
+您可以在[这个页面](https://torchtext.readthedocs.io/en/latest/data.html#torchtext-data)上了解有关数据集的更多信息。
+
+# 开发迭代器
+
+迭代器用于从数据集中加载一批数据。 它们提供了使加载数据和将数据移动到适当设备的方法更加容易。 我们可以使用这些迭代器对象遍历周期时对数据进行迭代。 在本秘籍中，我们将从数据集中开发这些迭代器。 您将需要完成“开发数据集”秘籍中的步骤，因为我们将在此处使用该秘籍中的`Dataset`对象。
+
+## 操作步骤
+
+在此秘籍中，我们将数据集转换为迭代器，以便在每个周期准备好要迭代的适当批量：
+
+1. 我们将从导入开始：
+
+```
+>>from torchtext.data import BucketIterator
+>>import torch
+```
+
+2. 然后，我们将定义批量大小：
+
+```
+>>BATCH_SIZE = 128
+```
+
+3. 然后，我们将确定可用的设备：
+
+```
+>>device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+```
+
+4. 接下来，我们将使用`BucketIterator`创建数据桶。
+
+```
+>>train_iter, valid_iter, test_iter = BucketIterator.splits(
+                                     (train, valid, test),
+                                     batch_size=BATCH_SIZE,
+                                     device=device,
+                                     sort_key=lambda x: len(x.comment_text), 
+                                     sort_within_batch=False)
+```
+
+通过此秘籍，我们为训练，测试和验证数据集创建了迭代器。
+
+## 工作原理
+
+我们使用迭代器来构建训练，测试和验证批量，并将数据集移动到适当的 CPU 或 GPU 设备中。 `Iterators`使执行这些任务变得非常优雅。 我们使用了称为`BucketIterator`的专门迭代器类，该类将输入序列分组为相似长度的序列，并自动对其进行随机排序。 我们定义了批量大小，并找到了机器上可用的设备。
+
+然后，我们使用`BucketIterator`的`splits`方法创建训练，测试和验证迭代器。 我们将`sort_within_batch`参数设置为`False`，如果使用`pack_padded_sequence`则将其设置为`True`，这将阻止 LSTM 看到输入序列的填充部分。 当`True`使用`sort_key`参数时，它将按降序对批量中的序列进行排序。
+
+## 更多
+
+还有其他类型的迭代器可用。 一个简单的迭代器从`Dataset`对象中加载一批数据，而`BPTTIterator`定义了用于语言建模任务的迭代器，其中一对序列彼此相距一个时间步长。
+
+## 另见
+
+您可以在[这个页面](https://torchtext.readthedocs.io/en/latest/data.html?highlight=bucketiter#iterators)上找到有关迭代器参数的更多信息。
+
+# 探索单词嵌入
+
+单词嵌入是单词的学习表示。 它们是单词的密集表示，其中为每个单词分配一个向量，即预定义向量空间中的实值向量，而不是数字标识符。 例如，一个单词将表示为`n`维向量`[x[1], x[2], ..., x[n]]`-例如，语料库中的单词`book`可能表示为`[0.22, 0.242, ..., ..., 1.234]`而不是`[0, 0, 1, ..., 0]`的单引号表示。
+
+数字表示只是单词的表示； 但是，单词嵌入是标记的表示，其中该表示也包含标记/单词的含义。 模型从单词出现的上下文中获悉了此含义。 在词嵌入中，具有相似含义的词具有相似的表示形式，我们可以对这些词向量执行向量算术，如下所示：
+
+![](Images/bbd317c11253ce38bb3bfdd64a6ab38d.png)
+
+在这里，我们能够从`king`向量中减去`man`向量，并将其与`woman`向量相加，所得向量将接近该向量`Queen`的表示形式。 我们将在本秘籍中探讨此实现。
+
+## 操作步骤
+
+在此秘籍中，我们将对`torchtext`使用预训练的嵌入：
+
+1. 我们将从导入开始：
+
+```
+>>from torchtext import vocab
+```
+
+2. 然后，我们将继续加载嵌入向量：
+
+```
+>>vec = vocab.Vectors('glove.6B.100d.txt', cache='./vec/glove_embedding/', url='http://nlp.stanford.edu/data/glove.6B.zip')
+```
+
+3. 我们可以通过将预训练向量应用于字段对象来构建词汇表：
+
+```
+>>Review.build_vocab(train, min_freq=2, vectors=vec)
+```
+
+通过此秘籍，我们已加载了预训练的单词嵌入。
+
+## 工作原理
+
+`torchtext`具有用于处理嵌入的`vocab`模块。 我们可以通过在此秘籍中提及需要的嵌入名称来下载预训练的嵌入。 我们使用了预先训练的 GloVe（GloVe 是词向量技术）模型，该模型使用 60 亿个​​标记和 100 个嵌入维向量`glove.6B.50d`进行训练。
+
+然后，我们从缓存位置加载向量。 如果所需的嵌入不在高速缓存中，那么它将自动从 URL 下载并作为嵌入向量传递。 然后，我们使用`Review`字段对象的`build_vocab`方法从这些预训练的嵌入中建立词汇表，然后将其添加到训练数据的词汇表中。
+
+## 更多
+
+我们还可以使用训练数据中的预训练嵌入词汇表-例如，我们可以使用使用 gensim 创建的嵌入向量作为嵌入向量。 我们还可以使用`torch.nn`模块创建嵌入； 我们将在下一个秘籍中了解如何执行此操作。
+
+## 另见
+
+您可以在[这个页面](https://torchtext.readthedocs.io/en/latest/vocab.html?highlight=embedding#module-torchtext.vocab)上了解有关嵌入的更多信息。
+
+# 构建 LSTM 网络
+
+**长短期记忆**（`LSTM`）网络是一种循环神经网络，具有内部门控，有助于更好地保持信息。 这些门是微小的神经网络，用于控制何时需要保存信息以及何时可以擦除或忘记信息。 RNN 受梯度消失和爆炸的影响，因此很难学习长期依赖关系。 LSTM 可以抵抗爆炸和梯度消失，尽管在数学上仍然可行。
+
+## 操作步骤
+
+在此秘籍中，我们将定义 LSTM 分类器：
+
+1. 我们将从导入开始：
+
+```
+>>import torch.nn as nn
+```
+
+2. 我们将命名为`LSTMClassifier`类：
+
+```
+>>class LSTMClassifier(nn.Module):
+```
+
+3. 然后，我们添加嵌入层：
+
+```
+>>def __init__(self, embedding_dim, hidden_dim, output_dim, dropout):
+            super().__init__()
+            self.embedding = nn.Embedding(len(Review.vocab), embedding_dim)
+```
+
+4. 然后，我们添加 LSTM 层：
+
+```
+self.rnn = nn.LSTM(embedding_dim, hidden_dim)
+```
+
+5. 然后，我们添加一个全连接层：
+
+```
+self.fc = nn.Linear(hidden_dim, output_dim)
+```
+
+6. 接下来，我们定义丢弃层：
+
+```
+self.dropout = nn.Dropout(dropout)
+```
+
+7. 然后，我们为 LSTM 分类器定义正向方法：
+
+```
+>>def forward(self, x):
+```
+
+8. 接下来，我们输入嵌入层：
+
+```
+x = self.embedding(x)
+```
+
+9. 然后，我们将嵌入层的输出传递到 LSTM 中：
+
+```
+output, (hidden, cell) = self.rnn(x)
+```
+
+0. 然后，我们应用`dropout`：
+
+```
+hidden = self.dropout(hidden)
+```
+
+1. 最后，我们将输出传递给线性层：
+
+```
+return self.fc(hidden)
+```
+
+2. 我们将定义超参数如下：
+
+```
+>>EMBEDDING_DIM = 100
+>>HIDDEN_DIM = 256
+>>OUTPUT_DIM = 1
+>>DROPOUT = 0.5
+```
+
+3. 最后，我们创建一个`model`对象：
+
+```
+>>model = LSTMClassifier(EMBEDDING_DIM, HIDDEN_DIM, OUTPUT_DIM, DROPOUT)
+```
+
+通过此秘籍，我们创建了一个 LSTM 模型。
+
+## 工作原理
+
+我们使用`torch.nn`模块创建了从`torch.nn.Module`继承的模型类`LSTMClassifier`，并初始化了基类构造器。 然后，我们定义嵌入层，其中输入维与词汇量大小相同，输出为嵌入维，然后将嵌入层输出传递到 LSTM 层，其中输入维为嵌入维，然后定义隐藏状态维度。
+
+然后，我们定义了全连接层和丢弃层。 接下来，我们定义`forward()`方法，该方法接受输入序列，并将其传递给嵌入层，从而产生尺寸为`embedding_dim`的输出，该输出是输入序列的嵌入向量。 然后将这个字向量传递到 LSTM 层，该层输出三个状态-输出状态，隐藏状态和单元状态。
+
+隐藏状态张量保存了到目前为止 LSTM 所见过的所有序列的信息，因此我们采用了隐藏状态，应用了`dropout`，并将其通过全连接层传递给最终输出向量，其大小等于类数。 例如，对于有毒评论数据集，输出类别的数量为六； 但是，对于具有两个状态（正向和负向）的情感分析器，我们甚至可以考虑只具有一个输出，以便`1`代表积极情感，`0`代表消极情感。
+
+## 更多
+
+对于具有两个以上状态的毒性审查任务，我们将使用`CrossEntropyLoss()`，对于仅具有一个输出的情感分析器，我们将使用`BCEWithLogitsLoss()`。 其余训练与我们在第 3 章，“用于计算机视觉的卷积神经网络”中看到的内容相同，我们在其中训练了卷积神经网络。
+
+## 另见
+
+您可以在[这个页面](https://pytorch.org/docs/stable/nn.html#lstm)上了解有关 LSTM 的更多信息。
+
+您可以在[这个页面](https://www.jefkine.com/general/2018/05/21/2018-05-21-vanishing-and-exploding-gradient-problems/)了解有关消失和梯度爆炸的更多信息。
+
+# 多层 LSTM
+
+我们在先前的秘籍中介绍了简单的 LSTM。 在本秘籍中，我们将为多层 LSTM 升级该简单的 LSTM 定义。 您需要完成“构建 LSTM 网络”秘籍才能了解此秘籍。
+
+## 操作步骤
+
+该秘籍是基于 LSTM 秘籍的修改。
+
+1. 首先，我们将更新该类的`__init__()`：
+
+```
+>>def __init__(self, embedding_dim, hidden_dim, output_dim, dropout, num_layers):
+```
+
+2. 然后，我们将`num_layers`参数添加到 LSTM 定义中：
+
+```
+self.rnn = nn.LSTM(embedding_dim, hidden_dim, num_layers=num_layers)
+```
+
+我们的类定义应如下所示：
+
+```
+class MultiLSTMClassifier(nn.Module):
+    def __init__(self, embedding_dim, hidden_dim, output_dim, dropout, num_layers):
+        self.embedding = nn.Embedding(len(Review.vocab), embedding_dim)
+        self.rnn = nn.LSTM(embedding_dim, hidden_dim, num_layers=num_layers)
+        self.fc = nn.Linear(hidden_dim, output_dim)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        x = self.embedding(x)
+        output, (hidden, cell) = self.rnn(x)
+        hidden = self.dropout(hidden)
+        return self.fc(hidden[-1])
+```
+
+3. 接下来，我们向超参数添加层数量：
+
+```
+>>NUM_LAYERS = 2
+```
+
+4. 最后，我们创建模型对象：
+
+```
+>>model = MultiLSTMClassifier(EMBEDDING_DIM, HIDDEN_DIM, OUTPUT_DIM, DROPOUT, NUM_LAYERS)
+```
+
+通过此秘籍，我们修改了用于多层 LSTM 的网络。
+
+## 工作原理
+

@@ -1,0 +1,44 @@
+level_changes:
+- line: 825
+  before: 1
+  after: 2
+- line: 1435
+  before: 1
+  after: 2
+- line: 2329
+  before: 1
+  after: 2
+- line: 2935
+  before: 1
+  after: 2
+- line: 3431
+  before: 1
+  after: 2
+- line: 4176
+  before: 1
+  after: 2
+- line: 5006
+  before: 1
+  after: 2
+text_changes:
+- line: 149
+  before: 一、使用 PyTorch 使用张量
+  after: 一、使用 PyTorch 操作张量
+- line: 3565
+  before: 准备好
+  after: 准备
+- line: 3632
+  before: 准备好
+  after: 准备
+- line: 4006
+  before: 准备好
+  after: 准备
+- line: 2263
+  before: 17. 然后，我们将计算每个周期的损失：
+  after: 然后，我们将计算每个周期的损失：
+- line: 2270
+  before: 18. 最后，我们在每个周期打印模型表现：
+  after: 最后，我们在每个周期打印模型表现：
+- line: 2276
+  before: 19. 这是您将看到的输出示例：
+  after: 这是您将看到的输出示例：
