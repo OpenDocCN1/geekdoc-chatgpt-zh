@@ -1,0 +1,137 @@
+parser.add_argument('--model_config', default='config/model_config_small.json', type=str, required=False, help='模型配置文件')
+parser.add_argument('--tokenizer_path', default='cache/vocab_small.txt', type=str, required=False, help='词表文件位置')
+[PRE0]
+parser.add_argument('--model_path', default='model/final_model', type=str, required=False, help='预训练模型路径')
+[PRE1]
+parser.add_argument('--prefix', default='萧炎', type=str, required=False, help='生成文本的起始前缀')
+[PRE2]
+parser.add_argument('--no_wordpiece', action='store_true', help='关闭 WordPiece 处理')
+[PRE3]
+parser.add_argument('--segment', action='store_true', help='中文以词为单位切分')
+[PRE4]
+parser.add_argument('--fast_pattern', action='store_true', help='开启快速文本生成模式')
+[PRE5]
+parser.add_argument('--save_samples', action='store_true', help='保存生成样本')
+[PRE6]
+parser.add_argument('--save_samples_path', default='.', type=str, required=False, help='样本保存路径')
+[PRE7]
+parser.add_argument('--repetition_penalty', default=1.0, type=float, required=False)
+[PRE8]
+args = parser.parse_args()
+[PRE9]
+print('args:\n' + args._repr__())
+[PRE10]
+if args.segment:
+[PRE11]
+    from tokenizations import tokenization_bert_word_level as tokenization_bert
+[PRE12]
+else:
+[PRE13]
+    from tokenizations import tokenization_bert
+[PRE14]
+os.environ["CUDA_VISIBLE_DEVICES"] = args.device # 设置可用的显卡编号
+[PRE15]
+length = args.length
+[PRE16]
+batch_size = args.batch_size
+[PRE17]
+nsamples = args.nsamples
+[PRE18]
+temperature = args.temperature
+[PRE19]
+topk = args.topk
+[PRE20]
+topp = args.topp
+[PRE21]
+repetition_penalty = args.repetition_penalty
+[PRE22]
+device = "cuda" if torch.cuda.is_available() else "cpu"
+[PRE23]
+tokenizer = tokenization_bert.BertTokenizer(vocab_file=args.tokenizer_path)
+model = GPT2LMHeadModel.from_pretrained(args.model_path)
+model.to(device)
+model.eval()
+n_ctx = model.config.n_ctx
+if length == -1:
+    length = model.config.n_ctx
+if args.save_samples:
+    if not os.path.exists(args.save_samples_path):
+        os.makedirs(args.save_samples_path)
+samples_file = open(args.save_samples_path + '/samples.txt', 'w', encoding='utf8')
+while True:
+    raw_text = args.prefix
+    context_tokens = tokenizer.convert_tokens_to_ids(tokenizer.tokenize(raw_text))
+generated = 0
+for _ in range(nsamples // batch_size):
+    out = generate(
+        n_ctx=n_ctx,
+        model=model,
+        context=context_tokens,
+        length=length,
+        is_fast_pattern=args.fast_pattern, tokenizer=tokenizer,
+        temperature=temperature, top_k=topk, top_p=topp, repetition_penalty=repetition_penalty, device=device
+    )
+    for i in range(batch_size):
+        generated += 1
+        text = tokenizer.convert_ids_to_tokens(out)
+        for i, item in enumerate(text[:-1]): # 为英文单词补空格
+            if is_word(item) and is_word(text[i + 1]):
+                text[i] = item + ' '
+        for i, item in enumerate(text):
+            if item == '
+# AI 安全：技术与实战
+[PRE24]
+[PRE25]
+[PRE26]
+[PRE27]
+[PRE28]
+[PRE29]
+[PRE30]
+[PRE31]
+[PRE32]
+[PRE33]
+[PRE34]
+[PRE35]
+[PRE36]
+[PRE37]
+[PRE38]
+[PRE39]
+[PRE40]
+[PRE41]
+[PRE42]
+[PRE43]
+[PRE44]
+[PRE45]
+[PRE46]
+# 第5章 预训练模型安全
+example in example_batch]
+token_probability_distribution = wrapper.get_token_probabilit
+y_distribution(input_texts, output_choices=output_choices)
+for idx, example in enumerate(example_batch):
+predicted_scores[example] = token_probability_distribution
+[idx][0][1]
+# 在开发集上寻找最优阈值
+dev_actual_scores = [example.scores[attribute_name] for example in
+all_dev_examples]
+dev_predicted_scores = [predicted_scores[example] for example in
+all_dev_examples]
+best_threshold, best_dev_accuracy = 0, -1
+dev_corr, _ = pearsonr(dev_actual_scores, dev_predicted_scores)
+for threshold in (x * 0.05 for x in range(1, 20)):
+dev_accuracy = get_accuracy(dev_actual_scores, dev_predicted_s
+cores, threshold)
+if dev_accuracy > best_dev_accuracy:
+best_dev_accuracy = dev_accuracy
+best_threshold = threshold
+print(f'The optimal threshold is {best_threshold}, with an accuracy
+of {best_dev_accuracy} on the dev set')
+test_actual_scores = [example.scores[attribute_name] for example in
+all_test_examples]
+test_predicted_scores = [predicted_scores[example] for example in
+all_test_examples]
+test_corr, _ = pearsonr(test_actual_scores, test_predicted_scores)
+test_accuracy = get_accuracy(test_actual_scores, test_predicted_s
+cores, best_threshold)
+return {'test_pearsonr': test_corr, 'test_accuracy': test_accuracy,
+'dev_pearsonr': dev_corr, 'dev_accuracy': best_dev_accuracy}
+# （2）基于概率修正有害内容
