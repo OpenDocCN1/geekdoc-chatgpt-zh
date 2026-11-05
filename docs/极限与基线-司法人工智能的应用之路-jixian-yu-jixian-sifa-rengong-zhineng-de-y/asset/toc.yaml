@@ -1,0 +1,71 @@
+level_changes:
+- line: 55
+  before: 2
+  after: 3
+- line: 59
+  before: 3
+  after: 4
+- line: 65
+  before: 3
+  after: 4
+- line: 71
+  before: 3
+  after: 4
+- line: 169
+  before: 2
+  after: 4
+- line: 219
+  before: 2
+  after: 3
+- line: 223
+  before: 3
+  after: 4
+- line: 231
+  before: 3
+  after: 4
+- line: 356
+  before: 2
+  after: 3
+- line: 362
+  before: 2
+  after: 3
+- line: 693
+  before: 2
+  after: 4
+- line: 699
+  before: 2
+  after: 3
+- line: 843
+  before: 2
+  after: 3
+- line: 847
+  before: 3
+  after: 4
+- line: 863
+  before: 3
+  after: 4
+- line: 887
+  before: 3
+  after: 4
+text_changes:
+- line: 85
+  before: 第一章人工智能走向司法
+  after: 第一章 人工智能走向司法
+- line: 88
+  before: 第二章司法人工智能的基本矛盾
+  after: 第二章 司法人工智能的基本矛盾
+- line: 91
+  before: 第三章司法人工智能的理论极限
+  after: 第三章 司法人工智能的理论极限
+- line: 94
+  before: 第四章司法人工智能的现实基线
+  after: 第四章 司法人工智能的现实基线
+- line: 97
+  before: 第五章司法人工智能的总体方向
+  after: 第五章 司法人工智能的总体方向
+- line: 693
+  before: 一、司法需求认识不足
+  after: （一）司法需求认识不足
+- line: 721
+  before: （二）司法公开广度力度的不够
+  after: （二）司法公开广度力度不足
