@@ -1,0 +1,50 @@
+level_changes:
+- line: 104
+  before: 3
+  after: 4
+- line: 122
+  before: 3
+  after: 4
+- line: 128
+  before: 3
+  after: 5
+- line: 132
+  before: 3
+  after: 5
+- line: 140
+  before: 3
+  after: 4
+- line: 142
+  before: 3
+  after: 5
+- line: 148
+  before: 3
+  after: 5
+- line: 180
+  before: 3
+  after: 4
+- line: 186
+  before: 3
+  after: 5
+- line: 192
+  before: 3
+  after: 5
+text_changes:
+- line: 128
+  before: 1. 智能启发算法
+  after: 1.1.2.1 智能启发算法
+- line: 132
+  before: 2. 机器学习算法
+  after: 1.1.2.2 机器学习算法
+- line: 142
+  before: 1. 负荷预测
+  after: 1.2.1.1 负荷预测
+- line: 148
+  before: 2. 可再生能源发电预测
+  after: 1.2.1.2 可再生能源发电预测
+- line: 186
+  before: 1. 遗传算法的生物学原理
+  after: 2.1.1.1 遗传算法的生物学原理
+- line: 192
+  before: 2. 遗传算法基本模型
+  after: 2.1.1.2 遗传算法基本模型
