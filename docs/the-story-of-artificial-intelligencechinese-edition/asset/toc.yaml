@@ -1,0 +1,35 @@
+level_changes:
+- line: 70
+  before: 2
+  after: 1
+- line: 72
+  before: 3
+  after: 2
+- line: 101
+  before: 1
+  after: 3
+- line: 329
+  before: 1
+  after: 3
+- line: 331
+  before: 2
+  after: 3
+- line: 349
+  before: 2
+  after: 3
+- line: 729
+  before: 2
+  after: 3
+text_changes:
+- line: 101
+  before: 帕斯卡三角
+  after: 1.1.1 帕斯卡三角
+- line: 331
+  before: 2.2 冯·诺依曼生平
+  after: 2.2.1 冯·诺依曼生平
+- line: 349
+  before: 2.3 冯·诺依曼和人工智能
+  after: 2.2.2 冯·诺依曼和人工智能
+- line: 729
+  before: 布尔与罗素
+  after: 4.2.1 布尔与罗素
