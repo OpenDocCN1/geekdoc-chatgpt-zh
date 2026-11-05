@@ -1,0 +1,44 @@
+level_changes:
+- line: 134
+  before: 1
+  after: 2
+- line: 277
+  before: 1
+  after: 3
+- line: 224
+  before: 1
+  after: 4
+- line: 435
+  before: 1
+  after: 2
+- line: 525
+  before: 1
+  after: 2
+- line: 2067
+  before: 1
+  after: 2
+text_changes:
+- line: 4
+  before: 前　言
+  after: 前言
+- line: 58
+  before: 3. 智能财务管理信息共享系统
+  after: （一）智能财务管理信息共享系统
+- line: 62
+  before: 4. 人工神经网络模型
+  after: （二）人工神经网络模型
+- line: 66
+  before: （二）财务智能化的架构特点
+  after: （三）财务智能化的架构特点
+- line: 104
+  before: （三）财务人工智能的缺点
+  after: （四）财务人工智能的缺点
+- line: 126
+  before: （四）财务人工智能对财会人员工作的影响
+  after: （五）财务人工智能对财会人员工作的影响
+- line: 401
+  before: (四) 财务机器人、智能化与共享服务的补充
+  after: （四）财务机器人、智能化与共享服务的补充
+- line: 427
+  before: (五) 智能化助力财务管理实践再升级
+  after: （五）智能化助力财务管理实践再升级
