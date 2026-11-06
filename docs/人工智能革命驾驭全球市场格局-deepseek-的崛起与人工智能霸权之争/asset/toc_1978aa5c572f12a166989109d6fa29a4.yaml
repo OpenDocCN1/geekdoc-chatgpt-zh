@@ -1,0 +1,86 @@
+level_changes:
+- line: 3
+  before: 2
+  after: 1
+- line: 6
+  before: 3
+  after: 2
+- line: 32
+  before: 3
+  after: 2
+- line: 55
+  before: 3
+  after: 2
+- line: 80
+  before: 2
+  after: 1
+- line: 82
+  before: 3
+  after: 2
+- line: 83
+  before: 4
+  after: 2
+- line: 105
+  before: 3
+  after: 2
+- line: 106
+  before: 4
+  after: 2
+- line: 219
+  before: 1
+  after: 2
+- line: 420
+  before: 2
+  after: 1
+- line: 422
+  before: 3
+  after: 2
+- line: 426
+  before: 1
+  after: 2
+- line: 439
+  before: 3
+  after: 2
+- line: 456
+  before: 3
+  after: 2
+- line: 479
+  before: 3
+  after: 2
+- line: 481
+  before: 3
+  after: 2
+- line: 482
+  before: 4
+  after: 2
+text_changes:
+- line: 236
+  before: 监管和合规挑战 / 监管和合规挑战
+  after: 监管和合规挑战
+- line: 284
+  before: 创意产业与艺术 / 创意产业与艺术
+  after: 创意产业与艺术
+- line: 296
+  before: 第六章：未来趋势与预测 / 第六章：未来趋势与预测
+  after: 第六章：未来趋势与预测
+- line: 298
+  before: 人工智能技术的演进 / 人工智能技术的演进
+  after: 人工智能技术的演进
+- line: 317
+  before: 潜在挑战与机遇 / 潜在挑战与机遇
+  after: 潜在挑战与机遇
+- line: 343
+  before: 为人工智能驱动的未来做好准备 / 为人工智能驱动的未来做好准备
+  after: 为人工智能驱动的未来做好准备
+- line: 398
+  before: 全球市场动态与消费者行为 / 全球市场动态与消费者行为
+  after: 全球市场动态与消费者行为
+- line: 420
+  before: 第八章：围绕 DeepSeek 构建社区 / 第八章：围绕 DeepSee 构建社区
+  after: 第八章：围绕 DeepSeek 构建社区
+- line: 422
+  before: 吸引人工智能专家和从业人员 / 吸引人工智能专家和从业人员
+  after: 吸引人工智能专家和从业人员
+- line: 439
+  before: 促进创新与合作
+  after: 促进创新与协作
