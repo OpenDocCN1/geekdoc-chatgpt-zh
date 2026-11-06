@@ -1,0 +1,53 @@
+level_changes:
+- line: 77
+  before: 2
+  after: 3
+- line: 79
+  before: 3
+  after: 2
+- line: 126
+  before: 2
+  after: 3
+- line: 129
+  before: 3
+  after: 2
+- line: 202
+  before: 3
+  after: 4
+- line: 263
+  before: 3
+  after: 4
+- line: 341
+  before: 2
+  after: 4
+- line: 383
+  before: 2
+  after: 4
+- line: 423
+  before: 2
+  after: 4
+- line: 473
+  before: 2
+  after: 4
+- line: 527
+  before: 2
+  after: 4
+- line: 578
+  before: 2
+  after: 3
+- line: 747
+  before: 2
+  after: 3
+text_changes:
+- line: 74
+  before: CHAPTER
+  after: CHAPTER 01
+- line: 123
+  before: CHAPTER
+  after: CHAPTER 02
+- line: 126
+  before: 人工智能
+  after: 人工智能助力企业数字化转型
+- line: 575
+  before: CHAPTER
+  after: CHAPTER 03
