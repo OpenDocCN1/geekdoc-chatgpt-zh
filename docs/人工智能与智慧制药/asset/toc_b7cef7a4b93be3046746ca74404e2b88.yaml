@@ -1,0 +1,116 @@
+level_changes:
+- line: 223
+  before: 1
+  after: 3
+- line: 225
+  before: 2
+  after: 4
+- line: 239
+  before: 2
+  after: 4
+- line: 249
+  before: 2
+  after: 4
+- line: 259
+  before: 2
+  after: 4
+- line: 287
+  before: 2
+  after: 3
+- line: 303
+  before: 2
+  after: 3
+- line: 321
+  before: 2
+  after: 3
+- line: 441
+  before: 1
+  after: 2
+- line: 686
+  before: 1
+  after: 2
+- line: 852
+  before: 2
+  after: 3
+- line: 1114
+  before: 1
+  after: 2
+- line: 1254
+  before: 1
+  after: 3
+- line: 1260
+  before: 2
+  after: 3
+- line: 1272
+  before: 2
+  after: 3
+- line: 1280
+  before: 2
+  after: 3
+- line: 1296
+  before: 2
+  after: 3
+- line: 1310
+  before: 2
+  after: 3
+- line: 1330
+  before: 2
+  after: 3
+- line: 1336
+  before: 1
+  after: 2
+- line: 1338
+  before: 2
+  after: 3
+- line: 1354
+  before: 2
+  after: 3
+- line: 1376
+  before: 1
+  after: 2
+- line: 1498
+  before: 1
+  after: 2
+- line: 1934
+  before: 2
+  after: 4
+- line: 1942
+  before: 2
+  after: 4
+- line: 1946
+  before: 2
+  after: 4
+- line: 1950
+  before: 2
+  after: 3
+- line: 2032
+  before: 2
+  after: 3
+- line: 2050
+  before: 1
+  after: 2
+- line: 2058
+  before: 2
+  after: 3
+- line: 2072
+  before: 2
+  after: 3
+text_changes:
+- line: 99
+  before: 机器学习发展历程
+  after: 1.2.1 机器学习发展历程
+- line: 106
+  before: 机器学习策略与应用
+  after: 1.2.2 机器学习策略与应用
+- line: 356
+  before: 2 蛋白质毒性预测与机器学习概述
+  after: 2.1 蛋白质毒性预测与机器学习概述
+- line: 441
+  before: 多肽活性预测与蛋白质毒性预测
+  after: 2.2 多肽活性预测与蛋白质毒性预测
+- line: 670
+  before: 第 3 章
+  after: 第 3 章 人工智能让结构性质预测变得简单
+- line: 1704
+  before: 第 6 章
+  after: 第 6 章 人工智能辅助药物基因识别
