@@ -1,0 +1,29 @@
+level_changes:
+- line: 1304
+  before: 2
+  after: 3
+- line: 1320
+  before: 2
+  after: 3
+- line: 1333
+  before: 2
+  after: 3
+- line: 1349
+  before: 2
+  after: 3
+text_changes:
+- line: 14
+  before: 前 言
+  after: 前言
+- line: 400
+  before: 徐　立
+  after: 徐立
+- line: 428
+  before: 袁　洋
+  after: 袁洋
+- line: 500
+  before: 侯　阳
+  after: 侯阳
+- line: 821
+  before: 郭 帆
+  after: 郭帆
