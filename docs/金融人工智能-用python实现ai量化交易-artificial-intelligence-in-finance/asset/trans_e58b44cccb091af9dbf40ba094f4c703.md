@@ -1,0 +1,194 @@
+
+
+```
+In [62]: import sys
+         sys.path.append('../ch11/')  ➊
+
+In [63]: import tradingbot  ➊
+         Using TensorFlow backend.
+
+In [64]: tradingbot.set_seeds(100)
+         agent = tradingbot.TradingBot(24, 0.001, learn_env=learn_env,
+                                       valid_env=valid_env)  ➋
+
+In [65]: episodes = 31
+
+In [66]: %time agent.learn(episodes)  ➋
+         =======================================================================
+         episode:  5/31 | VALIDATION | treward: 97 | perf: 1.004 | eps: 0.96
+         =======================================================================
+         =======================================================================
+         episode: 10/31 | VALIDATION | treward: 97 | perf: 1.005 | eps: 0.91
+         =======================================================================
+         =======================================================================
+         episode: 15/31 | VALIDATION | treward: 97 | perf: 0.986 | eps: 0.87
+         =======================================================================
+         =======================================================================
+         episode: 20/31 | VALIDATION | treward: 97 | perf: 1.012 | eps: 0.83
+         =======================================================================
+         =======================================================================
+         episode: 25/31 | VALIDATION | treward: 97 | perf: 0.995 | eps: 0.79
+         =======================================================================
+         =======================================================================
+         episode: 30/31 | VALIDATION | treward: 97 | perf: 0.972 | eps: 0.75
+         =======================================================================
+         episode: 31/31 | treward: 16 | perf: 0.981 | av: 376.0 | max: 577
+         CPU times: user 22.1 s, sys: 1.17 s, total: 23.3 s
+         Wall time: 20.1 s
+
+In [67]: tradingbot.plot_performance(agent)  ➌
+```
+
+➊ 从第 11 章导入 `tradingbot` 模块。
+
+➋ 基于 Oanda 数据训练和验证交易机器人。
+
+➌ 可视化性能结果。
+
+![{%}](Images/image00676.jpeg)
+
+**图 12-4：交易机器人基于 Oanda 数据的训练集和验证集性能结果**
+
+正如前两章所讨论的，训练集性能和验证集性能只是交易机器人性能的一个指标。
+
+下面的代码为测试环境实现了交易机器人性能的向量化回测——除了使用的时间间隔参数不同外，再次使用了与学习环境相同的参数。该代码使用了 12.7.2 节展示的 Python 模块中的函数 `backtest`。报告的性能数字包括 20 倍的杠杆率。这对随时间变化的被动基准投资和交易机器人的总体性能都是适用的，如图 12-5 所示。
+
+```
+In [68]: import backtest as bt
+
+In [69]: env = test_env
+
+In [70]: bt.backtest(agent, env)
+
+In [71]: env.data['p'].iloc[env.lags:].value_counts()  ➊
+Out[71]:  1    263
+         -1     74
+         Name: p, dtype: int64
+
+In [72]: sum(env.data['p'].iloc[env.lags:].diff() != 0)  ➋
+Out[72]: 25
+
+In [73]: (env.data[['r', 's']].iloc[env.lags:] * env.leverage).sum(
+                 ).apply(np.exp)  ➌
+Out[73]: r   0.99966
+         s   1.05910
+         dtype: float64
+
+In [74]: (env.data[['r', 's']].iloc[env.lags:] * env.leverage).sum(
+                 ).apply(np.exp) - 1  ➍
+Out[74]: r   -0.00034
+         s    0.05910
+         dtype: float64
+
+In [75]: (env.data[['r', 's']].iloc[env.lags:] * env.leverage).cumsum(
+                 ).apply(np.exp).plot(figsize=(10, 6));  ➎
+```
+
+➊ 显示多头头寸和空头头寸的总数。
+
+➋ 显示执行策略所需的交易数量。
+
+➌ 计算包括杠杆在内的总收益。
+
+❹ 计算包括杠杆在内的净收益。
+
+➎ 可视化包括杠杆的随时间变化的总体表现。
+
+![{%}](Images/image00677.jpeg)
+
+**图 12-5：随时间变化的被动基准投资和交易机器人的总体表现（包括杠杆）**
+
+> ![](Images/image00324.jpeg)　**简化的回测**
+>
+> 本节中对交易机器人的训练和回测是在不现实的假设下进行的。基于 30 秒间隔数据的交易策略可能会在短时间内导致大量交易。假设存在典型的交易成本（买卖价差），那么这样的策略在经济上通常是不可行的。较长的间隔数据或交易较少的策略更为现实。然而，为了在下一节中进行“快速”部署演示，我们有意在相对较短的 30 秒间隔数据中执行训练和回测。
+
+## 12.5　部署
+
+本节会结合前面几节的主要内容，以自动化方式部署经过训练的交易机器人。这与准备在街道上部署自动驾驶汽车的方式相当。以下代码中提供的 `OandaTradingBot` 类继承自 `tpqoa` 类，并添加了一些辅助函数和交易逻辑。
+
+```
+In [76]: import tpqoa
+
+In [77]: class OandaTradingBot(tpqoa.tpqoa):
+             def __init__(self, config_file, agent, granularity, units,
+                          verbose=True):
+                 super(OandaTradingBot, self).__init__(config_file)
+                 self.agent = agent
+                 self.symbol = self.agent.learn_env.symbol
+                 self.env = agent.learn_env
+                 self.window = self.env.window
+                 if granularity is None:
+                     self.granularity = agent.learn_env.granularity
+                 else:
+                     self.granularity = granularity
+                 self.units = units
+                 self.trades = 0
+                 self.position = 0
+                 self.tick_data = pd.DataFrame()
+                 self.min_length = (self.agent.learn_env.window +
+                                    self.agent.learn_env.lags)
+                 self.pl = list()
+                 self.verbose = verbose
+             def _prepare_data(self):
+                 self.data['r'] = np.log(self.data / self.data.shift(1))
+                 self.data.dropna(inplace=True)
+                 self.data['s'] = self.data[self.symbol].rolling(
+                                                     self.window).mean()
+                 self.data['m'] = self.data['r'].rolling(self.window).mean()
+                 self.data['v'] = self.data['r'].rolling(self.window).std()
+                 self.data.dropna(inplace=True)
+                 # self.data_ = (self.data - self.env.mu) / self.env.std  ➊
+                 self.data_ = (self.data - self.data.mean()) / self.data.std()  ➊
+             def _resample_data(self):
+                 self.data = self.tick_data.resample(self.granularity,
+                                 label='right').last().ffill().iloc[:-1]  ➋
+                 self.data = pd.DataFrame(self.data['mid'])  ➋
+                 self.data.columns = [self.symbol,]  ➋
+                 self.data.index = self.data.index.tz_localize(None)  ➋
+             def _get_state(self):
+                 state = self.data_[self.env.features].iloc[-self.env.lags:]  ➌
+                 return np.reshape(state.values, [1, self.env.lags,
+                                                  self.env.n_features])  ➌
+             def report_trade(self, time, side, order):
+                 self.trades += 1
+                 pl = float(order['pl'])  ➍
+                 self.pl.append(pl)  ➍
+                 cpl = sum(self.pl)  ➎
+                 print('\n' + 75 * '=')
+                 print(f'{time} | *** GOING {side} ({self.trades}) ***')
+                 print(f'{time} | PROFIT/LOSS={pl:.2f} | CUMULATIVE={cpl:.2f}')
+                 print(75 * '=')
+                 if self.verbose:
+                     pprint(order)
+                     print(75 * '=')
+             def on_success(self, time, bid, ask):
+                 df = pd.DataFrame({'ask': ask, 'bid': bid,
+                                    'mid': (bid + ask) / 2},
+                                   index=[pd.Timestamp(time)])
+                 self.tick_data = self.tick_data.append(df)  ➋
+                 self._resample_data()  ➋
+                 if len(self.data) > self.min_length:
+                     self.min_length += 1
+                     self._prepare_data()
+                     state = self._get_state()  ➏
+                     prediction = np.argmax(
+                         self.agent.model.predict(state)[0, 0])  ➏
+                     position = 1 if prediction == 1 else -1  ➏
+                     if self.position in [0, -1] and position == 1:  ➐
+                         order = self.create_order(self.symbol,
+                             units=(1 - self.position) * self.units,
+                                     suppress=True, ret=True)
+                     self.report_trade(time, 'LONG', order)
+                     self.position = 1
+                 elif self.position in [0, 1] and position == -1:  ➑
+                     order = self.create_order(self.symbol,
+                             units=-(1 + self.position) * self.units,
+                                     suppress=True, ret=True)
+                     self.report_trade(time, 'SHORT', order)
+                     self.position = -1
+```
+
+➊ 为了便于演示，用实时数据统计进行了标准化处理。1
+
+1鉴于所使用的数据，这个小技巧可以更快地在这种特定环境下进行交易。对于实际部署，将使用来自学习环境数据的统计信息进行标准化。
+

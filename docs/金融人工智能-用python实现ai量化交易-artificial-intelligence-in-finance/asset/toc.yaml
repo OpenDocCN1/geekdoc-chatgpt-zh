@@ -1,0 +1,47 @@
+level_changes:
+- line: 1118
+  before: 1
+  after: 2
+- line: 2722
+  before: 1
+  after: 2
+- line: 4691
+  before: 1
+  after: 2
+- line: 5397
+  before: 1
+  after: 2
+- line: 6846
+  before: 1
+  after: 2
+- line: 7512
+  before: 1
+  after: 2
+- line: 8628
+  before: 1
+  after: 2
+- line: 9316
+  before: 1
+  after: 2
+- line: 10949
+  before: 1
+  after: 2
+- line: 12514
+  before: 1
+  after: 2
+text_changes:
+- line: 0
+  before: 金融人工智能 ： 用Python实现AI量化交易
+  after: 金融人工智能：用Python实现AI量化交易
+- line: 5
+  before: O'Reilly Media, Inc.介绍
+  after: O'Reilly Media, Inc. 介绍
+- line: 2272
+  before: 3. 最小波动率和最大夏普比率
+  after: 3.3.3 最小波动率和最大夏普比率
+- line: 2333
+  before: 4. 有效边界
+  after: 3.3.4 有效边界
+- line: 2778
+  before: 简单 OLS 回归
+  after: 4.2.1 简单 OLS 回归

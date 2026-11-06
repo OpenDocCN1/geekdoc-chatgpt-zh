@@ -1,0 +1,193 @@
+
+```
+In [70]: symbol = 'EUR='
+         features = [symbol, 'r', 's', 'm', 'v']
+
+In [71]: a = 0
+         b = 2000
+         c = 500
+
+In [72]: learn_env = Finance(symbol, features, window=10, lags=6,
+                          leverage=1, min_performance=0.85,
+                          start=a, end=a + b, mu=None, std=None)
+
+In [73]: learn_env.data.info()
+         <class 'pandas.core.frame.DataFrame'>
+         DatetimeIndex: 2000 entries, 2010-01-19 to 2017-12-26
+         Data columns (total 5 columns):
+          #   Column  Non-Null Count  Dtype
+         ---  ------  --------------  -----
+          0   EUR=    2000 non-null   float64
+          1   r       2000 non-null   float64
+          2   s       2000 non-null   float64
+          3   m       2000 non-null   float64
+          4   v       2000 non-null   float64
+         dtypes: float64(5)
+         memory usage: 93.8 KB
+
+In [74]: valid_env = Finance(symbol, features, window=learn_env.window,
+                          lags=learn_env.lags, leverage=learn_env.leverage,
+                          min_performance=learn_env.min_performance,
+                          start=a + b, end=a + b + c,
+                          mu=learn_env.mu, std=learn_env.std)
+
+In [75]: valid_env.data.info()
+         <class 'pandas.core.frame.DataFrame'>
+         DatetimeIndex: 500 entries, 2017-12-27 to 2019-12-20
+         Data columns (total 5 columns):
+          #   Column  Non-Null Count  Dtype
+        ---   ------  --------------  -----
+         0    EUR=    500 non-null    float64
+         1    r       500 non-null    float64
+         2    s       500 non-null    float64
+         3    m       500 non-null    float64
+         4    v       500 non-null    float64
+         dtypes: float64(5)
+         memory usage: 23.4 KB
+
+In [76]: set_seeds(100)
+         agent = FQLAgent(24, 0.0001, learn_env, valid_env)
+
+In [77]: episodes = 61
+
+In [78]: agent.learn(episodes)
+         =======================================================================
+         episode: 20/61 | VALIDATION | treward: 494 | perf: 1.169 | eps: 0.68
+         =======================================================================
+         =======================================================================
+         episode: 40/61 | VALIDATION | treward: 494 | perf: 1.111 | eps: 0.45
+         =======================================================================
+         =======================================================================
+         episode: 60/61 | VALIDATION | treward: 494 | perf: 1.089 | eps: 0.30
+         =======================================================================
+         episode: 61/61 | treward: 1994 | perf: 1.268 | av: 1615.1 | max: 1994
+
+In [79]: agent.epsilon
+Out[79]: 0.291602079838278
+
+In [80]: plt.figure(figsize=(10, 6))
+         x = range(1, len(agent.averages) + 1)
+         y = np.polyval(np.polyfit(x, agent.averages, deg=3), x)
+         plt.plot(agent.averages, label='moving average')
+         plt.plot(x, y, 'r--', label='regression')
+         plt.xlabel('episodes')
+         plt.ylabel('total reward')
+         plt.legend();
+```
+
+![{%}](Images/image00652.jpeg)
+
+**图 9-4：运行于 `Finance` 环境的 `FQLAgent` 的平均总奖励**
+
+训练集和验证集的性能也出现了一个有趣的现象，如图 9-5 所示。训练集性能显示出了很大的方差，这是由于除了**利用**当前最佳策略之外，还要利用正在进行的**探索**。相比之下，验证集性能的方差要小得多，因为它仅依赖于对当前最优策略的利用。
+
+```
+In [81]: plt.figure(figsize=(10, 6))
+         x = range(1, len(agent.performances) + 1)
+         y = np.polyval(np.polyfit(x, agent.performances, deg=3), x)
+         y_ = np.polyval(np.polyfit(x, agent.vperformances, deg=3), x)
+         plt.plot(agent.performances[:], label='training')
+         plt.plot(agent.vperformances[:], label='validation')
+         plt.plot(x, y, 'r--', label='regression (train)')
+         plt.plot(x, y_, 'r-.', label='regression (valid)')
+         plt.xlabel('episodes')
+         plt.ylabel('gross performance')
+         plt.legend();
+```
+
+![{%}](Images/image00653.jpeg)
+
+**图 9-5：`FQLAgent` 的每回合的训练集性能和验证集性能**
+
+## 9.9　结论
+
+本章讨论了人工智能中最成功的一个算法类——强化学习。第 2 章中讨论的大多数进展和成功案例源于强化学习领域的改进。在这种情况下，神经网络并没有变得毫无用处。相反，神经网络在逼近最优动作策略方面发挥着重要作用，通常以策略 ![Q](Images/image00642.gif)的形式存在，即给定某种状态，为每个动作分配一个值。如果考虑即时奖励和延迟奖励，则值越高，动作越好。
+
+当然，延迟奖励是与许多重要环境相关的信息。在游戏环境中，通常有多种操作可用，最好选择能获得最高总奖励而不仅仅是最高即时奖励的操作，因为最终的总分是要最大化的分数。在金融环境中也是如此，通常，交易和投资的适当目标是看长期表现，而不是可能会增加破产风险的快速短期利润。
+
+本章中的示例还表明强化学习方法相当灵活且通用，因为它同样可以应用于不同的设置。解决 `CartPole` 问题的 `DQL` 智能体也可以学习如何在金融市场中进行交易，尽管表现得不是很好。基于 `Finance` 环境和 `FQL` 智能体的改进，`FQL` 交易机器人在样本内（在训练集数据上）和样本外（在验证集数据上）都表现出了可观的性能。
+
+# 第四部分　算法交易
+
+> 成功意味着制造盈利，避免亏损。
+>
+> ——Martin Zweig
+
+第三部分涉及使用深度学习和强化学习技术发现金融市场中**统计**失效的问题。相比之下，第四部分关注的是识别和利用**经济**失效，而统计失效通常是其先决条件。利用经济失效的首选工具是**算法交易**，即基于交易机器人生成的预测自动执行交易策略。
+
+表 IV-1 以简化的方式比较了训练和部署交易机器人与构建和部署自动驾驶汽车的问题。
+
+**表 IV-1：自动驾驶汽车与交易机器人的比较**
+
+| 步骤 || 自动驾驶汽车 || 交易机器人 |
+| --- | --- | --- |
+| 训练 || 在虚拟和记录环境中训练人工智能 || 使用模拟和真实历史数据训练人工智能 |
+| --- | --- | --- |
+| 风险管理 || 添加规则以避免碰撞、车祸等 || 添加规则以避免大额损失、尽早获利等 |
+| 部署 || 人工智能与汽车硬件相结合，在街道上部署汽车并进行监控 || 人工智能与交易平台相结合，部署交易机器人进行真实交易，并进行监控 |
+
+第四部分由 3 章组成，按照表 IV-1 所示的 3 个步骤的结构，通过交易机器人来利用经济失效。也就是说，从交易策略的向量化回测开始，涵盖基于事件回测的风险管理措施分析，并在策略执行和部署的背景下讨论技术细节。
+
+*   第 10 章是关于算法交易策略的**向量化回测**，比如基于 `DNN` 进行市场预测的策略。这种方法对交易策略的经济潜力的初步判断既有效又富有洞察力，它还允许人们评估交易成本对经济绩效的影响。
+*   第 11 章涵盖了管理算法交易策略风险的核心方面，比如使用止损单或止盈单。除了向量化回测，这一章还介绍了基于事件的回测，以作为一种更灵活的方法来判断交易策略的经济潜力。
+*   第 12 章主要是关于交易策略的执行，主题是历史数据的提取、基于这些数据的交易机器人的训练、实时数据的流传输以及订单的放置。这一章不仅介绍了适合算法交易的交易平台 Oanda 及其 `API`，还涵盖了以自动方式部署人工智能算法交易策略的基本方法。
+
+> ![](Images/image00322.jpeg)　**算法交易策略**
+>
+> 算法交易是一个广阔的领域，包含不同类型的交易策略。例如，有些人试图在执行大订单期间最小化市场影响（流动性算法），有些人则试图尽可能地复制衍生工具的回报（动态对冲/ 复制）。这些例子表明，并非所有算法交易策略都以利用经济失效为目标。就本书而言，关注由（以 `DNN` 智能体或 `RL` 智能体形式出现的）交易机器人做出的预测所产生的算法交易策略似乎是合适且有用的。
+
+# 第 10 章　向量化回测
+
+> 特斯拉（Tesla）首席执行官、连续创业的科技公司创始人 Elon Musk 表示，在未来两年内，特斯拉汽车在美国各地能被车主自己召唤并自动驾驶接送车主。
+>
+> ——Samuel Gibbs，2016 年
+>
+> 在股市中，只要在重大变动中站在正确的一边，就能赚大钱。
+>
+> ——Martin Zweig
+
+术语**向量化回测**指的是对算法交易策略［比如基于“密集神经网络”（`DNN`）进行市场预测策略］进行回测的技术方法。Hilpisch（2018，第 15 章；2020，第 4 章）涵盖了基于一些具体向量化回测的例子。在这种情况下，**量化**是指一种编程范式，它在很大程度上甚至完全依赖于向量化代码（在 `Python` 中没有任何循环的代码）。向量化代码通常对于 `Numpy` 或 `pandas` 这样的包是一种很好的实践，在前面的章节中已进行了广泛的应用。向量化代码的好处是代码更简洁且易于阅读，而且在许多重要场景中执行更快。不过，在回测交易策略方面，它可能没有第 11 章中介绍和使用的基于事件的反向测试灵活。
+
+拥有一个比简单的基准预测工具更好的人工智能预测器很重要，但通常不足以产生 alpha 收益（高于市场收益率，可能经过了风险调整）。例如，对基于预测的交易策略来说，正确预测大的市场波动很重要，而不仅仅是正确预测大多数（可能相当小的）市场波动。向量化回测是一种简单而快速地指出交易策略经济价值潜力的方式。
+
+与自动驾驶汽车相比，向量化回测就像在虚拟环境中测试自动驾驶汽车的人工智能，只是为了看看它在无风险环境中“总体”表现如何。然而，对自动驾驶汽车的人工智能来说，虽然**平均**表现良好很重要，但最重要的是看它如何掌控危急甚至极端的情况。这种人工智能应该平均造成“零伤亡”，而不是存在 0.1 或 0.5 的“伤亡”概率。对金融领域的人工智能来说，虽然与自动驾驶汽车的人工智能不完全相同，但也是类似的，重要的是正确把握大的市场波动。本章关注的是金融人工智能体（交易机器人）的纯性能，而第 11 章更深入地探讨了风险评估和标准风控措施的回测。
+
+10.1 节介绍了向量化回测的一个简单示例，该示例使用简单移动平均值作为技术指标和日终数据。这让你在开始的时候就有了一个深刻的可视化且更容易理解的方法。10.2 节利用日终数据对 `DNN` 进行了训练，并基于预测的策略对其经济绩效进行了回测。10.3 节则对日内数据进行了相同的操作。在所有的例子中，按比例的交易成本都以假定的买卖价差的形式包括在内。
+
+## 10.1　基于`SMA`策略的回测
+
+本节介绍了使用简单移动平均线（`SMA`）作为技术指标的经典交易策略的向量化回测。以下代码实现了必要的导入和配置，并检索了欧元 / 美元货币对的日终数据。
+
+```
+In [1]: import os
+        import math
+        import numpy as np
+        import pandas as pd
+        from pylab import plt, mpl
+        plt.style.use('seaborn')
+        mpl.rcParams['savefig.dpi'] = 300
+        mpl.rcParams['font.family'] = 'serif'
+        pd.set_option('mode.chained_assignment', None)
+        pd.set_option('display.float_format', '{:.4f}'.format)
+        np.set_printoptions(suppress=True, precision=4)
+        os.environ['PYTHONHASHSEED'] = '0'
+
+In [2]: url = 'http://hilpisch.com/aiif_eikon_eod_data.csv'  ➊
+
+In [3]: symbol = 'EUR='  ➊
+
+In [4]: data = pd.DataFrame(pd.read_csv(url, index_col=0,
+                                        parse_dates=True).dropna()[symbol])  ➊
+
+In [5]: data.info()  ➊
+        <class 'pandas.core.frame.DataFrame'>
+        DatetimeIndex: 2516 entries, 2010-01-04 to 2019-12-31
+        Data columns (total 1 columns):
+         #   Column  Non-Null Count  Dtype
+        ---   ------  --------------  -----
+         0    EUR=    2516 non-null   float64
+        dtypes: float64(1)
+        memory usage: 39.3 KB
+```
+
+➊ 检索欧元 / 美元的日终数据。

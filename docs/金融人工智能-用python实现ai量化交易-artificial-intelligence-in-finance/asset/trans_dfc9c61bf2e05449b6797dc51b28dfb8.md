@@ -1,0 +1,165 @@
+
+
+否则，随机变量的**预期值**会被定义为：
+
+![\\mathbf{E}^{P}(S)=\\sum\\limits\_{\\mathbb{E}\\in\\mathcal{F}}P(\\mathbb{E})\\times S(\\mathbb{E})](Images/image00383.gif)
+
+一般来说，我们会假设金融经济系统是**完美**的。也就是说，不存在交易成本，可得的资产具有固定的价格，并且有无限的数量，一切事物都以光速发生，各经济主体都拥有完备且对称的信息。
+
+## 3.1.2 数字模拟例子
+
+假设现在一种简单**静态**经济模式在 ![{\\mathit{\\Omega},\\mathcal{F},P\\}](Images/image00375.gif)**风险**下，满足以下条件。
+1. ![\\mathit{\\Omega}\\equiv{u,d\\}](Images/image00384.gif)
+2. ![\\mathcal{F}\\equiv\\wp(\\mathit{\\Omega})](Images/image00381.gif)
+3. ![P\\equiv\\left{P(\\{u\\})=\\dfrac{1}{2},P(\\{d\\})=\\dfrac{1}{2}\\right\\}](Images/image00385.gif)
+
+### 交易的资产
+
+在这种经济模式中，有两种资产可交易。第一种是风险资产，比如**股票**资产。该资产今天有一个确定的价格 ![S\_0=10](Images/image00386.gif)，明天的支付则是不确定的，但满足以下随机变量形式。
+
+![](Images/image00387.jpeg)
+
+第二种是无风险资产，比如**债券**资产。该资产今天是确定的价格 ![B\_0=10](Images/image00388.gif)，明天的支付也是确定的，满足以下条件。
+
+![](Images/image00389.jpeg)
+
+正式形式上，这一经济模型可以被写成 ![\\mathcal{M}^2=({\\mathit{\\Omega},\\mathcal{F},P\\},\\mathbb{A})](Images/image00390.gif)，其中 ![\\mathbb{A}](Images/image00391.gif)代表今天的可交易资产价格向量 ![\\boldsymbol{M}\_0=(S\_0,B\_0)^{{\\rm T}}](Images/image00392.gif)，明天的市场支付则用以下形式表示。
+
+![\\boldsymbol{M}\_1=\\begin{pmatrix}S^u\_1&B^u\_1\\\\S^d\_1&B^d\_1\\end{pmatrix}](Images/image00393.gif)
+
+### 套利定价理论
+
+例如在一种经济模式中，我们能解决如何以执行价为 ![K=14.5](Images/image00394.gif)的股票获得**欧式看涨期权**的公允价值的问题。无套利的欧式看涨期权 ![C\_0](Images/image00395.gif)可以借助股票和债券的组合来复制期权 ![\\phi](Images/image00396.gif)的支付 ![C\_1](Images/image00397.gif)。这个投资组合复制的价格也必须是欧式看涨期权的价格。否则，（无限）套利利润将成为可能。在 `Python` 中，这样的复制很容易做到。3
+
+```
+In [1]: import numpy as np
+
+In [2]: S0 = 10  ➊
+            B0 = 10  ➊
+
+In [3]: S1 = np.array((20, 5))  ➋
+            B1 = np.array((11, 11))  ➋
+
+In [4]: M0 = np.array((S0, B0))  ➌
+            M0  ➌
+Out[4]: array([10, 10])
+
+In [5]: M1 = np.array((S1, B1)).T  ➍
+            M1  ➍
+Out[5]: array([[20, 11],
+                   [ 5, 11]])
+
+In [6]: K = 14.5  ➎
+
+In [7]: C1 = np.maximum(S1 - K, 0)  ➏
+            C1  ➏
+Out[7]: array([5.5, 0. ])
+
+In [8]: phi = np.linalg.solve(M1, C1)  ➐
+            phi  ➐
+Out[8]: array([ 0.36666667, -0.16666667])
+
+In [9]: np.allclose(C1, np.dot(M1, phi))  ➑
+Out[9]: True
+
+In [10]: C0 = np.dot(M0, phi)  ➒
+             C0  ➒
+Out[10]: 2.0
+```
+
+➊ 股票和债券今日价格。
+➋ 股票和债券明日不确定的回报。
+➌ 市场价格向量。
+➍ 市场回报矩阵。
+➎ 股票期权行权价格。
+➏ 期权的不确定的回报。
+➐ 复制投资组合 ![\\phi](Images/image00396.gif)。
+➑ 检查复制的投资组合与期权的回报是否一致。
+➒ 复制投资组合的价格是期权的无套利价格。
+
+> ![](Images/image00322.jpeg)　**套利定价**
+
+> 如前面的例子所示，套利定价理论［如**资产定价基本定理**（`FTAP`）］被认为是具有最稳健数学结果的最强大的金融理论之一。4 除其他原因外，这是由于期权的价格可以从其他可观察的市场参数（比如，期权标的股票的价格）中得出。从这个意义上说，套利定价并不关心如何先提出一个公允的股价，而只是把它作为一种输入。因此，套利定价在很少且较宽松的假设（比如**不存在套利假设**）下就已经能起作用了，这是许多其他金融理论所不能做到的。注意，甚至无须使用概率测度就可以推导出套利价格。
+
+3关于风险中性定价与套利定价的详细信息，请参阅 Hilpisch（2015）的第 4 章。
+4再次参阅 Hilpisch（2015）的第 4 章和其中给出的参考文献。
+
+## 3.2 预期效用理论
+
+预期效用理论（`EUT`）是金融理论的基石。自 20 世纪 40 年代提出以来，`EUT` 一直是不确定性决策建模的核心范式之一。5 基本上每一本关于金融理论和投资理论的入门教科书中都有对 `EUT` 的描述。原因之一是，金融领域的其他核心结果都可以从 `EUT` 范式中衍生出来。
+
+5有关更多背景和细节，请参阅 Eichberger 和 Harper（1997）的第 1 章或 Varian（2010）的第 12 章。
+
+### 3.2.1 假设和结论
+
+`EUT` 是一种公理化理论，可以追溯到 von Neumann 和 Morgenstern（1944）的开创性工作。这里的**公理化**意味着理论的主要结果只能从少量公理中推导出来。有关公理效用理论、不同变体和应用的综述，请参阅 Fishburn（1968）。
+
+#### 公理和规范性理论
+
+在 Wolfram MathWorld 上，可以找到公理的以下定义：公理是一个不证自明的真理性命题。
+
+当面对不确定性下的选择时，`EUT` 通常建立在很少的关于经济主体**偏好**的主要公理之上。尽管与公理的定义并不完全一致，但并非全部的公理都被所有的经济学家认为是“不证自明的真理”。
+
+von Neumann 和 Morgenstern（1944）的第 25 页关于公理选择的评论如下：
+
+> 公理的选择并不是纯粹的客观任务。人们通常预期公理选择能达到某些确定的目的，得到一些特定的定理或从公理中导出的定理，在这种程度上，公理选择问题是精确且客观的。但除此之外，还有其他一些重要但并不那么精确的要求：公理不应太多，其体系应尽可能简单且清晰明了，每条公理应具有直接的直观意义，可直接判断其合理性。
+
+从这个意义上说，一个公理集构成了规范性理论（部分）的世界，由该理论建模。公理集收集了最小的假设集，这些假设集应被事先满足，而不是通过某种形式的证明或类似的证明。在列出导致 `EUT` 的一个公理集之前，面对不确定性选择时，这里用“![\\succeq](Images/image00398.gif)”正式形式以表示有关经济主体本身偏好。
+
+#### 经济主体的偏好
+
+假定一个经济主体 ![\\mathcal{M}^2](Images/image00399.gif)的偏好 ![\\succeq](Images/image00398.gif)是在模型经济中面临两种可交易资产的投资选择问题。例如，该经济主体可能有权选择投资组合 ![\\phi\_{A}](Images/image00400.gif)，从而导致未来带来的回报是 ![A=\\phi\_{A}\\times M\_1](Images/image00401.gif)；该经济主体可能也有权选择投资组合 ![\\phi\_{B}](Images/image00402.gif)，从而导致未来带来的回报是 ![B=\\phi\_{B}\\times M\_1](Images/image00403.gif)。假定这个经济主体的偏好 ![\\succeq](Images/image00398.gif)是对未来回报而不是投资组合的选择偏好。如果这个经济主体强偏好 ![A](Images/image00404.gif)回报而不是 ![B](Images/image00405.gif)回报，就可以写为 ![A\\succ B](Images/image00406.gif)，反之可以写为 ![A\\prec B](Images/image00407.gif)。如果该经济主体对两种偏好都无差异，就可以写为 ![A\\sim B](Images/image00408.gif)。在这一描述下，`EUT` 的可能的一个公理集包括以下几个方面。
+
+**完备性**
+一个经济主体能够对所有的回报进行排序。排序必须是以下三种情况之一：![A\\succ B](Images/image00406.gif)、![A\\prec B](Images/image00407.gif)或 ![A\\sim B](Images/image00408.gif)。
+
+**传递性**
+如果有第三个组合 ![\\phi\_{C}](Images/image00409.gif)未来的回报是 ![C=\\phi\_{C}\\times M\_1](Images/image00410.gif)，那么若 ![A\\succ B](Images/image00406.gif)且 ![B\\succ C](Images/image00411.gif)，则 ![A\\succ C](Images/image00412.gif)。
+
+**连续性**
+如果 ![A\\succ B\\succ C](Images/image00413.gif)，那么存在一个数 ![\\alpha\\in\[0,1\]](Images/image00414.gif)，使得 ![B\\sim\\alpha A+(1-\\alpha)C](Images/image00415.gif)。
+
+**独立性**
+若 ![A\\sim B](Images/image00408.gif)，则 ![\\alpha A+(1-\\alpha)C\\sim\\alpha B+(1-\\alpha)C](Images/image00416.gif)。同样，若 ![A\\succ B](Images/image00406.gif)，则 ![\\alpha A+(1-\\alpha)C\\succ\\alpha B+(1-\\alpha)C](Images/image00417.gif)。
+
+**主导性**
+如果存在 ![C\_1=\\alpha\_1A+(1-\\alpha\_1)C](Images/image00418.gif)和 ![C\_2=\\alpha\_2A+(1-\\alpha\_2)C](Images/image00419.gif)，则由 ![A\\succ C](Images/image00412.gif)和 ![C\_1\\succ C\_2](Images/image00420.gif)，可以得到 ![\\alpha\_1>\\alpha\_2](Images/image00421.gif)。
+
+#### 效用函数
+
+**效用函数**是一种用数学和数值的方式来表示一个经济主体偏好 ![\\succeq](Images/image00398.gif)的方法，因为这样的函数可以将一个数值赋值给特定的回报。在这种情况下，绝对数值是无关的，值得注意的是这些值所代表的次序。6 假设 ![\\mathbb{X}](Images/image00422.gif)表示经济主体表达偏好的所有可能的回报，那么效用函数 ![U](Images/image00423.gif)定义如下。
+
+![U:\\mathbb{X}\\to\\mathbb{R}\_+,x\\mapsto U(x)](Images/image00424.gif)
+
+如果 ![U](Images/image00423.gif)代表偏好 ![\\succeq](Images/image00398.gif)，那么下面的关系是正确的。
+
+![A\\succ B\\Rightarrow U(A)>U(B)](Images/image00425.gif)　　（强烈偏好）
+![A\\succeq B\\Rightarrow U(A)\\geqslant U(B)](Images/image00426.gif)　　（弱偏好）
+![A\\prec B\\Rightarrow U(A)<U(B)](Images/image00427.gif)　　（强烈不偏好）
+![A\\preceq B\\Rightarrow U(A)\\leqslant U(B)](Images/image00428.gif)　　（弱不偏好）
+![A\\sim B\\Rightarrow U(A)=U(B)](Images/image00429.gif)　　（无差异）
+
+效用函数 ![U](Images/image00423.gif)只能通过正线性变换来确定。因此，如果 ![U](Images/image00423.gif)代表偏好 ![\\succeq](Images/image00398.gif)，那么在 ![a,b>0](Images/image00430.gif)的条件下，![V=a+bU](Images/image00431.gif)也能代表偏好。关于效用函数，von Neumann 和 Morgenstern（1944）的第 25 页总结如下：“我们看到：如果效用的这个数值存在，那么它就是由一个线性变换决定的。也就是说，效用是一个线性变换的数。”
+
+#### 预期效用函数
+
+von Neumann 和 Morgenstern（1944）表明，如果经济主体的偏好 ![\\succeq](Images/image00398.gif)满足前面提到的 5 个公理，那么存在以下**预期效用函数**形式。
+
+![U:\\mathbb{X}\\to\\mathbb{R}\_+,x\\mapsto\\mathbf{E}^P(u(x))=\\sum\\limits^{\\mathit{\\Omega}}\_{\\omega}P(\\omega)u(x(\\omega))](Images/image00432.gif)
+
+这里，![u:\\mathbb{R}\\to\\mathbb{R},x\\mapsto u(x)](Images/image00433.gif)是一个单调递增、状态独立的函数，通常称为**伯努利效用**，比如 ![u(x)=\\ln(x)](Images/image00434.gif)、![u(x)=x](Images/image00435.gif)和 ![u(x)=x^2](Images/image00436.gif)。
+
+换句话说，预期效用函数 ![U](Images/image00423.gif)首先是给定状态回报 ![x(\\omega)](Images/image00437.gif)的函数 ![u](Images/image00438.gif)，并以给定状态发生概率 ![P(\\omega)](Images/image00439.gif)作为每一状态下效用的权重。在线性伯努利效用 ![u(x)=x](Images/image00435.gif)的特殊情况下，预期效用就是状态相关回报的简单预期值，即 ![U(x)=\\mathbf{E}^P(x)](Images/image00440.gif)。
+
+#### 风险规避
+
+在金融学中，**风险规避**的概念很重要。最常用于测量风险厌恶程度的是**绝对风险厌恶**（`ARA`）的 Arrow-Pratt 度量，这可以追溯到 Pratt（1964）。假设一个经济主体的独立于状态的伯努利效用函数是 ![u(x)](Images/image00441.gif)，那么 `ARA` 的 Arrow-Pratt 度量定义如下。
+
+![ARA(x)=-\\dfrac{u''(x)}{u'(x)},x\\geqslant0](Images/image00442.gif)
+
+根据这一测量标准，可以区分以下 3 种情况。
+
+![](Images/image00443.jpeg)
+
+在金融理论和模型中，风险规避和风险中性的假设通常认为是合适的。
+

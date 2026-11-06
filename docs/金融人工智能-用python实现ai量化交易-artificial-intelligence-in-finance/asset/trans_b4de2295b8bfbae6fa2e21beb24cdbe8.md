@@ -1,0 +1,274 @@
+
+
+## 10.1 基于 SMA 的策略回测
+
+该策略的理念如下：计算一个较短的 `SMA1`（如 42 天）和一个较长的 `SMA2`（如 258 天）。当 `SMA1` 高于 `SMA2` 时，就做多该金融工具。当 `SMA1` 低于 `SMA2` 时，就做空该金融工具。因为这个例子是以欧元 / 美元为基础的，所以做多或做空都很容易完成。
+
+下面的 Python 代码以向量化的方式计算 `SMA` 值，并将得到的时间序列与原始时间序列一起进行可视化（参见图 10-1）。
+
+```
+In [6]: data['SMA1'] = data[symbol].rolling(42).mean()  ➊
+
+In [7]: data['SMA2'] = data[symbol].rolling(258).mean()  ➋
+
+In [8]: data.plot(figsize=(10, 6));  ➌
+```
+
+➊ 计算较短的 `SMA1`。
+➋ 计算较长的 `SMA2`。
+➌ 可视化 3 个时间序列。
+
+![{%}](Images/image00654.jpeg)
+
+**图 10-1：欧元 / 美元及其 `SMA` 的时间序列数据**
+
+利用 `SMA` 时间序列数据，可以再次以向量化方式导出最终头寸。注意，由此产生的最终头寸值的时间序列要移动一天，以避免数据中的预测偏差。这种移动是必要的，因为 `SMA` 的计算包括当天的收盘值。因此，从某一天的 `SMA` 值得到的头寸对应着整个时间序列的第二天。
+
+图 10-2 会将最终头寸可视化为对其他时间序列的叠加。
+
+```
+In [9]: data.dropna(inplace=True)  ➊
+
+In [10]: data['p'] = np.where(data['SMA1'] > data['SMA2'], 1, -1)  ➋
+
+In [11]: data['p'] = data['p'].shift(1)  ➌
+
+In [12]: data.dropna(inplace=True)  ➊
+
+In [13]: data.plot(figsize=(10, 6), secondary_y='p');  ➍
+```
+
+➊ 删除包含 `NaN` 值的行。
+➋ 基于当天 `SMA` 值导出头寸值。
+➌ 将头寸值移动一天以避免预测偏差。
+❹ 可视化从 `SMA` 导出的位置值。
+
+![{%}](Images/image00655.jpeg)
+
+**图 10-2：欧元 / 美元、`SMA` 和最终头寸的时间序列数据**
+
+这里缺失了一个关键步骤，即将头寸与金融工具的收益率结合起来。由于可以很方便地用 `a+1` 表示多头头寸，用 `a-1` 表示空头头寸，因此这一步可将 `DataFrame` 对象的两列以向量化的方式相乘。如图 10-3 所展示的，基于 `SMA` 的交易策略的表现远远好于被动基准投资。
+
+```
+In [14]: data['r'] = np.log(data[symbol] / data[symbol].shift(1))  ➊
+
+In [15]: data.dropna(inplace=True)
+In [16]: data['s'] = data['p'] * data['r']  ➋
+
+In [17]: data[['r', 's']].sum().apply(np.exp)  ➌
+Out[17]: r   0.8640
+         s   1.3773
+         dtype: float64
+
+In [18]: data[['r', 's']].sum().apply(np.exp) - 1  ➍
+Out[18]: r   -0.1360
+         s    0.3773
+         dtype: float64
+
+In [19]: data[['r', 's']].cumsum().apply(np.exp).plot(figsize=(10, 6));  ➎
+```
+
+➊ 计算对数收益率。
+➋ 计算策略收益率。
+➌ 计算总收益。
+❹ 计算净收益。
+➎ 可视化总收益随时间的变化。
+
+![{%}](Images/image00656.jpeg)
+
+**图 10-3：被动基准投资和 `SMA` 策略的总体表现**
+
+到目前为止，收益数据并没有考虑交易成本。当然，在判断一项交易策略的经济价值潜力时，这些因素是至关重要的。在当前设置中，成比例交易成本可以轻松地包含在计算中。它的目的是确定交易何时发生，并将交易策略的收益降低一定的价值，以计入相关的买卖价差。如以下计算及图 10-2 所示，交易策略不会太频繁地改变头寸。因此，为了对交易成本产生一些有意义的影响，假设它们比通常看到的欧元 / 美元要高得多。在给定假设下，减去交易成本的净影响为几个百分点（参见图 10-4）。
+
+```
+In [20]: sum(data['p'].diff() != 0) + 2  ➊
+Out[20]: 10
+
+In [21]: pc = 0.005  ➋
+
+In [22]: data['s_'] = np.where(data['p'].diff() != 0,
+                               data['s'] - pc, data['s'])  ➌
+
+In [23]: data['s_'].iloc[0] -= pc  ➍
+
+In [24]: data['s_'].iloc[-1] -= pc  ➎
+
+In [25]: data[['r', 's', 's_']][data['p'].diff() != 0]  ➏
+Out[25]:                  r       s      s_
+         Date
+         2011-01-12  0.0123  0.0123  0.0023
+         2011-10-10  0.0198 -0.0198 -0.0248
+         2012-11-07 -0.0034 -0.0034 -0.0084
+         2014-07-24 -0.0001  0.0001 -0.0049
+         2016-03-16  0.0102  0.0102  0.0052
+         2016-11-10 -0.0018  0.0018 -0.0032
+         2017-06-05 -0.0025 -0.0025 -0.0075
+         2018-06-15  0.0035 -0.0035 -0.0085
+
+In [26]: data[['r', 's', 's_']].sum().apply(np.exp)
+Out[26]: r    0.8640
+         s    1.3773
+         s_   1.3102
+         dtype: float64
+
+In [27]: data[['r', 's', 's_']].sum().apply(np.exp) - 1
+Out[27]: r    -0.1360
+         s     0.3773
+         s_    0.3102
+         dtype: float64
+
+In [28]: data[['r', 's', 's_']].cumsum().apply(np.exp).plot(figsize=(10, 6));
+```
+
+➊ 计算交易数量，包括进入交易和退出交易。
+➋ 固定交易成本比例（故意设置得很高）。
+➌ 因交易成本调整策略收益。
+❹ 为**进入**交易调整策略收益。
+➎ 为**退出**交易调整策略收益。
+➏ 显示常规交易在调整后的收益值。
+
+![{%}](Images/image00657.jpeg)
+
+**图 10-4：设置交易成本前后 `SMA` 策略的总体表现**
+
+交易策略带来的风险是什么？对一种基于方向预测且只采取多头头寸或空头头寸的交易策略来说，其风险以波动率（对数收益率的标准差）表示，与被动基准投资完全相同。
+
+```
+In [29]: data[['r', 's', 's_']].std()  ➊
+Out[29]: r    0.0054
+         s    0.0054
+         s_   0.0054
+         dtype: float64
+
+In [30]: data[['r', 's', 's_']].std() * math.sqrt(252)  ➋
+Out[30]: r    0.0853
+         s    0.0853
+         s_   0.0855
+         dtype: float64
+```
+
+➊ 日波动率。
+➋ 年化波动率。
+
+> ![](Images/image00322.jpeg)　**向量化回测**
+>
+> 向量化回测是一种强大而有效的方法，可以回测基于预测的交易策略的“纯”收益。它还可以考虑成比例交易成本的影响。然而，它并不太适合分析典型的风险管理措施，比如（跟踪）止损单或获利单。第 11 章会对此进行论述。
+
+## 10.2　基于DNN 的每日策略的回测
+
+上一节在一个简单且易于可视化的交易策略的基础上列出了向量化回测方案。同样的方案也可以应用于基于 `DNN` 的交易策略，只需进行最小的技术调整。下面训练一个 `Keras` 的 `DNN` 模型，其所使用的数据与上一个例子中的数据相同。但是，如第 7 章所述，需要向 `DataFrame` 对象添加不同的特征和滞后项。
+
+```
+In [31]: data = pd.DataFrame(pd.read_csv(url, index_col=0,
+                                         parse_dates=True).dropna()[symbol])
+
+In [32]: data.info()
+         <class 'pandas.core.frame.DataFrame'>
+         DatetimeIndex: 2516 entries, 2010-01-04 to 2019-12-31
+         Data columns (total 1 columns):
+          #   Column  Non-Null Count  Dtype
+        ---   ------  --------------  -----
+         0    EUR=    2516 non-null   float64
+         dtypes: float64(1)
+         memory usage: 39.3 KB
+
+In [33]: lags = 5
+
+In [34]: def add_lags(data, symbol, lags, window=20):
+             cols = []
+             df = data.copy()
+             df.dropna(inplace=True)
+             df['r'] = np.log(df / df.shift(1))
+             df['sma'] = df[symbol].rolling(window).mean()
+             df['min'] = df[symbol].rolling(window).min()
+             df['max'] = df[symbol].rolling(window).max()
+             df['mom'] = df['r'].rolling(window).mean()
+             df['vol'] = df['r'].rolling(window).std()
+             df.dropna(inplace=True)
+             df['d'] = np.where(df['r'] > 0, 1, 0)
+             features = [symbol, 'r', 'd', 'sma', 'min', 'max', 'mom', 'vol']
+             for f in features:
+                 for lag in range(1, lags + 1):
+                     col = f'{f}_lag_{lag}'
+                     df[col] = df[f].shift(lag)
+                     cols.append(col)
+             df.dropna(inplace=True)
+             return df, cols
+
+In [35]: data, cols = add_lags(data, symbol, lags, window=20)
+```
+
+下面的 Python 代码会完成其他导入并定义 `set_seeds()` 函数和 `create_model()` 函数。
+
+```
+In [36]: import random
+         import tensorflow as tf
+         from keras.layers import Dense, Dropout
+         from keras.models import Sequential
+         from keras.regularizers import l1
+         from keras.optimizers import Adam
+         from sklearn.metrics import accuracy_score
+         Using TensorFlow backend.
+
+In [37]: def set_seeds(seed=100):
+             random.seed(seed)
+             np.random.seed(seed)
+             tf.random.set_seed(seed)
+         set_seeds()
+
+In [38]: optimizer = Adam(learning_rate=0.0001)
+
+In [39]: def create_model(hl=2, hu=128, dropout=False, rate=0.3,
+                          regularize=False, reg=l1(0.0005),
+                          optimizer=optimizer, input_dim=len(cols)):
+             if not regularize:
+                 reg = None
+             model = Sequential()
+             model.add(Dense(hu, input_dim=input_dim,
+                          activity_regularizer=reg,
+                          activation='relu'))
+             if dropout:
+                 model.add(Dropout(rate, seed=100))
+             for _ in range(hl):
+                 model.add(Dense(hu, activation='relu',
+                              activity_regularizer=reg))
+                 if dropout:
+                     model.add(Dropout(rate, seed=100))
+             model.add(Dense(1, activation='sigmoid'))
+             model.compile(loss='binary_crossentropy',
+                           optimizer=optimizer,
+                           metrics=['accuracy'])
+             return model
+```
+
+基于历史数据的序列训练-测试分割，下面的 Python 代码首先会根据标准化特征数据来训练 `DNN` 模型。
+
+```
+In [40]: split = '2018-01-01'  ➊
+
+In [41]: train = data.loc[:split].copy()  ➊
+
+In [42]: np.bincount(train['d'])  ➋
+Out[42]: array([ 982, 1006])
+
+In [43]: mu, std = train.mean(), train.std()  ➌
+
+In [44]: train_ = (train - mu) / std  ➌
+
+In [45]: set_seeds()
+         model = create_model(hl=2, hu=64)  ➍
+
+In [46]: %%time
+         model.fit(train_[cols], train['d'],
+                 epochs=20, verbose=False,
+                 validation_split=0.2, shuffle=False)  ➎
+         CPU times: user 2.93 s, sys: 574 ms, total: 3.5 s
+         Wall time: 1.93 s
+
+Out[46]: <keras.callbacks.callbacks.History at 0x7fc9392f38d0>
+
+In [47]: model.evaluate(train_[cols], train['d'])  ➏
+         1988/1988 [==============================] - 0s 17us/step
+
+Out[47]: [0.6745863538872549, 0.5925553441047668]
+```

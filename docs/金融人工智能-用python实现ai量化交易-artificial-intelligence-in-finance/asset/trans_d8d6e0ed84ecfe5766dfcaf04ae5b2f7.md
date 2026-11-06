@@ -1,0 +1,200 @@
+
+
+![{%}](Images/image00596.jpeg)
+
+**图 4-18：标准正态分布随机数的直方图和 PDF**
+
+相比之下，图 4-19 说明了正态分布的 PDF 与直方图显示的数据无关。
+
+```
+In [16]: return_histogram(numbers)
+```
+
+![{%}](Images/image00597.jpeg)
+
+**图 4-19：离散数字的直方图和正态 PDF**
+
+将正态分布与数据进行比较的另一种方法是绘制分位数-分位数（Q - Q）图，如图 4-20 所示。对正态分布的数字来说，数字本身（大部分）会位于 Q - Q 平面的一条直线上。
+
+```
+In [17]: def return_qqplot(rets, title=''):
+                 ''' 生成收益率的Q-Q图
+                 '''
+                 fig = sm.qqplot(rets, line='s', alpha=0.5)
+                 fig.set_size_inches(10, 6)
+                 plt.title(title)
+                 plt.xlabel('theoretical quantiles')
+                 plt.ylabel('sample quantiles')
+    
+In [18]: return_qqplot(snrn)
+```
+
+![{%}](Images/image00598.jpeg)
+
+**图 4-20：标准正态分布数的 Q - Q 图**
+
+图 4-21 所示的离散数的 Q - Q 图与图 4-20 所示的完全不同。
+
+```
+In [19]: return_qqplot(numbers)
+```
+
+![{%}](Images/image00599.jpeg)
+
+**图 4-21：离散数的 Q - Q 图**
+
+最后，还可以使用统计方法测试来检查一组数字是否符合正态分布。以下 Python 函数实现了 3 个测试。
+
+*   正态偏度测试
+*   正态峰度测试
+*   正态偏度和峰度组合测试
+
+![p](Images/image00600.gif)值低于 0.05 通常被认为是符合正态的反指标，也就是说，数字分布是正态分布的假设被拒绝了。从这个意义上说，如图 4-21 所示，两个数据集的 ![p](Images/image00600.gif)值说明了问题。
+
+```
+In [20]: def print_statistics(rets):
+                 print('RETURN SAMPLE STATISTICS')
+                 print('---------------------------------------------')
+                 print('Skew of Sample Log Returns {:9.6f}'.format(
+                             scs.skew(rets)))
+                 print('Skew Normal Test p-value   {:9.6f}'.format(
+                             scs.skewtest(rets)[1]))
+                 print('---------------------------------------------')
+                 print('Kurt of Sample Log Returns {:9.6f}'.format(
+                             scs.kurtosis(rets)))
+                 print('Kurt Normal Test p-value   {:9.6f}'.format(
+                             scs.kurtosistest(rets)[1]))
+                 print('---------------------------------------------')
+                 print('Normal Test p-value        {:9.6f}'.format(
+                             scs.normaltest(rets)[1]))
+                 print('---------------------------------------------')
+    
+In [21]: print_statistics(snrn)
+             RETURN SAMPLE STATISTICS
+             ---------------------------------------------
+             Skew of Sample Log Returns  0.016793
+             Skew Normal Test p-value    0.492685
+             ---------------------------------------------
+             Kurt of Sample Log Returns -0.024540
+             Kurt Normal Test p-value    0.637637
+             ---------------------------------------------
+             Normal Test p-value         0.707334
+             ---------------------------------------------
+    
+In [22]: print_statistics(numbers)
+             RETURN SAMPLE STATISTICS
+             ---------------------------------------------
+             Skew of Sample Log Returns  0.689254
+             Skew Normal Test p-value    0.000000
+             ---------------------------------------------
+             Kurt of Sample Log Returns -1.141902
+             Kurt Normal Test p-value    0.000000
+             ---------------------------------------------
+             Normal Test p-value         0.000000
+             ---------------------------------------------
+```
+
+## 2. 实际的金融收益率
+
+下面的 Python 代码会从远程数据源检索日终数据（如本章前面所述），并计算数据集中包含的所有金融时间序列的对数收益率。从图 4-22 中可以看出，标准普尔 500 指数的对数收益率以柱状图表示，与具有相同样本期望值和标准差的正态 PDF 相比，显示出了更高的峰值和更肥的尾部。这两个特征是**典型的事实**，因为在不同的金融工具中它们可以一直被观察到。
+
+```
+In [23]: raw = pd.read_csv('http://hilpisch.com/aiif_eikon_eod_data.csv',
+                               index_col=0, parse_dates=True).dropna()
+    
+In [24]: rets = np.log(raw / raw.shift(1)).dropna()
+    
+In [25]: symbol = '.SPX'
+    
+In [26]: return_histogram(rets[symbol].values, symbol)
+```
+
+![{%}](Images/image00601.jpeg)
+
+**图 4-22：标准普尔 500 指数对数收益率的频率分布和正态 PDF**
+
+当考虑图 4-23 中标准普尔 500 指数对数收益率的 Q - Q 图时，也可以得到类似的结论，尤其是 Q - Q 图很好地可视化了肥尾（点位于左侧的直线下方与点位于右侧的直线上方）。
+
+```
+In [27]: return_qqplot(rets[symbol].values, symbol)
+```
+
+![{%}](Images/image00602.jpeg)
+
+**图 4-23：标准普尔 500 指数对数收益率的 Q - Q 图**
+
+下面的 Python 代码针对从数据集中选择的金融时间序列，对实际金融收益率的正态性进行了统计检验。实际金融收益率通常无法通过这些测试。因此，可以肯定的是，如果要描述金融现实，则很难对金融收益率进行正态性假设。
+
+```
+In [28]: symbols = ['.SPX', 'AMZN.O', 'EUR=', 'GLD']
+    
+In [29]: for sym in symbols:
+                 print('\n{}'.format(sym))
+                 print(45 * '=')
+                 print_statistics(rets[sym].values)
+    
+.SP X
+    =============================================
+    RETURN SAMPLE STATISTICS
+    ---------------------------------------------
+    Skew of Sample Log Returns -0.497160
+    Skew Normal Test p-value    0.000000
+    ---------------------------------------------
+    Kurt of Sample Log Returns  4.598167
+    Kurt Normal Test p-value    0.000000
+    ---------------------------------------------
+    Normal Test p-value         0.000000
+    ---------------------------------------------
+    
+    AMZN.O
+    =============================================
+    RETURN SAMPLE STATISTICS
+    ---------------------------------------------
+    Skew of Sample Log Returns  0.135268
+    Skew Normal Test p-value    0.005689
+    ---------------------------------------------
+    Kurt of Sample Log Returns  7.344837
+    Kurt Normal Test p-value    0.000000
+    ---------------------------------------------
+    Normal Test p-value         0.000000
+    ---------------------------------------------
+    
+    EUR=
+    =============================================
+    RETURN SAMPLE STATISTICS
+    ---------------------------------------------
+    Skew of Sample Log Returns -0.053959
+    Skew Normal Test p-value    0.268203
+    ---------------------------------------------
+    Kurt of Sample Log Returns  1.780899
+    Kurt Normal Test p-value    0.000000
+    ---------------------------------------------
+    Normal Test p-value         0.000000
+    ---------------------------------------------
+    
+    GLD
+    =============================================
+    RETURN SAMPLE STATISTICS
+    ---------------------------------------------
+    Skew of Sample Log Returns -0.581025
+    Skew Normal Test p-value    0.000000
+    ---------------------------------------------
+    Kurt of Sample Log Returns  5.899701
+    Kurt Normal Test p-value    0.000000
+    ---------------------------------------------
+    Normal Test p-value         0.000000
+    ---------------------------------------------
+```
+
+> ![](Images/image00324.jpeg)　**正态性假设**
+>
+> 尽管正态性假设可以很好地近似现实世界中许多现象（比如物理学中的问题），但它并不适合用在金融收益率上，因为这样做可能会带来风险。几乎没有金融收益率样本数据集能够通过统计正态性检验。除了在一些领域被证明是有用的以外，这一假设在如此多的金融模型中被发现的一个主要原因是它导致了优雅且相对简单的数学模型、计算和证明。
+
+4 `NumPy` 的随机数生成器生成的数字是伪随机数，不过它们在本书中被称为随机数。
+
+### 4.5.2　线性关系
+
+与金融模型和理论中“无处不在”的正态性假设类似，变量之间的**线性关系**似乎是另一个广泛存在的基准。本节讨论了一个重要的问题，即 CAPM 中假设的股票 beta 系数与其预期（实际）收益率之间是线性关系。一般来说，beta 系数越高，在市场表现良好的情况下，预期收益率就越高，这是由 beta 系数本身给定的固定比例所决定的。
+
+回想一下上一节中对所选择的科技股的 beta 系数、CAPM 预期收益率和实际收益率的计算，为方便起见，下面的 Python 代码重复了这些内容。这一次，beta 系数也被添加到了结果的 `DataFrame` 对象中。
+
