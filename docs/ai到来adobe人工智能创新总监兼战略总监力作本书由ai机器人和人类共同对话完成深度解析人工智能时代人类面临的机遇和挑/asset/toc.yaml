@@ -1,0 +1,86 @@
+level_changes:
+- line: 86
+  before: 3
+  after: 1
+- line: 104
+  before: 4
+  after: 2
+- line: 108
+  before: 4
+  after: 2
+- line: 202
+  before: 3
+  after: 2
+- line: 210
+  before: 4
+  after: 3
+- line: 216
+  before: 4
+  after: 3
+- line: 248
+  before: 4
+  after: 3
+- line: 266
+  before: 4
+  after: 3
+- line: 282
+  before: 4
+  after: 3
+- line: 294
+  before: 4
+  after: 3
+- line: 304
+  before: 4
+  after: 3
+- line: 318
+  before: 4
+  after: 3
+- line: 326
+  before: 3
+  after: 2
+- line: 338
+  before: 4
+  after: 3
+- line: 746
+  before: 3
+  after: 2
+- line: 1585
+  before: 3
+  after: 2
+text_changes:
+- line: 144
+  before: 6. 超级框架：超人类策略
+  after: 6. 超级框架：超人类战略
+- line: 156
+  before: 7. 速度：推动工作流程
+  after: 7. 速度：推进工作流程
+- line: 172
+  before: 11. 结果：商业转变
+  after: 11. 结果：企业变革
+- line: 194
+  before: 16. 人工智能未来：变革世界
+  after: 16. 人工智能的未来：变革世界
+- line: 476
+  before: 无限数据：带来更好的结果
+  after: 3. 无限数据：带来更好的结果
+- line: 608
+  before: 4. 基础设施：基础需要
+  after: 4. 基础设施：基础需求
+- line: 1256
+  before: 性能表现：衡量与优化
+  after: 9. 性能表现：衡量与优化
+- line: 1389
+  before: 实验：可执行的好奇心
+  after: 10. 实验：可执行的好奇心
+- line: 1788
+  before: 安全、隐私和伦理
+  after: 13. 安全、隐私和伦理
+- line: 2790
+  before: 1\. 变化着的环境：客户行为及客户期望
+  after: 1. 变化着的环境：客户行为及客户期望
+- line: 2799
+  before: 2\. 数字化变革：从信息传递到用户体验
+  after: 2. 数字化变革：从信息传递到用户体验
+- line: 2811
+  before: 4\. 基础设施：基础需要
+  after: 4. 基础设施：基础需求
