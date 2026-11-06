@@ -1,0 +1,59 @@
+level_changes:
+- line: 368
+  before: 3
+  after: 2
+- line: 1001
+  before: 1
+  after: 2
+- line: 1227
+  before: 1
+  after: 2
+- line: 1710
+  before: 3
+  after: 2
+- line: 1850
+  before: 1
+  after: 2
+- line: 2004
+  before: 1
+  after: 2
+- line: 2174
+  before: 3
+  after: 2
+- line: 2388
+  before: 1
+  after: 2
+- line: 2702
+  before: 1
+  after: 2
+- line: 233
+  before: 2
+  after: 4
+- line: 236
+  before: 2
+  after: 4
+- line: 239
+  before: 2
+  after: 3
+- line: 1865
+  before: 3
+  after: 2
+text_changes:
+- line: 143
+  before: '`AI`基础'
+  after: AI 基础
+- line: 147
+  before: 机器学习（Machine Learning，`ML`）
+  after: 机器学习（Machine Learning，ML）
+- line: 151
+  before: 深度学习（Deep Learning，`DL`）
+  after: 深度学习（Deep Learning，DL）
+- line: 167
+  before: 计算机视觉（Computer Vision，`CV`）
+  after: 计算机视觉（Computer Vision，CV）
+- line: 199
+  before: 自然语言处理（Natural Language Processing，`NLP`）
+  after: 自然语言处理（Natural Language Processing，NLP）
+- line: 207
+  before: 生成式 AI（Generative AI，`GenAI`）
+  after: 生成式 AI（Generative AI，GenAI）
