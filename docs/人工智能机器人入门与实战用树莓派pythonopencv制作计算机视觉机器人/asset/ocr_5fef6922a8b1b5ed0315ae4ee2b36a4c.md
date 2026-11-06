@@ -1,0 +1,45 @@
+```
+```python
+ser = serial.Serial("/dev/ttyAMA0", 9600) # 初始化串口
+# 用两个变量记录两个舵机的 PWM 值
+pwm1 = 1500
+pwm2 = 1500
+# 令云台转到初始位置
+ser.write(get_message(1, pwm1, 40))
+ser.write(get_message(2, pwm2, 40))
+stage = 0 # 顺序流程变量, 0 表示识别, 1 表示追踪
+get_face = False # 表示当前是否找到人脸
+start_time = time.time() # 记录最近一次失去人脸的时间信息
+face_cascade = cv2.CascadeClassifier('/home/pi/cascade/haarcascade_frontalface_default.xml') # 载入人脸分类器
+cap = cv2.VideoCapture(0) # 开始读取摄像头信号
+while cap.isOpened():
+    (ret, frame) = cap.read() # 读取每一帧视频图像为 frame
+    frame = cv2.flip(frame, 0) # 将图像上下镜像翻转
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) # 将图像转换为灰度图
+    faces = face_cascade.detectMultiScale(gray, minSize=(100, 100), flags=cv2.CASCADE_FIND_BIGGEST_OBJECT) # 检测人脸的位置
+    if stage == 0: # 若处于识别阶段
+        face_locations = [] # 定义一个列表存储人脸的位置信息
+        for (left, top, width, height) in faces: # 遍历找到的人脸的位置信息
+            # 计算出右下角的坐标
+            right = left + width
+            bottom = top + height
+            # 为 face_locations 添加一个人脸的位置信息, 注意需要将其强制转换为 int
+            face_locations.append((int(top), int(right), int(bottom), int(left)))
+            rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB) # 得到每一帧的 RGB 图像信息
+            face_encodings = face_recognition.face_encodings(rgb_frame, face_locations) # 计算特定位置的人脸特征信息
+            for face_encoding in face_encodings: # 遍历得到的所有人脸特征信息
+                matches = face_recognition.compare_faces(my_face_encoding, face_encoding, tolerance=0.5) # 将它与已知的人脸进行比较
+                if True in matches: # 如果检测成功
+                    stage = 1 # 进入追踪阶段
+                    get_face = True # 改变 get_face 的取值
+    elif stage == 1: # 若处于追踪阶段
+        if len(faces) > 0: # 如果寻找到人脸
+            # 如果此前 get_face 为 False, 说明找到了人脸, 如果距离上次失去人脸超过 5 秒, 则播放音频
+            if not get_face and time.time() - start_time > 5:
+                # 只有当前未播放任何音频时才播放
+                if (not t1.isAlive()) and (not t2.is_alive()):
+                    t1.start()
+            get_face = True # 改变 get_face 的取值
+        else: # 如果没有找到人脸
+```
+```

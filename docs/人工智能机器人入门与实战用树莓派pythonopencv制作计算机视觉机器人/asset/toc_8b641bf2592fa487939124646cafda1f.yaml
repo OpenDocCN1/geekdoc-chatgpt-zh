@@ -1,0 +1,125 @@
+level_changes:
+- line: 52
+  before: 2
+  after: 1
+- line: 57
+  before: 2
+  after: 3
+- line: 67
+  before: 2
+  after: 3
+- line: 109
+  before: 2
+  after: 3
+- line: 213
+  before: 2
+  after: 1
+- line: 342
+  before: 2
+  after: 1
+- line: 792
+  before: 2
+  after: 3
+- line: 870
+  before: 2
+  after: 1
+- line: 919
+  before: 2
+  after: 3
+- line: 945
+  before: 2
+  after: 3
+- line: 959
+  before: 2
+  after: 3
+- line: 992
+  before: 2
+  after: 3
+- line: 1064
+  before: 2
+  after: 3
+- line: 1105
+  before: 2
+  after: 3
+- line: 1151
+  before: 2
+  after: 3
+- line: 1339
+  before: 2
+  after: 1
+- line: 1909
+  before: 2
+  after: 1
+- line: 2165
+  before: 2
+  after: 3
+- line: 2793
+  before: 2
+  after: 1
+- line: 2796
+  before: 3
+  after: 2
+- line: 2824
+  before: 3
+  after: 2
+- line: 3786
+  before: 2
+  after: 3
+- line: 3813
+  before: 2
+  after: 3
+- line: 4001
+  before: 2
+  after: 3
+- line: 4013
+  before: 2
+  after: 3
+- line: 4035
+  before: 2
+  after: 3
+- line: 4056
+  before: 2
+  after: 3
+- line: 4088
+  before: 2
+  after: 3
+- line: 4138
+  before: 2
+  after: 3
+- line: 4154
+  before: 2
+  after: 3
+- line: 4187
+  before: 2
+  after: 3
+- line: 4230
+  before: 2
+  after: 3
+- line: 4478
+  before: 2
+  after: 3
+- line: 4555
+  before: 2
+  after: 3
+- line: 3712
+  before: 2
+  after: 1
+text_changes:
+- line: 25
+  before: 前 言
+  after: 前言
+- line: 52
+  before: 第 1 章
+  after: 第 1 章 人工智能与机器人概述
+- line: 870
+  before: 第 4 章
+  after: 第 4 章 树莓派 GPIO 入门
+- line: 1339
+  before: 第 5 章
+  after: 第 5 章 机器视觉与图像识别
+- line: 1909
+  before: 第 6 章
+  after: 第 6 章 机械臂控制
+- line: 2793
+  before: 第 7 章
+  after: 第 7 章 人脸识别与机器学习
