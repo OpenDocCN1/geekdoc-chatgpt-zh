@@ -1,0 +1,35 @@
+level_changes:
+- line: 1191
+  before: 1
+  after: 2
+- line: 1418
+  before: 3
+  after: 2
+- line: 1991
+  before: 3
+  after: 2
+- line: 2557
+  before: 3
+  after: 2
+- line: 2077
+  before: 2
+  after: 3
+- line: 2317
+  before: 2
+  after: 3
+- line: 2865
+  before: 2
+  after: 3
+text_changes:
+- line: 17
+  before: 内 容 提 要
+  after: 内容提要
+- line: 1310
+  before: 使用 Python 自带的 IDLE 工具编写程序
+  after: 使用 pip 安装第三方库
+- line: 1368
+  before: 使用 Thonny 编写 Python
+  after: 使用 Thonny 安装第三方库
+- line: 2557
+  before: 读者服务
+  after: 读者服务：
