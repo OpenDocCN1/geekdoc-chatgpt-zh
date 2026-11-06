@@ -1,0 +1,7 @@
++   堡：詹姆斯·林德图书馆，2012 年 )，http://www.jameslindlibrary.org/articles/hippocrates-timeless-still/.
++   4. David K. Osborne, ‘Hippocrates: father of medicine’, Greek Medicine. net, 2015 年，http://www.greekmedicine.net/whos_who/Hippocrates.html.
++   5. Richard Colgan, ‘Is there room for art in evidence-based medicine?’, 《美国医学协会伦理学杂志》, 虚拟导师 13: 1, 2011年1月, 52–54 页，http://journalofethics.ama-assn.org/2011/01/msoc1-1101.html.
++   6. 李约瑟：《中国科学技术史》，第 6 卷，生物学及相关技术，第 VI 分册，医学，南森·席文（剑桥：剑桥大学出版社，2004 年），143 页，https://monoskop.org/images/1/16/Needham_Joseph_Science_and_Civilisation_in_China_Vol_6-6_Biology_and_Biological_Technology_Medicine.pdf.
++   7. ‘Ignaz Semmelweis’, Brought to Life: Exploring the History of Medicine（伦敦：科学博物馆），http://broughttolife.sciencemuseum.org.uk/broughttolife/people/ignazsemmelweis.
++   8. 安迪·贝克（Andy Beck）的语录源自私人谈话。
++   9. Joann G. Elmore, Gary M. Longton, Patricia A. Carney, Berta M. Geller, Tracy Onega, Anna N. A. Tosteson, Heidi D. Nelson, Margaret S. Pepe, Kimberly H. Allison, Stuart J. Schnitt, Frances P. O’ Malley and Donald L. Weaver, ‘Diagnostic concordance among pathologists interpreting breast biopsy specimens’, 《美国医学会杂志》, 2015 年 3 月 17 日第 11 期第 313 卷, 1122–1132 页，

@@ -1,0 +1,5 @@
+和汤姆·考普森（Tom Copson），没有你们，就没有现在的我。
+
+还要感谢我的受访人（有些在书中已提到），帮助塑造整本书的立意：乔纳森·罗森（Jonathan Rowson）、奈杰尔·哈维（Nigel Harvey）、亚当·班福拉多（Adam Benforado）、贾尔斯·纽厄尔（Giles Newell）、理查德·贝克（Richard Berk）、希娜·厄温（Sheena Urwin）、斯蒂夫·科尔根（Steyve Colgan）、曼迪普·哈米（Mandeep Dhami）、艾德里安·韦勒（Adrian Weller）、托比·戴维斯（Toby Davies）、罗伯·詹金斯（Rob Jenkins）、乔恩·凯尼伍斯基（Jon Kanevsky）、蒂曼德拉·哈克尼斯（Timandra Harkness）、丹·波普尔（Dan Popple）和西米德兰兹郡警察局团队、安迪·贝克（Andy Beck）、杰克·斯蒂尔格（Jack Stilgoe）、卡罗琳·兰斯（Caroline Rance）、保罗·纽曼（Paul Newman）、菲利斯·埃拉密（Phyllis Illarmi）、阿曼德·莱昂尼（Armand Leoni）、大卫·科普（David Cope）、埃德·芬恩（Ed Finn）、凯特·德夫林（Kate Devlin）、希莉·娅海曼（She lia Hayman）、汤姆·查特温（Tom Chatwin）、卡尔·冈布里奇（Carl Gombrich）、约翰尼·莱恩（Johnny Ryan）、乔恩·克劳克罗夫特（Jon Crowcroft）和富兰克·凯莉（Frank Kelly）。
+
+还有来自 Network Typing（译者注：一家位于伦敦的转录公司）的苏·韦伯（Sue Webb）和黛比·恩莱特（Debbie Enright），以及莎伦·理查德森（Sharon Richardson）、斯如稀·拉奥（Shruthi Rao）和威尔·斯托尔（Will Storr），对于本书的结构起到关键性作用。另外，在本书初现雏形之时，有幸得到詹姆斯·富乐克
