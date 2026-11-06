@@ -1,0 +1,362 @@
+
+## 图 4：音频信号生成的可视化
+
+使用媒体播放器播放文件`generated_audio.wav`，以查看的外观。这将是`784 Hz`信号和噪声信号的混合信号。
+
+# 合成音调以产生音乐
+
+前面的部分介绍了如何生成简单的单调，但意义不大。它只是信号中的单个频率。让我们使用该原理通过将不同的音调拼接在一起来合成音乐。我们将使用诸如`A`、`C`、`G`和`F`之类的标准音来生成音乐。为了查看这些标准音调的频率映射，[请查看以下链接](http://www.phy.mtu.edu/~suits/notefreqs.html)。
+
+让我们使用此信息来生成音乐信号。
+
+创建一个新的 Python 文件并导入以下包：
+
+```
+import json
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.io.wavfile import write 
+```
+
+定义一个函数以根据输入参数生成音调：
+
+```
+# Synthesize the tone based on the input parameters
+def tone_synthesizer(freq, duration, amplitude=1.0, sampling_freq=44100):
+    # Construct the time axis
+    time_axis = np.linspace(0, duration, duration * sampling_freq) 
+```
+
+使用指定的参数构造音频信号并返回：
+
+```
+ # Construct the audio signal
+
+    signal = amplitude * np.sin(2 * np.pi * freq * time_axis)
+    return signal.astype(np.int16) 
+```
+
+定义`main`函数。让我们定义输出音频文件名：
+
+```
+if __name__=='__main__':
+    # Names of output files
+    file_tone_single = 'generated_tone_single.wav' 
+    file_tone_sequence = 'generated_tone_sequence.wav' 
+```
+
+我们将使用一个音调映射文件，其中包含从音调名称（例如`A`、`C`和`G`）到相应频率的映射：
+
+```
+ # Source: http://www.phy.mtu.edu/~suits/notefreqs.html
+    mapping_file = 'tone_mapping.json' 
+```
+
+```
+ # Load the tone to frequency map from the mapping file
+    with open(mapping_file, 'r') as f:
+        tone_map = json.loads(f.read()) 
+```
+
+让我们生成持续时间为`3`秒的`F`音调：
+
+```
+ # Set input parameters to generate 'F' tone
+    tone_name = 'F'
+    # seconds 
+    duration = 3
+    # amplitude 
+    amplitude = 12000
+    # Hz 
+    sampling_freq = 44100 
+```
+
+提取相应的音频频率：
+
+```
+ # Extract the tone frequency
+    tone_freq = tone_map[tone_name] 
+```
+
+使用前面定义的音调合成器函数` tone_synthesizer`生成音调：
+
+```
+ # Generate the tone using the above parameters
+    synthesized_tone = tone_synthesizer(tone_freq, duration, amplitude, sampling_freq) 
+```
+
+将生成的音频信号写入输出文件：
+
+```
+ # Write the audio signal to the output file 
+    write(file_tone_single, sampling_freq, synthesized_tone) 
+```
+
+让我们生成一个音调序列，使其听起来像音乐。让我们定义一个音调序列，其持续时间以秒为单位：
+
+```
+ # Define the tone sequence along with corresponding 
+    # durations in seconds
+    tone_sequence = [('G', 0.4), ('D', 0.5), ('F', 0.3), ('C', 0.6), ('A', 0.4)] 
+```
+
+根据音调序列构造音频信号：
+
+```
+ # Construct the audio signal based on the above sequence
+    signal = np.array([])
+    for item in tone_sequence:
+        # Get the name of the tone
+        tone_name = item[0] 
+```
+
+对于每个音调，提取相应的频率：
+
+```
+ # Extract the corresponding frequency of the tone 
+        freq = tone_map[tone_name] 
+```
+
+提取相应的持续时间：
+
+```
+ # Extract the duration
+        duration = item[1] 
+```
+
+使用`tone_synthesizer`函数合成音色：
+
+```
+ # Synthesize the tone
+        synthesized_tone = tone_synthesizer(freq, duration, amplitude, sampling_freq) 
+```
+
+将其附加到主输出信号：
+
+```
+ # Append the output signal
+        signal = np.append(signal, synthesized_tone, axis=0) 
+```
+
+将主输出信号保存到输出文件：
+
+```
+ # Save the audio in the output file
+    write(file_tone_sequence, sampling_freq, signal) 
+```
+
+完整代码为文件`synthesizer.py`中提供的。如果运行代码，它将生成两个输出文件-`generated_tone_single.wav`和`generated_tone_sequence.wav`。
+
+您可以使用媒体播放器播放音频文件，以听一下的声音。
+
+# 提取语音特征
+
+我们学习了如何将时域信号转换为频域。频域特征已在所有语音识别系统中广泛使用。我们之前讨论的概念是对该概念的介绍，但实际的频域特征要复杂一些。将信号转换到频域后，我们需要确保以特征向量的形式使用该信号。这就是`梅尔频谱系数`（`MFCC`）的概念。`MFCC`是工具，用于从给定音频信号中提取频域特征。
+
+为了从音频信号中提取频率特征，`MFCC`首先提取功率谱。然后，它使用过滤器组和`离散余弦变换`（`DCT`）提取特征。如果您有兴趣进一步研究`MFCC`，[请查看以下链接](http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs)。
+
+我们将使用一个名为`python_speech_features`的包来提取`MFCC`特征。[该包在这里可用](http://python-speech-features.readthedocs.org/en/latest)。
+
+为了易于使用，相关的文件夹已包含在代码包中。您将在代码包中看到一个名为`features`的文件夹，其中包含使用此包所需的文件。让我们看看如何提取`MFCC`特征。
+
+创建一个新的 Python 文件并导入以下包：
+
+```
+import numpy as np
+import matplotlib.pyplot as plt 
+from scipy.io import wavfile 
+from python_speech_features import mfcc, logfbank 
+```
+
+读取输入的音频文件并提取第一个`10,000`样本进行分析：
+
+```
+# Read the input audio file
+sampling_freq, signal = wavfile.read('random_sound.wav') 
+```
+
+```
+# Take the first 10,000 samples for analysis
+signal = signal[:10000] 
+```
+
+提取`MFCC`：
+
+```
+# Extract the MFCC features
+features_mfcc = mfcc(signal, sampling_freq) 
+```
+
+打印`MFCC`参数：
+
+```
+# Print the parameters for MFCC
+print('\nMFCC:\nNumber of windows =', features_mfcc.shape[0])
+print('Length of each feature =', features_mfcc.shape[1]) 
+```
+
+绘制`MFCC`特征：
+
+```
+# Plot the features
+features_mfcc = features_mfcc.T
+plt.matshow(features_mfcc)
+plt.title('MFCC') 
+```
+
+提取过滤器组特征：
+
+```
+# Extract the Filter Bank features
+features_fb = logfbank(signal, sampling_freq) 
+```
+
+打印过滤器组的参数：
+
+```
+# Print the parameters for Filter Bank
+print('\nFilter bank:\nNumber of windows =', features_fb.shape[0])
+print('Length of each feature =', features_fb.shape[1]) 
+```
+
+绘制特征：
+
+```
+# Plot the features
+features_fb = features_fb.T
+plt.matshow(features_fb)
+plt.title('Filter bank') 
+```
+
+```
+plt.show() 
+```
+
+完整代码在文件`feature_extractor.py`中给出。如果运行代码，您将看到两个屏幕截图。第一个屏幕截图显示了`MFCC`特征：
+
+![](Images/55314884884dffbbf1d889b4ff02a3c7.png)
+
+图 5：`MFCC`特征映射
+
+第二张屏幕截图显示了过滤器组特征：
+
+![](Images/7318136fe75dc44c2ccbdd2b16c41c12.png)
+
+图 6：过滤器组特征映射
+
+您将看到以下打印出来：
+
+![](Images/57717df036bcd4ac6c2fc0a8ded043cd.png)
+
+图 7：`MFCC`和过滤器组特征输出
+
+正如我们在上一张图表中所看到的以及在本章中学到的那样，将声音转换为图片可能非常有用，并且它可以让我们以不同的方式分析声音并得出我们否则会错过的有见识的见解。
+
+# 识别口语
+
+现在已经学习了分析语音信号的所有技术，让我们继续学习如何识别语音。语音识别系统将音频信号作为输入并识别正在说的单词。`隐马尔可夫模型`（`HMM`）将用于此任务。
+
+正如我们在上一章中讨论的那样，`HMM`非常适合分析序列数据。音频信号是时间序列信号，是序列数据的体现。假定输出是由系统经过一系列隐藏状态生成的。我们的目标是找出这些隐藏状态是什么，以便我们可以识别信号中的单词。如果您有兴趣深入研究，[请查看以下链接](https://web.stanford.edu/~jurafsky/slp3/A.pdf)。
+
+我们将使用名为`hmmlearn`的包来构建我们的语音识别系统。[您可以在此处了解更多信息](http://hmmlearn.readthedocs.org/en/latest)。
+
+您可以通过运行以下命令来安装包：
+
+```
+$ pip3 install hmmlearn 
+```
+
+为了训练我们的语音识别系统，我们需要每个单词的音频文件数据集。我们将使用[这个页面](https://code.google.com/archive/p/hmm-speech-recognition/downloads)上可用的数据库。
+
+为了易于使用，在代码包中为您提供了一个名为`data`的文件夹，其中包含所有这些文件。该数据集包含七个不同的单词。每个词都有一个与之关联的文件夹，每个文件夹有 15 个音频文件。
+
+在每个文件夹中，我们将使用 14 个进行训练，使用 1 个进行测试。请注意，这实际上是一个非常小的数据集。在现实世界中，您将使用更大的数据集来构建语音识别系统。我们正在使用该数据集来熟悉语音识别，并了解如何构建一个系统来识别语音。
+
+我们将为每个单词建立一个`HMM`模型，并存储所有模型以供参考。当我们想识别未知音频文件中的单词时，我们将在所有这些模型中运行该单词，并选择得分最高的单词。让我们看看如何建立这个系统。
+
+创建一个新的 Python 文件并导入以下包：
+
+```
+import os
+import argparse
+import warnings 
+```
+
+```
+import numpy as np
+from scipy.io import wavfile 
+```
+
+```
+from hmmlearn import hmm
+from python_speech_features import mfcc 
+```
+
+定义函数解析输入参数。我们需要指定输入文件夹，其中包含训练语音识别系统所需的音频文件：
+
+```
+# Define a function to parse the input arguments
+def build_arg_parser():
+    parser = argparse.ArgumentParser(description='Trains the HMM-based speech recognition system')
+    parser.add_argument("--input-folder", dest="input_folder", required=True, help="Input folder containing the audio files for training")
+    return parser 
+```
+
+定义一个训练`HMM`的类：
+
+```
+# Define a class to train the HMM
+class ModelHMM(object):
+    def __init__(self, num_components=4, num_iter=1000):
+        self.n_components = num_components
+        self.n_iter = num_iter 
+```
+
+定义协方差类型和`HMM`类型：
+
+```
+ self.cov_type = 'diag' 
+        self.model_name = 'GaussianHMM' 
+```
+
+初始化变量，我们将在其中存储每个单词的模型：
+
+```
+ self.models = [] 
+```
+
+使用指定的参数定义模型：
+
+```
+ self.model = hmm.GaussianHMM(n_components=self.n_components, 
+                covariance_type=self.cov_type, n_iter=self.n_iter) 
+```
+
+定义训练模型的方法：
+
+```
+ # 'training_data' is a 2D numpy array where each row is 13-dimensional 
+    def train(self, training_data):
+        np.seterr(all='ignore')
+        cur_model = self.model.fit(training_data)
+        self.models.append(cur_model) 
+```
+
+定义一种方法来计算输入数据的分数：
+
+```
+ # Run the HMM model for inference on input data
+    def compute_score(self, input_data):
+        return self.model.score(input_data) 
+```
+
+定义一个函数为训练数据集中的每个单词构建模型：
+
+```
+# Define a function to build a model for each word
+def build_models(input_folder):
+    # Initialize the variable to store all the models
+    speech_models = [] 
+```
+
+解析输入目录：

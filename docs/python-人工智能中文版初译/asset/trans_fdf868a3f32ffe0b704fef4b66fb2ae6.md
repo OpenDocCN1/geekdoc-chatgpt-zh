@@ -1,0 +1,336 @@
+
+
+在前面的可视化代码中，`ticks`变量引用不同类的数量。 在我们的案例中，我们有五个不同的标签。
+
+让我们打印分类报告：
+
+```
+# Classification report
+targets = ['Class-0', 'Class-1', 'Class-2', 'Class-3', 'Class-4'] print('\n', classification_report(true_labels, pred_labels, target_names=targets)) 
+```
+
+分类报告打印每个类别的表现。 如果运行代码，您将看到以下屏幕截图：
+
+![](Images/d3262b26202cb73a9d8e8ed0bb281940.png)
+
+图 7：分类报告中每个类别的表现
+
+白色表示较高的值，而黑色表示较低的值，如在图像右侧的颜色图键上所示。 在理想情况下，对角正方形将全为白色，其他所有区域均为黑色。 这表示 100% 的准确率。
+
+输出应为如下：
+
+![](Images/499fc0dbb427dfeccac713ec2ac2d18c.png)
+
+图 8：分类报告中的值
+
+可以看出，平均`precision`为 85%，平均`recall`为 73%。 而`f1-score`为 75%。 根据我们正在使用的域，这些结果可能是好结果，也可能是不好的结果。 如果所讨论的领域是试图确定患者是否患有癌症，而我们的准确率只能达到 85%，那么将有 15% 的人口被错误分类，并且会非常不满意。 如果我们正在分析的领域是某人是否打算购买产品并且我们的精度结果相同，则可以认为这是本垒打，可以大大减少我们的营销费用。
+
+该部分的代码在文件`confusion_matrix.py`中给出。
+
+# 支持向量机
+
+支持向量机（`SVM`）是分类器，使用类别之间的分隔超平面进行定义。 此超平面是直线的 `N` 维版本。 给定带标签的训练数据和二分类问题，`SVM` 会找到将训练数据分为两类的最佳超平面。 这很容易扩展到`N`类的问题。
+
+让我们考虑具有两类点的二维情况。 考虑到它是 2D，我们只必须处理 2D 平面上的点和线。 这比在高维空间中的向量和超平面更容易可视化。 当然，这是 `SVM` 问题的简化版本，但是在将其应用于高维数据之前，了解它并对其进行可视化非常重要。
+
+考虑下图：
+
+![](Images/ad2e60638d1f9a2387fadeb453ade476.png)
+
+图 9：用超平面分离两个类
+
+点分为两类，我们想找到最佳的超平面来将这两个类分开。 但是我们如何定义最优？ 在此图片中，实线代表最佳超平面。 您可以绘制许多不同的线以将两类点分开，但这条线是最好的分隔符，因为它可以使每个点到分隔线的距离最大化。 虚线上的点称为支持向量。 两条虚线之间的垂直距离称为最大边距。 您可以将最大边距视为可以为给定数据集绘制的最粗边框。
+
+## 使用支持向量机将收入数据分类
+
+我们将构建一个支持向量机分类器，根据 14 个属性预测给定人员的收入等级。 我们的目标是查看年收入是高于还是低于 50,000 美元。 因此，这是一个二分类问题。 我们将使用[这个页面](https://archive.ics.uci.edu/ml/datasets/Census+Income)上提供的普查收入数据集。 此数据集中需要注意的一项是，每个数据点都是单词和数字的混合体。 我们不能使用原始格式的数据，因为算法不知道如何处理单词。 我们无法使用标签编码器来转换所有内容，因为数字数据很有价值。 因此，我们需要结合使用标签编码器和原始数值数据来构建有效的分类器。
+
+创建一个新的 Python 文件并导入以下包：
+
+```
+import numpy as np
+import matplotlib.pyplot as plt from sklearn import preprocessing from sklearn.svm 
+import LinearSVC
+from sklearn.multiclass import OneVsOneClassifier 
+from sklearn import cross_validation 
+```
+
+我们将使用文件`income_data.txt`加载数据。 此文件包含收入详细信息：
+
+```
+# Input file containing 
+data input_file = 'income_data.txt' 
+```
+
+为了从文件中加载数据，我们需要对其进行预处理以准备进行分类。 每个类别最多使用 25,000 个数据点：
+
+```
+# Read the data X = []
+y = []
+count_class1 = 0
+count_class2 = 0
+max_datapoints = 25000 
+```
+
+打开文件并开始阅读以下行：
+
+```
+with open(input_file, 'r') as f:
+    for line in f.readlines():
+        if count_class1 >= max_datapoints and count_class2 >= max_datapoints:
+            break
+        if '?' in line:
+            continue 
+```
+
+每行都用逗号分隔，因此我们需要对其进行相应的拆分。 每行的最后一个元素代表标签。 根据该标签，我们将其分配给一个类：
+
+```
+ data = line[:-1].split(', ')
+
+        if data[-1] == '<=50K' and count_class1 < max_datapoints:
+            X.append(data)
+            count_class1 += 1
+
+        if data[-1] == '>50K' and count_class2 < max_datapoints:
+            X.append(data)
+            count_class2 += 1 
+```
+
+将列表转换为`numpy`数组，以便可以将其用作`sklearn`函数的输入：
+
+```
+# Convert to numpy array 
+X = np.array(X) 
+```
+
+如果任何属性是字符串，则需要对其进行编码。 如果是数字，则可以原样保留。 请注意，我们最终将使用多个标签编码器，并且需要跟踪所有这些标签编码器：
+
+```
+# Convert string data to numerical data 
+label_encoder = []
+X_encoded = np.empty(X.shape)
+for i,item in enumerate(X[0]):
+    if item.isdigit():
+        X_encoded[:, i] = X[:, i]
+    else:
+        label_encoder.append(preprocessing.LabelEncoder())
+        X_encoded[:, i] = label_encoder[-1].fit_transform(X[:, i])
+X = X_encoded[:, :-1].astype(int)
+y = X_encoded[:, -1].astype(int) 
+```
+
+使用线性核创建`SVM`分类器：
+
+```
+# Create SVM classifier
+classifier = OneVsOneClassifier(LinearSVC(random_state=0)) 
+```
+
+训练分类器：
+
+```
+# Train the classifier 
+classifier.fit(X, y) 
+```
+
+使用 80/20 分割进行交叉验证以进行训练和测试，然后预测训练数据的输出：
+
+```
+# Cross validation
+X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.2, random_state=5)
+classifier = OneVsOneClassifier(LinearSVC(random_state=0)) classifier.fit(X_train, y_train)
+y_test_pred = classifier.predict(X_test) 
+```
+
+计算分类器的 F1 得分：
+
+```
+# Compute the F1 score of the SVM classifier
+f1 = cross_validation.cross_val_score(classifier, X, y, scoring='f1_weighted', cv=3)
+print("F1 score: " + str(round(100*f1.mean(), 2)) + "%") 
+```
+
+现在分类器已经准备就绪，让我们看看如何获取随机输入数据点并预测输出。 让我们定义一个这样的数据点：
+
+```
+# Predict output for a test datapoint
+input_data = ['37', 'Private', '215646', 'HS-grad', '9', 'Never-married', 'Handlers-cleaners', 'Not-in-family', 'White', 'Male', '0', '0', '40', 'United-States'] 
+```
+
+在执行预测之前，需要使用之前创建的标签编码器对数据点进行编码：
+
+```
+# Encode test datapoint
+input_data_encoded = [-1] * len(input_data)
+count = 0
+for i, item in enumerate(input_data):
+    if item.isdigit():
+        input_data_encoded[i] = int(input_data[i])
+    else:
+        input_data_encoded[i] = int(label_encoder[count].transform(input_data[i]))
+        count += 1 
+```
+
+```
+input_data_encoded = np.array(input_data_encoded) 
+```
+
+现在我们准备使用分类器预测输出：
+
+```
+# Run classifier on encoded datapoint and print output
+predicted_class = classifier.predict(input_data_encoded)
+print(label_encoder[-1].inverse_transform(predicted_class)[0]) 
+```
+
+如果运行代码，则将花费几秒钟来训练分类器。 完成后，您将看到以下输出：
+
+```
+F1 score: 66.82% 
+```
+
+您还将看到测试数据点的输出：
+
+```
+<=50K 
+```
+
+如果检查该数据点中的值，您将看到它与小于 50K 类中的数据点紧密对应。 您可以通过使用不同的内核并尝试参数的多种组合来更改分类器的表现（F1 得分，准确率或查全率）。
+
+该部分的代码在文件`income_classifier.py`中给出。
+
+# 什么是回归？
+
+回归是估计输入和输出变量之间关系的过程。 需要注意的一项是输出变量是连续值实数。 因此，存在无限的可能性。 这与分类相反，在分类中，输出类别的数量是固定的。 这些类属于一组有限的可能性。
+
+在回归中，假设输出变量取决于输入变量，因此我们想看看它们是如何关联的。 因此，输入变量称为独立变量，也称为，称为预测变量，输出变量称为，称为因变量，也称为标准变量。 不需要输入变量彼此独立； 实际上，在许多情况下，输入变量之间存在相关性。
+
+回归分析有助于我们理解当我们更改某些输入变量而其他输入变量保持固定时输出变量的值如何变化。 在线性回归中，我们假设输入和输出之间的关系是线性的。 这给我们的建模过程带来了限制，但是它是快速高效的。
+
+有时，线性回归不足以解释输入和输出之间的关系。 因此，我们使用多项式回归，其中我们使用多项式来解释输入和输出之间的关系。 这在计算上更加复杂，但提供了更高的精度。 根据当前的问题，我们使用不同形式的回归来提取关系。 回归通常用于预测价格，经济型麦克风，价格变动等等。
+
+## 建立单变量回归器
+
+让我们看看如何构建单个变量回归模型。 创建一个新的 Python 文件并导入以下包：
+
+```
+import pickle 
+```
+
+```
+import numpy as np
+from sklearn import linear_model 
+import sklearn.metrics as sm 
+import matplotlib.pyplot as plt 
+```
+
+我们将使用提供给您的文件`data_singlevar_regr.txt`。 这是我们的数据源：
+
+```
+# Input file containing data 
+input_file = 'data_singlevar_regr.txt' 
+```
+
+这是一个逗号分隔的文件，因此我们可以使用单行函数调用轻松加载它：
+
+```
+# Read data
+data = np.loadtxt(input_file, delimiter=',') 
+X, y = data[:, :-1], data[:, -1] 
+```
+
+将其分为训练和测试：
+
+```
+# Train and test split 
+num_training = int(0.8 * len(X)) 
+num_test = len(X) - num_training 
+```
+
+```
+# Training data
+X_train, y_train = X[:num_training], y[:num_training] 
+```
+
+```
+# Test data
+X_test, y_test = X[num_training:], y[num_training:] 
+```
+
+创建一个线性回归对象并使用训练数据对其进行训练：
+
+```
+# Create linear regressor object
+regressor = linear_model.LinearRegression() 
+```
+
+```
+# Train the model using the training sets 
+regressor.fit(X_train, y_train) 
+```
+
+使用训练模型预测测试数据集的输出：
+
+```
+# Predict the output
+y_test_pred = regressor.predict(X_test) 
+```
+
+绘制输出：
+
+```
+# Plot outputs
+plt.scatter(X_test, y_test, color='green') 
+plt.plot(X_test, y_test_pred, color='black', linewidth=4) 
+plt.xticks(())
+plt.yticks(())
+plt.show() 
+```
+
+通过将参考实际输出的基本事实与预测输出进行比较，计算回归器的表现指标：
+
+```
+# Compute performance metrics 
+print("Linear regressor performance:")
+print("Mean absolute error =", round(sm.mean_absolute_error(y_test, y_test_pred), 2))
+print("Mean squared error =", round(sm.mean_squared_error(y_test, y_test_pred), 2))
+print("Median absolute error =", round(sm.median_absolute_error(y_test, y_test_pred), 2))
+print("Explain variance score =", round(sm.explained_variance_score(y_test, y_test_pred), 2))
+print("R2 score =", round(sm.r2_score(y_test, y_test_pred), 2)) 
+```
+
+创建模型后，我们可以将其保存到文件中，以便以后使用。 Python 提供了一个名为`pickle`的不错的模块，使我们能够执行此操作：
+
+```
+# Model persistence 
+output_model_file = 'model.pkl' 
+```
+
+```
+# Save the model
+with open(output_model_file, 'wb') as f:
+    pickle.dump(regressor, f) 
+```
+
+让我们从磁盘上的文件加载模型并执行预测：
+
+```
+# Load the model
+with open(output_model_file, 'rb') as f:
+    regressor_model = pickle.load(f) 
+```
+
+```
+# Perform prediction on test data
+y_test_pred_new = regressor_model.predict(X_test)
+print("\nNew mean absolute error =", round(sm.mean_absolute_error(y_test, y_test_pred_new), 2)) 
+```
+
+如果运行代码，将会看到以下屏幕：
+
+![](Images/2507b39d4a359cf713ede31870cbc026.png)
+
+图 10：执行预测后的输出
+
+您应该看到以下输出：

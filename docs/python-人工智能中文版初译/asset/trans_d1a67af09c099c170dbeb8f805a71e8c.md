@@ -1,0 +1,360 @@
+
+
+```
+ # Parse the input directory
+    for dirname in os.listdir(input_folder):
+        # Get the name of the subfolder
+        subfolder = os.path.join(input_folder, dirname)
+        if not os.path.isdir(subfolder):
+            continue 
+```
+
+提取标签：
+
+```
+ # Extract the label
+        label = subfolder[subfolder.rfind('/') + 1:] 
+```
+
+初始化变量以存储训练数据：
+
+```
+ # Initialize the variables
+        X = np.array([]) 
+```
+
+创建用于训练的文件列表：
+
+```
+ # Create a list of files to be used for training
+        # We will leave one file per folder for testing
+        training_files = [x for x in os.listdir(subfolder) if x.endswith('.wav')][:-1] 
+```
+
+```
+ # Iterate through the training files and build the models
+        for filename in training_files:
+            # Extract the current filepath
+            filepath = os.path.join(subfolder, filename) 
+```
+
+从当前文件读取音频信号：
+
+```
+ # Read the audio signal from the input file 
+            sampling_freq, signal = wavfile.read(filepath) 
+```
+
+提取 MFCC 特征：
+
+```
+ # Extract the MFCC features
+            with warnings.catch_warnings():
+                warnings.simplefilter('ignore')
+                features_mfcc = mfcc(signal, sampling_freq) 
+```
+
+将数据点附加到变量`X`：
+
+```
+ # Append to the variable X
+            if len(X) == 0:
+                X = features_mfcc
+            else:
+                X = np.append(X, features_mfcc, axis=0) 
+```
+
+初始化 HMM 模型：
+
+```
+ # Create the HMM model
+        model = ModelHMM() 
+```
+
+使用训练数据训练模型：
+
+```
+ # Train the HMM
+        model.train(X) 
+```
+
+将模型保存为当前单词：
+
+```
+ # Save the model for the current word 
+        speech_models.append((model, label)) 
+```
+
+```
+ # Reset the variable 
+        model = None 
+```
+
+```
+ return speech_models 
+```
+
+定义一个函数以在测试数据集上运行测试：
+
+```
+# Define a function to run tests on input files
+def run_tests(test_files):
+    # Classify input data
+    for test_file in test_files:
+        # Read input file
+        sampling_freq, signal = wavfile.read(test_file) 
+```
+
+提取 MFCC 特征：
+
+```
+ # Extract MFCC features
+        with warnings.catch_warnings(): 
+            simplefilter('ignore') 
+            features_mfcc = mfcc(signal, sampling_freq) 
+```
+
+定义变量以存储最高分数和输出标签：
+
+```
+ # Define variables
+        max_score = -float('inf')
+        output_label = None 
+```
+
+遍历每种模型以选择最佳模型：
+
+```
+ # Run the current feature vector through all the HMM
+        # models and pick the one with the highest score
+        for item in speech_models:
+            model, label = item 
+```
+
+求解分数并与最高分数进行比较：
+
+```
+ score = model.compute_score(features_mfcc)
+            if score > max_score:
+                max_score = score
+                predicted_label = label 
+```
+
+打印输出：
+
+```
+ # Print the predicted output
+        start_index = test_file.find('/') + 1
+        end_index = test_file.rfind('/')
+        original_label = test_file[start_index:end_index]
+        print('\nOriginal: ', original_label)
+        print('Predicted:', predicted_label) 
+```
+
+定义`main`函数并从输入参数获取输入文件夹：
+
+```
+if __name__=='__main__':
+    args = build_arg_parser().parse_args()
+    input_folder = args.input_folder 
+```
+
+为输入文件夹中的每个单词建立一个 HMM 模型：
+
+```
+ # Build an HMM model for each word 
+    speech_models = build_models(input_folder) 
+```
+
+我们在每个文件夹中保留了一个文件进行测试。 使用该文件来查看模型的准确率：
+
+```
+ # Test files -- the 15th file in each subfolder
+    test_files = []
+    for root, dirs, files in os.walk(input_folder):
+        for filename in (x for x in files if '15' in x):
+            filepath = os.path.join(root, filename)
+            test_files.append(filepath) 
+```
+
+```
+ run_tests(test_files) 
+```
+
+完整代码在文件`speech_recognizer.py`中给出。 确保`data`文件夹与代码文件位于同一文件夹中。 运行代码，如下所示：
+
+```
+$ python3 speech_recognizer.py --input-folder data 
+```
+
+如果运行代码，将看到以下输出：
+
+![](Images/e962e066a94b26ab4d558ef7bf22383a.png)
+
+图 8：识别的单词输出
+
+正如我们在前面的编辑屏幕截图中所见一样，我们的语音识别系统可以正确识别的所有单词。
+
+# 总结
+
+在本章中，我们学习了语音识别。 我们讨论了如何使用语音信号和相关概念。 我们学习了如何可视化音频信号。 我们讨论了如何使用傅立叶变换将时域音频信号转换为频域。 我们讨论了如何使用预定义的参数生成音频信号。
+
+然后，我们使用此概念通过将音调缝合在一起来合成音乐。 我们讨论了 MFCC 及其在现实世界中的使用方式。 我们了解了如何从语音中提取频率特征。 我们学习了如何使用所有这些技术来构建语音识别系统。 在下一章中，我们将讨论自然语言处理以及如何通过建模并对其进行分类来分析文本数据。
+
+# 15 自然语言处理
+
+> 原文：[https://gitee.com/apachecn/apachecn-dl-zh/blob/master/docs/ai-py/15.md](https://gitee.com/apachecn/apachecn-dl-zh/blob/master/docs/ai-py/15.md) 
+
+在本章中，我们将学习自然语言处理（NLP）的令人兴奋的主题。 正如我们在前几章中所讨论的，拥有能够理解人类语言的计算机是真正使计算机变得更加有用的突破之一。 NLP 为开始了解如何实现提供了基础。
+
+我们将讨论并使用各种概念（例如标记化，词干和词形还原）来处理文本。 然后，我们将讨论*词袋*模型以及如何使用它对文本进行分类。 我们将看到如何使用机器学习来分析句子的情感。 然后，我们将讨论主题建模并实现一个系统来识别给定文档中的主题。
+
+在本章结束时，您将熟悉以下主题：
+
+*   安装相关的 NLP 包
+*   标记文本数据
+*   使用词干提取将单词转换为其基本形式
+*   使用词形还原将单词转换为其基本形式
+*   将文本数据分成块
+*   使用词袋模型提取文档项矩阵
+*   建立类别预测器
+*   构造性别标识符
+*   建立情感分析器
+*   使用潜在狄利克雷分布的主题建模
+
+## 包的介绍和安装
+
+**自然语言处理**（**NLP**）已成为现代系统的重要组成部分。 它广泛用于搜索引擎，会话界面，文档处理器等。 机器可以很好地处理结构化数据，但是在处理自由格式的文本时，它们会遇到困难。 NLP 的目标是开发使计算机能够理解自由格式文本并帮助他们理解语言的算法。
+
+自由处理-形式自然语言最具挑战性的之一是数量众多。 上下文在句子的理解中起着非常重要的作用。 人类天生善于理解语言。 尚不清楚人类如何轻松而直观地理解语言。 我们利用我们过去的知识和经验来理解对话，即使在几乎没有明确上下文的情况下，我们也可以迅速了解其他人在谈论什么。
+
+为了解决这个问题，NLP 研究人员开始使用机器学习方法来开发各种应用。 为了构建这样的应用，需要获取大量的文本，然后在该数据上训练算法以执行各种任务，例如对文本进行分类，分析情感和对主题进行建模。 对算法进行训练，以检测输入文本数据中的模式并从中获取见解。
+
+在本章中，我们将讨论用于分析文本和构建 NLP 应用的各种基础概念。 这将使我们了解如何从给定的文本数据中提取有意义的信息。 我们将使用称为**自然语言工具包**（**NLTK**）的 Python 包来构建这些应用。 您可以通过运行以下命令来安装它：
+
+```
+$ pip3 install nltk 
+```
+
+您可以在[这个页面](http://www.nltk.org)上找到有关 NLTK 的更多信息。
+
+为了访问 NLTK 提供的所​​有数据集，我们需要下载它。 通过键入以下内容打开 Python Shell：
+
+```
+$ python3 
+```
+
+现在，我们位于 Python Shell 中。 输入以下内容以下载数据：
+
+```
+>>> import nltk
+>>> nltk.download() 
+```
+
+在本章中，我们还将使用名为`gensim`的包。 `gensim`是健壮的语义建模库，对许多应用都非常有用。 可以通过运行以下命令来安装它：
+
+```
+$ pip3 install gensim 
+```
+
+您可能需要另一个包`pattern`才能使`gensim`正常运行。 您可以通过运行以下命令来安装它：
+
+```
+$ pip3 install pattern 
+```
+
+您可以在[这个页面](https://radimrehurek.com/gensim)上找到有关 Gensim 的更多信息。 现在，您已经安装了 NLTK 和`gensim`，让我们继续进行讨论。
+
+## 对文本数据分词
+
+当我们处理文本时，我们需要将其分解成较小的部分进行分析。 为此，可以应用分词。 分词是将文本分为一组片段的过程，例如单词或句子。 这些片段称为令牌。 根据我们要执行的操作，我们可以定义自己的方法以将文本分为许多标记。 让我们看一下如何使用 NLTK 对输入文本分词。
+
+创建一个新的 Python 文件并导入以下包：
+
+```
+from nltk.tokenize import sent_tokenize, \
+        word_tokenize, WordPunctTokenizer 
+```
+
+定义将用于分词的输入文本：
+
+```
+# Define input text
+input_text = "Do you know how tokenization works? It's actually \ 
+   quite interesting! Let's analyze a couple of sentences and \
+   figure it out." 
+```
+
+将输入文本分为句子标记：
+
+```
+# Sentence tokenizer 
+print("\nSentence tokenizer:")
+print(sent_tokenize(input_text)) 
+```
+
+将输入文本分为单词标记：
+
+```
+# Word tokenizer
+print("\nWord tokenizer:")
+print(word_tokenize(input_text)) 
+```
+
+使用`WordPunct`分词器将输入文本分为单词标记：
+
+```
+# WordPunct tokenizer
+print("\nWord punct tokenizer:")
+print(WordPunctTokenizer().tokenize(input_text)) 
+```
+
+完整代码在文件`tokenizer.py`中给出。 如果运行代码，将得到以下输出：
+
+![](Images/0f6ab8fc5dd2d0312d3fb76b1b988660.png)
+
+图 1：分词器输出
+
+句子分词程序将输入文本分为句子。 当涉及标点时，两个单词的分词器的行为会有所不同。 例如，单词`It's`由标点分词器划分的方式与常规分词器的划分方式不同。
+
+## 使用词干提取将单词转换为其基本形式
+
+使用文本意味着需要进行很多变化。 我们必须处理同一个单词的不同形式，并使计算机理解这些不同的单词具有相同的基本形式。 例如，单词`sing`可以以多种形式出现，例如`singer, singing, song, sung`等。 这组单词具有相似的含义。 此过程称为词干提取。 词干是产生词根/基词形态变异的一种方式。 人类可以轻松地识别这些基本形式并得出上下文。
+
+分析文本时，提取这些基本形式很有用。 这样做可以提取从输入文本中导出的有用统计信息。 词干提取是实现此目的的一种方法。 词干提取器的目标是将单词从其不同形式简化为通用的基本形式。 基本上，这是一种启发式过程，可切断单词的结尾以提取其基本形式。 让我们看看如何使用 NLTK 做到这一点。
+
+创建一个新的 Python 文件并导入以下包：
+
+```
+from nltk.stem.porter import PorterStemmer
+from nltk.stem.lancaster import LancasterStemmer
+from nltk.stem.snowball import SnowballStemmer 
+```
+
+定义一些输入词：
+
+```
+input_words = ['writing', 'calves', 'be', 'branded', 'horse', 'randomize', 
+        'possibly', 'provision', 'hospital', 'kept', 'scratchy', 'code'] 
+```
+
+为`Porter`，`Lancaster`和`Snowball`词干提取器创建对象：
+
+```
+# Create various stemmer objects
+porter = PorterStemmer()
+lancaster = LancasterStemmer()
+snowball = SnowballStemmer('english') 
+```
+
+创建用于表显示的名称列表，并相应地格式化输出文本：
+
+```
+# Create a list of stemmer names for display
+stemmer_names = ['PORTER', 'LANCASTER', 'SNOWBALL']
+formatted_text = '{:>16}' * (len(stemmer_names) + 1)
+print('\n', formatted_text.format('INPUT WORD', *stemmer_names),
+        '\n', '='*68) 
+```
+
+遍历单词，并使用以下三个词干器对其进行词干提取：

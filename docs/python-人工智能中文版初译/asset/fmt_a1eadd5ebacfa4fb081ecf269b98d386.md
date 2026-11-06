@@ -1,0 +1,379 @@
+
+# K 近邻算法示例
+
+```
+# Number of nearest neighbors
+k = 5 
+```
+
+定义一个测试数据点，该数据点将用于提取最近的 K 个邻居：
+
+```
+# Test data point 
+test_data_point = [4.3, 2.7] 
+```
+
+使用圆形黑色标记绘制输入数据：
+
+```
+# Plot input data
+plt.figure()
+plt.title('Input data')
+plt.scatter(X[:,0], X[:,1], marker='o', s=75, color='black') 
+```
+
+使用输入数据创建并训练 K 近邻模型。 使用此模型提取到测试数据点最近邻：
+
+```
+# Build K Nearest Neighbors model
+knn_model = NearestNeighbors(n_neighbors=k, algorithm='ball_tree').fit(X) 
+distances, indices = knn_model.kneighbors(test_data_point) 
+```
+
+打印从模型中提取的最近邻：
+
+```
+# Print the 'k' nearest neighbors
+print("\nK Nearest Neighbors:")
+for rank, index in enumerate(indices[0][:k], start=1):
+    print(str(rank) + " ==>" + X[index]) 
+```
+
+可视化最近邻：
+
+```
+# Visualize the nearest neighbors along with the test datapoint
+plt.figure()
+plt.title('Nearest neighbors')
+plt.scatter(X[:, 0], X[:, 1], marker='o', s=75, color='k')
+plt.scatter(X[indices][0][:][:, 0], X[indices][0][:][:, 1],
+        marker='o', s=250, color='k', facecolors='none')
+plt.scatter(test_data_point[0], test_data_point[1],
+        marker='x', s=75, color='k') 
+```
+
+```
+plt.show() 
+```
+
+完整代码在文件`k_nearest_neighbors.py`中给出。 如果运行代码，您将看到两个屏幕截图。 第一个屏幕截图表示输入数据：
+
+![](Images/2dd73ad2ce0b637951281dc55e99b5fa.png)
+
+图 1：输入数据集的可视化
+
+第二张屏幕截图代表五个最近邻。 使用十字显示测试数据点，并圈出最近邻点：
+
+![](Images/267bb30d9f55c94b7e72b36569e3d1e3.png)
+
+图 2：五个最近邻图
+
+您将看到以下输出：
+
+![](Images/f51aa2608c0cb85c940874a41c94e537.png)
+
+图 3：K 近邻输出
+
+上图显示了最接近测试数据点的五个点。 现在我们已经学习了如何构建和运行 K 近邻模型，在下一节中，我们将基于该知识并使用它来构建 K 近邻分类器。
+
+## 建立 K 最近邻分类器
+
+K 近邻分类器是使用 K 近邻算法对给定数据点进行分类的分类模型。 该算法在训练数据集中找到最接近的`K`个数据点，以识别输入数据点的类别。 然后，它将基于多数投票为该数据点分配一个类别。 从这些`K`数据点的列表中，我们查看相应的类别，然后选择投票数最高的类别。`K`的值取决于当前的问题。 让我们看看如何使用此模型构建分类器。
+
+创建一个新的 Python 文件并导入以下包：
+
+```
+import numpy as np
+import matplotlib.pyplot as plt 
+import matplotlib.cm as cm
+from sklearn import neighbors, datasets 
+```
+
+从`data.txt`加载输入数据。 每行包含逗号分隔的值，数据包含四个类别：
+
+```
+# Load input data
+input_file = 'data.txt'
+data = np.loadtxt(input_file, delimiter=',')
+X, y = data[:, :-1], data[:, -1].astype(np.int) 
+```
+
+使用四种不同的标记形状可视化输入数据。 我们需要将标签映射到相应的标记，这是`mapper`变量进入图片的位置：
+
+```
+# Plot input data
+plt.figure()
+plt.title('Input data')
+marker_shapes = 'v^os'
+mapper = [marker_shapes[i] for i in y]
+for i in range(X.shape[0]):
+    plt.scatter(X[i, 0], X[i, 1], marker=mapper[i],
+            s=75, edgecolors='black', facecolors='none') 
+```
+
+定义要使用的最近邻的数量：
+
+```
+# Number of nearest neighbors
+num_neighbors = 12 
+```
+
+定义将用于可视化分类器模型边界的网格步长：
+
+```
+# Step size of the visualization grid
+step_size = 0.01 
+```
+
+创建 K 最近邻分类器模型：
+
+```
+# Create a K Nearest Neighbors classifier model
+classifier = neighbors.KNeighborsClassifier(num_neighbors, weights='distance') 
+```
+
+使用训练数据训练模型：
+
+```
+# Train the K Nearest Neighbors model
+classifier.fit(X, y) 
+```
+
+创建将用于可视化网格的值的网格网格：
+
+```
+# Create the mesh to plot the boundaries
+x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+x_values, y_values = np.meshgrid(np.arange(x_min, x_max, step_size),
+        np.arange(y_min, y_max, step_size)) 
+```
+
+在网格上的所有点上评估分类器，以创建边界的可视化效果：
+
+```
+# Evaluate the classifier on all the points on the grid
+output = classifier.predict(np.c_[x_values.ravel(), y_values.ravel()]) 
+```
+
+创建一个彩色网格以可视化输出：
+
+```
+# Visualize the predicted output
+output = output.reshape(x_values.shape)
+plt.figure()
+plt.pcolormesh(x_values, y_values, output, cmap=cm.Paired) 
+```
+
+将训练数据覆盖在此颜色网格上方，以可视化相对于边界的数据：
+
+```
+# Overlay the training points on the map 
+for i in range(X.shape[0]):
+    plt.scatter(X[i, 0], X[i, 1], marker=mapper[i],
+            s=50, edgecolors='black', facecolors='none') 
+```
+
+设置`X`和`Y`限制以及标题：
+
+```
+plt.xlim(x_values.min(), x_values.max()) 
+plt.ylim(y_values.min(), y_values.max())
+plt.title('K Nearest Neighbors classifier model boundaries') 
+```
+
+定义测试数据点以查看分类器的表现。 创建一个包含训练数据点和测试数据点的图形，以查看其位置：
+
+```
+# Test input data point 
+test_data_point = [5.1, 3.6]
+plt.figure()
+plt.title('Test data_point')
+for i in range(X.shape[0]):
+    plt.scatter(X[i, 0], X[i, 1], marker=mapper[i],
+            s=75, edgecolors='black', facecolors='none') 
+```
+
+```
+plt.scatter(test_data_point[0], test_data_point[1], marker='x', 
+        linewidth=6, s=200, facecolors='black') 
+```
+
+根据分类器模型，将 K 最近邻提取到测试数据点：
+
+```
+# Extract the K nearest neighbors
+_, indices = classifier.kneighbors([test_data_point])
+indices = indices.astype(np.int)[0] 
+```
+
+画出在上一步中获得的 K 近邻邻居：
+
+```
+# Plot k nearest neighbors
+plt.figure()
+plt.title('K Nearest Neighbors') 
+```
+
+```
+for i in indices:
+    plt.scatter(X[i, 0], X[i, 1], marker=mapper[y[i]],
+            linewidth=3, s=100, facecolors='black') 
+```
+
+覆盖测试数据点：
+
+```
+plt.scatter(test_data_point[0], test_data_point[1], marker='x',
+        linewidth=6, s=200, facecolors='black') 
+```
+
+覆盖输入数据：
+
+```
+for i in range(X.shape[0]):
+    plt.scatter(X[i, 0], X[i, 1], marker=mapper[i],
+            s=75, edgecolors='black', facecolors='none') 
+```
+
+打印预测的输出：
+
+```
+print("Predicted output:", classifier.predict([test_data_point])[0]) 
+```
+
+```
+plt.show() 
+```
+
+完整代码在文件`nearest_neighbors_classifier.py`中给出。 如果运行代码，您将看到四个屏幕截图。 第一个屏幕截图表示输入数据：
+
+![](Images/9fa27ef9bd3c9cbff49700534d55ddbc.png)
+
+图 4：可视化输入数据
+
+第二张屏幕截图表示分类器边界：
+
+![](Images/1ec927861f3c17ae49e05ebdefa0ceb5.png)
+
+图 5：分类器模型边界
+
+第三个屏幕截图显示了相对于输入数据集的测试数据点。 使用十字显示测试数据点：
+
+![](Images/c806c33da9f101f0d3d6a14f684eec40.png)
+
+图 6：相对于输入数据集的测试数据点
+
+第四个屏幕截图显示了距离测试数据点最近的 12 个邻居：
+
+![](Images/8bace749216e20280d23e54d74883ed9.png)
+
+图 7：12 个最近邻图
+
+您将看到以下输出，这表明模型正在预测测试数据点属于`1`类：
+
+```
+Predicted output: 1 
+```
+
+像任何机器学习模型一样，输出是一个预测，可能与实际结果相匹配。
+
+## 计算相似度分数
+
+要构建推荐系统，重要的是要了解如何比较数据集中的各种对象。 如果数据集由人物及其不同的电影喜好组成，那么为了提出建议，我们需要了解如何将任何两个人物相互比较。 这是相似度分数很重要的地方。 相似度得分给出了两个数据点相似度的想法。
+
+此领域中经常使用两个分数-欧几里得分数和皮尔森分数。 **欧几里得分数**使用两个数据点之间的欧几里得距离来计算分数。 如果需要快速了解欧几里德距离的计算方式，[则可以转到这里](https://en.wikipedia.org/wiki/Euclidean_distance)。
+
+欧几里得距离的值可以是无界的。 因此，我们采用该值并将其转换为欧几里得分数从`0`到`1`的范围。 如果两个对象之间的欧几里得距离较大，则欧几里得分数应较低，因为低分数表明对象不相似。 因此，欧几里得距离与欧几里得分数成反比。
+
+**皮尔森分数**是两个数据点之间相关性的度量。 它使用两个数据点之间的协方差以及它们各自的标准差来计算分数。 得分范围从`-1`到`+1`。 分数`+1`表示数据点相似，分数`-1`表示数据点相似。 分数`0`表示它们之间没有相关性。 让我们看看如何计算这些分数。
+
+创建一个新的 Python 文件并导入以下包：
+
+```
+import argparse
+import json
+import numpy as np 
+```
+
+构建参数解析器以处理输入参数。 它将接受两个用户以及用于计算相似性得分所需的得分类型：
+
+```
+def build_arg_parser():
+    parser = argparse.ArgumentParser(description='Compute similarity score')
+    parser.add_argument('--user1', dest='user1', required=True,
+            help='First user')
+    parser.add_argument('--user2', dest='user2', required=True,
+            help='Second user')
+    parser.add_argument("--score-type", dest="score_type", required=True, 
+            choices=['Euclidean', 'Pearson'], help='Similarity metric to be used')
+    return parser 
+```
+
+定义一个函数来计算输入用户之间的欧几里得分数。 如果用户不在数据集中，则代码将引发错误：
+
+```
+# Compute the Euclidean distance score between user1 and user2 
+def euclidean_score(dataset, user1, user2):
+    if user1 not in dataset:
+        raise TypeError('Cannot find ' + user1 + ' in the dataset') 
+```
+
+```
+ if user2 not in dataset:
+        raise TypeError('Cannot find ' + user2 + ' in the dataset') 
+```
+
+定义一个变量以跟踪两个用户都评价过的电影：
+
+```
+ # Movies rated by both user1 and user2 
+    common_movies = {} 
+```
+
+提取两个用户都评价的电影：
+
+```
+ for item in dataset[user1]:
+        if item in dataset[user2]:
+            common_movies[item] = 1 
+```
+
+如果没有普通电影，则无法计算相似度得分：
+
+```
+ # If there are no common movies between the users, 
+    # then the score is 0
+    if len(common_movies) == 0:
+        return 0 
+```
+
+计算等级之间的平方差异，并使用其计算欧几里得分数：
+
+```
+ squared_diff = [] 
+```
+
+```
+ for item in dataset[user1]:
+        if item in dataset[user2]:
+            squared_diff.append(np.square(dataset[user1][item] - dataset[user2][item]))
+
+    return 1 / (1 + np.sqrt(np.sum(squared_diff))) 
+```
+
+定义一个函数来计算给定数据集中用户之间的皮尔森得分。 如果在数据集中找不到用户，则会引发错误：
+
+```
+# Compute the Pearson correlation score between user1 and user2
+def pearson_score(dataset, user1, user2):
+    if user1 not in dataset:
+        raise TypeError('Cannot find ' + user1 + ' in the dataset') 
+```
+
+```
+ if user2 not in dataset:
+        raise TypeError('Cannot find ' + user2 + ' in the dataset') 
+```
+
+定义一个变量以跟踪两个用户都评价过的电影：
