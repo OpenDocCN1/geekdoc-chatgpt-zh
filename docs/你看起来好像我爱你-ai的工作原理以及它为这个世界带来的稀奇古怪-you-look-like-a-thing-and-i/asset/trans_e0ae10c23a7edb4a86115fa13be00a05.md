@@ -1,0 +1,80 @@
+
+
+这一切的关键可能是人类的疏忽。因为人工智能很容易在不知不觉中解决了错误的问题，把事情搞砸，或者走了令人遗憾的捷径，所以我们需要有人来确保它们“绝妙的解决方案”不是拍脑袋。而这些人得熟悉人工智能倾向于成功或出错的方式。这有点儿像检查一个同事的工作，而那个人是一个非常奇怪的同事。要想大概了解一下这究竟有多奇怪，在下一章中，我们将看一看人工智能在哪些方面像人脑，在哪些方面又非常不同。
+
+[\[1\]](#part0053.html#note1) Marco Tulio Ribeiro、Sameer Singh 和 Carlos Guestrin, “‘Why Should I Trust You?’: Explaining the Predictions of Any Classifier,” ArXiv:1602.04938 [Cs, Stat], 2016年2月16日, http://arxiv.org/abs/1602.04938.
+
+[\[2\]](#part0053.html#note2) Luke Oakden-Rayner, “Exploring the ChestXray14 Dataset: Problems,” Luke Oakden Rayner（博客）, 2017年12月18日, https://lukeoakdenrayner.wordpress.com/2017/12/18/the-chestxray14-dataset-problems/.
+
+[\[3\]](#part0053.html#note3) David M. Lazer 等, “The Parable of Google Flu: Traps in Big Data Analysis,” Science 343, 第6176期 (2014年3月14日): 1203–5, https://doi.org/10.1126/science.1248506.
+
+[\[4\]](#part0053.html#note4) Gidi Shperber, “What I’ve Learned from Kaggle’s Fisheries Competition,” Medium, 2017年5月1日, https://medium.com/@gidishperber/what-ive-learned-from-kaggle-s-fisheries-competition-92342f9ca779.
+
+[\[5\]](#part0054.html#note5) J. Bird 和 P. Layzell, “The Evolved Radio and Its Implications for Modelling the Evolution of Novel Sensors,” Proceedings of the 2002 Congress on Evolutionary Computation, CEC’02 (Cat. No.02TH8600) 第2卷 (2002 World Congress on Computational Intelligence—WCCI’02, 美国夏威夷檀香山: IEEE, 2002): 1836–41, https://doi.org/10.1109/CEC.2002.1004522.
+
+[\[6\]](#part0054.html#note6) Hannah Fry, Hello World: Being Human in the Age of Algorithms (New York: W. W. Norton& Company, 2018).
+
+[\[7\]](#part0055.html#note7) Lo Bénichou, “The Web’s Most Toxic Trolls Live in. . .Vermont?,” Wired, 2017年8月22日, https://www.wired.com/2017/08/internet-troll-map/.
+
+[\[8\]](#part0055.html#note8) Violet Blue, “Google’s Comment-Ranking System Will Be a Hit with the Alt-Right,” Engadget, 2017年9月1日, https://www.engadget.com/2017/09/01/google-perspective-comment-ranking-system/.
+
+[\[9\]](#part0055.html#note9) Jessamyn West (@jessamyn), Twitter, 2017年8月24日, https://twitter.com/jessamyn/status/900867154412699649.
+
+[\[10\]](#part0055.html#note10) Robyn Speer, “ConceptNet Numberbatch 17.04: Better, Less-Stereotyped Word Vectors,” ConceptNet 博客, 2017年4月24日, http://blog.conceptnet.io/posts/2017/conceptnet-numberbatch-17-04-better-less-stereotyped-word-vectors/.
+
+[\[11\]](#part0055.html#note11) Aylin Caliskan、Joanna J. Bryson 和 Arvind Narayanan, “Semantics Derived Automatically from Language Corpora Contain Human-like Biases,” Science 356, 第6334期 (2017年4月14日): 183–86, https://doi.org/10.1126/science.aal4230.
+
+[\[12\]](#part0055.html#note12) Anthony G. Greenwald、Debbie E. McGhee 和 Jordan L. K. Schwartz, “Measuring Individual Diferences in Implicit Cognition: The Implicit Association Test,” Journal of Personality and Social Psychology 74 (1998年6月): 1464–80.
+
+[\[13\]](#part0055.html#note13) Brian A. Nosek、Mahzarin R. Banaji 和 Anthony G. Greenwald, “Math = Male, Me =Female, Therefore Math Not = Me,” Journal of Personality and Social Psychology 83, 第1期 (2002年7月): 44–59.
+
+[\[14\]](#part0055.html#note14) 作者在此指与之名字拼写相似的英国演员本尼迪克特·康伯巴奇，下文也会提及。——编者注
+
+[\[15\]](#part0055.html#note15) Speer, “ConceptNet Numberbatch 17.04.”
+
+[\[16\]](#part0055.html#note16) Larson et al., “How We Analyzed the COMPAS.”
+
+[\[17\]](#part0055.html#note17) Jef Larson 和 Julia Angwin, “Bias in Criminal Risk Scores Is Mathematically Inevitable, Researchers Say,” ProPublica, 2016年12月30日, https://www.propublica.org/article/bias-in-criminal-risk-scores-is-mathematically-inevitable-researchers-say.
+
+[\[18\]](#part0055.html#note18) James Regalbuto, “Insurance Circular Letter No. 1 (2019),” New York State Department of Financial Services, 2019年1月18日, https://www.dfs.ny.gov/industry_guidance/circular_letters/cl2019_01.
+
+[\[19\]](#part0056.html#note19) Jefrey Dastin, “Amazon Scraps Secret AI Recruiting Tool That Showed Bias against Women,” Reuters, 2018年10月10日, https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G.
+
+[\[20\]](#part0056.html#note20) James Vincent, “Amazon Reportedly Scraps Internal AI Recruiting Tool That Was Biased against Women,” The Verge, 2018年10月10日, https://www.theverge.com/2018/10/10/17958784/ai-recruiting-tool-bias-amazon-report.
+
+[\[21\]](#part0056.html#note21) Paola Cecchi-Dimeglio, “How Gender Bias Corrupts Performance Reviews, and What to Do About It,” Harvard Business Review, 2017年4月12日, https://hbr.org/2017/04/how-gender-bias-corrupts-performance-reviews-and-what-to-do-about-it.
+
+[\[22\]](#part0056.html#note22) Dave Gershgorn, “Companies Are on the Hook If Their Hiring Algorithms Are Biased,” Quartz, 2018年10月22日, https://qz.com/1427621/companies-are-on-the-hook-if-their-hiring-algorithms-are-biased/.
+
+[\[23\]](#part0056.html#note23) Karen Hao, “Police across the US Are Training Crime-Predicting AIs on Falsified Data,” MIT Technology Review, 2019年2月13日, https://www.technologyreview.com/s/612957/predictive-policing-algorithms-ai-crime-dirty-data/.
+
+[\[24\]](#part0057.html#note24) Steve Lohr, “Facial Recognition Is Accurate, If You’re a White Guy,” New York Times, 2018年2月9日, https://www.nytimes.com/2018/02/09/technology/facial-recognition-race-artificial-intelligence.html.
+
+[\[25\]](#part0057.html#note25) Julia Carpenter, “Google’s Algorithm Shows Prestigious Job Ads to Men, but Not to Women. Here’s Why That Should Worry You,” Washington Post, 2015年7月6日, https://w w w.washingtonpost.com/news/the-intersect/w p/2015/07/06/googles-algorithm-shows-prestigious-job-ads-to-men-but-not-to-women-heres-why-that-should-worry-you/.
+
+[\[26\]](#part0057.html#note26) Mark Wilson, “This Breakthrough Tool Detects Racism and Sexism in Software,” Fast Company, 2017年8月22日, https://www.fastcompany.com/90137322/is-your-software-secretly-racist-this-new-tool-can-tell.
+
+[\[27\]](#part0057.html#note27) ORCAA, accessed August 3, 2019, http://www.oneilrisk.com.
+
+[\[28\]](#part0057.html#note28) Faisal Kamiran 和 Toon Calders, “Data Preprocessing Techniques for Classification without Discrimination,” Knowledge and Information Systems 33, 第1期 (2012年10月1日): 1–33, https://doi.org/10.1007/s10115-011-0463-8.
+
+# 第8章 人工智能和人脑像吗
+
+![](images/00109.jpeg)
+
+机器学习算法只是一行又一行的计算机代码，但正如我们所看到的，它们可以做一些看起来非常接近人类的事情——通过测试不同的策略进行学习，懒惰地采取捷径解决问题，或者通过删除答案来完全避免测试。此外，许多机器学习算法的设计都受到了现实生活中的例子的启发。正如我们在第3章所看到的，神经网络在概念上基于人脑的神经元，而进化算法则基于生物进化的过程。事实证明，许多在大脑或生物体中出现的现象也会在模仿它们的人工智能中出现。它们有时甚至是自发出现的，不需要程序员刻意将它们写入代码。
+
+## 人工智能的梦境世界
+
+想象一下，把一个三明治狠狠地扔到墙上。（如果有帮助的话，把它想象成第3章中那些会被拒绝的可怕三明治之一。）如果你专心致志，你可能会生动地想象出这个过程中的每一步：指间是面包片光滑滚圆的感觉；如果夹的是法棍或面包卷，你还会感受到面包皮的质地。你大概可以想象一下面包在你的手指间会有多重的分量——也许你的手指会被压进去一点儿，但不会完全进入。你也可以想象一下你的手臂在回抽以准备投掷时的轨迹，以及在甩开时释放三明治的位置。你知道它将凭借自身的惯性离开你的手，而且它在空中飞行时可能会轻微地晃动或旋转。你甚至可以预测它撞墙的位置、力度，预测到面包会如何变形或裂开，以及馅料会发生什么。你知道它不会像气球一样上升，也不会消失或闪烁绿色和橙色。（好吧，除非它是一块花生酱氦气和外星艺术三明治。）
+
+![](images/00006.jpeg)
+
+简而言之，关于三明治、抛掷物体的物理学和墙壁，你脑中有一套内在的模型。神经科学家研究了这些内在模型，它们支配着我们对世界的认知和对未来的预测。当击球手挥棒击球时，在球离开投手的手之前，击球手的手臂就已经开始运动了——球在空中的时长不足以让神经冲动传到击球手的肌肉中。击球手不是判断球的飞行，而是依靠内在模型来判断投球的行为来确定挥棒的时间。我们许多最快的反射也是这样工作的，依靠内在模型来预测最佳反应。
+
+![](images/00059.jpeg)
+
+人们在开发在真实或虚拟地形中导航或解决其他任务的人工智能时，往往也会为它们设置内在模型。人工智能的一部分可能被设计用于观察世界、提取重要的信息，并利用这些信息来建立或更新内部模型；一部分会利用模型来预测采取各种行动会发生什么；另一部分将决定哪种结果是最好的。随着人工智能不断训练，它在这三个任务上都会做得越来越好。人类的学习方式与之非常相似——不断地做出对周围的世界的假设并更新这些假设。
+
+一些神经科学家认为，做梦是利用我们的内在模型进行低风险训练的一种方式。想测试一下从愤怒的犀牛手中逃脱的场景吗？在梦中测试可比触怒一头真正的犀牛要安全得多。基于这个原理，机器学习程序员有时会使用梦境训练来帮助他们的算法更快地学习。在第3章中，我们研究了一个算法——实际上是三个人工智能合而为一，它的目标是在电脑游戏《毁灭战士》的一个关卡中尽可能长地活着。[^(\[1\])](#part0064.html#notef1)对游戏屏幕的视觉感知、对过去发生的事情的记忆以及对下一步将发生的事情的预测，程序员们把这三者结合在一起，开发了一个算法，它可以针对游戏关卡生成内在模型，并利用这个模型来决定该怎么做。就像人类棒球运动员的例子一样，内在模型是我们训练算法学习采取行动的最好工具。
+

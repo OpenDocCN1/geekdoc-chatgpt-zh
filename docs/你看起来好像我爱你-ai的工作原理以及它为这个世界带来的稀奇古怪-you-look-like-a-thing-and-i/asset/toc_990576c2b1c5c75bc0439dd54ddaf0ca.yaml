@@ -1,0 +1,26 @@
+level_changes:
+- line: 0
+  before: 1
+  after: 0
+- line: 8
+  before: 2
+  after: 1
+- line: 70
+  before: 2
+  after: 1
+- line: 1426
+  before: 1
+  after: 2
+- line: 2709
+  before: 1
+  after: 2
+text_changes:
+- line: 82
+  before: 咚，咚，那是谁[^(\[1\])](#part0011.html#notef1)
+  after: 咚，咚，那是谁
+- line: 2563
+  before: 第 6 章 发现母体[^(\[1\])](#part0050.html#notef1)的漏洞，不然人工智能也会找到办法
+  after: 第 6 章 发现母体的漏洞，不然人工智能也会找到办法
+- line: 3450
+  before: Table of Contents
+  after: 目录
