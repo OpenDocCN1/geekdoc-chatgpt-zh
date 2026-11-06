@@ -1,0 +1,62 @@
+level_changes:
+- line: 175
+  before: 2
+  after: 3
+- line: 205
+  before: 2
+  after: 3
+- line: 242
+  before: 2
+  after: 3
+- line: 413
+  before: 2
+  after: 3
+- line: 543
+  before: 2
+  after: 3
+- line: 683
+  before: 2
+  after: 3
+- line: 826
+  before: 2
+  after: 3
+- line: 832
+  before: 2
+  after: 3
+- line: 834
+  before: 2
+  after: 3
+- line: 992
+  before: 2
+  after: 3
+- line: 1329
+  before: 2
+  after: 3
+- line: 1331
+  before: 2
+  after: 3
+- line: 1557
+  before: 2
+  after: 3
+- line: 1895
+  before: 2
+  after: 3
+text_changes:
+- line: 63
+  before: 关系5.0时代, 当机器成为你的另一半
+  after: 关系5.0时代，当机器成为你的另一半
+- line: 101
+  before: 如何理解关系4.0前的演变, 决定我们如何理解未来
+  after: 如何理解关系4.0前的演变，决定我们如何理解未来
+- line: 236
+  before: 从关系1.0到关系4.0,我们如何从多角关系走入单身社会
+  after: 从关系1.0到关系4.0，我们如何从多角关系走入单身社会
+- line: 244
+  before: 关系1.0, 更随意、流动性更强的多角关系
+  after: 关系1.0，更随意、流动性更强的多角关系
+- line: 685
+  before: 关系4.0,单身社会到来
+  after: 关系4.0，单身社会到来
+- line: 1896
+  before: 人类如何自处?我们真正应该害怕的不是机器人,而是自己
+  after: 人类如何自处？我们真正应该害怕的不是机器人，而是自己
