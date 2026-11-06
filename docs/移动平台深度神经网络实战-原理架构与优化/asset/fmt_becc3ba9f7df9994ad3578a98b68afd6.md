@@ -1,0 +1,192 @@
+
+第12～20行，利用constexpr定义了一系列的常量。这些常量都用于位运算。
+
+第23行，定义了`QuantizeMultiplier()`函数。
+
+第25～29行，如果`double_multiplier`为0，那么初始化量化参数和移位为0。
+
+第30～31行，如果是模拟浮点数，调用`IntegerFrExp()`函数将`double_multiplier`转换为对应的整数。
+
+第33～34行，如果是使用系统内置浮点数处理，那么直接调用标准库的`frexp`得到计算结果，并调用`Round`移位结合类型转换得到对应的定点整数。
+
+第37行，如果`q_fixed`为`111 << 31`，那么将其除以2。
+
+第42行，将量化参数设置为`q_fixed`。
+
+第45行，定义了`QuantizeMultiplierGreaterThanOne()`函数，该函数首先检查`double_multiplier`是否大于1，如果大于1就调用`QuantizeMultiplier()`计算量化系数。
+
+第53行，定义了`QuantizeMultiplierSmallerThanOneExp()`函数，该函数首先检查`double_multiplier`是否小于1，如果小于1就调用`QuantizeMultiplier()`计算量化系数。
+
+第64行，定义了`IntegerFrExp()`函数，用于将浮点数转换为整数的位数。首先检查系统中`double`是否为8字节。接着定义`cast_union`联合类型，这样可以直接访问输入的双精度浮点数的比特位。
+
+第79～82行，如果数字除去正负位都为0，那么返回。
+
+第87～101行，主要处理数字为NaN和Inf时的操作。
+
+第118～163行，如果有进展，调用函数返回国内最差成绩。
+
+第165行，目前已经废弃。
+
+第180行，定义了`IntegerDoubleCompare()`函数，用于将浮点数转换为整数，并返回两者的对比结果。首先调用`IntegerFrExp()`将浮点数转换为整数，然后处理NaN以及Inf的特殊情况，最后根据两者的大小返回-1（小于）、1（大于）或者0（相等）。
+
+第209行，定义了`PreprocessSoftmaxScaling()`函数。首先将输入的浮点数类型转换为整数，然后计算`input_beta_real_multiplier`，最后调用`QuantizeMultiplierGreaterThanOne()`计算最后的量化系数。
+
+第231行，定义了`PreprocessLogSoftmaxScalingExp()`函数，首先调用`PreprocessSoftmaxScaling()`完成初步的量化计算，然后计算逆向伸缩因子的数量，最后调用`QuantizeMultiplierSmallerThanOneExp()`计算最后的量化参数。
+
+第248行，定义了`CalculateInputRadius()`函数，如果启用了`TFLITE_EMULATE_FLOAT`，那么直接通过位运算返回计算后的结果，否则需要调用`floor`计算出小于最大缩放系数的最大整数，最后将结果返回。
+
+第265行，定义了`NudgeQuantizationRange()`函数，该函数实现来源于`tensorflow/core/kernels/fake_quant_ops_functor.h`文件，用于完成量化参数计算。
+
+第270～271行，初始化区间下限和区间上限。
+
+第272行，根据区间计算缩放参数`scale`。
+
+第273～281行，根据区间计算`zero_point`。
+
+第282～283行，将计算出来的量化参数存储在`nudged_min`和`nudged_max`中并返回。
+
+第286行，定义了`FakeQuantizeArray()`，主要作用就是遍历所有数据，并针对每个数据区间计算量化参数，最后将量化参数存储在输出数据的数组里返回。
+
+第312行，定义了`QuantizeMultiplierArray()`函数，用于分别计算指定数组中存储的多批数据的量化参数。主要作用就是遍历所有数据，然后调用`QuantizeMultiplier()`计算该批次数据的量化参数，最后将其存储在输出数组中返回。
+
+## 9.5.2 层实现
+
+接着就是各个层的具体实现。首先是`conv.h`，该头文件定义了卷积层的量化实现，如代码清单9-9所示。
+
+### 代码清单9-9 conv.h
+
+```
+ 1 #ifndef TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_INTEGER_OPS_CONV_H_
+ 2 #define TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_INTEGER_OPS_CONV_H_
+ 3 
+ 4 #include "tensorflow/lite/kernels/internal/common.h"
+ 5 
+ 6 namespace tflite {
+ 7 namespace reference_integer_ops {
+ 8 
+ 9 // Fixed-point per-channel-quantization convolution reference kernel.
+10 inline void ConvPerChannel(
+11         const ConvParams& params, const int32* output_multiplier,
+12         const int32* output_shift, const RuntimeShape& input_shape,
+13         const int8* input_data, const RuntimeShape& filter_shape,
+14         const int8* filter_data, const RuntimeShape& bias_shape,
+15         const int32* bias_data, const RuntimeShape& output_shape,
+16         int8* output_data) {
+17     // 获取参数
+18     const int32 input_offset = params.input_offset;  // r = s(q - Z)
+19     const int stride_width = params.stride_width;
+20     const int stride_height = params.stride_height;
+21     const int dilation_width_factor = params.dilation_width_factor;
+22     const int dilation_height_factor = params.dilation_height_factor;
+23     const int pad_width = params.padding_values.width;
+24     const int pad_height = params.padding_values.height;
+25     const int32 output_offset = params.output_offset;
+26 
+27     // 设置输出的min、max值
+28     const int32 output_activation_min = std::numeric_limits<int8_t>::min();
+29     const int32 output_activation_max = std::numeric_limits<int8_t>::max();
+30 
+31     // 一般性检查
+32     TFLITE_DCHECK_LE(output_activation_min, output_activation_max);
+33     TFLITE_DCHECK_EQ(input_shape.DimensionsCount(), 4);
+34     TFLITE_DCHECK_EQ(filter_shape.DimensionsCount(), 4);
+35     TFLITE_DCHECK_EQ(output_shape.DimensionsCount(), 4);
+36     const int batches = MatchingDim(input_shape, 0, output_shape, 0);
+37     const int input_depth = MatchingDim(input_shape, 3, filter_shape, 3);
+38     const int output_depth = MatchingDim(filter_shape, 0, output_shape, 3);
+39     if (bias_data) {
+40         TFLITE_DCHECK_EQ(bias_shape.FlatSize(), output_depth);
+41     }
+42 
+43     // 检查tensor（数据向量）的维度
+44     const int input_height = input_shape.Dims(1);
+45     const int input_width = input_shape.Dims(2);
+46     const int filter_height = filter_shape.Dims(1);
+47     const int filter_width = filter_shape.Dims(2);
+48     const int output_height = output_shape.Dims(1);
+49     const int output_width = output_shape.Dims(2);
+50     for (int batch = 0; batch < batches; ++batch) {
+51         for (int out_y = 0; out_y < output_height; ++out_y) {
+52             for (int out_x = 0; out_x < output_width; ++out_x) {
+53                 for (int out_channel = 0; out_channel < output_depth; ++out_channel) {
+54                     const int in_x_origin = (out_x * stride_width) - pad_width;
+55                     const int in_y_origin = (out_y * stride_height) - pad_height;
+56                     int32 acc = 0;
+57                     for (int filter_y = 0; filter_y < filter_height; ++filter_y) {
+58                         for (int filter_x = 0; filter_x < filter_width; ++ filter_x) {
+59                             for (int in_channel = 0; in_channel < input_depth; ++in_channel) {
+60                                 const int in_x = in_x_origin + dilation_width_factor * filter_x;
+61                                 const int in_y =
+62                                         in_y_origin + dilation_height_factor* filter_y;
+63                                 // 使用0填充图像外围周边区域
+64                                 const bool is_point_inside_image =
+65                                     (in_x >= 0) && (in_x < input_width)&& (in_y >= 0) &&
+66                                       (in_y < input_height);
+67                                 if (is_point_inside_image) {
+68                                     int32 input_val = input_data[Offset(input_shape, batch, in_y,
+69                                                       in_x, in_channel)];
+70                                     int32 filter_val =
+71                                         filter_data[Offset(filter_shape, out_channel, filter_y,
+72                                                     filter_x, in_channel)];
+73 
+74                                     acc += filter_val * (input_val - input_offset);
+75                                 }
+76                             }
+77                         }
+78                     }
+79 
+80                     if (bias_data) {
+81                         acc += bias_data[out_channel];
+82                     }
+83                     acc = MultiplyByQuantizedMultiplier(
+84                             acc, output_multiplier[out_channel], output_shift[out_channel]);
+85                     acc += output_offset;
+86                     acc = std::max(acc, output_activation_min);
+87                     acc = std::min(acc, output_activation_max);
+88                     output_data[Offset(output_shape, batch, out_y, out_x, out_channel)] =
+89                             static_cast<int8_t>(acc);
+90                 }
+91             }
+92         }
+93     }
+94 }
+95 
+96 }    // namespace reference_integer_ops
+97 }    // namespace tflite
+98 
+99 #endif  // TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_INTEGER_OPS_CONV_H_
+```
+
+第10行，定义了`ConvPerChannel()`函数，用于计算每个通道的卷积结果。
+
+第18～25行，从输入的卷积层参数中获取各个参数。
+
+第27～29行，设置输出的最小值与最大值。
+
+第30～35行，检查各个参数是否合法。
+
+第39～41行，如果有偏置数据，那么需要检查偏置数据的总数量是否与输出数据的深度相等，如果不相等需要抛出异常。
+
+第44～49行，将各个`Tensor`的维度读取到局部变量中。
+
+第50～53行，遍历输入矩阵中的所有元素（首先是Batch、然后是行、最后是列），计算卷积结果。
+
+第54～59行，遍历用于进行卷积计算的滤波器（首先是行，然后是列，最后是批次数量）。
+
+第60～61行，计算卷积的起始位置。
+
+第64～66行，如果卷积核过大就需要调整图像，使用0填充图像外围周边区域，防止卷积计算越界。
+
+第67～74行，使用卷积核中指定位置的数据与目前矩阵中指定位置的数据进行乘加，将最后的结果记录在变量`acc`中。遍历滤波器后可以计算出整个窗口内两个矩阵的乘加结果。
+
+第80～81行，如果模型中包含了偏置数据，那么就将偏置数据加到`acc`变量上。
+
+第83行，调用`MultiplyByQuantizedMultiplier()`，因为这里所有的参数都是量化后的结果，因此都需要调用特定的量化计算函数完成运算，包括向量乘法。
+
+第86～87，将根据计算出来的`acc`与输出激活值的最小值、最大值进行比较，确保最后的结果在激活值的最小值与最大值之间。
+
+第88行，将最后的`acc`结果转化为8位整数类型并存储在输出向量的指定位置。这样就得到了量化矩阵的卷积结果。
+
+池化层实现在`pooling.h`中，实现代码如代码清单9-10所示。
+
+### 代码清单9-10 pooling.h

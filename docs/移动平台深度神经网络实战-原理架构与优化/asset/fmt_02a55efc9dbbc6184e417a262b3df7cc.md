@@ -1,0 +1,194 @@
+
+```
+  1 import torch.nn as nn
+  2 import math
+  3 
+  4 
+  5 def conv_bn(inp, oup, stride):
+  6     return nn.Sequential(
+  7         nn.Conv2d(inp, oup, 3, stride, 1, bias=False),
+  8         nn.BatchNorm2d(oup),
+  9         nn.ReLU6(inplace=True)
+ 10     )
+ 11 
+ 12 
+ 13 def conv_1x1_bn(inp, oup):
+ 14     return nn.Sequential(
+ 15         nn.Conv2d(inp, oup, 1, 1, 0, bias=False),
+ 16         nn.BatchNorm2d(oup),
+ 17         nn.ReLU6(inplace=True)
+ 18     )
+ 19 
+ 20 
+ 21 class InvertedResidual(nn.Module):
+ 22     def __init__(self, inp, oup, stride, expand_ratio):
+ 23         super(InvertedResidual, self).__init__()
+ 24         self.stride = stride
+ 25         assert stride in [1, 2]
+ 26 
+ 27         hidden_dim = round(inp * expand_ratio)
+ 28         self.use_res_connect = self.stride == 1 and inp == oup
+ 29 
+ 30         if expand_ratio == 1:
+ 31             self.conv = nn.Sequential(
+ 32                 # dw
+ 33                 nn.Conv2d(hidden_dim, hidden_dim, 3, stride, 1, groups=hidden_dim, bias=False),
+ 34                 nn.BatchNorm2d(hidden_dim),
+ 35                 nn.ReLU6(inplace=True),
+ 36                 # pw-linear
+ 37                 nn.Conv2d(hidden_dim, oup, 1, 1, 0, bias=False),
+ 38                 nn.BatchNorm2d(oup),
+ 39             )
+ 40         else:
+ 41             self.conv = nn.Sequential(
+ 42                 # pw
+ 43                 nn.Conv2d(inp, hidden_dim, 1, 1, 0, bias=False),
+ 44                 nn.BatchNorm2d(hidden_dim),
+ 45                 nn.ReLU6(inplace=True),
+ 46                 # dw
+ 47                 nn.Conv2d(hidden_dim, hidden_dim, 3, stride, 1, groups=hidden_dim, bias=False),
+ 48                 nn.BatchNorm2d(hidden_dim),
+ 49                 nn.ReLU6(inplace=True),
+ 50                 # pw-linear
+ 51                 nn.Conv2d(hidden_dim, oup, 1, 1, 0, bias=False),
+ 52                 nn.BatchNorm2d(oup),
+ 53             )
+ 54 
+ 55     def forward(self, x):
+ 56         if self.use_res_connect:
+ 57             return x + self.conv(x)
+ 58         else:
+ 59             return self.conv(x)
+ 60 
+ 61 
+ 62 class MobileNetV2(nn.Module):
+ 63     def __init__(self, n_class=1000, input_size=224, width_mult=1.):
+ 64         super(MobileNetV2, self).__init__()
+ 65         block = InvertedResidual
+ 66         input_channel = 32
+ 67         last_channel = 1280
+ 68         interverted_residual_setting = [
+ 69             # t, c, n, s
+ 70             [1, 16, 1, 1],
+ 71             [6, 24, 2, 2],
+ 72             [6, 32, 3, 2],
+ 73             [6, 64, 4, 2],
+ 74             [6, 96, 3, 1],
+ 75             [6, 160, 3, 2],
+ 76             [6, 320, 1, 1],
+ 77         ]
+ 78 
+ 79         # building first layer
+ 80         assert input_size % 32 == 0
+ 81         input_channel = int(input_channel * width_mult)
+ 82         self.last_channel = int(last_channel * width_mult) if width_mult > 1.0 else last_channel
+ 83         self.features = [conv_bn(3, input_channel, 2)]
+ 84         # building inverted residual blocks
+ 85         for t, c, n, s in interverted_residual_setting:
+ 86             output_channel = int(c * width_mult)
+ 87             for i in range(n):
+ 88                 if i == 0:
+ 89                     self.features.append(block(input_channel, output_channel, s, expand_ratio=t))
+ 90                 else:
+ 91                     self.features.append(block(input_channel, output_channel, 1, expand_ratio=t))
+ 92                 input_channel = output_channel
+ 93         # building last several layers
+ 94         self.features.append(conv_1x1_bn(input_channel, self.last_channel))
+ 95         # make it nn.Sequential
+ 96         self.features = nn.Sequential(*self.features)
+ 97 
+ 98         # building classifier
+ 99         self.classifier = nn.Sequential(
+100             nn.Dropout(0.2),
+101             nn.Linear(self.last_channel, n_class),
+102         )
+103 
+104         self._initialize_weights()
+105 
+106     def forward(self, x):
+107         x = self.features(x)
+108         x = x.mean(3).mean(2)
+109         x = self.classifier(x)
+110         return x
+111 
+112     def _initialize_weights(self):
+113         for m in self.modules():
+114             if isinstance(m, nn.Conv2d):
+115                 n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels
+116                 m.weight.data.normal_(0, math.sqrt(2. / n))
+117                 if m.bias is not None:
+118                     m.bias.data.zero_()
+119             elif isinstance(m, nn.BatchNorm2d):
+120                 m.weight.data.fill_(1)
+121                 m.bias.data.zero_()
+122             elif isinstance(m, nn.Linear):
+123                 n = m.weight.size(1)
+124                 m.weight.data.normal_(0, 0.01)
+125                 m.bias.data.zero_()
+```
+
+第1行，我们引入PyTorch的`nn`模块。
+
+第5行，定义了`conv_bn`函数，该函数使用`nn.Sequential`函数创建一个PyTorch模块序列。在`SqueezeNet`实现中我们为此自己定义了一个`Module`类，但是如果对于一个非常简单的线性网络或者模块，那样写太麻烦了，所以`Sequential`帮助我们快速定义一个模块对象，可以直接将多个PyTorch的`Module`对象连接起来生成一个新的`Module`对象。这个函数其实就是常见的一种组合模式，也就是卷积层接`BachNorm`层，最后接`ReLU`层。
+
+第13行，定义了`conv_1x1_bn`函数，该函数将一个1×1的卷积层、`BatchNorm`层和`ReLU6`层连接在一起。
+
+第21行，定义了`InvertedResidual`类，该类继承自`nn.Module`类，这也就是`MobileNet V2`的核心改进之一。由于这个模块比较复杂，因此我们就不使用单纯的`Sequential`构建模块了。
+
+第22行，定义了初始化方法，这里的关键在于30～53行。如果`expand_ratio`为1，说明不需要扩展通道，那么直接创建一个3×3的卷积层接`BatchNorm`和`ReLU`，然后接一个1×1的卷积层，最后再接`BatchNorm`和`ReLU`。如果`expand_ratio`不为1，说明我们希望扩充输入的通道数，因此先用一个1×1的卷积层，最后接`BatchNorm`和`ReLU`使得输入通道增大，然后接入一个3×3的卷积层接`BatchNorm`和`ReLU`，最后再接入1×1的卷积层、`BatchNorm`和`ReLU`。这个结构可以参见图6-8。
+
+第55行，定义了前向传播方法，如果用户提供了输入参数`x`，并且指定连接`ResNet`参数，那么就返回输入的`ResNet`和当前模块的前向结果，否则直接返回当前模块的前向结果。
+
+第62行，定义了`MobileNetV2`类，该类也继承自`nn.Module`类。
+
+第63行，定义了初始化方法，这里我们定义了`interverted_residual_setting`，设定了每个`InvertedResidual`的不同选项。
+
+第80行，开始我们开始构建整个网络，首先创建一个`conv_bn`模块，然后遍历`interverted_residual_setting`，根据配置，调用`block`函数（也就是`InvertedResidual`）逐个创建`InvertedResidual`模块对象。然后添加一个1×1的`DepthwiseConvolution`层。
+
+第99～101行，我们用一个`Dropout`来丢弃部分参数，并使用`Linear`线性回归的、到最后的分类结果。最后调用`self._initialize_weights`函数初始化一些层的从权重，包括归一化、清零、填充，等等。
+
+第106行，定义了前传函数，基本就是执行前向网络，最后调用`classifier`函数完成分类。
+
+第112行，定义了`_initialize_weights`方法，该方法基本和`Squeeze`大同小异。如果是卷积层的子类，则对卷积层权重进行初始化。如果是`BatchNorm2d`，则将权重参数填充为1，偏置参数填充为0。如果是线性回归，则对权重参数进行归一化，并将偏置参数设置成0。
+
+这样，一个`MobileNetV2`就完成了。我们在`SqueezeNet`中编写过调用脚本的示例。如果感兴趣的读者可以依照上面的方法自己编写一个可以调用`MobileNet V2`网络的主程序。
+
+## 6.6 本章小结
+
+在本章中，我们主要介绍了几种适用于移动平台的深度学习模型，并介绍了这些模型之间演变的来龙去脉，并以最早的`SqueezeNet`和最新的`MobileNet V2`为例介绍了如何实现这些轻量级的深度学习模型。这样我们基本就涵盖了移动平台深度学习的所有基础知识，然后就可以准备进入深度学习的进阶阶段了。
+
+* * *
+
+[1] `../Text/Section_0006_0002.xhtml#a01` 《SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and<0.5MB model size》。原文链接：https://arxiv.org/abs/1602.07360。
+
+[2] `../Text/Section_0006_0004.xhtml#a02` 参见《ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices》，链接为：https://arxiv.org/abs/1707.01083。
+
+# 第三篇 深入理解深度学习
+
+## 第7章 高性能数据预处理实战
+
+从本章开始，我们进入深度学习进阶的相关内容。此前我们已经花费了大量的篇幅介绍深度学习的基础知识，以及移动平台深度学习的相关知识，包括ARM体系结构的方方面面、移动平台优化的基本思路、`TensorFlow Lite`的实现等，最后介绍了以`SqueezeNet`和`MobileNet V1/V2`为代表的适用于移动平台的轻量级深度学习模型。在此之前，我们关注的点主要在基础知识、实现技术与算法本身。而从本章开始，我们将关注如何把已经介绍的技术应用到实际当中，以解决现实问题，并通过真正的项目实践方法论帮助大家更深入地认识深度学习里的细节。
+
+本章的内容是数据预处理。在讨论算法的时候我们一般会假定数据是非常干净、标准的。但是在现实生活中，我们会遇到各种各样的数据，而且大多数数据都存在问题，不利于后期分析与机器学习，只有足够干净的数据才能得到良好的数据分析结果，由于移动平台的性能有限，所以移动平台的模型和样本都会进行特殊处理，并且会对机器学习模型的分析结果产生影响，因此数据预处理在移动平台深度学习中变得尤其重要，所以对研发移动平台深度学习解决方案来说，在正式分析和处理数据之前必须对数据进行高效预处理。
+
+### 7.1 数据预处理任务
+
+数据预处理的目的是提高数据质量，我们希望所有数据都是准确的、完整的，而且每条数据记录都是唯一的。但是实际上显示的数据很可能有错误的特征记录，也很有可能会有缺失的特征，还有可能出现重复的数据记录（两条数据重复）。
+
+为了实现这一目标，我们将数据预处理的任务分为数据清理、数据集成、数据归约和数据变换4步。
+
+#### 7.1.1 数据清理
+
+数据清理主要是处理数据中的缺失值，光滑噪声数据，识别或删除离群点，并解决不一致性“清理”数据。
+
+为了处理数据的缺失值，我们有以下几种方法。
+
+1）直接忽略缺失特征的数据元组，也就是一旦缺少了特征就直接把这个数据丢弃，这种方法可能会导致样本量减少很多。
+
+2）人工填补缺失值。也就是手工填写数据的缺失值。如果数据样本少可以采用这种方法，但如果数据样本量大，那么这种方法是不可行的。
+
+3）使用规定规则填补缺失值，也就是人工定义某种计算规则（比如可以定义一个全局默认值，或者使用特征的简单统计量），这种方法的特点是简单快速，缺点是如果规则有问题，很有可能会导致后续的数据分析或者机器学习出现偏差。
+
+4）使用机器学习方法填补缺失值，也就是使用一些机器学习方法，根据样本的其他特征或者来确定缺失值。这种方法比较复杂，但理论上可以提供更好的补缺效果，也是某些领域比较热门的一个研究方向。
+
+数据噪声是数据清理的第2个任务，我们可以认为所谓数据噪声其实就是被测量的变量的随机误差或方差，而这种随机的误差或者方差的影响可以通过一些数学变换来消除，这种技术就是数据光滑技术，主要包括分箱、回归和离群点分析等。

@@ -1,0 +1,187 @@
+
+
+# FasterRCNN 实现示例
+
+```
+  1 from __future__ import  absolute_import
+  2 from __future__ import division
+  3 import torch as t
+  4 import numpy as np
+  5 import cupy as cp
+  6 from utils import array_tool as at
+  7 from model.utils.bbox_tools import loc2bbox
+  8 from model.utils.nms import non_maximum_suppression
+  9 
+ 10 from torch import nn
+ 11 from data.dataset import preprocess
+ 12 from torch.nn import functional as F
+ 13 from utils.config import opt
+ 14 
+ 15 
+ 16 def nograd(f):
+ 17     def new_f(*args,**kwargs):
+ 18         with t.no_grad():
+ 19            return f(*args,**kwargs)
+ 20     return new_f
+ 21 
+ 22 class FasterRCNN(nn.Module):
+ 23     def __init__(self, extractor, rpn, head,
+ 24                 loc_normalize_mean = (0., 0., 0., 0.),
+ 25                 loc_normalize_std = (0.1, 0.1, 0.2, 0.2)
+ 26     ):
+ 27         super(FasterRCNN, self).__init__()
+ 28         self.extractor = extractor
+ 29         self.rpn = rpn
+ 30         self.head = head
+ 31 
+ 32         # mean and std
+ 33         self.loc_normalize_mean = loc_normalize_mean
+ 34         self.loc_normalize_std = loc_normalize_std
+ 35         self.use_preset('evaluate')
+ 36 
+ 37     @property
+ 38     def n_class(self):
+ 39         return self.head.n_class
+ 40 
+ 41     def forward(self, x, scale=1.):
+ 42         img_size = x.shape[2:]
+ 43 
+ 44         h = self.extractor(x)
+ 45         rpn_locs, rpn_scores, rois, roi_indices, anchor = \
+ 46             self.rpn(h, img_size, scale)
+ 47         roi_cls_locs, roi_scores = self.head(
+ 48             h, rois, roi_indices)
+ 49         return roi_cls_locs, roi_scores, rois, roi_indices
+ 50 
+ 51     def use_preset(self, preset):
+ 52         if preset == 'visualize':
+ 53             self.nms_thresh = 0.3
+ 54             self.score_thresh = 0.7
+ 55         elif preset == 'evaluate':
+ 56             self.nms_thresh = 0.3
+ 57             self.score_thresh = 0.05
+ 58         else:
+ 59             raise ValueError('preset must be visualize or evaluate')
+ 60 
+ 61     def _suppress(self, raw_cls_bbox, raw_prob):
+ 62         bbox = list()
+ 63         label = list()
+ 64         score = list()
+ 65         for l in range(1, self.n_class):
+ 66             cls_bbox_l = raw_cls_bbox.reshape((-1, self.n_class, 4))[:, l, :]
+ 67             prob_l = raw_prob[:, l]
+ 68             mask = prob_l > self.score_thresh
+ 69             cls_bbox_l = cls_bbox_l[mask]
+ 70             prob_l = prob_l[mask]
+ 71             keep = non_maximum_suppression(
+ 72                 cp.array(cls_bbox_l), self.nms_thresh, prob_l)
+ 73             keep = cp.asnumpy(keep)
+ 74             bbox.append(cls_bbox_l[keep])
+ 75             # The labels are in [0, self.n_class - 2].
+ 76             label.append((l - 1) * np.ones((len(keep),)))
+ 77             score.append(prob_l[keep])
+ 78         bbox = np.concatenate(bbox, axis=0).astype(np.float32)
+ 79         label = np.concatenate(label, axis=0).astype(np.int32)
+ 80         score = np.concatenate(score, axis=0).astype(np.float32)
+ 81         return bbox, label, score
+ 82 
+ 83     @nograd
+ 84     def predict(self, imgs,sizes=None,visualize=False):
+ 85         self.eval()
+ 86         if visualize:
+ 87             self.use_preset('visualize')
+ 88             prepared_imgs = list()
+ 89             sizes = list()
+ 90             for img in imgs:
+ 91                 size = img.shape[1:]
+ 92                 img = preprocess(at.tonumpy(img))
+ 93                 prepared_imgs.append(img)
+ 94                 sizes.append(size)
+ 95         else:
+ 96              prepared_imgs = imgs
+ 97         bboxes = list()
+ 98         labels = list()
+ 99         scores = list()
+100         for img, size in zip(prepared_imgs, sizes):
+101             img = at.totensor(img[None]).float()
+102             scale = img.shape[3] / size[1]
+103             roi_cls_loc, roi_scores, rois, _ = self(img, scale=scale)
+104             roi_score = roi_scores.data
+105             roi_cls_loc = roi_cls_loc.data
+106             roi = at.totensor(rois) / scale
+107 
+108             mean = t.Tensor(self.loc_normalize_mean).cuda(). \
+109                 repeat(self.n_class)[None]
+110             std = t.Tensor(self.loc_normalize_std).cuda(). \
+111                 repeat(self.n_class)[None]
+112 
+113             roi_cls_loc = (roi_cls_loc * std + mean)
+114             roi_cls_loc = roi_cls_loc.view(-1, self.n_class, 4)
+115             roi = roi.view(-1, 1, 4).expand_as(roi_cls_loc)
+116             cls_bbox = loc2bbox(at.tonumpy(roi).reshape((-1, 4)),
+117                                 at.tonumpy(roi_cls_loc).reshape((-1, 4)))
+118             cls_bbox = at.totensor(cls_bbox)
+119             cls_bbox = cls_bbox.view(-1, self.n_class * 4)
+120             # clip bounding box
+121             cls_bbox[:, 0::2] = (cls_bbox[:, 0::2]).clamp(min=0, max=size[0])
+122             cls_bbox[:, 1::2] = (cls_bbox[:, 1::2]).clamp(min=0, max=size[1])
+123 
+124             prob = at.tonumpy(F.softmax(at.totensor(roi_score), dim=1))
+125 
+126             raw_cls_bbox = at.tonumpy(cls_bbox)
+127             raw_prob = at.tonumpy(prob)
+128 
+129             bbox, label, score = self._suppress(raw_cls_bbox, raw_prob)
+130             bboxes.append(bbox)
+131             labels.append(label)
+132             scores.append(score)
+133 
+134         self.use_preset('evaluate')
+135         self.train()
+136         return bboxes, labels, scores
+137 
+138     def get_optimizer(self):
+139         lr = opt.lr
+140         params = []
+141         for key, value in dict(self.named_parameters()).items():
+142             if value.requires_grad:
+143                 if 'bias' in key:
+144                     params += [{'params': [value], 'lr': lr * 2, 'weight_ decay': 0}]
+145                 else:
+146                     params += [{'params': [value], 'lr': lr, 'weight_ decay': opt.weight_decay}]
+147         if opt.use_adam:
+148             self.optimizer = t.optim.Adam(params)
+149         else:
+150             self.optimizer = t.optim.SGD(params, momentum=0.9)
+151         return self.optimizer
+152 
+153     def scale_lr(self, decay=0.1):
+154         for param_group in self.optimizer.param_groups:
+155             param_group['lr'] *= decay
+156         return self.optimizer
+```
+
+## 代码说明
+
+第22行，定义了`FasterRCNN`类，继承自`Module`类。
+
+第23～35行，定义了`__init__`函数。首先调用基类初始化方法，然后依次初始化`extractor`网络，`RPN`网络，还有均值与标准差运算符。
+
+第38～39行，定义了`n_class`属性，该属性直接返回`head`的`n_class`字段。
+
+第41～49行，定义了`forward`方法，其中`x`参数是输入数据，`scale`是缩放比例。首先使用切片取输入数据`shape`中图片的尺寸，然后调用`extractor`提取输入数据的特征，接着调用`rpn`处理特征，最后调用`head`生成检测结果。
+
+第51～59行，定义了`use_preset`方法，其中`preset`参数是模型。如果`preset`是`visualize`，那么将`nms_thresh`设置为0.3，将`score_thresh`设置为0.7。如果`preset`是`evaluate`，那么将`nms_thresh`设置为0.3，将`score_thresh`设置为0.05。
+
+第61～81行，定义了`_suppress`方法，其中`raw_cls_bbox`、`raw_prob`分别是预测的框和每个框的概率（置信度）。其作用是将这些预测框添加到框列表中。
+
+第84～136行，定义了`predict`方法，该方法用于使用模型进行预测。首先调用`self.eval()`完成测试。如果用户指定了`visualize`，那么该方法会将预测的图片进行预处理并添加到处理好的图片集合中。然后遍历所有的框，如果框满足特定的条件，就将这些框留下来。最后调用`self.train`完成训练。
+
+第138～151行，定义了`get_optimizer`方法，该方法返回当前网络使用的参数优化器。首先遍历`named_parameters`字典，如果某个参数需要采用梯度下降法优化，那么就根据偏置更新参数。如果用户使用了`Adam`参数优化器，那么就调用`Adam`函数构造参数优化器，否则就调用`SGD`构建`SGD`参数优化器，并返回参数优化器。
+
+第153～156行，定义了`scale_lr`方法，用于执行`LR`参数的更新。
+
+训练程序的代码在`trainer.py`中，如代码清单8-8所示。
+
+### 代码清单8-8　`trainer.py`
+

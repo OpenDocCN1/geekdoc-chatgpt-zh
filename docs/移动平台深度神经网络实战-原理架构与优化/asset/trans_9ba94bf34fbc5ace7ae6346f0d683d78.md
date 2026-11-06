@@ -1,0 +1,111 @@
+
+
+# 模块概述
+
+这个模块帮助我们处理好各种类型数据的输入输出，并且对各个平台都做了适配，是非常有效的序列化工具。`Readable()`函数用于检测文件是否可读，`Exists()`函数用于检测文件是否存在，`GetContents()`用于读取文件数据，`SetContents()`用于写入文件数据。
+
+## 基于 Google 库的实现
+
+第11行，定义了`round()`函数，实际上就是返回标准库的`round()`结果。
+
+第17行，定义了`CopyToBuffer()`函数，实现的是调用`memcpy()`完成缓冲区复制。
+
+第22行，定义了使用Google库的`CopyToBuffer()`，就是调用`Cord`对象的`CopyToArray()`将数据复制到目标缓冲区中。
+
+第27行，检测是否使用Google的文件系统库，如果是的话就包含所需的各类头文件。
+
+第40行，定义了`InitGoogle()`函数，该函数用于解析命令行参数，实现就是调用`InitGoogle()`函数完成参数解析。
+
+第47行，定义了`CheckInitGoogleIsDone()`函数，用于判定是否已经完成命令行解析与初始化。
+
+第53行，定义了`ToStatus()`函数，该函数用于将库中的`Status`转换为`tensorflow::Status`，如果`status`错误，那么调用`RetrieveErrorCode()`获取错误码，并通过`tensorflow::errors::Code`返回错误状态码。如果一切正常，直接返回`OK`。
+
+第62行，定义了`ToOptions()`函数，该函数用于将库中的`Options`转换为`toco::port::file::Options`，首先检查文件选项是否和默认选项一致，然后直接返回默认的`Options`对象。
+
+第67行，定义了`Writable()`函数，首先调用`Open()`使用写入权限打开文件，然后检测文件打开状态，如果状态合法那就直接返回文件状态否则关闭文件，最后返回文件状态。
+
+第76行，定义了`Readable()`函数，首先调用`Open()`使用只读权限打开文件，然后检测文件打开状态，如果状态合法那就直接返回文件状态否则关闭文件，最后返回文件状态。
+
+第81行，定义了`Exists()`函数，首先调用`Exists()`函数获取文件存在状态，然后调用`ToStatus()`将其转为`tensorflow::Status`类型。
+
+第87行，定义了`GetContents()`函数，首先调用`GetContents()`函数获取文件内容，然后调用`ToStatus()`将其返回值转为`tensorflow::Status`类型。
+
+第92行，定义了`SetContents()`函数，首先调用`SetContents()`函数获取文件内容，然后调用`ToStatus()`将其返回值转为`tensorflow::Status`类型。
+
+第97行，定义了`JoinPath()`函数，直接调用`file::JoinPath()`完成路径拼接。
+
+## 基于标准库的实现
+
+否则，我们调用系统标准库来实现这些函数，实现不借助Google第三方库的跨平台函数。
+
+第127～129行，使用Windows下的常量定义`CreateMode`、`ReadFlags`和`WriteFlags` 3个状态。
+
+第131～133行，使用POSIX常量定义`CreateMode`、`ReadFlags`和`WriteFlags` 3个状态。
+
+第138行，定义了`InitGoogleWasDoneElsewhere()`函数，将`port_initialized`设置为`true`。
+
+第140行，定义了`InitGoogle()`函数，如果使用了Google库，那么直接调用`ParseCommand-LineFlags()`解析命令行，否则不解析命令行。
+
+第149行，定义了`CheckInitGoogleIsDone()`函数，该函数通过`port_initialized`判断初始化是否完成。
+
+第155行，定义了`Writable()`函数，该函数调用`fopen()`，使用写入权限打开文件，如果文件的句柄存在，那么说明文件可写，直接关闭句柄，返回`OK`状态，否则返回文件不可写入状态。
+
+第164行，定义了`Readable()`函数，该函数调用`fopen()`，使用只读权限打开文件，如果文件的句柄存在，那么说明文件可读，直接关闭句柄，返回`OK`状态，否则返回文件不可读取状态。
+
+第174行，定义了`Exists()`函数，该函数调用`stat()`获取指定文件状态，如果文件的句柄存在，那么说明文件可读，直接关闭句柄，返回`OK`状态，否则返回文件不可读取状态。
+
+第184行，定义了`GetContents()`函数，该函数调用`clear()`清空输出缓冲区，然后调用`open()`打开文件，如果文件描述符为`-1`，返回错误。然后定义一个局部缓冲区，不断从文件中读取数据，如果读取到的`size`大于0，说明读取到了数据，就将缓冲区中的数据写入`output`中，如果`size`为0，说明文件读取完毕，直接返回`OK`。如果返回`-1`，说明出现了IO错误，那么直接返回错误信息。
+
+第214行，定义了`SetContents()`函数，该函数调用`open()`打开文件，如果文件描述符为`-1`，返回错误。然后不断遍历`contents`，每次写入一部分数据，如果写入数据量少于`-1`，说明出现了IO错误，那么直接返回错误信息。否则全部完成后关闭文件描述符并返回`OK`。
+
+第236行，定于了`JoinPath()`函数，该函数首先检查`base`路径是否为空，如果为空返回文件名。否则检测`base`路径是否使用`/`结尾，如果是的话就移除最后的`/`。然后检测文件名第一个字符是否为`/`，如果是则直接移除这个`/`，最后将两个路径使用`/`连接在一起，完成路径拼接。
+
+## 导入和导出实现
+
+最后来看看导入和导出的实现。`Import()`函数的声明在文件`toco/TensorFlow Lite/import.h`中，如代码清单11-19所示。
+
+### 代码清单11-19　TF模型导入函数声明
+
+```
+ 1 #ifndef TENSORFLOW_LITE_TOCO_TFLITE_IMPORT_H_
+ 2 #define TENSORFLOW_LITE_TOCO_TFLITE_IMPORT_H_
+ 3 
+ 4 #include "tensorflow/lite/schema/schema_generated.h"
+ 5 #include "tensorflow/lite/toco/model.h"
+ 6 
+ 7 namespace toco {
+ 8 
+ 9 namespace tflite {
+10 
+11 std::unique_ptr<Model> Import(const ModelFlags &model_flags,
+12                               const string &input_file_contents);
+13 
+14 namespace details {
+15 
+16 using TensorsTable = std::vector<string>;
+17 
+18 using OperatorsTable = std::vector<string>;
+19 
+20 void LoadTensorsTable(const ::tflite::Model &input_model,
+21                       TensorsTable *tensors_table);
+22 void LoadOperatorsTable(const ::tflite::Model &input_model,
+23                         OperatorsTable *operators_table);
+24 
+25 }    // namespace details
+26 }    // namespace tflite
+27 
+28 }    // namespace toco
+29 
+30 #endif    // TENSORFLOW_LITE_TOCO_TFLITE_IMPORT_H_
+```
+
+第11行，声明了`Import()`函数，该函数用于完成TensorFlow模型的导入。
+
+第20行，声明了`LoadTensorsTable()`函数，该函数用于从模型文件中加载Tensor表。
+
+第22行，声明了`LoadOperatorsTable()`函数，该函数用于从模型文件中加载Operator表。
+
+`Import()`函数定义在文件`toco/TensorFlow Lite/import.cc`中，如代码清单11-20所示。
+
+### 代码清单11-20　TF模型导入函数定义
+
