@@ -1,0 +1,74 @@
+level_changes:
+- line: 541
+  before: 3
+  after: 2
+- line: 4933
+  before: 3
+  after: 2
+- line: 10225
+  before: 3
+  after: 2
+- line: 179
+  before: 3
+  after: 4
+- line: 183
+  before: 3
+  after: 4
+- line: 187
+  before: 3
+  after: 4
+- line: 191
+  before: 3
+  after: 4
+- line: 195
+  before: 3
+  after: 4
+- line: 1942
+  before: 3
+  after: 4
+- line: 1946
+  before: 3
+  after: 4
+- line: 1950
+  before: 3
+  after: 4
+- line: 1954
+  before: 3
+  after: 4
+- line: 1958
+  before: 3
+  after: 4
+- line: 10274
+  before: 3
+  after: 4
+- line: 10282
+  before: 3
+  after: 4
+- line: 10286
+  before: 3
+  after: 4
+- line: 10290
+  before: 3
+  after: 4
+- line: 10308
+  before: 3
+  after: 4
+- line: 10312
+  before: 3
+  after: 4
+- line: 10320
+  before: 3
+  after: 4
+- line: 10324
+  before: 3
+  after: 4
+text_changes:
+- line: 10282
+  before: 2. Wexx 开发框架
+  after: 2. Weex 开发框架
+- line: 4931
+  before: 第7章
+  after: 第 7 章
+- line: 912
+  before: 第 2 章 小程序开发中的 “三驾马车”
+  after: 第 2 章 小程序开发中的“三驾马车”
