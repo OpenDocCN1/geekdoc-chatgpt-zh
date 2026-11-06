@@ -1,0 +1,345 @@
+
+通过`numpy`库提供的`delete（　）`函数删除一维数组对象指定下标位置的元素。在前面已经建立`new1`对象的基础上，做如下删除元素操作：
+
+![](images/txt007_7.jpg "pagenumber_ebook=128,pagenumber_book=109")
+
+## 6.1.2 二维数组
+
+`numpy`库的`array（　）`函数可以轻松实现二维数组，以解决二维世界的实际问题。
+
+二维数组的基本操作包括创建、增加、修改、查找、删除操作。
+
+### 1. 二维数组的创建
+
+二维数组的创建方法同一维数组，只是提供的数据集合是2层嵌套的。
+
+![](images/txt007_8.jpg "pagenumber_ebook=128,pagenumber_book=109")
+
+### 2. 增加元素
+
+二维数组增加元素，也需要采用对接方法，可以分垂直、水平两种对接方式。
+
+#### 1）垂直对接
+
+`numpy`库自带的`vstack（　）`函数实现两个数组之间的垂直对接。
+
+![](images/txt007_9.jpg "pagenumber_ebook=129,pagenumber_book=110")
+
+注意
+（1）`vstack（　）`函数里的2个数组是以元组形式传递的，少元组的小括号将报错。
+（2）`vstack（　）`函数的首字母是`vertical`（垂直）的英文缩写。
+
+#### 2）水平对接
+
+用`numpy`库自带的`hstack（　）`函数实现两个数组之间的水平对接。
+
+![](images/txt007_10.jpg "pagenumber_ebook=129,pagenumber_book=110")
+
+### 3. 查找元素
+
+查找二维数组的元素主要可以通过下标方式读取，可以分两种格式实现。
+
+#### 1）用 [] 分隔下标
+
+![](images/txt007_11.jpg "pagenumber_ebook=130,pagenumber_book=111")
+
+#### 2）用逗号分隔下标
+
+上例获取第2行第3个元素的方式，也可以通过如下格式实现：
+
+![](images/txt007_12.jpg "pagenumber_ebook=130,pagenumber_book=111")
+
+若需要读取给定二维数组的部分元素，则可以在逗号两边采用切片方式实现：
+
+![](images/txt007_13.jpg "pagenumber_ebook=130,pagenumber_book=111")
+
+### 4. 修改元素
+
+通过指定某一行某一列下标，可实现对相应元素的赋值修改。
+
+![](images/txt007_14.jpg "pagenumber_ebook=130,pagenumber_book=111")
+
+### 5. 删除元素
+
+删除二维数组元素需要`np.delete（　）`函数，该函数只能实现整列或整行删除。
+
+#### 1）整列删除
+
+![](images/txt007_15.jpg "pagenumber_ebook=131,pagenumber_book=112")
+
+注意
+`delete（　）`函数三个参数的用法。第一个参数输入是需要删除数组的名称；第二个参数是以下标或切片数组形式输入需要删除的列（或行）；第三个参数`axis=1`代表列方向，`axis=0`代表行方向，`axis`参数可以省略，省略则默认为行方向。
+
+#### 2）整行删除
+
+在上述几个示例代码操作的基础上，继续执行如下代码：
+
+![](images/txt007_16.jpg "pagenumber_ebook=131,pagenumber_book=112")
+
+## 6.1.3 三维数组
+
+三酷猫想把自己的房间，用三维坐标表示出来，如图6.1所示。每个坐标点（x，y，z）由三个坐标点的数字组成，在房间里采集合适的坐标点个数，就可以建立房间的三维空间。
+
+![](images/txt007_17.jpg "pagenumber_ebook=132,pagenumber_book=113")
+
+图6.1 三维坐标
+
+要记录三维空间每个坐标点的值，就得利用三维数组。用`numpy`库的`array（　）`函数建立三维数组对象，其代码如下：
+
+![](images/txt007_18.jpg "pagenumber_ebook=132,pagenumber_book=113")
+
+根据上面三维坐标定义，假如要获取坐标点为（0，0，0）的坐标值，则取每个维度的第一个元素，代码如下：
+
+![](images/txt007_19.jpg "pagenumber_ebook=133,pagenumber_book=114")
+
+假设要取坐标点为（0.5，0.5，1）的坐标值，则代码如下：
+
+![](images/txt007_20.jpg "pagenumber_ebook=133,pagenumber_book=114")
+
+## 6.1.4 函数自动赋值
+
+除了用`array（　）`函数实现数组定义和赋值外，`numpy`库还提供了一些特殊赋值函数。
+
+### 1. 用`numpy`库的`arange（　）`函数生成一维数组元素
+
+![](images/txt007_21.jpg "pagenumber_ebook=133,pagenumber_book=114")
+
+### 2. 用`numpy`库的`linspace（　）`函数生成指定的n个等分样本数据
+
+![](images/txt007_22.jpg "pagenumber_ebook=133,pagenumber_book=114")
+
+注意
+这里的“等分”要理解为相邻数据之间的间距值相等，如上例①的间距都是11，而且是10个样本^[ [1] ]。
+
+### 3. 用`numpy`库的`zeros（　）`函数生成元素都为0的数组
+
+![](images/txt007_23.jpg "pagenumber_ebook=134,pagenumber_book=115")
+
+### 4. 用`numpy`库的`ones（　）`函数生成元素都为1的数组
+
+![](images/txt007_24.jpg "pagenumber_ebook=134,pagenumber_book=115")
+
+### 5. 用`numpy`库的`full（　）`函数生成指定数值的数组
+
+![](images/txt007_25.jpg "pagenumber_ebook=134,pagenumber_book=115")
+
+### 6. 用`numpy`库的`eye（　）`函数生成对角线元素为1、其他元素都为0的一个二维数组
+
+![](images/txt007_26.jpg "pagenumber_ebook=135,pagenumber_book=116")
+
+`eye（　）`函数的第三个参数0值为主对角线，负数为下对角线，正整数为上对角线。
+
+![](images/txt007_27.jpg "pagenumber_ebook=135,pagenumber_book=116")
+
+### 7. 用`numpy`库的`repeat（　）`函数生成每个元素重复N次的数组
+
+![](images/txt007_28.jpg "pagenumber_ebook=135,pagenumber_book=116")
+
+注意
+`axis=0`代表生成一维数组，`axis=1`代表生成二维数组，`axis=2`代表生成三维数组；除了一维数组`axis`可以省略外，其他数组都必须指定`axix`，否则计算机会报错。
+
+## 6.1.5 [案例]三酷猫照片背后的数组
+
+`matplotlib.pyplot`子库为读写PNG、JPG格式的图像，提供了`imread（　）`和`savefig（　）`函数，可以通过`import`导入使用。
+
+### 1. 读取PNG图片到指定的数组对象
+
+`plt.imread（fname，format=None）`，参数说明如下。
+（1）`fname`，指定读取图片的文件名（含文件路径）。
+（2）`format`，指定文件扩展名，如果没有指定，则默认值为PNG。
+
+返回值说明：数组，返回数组形式为（M，N），则图片是灰度图片；返回数组形式为（M，N，3），则图片是RGB图片；返回数组形式为（M，N，4），则图片是RGBA图片。
+
+### 2. RGBA组成
+
+在计算机上图片的最小表示单位是像素，RGBA格式图片的像素由红（Red）、绿（Green）、蓝（Blue）、透明度（Alpha）四个通道组成，每个通道占8bit，一个像素长度为32bit，其结构如图6.2所示。前三个通道颜色的取值范围为0到255之间的整数或者0%到100%之间的百分数，这些值描述了红绿蓝三原色在预期色彩中的量。如100%红、0%绿和0%蓝，设置为纯红色。Alpha通道确定彩色的透明度，值范围为`[0，1]`，0为全透明，1为不透明。
+
+![](images/txt007_29.jpg "pagenumber_ebook=136,pagenumber_book=117")
+
+图6.2 RGBA结构
+
+### 3. 组数对象以图片格式存放
+
+`plt.imsave（fname，arr，**kwargs）`的参数说明如下。
+（1）`fname`，指定需要存储为图片的文件名（含文件路径）。
+（2）`arr`，图片数据的数组，数组形式可以是（M，N）、（M，N，3）、（M，N，4）。
+（3）`**kwargs`代表如下参数设置及使用。
+①`vmin`，`vmax`，设置颜色范围。
+②`cmap`，设置图片颜色，仅适用于灰度图片。
+③`format`，指定文件的扩展名，如“.png”“ .pdf”“ .svg”等。
+④`origin`，可选值“upper”“lower”，指定图片索引坐标（0，0）从左上角开始，还是从左下角开始。
+⑤`dpi`，表示图像分辨率，指每英寸长度上的点数。
+
+### 4. 读写图片
+
+先用`imread（　）`读取指定位置的图片，然后通过`imshow（　）`函数显示读取的图片，其代码如下：
+
+代码文件：`6_1_5_readPhoto.py`
+
+![](images/txt007_30.jpg "pagenumber_ebook=137,pagenumber_book=118")
+
+注意
+用`imread（　）`读取指定路径下的图片时，在其路径字符串前必须加`r`字符，表示字符串里即使存在`\\`开始的转义字符，也按照字符串本身执行，不进行字符转义操作。
+
+上述代码执行结果如图6.3所示。
+
+![](images/txt007_31.jpg "pagenumber_ebook=138,pagenumber_book=119")
+
+图6.3 读取的猫图片
+
+代码打印输出如下：
+
+![](images/txt007_32.jpg "pagenumber_ebook=138,pagenumber_book=119")
+
+![](images/txt007_33.jpg "pagenumber_ebook=139,pagenumber_book=120")
+
+上述为读取图片的数组显示数值，每一行为四个值，分别对应RGBA四个通道的值，这里所有的透明度为1。当一个像素的值为 （255，255，255，0）时，表示完全透明的白色；当一个像素的值为（0，0，0，1）时，表示完全不透明的黑色，也就是Aplha的取值范围为`[0，1]`。
+
+![](images/txt007_34.jpg "pagenumber_ebook=139,pagenumber_book=120")
+
+从图6.3左边的坐标值可以看出1706对应y轴值（图片的高），1280对应x轴值（图片的宽），4为一个像素的RGBA。
+
+### 5. 保存截取的图片
+
+这里通过对数组指定范围元素的读取，把猫单独截取出来，另存为一个图片。
+
+代码文件：`6_1_5_savePhoto.py`
+
+![](images/txt007_35.jpg "pagenumber_ebook=139,pagenumber_book=120")
+
+![](images/txt007_36.jpg "pagenumber_ebook=140,pagenumber_book=121")
+
+截取部分图片并保存到新文件中的执行结果如图6.4所示。
+
+![](images/txt007_37.jpg "pagenumber_ebook=140,pagenumber_book=121")
+
+图6.4 截取的猫图片
+
+说明
+由此读者可以得到启发，可以借助数组的各种操作，实现对图像的各种处理，如图像旋转、图像大小改变、图像透明度改变、图像的切割、图像识别、图像叠加、图像特定部分移动等。
+
+## 6.2 数组数学基本运算
+
+数组确实能像数字一样进行各种数学运算，然后生成新的数组元素。可以让图片里的内容改变或判断图片里的内容，是非常有意思的。
+
+## 6.2.1 四则运算
+
+对数组元素，进行加法（`+`）、减法（`-`）、乘法（`*`）、除法（`/`）基本运算。
+
+### 1. 加法运算（`+`）
+
+利用`+`号实现数组与数字、数组与数组的加法运算。
+
+![](images/txt007_38.jpg "pagenumber_ebook=141,pagenumber_book=122")
+
+![](images/txt007_39.jpg "pagenumber_ebook=142,pagenumber_book=123")
+
+从上述测试中可以得到，数组与常量相加、同行同列数组相加、数组与同列1行或同行1列的数组相加都可以，其他情况相加计算机将报错。
+
+说明
+（n，m）数组与（n，1）、（1，m）相加的过程，有个专有名称称为“广播运算”。
+
+### 2. 减法运算（`-`）
+
+可以通过`-`号，实现数组与数字、数组与数组的减法运算。
+
+![](images/txt007_40.jpg "pagenumber_ebook=142,pagenumber_book=123")
+
+![](images/txt007_41.jpg "pagenumber_ebook=143,pagenumber_book=124")
+
+从上述代码测试可以得出，数组减法运算规律同加法运算规律。
+
+### 3. 乘法运算（`*`）
+
+通过`*`号实现数组与数字、数组与数组之间的乘法运算。
+
+![](images/txt007_42.jpg "pagenumber_ebook=143,pagenumber_book=124")
+
+从上述代码测试可以得出，数组乘法运算规律同加法运算规律。
+
+### 4. 除法运算（`/`）
+
+通过`/`号实现数组与数字、数组与数组之间的除法运算。
+
+![](images/txt007_43.jpg "pagenumber_ebook=143,pagenumber_book=124")
+
+![](images/txt007_44.jpg "pagenumber_ebook=144,pagenumber_book=125")
+
+从上述代码测试可以得出，数组除法运算规律同加法计算规律。
+
+## 6.2.2 取余、求幂、取整、复数运算
+
+对数组元素，进行取余（`%`）、幂（`**`）、取整（`//`）、复数运算。
+
+### 1. 数组取余运算（`%`）
+
+通过`%`号实现数组与数字、数组与数组之间的求余运算，其使用方法示例如下：
+
+![](images/txt007_45.jpg "pagenumber_ebook=144,pagenumber_book=125")
+
+### 2. 数组求幂运算（`**`）
+
+通过`**`号实现数组与数组、数组与数字之间的求幂运算，其使用方法示例如下：
+
+![](images/txt007_46.jpg "pagenumber_ebook=145,pagenumber_book=126")
+
+### 3. 数组取整运算（`//`）
+
+通过`//`号实现数组与数字、数组与数组之间的取整运算，其使用方法示例如下：
+
+![](images/txt007_47.jpg "pagenumber_ebook=145,pagenumber_book=126")
+
+![](images/txt007_48.jpg "pagenumber_ebook=146,pagenumber_book=127")
+
+### 4. 数组复数运算
+
+复数（Complex Number）是指能写成如`a+bj`形式的数，这里`a`和`b`是实数，`j`是虚数单位（-1开根号）。这是高中将会学习的数学知识，在大型水坝渗水处理、直升机机翼上升力等方面有重要应用，使用方法示例如下：
+
+![](images/txt007_49.jpg "pagenumber_ebook=146,pagenumber_book=127")
+
+## 6.2.3 数组比较运算
+
+数组比较运算包括等于（`==`）、不等于（`!=`）、大于（`>`）、小于（`<`）、不小于（`>=`）、不大于（`<=`）。数组比较运算主要用于比较数组对应元素，比较的逻辑结果为True或False。
+
+### 1. 数组与数组比较
+
+数组与数组比较使用方法示例如下：
+
+![](images/txt007_50.jpg "pagenumber_ebook=146,pagenumber_book=127")
+
+![](images/txt007_51.jpg "pagenumber_ebook=147,pagenumber_book=128")
+
+说明
+这里可以把`A1`和`B2`想象成两张照片的比较，看看它们是否一模一样。
+
+### 2. 数组与数字比较
+
+数组与数字比较使用方法示例如下：
+
+![](images/txt007_52.jpg "pagenumber_ebook=147,pagenumber_book=128")
+
+## 6.2.4 [案例]三酷猫把彩照变成黑白照
+
+通过对四通道的像素（四通道像素原理详见6.1.5节），只取其中一个通道的值，在显示时指定灰度颜色，就可以实现黑白照的效果，其实现代码示例如下：
+
+代码文件：`6_2_4_grayCat.py`
+
+![](images/txt007_53.jpg "pagenumber_ebook=148,pagenumber_book=129")
+
+上述代码执行显示如图6.5所示，数组大小显示如下：
+
+![](images/txt007_54.jpg "pagenumber_ebook=148,pagenumber_book=129")
+
+![](images/txt007_55.jpg "pagenumber_ebook=149,pagenumber_book=130")
+
+图6.5 三酷猫把彩照处理成黑白照
+
+## 6.3 数组函数和方法
+
+`numpy`库的数组自带一些函数和方法，具有强大的数组处理能力。
+
+## 6.3.1 数组常用函数
+
+`numpy`库提供的常用函数除了5.3.1节介绍的`abs（　）`、`sqrt（　）`，6.1节介绍的`vstack（　）`、`hstack（　）`、`delete（　）`、`np.arange（　）`、`linspace（　）`、`zeros（　）`、`ones（　）`、`full（　）`、`eye（　）`、`repeat（　）`外，还包括以下函数。
+
+### 1. 四舍五入函数`around（　）`

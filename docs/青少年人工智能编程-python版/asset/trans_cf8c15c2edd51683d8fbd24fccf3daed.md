@@ -1,0 +1,227 @@
+
+
+![](images/txt007_56.jpg "pagenumber_ebook=149,pagenumber_book=130")
+
+### 1. 四舍五入函数 `np.around()`
+`np.around()` 函数在四舍五入的使用方法上类似 Python 自带的 `round()` 函数。
+
+### 2. 求算术平均值函数 `np.average()` （含加权参数 `weights`）
+![](images/txt007_57.jpg "pagenumber_ebook=150,pagenumber_book=131")
+带加权求平均值，先用数组 `one` 与 `w1` 进行对应元素的加权乘积，然后再求平均值。`w1` 权重值的和为 1，人们往往根据权重大小去区分不同元素的重要性。在没有提供 `weights` 参数情况下，就是求普通的算术平均值，与 `np.mean()` 求均值（又称为平均值）的功能一样。
+
+### 3. 构建块矩阵函数 `block()`
+![](images/txt007_58.jpg "pagenumber_ebook=150,pagenumber_book=131")
+
+### 4. 有序集合倒序排序 `flipud()` 函数
+![](images/txt007_59.jpg "pagenumber_ebook=151,pagenumber_book=132")
+
+### 5. 比较替换函数 `where()`
+![](images/txt007_60.jpg "pagenumber_ebook=151,pagenumber_book=132")
+
+## 6.3.2 `numpy` 库的随机函数
+在实际测试数据不可获取的情况下，通过 `numpy` 库提供的各种随机函数，可以产生各种模拟样本数据，为数据绘图、研究及学习提供方便。
+
+### 1. 随机均匀小数函数
+用 `np.random.rand()` 函数创建值范围为 `[0，1)` 的均匀分布小数，并以数组形式返回。
+![](images/txt007_61.jpg "pagenumber_ebook=151,pagenumber_book=132")
+![](images/txt007_62.jpg "pagenumber_ebook=152,pagenumber_book=133")
+
+### 2. 随机整数函数
+用 `np.random.randint(low, high, shape)` 函数产生数值范围为 `[low，high)`，维数由 `shape` 指定的随机整数数组或一个随机整数。其中 `low` 不小于 0；`high` 可以省略；`shape` 以元组形式指定维度，可以省略。
+![](images/txt007_63.jpg "pagenumber_ebook=153,pagenumber_book=134")
+
+### 3. 标准正态分布样本数值函数
+用 `np.random.randn()` 函数产生值分布为随机正态分布的样本数组，值范围含正负浮点数。这里的正态分布概念及几何意义，详见 7.2.5 节内容。
+![](images/txt007_64.jpg "pagenumber_ebook=153,pagenumber_book=134")
+![](images/txt007_65.jpg "pagenumber_ebook=154,pagenumber_book=135")
+
+### 4. 在指定区间里返回指定维数的随机数数组
+用 `np.random.uniform(low, high, size)` 函数随机返回值范围为 `(low, high)`，数组维数为 `size` 的随机样本数值，其中 `size` 为元组形式；`low` 默认值为 0；`high` 默认值为 1。
+![](images/txt007_66.jpg "pagenumber_ebook=154,pagenumber_book=135")
+
+### 5. 从一维数组里随机抽取指定数量的样本数值
+用 `np.random.choice()` 函数从指定一维数组里抽取指定数量的样本值。
+![](images/txt007_67.jpg "pagenumber_ebook=154,pagenumber_book=135")
+这里仅介绍跟本书相关的 5 个随机函数，其实 `np.random` 模块下还存在其他功能强大的随机函数，可以用 `help(np.random)` 查看。
+
+## 6.3.3 数组常用方法
+`numpy` 数组自带一些方法，常见的包括 `all()`、`any()`、`max()`、`min()`、`mean()`、`prod()`、`sum()`、`transpose()`、`var()`、`std()` 等。
+
+### 1. `all()` 方法
+数组 `all()` 方法用于判断数组元素是否都为非 0，若都为非 0，则判断结果为 `True`，否则判断结果为 `False`。
+![](images/txt007_68.jpg "pagenumber_ebook=155,pagenumber_book=136")
+
+### 2. `any()` 方法
+数组自带 `any()` 方法用于判断数组里是否至少存在一个非 0 值，如果是，则判断结果为 `True`，否则判断结果为 `False`。
+![](images/txt007_69.jpg "pagenumber_ebook=155,pagenumber_book=136")
+
+### 3. `max()` 方法
+数组自带的 `max()` 方法用于获取最大元素。当指定参数 `axis`，值为 0 时，求每列的最大值；值为 1 时，求每行的最大值。
+![](images/txt007_70.jpg "pagenumber_ebook=156,pagenumber_book=137")
+
+### 4. `min()` 方法
+数组自带的 `min()` 方法用于获取最小元素。当指定参数 `axis`，值为 0 时，求每列的最小值；值为 1 时，求每行的最小值。
+![](images/txt007_71.jpg "pagenumber_ebook=156,pagenumber_book=137")
+
+### 5. `mean()` 方法
+数组自带的 `mean()` 方法用于获取所有元素的均值。当指定参数 `axis`，值为 0 时，求每列的均值；值为 1 时，求每行的均值。
+![](images/txt007_72.jpg "pagenumber_ebook=157,pagenumber_book=138")
+
+### 6. `prod()` 方法
+数组自带的 `prod()` 方法用于计算所有元素的乘积。当指定参数 `axis`，值为 0 时，求每列的乘积；值为 1 时，求每行的乘积。
+![](images/txt007_73.jpg "pagenumber_ebook=157,pagenumber_book=138")
+
+### 7. `sum()` 方法
+数组自带的 `sum()` 方法用于计算所有元素的和。当指定参数 `axis`，值为 0 时，求每列元素的和；值为 1 时，求每行元素的和。
+![](images/txt007_74.jpg "pagenumber_ebook=157,pagenumber_book=138")
+
+### 8. `transpose()` 方法
+数组自带的 `transpose()` 方法用于把数组的每一行元素顺时针旋转 90°（数学上称其为转置）。
+![](images/txt007_75.jpg "pagenumber_ebook=158,pagenumber_book=139")
+
+### 9. `var()` 方法
+数组自带的 `var()` 方法用于计算所有元素的方差。当指定参数 `axis`，值为 0 时，求每列元素的方差；值为 1 时，求每行元素的方差。
+中学里方差公式为式中：求平均值公式为 ![](images/txt007_76.jpg "pagenumber_ebook=158,pagenumber_book=139")，`n` 为数组求平均值的元素个数。
+![](images/txt007_77.jpg "pagenumber_ebook=158,pagenumber_book=139")
+![](images/txt007_78.jpg "pagenumber_ebook=158,pagenumber_book=139")
+
+### 10. `std()` 方法
+数组自带的 `std()` 方法用于计算所有元素的标准差。当指定参数 `axis`，值为 0 时，求每列元素的标准差；当值为 1 时，求每行元素的标准差。标准差的公式为
+![](images/txt007_79.jpg "pagenumber_ebook=159,pagenumber_book=140")
+在上例代码执行的基础上，求 `G` 数组的标准差。
+![](images/txt007_80.jpg "pagenumber_ebook=159,pagenumber_book=140")
+
+## 6.3.4 [案例] 把三酷猫照片旋转 90°
+学了数组的自带方法，三酷猫决定把它的黑白照片旋转 90°。
+代码文件：`6_3_2_T_Photo.py`
+![](images/txt007_81.jpg "pagenumber_ebook=159,pagenumber_book=140")
+代码执行如下：
+![](images/txt007_82.jpg "pagenumber_ebook=160,pagenumber_book=141")
+旋转 90° 的照片如图 6.6 所示，可以与图 6.5 进行对比。
+![](images/txt007_83.jpg "pagenumber_ebook=160,pagenumber_book=141")
+图 6.6 把照片旋转 90°
+
+## 6.4 数据统计
+三酷猫水果店每天、每月、每季、每年都需要统计各种水果的销售量、销售额，看看哪些水果销售较好，哪些水果销售较差。于是他决定用数组和 `matplotlib` 库函数的结合，用条形图、饼状图、散点图来直观统计。
+
+### 6.4.1 条形图
+`matplotlib` 库提供的 `bar()` 函数，用于绘制指定数组的条形图。
+三酷猫水果店 2022 年西瓜销售数量如表 6.1 所示。
+表 6.1 2022 年西瓜销售数量
+![](images/txt007_84.jpg "pagenumber_ebook=161,pagenumber_book=142")
+三酷猫想通过条形图更加直观地比较表 6.1 每个月销售数量的情况，看看哪些月份销售较好，哪些月份销售较差。
+代码文件：`6_4_1_bar.py`
+![](images/txt007_85.jpg "pagenumber_ebook=161,pagenumber_book=142")
+![](images/txt007_86.jpg "pagenumber_ebook=162,pagenumber_book=143")
+上述代码执行结果如图 6.7 所示，通过其条形图高低的对比，很容易可以看出 6 月西瓜销售数量最多，11 月销售量最少。
+![](images/txt007_87.jpg "pagenumber_ebook=162,pagenumber_book=143")
+图 6.7 三酷猫水果店 2022 年水果销售数量统计
+注意
+用 `matplotlib` 库的函数 `bar()` 设置 `x`、`y` 轴数据时，其对应的元素个数必须一样，否则计算机报错。后续 `pie()`、`scatter()`、`plot()` 等都存在类似问题。
+
+### 6.4.2 饼状图
+`matplotlib` 库提供的 `pie()` 函数，用于绘制指定数组的饼状图。
+三酷猫水果店某一天水果销售记录如表 6.2 所示。
+表 6.2 某一天水果销售数量
+![](images/txt007_88.jpg "pagenumber_ebook=163,pagenumber_book=144")
+三酷猫希望通过饼状图了解表 6.2 销售数量的占比，看看哪些水果销售好，哪些水果滞销，其代码如下：
+代码文件：`6_4_2_pie.py`
+![](images/txt007_89.jpg "pagenumber_ebook=163,pagenumber_book=144")
+![](images/txt007_90.jpg "pagenumber_ebook=164,pagenumber_book=145")
+上述代码执行结果如图 6.8 所示。
+![](images/txt007_91.jpg "pagenumber_ebook=164,pagenumber_book=145")
+图 6.8 三酷猫水果店一天销售数量占比
+
+### 6.4.3 散点图
+`matplotlib` 库提供的 `scatter()` 函数，用于绘制指定数组的散点图。
+三酷猫水果店某一天从早上 9 点到晚上 9 点，西瓜销售数量随着时间的变化而变化情况如表 6.3 所示。
+表 6.3 某一天西瓜销售数量随时间变化情况
+![](images/txt007_92.jpg "pagenumber_ebook=165,pagenumber_book=146")
+三酷猫想通过散点图了解表 6.3 的西瓜销售在时间段的分布特点，其代码如下：
+代码文件：`6_4_3_scatter.py`
+![](images/txt007_93.jpg "pagenumber_ebook=165,pagenumber_book=146")
+![](images/txt007_94.jpg "pagenumber_ebook=166,pagenumber_book=147")
+上述代码执行结果如图 6.9 所示。从该图可以发现这一天销售的几个特点：
+（1）早上 10 到 11 点期间，发生了 1 小时内西瓜销售量最大的两个高峰期，在图 6.9 中表现为最大的两个绿圆点；
+（2）下午 3 点到晚上 8 点，销售量比较集中，在图 6.9 中表现为绿色圆点集中最多。
+由此，三酷猫可以根据这一天的销售散点图来安排第二天的西瓜上架数量。
+![](images/txt007_95.jpg "pagenumber_ebook=166,pagenumber_book=147")
+图 6.9 三酷猫水果店某一天西瓜销售散点图
+
+## 6.5 [案例] 三酷猫对照片进行再加工
+利用前面所学的数组运算方法，三酷猫决定进一步尝试加工自己的照片。
+
+### 1. 对照片元素做减法运算
+代码文件：`6_5_testPhoto.py`
+![](images/txt007_96.jpg "pagenumber_ebook=167,pagenumber_book=148")
+上述代码执行结果如图 6.10 所示，与原始照片相比，照片颜色变深。均值输出如下：
+![](images/txt007_97.jpg "pagenumber_ebook=167,pagenumber_book=148")
+![](images/txt007_98.jpg "pagenumber_ebook=168,pagenumber_book=149")
+图 6.10 对像素做减法运算后的结果
+
+### 2. 对照片元素做乘法运算
+代码文件：`6_5_testPhoto1.py`
+![](images/txt007_99.jpg "pagenumber_ebook=168,pagenumber_book=149")
+上述代码执行结果如图 6.11 所示。由于前 1（红）、3（蓝）通道都乘以了 2，所以 1、3 通道颜色增强，照片以显示红蓝色为主。
+![](images/txt007_100.jpg "pagenumber_ebook=169,pagenumber_book=150")
+图 6.11 对像素做乘法运算后的结果
+
+### 3. 对照片元素做比较设置运算
+代码文件：`6_5_testPhoto2.py`
+![](images/txt007_101.jpg "pagenumber_ebook=169,pagenumber_book=150")
+![](images/txt007_102.jpg "pagenumber_ebook=170,pagenumber_book=151")
+处理后的照片如图 6.12 所示，上述代码执行输出结果如下：
+![](images/txt007_103.jpg "pagenumber_ebook=170,pagenumber_book=151")
+![](images/txt007_104.jpg "pagenumber_ebook=171,pagenumber_book=152")
+![](images/txt007_105.jpg "pagenumber_ebook=171,pagenumber_book=152")
+图 6.12 照片元素比较并赋值后的处理结果
+通过对小于 0.9 的像素值赋予 0，可以使显示的照片内容聚焦于像素不小于 0.9 的细节。图 6.12 的主要细节是暖色调的猫咪。
+
+## 6.6 练习和实验
+
+### 练习
+
+#### 1. 填空题
+（1）`numpy` 库提供的（　）的数据集合参数可以是列表、元组、集合、字典等。
+（2）二维数组增加元素，也需要采用对接方法，可以分为（　）、（　）两种对接方式。
+（3）`numpy` 库自带的（　）函数实现两个数组之间的垂直对接。
+（4）`numpy` 库自带的（　）函数实现两个数组之间的水平对接。
+（5）`numpy` 库的（　）函数生成指定的 `n` 个等分样本数据。
+
+#### 2. 判断题
+（1）`numpy` 库支持创建一维、二维、三维、四维……的数组。（　）
+（2）`numpy` 库创建的数组元素不能通过下标方法进行修改。（　）
+（3）二维数组元素需要通过 `np.delete()` 函数进行删除，只能整列或整行删除。（　）
+（4）`numpy` 库的 `zeros()` 函数生成元素都为 1 的数组。（　）
+（5）`numpy` 库的 `full()` 函数生成指定数值的数组。（　）
+
+### 实验
+
+#### 1. 实验一
+用自定义函数求二维数组的均值、方差、标准差：
+（1）均值、方差、标准差分别自定义函数；
+（2）不能使用 `numpy` 库自带方法；
+（3）打印输出；
+（4）把代码保存为 `ArrayCode1.py` 文件。
+
+#### 2. 实验二
+对于三酷猫照片，采用乘法、取余、求幂方式进行处理。
+（1）对于不同的方式，分别采用 `matplotlib` 显示；
+（2）打印输出处理后照片的数据；
+（3）把代码保存为 `ArrayCode2.py` 文件。
+
+【注释】
+[1] 样本，是统计学术语。研究中实际观测或调查的一部分个体称为样本（Sample），研究对象的全部称为总体。
+
+# 第七章 美妙的线条
+![](images/txt008_1.jpg "pagenumber_ebook=173,pagenumber_book=154")
+这个世界很多事物由线条构成，身体的曲线、海岸线、房子的边角线、扇子弧线、长城城墙垛的折线等。从理论上来说，任何线条都可以通过数字绘制出来。在 `matplotlib` 库里，绘制线条是其中的一项基本功能。通过对绘制线条的了解，可以加深读者对数字与线条之间关系的理解。
+
+## 7.1 直线
+这里通过 `matplotlib` 库把线条绘制出来。
+
+### 7.1.1 绘制直线
+`matplotlib` 库的 `pyplot` 子库提供了 `plot()` 函数，可用于绘制直线。
+
+#### 1. `plot()` 函数的参数使用说明
+

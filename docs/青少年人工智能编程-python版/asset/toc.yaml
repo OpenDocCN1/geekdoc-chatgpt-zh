@@ -1,0 +1,71 @@
+level_changes:
+- line: 163
+  before: 1
+  after: 4
+- line: 165
+  before: 2
+  after: 5
+- line: 177
+  before: 2
+  after: 5
+- line: 189
+  before: 2
+  after: 4
+- line: 191
+  before: 3
+  after: 5
+- line: 203
+  before: 3
+  after: 5
+- line: 209
+  before: 1
+  after: 2
+- line: 582
+  before: 1
+  after: 2
+- line: 920
+  before: 1
+  after: 4
+- line: 988
+  before: 1
+  after: 3
+- line: 1011
+  before: 1
+  after: 3
+- line: 1049
+  before: 1
+  after: 2
+- line: 1391
+  before: 1
+  after: 2
+- line: 1875
+  before: 1
+  after: 2
+- line: 2492
+  before: 1
+  after: 2
+- line: 3168
+  before: 1
+  after: 2
+- line: 3735
+  before: 1
+  after: 2
+- line: 3958
+  before: 1
+  after: 2
+- line: 4145
+  before: 2
+  after: 1
+- line: 4177
+  before: 2
+  after: 1
+- line: 4194
+  before: 2
+  after: 1
+text_changes:
+- line: 2094
+  before: 3. 组数对象以图片格式存放
+  after: 3. 数组对象以图片格式存放
+- line: 3607
+  before: 10.5.2 0/1 背包问题
+  after: 10.5.2 0-1 背包问题
