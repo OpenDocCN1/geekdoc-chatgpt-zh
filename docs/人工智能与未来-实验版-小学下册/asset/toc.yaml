@@ -1,0 +1,47 @@
+level_changes:
+- line: 6
+  before: 2
+  after: 1
+- line: 612
+  before: 3
+  after: 4
+- line: 644
+  before: 3
+  after: 4
+- line: 648
+  before: 3
+  after: 4
+- line: 656
+  before: 3
+  after: 4
+- line: 700
+  before: 3
+  after: 4
+text_changes:
+- line: 40
+  before: 1.模仿人类的逻辑思维能力
+  after: 1. 模仿人类的逻辑思维能力
+- line: 44
+  before: 逻辑思维能力的一种表现—— 搜索
+  after: 逻辑思维能力的一种表现——搜索
+- line: 54
+  before: 逻辑思维能力的另一种表现—— 解决问题
+  after: 逻辑思维能力的另一种表现——解决问题
+- line: 62
+  before: 2.计算机产生智力的一般方法
+  after: 2. 计算机产生智力的一般方法
+- line: 98
+  before: 3.人工智能的未来
+  after: 3. 人工智能的未来
+- line: 154
+  before: 1.设计闪烁的小彩灯
+  after: 1. 设计闪烁的小彩灯
+- line: 218
+  before: 2.制作流水彩灯
+  after: 2. 制作流水彩灯
+- line: 326
+  before: 3.做好“指挥官”
+  after: 3. 做好“指挥官”
+- line: 526
+  before: 思考
+  after: 想一想
