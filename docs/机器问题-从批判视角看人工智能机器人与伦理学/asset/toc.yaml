@@ -1,0 +1,38 @@
+level_changes:
+- line: 8
+  before: 3
+  after: 2
+- line: 14
+  before: 3
+  after: 2
+- line: 20
+  before: 3
+  after: 2
+- line: 26
+  before: 3
+  after: 2
+- line: 32
+  before: 3
+  after: 2
+- line: 688
+  before: 1
+  after: 2
+- line: 970
+  before: 1
+  after: 2
+- line: 1049
+  before: 1
+  after: 2
+- line: 1198
+  before: 1
+  after: 2
+text_changes:
+- line: 0
+  before: 机器问题 从批判视角看人工智能、机器人与伦理学
+  after: 并购案例研究
+- line: 26
+  before: 杨小华 ( Xiaohua Yang)
+  after: 杨小华 (Xiaohua Yang)
+- line: 1612
+  before: 介 绍
+  after: 介绍
