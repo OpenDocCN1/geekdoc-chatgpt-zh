@@ -1,0 +1,62 @@
+level_changes:
+- line: 331
+  before: 1
+  after: 4
+- line: 425
+  before: 1
+  after: 4
+- line: 437
+  before: 1
+  after: 4
+- line: 729
+  before: 1
+  after: 3
+- line: 1108
+  before: 1
+  after: 3
+- line: 1143
+  before: 1
+  after: 4
+- line: 1171
+  before: 1
+  after: 4
+- line: 1214
+  before: 1
+  after: 4
+- line: 1253
+  before: 1
+  after: 4
+- line: 583
+  before: 1
+  after: 2
+- line: 859
+  before: 1
+  after: 2
+- line: 1707
+  before: 1
+  after: 2
+- line: 3391
+  before: 1
+  after: 2
+- line: 3606
+  before: 1
+  after: 2
+- line: 4200
+  before: 1
+  after: 2
+- line: 4208
+  before: 1
+  after: 2
+text_changes:
+- line: 892
+  before: 1.5G 技术
+  after: 5G 技术
+- line: 27
+  before: （4）1 + X 证书考点
+  after: （4）1+X 证书考点
+- line: 105
+  before: 3.与 1 + X 证书匹配关系
+  after: 3.与 1+X 证书匹配关系
+- line: 1108
+  before: 1.3 ZigBee 协议栈与节点平台
+  after: 1.3.1 ZigBee 协议栈与节点平台
