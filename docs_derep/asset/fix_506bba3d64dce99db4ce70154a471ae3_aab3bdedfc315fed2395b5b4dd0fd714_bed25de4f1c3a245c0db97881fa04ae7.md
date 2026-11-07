@@ -1,0 +1,305 @@
+[PRE0]
+
+图3-12
+
+把焦点放到“大模型”节点上，打开属性面板里的模型选择下拉菜单，本次演示选用 DeepSeek-R1，参考图3-13。
+
+[PRE1]
+
+图3-13
+
+为避免与其他节点变量冲突，将该大模型节点的输入参数更名为 content，操作见图3-14。
+
+[PRE2]
+
+图3-14
+
+用连线把“开始”节点的输出端与“大模型”节点的输入端连通，形成数据通道，如图3-15。
+
+[PRE3]
+
+图3-15
+
+随后进入“大模型”节点属性页，点击输入参数 content 右侧的齿轮按钮 ⚙，把“开始”节点的 input 参数映射为其输入源，见图3-16。
+
+[PRE4]
+
+图3-16
+
+完成设置后的整体状态如图3-17。
+
+[PRE5]
+
+## 3.4 搭建用户界面
+
+下面制作一个可视化操作面板，让智能体使用更顺手。
+
+在工作流页顶部打开“用户界面”，如图3-28所示，选择 UI 类型为“桌面网页”，点击下方的“开始搭建”进入图3-29 的编辑页。
+
+[PRE6]
+▲图3-28
+[PRE7]
+▲图3-29
+
+图3-29 左侧罗列了可用的 UI 组件。先拖一个“表单”组件到画布上，如图3-30。
+
+[PRE8]
+图3-30
+
+选中表单内的任意元素，右侧会弹出对应的属性面板，如图3-31。
+
+[PRE9]
+图3-31
+
+从表单中删除 InputNumber1 与 Select1 两个组件。选中表单标题 Text1，把“内容”改为“这是一个智能标语生成器”。选中说明文本 Text2，把“内容”改为“这里会显示DeepSeek为您生成的标语”。调整后的表单如图3-32。
+
+[PRE10]
+图3-32
+
+再拖一个布局组件“容器”置于 Text2 即“这里会显示DeepSeek为您生成的标语”下方，并在属性面板把容器的宽度百分比设为 100%，如图3-33。
+
+[PRE11]
+图3-33
+
+随后拖一个展示组件“Markdown”进容器的内部，并在其属性面板清空“内容”属性的默认值。布局至此基本完成，最终效果见图3-34。
+
+[PRE12]
+图3-34
+
+此时可点击属性栏顶部的“预览”查看样式，但由于界面还未与工作流关联，目前仅是一个空框架，没有实际功能。
+
+## 3.5 整合与应用
+
+下面把界面与工作流联动起来，实现前端操作驱动标语生成。
+
+选中按钮组件 Button1，在属性面板把“内容”改为“生成”，如图3-35。
+
+[PRE13]
+图3-35
+
+在 Button1 属性面板切换到“事件”页签，如图3-36。
+
+[PRE14]
+图3-36
+
+点击“+ 新建”创建事件。在弹出的“事件配置”窗口中，事件类型保持默认“点击时”，执行动作在下拉框选择“调用工作流”，如图3-37。
+
+[PRE15]
+图3-37
+
+窗口随即出现更多配置项。在“Workflow”下拉菜单中选中已建的工作流“Slogan_Workflow”，如图3-38。
+
+[PRE16]
+图3-38
+
+接着在“input”文本框点“(x)”，选取组件 Textarea1 的变量 value，也可直接写入 {{ Textarea1.value }}。在“成功提示”处填入“工作流调用成功”，如图3-39。
+
+[PRE17]
+图3-39
+
+选中 Markdown1 组件，在其属性面板点“内容”属性框中的“(x)”，绑定到“Slogan_Workflow”下的“data”变量，如图3-40。
+
+[PRE18]
+图3-40
+
+设置完成后 Markdown1 的“内容”属性如图3-41。
+
+[PRE19]
+图3-41
+
+至此，自动生成宣传标语的智能体已全部搭建完毕。
+
+点击属性栏顶部的“预览”即可打开界面。在输入框键入“为第九届亚洲冬季运动会生成一条宣传标语”，点下方“生成”按钮，智能体调用 DeepSeek 生成标语“热雪燃冬，跃动亚洲！”，效果见图3-42。
+
+# 这是一个智能标语生成器
+
+这里会显示DeepSeek为您生成的标语
+
+热雪燃冬，跃动亚洲！
+
+请输入内容
+
+为第九届亚洲冬季运动会生成一条宣传标语
+
+生成
+
+图3-42
+
+还可以点页面右上角的“发布”按钮，将其投放到指定平台，如图3-43。
+
+[PRE20]
+图3-43
+
+到此，无需编写代码，已完成一个基于 DeepSeek 大模型的专属智能体。
+
+# 第4章 调用DeepSeek API进行AI编程
+
+第1章已介绍使用 DeepSeek 的四种方式，其中之一是通过 API 调用。本章将借助 VS Code 与 AI 插件 Cline 调用 DeepSeek API 实现 AI 编程，涵盖全自动生成一个类似 DeepSeek 的网页，以及为 Python 程序提供自动代码补全。
+
+## 4.1 申请DeepSeek的API
+
+DeepSeek API 是一组编程接口，可让开发者把 DeepSeek 的 AI 能力嵌入自己的应用或服务。通常包括自然语言处理、计算机视觉、语音识别等，具体取决于服务范围。
+
+使用大致需完成：
+
+- 注册并获取 API 密钥：在 DeepSeek 平台创建账号并领取用于鉴权的 API Key。
+- 阅读 API 文档：了解调用方式、参数说明与返回结果。
+- 集成 API：在代码中发起调用并处理返回数据。
+
+先获取 API Key。打开 DeepSeek 官网，如图4-1。
+
+[PRE21]
+图4-1
+
+点击右上角“API开放平台”，弹出登录页，输入手机号与验证码登录，如图4-2。
+
+# deepseek 开放平台
+
+验证码登录 密码登录
+
+您所在地区仅支持 手机号 / 微信 / 邮箱 登录
+
++86 请输入手机号
+
+# 请输入验证码
+
+发送验证码
+
+我已阅读并同意 用户协议 与 隐私政策，未注册的手机号将自动注册
+
+登录
+
+或
+
+使用微信扫码登录
+
+# 图4-2
+
+登录后进入开放平台主页，如图4-3。
+
+[PRE22]
+# 图4-3
+
+在左侧边栏点“API keys”，进入图4-4 页面，点击“创建API key”按钮新建一个 Key 并命名为“API Key of DeepSeek”。创建完成后务必复制保存，因出于安全考虑，后续无法在管理界面再次查看。若遗失需重新创建，请妥善保管防止泄露。
+
+[PRE23]
+图4-4
+
+左侧边栏点“接口文档”即可查阅 DeepSeek API 的官方文档，如图4-5。
+
+[PRE24]
+图4-5
+
+## 4.2 安装VS Code和AI插件Cline
+
+拿到 API Key 并熟悉文档后，就可集成调用 API，充分发挥其 AI 能力。
+
+集成 DeepSeek API 需要一个开发环境与功能插件，这里选用 VS Code 与 Cline。
+
+### 4.2.1 VS Code和Cline简介
+
+Visual Studio Code 是微软出品的开源代码编辑器，以轻量、高效和生态丰富著称。
+
+Cline 是专为 VS Code 打造的 AI 编程助手，通过接入大语言模型如 DeepSeek、OpenAI、Ollama 等，实现代码自动生成、优化与任务自动化。
+
+主要能力包括：
+
+- **智能代码补全**：基于上下文给出精准补全建议，支持 Python、JavaScript、Java、C++ 等多种语言。
+- **代码生成与重构**：用自然语言描述需求即可自动生成代码片段或重构现有代码，提升结构与可读性。
+- **错误检测与修复**：实时发现代码错误并提供修复建议，缩短调试时间。
+- **文件操作与终端命令执行**：可创建、编辑文件、执行终端命令并查看输出。
+- **网页开发辅助**：能在浏览器打开指定 URL，模拟访问、截屏、抓取控制台日志，帮助修复运行时问题。
+- **多模型支持**：兼容 DeepSeek、通义千问、OpenAI 等，用户可按需切换。
+
+### 4.2.2 安装 VS Code
+
+前往 VS Code 官网按操作系统下载对应安装包。双击运行，依次确认协议、安装路径、开始菜单目录等设置后开始安装，如图4-6。安装时长视版本与硬件而定。
+
+[PRE25]
+图4-6
+
+安装完成后启动 VS Code。如需中文界面，按 Ctrl+Shift+P 打开命令面板，输入“Configure Display Language”，切换为简体中文即可，如图4-7。
+
+[PRE26]
+图4-7
+
+### 4.2.3 安装Cline并配置DeepSeek API
+
+在 VS Code 工作界面按 Ctrl+Shift+X 打开扩展商店，搜索 Cline 并安装，如图4-8。
+
+[PRE27]
+图4-8
+
+安装完成后左侧会出现 Cline 图标 🤖，点击打开 Cline 窗口，如图4-9。
+
+# Hi, I'm Cline
+
+I can do all kinds of tasks thanks to the latest breakthroughs in [Claude 3.5 Sonnet's agentic coding capabilities](https://example.com) and access to tools that let me create & edit files, explore complex projects, use the browser, and execute terminal commands (with your permission, of course). I can even use MCP to create new tools and extend my own capabilities.
+
+**To get started, this extension needs an API provider for Claude 3.5 Sonnet.**
+
+> While Cline currently requires you bring your own API key, we are working on an official accounts system with additional capabilities. Subscribe to our mailing list to get updates!
+
+API Provider
+
+OpenRouter API Key
+
+This key is stored locally and only used to make API requests from this extension.
+
+图4-9
+
+点击 Cline 窗口右上角“设置”图标进入设置页，在“API Provider”下拉框选择 DeepSeek，如图4-10。
+
+[PRE28]
+图4-10
+
+在“DeepSeek API Key”输入框填入自己的 Key。模型下拉框可选 deepseek-chat 或 deepseek-reasoner，前者对应 DeepSeek-V3，后者对应推理模型 DeepSeek-R1。这里选择 deepseek-reasoner，再点右上角“Done”。至此 Cline 已完成 DeepSeek-R1 配置，如图4-11。
+
+## Settings
+
+API Provider
+
+DeepSeek
+
+DeepSeek API Key
+
+••••••••••••••••••••••••••••••••••••••••
+
+This key is stored locally and only used to make API requests from this extension.
+
+Model
+
+deepseek-reasoner
+
+- ❌ Does not support images
+
+- ❌ Does not support computer use
+
+- ✅ Supports prompt caching
+
+Max output: 8,000 tokens
+
+Cache writes price: $0.55/million tokens
+
+Cache reads price: $0.14/million tokens
+
+Output price: $2.19/million tokens
+
+万事俱备，只欠东风了！
+
+现在即可在 VS Code 中通过 Cline 插件调用 DeepSeek API 完成专业任务，只需把需求描述清楚，其余繁重工作交给 DeepSeek。
+
+下面通过两个案例展示调用 DeepSeek API 的能力。
+
+## 4.3 应用案例1：自动生成一个类似DeepSeek的网页版程序
+
+本节演示用 DeepSeek API 生成一个类似 DeepSeek 的网页程序。
+
+需求如下：
+
+请帮我创建一个类似DeepSeek的程序，使用html和JavaScript技术，页面风格尽量接近https://chat.deepseek.com/，DeepSeek的API调用请参见文档https://api-docs.deepseek.com/zh-cn/。
+
+在 Cline 窗口底部的任务输入框中输入上述需求，如图4-12。
+
+[PRE29]
+图4-12
