@@ -1,0 +1,32 @@
+level_changes:
+- line: 293
+  before: 2
+  after: 3
+- line: 2887
+  before: 2
+  after: 3
+- line: 2936
+  before: 2
+  after: 3
+text_changes:
+- line: 0
+  before: 大模型应用开发极简入门 ： 基于GPT-4和ChatGPT
+  after: 大模型应用开发极简入门：基于GPT-4和ChatGPT
+- line: 293
+  before: 1.1 Transformer 与语言模型概述
+  after: 1.1.2　Transformer 与语言模型概述
+- line: 445
+  before: 1.2.5 GPT-3.5、Codex 和 ChatGPT
+  after: 1.2.5　GPT-3.5、Codex 和 ChatGPT
+- line: 457
+  before: 1.2.6 GPT-4
+  after: 1.2.6　GPT-4
+- line: 633
+  before: 第 2 章 深入了解 GPT-4 和 ChatGPT 的 API
+  after: 第 2 章　深入了解 GPT-4 和 ChatGPT 的 API
+- line: 2273
+  before: 第 4 章 GPT-4 和 ChatGPT 的高级技巧
+  after: 第 4 章　GPT-4 和 ChatGPT 的高级技巧
+- line: 3701
+  before: 5.2.4 OpenAPI 规范
+  after: 5.2.4　OpenAPI 规范
