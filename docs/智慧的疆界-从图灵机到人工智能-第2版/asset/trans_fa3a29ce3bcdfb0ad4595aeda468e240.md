@@ -1,0 +1,178 @@
+
+
+## 1974年
+斯坦福大学的爱德华·肖特利夫(Ted Shortliffe)博士研发了帮助医生对住院的血液感染患者进行诊断和使用抗生素类药物进行治疗的专家系统“`MYCIN`”，该系统基于`LISP`语言开发，采用了可信度表示技术，不仅可以做确定性的判断，还可以进行不确定性的推理，并对推理结果的各种可能性进行解释。`MYCIN`系统是知识工程的一个标杆式的实践样板，它基本解决了知识表示、知识获取、搜索策略、不确定性推理和结构设计等知识工程中的重要问题。`MYCIN`对日后专家系统的设计产生了很大的影响，以`MYCIN`专家系统作为基础平台，人们开发出了更多其他专业领域的专家系统，如`EMYCIN`等。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L53H6Gw05Hh1b548.jpg)
+
+## 1975年
+明斯基提出了框架理论(`Frames Theory`)，这是一种新的知识表示方式。框架理论参考了以前语义连接等方式的优点，对符号主义的发展有很大影响。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L53LEGw05Hh3c279.jpg)
+
+专家系统`DENDRAL`通过质谱分析发现了一种全新的化学现象，这是计算机第一次做出了能在科学杂志上发表的科学发现。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L63H6Gw05Hh125ba.jpg)
+
+## 1976年
+汤姆·米切尔(Tom Mitchell)提出了“版本空间”(`Version Space`)的概念，这在日后成为机器学习的基础之一。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L63LEGw05Hh3f4%3Cspan%20style=)[EPUB...](https://t.me/+WwC4dCWvXRdhOTNh)83.jpg" style="width:100%;"/>
+
+## 1978年
+司马贺凭借他提出的经济学和决策论中著名的“有限理性模型”(`Bounded Rationality Model`)获得诺贝尔经济学奖。有限理性模型与司马贺在人工智能领域所主张的启发式搜索假说有很直接的相关性。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L63PMGw05Hh6504d.jpg)
+
+## 1979年
+汉斯·莫拉维克(Hans Moravec)在斯坦福大学建造了世界上第一台由计算机控制的自行驾驶的小车，成功环绕斯坦福大学人工智能实验室大楼走了一圈。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L73H6Gw05Hh405bd.jpg)
+
+## 1980年
+福岛邦彦(Kunihiko Fukushima)受到休伯尔和威泽尔的“小猫视觉实验”的启发，提出了“新认知机”(`Neocognitron`)的设想，其中包含了很多现代卷积神经网络的要素，如卷积、池化等。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L73LEGw05Hhc9243.jpg)
+
+美国人工智能协会(`American Association for Artificial Intelligence`, `AAAI`)在斯坦福大学成立，`AAAI`是第一个国家性质的人工智能协会，也是迄今为止最有影响力的人工智能协会。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L83H6Gw05Hhecf69.jpg)
+
+## 1981年
+丹尼·希利斯(Danny Hillis)发明连接机(`Connection Machine`)，这是一种专门面向人工智能和符号处理的大规模并行超级计算机。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L83LEGw05Hhbf9ad.jpg)
+
+## 1982年
+在知识工程之父费根鲍姆的建议下，由日本国际贸易和工业部一手建立的“第五代计算机计划”(`The Fifth Generation Computer Systems Project`)正式开始。日本定义的第五代计算机实质上是一种软硬件结合的面向知识和信息的人工智能系统，这个项目承载着日本信息技术超越西方的希望，倾全国之力打造，但是最终以失败告终。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L83PMGw05Hh018f5.jpg)
+
+约翰·霍普菲尔德(John Hopfield)发明了`Hopfield`神经网络，这被视为近代神经网络的开端。近代的贝叶斯网络(`Bayesian Network`)、`自组织映射`(`Self-Organized Map`)也是在这一年被提出的。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L93H6Gw05Hh3b7fa.jpg)
+
+## 1983年
+纽厄尔在卡内基梅隆大学发布了认知架构“`Soar`”(`State, Operator And Result`)，`Soar`源于纽厄尔和司马贺的通用问题求解程序`GPS`。它以知识块理论为基础，利用基于规则的记忆，获取搜索控制知识和操作符，即能从经验中学习，能记住自己是如何解决问题的，并把这种经验和知识用于以后的问题求解过程中，实现通用问题求解。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6L93LEGw05Hhac1c6.jpg)
+
+<[EPUB...](https://t.me/+WwC4dCWvXRdhOTNh)span class="bold">1983年　杰弗里·辛顿(Geoffrey Hinton)发明了玻尔兹曼机(`Boltzmann Machine`)。波尔兹曼机是一种随机神经网络。在这种网络中神经元只有两种输出状态，即二进制的0或1。状态的取值由概率统计法则决定，由于这种概率统计法则的表达形式与著名统计力学家路德维希·玻尔兹曼(Ludwig Boltzmann, 1844—1906)提出的玻尔兹曼分布类似，故将这种网络取名为玻尔兹曼机。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6LA3H6Gw05Hh6fbf0.jpg)
+
+## 1986年
+辛顿发明了误差反向传播算法。虽然这个算法之前已经被反复发明过几次，但其价值并未得到应有的重视，直到辛顿在《自然》杂志上发表论文清晰地描述了该算法，才开始被学术界广泛关注，神经网络也由此踏出了它的漫长复兴之路的第一步。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6LA3LEGw05Hh210dc.jpg)
+
+慕尼黑联邦国防军大学的恩斯特·迪克曼斯(Ernst Dickmanns)教授制造了世界上第一台在真实街道上自动行驶的汽车，并且在一条没有行人和其他车辆的空旷公路上行驶到了55英里/小时的速度。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6LB3H6Gw05Hh309cc.jpg)
+
+## 1987年
+明斯基公开出版了《心智社会》(`The Society of Mind`)一书，在书中明斯基不再只追求智能的单一来源，而是将心智视为由一系列各自负责不同领域的“智能体”(`Agent`)共同协作的结果，大脑中不具备思维的微小单元可以组成各种思维——意识、精神活动、常识、智能、自我，最终形成“统一的智慧”。这种智能组合就是“心智社会”，这是人工智能学者在认知理论的又一次新的尝试。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83PQ6LB3LEGw05Hh3b076.jpg)
+
+## 1989年
+杨立昆(Yann LeCun)发明了卷积神经网络(`Convolutional Neural Network`, `CNN`)。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L23H6Gw05Hhac334.jpg)
+
+## 1991年
+在第一次海湾战争中，美军在实战中应用了人工智能程序“`D A RT`”来调度和优化物质运输的线路和顺序，收到了良好的效果。
+
+## 1994年
+加拿大阿尔伯塔大学设计的跳棋程序“`Chinook`”第二次挑战1991年退役的世界冠军马里恩·廷斯利（Marion Tinsley，第一次以2:4负于廷斯利），激战六局皆和局后，廷斯利因健康因素退出比赛，七个月后因胰腺癌过世。比赛由当时世界排名第二的多恩·拉夫尔提(Don Lafferty)接替进行，后来`Chinook`成功打败拉夫尔提，赢得全美跳棋锦标赛冠军。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L23LEGw05Hh98153.jpg)
+
+## 1995年
+戴维·沃尔伯特(David Wolpert)证明“没有免费的午餐定理”，表明世界上不存在通用的最优学习算法。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L33H6Gw05Hhe3b94.jpg)
+
+一场“不用手穿越美国”(`No Hands Across America`)的人车合作驾驶活动成功举行，由计算机控制方向，由人类控制油门和刹车，完成从美国东海岸到西海岸的穿越，其中绝大多数路程（总路程4585公里中的4501公里）都成功地以这种方式完成。这场比赛被视为自动驾驶发展的里程碑之一。
+
+[EPUB...](https://t.me/+WwC4dCWvXRdhOTNh)true" alt="" data-ratio="0.750" data-w="876px" data-w-new="657px" src="https://res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L33LEGw05Hh31087.jpg" style="width:100%;"/>
+
+## 1997年
+IBM国际象棋程序“深蓝”(`Deep Blue`)战胜了国际象棋世界冠军加里·卡斯帕罗夫(Garry Kasparov)，引起了公众舆论的轩然大波。此后十年之内，日本将棋、中国象棋等棋类也被计算机相继攻克，围棋成为计算机在完全信息对抗游戏中唯一还无法打败人类的智力比赛。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L43H6Gw05Hh63ac9.jpg)
+
+世界上第一场全部由机器人参加的桌面足球比赛“`RoboCup`”在日本成功举办，一共有40支由机器人组成的队伍参加，有5000名观众观看了比赛。该比赛到目前为止仍然每年都会举行，已吸引了多个国家组队参加。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L43LEGw05Hh52027.jpg)
+
+于尔根·施密德胡伯(Jeurgen Schmidhuber)和赛普·霍克赖特(Sepp Hochreiter)发明长短期记忆网络(`Long Short Term Memory`, `LSTM`)。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L43PMGw05Hh40023.jpg)
+
+## 1998年
+由美国Electronic Robotic公司推出的世界上第一款人工智能机器宠物`Furby`面世。这是一款毛茸茸的类蝙蝠机器人，一推出就成为当时年底购物旺季最抢手的玩具，这款定价30美元的玩具会随着时间的推移而“进化”，它一开始只能胡言乱语，但很快就能学会使用预编程的英语短句。在12个月之内，`Furby`娃娃售出了2700多万件。次年索尼公司也推出了功能更加强大的电子宠物机器狗`AIBO`。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L53H6Gw05Hhbbdf0.jpg)
+
+## 2000年
+麻省理工学院辛西娅·布雷泽尔(Cynthia Breazeal)教授发布了一款模拟人类交际心理，并能展现出表情的机器人“`Kismet`”。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L53LEGw05Hh1d60f.jpg)
+
+由人类远程操控的机器人“`Nomad Rover`”被用于在南极探寻陨石样本。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L63H6Gw05Hhecb24.jpg)
+
+## 2001年
+约书亚·本吉奥(Yoshua Bengio)提出了“神经概率语言模型”(`Neural Probabilistic Language Model`)。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L63LEGw05Hh779c5.jpg)
+
+## 2004年
+美国国防高级研究计划局(`Defense Advanced Research Projects Agency`, `DARPA`)举办了“`DARPA Grand Challenge`”无人驾驶机器人挑战赛，以大额奖金鼓励自动驾驶和无人车的研发。斯坦利自动驾驶汽车（`Stanley`，由斯坦福大学人工智能中心研发）成功越野行驶212公里，第一个穿过终点，赢得200万美元大奖。
+
+[EPUB...](https://t.me/+WwC4dCWvXRdhOTNh)read.qq.com/wrepub/CB_3300153553_4vdAI83TY6L63PMGw05Hh9a5b9.jpg" style="width:100%;"/>
+
+美国国家航空航天局(`National Aeronautics and Space Administration`, `NASA`)相继发射的勇气号(`Spirit`)和好奇号(`Opportunity`)机器人开始了各自的火星探索。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L73H6Gw05Hh3d9cd.jpg)
+
+## 2005年
+日本本田公司研发的类人形人工智能机器人`ASIMO`发布，它可以在餐厅中为顾客递送餐盘。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L73LEGw05Hh6aba6.jpg)
+
+“蓝脑”(`Blue Brain`)工程在瑞士启动，目标是通过逆向工程分析哺乳类动物的大脑结构，并通过超级计算机进行数字重建。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L83H6Gw05Hh4aa23.jpg)
+
+波士顿动力(`Boston Dynamics`)公司发布具有强大负重和越野能力的机器狗“`BigDog`”。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L83LEGw05Hha111c.jpg)
+
+## 2006年
+在达特茅斯学院再次举行了一个名为“`AI@50`”的会议[^(204)](#fn204)
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L83PMGw05Hhdabd6.jpg)
+
+辛顿开创了深度学习，并提出深度信念网络。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L93H6Gw05Hh2f156.jpg)
+
+## 2009年
+谷歌开始建造无人驾驶汽车。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L93LEGw05Hhcfecb.jpg)
+
+斯坦福大学教授李飞飞(Fei-fei Li)创办`ImageNet`图像数据库，并在2010年举办了首届计算机图像识别竞赛。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6L93PMGw05Hh6051e.jpg)
+
+## 2011年
+IBM的基于自然语言的智能问答系统`Watson`参加美国著名的电视智力秀“危险边缘”(`Jeopardy！`)，打败了两位往届冠军。在比赛中`Watson`表[EPUB...](https://t.me/+WwC4dCWvXRdhOTNh)现出了极高的自然语言理解、信息检索和逻辑推理能力，令观众难以相信这些开放性的问题是由计算机回答的。IBM `Watson`今天广泛应用于医疗、教育、金融等领域，是一款非常出色的专家系统。
+
+![](Text/https:/res.weread.qq.com/wrepub/CB_3300153553_4vdAI83TY6LA3H6Gw05Hh741f0.jpg)
+
+斯坦福大学人工智能实验室主任吴恩达(Andrew Ng)和谷歌顶尖技术大拿杰夫·迪恩(Jeff Dean)一起建立了“谷歌大脑”项目。谷歌大脑项目开始尝试使用无监督学习来认知世界，通过观看千万数量级的YouTube图像和影片，谷歌大脑自发辨识出了“猫”的概念，并且自主地搜索了猫科动物明星的视频。
+
