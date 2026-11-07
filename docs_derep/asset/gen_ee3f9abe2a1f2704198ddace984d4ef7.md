@@ -1,0 +1,211 @@
+下面演示如何利用本地嵌入模型配合 FAISS 检索和 Gradio 交互，搭建一个面向医疗知识的轻量级问答原型，检索范围仅限本地文本库，答案生成通过本地推理服务完成。
+
+print("transformers 版本==" + transformers.__version__)
+
+###### 建议peft>=0.4
+
+print("peft 版本==" + peft.__version__)
+
+[PRE0]
+pip install gradio faiss transformers requests
+
+[PRE1]python
+import os
+
+import gradio as gr
+
+import faiss
+
+import numpy as np
+
+import json
+
+from transformers import AutoTokenizer, BertModel
+
+from transformers.modeling_utils import init_empty_weights
+
+import requests
+
+from pathlib import Path
+
+import torch
+
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
+##### 配置参数
+
+DATA_DIR = "text"
+
+CHUNK_SIZE = 500
+
+CHUNK_OVERLAP = 100
+
+EMBEDDING_MODEL_PATH = Path("models/bge-small-zh-v1.5").resolve()  # 本地模型路径
+
+##### 初始化模型
+
+tokenizer = AutoTokenizer.from_pretrained(EMBEDDING_MODEL_PATH, device_map="auto")
+
+model = BertModel.from_pretrained(EMBEDDING_MODEL_PATH).to(DEVICE)
+
+##### 文本分块函数
+
+def text_chunker(text):
+
+    words = text.split()
+
+    chunks = []
+
+    current_chunk = []
+
+    current_length = 0
+
+    for word in words:
+
+        if current_length + len(word) + 1 > CHUNK_SIZE:
+
+            chunks.append(" ".join(current_chunk))
+
+            current_chunk = current_chunk[-CHUNK_OVERLAP // 2:]
+
+            current_length = sum(len(w) for w in current_chunk)
+
+        current_chunk.append(word)
+
+        current_length += len(word) + 1
+
+    if current_chunk:
+
+        chunks.append(" ".join(current_chunk))
+
+    return chunks
+
+##### 获取嵌入向量
+
+def get_embedding(text):
+
+    inputs = tokenizer(text, return_tensors="pt",
+
+                       padding=True, truncation=True,
+
+                       max_length=512)
+
+    with torch.no_grad():
+
+        outputs = model(**inputs)
+
+    embeddings = outputs.last_hidden_state[:, 0]
+
+    embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=1)
+
+    return embeddings.numpy()
+
+##### 处理文档数据
+
+chunks = []
+
+for filename in os.listdir(DATA_DIR):
+
+    if filename.endswith(".txt"):
+
+        with open(os.path.join(DATA_DIR, filename), "r", encoding="utf-8") as f:
+
+            text = f.read()
+
+            chunks += text_chunker(text)
+
+##### 创建 FAISS 索引
+
+embeddings = np.vstack([get_embedding(chunk) for chunk in chunks])
+
+dimension = embeddings.shape[1]
+
+index = faiss.IndexFlatL2(dimension)
+
+index.add(embeddings)
+
+##### 检索函数
+
+def retrieve(query, k=3):
+
+    query_embedding = get_embedding(query)
+
+    distances, indices = index.search(query_embedding, k)
+
+    return [chunks[i] for i in indices[0]]
+
+##### 生成回答函数
+
+def generate_answer(question):
+
+    try:
+
+        context_chunks = retrieve(question)
+
+        context = "\n".join(context_chunks)
+
+        prompt = f"""基于以下上下文信息，请用中文回答问题。如果信息不足，请说明。
+
+上下文：
+
+{context}
+
+问题：{question}
+
+答案："""
+
+        # 发送请求
+
+        response = requests.post(
+
+            "http://localhost:11434/api/generate",
+
+            data=json.dumps({
+
+                "model": "deepseek-r1:1.5b",
+
+                "prompt": prompt,
+
+                "stream": False
+
+            }),
+
+            headers={'Content-Type': 'application/json'},
+
+            timeout=60
+
+        )
+
+        if response.status_code == 200:
+
+            return response.json()["response"]
+
+        return "请求API时发生错误"
+
+    except Exception as e:
+
+        return f"处理请求时发生错误: {str(e)}"
+
+##### 创建界面
+
+interface = gr.Interface(
+
+    fn=generate_answer,
+
+    inputs=gr.Textbox(label="输入问题", placeholder="请输入关于医疗相关的问题..."),
+
+    outputs=gr.Textbox(label="答案"),
+
+    title="智能问答系统（医疗）",
+
+    description="基于本地知识库的问答系统（使用CPU运行）",
+
+    allow_flagging="never"
+
+)
+
+##### 运行程序
+
+整个流程先校验依赖版本并安装所需包，随后加载 bge-small-zh-v1.5 生成文本向量、构建 FAISS 索引，最后通过 Gradio 提供问题输入与答案输出的交互界面。
