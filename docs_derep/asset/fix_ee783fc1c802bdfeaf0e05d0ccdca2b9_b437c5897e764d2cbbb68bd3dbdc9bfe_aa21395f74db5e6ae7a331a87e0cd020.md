@@ -1,0 +1,227 @@
+ESP32 灯控 长效稳定方案
+
+本项目把可靠性放在首位，循环收尾处先更新检查点并打印堆余量，随后用毫秒级间隔让出执行权，避免阻塞。启动时先重置看门狗策略并打开调试串口，灯带初始化后保持全暗。网络侧锁定 STA 模式、关闭节能并开启自动恢复，MQTT 客户端提前绑定服务器与回调。随后通过色相轮计算、呼吸亮度渐变、定时驱动灯效、回调中喂狗、指令分发切换模式、Wi-Fi 与 MQTT 保活检测、彩虹位移渲染以及运行状态与内存上报等模块协同，形成闭环，确保长时间运行下灯效流畅在线。
+
+memoryCheckMillis = currentMillis;
+
+printMemoryInfo();
+
+}
+
+// 给系统一些喘息空间，但避免使用yield()
+
+delay(1); // 短延迟而不是yield()
+
+}
+
+[PRE0]
+
+// 系统核心配置——建立基础运行环境
+
+ESP.wdtDisable(); // 禁用默认看门狗
+
+ESP.wdtEnable(WDTO_8S); // 启用8秒超时看门狗
+
+Serial.begin(115200); // 初始化串口通信
+
+[PRE1]
+
+strip.begin(); // 初始化LED控制器
+
+strip.show(); // 设置初始状态为全暗
+
+[PRE2]
+
+void setup_wifi() {
+
+  Wi-Fi.mode(WIFI_STA); // 设置为客户端模式
+
+  Wi-Fi.setSleepMode(WIFI_NONE_SLEEP); // 禁用Wi-Fi节能模式
+
+  Wi-Fi.setAutoReconnect(true); // 启用自动重连功能
+
+}
+
+[PRE3]
+
+client.setServer(mqtt_server, 1883);    // 配置MQTT服务器
+
+client.setCallback(callback);            // 设置消息回调函数
+
+[PRE4]
+
+uint32_t Wheel(byte WheelPos) {
+
+    WheelPos = 255 - WheelPos;            // 色相值反转
+
+    if (WheelPos < 85) {
+
+        return strip.Color(255 - WheelPos * 3, 0, WheelPos * 3);
+
+    }
+
+    // 其他色相区间的RGB计算
+
+}
+
+[PRE5]
+
+void updateRGBBreath( ) {
+
+    breathBrightness += fadeAmount;        // 亮度递增或递减
+
+    if (breathBrightness <= 0 || breathBrightness >= 180) {
+
+        fadeAmount = -fadeAmount;          // 到达边界时反转变化方向
+
+    }
+
+}
+
+[PRE6]
+
+unsigned long currentMillis = millis( );
+
+if (currentMillis - previousEffectMillis >= effectInterval) {
+
+    previousEffectMillis = currentMillis;
+
+    // 执行灯光效果更新
+
+}
+
+[PRE7]
+
+void callback(char *topic, byte *message, unsigned int length) {
+
+  feedWatchdog( );                     // 回调开始时立即喂狗
+
+  String messageTemp;
+
+  for (int i = 0; i < length; i++) {
+
+    messageTemp += (char)message[i];  // 字节数组转字符串
+
+  }
+
+}
+
+[PRE8]
+
+if (messageTemp == "1") {
+
+  modeSwitch = 0;                     // 切换到普通模式
+
+  Open( );                            // 立即执行开灯操作
+
+} else if (messageTemp == "3") {
+
+  modeSwitch = 1;                     // 切换到呼吸灯模式
+
+  breathBrightness = 0;               // 重置呼吸灯状态
+
+}
+
+[PRE9]
+
+void checkWi-FiConnection( ) {
+
+  if (Wi-Fi.status( ) != WL_CONNECTED) {
+
+    Wi-Fi.reconnect( );               // 使用快速重连方法
+
+    int attempts = 0;
+
+    while (Wi-Fi.status( ) != WL_CONNECTED && attempts < 10) {
+
+      feedWatchdog( );                 // 重连过程中持续喂狗
+
+      delay(500);
+
+      attempts++;
+
+    }
+
+  }
+
+}
+
+[PRE10]
+
+if (!client.connected( ) && (currentMillis - mqttReconnectMillis >= reconnectInterval)) {
+
+    mqttReconnectMillis = currentMillis;
+
+    tryMqttConnect( );                // 尝试MQTT重连
+
+}
+
+[PRE11]
+
+void updateRainbowDisplay( ) {
+
+    for (uint8_t i = 0; i < strip.numPixels( ); i++) {
+
+        strip.setPixelColor(i, Wheel((i + lampStep) & 255));
+
+    }
+
+    lampStep = (lampStep + 1) & 0xFF;  // 步进值循环递增
+
+}
+
+[PRE12]
+
+void updateRainbowCycle( ) {
+
+    for (uint16_t i = 0; i < strip.numPixels( ); i++) {
+
+        strip.setPixelColor(i, Wheel(((i * 256 / strip.numPixels( )) + rotationPosition) & 255));
+
+    }
+
+    rotationPosition = (rotationPosition + 1) % 256;
+
+}
+
+[PRE13]
+
+void printStatusReport( ) {
+
+    Serial.print("运行时长: ");
+
+    Serial.print(millis( ) / 1000);    // 系统运行时间 (秒)
+
+    Serial.println(" 秒");
+
+    Serial.print("Wi-Fi信号强度: ");
+
+    Serial.print(WiFi.RSSI( ));        // Wi-Fi信号强度 (dBm)
+
+    Serial.println(" dBm");
+
+}
+
+[PRE14]
+
+void printMemoryInfo( ) {
+
+    Serial.print("可用堆内存: ");
+
+    Serial.print(ESP.getFreeHeap( ));    // 当前可用内存 (字节)
+
+    Serial.println(" 字节");
+
+}
+
+[PRE15]
+
+void feedWatchdog( ) {
+
+    ESP.wdtFeed( );    // 喂养软件看门狗
+
+}
+
+[PRE16]
+
+wdtTicker.attach(1.0, feedWatchdog); // 每秒执行一次喂狗
