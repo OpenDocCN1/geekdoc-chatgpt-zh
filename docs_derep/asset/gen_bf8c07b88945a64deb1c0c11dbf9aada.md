@@ -1,0 +1,411 @@
+model = …           #例如 GPT-2
+
+#前向传播，获取模型的输出 logits
+
+output_logits = model（input_ids）.logits
+
+#创建标签，将 user 部分的 Token 设置为 -100（计算 Loss 时忽略-100 的位置）
+
+#假设 user 部分的 Token 长度为 5，assistant 部分的 Token 长度为 7
+
+labels = input_ids.clone（） #复制输入作为标签
+
+labels[:, :5] = -100     #将 user 部分的 Token 设置为 -100（计算 Loss 时忽略-100 的位置）
+
+#定义交叉熵损失函数，并设置 ignore_index=-100
+
+loss_fn = nn.CrossEntropyLoss（ignore_index=-100）
+
+#计算损失
+
+#注意：logits 的维度是 [batch_size, sequence_length, vocab_size]
+
+#labels 的维度是 [batch_size, sequence_length]
+
+loss = loss_fn（output_logits[:, :-1, :].reshape（-1, output_logits.size（-1））,
+
+  labels[:, 1:].reshape（-1））
+
+print（"Loss:", loss.item（））
+
+在自回归式的语言模型训练里，模型要学习的本质是下一个词的预测能力。也就是说，当前时刻的输入用来生成下一时刻的输出，训练时输入序列与目标序列要错开一个位置。上面的片段先拿到模型的前向结果 logits，再把 input_ids 复制成 labels，随后把对话中 user 这一段的 token 统一标记为 -100，让交叉熵在计算时跳过这些位置。交叉熵设置了 ignore_index=-100 后，真正参与梯度的是 assistant 生成的部分。logits 在时间轴上截去最后一个时间步，labels 截去第一个时间步，再展平成二维再送入损失函数，正好对应「用前面预测后面」的对齐方式。如表 3-1 所示，在以上训练过程中，由于大语言模型执行的是自回归的 NSP 任务，即用前方的 Token 预测下一个 Token，因此训练时的输入 Token 和输出 Token 需要错开一位，以上方无 system 为例，<BOS>和<EOS>分别表示开始符和结束符。**[表][3][-][1][S][F][T][中][输][入][T][o][k][e][n][和][输][出][T][o][k][e][n][位][置][对][比]**
+
+[PRE0]
+
+**2.DPO 的数据标注格式**
+
+DPO 在奖励信号的准备上与 PPO 保持一致，都是先用成对的偏好数据训练一个奖励模型，区别在于训练目标换成了排序型损失。排序损失的表达式为：
+
+*L*[Rank]=max（0,*m*-*s*^++*s*^-）
+
+其中 *s*^+ 代表优选样本的打分，*s*^- 代表劣选样本的打分，二者拉开的差距需要至少达到间隔 *m*。
+
+Python
+import torch
+
+class RankingLoss（torch.nn.Module）:
+
+  def __init__（self, margin=1.0）:
+
+    super（）.__init__（）
+
+    self.margin = margin  # 间隔超参数
+
+  def forward（self, s_plus, s_minus）:
+
+    """
+
+    s_plus:正样本得分 （batch_size,）
+
+    s_minus:负样本得分 （batch_size,）
+
+    """
+
+    #计算间隔损失项
+
+    loss = torch.clamp（
+
+      self.margin - s_plus + s_minus,
+
+      min=0.0
+
+    ）
+
+    return loss.mean（）
+
+该损失的核心思想是把好样本的分数压到比差样本高出一个安全边际 *m*。只有在 *s*^+ 不足以大于 *s*^-+*m* 时损失才为正，模型会据此调整参数直至条件成立。因为没有像 MSE 那样的点对点监督值，排序损失依赖大量成对样本来提供稳定的梯度信号。
+
+训练奖励模型的完整流程如下所示，模型以 BERT 为骨干，顶层接一个线性打分头，数据集中每行以制表符分隔提示、正样本、负样本。
+
+Python
+import torch
+
+from torch.utils.data import Dataset, DataLoader
+
+fromTransformers import AutoTokenizer, AutoModel
+
+#配置参数
+
+class Config:
+
+  Pretrained_model = "bert-base-uncased" #使用 Hugging Face 的预训练模型
+
+  batch_size = 16
+
+  num_epochs = 3
+
+  learning_rate = 1e-5
+
+  margin = 0.5              #排序损失的间隔参数
+
+  max_length = 128            #文本最大长度
+
+#自定义数据集类
+
+class TextPairDataset（Dataset）:
+
+  def __init__（self,Tokenizer, file_path）:
+
+    """
+
+    Tokenizer: 文本分词器
+
+    file_path:包含正负样本对的文本文件路径
+
+    数据格式假设：（每行）
+
+    positive_text \\t negative_text
+
+    """
+
+    self.Tokenizer = Tokenizer
+
+    self.data = []
+
+    with open（file_path, 'r', encoding='utf-8'） as f:
+
+      for line in f:
+
+        prompt, pos, neg = line.strip（）.split（'\\t'）
+
+        self.data.append（（pos, neg））
+
+  def __len__（self）:
+
+    return len（self.data）
+
+  def __getitem__（self, idx）:
+
+    prompt, pos_text, neg_text =self.data[idx]
+
+    #对正负样本分别进行编码
+
+    pos_encoded = self.Tokenizer（
+
+      prompt+pos_text,
+
+      max_length=Config.max_length,
+
+      padding='max_length',
+
+      truncation=True,
+
+      return_tensors='pt'
+
+    ）
+
+    neg_encoded = self.Tokenizer（
+
+      prompt+neg_text,
+
+      max_length=Config.max_length,
+
+      padding='max_length',
+
+      truncation=True,
+
+      return_tensors='pt'
+
+    ）
+
+    return {
+
+      'pos_input_ids': pos_encoded['input_ids'].squeeze（0）,
+
+      'pos_attention_mask': pos_encoded['attention_mask'].squeeze（0）,
+
+      'neg_input_ids': neg_encoded['input_ids'].squeeze（0）,
+
+      'neg_attention_mask': neg_encoded['attention_mask'].squeeze（0）
+
+    }
+
+#定义评分模型
+
+class ScoringModel（torch.nn.Module）:
+
+  def __init__（self）:
+
+    super（）.__init__（）
+
+    self.bert = AutoModel.from_Pretrained（Config.Pretrained_model）
+
+    self.scoring_layer = torch.nn.Linear（self.bert.config.hidden_size, 1）
+
+  def forward（self, input_ids, attention_mask）:
+
+    """
+
+    输入：
+
+      input_ids:token IDs 张量 （batch_size, seq_len）
+
+      attention_mask:注意力掩码 （batch_size, seq_len）
+
+    输出：
+
+      scores:样本得分 （batch_size,）
+
+    """
+
+    outputs = self.bert（input_ids, attention_mask=attention_mask）
+
+    pooled_output = outputs.last_hidden_state[:, 0] #取[CLS]位置的表示
+
+    scores = self.scoring_layer（pooled_output）.squeeze（-1）
+
+    return scores
+
+#排序损失函数（与之前相同）
+
+class RankingLoss（torch.nn.Module）:
+
+  def __init__（self, margin=1.0）:
+
+    super（）.__init__（）
+
+    self.margin = margin
+
+  def forward（self, s_plus, s_minus）:
+
+    loss = torch.clamp（self.margin - s_plus + s_minus, min=0.0）
+
+    return loss.mean（）
+
+#主训练流程
+
+def main（）:
+
+  #0.设备配置
+
+  Device = torch.Device（"cuda" if torch.cuda.is_available（） else "cpu"）
+
+  print（f"UsingDevice: {Device}"）
+
+  #1.初始化组件
+
+  tokenizer = Autotokenizer.from_Pretrained（Config.Pretrained_model）
+
+  model = ScoringModel（）.to（Device）
+
+  optimizer = torch.optim.Adam（model.parameters（）, lr=Config.learning_rate）
+
+  loss_fn = RankingLoss（margin=Config.margin）
+
+  #2.加载数据
+
+  train_dataset = TextPairDataset（tokenizer, "train_data.txt"）
+
+  train_loader = DataLoader（
+
+    train_dataset,
+
+    batch_size=Config.batch_size,
+
+    shuffle=True,
+
+    collate_fn=lambda batch: {
+
+      'pos_input_ids': torch.stack（[x['pos_input_ids'] for x in batch]）,
+
+      'pos_attention_mask': torch.stack（[x['pos_attention_mask'] for x in batch]）,
+
+      'neg_input_ids': torch.stack（[x['neg_input_ids'] for x in batch]）,
+
+      'neg_attention_mask': torch.stack（[x['neg_attention_mask'] for x in batch]）
+
+    }
+
+  ）
+
+  #3.训练循环
+
+  model.train（）
+
+  for epoch in range（Config.num_epochs）:
+
+    total_loss = 0.0
+
+    for i, batch in enumerate（train_loader）:
+
+      #将数据移动到设备上
+
+      pos_input_ids = batch['pos_input_ids'].to（Device）
+
+       pos_attention_mask = batch['pos_attention_mask'].to（Device）
+
+      neg_input_ids = batch['neg_input_ids'].to（Device）
+
+      neg_attention_mask = batch['neg_attention_mask'].to（Device）
+
+      #前向传播
+
+      pos_scores = model（pos_input_ids, pos_attention_mask）
+
+      neg_scores = model（neg_input_ids, neg_attention_mask）
+
+      #计算损失
+
+      loss = loss_fn（pos_scores, neg_scores）
+
+      #反向传播
+
+      optimizer.zero_grad（）
+
+      loss.backward（）
+
+      optimizer.step（）
+
+      total_loss += loss.item（）
+
+      #每 100 个 Batch 打印一次进度
+
+      if i % 100 == 99:
+
+        avg_loss = total_loss / 100
+
+        print（f"Epoch {epoch+1} | Batch {i+1} | Loss: {avg_loss:.4f}"）
+
+        total_loss = 0.0
+
+#执行主函数
+
+if __name__ == "__main__":
+
+  main（）
+
+**3.PPO 和 GRPO 的数据标注格式**
+
+PPO 与 GRPO 都属于在线强化学习范式，数据准备极为简洁。只要奖励模型已经过充分训练，就只需喂入原始提示，模型自行生成响应后由环境或奖励模型给出分数即可。
+
+Python
+
+prompt：请问我要怎么去×××××。
+
+在评分阶段，PPO 与 GRPO 均可复用前文 DPO 中描述的奖励模型标注方式，这里不再重复展开。
+
+## **第四章 大语言模型量化**
+
+量化是指把模型中的权重和激活值从 32 位浮点等高精度表示压缩到 8 位整数或 16 位浮点等低精度形式，以换取更小的存储占用、更低的算力需求和更快的推理速度，同时尽可能保持准确率。量化技术主要围绕权重与激活的量化策略、量化感知训练 QAT 以及训练后量化 PTQ 展开。本章将围绕大语言模型的精度含义、量化原理、常见量化手段及其对效果的影响进行系统梳理。
+
+### **4.1 大语言模型精度基础知识**
+
+大语言模型本质上是大量矩阵运算的集合，数值精度直接决定表达范围与区分能力。以 IEEE 754 为代表的浮点数表示可写作：
+
+Value=（-1）*^s*×2^（*^E*^(-bias）)×（1+*M*）
+
+其中 *s* 为符号位，0 代表正数 1 代表负数；*E* 为指数位换算后的十进制值，FP16 下 bias 取 15；*M* 为尾数位表示的小数部分。标准下尾数前隐含 1，实际使用的是 1.*M*。大语言模型里常用的精度类型如图 4-1 所示。**[图][4][-][1][常][用][的][精][度]**
+
+[PRE1]
+
+**1.FP32（32-bit Floating Point）**
+
+FP32 是深度学习里广泛采用的 32 位浮点精度，其关键特征如下。
+
+●**指数位：**使用 8 位存储指数。
+
+●**小数位：**使用 23 位存储尾数。
+
+●**最小精度：**约为 2^(-23)。
+
+●**数值范围：**可达 ±3.4×10³⁸。
+
+**2.TF32（Tensor Float 32）**
+
+TF32 是一种兼顾速度与精度的混合格式。
+
+●**指数位：**保留 8 位指数。
+
+●**小数位：**仅使用 10 位尾数。
+
+●**最小精度：**约为 2^(-10)。
+
+●**数值范围：**指数范围与 FP32 一致，数值跨度相近，但尾数缩减降低了通信与计算开销。
+
+**3.FP16（16-bit Floating Point）**
+
+FP16 在训练推理中属于主流选择。
+
+●**指数位：**5 位。
+
+●**小数位：**10 位。
+
+●**最小精度：**约为 2^(-10)。
+
+●**数值范围：**约 ±6.55×10⁴。
+
+**4.BF16（Brain Floating Point 16）**
+
+BF16 以更宽的动态范围换取更粗的精度。
+
+●**指数位：**8 位，与 FP32 相同。
+
+●**小数位：**7 位。
+
+●**最小精度：**约为 2^(-7)，约 7.81×10^(-3)。
+
+●**数值范围：**与 FP32 相同，约 ±3.4×10³⁸。
+
+实践表明，训练阶段数值范围的重要性往往高于最小精度，这也是 BF16 在 FP16 基础上扩充指数、压缩尾数的设计动机。
+
+**5.FP8 E4M3（8-bit Floating Point）**
