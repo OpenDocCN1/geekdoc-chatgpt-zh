@@ -1,0 +1,44 @@
+level_changes:
+- line: 270
+  before: 1
+  after: 3
+- line: 498
+  before: 1
+  after: 3
+- line: 660
+  before: 1
+  after: 3
+- line: 822
+  before: 1
+  after: 3
+- line: 1006
+  before: 2
+  after: 3
+- line: 1449
+  before: 1
+  after: 3
+- line: 1772
+  before: 2
+  after: 3
+- line: 2077
+  before: 1
+  after: 3
+- line: 2451
+  before: 2
+  after: 3
+- line: 2838
+  before: 2
+  after: 3
+- line: 3283
+  before: 1
+  after: 3
+- line: 3719
+  before: 1
+  after: 3
+text_changes:
+- line: 0
+  before: 进击的科技 ： 从爱因斯坦到人工智能 = 新思维
+  after: 进击的科技：从爱因斯坦到人工智能 = 新思维
+- line: 3345
+  before: 机器学习利用人工智能的发展（2012 年）
+  after: 机器学习与人工智能的发展（2012 年）
