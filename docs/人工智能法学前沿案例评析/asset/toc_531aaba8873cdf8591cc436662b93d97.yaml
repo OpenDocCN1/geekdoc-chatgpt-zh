@@ -1,0 +1,41 @@
+level_changes:
+- line: 44
+  before: 1
+  after: 2
+- line: 1281
+  before: 3
+  after: 2
+- line: 1773
+  before: 3
+  after: 2
+- line: 2052
+  before: 3
+  after: 2
+- line: 2658
+  before: 1
+  after: 2
+- line: 3244
+  before: 1
+  after: 2
+- line: 4039
+  before: 3
+  after: 2
+- line: 4273
+  before: 1
+  after: 2
+- line: 5439
+  before: 1
+  after: 2
+- line: 7940
+  before: 1
+  after: 2
+text_changes:
+- line: 237
+  before: 1.2 罗琳诉佛罗里达洲案
+  after: 1.2 罗琳诉佛罗里达州案
+- line: 1221
+  before: 英国《2010 年平等法》第 149 条第 1 款（Equity Act of 2010 §149（1））
+  after: 英国《2010 年平等法》第 149 条第 1 款（Equality Act of 2010 §149（1））
+- line: 6772
+  before: 9.1 帕金汉姆诉北卡莱罗纳州案
+  after: 9.1 帕金汉姆诉北卡罗来纳州案

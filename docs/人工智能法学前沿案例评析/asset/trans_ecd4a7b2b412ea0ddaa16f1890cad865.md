@@ -1,0 +1,76 @@
+
+# 脚注
+
+[\[21\]](#txt004.html#footnote_quote_txt004_21)Compuware Corporation诉Moody’s Investors Services， Inc.， 324 F.Supp.2d 860 （E.D. Mich. 2004）.
+
+[\[22\]](#txt004.html#footnote_quote_txt004_22)Jones诉Dirty World Entertainment Recordings LLC， 755 F.3d 398 （6th Cir. 2014）.
+
+[\[23\]](#txt004.html#footnote_quote_txt004_23)Lucille M. Ponte，保护品牌形象还是操纵系统？众包评价和评论时代的消费者“禁言”合同，7William and Mary Business Law Review 59，95 （2016）.
+
+[\[24\]](#txt004.html#footnote_quote_txt004_24)Browne诉Avvo， Inc.， 525 F.Supp.2d 1249 （W.D. Wash. 2007）.
+
+[\[25\]](#txt004.html#footnote_quote_txt004_25)Levitt诉Yelp！ Inc.， 765 F.3d 1123 （9th Cir. 2014）.
+
+[\[26\]](#txt004.html#footnote_quote_txt004_26)Fair Housing Council of San Fernando Valley诉Roommates.com， LLC， 04-56916o， 04-57173 （9th Cir. 2007）.
+
+[\[27\]](#txt004.html#footnote_quote_txt004_27)Eric Goldman，TripAdvisor的“最脏酒店”排名在法庭上获得认可，Forbes （Aug. 27，2012）， `https：//www.forbes.com/sites/ericgoldman/2012/08/27/tripadvisors-dirtiest-hotels-rankingmakes-the-grade-in-court/？sh=612dabab3aab`.
+
+[\[28\]](#txt004.html#footnote_quote_txt004_28)Jim Rosenfeld & Sam，第六巡回法院裁定TripAdvisors的“最脏酒店”排名受保护意见，Davis Wright Tremaine （Sept. 16， 2013）， `https：//www.dwt.com/insights/2013/09/6th-circuitrules-that-tripadvisors-ranking-of-dir`.
+
+[\[29\]](#txt004.html#footnote_quote_txt004_29)Lyrissa Lidsky & RonNell A.Jones，关于合理读者和不合理发言者：网络世界中的诽谤法，23Virginia Journal of Social Policy & the Law 155，171 （2016）.
+
+[\[30\]](#txt004.html#footnote_quote_txt004_30)Lyrissa Lidsky & RonNell A.Jones，关于合理读者和不合理发言者：网络世界中的诽谤法，23Virginia Journal of Social Policy & the Law 155，173 （2016）.
+
+[\[31\]](#txt004.html#footnote_quote_txt004_31)James Grimmelmann，评价中版权的三种理论，14 Vanderbilt Journal of Entertainment and Technology Law 851，870 （2012）.
+
+[\[32\]](#txt004.html#footnote_quote_txt004_32)James Grimmelmann，评价中版权的三种理论，14 Vanderbilt Journal of Entertainment and Technology Law 851，870 （2012）.
+
+[\[33\]](#txt004.html#footnote_quote_txt004_33)Holly Miller，企业和专业人士因Yelp和负面在线评论而呼救“帮助！”：反击批评性网络帖子需要谨慎的法律考虑，Media， Privacy and Defamation Law Committee Newsletter （2014）， `https：//www.faegrebd.com/webfiles/TIPS\_Winter14%20Newsletter.pdf`.
+
+[\[34\]](#txt004.html#footnote_quote_txt004_34)Lyrissa Lidsky & RonNell A. Jones，关于合理读者和不合理发言者：网络世界中的诽谤法，23Virginia Journal of Social Policy & the Law 155，173 （2016）.
+
+[\[35\]](#txt004.html#footnote_quote_txt004_35)Barrie Goldsmith，Tripadvisor上的负面反馈：酒店的噩梦，4 Journal of Tourism and Hospitality Management 135，137 （2016）.
+
+[\[36\]](#txt004.html#footnote_quote_txt004_36)James Grimmelmann，评价中版权的三种理论，14 Vanderbilt Journal of Entertainment and Technology Law 851，870 （2012）.
+
+[\[37\]](#txt004.html#footnote_quote_txt004_37)Lyrissa Lidsky & RonNell A. Jones，关于合理读者和不合理发言者：网络世界中的诽谤法，23Virginia Journal of Social Policy & the Law 155，173 （2016）.
+
+[\[38\]](#txt004.html#footnote_quote_txt004_38)James Grimmelmann，评价中版权的三种理论，14 Vanderbilt Journal of Entertainment and Technology Law 851，872 （2012）.
+
+[\[39\]](#txt004.html#footnote_quote_txt004_39)Lyrissa Lidsky & RonNell A. Jones，关于合理读者和不合理发言者：网络世界中的诽谤法，23Virginia Journal of Social Policy & the Law 155，173 （2016）.
+
+[\[40\]](#txt004.html#footnote_quote_txt004_40)Lucille M. Ponte，保护品牌形象还是操纵系统？众包评价和评论时代的消费者“禁言”合同，7 William and Mary Business Law Review 59，96 （2016）.
+
+[\[41\]](#txt004.html#footnote_quote_txt004_41)Lori A. Roberts，与消费者评论网站霸凌者搏斗，84 University of Cincinnati Law Review 633，648 （2016）.
+
+[\[42\]](#txt004.html#footnote_quote_txt004_42)Lori A. Roberts，与消费者评论网站霸凌者搏斗，84 University of Cincinnati Law Review 633，638 （2016）.
+
+[\[43\]](#txt004.html#footnote_quote_txt004_43)Lori A. Roberts，与消费者评论网站霸凌者搏斗，84 University of Cincinnati Law Review 633，648 （2016）.
+
+[\[44\]](#txt004.html#footnote_quote_txt004_44)Holly Miller，企业和专业人士因Yelp和负面在线评论而呼救“帮助！”：反击批评性网络帖子需要谨慎的法律考虑，Media， Privacy and Defamation Law Committee Newsletter （2014）， `https：//www.faegrebd.com/webfiles/TIPS\_Winter14%20Newsletter.pdf`.
+
+[\[45\]](#txt004.html#footnote_quote_txt004_45)Lori A. Roberts，与消费者评论网站霸凌者搏斗，84 University of Cincinnati Law Review 633，637 （2016）.
+
+[\[46\]](#txt004.html#footnote_quote_txt004_46)Lucille M. Ponte，保护品牌形象还是操纵系统？众包评价和评论时代的消费者“禁言”合同，7 William and Mary Business Law Review 59，93 （2016）.
+
+[\[47\]](#txt004.html#footnote_quote_txt004_47)Gonzalo Mon，Kimzey诉Yelp！ Inc.，Kelley Drye （Nov. 1， 2016）， `https：//www.kelleydrye.com/News-Events/Publications/Articles/Kimzey-v-Yelp！-Inc`.
+
+[\[48\]](#txt004.html#footnote_quote_txt004_48)John Crosetto & Chike Eze，平衡用户生成内容的风险与回报，Foster Gar-vey （Dec. 7， 2016）， `.https：//www.foster.com/assets/htmldocuments/BloombergBNA2016\_Balancing%20the%20Risks%20and%20Rewards%20of%20User%20Generated%20Content.pdf`.
+
+[\[49\]](#txt004.html#footnote_quote_txt004_49)Eric Goldman，评论网站在法庭上受重创-Consumer Cellular诉ConsumerAffairs，Technology & Marketing Law Blog （June 15， 2016）， `https：//blog.ericgoldman.org/archives/2016/06/review-website-gets-hammered-in-court-consumer-cellular-v-consumeraff airs.htm`.
+
+[\[50\]](#txt004.html#footnote_quote_txt004_50)Holly Miller，企业和专业人士因Yelp和负面在线评论而呼救“帮助！”：反击批评性网络帖子需要谨慎的法律考虑，Media， Privacy and Defamation Law Committee Newsletter （2014）， `https：//www.faegrebd.com/webfiles/TIPS\_Winter14%20Newsletter.pdf`.
+
+[\[51\]](#txt004.html#footnote_quote_txt004_51)事实损害系《美国宪法》确立的原告主体资格最基本的构成要件之一.以卢汉诉野生生物卫士案（Lujan v.Defenders of Wildlife， 504 U.S.555 （1992））为标志，美国联邦最高法院根据《美国宪法》（Constitution of the United States）第3条关于司法机关的规定，确认了原告取得宪定诉讼资格的基本判断标准：（1）原告必须遭受或即将遭受事实损害（Injury-in-fact）；（2）损害与被诉行为之间存在因果关系（Causation）；（3）损害是可以被救济的（Redressability）.参见齐树洁、李叶丹：《美国公民诉讼的原告资格及其借鉴意义》，载《河北法学》2009年第9期.
+
+[\[52\]](#txt004.html#footnote_quote_txt004_52)《公平信用报告法》第618条，15 U.S.C. §1681p （2003）.（注：《公平信用报告法》第618条，收入2003年《美国法典》第15卷，第1681p条.）
+
+[\[53\]](#txt004.html#footnote_quote_txt004_53)《公平信用报告法》第609（f）（7），15 U.S.C.§1681g（f）（7）（2003）.（注：《公平信用报告法》第609条（f）款第（7）项，收入2003年《美国法典》第15卷，第1681g条（f）款第（7）项.）
+
+[\[54\]](#txt004.html#footnote_quote_txt004_54)Timothy St. George & David Anthony，对联邦法院公平信用报告法集体诉讼的实用辩护方法，8 Business Law Today 1，1-6 （2017）.
+
+[\[55\]](#txt004.html#footnote_quote_txt004_55)Lawrence C. Maxwell，建筑作品的版权：是否需要改变，6 Landslide 16，16-21 （2013）.
+
+[\[56\]](#txt004.html#footnote_quote_txt004_56)TRW Inc.诉Andrews，534 U.S. 19 （2001）.
+
+[\[57\]](#txt004.html#footnote_quote_txt004_57)Remy Y. Chang，反对Auscape International诉National Geographic Society作为统一民事版权诉讼发现规则的归属，44 U.C. Davis Law Review 1381，1389-1391 （2011）.
