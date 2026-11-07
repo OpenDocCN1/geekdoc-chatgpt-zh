@@ -1,0 +1,244 @@
+### 7.5 实战练习
+
+（1）说明在 iOS 工程里如何通过 CocoaPods 或 Swift Package Manager 引入 DeepSeek SDK，并完成 API Key 的配置以实现与 DeepSeek 服务端的通信。重点阐述密钥如何放在请求头中安全传输，以及用 URLSession 创建会话、发起 POST 请求并解析返回数据的示范流程。
+
+（2）在 iOS 会话管理的语境下，解释与 DeepSeek API 交互时如何利用时间戳保证请求时序与多轮对话的上下文连贯。说明时间戳对数据时效性校验的作用，并演示如何处理接口响应并刷新本地会话上下文。
+
+（3）详细描述 iOS 端使用 DeepSeek API 维持多轮对话的实现方式。说明请求与响应中的 conversation_id 如何承载对话状态，以及多轮交互中上下文信息的传递要点，并以代码示例展示每次调用后更新会话上下文保持连续性的做法。
+
+（4）介绍在 iOS 应用中基于用户兴趣实现新闻推荐的功能路径。以具体代码说明如何收集用户输入、将兴趣标签提交给 API 获取推荐结果，以及如何管理返回的新闻列表并在界面展示相关信息。
+
+（5）结合 iOS 网络请求机制，说明 DeepSeek API 调用时的错误捕获与重试策略。提供代码示例展示请求失败时的异常处理、指数退避重试的实现，并讨论重试次数与延迟间隔如何设置才能不影响用户体验。
+
+（6）详述借助 URLSession 进行异步调用并通过多线程提升性能的方案。给出在后台队列执行 DeepSeek 请求、在后台解析数据后切回主线程更新 UI 的代码示例，并解释大量并发请求下线程池的调度与管理思路。
+
+（7）在 iOS 国际化场景下，说明如何利用 DeepSeek API 提供多语言支持。阐述在请求中携带语言参数、根据用户 Locale 返回对应语言对话或推荐的流程，并在 Swift 中演示本地化配置与响应校验。
+
+（8）说明 iOS 中基于时间戳的会话 ID 管理机制。用代码展示如何通过 DeepSeek API 生成新会话 ID 并持久化到本地，后续请求复用以保持多轮对话一致性，以及会话 ID 存储与更新过程的优化建议。
+
+（9）讲解通过请求优化降低带宽、提升响应速度的手段。以 DeepSeek API 为例演示请求体压缩、延迟加载等技术，给出代码示例并说明如何借助 iOS 原生网络工具进行带宽优化。
+
+（10）介绍在 iOS 应用中用安全存储保护 DeepSeek API 密钥、避免硬编码泄漏的做法。演示应用启动时从 Keychain 读取密钥，并通过加密通道发起 API 调用的完整流程。
+
+## 8 中间件与 DeepSeek 集成实战
+
+本章聚焦中间件构建与 DeepSeek 接入的核心方法。在当前应用架构里，中间件是链接前端与后端的枢纽，负责各服务间的通信与数据流转。本章将系统讲解如何设计高效可扩展的中间件层并实现与 DeepSeek API 的无缝对接，涵盖架构设计、服务治理、请求路由与负载均衡等关键内容，帮助读者在真实项目中落地中间件技术，为 DeepSeek 应用提供更强的支撑与优化。
+
+### 8.1 架构思路与设计模式
+
+本节深入剖析中间件架构的核心思想与常用设计模式。作为分布式系统的重要一环，中间件承载服务间数据交互与业务逻辑处理。合理的设计能显著提升系统的扩展性、稳定性和可维护性。以下内容将梳理微服务、API 网关、事件驱动等典型模式，并结合实际场景分析如何选用合适的模式实现系统优化与 DeepSeek API 的高效接入。
+
+#### 8.1.1 微服务架构与服务拆分
+
+微服务是将单体应用拆分为多个小型、独立运行服务的架构范式，各服务通过轻量级通信如 HTTP 或消息队列交互，聚焦单一业务能力，具备独立的生命周期与数据存储。微服务提升了系统的可维护、可扩展与灵活性。
+
+在与 DeepSeek API 集成时，微服务能将不同 API 调用与业务逻辑解耦，各服务独立部署升级，从而提高整体系统的灵活与稳定。例如可拆分为用户认证服务、新闻推荐服务、历史对话服务等，各模块通过 HTTP 调用 DeepSeek API 实现解耦。
+
+*例 8-1* 展示构建一个微服务架构，其中包含多个服务，通过 HTTP 请求与 DeepSeek API 进行交互。
+
+import requests
+
+from flask import Flask, jsonify, request
+
+app = Flask(__name__)
+
+##### DeepSeek API 的基础 URL
+
+DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat"
+
+API_KEY = "your_api_key_here"
+
+##### 用于存储用户历史对话的服务
+
+class ConversationService:
+
+    def __init__(self):
+
+        self.conversations = {}
+
+    def start_conversation(self, user_id):
+
+        conversation_id = f"conv_{user_id}"
+
+        self.conversations[conversation_id] = []
+
+        return conversation_id
+
+    def add_message_to_conversation(self, conversation_id, message):
+
+        if conversation_id in self.conversations:
+
+            self.conversations[conversation_id].append(message)
+
+    def get_conversation(self, conversation_id):
+
+        return self.conversations.get(conversation_id, [])
+
+##### 负责新闻推荐的服务
+
+class NewsRecommendationService:
+
+    def __init__(self):
+
+        self.conversation_service = ConversationService()
+
+    def get_news_recommendations(self, interests, conversation_id=None):
+
+        # 深度集成 DeepSeek API
+
+        headers = {
+
+            "Authorization": f"Bearer {API_KEY}",
+
+            "Content-Type": "application/json"
+
+        }
+
+        data = {
+
+            "message": interests,
+
+            "timestamp": 1234567890,
+
+            "context": self.conversation_service.get_conversation(conversation_id) if conversation_id else []
+
+        }
+
+        response = requests.post(DEEPSEEK_API_URL, json=data, headers=headers)
+
+if response.status_code == 200:
+
+    return response.json().get('recommendedNews', [])
+
+else:
+
+    return {'error': 'Failed to fetch news recommendations'}
+
+##### 启动微服务应用
+
+@app.route('/start_conversation/<user_id>', methods=['GET'])
+
+def start_conversation(user_id):
+
+    conversation_id = conversation_service.start_conversation(user_id)
+
+    return jsonify({'conversation_id': conversation_id}), 200
+
+@app.route('/add_message/<conversation_id>', methods=['POST'])
+
+def add_message(conversation_id):
+
+    data = request.json
+
+    message = data.get('message')
+
+    if message:
+
+        conversation_service.add_message_to_conversation(conversation_id, message)
+
+        return jsonify({'status': 'Message added'}), 200
+
+    else:
+
+        return jsonify({'error': 'Message is required'}), 400
+
+@app.route('/get_news_recommendations', methods=['POST'])
+
+def get_news_recommendations():
+
+    data = request.json
+
+    interests = data.get('interests')
+
+    conversation_id = data.get('conversation_id')
+
+    if not interests:
+
+        return jsonify({'error': 'Interests are required'}), 400
+
+    recommendations = news_recommendation_service.get_news_recommendations(interests, conversation_id)
+
+    return jsonify({'recommended_news': recommendations}), 200
+
+if __name__ == '__main__':
+
+    # 创建服务实例
+
+    conversation_service = ConversationService()
+
+    news_recommendation_service = NewsRecommendationService()
+
+    # 启动 Flask 服务器
+
+    app.run(debug=True, host='0.0.0.0', port=5000)
+
+代码说明如下：
+
+（1）ConversationService：负责管理用户对话，为每个用户生成唯一会话 ID 并保存消息历史。后续与 DeepSeek API 交互时借助该 ID 保持多轮对话上下文。
+
+（2）NewsRecommendationService：与 DeepSeek API 交互的核心服务，根据用户兴趣获取新闻推荐，并在请求中带上历史对话作为上下文信息。
+
+（3）Flask Web 服务：对外暴露 RESTful 接口，支持启动会话、写入消息及获取推荐。接口与上述服务联动，确保前端请求能灵活处理并高效对接 DeepSeek API。
+
+启动会话：
+
+请求：GET /start_conversation/user123
+
+响应：
+
+{
+  "conversation_id": "conv_user123"
+}
+
+添加消息到会话：
+
+请求：POST /add_message/conv_user123
+
+请求体：
+
+{
+  "message": "Tell me about AI advancements"
+}
+
+获取新闻推荐：
+
+请求：POST /get_news_recommendations
+
+请求体：
+
+{
+  "interests": "AI, machine learning",
+  "conversation_id": "conv_user123"
+}
+
+返回结果：
+
+[PRE0]
+
+基于微服务架构，DeepSeek API 的接入被拆解为独立业务模块，大幅提升可扩展性与可维护性。ConversationService 与 NewsRecommendationService 的分离使会话管理与推荐功能解耦，能灵活应对多样化需求，实现高效的对话维护与新闻推荐。
+
+#### 8.1.2 中间件的职责与功能划分
+
+中间件在分布式架构中承担桥梁作用，为不同应用模块提供通信、数据处理、事务管理等能力。核心职能包括服务发现、请求路由、负载均衡、消息队列、鉴权、事务管理、缓存与日志。合理的划分能降低复杂度，提升高可用、可扩展与安全性。
+
+服务发现让组件动态定位服务实例，避免硬编码地址，增强灵活性。路由与负载均衡将请求分发至合适节点，提升可用性与容错。消息队列实现异步解耦，保障可靠传输。鉴权模块确保资源访问受控。事务管理保证跨服务操作的一致性与原子性。缓存优化高频数据访问，减少数据库压力。日志处理为监控与故障排查提供支撑，提升运维效率。
+
+通过上述职能的整合，中间件为 DeepSeek API 的接入提供坚实基础，降低系统复杂度并增强整体性能。
+
+#### 8.1.3 常见设计模式（代理模式、单例模式等）
+
+设计模式是面向对象开发中解决常见问题的可复用方案。代理模式与单例模式是典型代表，在架构中发挥关键作用。
+
+代理模式通过代理对象控制对真实对象的访问，客户端调用代理即可实现延迟加载、权限校验、性能优化等功能，常见的有虚代理、远程代理与保护代理。
+
+单例模式确保类在系统中仅有一个实例并提供全局访问点，适用于数据库连接池、日志管理等共享资源场景。通过惰性初始化与线程安全实现，可避免重复创建，提升资源利用率。
+
+两者常协同使用：代理提供灵活的访问控制，单例提供全局唯一资源管理，共同支撑更高效、可维护的系统架构。
+
+### 8.2 网络消息中间件
+
+本节聚焦网络与消息中间件的架构与实践。随着分布式系统演进，网络中间件与消息中间件成为连接各服务的关键，尤其在高并发、低延迟场景下不可或缺。以下内容将介绍 Kafka、RabbitMQ 等主流技术在数据传输、异步处理与服务解耦上的优势，并结合 DeepSeek API 集成展示如何优化消息流转与服务通信，提升性能与可靠性。
+
+#### 8.2.1 消息队列与异步通信（Kafka、RabbitMQ）
+
+消息队列与异步通信是分布式架构的核心组件，通过解耦服务间的直接调用，提升可伸缩性与灵活性。在高并发与大规模数据处理场景下，同步通信易形成瓶颈，而消息队列提供非阻塞、异步的传递机制，保障消息可靠投递与高效处理。
