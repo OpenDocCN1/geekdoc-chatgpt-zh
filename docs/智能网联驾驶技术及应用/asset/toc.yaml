@@ -1,0 +1,47 @@
+level_changes:
+- line: 168
+  before: 3
+  after: 4
+- line: 481
+  before: 2
+  after: 3
+- line: 551
+  before: 2
+  after: 3
+- line: 658
+  before: 2
+  after: 3
+- line: 698
+  before: 2
+  after: 3
+- line: 730
+  before: 2
+  after: 3
+- line: 944
+  before: 2
+  after: 3
+- line: 1135
+  before: 2
+  after: 3
+- line: 1446
+  before: 2
+  after: 3
+- line: 2092
+  before: 1
+  after: 2
+- line: 2098
+  before: 2
+  after: 3
+- line: 2104
+  before: 2
+  after: 3
+- line: 2140
+  before: 2
+  after: 3
+text_changes:
+- line: 168
+  before: 4. 网联驾驶等级 3（融合控制）
+  after: 网联驾驶等级 3（融合控制）
+- line: 750
+  before: 2.5.1 实验目的路侧感知实验
+  after: 2.5.1 实验目的
