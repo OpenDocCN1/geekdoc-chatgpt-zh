@@ -1,0 +1,29 @@
+level_changes:
+- line: 460
+  before: 1
+  after: 2
+- line: 594
+  before: 1
+  after: 2
+- line: 850
+  before: 1
+  after: 2
+- line: 946
+  before: 1
+  after: 2
+- line: 1206
+  before: 1
+  after: 2
+- line: 1338
+  before: 1
+  after: 2
+- line: 1395
+  before: 1
+  after: 2
+- line: 1635
+  before: 1
+  after: 2
+text_changes:
+- line: 0
+  before: 生成式人工智能 AIGC的逻辑与应用
+  after: 生成式人工智能 AIGC 的逻辑与应用
