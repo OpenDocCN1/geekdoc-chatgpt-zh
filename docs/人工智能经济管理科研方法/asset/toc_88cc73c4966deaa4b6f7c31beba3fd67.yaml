@@ -1,0 +1,44 @@
+level_changes:
+- line: 280
+  before: 2
+  after: 3
+- line: 392
+  before: 2
+  after: 3
+- line: 2106
+  before: 2
+  after: 3
+- line: 2345
+  before: 2
+  after: 3
+- line: 2395
+  before: 2
+  after: 3
+- line: 2654
+  before: 1
+  after: 2
+- line: 2738
+  before: 2
+  after: 3
+- line: 2851
+  before: 2
+  after: 3
+- line: 3289
+  before: 2
+  after: 3
+- line: 3638
+  before: 2
+  after: 3
+text_changes:
+- line: 122
+  before: 1.1 AI 时代的经管理论重构
+  after: 1.1 AI 时代的经管理论重构
+- line: 2815
+  before: 2\\. 关[EPUB...](https://t.me/+WwC4dCWvXRdhOTNh)于企业行为的变量构建
+  after: 2. 关于企业行为的变量构建
+- line: 3461
+  before: 1.人机协同下的论文写作三阶[EPUB...](https://t.me/+WwC4dCWvXRdhOTNh)段优化
+  after: 1.人机协同下的论文写作三阶段优化
+- line: 1436
+  before: ③ Few-shot（少样本）迭代：[EPUB...](https://t.me/+WwC4dCWvXRdhOTNh)：在向 AI 提问之前，先给它提供几个与任务相关的示例，帮助它理解问题类型、分析逻辑和期望的回答格式，从而提升回答质量。以文本提取关键指标信息为例，示例如下。
+  after: ③ Few-shot（少样本）迭代：在向 AI 提问之前，先给它提供几个与任务相关的示例，帮助它理解问题类型、分析逻辑和期望的回答格式，从而提升回答质量。以文本提取关键指标信息为例，示例如下。
