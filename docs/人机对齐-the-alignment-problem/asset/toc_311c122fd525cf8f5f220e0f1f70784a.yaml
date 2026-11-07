@@ -1,0 +1,20 @@
+level_changes:
+- line: 200
+  before: 3
+  after: 2
+- line: 1343
+  before: 3
+  after: 2
+- line: 2316
+  before: 3
+  after: 2
+text_changes:
+- line: 196
+  before: 第一篇
+  after: 第一篇 预警
+- line: 1339
+  before: 第二篇
+  after: 第二篇 自主
+- line: 2314
+  before: 第三篇
+  after: 第三篇 示范
