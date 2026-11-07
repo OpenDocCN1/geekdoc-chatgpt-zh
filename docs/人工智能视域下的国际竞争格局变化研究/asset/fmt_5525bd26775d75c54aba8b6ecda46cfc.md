@@ -1,0 +1,76 @@
+
+[\[53\]](#txt005.html#footnote_quote_txt005_53)巴里·布赞、乔治·劳森：《全球转型：历史、现代性与国际关系的形成》，崔顺姬译，李佳校，上海，上海人民出版社，2020：198-199页。
+
+[\[54\]](#txt005.html#footnote_quote_txt005_54)McKinsey Global Institute：Notes from the AI Frontier：Modeling the Impact of AI on the World E-conomy，September 2018，（2021-03-21），https：//www.mckinsey.com/featured-insights/artificialintelligence/notes-from-the-ai-frontier-modeling-the-impact-of-ai-on-the-world-economy。
+
+[\[55\]](#txt005.html#footnote_quote_txt005_55)Anna Jobin，Marrello Ienca，Effy Vayena：The Global Landscape of AI Ethics Guidelines”，NatureMachine Intelligence，2019，1（9）：pp.389-399。
+
+[\[56\]](#txt005.html#footnote_quote_txt005_56)Jun-E Tan：What Does the US-China AI Rivalry Mean for Southeast Asia？，January 2022，（2022-02-13），https：//engagemedia.org/2022/artificial-intelligence-southeast-asia/。
+
+[\[57\]](#txt005.html#footnote_quote_txt005_57)刘杨钺：《技术变革与网络空间安全治理：拥抱“不确定的时代”》，载《社会科学》，2020（9）：41-42页。
+
+[\[58\]](#txt005.html#footnote_quote_txt005_58)Taylor Owen，Disruptive Power：The Crisis of the State in the Digital Age，Oxford University Press，2015：pp.1-24。
+
+[\[59\]](#txt005.html#footnote_quote_txt005_59)封帅：《从民族国家到全球秩序：人工智能时代的世界政治图景》，载《外交评论》，2020（6）：99-129页。
+
+[\[60\]](#txt005.html#footnote_quote_txt005_60)郎平：《互联网如何改变国际关系》，载《国际政治科学》，2021，6（2）：90-121页。
+
+[\[61\]](#txt005.html#footnote_quote_txt005_61)黄志雄：《网络空间国际规则制定的新趋向———基于《塔林手册2.0版》的考察》，载《厦门大学学报（哲学社会科学版）》，2018（1）：6-7页。
+
+[\[62\]](#txt005.html#footnote_quote_txt005_62)Ulrike Franke，JoséIgnacio Torreblanca：Geo-tech politics：Why technology shapes European power，July 2021，（2022-01-15），https：//ecfr.eu/wp-content/uploads/Geo-tech-politics-Why-technology-shapes-European-power.pdf。
+
+[\[63\]](#txt005.html#footnote_quote_txt005_63)Anu Bradford：The Brussels Effect：How the European Union R ules the World，Oxford UniversityPress，March 2020：pp.4-24。
+
+[\[64\]](#txt005.html#footnote_quote_txt005_64)PWC：Global Top 100 Companies by Market Capitalization，（2020-07-19），https：//www.pwc.com/gx/en/audit-services/publications/assets/global-top-100-companies-2020.pdf。
+
+[\[65\]](#txt005.html#footnote_quote_txt005_65)蔡翠红：《高科技跨国公司的全球影响力探究》，载《人民论坛》，2019（12）：35-36页。
+
+[\[66\]](#txt005.html#footnote_quote_txt005_66)Rebecca Gelles，Tim Hwang and Simon Rodriguez：Mapping Research Agendas in U.S.CorporateAI Laboratories，Center for Security and Emerging Technology，April 2021。
+
+[\[67\]](#txt005.html#footnote_quote_txt005_67)Semiconductor Industry Association：Sparking Innovation：How Federal Investment in SemiconductorR＆D Spurs US Economic Growth and Job Creation，（2020-07-19），https：//www.semiconductors.org/wp-content/uploads/2020/06/SIA\_Sparking-Innovation2020.pdf。
+
+[\[68\]](#txt005.html#footnote_quote_txt005_68)Nathan Benaich and Ian Hogarth：State of AI Report，October 2020，（2021-03-28），https：//www.stateof.ai/。
+
+[\[69\]](#txt005.html#footnote_quote_txt005_69)数据资讯：《全球互联网头部企业科研产出》，载《中国科学院院刊》，2022（1）：130-137页。
+
+[\[70\]](#txt005.html#footnote_quote_txt005_70)Bhaskar Chakravorti：Big Tech's Stranglehold on Artificial Intelligence Must Be Regulated”，August11，2021，（2021-12-20），https：//foreignpolicy.com/2021/08/11/artificial-intelligence-big-techregulation-monopoly-antitrust-google-apple-amazon-facebook/。
+
+[\[71\]](#txt005.html#footnote_quote_txt005_71)Ian Bremmer：The Technopolar Moment—How Digital Powers will Reshape the Global Order，November 2021，（2021-12-20），https：//www.foreignaffairs.com/articles/world/2021-10-19/ianbremmer-big-tech-global-order。
+
+[\[72\]](#txt005.html#footnote_quote_txt005_72)Stephen Walt：Big Tech won't Remake the Global Order，November 2021，（2021-12-20），https：//foreignpolicy.com/2021/11/08/big-tech-wont-remake-the-global-order/。
+
+[\[73\]](#txt005.html#footnote_quote_txt005_73)Ashley J.Tellis：Covid-19 Knocks on American Hegemony，U.S.National Bureau of Asian Research，May 2020，（2021-12-16），https：//www.nbr.org/publication/covid-19-knocks-on-american-hegemony/。
+
+# 第五章　人工智能条件下大国博弈场景预测
+
+高度复杂微妙的竞合关系是大国关系的常态，本章针对大国围绕人工智能技术的博弈，基于上文对人工智能发展态势及其对军事、经济、网络、数据、科技等领域的赋能效应的分析，力求进一步推演和预判未来即将出现的基于人工智能技术的各类或对抗，或合作的场景，以体现出大国之间既在安全威胁等领域展开日益激烈的竞争，又需要在科研合作、应对气候变化等重大议题上开展密切合作的复杂关系。同时，通过梳理人工智能的治理机制现状以及相关治理规则，深入分析人工智能目前面临的治理困境，探讨大国对人工智能主导权的争夺引发治理冲突的原因和趋势，并阐述以“人类命运共同体理念”为价值导向缓解大国间治理冲突的重大意义。
+
+## 第一节　人工智能的对抗场景
+
+2022年2月爆发的俄乌冲突，再次将人工智能在国家间对抗中的应用方式带入民众视野。社交媒体上海量的假新闻、假图片、假视频层出不穷、真伪难辨，国际和国内舆论来回反转，网络战、信息战等对抗方式已经成为战争冲突中的重要模式。在这种“混合战争”模式下，人工智能在战争冲突的各个层面介入国家间对抗之中。这种冲突不仅仅限于俄乌双方，更是牵制进了台前或幕后不同立场、不同阵营的众多国家甚至是黑客组织、国际技术机构乃至个人等非国家行为体。虽然技术发展和应用模式尚未成熟，但基于人工智能技术的各类对抗场景已经不再仅仅停留在理论上或局限在特定范围内，而是成为国家间特别是大国间博弈的重要场域，在治理规范规则仍未完善的情况下，其可能带来的潜在风险需要引起高度关注。
+
+从自动武器系统到面部识别技术再到决策算法，人工智能技术的军事化应用可能放大国家间冲突的风险；同时还在一定程度上模糊战争与冲突的界限，一旦“舆论操控”等人工智能应用与军事能力相结合，未来战争范式将被彻底颠覆。而目前的国际裁军协议和军事管控机制尚未有效覆盖人工智能军事化应用，大国之间针对人工智能治理的合作进程仍处于初期。埃隆·马斯克（Elon Mask）等116名全球知名企业领袖认为，自主武器系统将构成继火药、核武器之后的第三次战争革命，极力呼吁采取有效措施加强管制。^([\[1\]](#txt006.html#footnote_content_txt006_1))更为大胆的预测认为，随着机器人、算法以及自动化的广泛普及，技术将从根本上改变社会运行的秩序，全球政治不再仅仅由人类占据且未来也不由人类来主宰，无论是基于人性的霍布斯式自然状态^([\[2\]](#txt006.html#footnote_content_txt006_2))，还是关注社会性的英国学派提出的基本假设都将不再适用。在人工智能技术的赋能下，地球上的行为体、关系结构和运行秩序将重新配置，世界运行的基本规则从地缘政治转向地缘技术（Geotechnics），这种系统性变化超过了单极或是多极体系的讨论。^([\[3\]](#txt006.html#footnote_content_txt006_3))此类预测和争论都是基于对于人工智能技术应用带来的不确定性的担忧。
+
+人工智能技术发展带来的诸多不确定性与地缘政治风险交织，可能会引发出不同形式的、以数据和算法为核心的人工智能对抗场景，这些场景下尚未形成共识性的国际规范来管控风险。一方面，体现了大国之间围绕人工智能博弈的激烈性，人工智能将会对国家安全产生直接威胁，突出了人工智能治理问题的必要性；另一方面，对于人工智能对抗场景危害性的预判和治理机制缺失的不匹配，也凸显人工智能治理的急迫性。
+
+### 一、智能无人集群的作战对抗
+
+正如前文对人工智能赋能国家军事实力的分析中叙述的，人工智能技术将从提高战场感知能力、提升决策速度以及降低军事行动成本等方面提升国家的军事作战效能，推动形成由无人作战单位组成的“去中心化”智能作战体系。人工智能算法与自动控制技术相结合，赋能先进的、自适应的智能无人作战单元广泛应用于军事行为中，基于智能无人单元组成的“去中心化作战体系”将极大提升作战系统的韧性；相比单一中心或多中心的作战体系，当部分单元被打击或摧毁时，具有相同或者相似功能的多个单元可以快速重组完整的作战体系重新投入作战。
+
+在图5-1中可以看出，重要大国自主武器系统发展的步伐并未减缓，正在研发数量可观的武器系统。基于智能化的无人机“蜂群”不仅提高了作战效能，而且增强了行动灵活性和抗打击能力，降低了传统“中心化作战体系”的脆弱性。在未来战场上，敌对双方基于智能无人作战单元可能会发生蜂群式军事对抗，由智能算法和强大运算能力支持的作战系统可在短时间就能计算出战斗结果，而算法赋能的整体作战效能将直接决定对抗的成败。美国国防部启动了多项无人化作战研究项目，美军提出的“马赛克战”（Mosaic Warfare）概念即利用人工智能和自主系统，将大规模、体积小、功能少的作战单元整合起来，形成智能无人系统和自主作战平台，实现灵活重组、具有自适应能力的体系和作战能力。^([\[4\]](#txt006.html#footnote_content_txt006_4))其自组网、自适应、自调整、自同步等特点能够快速对于敌方关键节点进行饱和式打击，极大提升传统作战平台的防御难度。未来，智能无人集群之间的对抗将成为大国之间军事行动的重要模式。
+
+![](images/txt006_1.jpg "pagenumber_ebook=192,pagenumber_book=186")
+
+图5-1　各国自主武器系统发展情况对比（1950—2017）^([\[5\]](#txt006.html#footnote_content_txt006_5))
+
+### 二、高强度的网络战对抗
+
+人工智能的进步对网络安全构成了重大挑战，人工智能赋能网络武器，将加剧网络战的激烈程度。随着人工智能应用范围的扩大，也会有更多的可能遭到黑客攻击，如自动驾驶汽车被黑客攻击；同时，人工智能也可以被用来实施大规模的网络袭击。因此，人工智能网络防御系统必须能够快速应对高强度的网络攻击，否则会有被摧毁的风险。网络武器的攻击可能破坏一国的指挥系统与预警系统，甚至有效降低敌军的核反击能力，使核威慑趋于失效。基于这种假设，如果一国相信其反击能力被削弱，那么其率先发动进攻的可能性便会大增加。^([\[6\]](#txt006.html#footnote_content_txt006_6))目前，发动网络攻击主要靠的是精通网络攻防技术的人才，这样的人才是稀缺资源。而今后依靠人工智能技术发动网络攻击对人才的依赖相对减小，只是在资金上能受到更大的约束。例如，对大多数的机构和个人而言，目前最具挑战性的网络攻击类型是高级持续性威胁（APT）攻击，攻击者会积极寻找防御者的安全漏洞，耐心地等待防御者出错。这在当前仍是一种劳动密集型活动，通常需要技术娴熟的技术劳动力。随着机器学习和人工智能的能力逐渐增强，不仅进一步降低了发动网络攻击的门槛，同时这种“寻找漏洞”的活动将会达到目前无法企及的自动化程度，攻击方能够借助人工智能攻击手段不间断扫描识别对手系统上的漏洞，而且攻击速度可能让人力控制的防御系统无法有效应对。由于网络战自身的特点，未来大国之间的冲突或对抗极有可能率先在网络空间打响。
+
+### 三、极速战模式的战略对抗
+
+智能化系统将为技术实力更强的一方赋予速度优势，能够更快收集和处理信息、规划任务、提供决策支撑并实现高效的指挥运行。有研究提出，人工智能辅助的指挥决策系统与致命性自主武器系统的结合，将大大超过传统发动战争的速度，并催生出一种新的战争形态———极速战（hyperwar）^([\[7\]](#txt006.html#footnote_content_txt006_7))。在这种预想场景下，如果战争发展到战斗速度超出人类的反应能力，将出现必须将军事行动的控制权交给机器的情况。在这种情况之下，人类可能会失去对战场的控制权，且机器以比人类更快的响应速度进行战斗。因此，战场决策中的“观察—定向—决策—行动”（OODA）作战循环将被大幅压缩，对作战人员而言，很难有足够的时间作出合理准确的决策判断。由于人工智能赋能下的自主决策和自主武器系统的高速运行模式，率先启动战事的国家将获得显著军事优势，有可能引发冲突的意外升级，即一旦一个国家启用，其他对手国家可能跟随效仿，从而导致冲突螺旋式上升。美国智库兰德公司曾经以战争推演方式模拟中美在东亚大量部署无人装备的场景，其推演的结果是两国在缺乏沟通和高速运转的战场上失去了对危机的掌控力而最终引发了一场局部战争。^([\[8\]](#txt006.html#footnote_content_txt006_8))
+
+### 四、舆论操纵渗透等心理战对抗
+
+人工智能已经成为针对意识形态和社会心理进行渗透攻击的潜在工具，目前主要的应用场景集中于互联网平台，其中数据资源丰富、可获取性较强的社交媒体是重要的应用领域。人工智能通过处理大量的个人信息，针对大规模群体开展心理干预实验，以达到预测甚至操纵其行为和观念的目的，实现对于他国舆论操控和渗透。美国国会研究服务局在2021年9月更新发布的《国防新兴技术》报告中提出，人工智能技术能力已经广泛地用于“灰色区域”的信息战之中，深度造假等技术手段能够用于进行定向的政策误导。俄罗斯则从混合战争的角度提出了“虚拟社会战”，即运用人工智能技术对敌人的社会心理和意识形态进行网络攻击，制造混乱和恐慌，破坏对手的社会基础；当然这也将被俄罗斯视为政治安全面临的主要威胁。^([\[9\]](#txt006.html#footnote_content_txt006_9))在人工智能的加持下，国家间的信息战、心理战、认知战对抗将导致未来大国之间战争与和平之间的界限逐渐模糊。

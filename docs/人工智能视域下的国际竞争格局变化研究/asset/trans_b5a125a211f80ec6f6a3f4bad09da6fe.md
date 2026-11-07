@@ -1,0 +1,80 @@
+
+# 参考文献
+
+[\[38\]](#txt004.html#footnote_quote_txt004_38)相关报告参见：英国下议院科学与技术委员会：机器人与人工智能，2016年9月，（2021-11-08），`https：//publications.parliament.uk/pa/cm201617/cmselect/cmsctech/145/145.pdf`。；英国政府科学办公室：人工智能：决策未来的机遇与影响，2015年，（2021-11-08），`https：//assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment\_data/file/566075/gs-16-19-artificialintelligence-ai-report.pdf`。
+
+[\[39\]](#txt004.html#footnote_quote_txt004_39)英国上议院人工智能特别委员会：英国的人工智能：准备好、愿意并且有能力吗？，2018年4月，（2021-11-09），`https：//publications.parliament.uk/pa/ld201719/ldselect/ldai/100/100.pdf`。
+
+[\[40\]](#txt004.html#footnote_quote_txt004_40)CNPEN 对话代理的伦理问题，（2021-11-15），`https：//www.ccne-ethique.fr/en`。
+
+[\[41\]](#txt004.html#footnote_quote_txt004_41)2021年以来有关部门针对智能算法等人工智能应用带来的风险和问题推出了一系列监管举措，引导新技术新应用的健康发展。例如，2021年7月，人社部等8部门印发了《关于维护新就业形态劳动者劳动保障权益的指导意见》，保护平台用工形式和新就业形态劳动者的保障权益；同月，最高人民法院通过了《最高人民法院关于审理使用人脸识别技术处理个人信息相关民事案件适用法律若干问题的规定》，对人脸识别技术涉嫌侵犯信息主体人格权的情形等进行了规定；8月，国家网信办发布《互联网信息服务算法推荐管理规定（征求意见稿）》，从算法透明度、算法解释、退出个性化推送等维度丰富和细化了用户权利；9月，国家网信办等9部门发布《关于加强互联网信息服务算法综合治理的指导意见》，提出建立治理机制健全、监管体系完善、算法生态规范的算法安全综合治理格局。
+
+[\[42\]](#txt004.html#footnote_quote_txt004_42)Izumi Yamashita，Akiyoshi Murakmi：衡量政府资助研发项目的AI含量，经济合作与发展组织科学、技术与工业工作论文，2021年6月。
+
+[\[43\]](#txt004.html#footnote_quote_txt004_43)李恒阳：《美国人工智能战略探析》，载《美国研究》，2020（4）：94-114页。
+
+[\[44\]](#txt004.html#footnote_quote_txt004_44)朱启超、王姝：《日本“超智能社会”建设构想：内涵、挑战与影响》，载《日本学刊》，2018（2）：60-86页。
+
+[\[45\]](#txt004.html#footnote_quote_txt004_45)Roxana Radu：引导人工智能治理：国家战略视角，《政策与社会》，2022，40（2）：pp.178-193。
+
+[\[46\]](#txt004.html#footnote_quote_txt004_46)李赐：《俄为人工智能发展制定“十点计划”》，载《中国国防报》，2018-07-27（4）。
+
+[\[47\]](#txt004.html#footnote_quote_txt004_47)国家人工智能战略的新阶段，2021年11月，（2021-11-20），`https：//www.in telligence-artificielle.gouv.fr/fr/actualites/nouvelle-phase-pour-la-strategie-nationale-d-in telligence-artificielle`。
+
+[\[48\]](#txt004.html#footnote_quote_txt004_48)刘平、刘亮：《日本新一轮人工智能发展战略》，载《现代日本经济》，2020（6）：37-38页。
+
+[\[49\]](#txt004.html#footnote_quote_txt004_49)法国国家人工智能研究计划，2021年10月，（2021-11-15），`https：//www.inria.fr/en/french-national-artificial-intelligence-research-program`。
+
+[\[50\]](#txt004.html#footnote_quote_txt004_50)唐岚：《网络空间国际规则博弈的两大新焦点》，载《北京航空航天大学学报（社会科学版）》，2021（5）：29-30页。
+
+[\[51\]](#txt004.html#footnote_quote_txt004_51)美国国家标准与技术研究院：联邦人工智能标准参与计划，2021年8月，（2022-01-05），`https：//www.nist.gov/artificial-intelligence/ai-standards-federal-engagement`。
+
+[\[52\]](#txt004.html#footnote_quote_txt004_52)联合国贸易和发展会议：技术与创新报告，2021年2月，（2021-04-02），`https：//unctad.org/system/files/official-document/tir2020\_en.pdf`。
+
+[\[53\]](#txt004.html#footnote_quote_txt004_53)傅莹：《人工智能对国际关系的影响初析》，载《国际政治科学》，2019（1）：2页。
+
+[\[54\]](#txt004.html#footnote_quote_txt004_54)数据标注：人工智能的人类瓶颈：2020年3月，（2021-05-07），`https：//medium.com/whattolabel/data-labeling-ais-human-bottleneck-24bd10136e52`。
+
+[\[55\]](#txt004.html#footnote_quote_txt004_55)中国互联网络信息中心：《第51次中国互联网络发展状况统计报告》，\[2023-03-02\]，`http：//www.cnnic.cn/n4/2023/0303/c88\_10757.html`。
+
+[\[56\]](#txt004.html#footnote_quote_txt004_56)Graham Allison，Kevin Klyman，Karina Barbesino.et al：伟大的技术竞争：中国 vs 美国，2021年12月，哈佛肯尼迪学院科学与国际事务贝尔弗中心，（2022-02-01），`https：//www.belfercenter.org/publication/great-tech-rivalry-china-vs-us`。
+
+[\[57\]](#txt004.html#footnote_quote_txt004_57)毛维准、刘一燊：《数据民族主义：驱动逻辑与政策影响》，载《国际展望》，2020（3）：21-42页。
+
+[\[58\]](#txt004.html#footnote_quote_txt004_58)Mathew Burrows，Julian Mueller-Kaler：大国竞争中的智慧伙伴关系——人工智能、中国与数字主权的全球追求，大西洋理事会，2021年1月，（2022-02-01），`https：//www.atlanticcouncil.org/wp-content/uploads/2021/01/Smart-Partnerships-2021-Report-1.pdf`。
+
+[\[59\]](#txt004.html#footnote_quote_txt004_59)Samar Fatima，Gregory Dawson，Kevin Desouza，et al：各国如何利用计算能力实现其国家人工智能战略，布鲁金斯学会，2022年1月，（2022-02-05），`https：//www.brookings.edu/blog/techtank/2022/01/12/how-countries-areleveraging-computing-power-to-achieve-their-national-artificial-intelligence-strategies/`。
+
+[\[60\]](#txt004.html#footnote_quote_txt004_60)资料来源：美国国家科学和工程统计中心（单位：亿美元）
+
+[\[61\]](#txt004.html#footnote_quote_txt004_61)斯坦福大学人本人工智能：AI 指数报告：衡量人工智能趋势，2021年3月。
+
+[\[62\]](#txt004.html#footnote_quote_txt004_62)资料来源：根据微软学术图谱数据制作。
+
+[\[63\]](#txt004.html#footnote_quote_txt004_63)世界知识产权组织：专利中的人工智能故事，（2021-04-05），`https：//www.wipo.int/tech\_trends/en/artificial\_intelligence/story.html`。
+
+[\[64\]](#txt004.html#footnote_quote_txt004_64)斯坦福大学人本人工智能：AI 指数报告：衡量人工智能趋势，2021年3月，（2021-03-07），`https：//aiindex.stanford.edu/report/`。
+
+[\[65\]](#txt004.html#footnote_quote_txt004_65)资料来源：世界知识产权组织。
+
+[\[66\]](#txt004.html#footnote_quote_txt004_66)CB Insights：AI 100：重新定义行业的 人工智能初创企业，2021年，（2021-04-03），`https：//www.cbinsights.com/research/report/artificial-intelligence-top-startups/＃：～：text＝CB％20Insights％20AI％20100％20％282020％29％20％20％20，％20％20China％20％2031％20more％20rows％20`。
+
+[\[67\]](#txt004.html#footnote_quote_txt004_67)资料来源：Zachary Arnold，Ilya Rahkovsky Tina Huang：追踪人工智能投资：来自私募市场的初步发现，新兴技术安全中心，2020年9月。
+
+[\[68\]](#txt004.html#footnote_quote_txt004_68)清华大学人工智能研究院、清华-中国工程院知识智能联合研究中心：《人工智能发展报告2011—2020》，2021年。
+
+[\[69\]](#txt004.html#footnote_quote_txt004_69)资料来源：《人工智能发展报告201 1—2020》数据。
+
+[\[70\]](#txt004.html#footnote_quote_txt004_70)牛津洞察：政府人工智能准备度指数 2021，（2022-01-24），`https：//static1.squarespace.com/static/58b2e92c1e5b6c828058484e/t/61e95661c567937d21998d14/1642681965033/Gov AI Readiness\_\_\_2021.pdf`。
+
+[\[71\]](#txt004.html#footnote_quote_txt004_71)Ben Horton，Jinghan Zeng：中国能成为人工智能超级大国吗？，2021年1月，查塔姆研究所，（2021-12-20），`https：//www.chathamhouse.org/2021/01/can-china-become-ai-superpower`。
+
+[\[72\]](#txt004.html#footnote_quote_txt004_72)英国上议院人工智能特别委员会：英国的人工智能：准备好、愿意并且有能力？，2018年4月，（2021-12-20）`https：//publications.parliament.uk/pa/ld201719/ldselect/ldai/100/100.pdf`。
+
+[\[73\]](#txt004.html#footnote_quote_txt004_73)Eric Schmidt：硅谷可能输给中国，2020年2月，（2021-04-03），`https：//www.nytimes.com/2020/02/27/opinion/eric-schmidt-ai-china.html`。
+
+[\[74\]](#txt004.html#footnote_quote_txt004_74)数据创新中心：谁赢得了人工智能竞赛？中国、欧盟还是美国？（2021年更新），2021年1月，（2021-04-04），`https：//www2.datainnovation.org/2021-china-euus-ai.pdf`。
+
+[\[75\]](#txt004.html#footnote_quote_txt004_75)浪潮信息、IDC：《2020全球计算力指数评估报告》，2021年2月。
+
+[\[76\]](#txt004.html#footnote_quote_txt004_76)Dominic Barton，Jonathan Woetzel，Jeongmin Seong，et al：人工智能：中国的影响，2017年4月，（2021-04-04），`https：//www.mckinsey.com/featured-insights/china/artificialintelligence-implications-for-china`。

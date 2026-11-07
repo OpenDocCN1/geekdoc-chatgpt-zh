@@ -1,0 +1,44 @@
+level_changes:
+- line: 852
+  before: 1
+  after: 3
+- line: 1089
+  before: 1
+  after: 3
+- line: 1649
+  before: 1
+  after: 2
+- line: 1707
+  before: 1
+  after: 2
+- line: 1961
+  before: 1
+  after: 3
+- line: 2051
+  before: 1
+  after: 2
+text_changes:
+- line: 2
+  before: 绪　论
+  after: 绪论
+- line: 1497
+  before: 第四章 人工智能对大国关系影响评估
+  after: 第四章　人工智能对大国关系影响评估
+- line: 2336
+  before: 第六章 人工智能时代的大国竞争
+  after: 第六章　人工智能时代的大国竞争
+- line: 703
+  before: 第二节 人工智能作为实力要素的作用体现
+  after: 第二节　人工智能作为实力要素的作用体现
+- line: 1501
+  before: 第一节 冷战后大国关系的既有解释
+  after: 第一节　冷战后大国关系的既有解释
+- line: 2340
+  before: 第一节 人工智能视域下国际竞争态势
+  after: 第一节　人工智能视域下国际竞争态势
+- line: 2372
+  before: 第二节 人工智能与美国软霸权的政策逻辑
+  after: 第二节　人工智能与美国软霸权的政策逻辑
+- line: 2051
+  before: 第四节 人工智能治理与大国竞合态势
+  after: 第四节　人工智能治理与大国竞合态势
