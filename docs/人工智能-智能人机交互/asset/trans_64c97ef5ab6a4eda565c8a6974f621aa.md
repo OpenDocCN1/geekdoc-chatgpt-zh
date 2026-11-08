@@ -1,0 +1,104 @@
+
+
+# 生理计算在人机交互中的应用
+
+## 1. 手势控制与肌肉-计算机接口
+
+加拿大Thalmic Labs公司于2013年推出了一款手势控制臂环MYO腕带。用户将其佩戴在手上，臂带上的感应器可以捕捉到用户手臂肌肉运动产生的生物电变化，从而判断用户的意图。MYO的应用非常广泛，可以用于浏览网页、玩电脑游戏、控制音乐播放、控制文档演示，甚至是操控无人机。MYO对外开放应用开发接口，开发者可以利用MYO实现更多领域的手势交互应用。MYO可以说是人机交互系统在输入控制上的一个极大的创新应用。
+
+脑机接口的研究也非常多。一个基于脑电的系统，通过实时地提取脑电信号进行分析，推断出大脑的不同状态来实现控制。这样的系统可以使用户在进行比如手势的操作时，同时利用脑机交互进行控制。并且脑机交互的方式与手势等行为相比，更加具有隐秘性，可以在公众场所秘密使用。
+
+![img](Images/txt003_4.jpg)
+
+图3.3　前臂带肌电图传感器
+
+肌肉-计算机接口(Muscle-Computer Interfaces，muCIs)是一种直接感知和解码人类肌肉活动的交互方法，不依赖于物理设备的驱动或者用户身体外部可察觉的动作。muCIs依靠感应相对微妙的肌肉活动，通过直接感知和解码人类肌肉活动来实现输入。它使用肌电图技术作为输入方法，使肌肉与电脑的互动变得舒适、不突兀，并且对电脑输入有用。具体的方法是将肌电图传感器置于前臂上端狭窄的带状结构中，并将其佩戴在人的肘部以下，如图3.3 所示。在此基础上，就能够识别按压手指的位置和压力，以及对所有五个手指的轻敲和抬起手势进行分类，达到不同手势对应不同控制输入的效果\[46\]。
+
+进一步地，T.Scott Saponas等人\[47\]扩展了这些结果，使muCIs能够在实际的应用程序中成为可靠稳定的输入。研究人员利用现有的人类自然握法分类，开发出一套手势集，并且对这些手势进行实时分类，从而让用户可以不受表面装置的约束，仅需要通过肌肉感知即可控制输入。这些手势包括手空闲时手指的姿势和手忙碌时手指的姿势。实验结果显示，在4手指手势中，捏手指的分类准确率平均为79%，拿旅行杯的分类准确率为85%，拎加重包的分类准确率为88%。实验结果进一步表明，不同的手臂姿势都具有普遍性。此外，研究人员已经成功利用手指手势控制一个模拟的便携式音乐播放器，如图3.4所示。
+
+![img](Images/txt003_5.jpg)
+
+图3.4　便携式音乐播放器的软件模型
+
+## 2. 自适应控制
+
+当用户在使用具有自适应功能的系统时，系统会自动收集用户的生理数据，如果这些数据经过处理分析满足某些触发条件，则系统随后会根据得到的信息对自身系统做出更适合当前用户状态的改变，以提高用户的体验。最早的自适应系统之一是由美国航空航天局开发的，用于飞行模拟器\[48\]。飞行员的脑电数据被监控，以便在飞行时间管理自动驾驶设备的状态。该系统通过操纵自动驾驶状态来使驾驶员的警觉性保持在最佳水平。在自动驾驶激活期间，驾驶员的警觉性趋于下降，当驾驶员手动控制飞行器时，警觉性则会增加。
+
+自适应系统旨在适应操作环境，以优化用户体验。例如，计算机游戏里，用认知工作负荷测量的方法来推断游戏中的困难程度\[49\]。自适应系统可以利用这些信息来动态调整难度水平，以便实时匹配玩家的能力水平。这类系统的另一个研究热点是减轻负面情感状态，如在电脑使用过程中的沮丧情绪。当然，设计一个及时又直观的自适应系统是一个巨大的挑战。自适应系统需要决定怎样适应变化来帮助用户，而不是产生坏的影响。在采集数据的过程中，准确性就会受到外界因素的干扰，例如运动状态时的信号。因此，如果系统做出的改变是公开明显的，那么很容易带来不好的影响。例如，在系统认为监测到用户感到沮丧时，弹出一个窗口询问，您需要帮助吗？这在用户确实感到沮丧时有用，但如果用户并没有感到沮丧，那么这种询问只会令用户感到多余而反感。所以，进行一些微小的累积或者间接的环境变化，不容易被用户察觉，只要在一段时间内自适应的轨迹方向是正确的，则比其他公开明显的改变要好很多。
+
+同样的，我们可以通过几个典型工作来了解自适应系统。
+
+MENTOR\[50\]是一种新型的智能辅导系统，完全基于对学习者的投入和工作量的分析，从脑电数据中提取信息，以排序学习活动。MENTOR收集用户的脑电数据，系统的训练模式采用不同类型的大脑训练进行练习，为新用户建立工作负荷模型。该模型用于从用户的脑电图信号中实时提取用户的工作负荷指标。MENTOR的学习模式提供了一个主动适应学习者大脑指标的教学环境。该系统对学习者的心理状态进行评价，选择最适合学习者心理状态的教学活动，使学习者在整个辅导过程中保持积极的心理状态。如果系统检测到由于参与度下降、过负荷引起的负面心理状态，则会尝试通过切换下一个教学活动的类型来纠正这种状态。
+
+同样是智能辅导系统，ARTFuL\[51\]就是一种适于翻转学习的自适应复习技术。翻转学习是目前十分热门的一个话题。在翻转学习中，学生有自己的时间表，而课堂时间是用来与老师讨论交流、解决疑难问题的。虽然翻转学习是对传统课堂教育的有效补充，但也面临着一些难题：教育软件如何组织和呈现课堂材料，以优化与可能注意力不集中或做多项任务学生的交互。该系统可以实时监控学生对教材的注意力，从而提出最佳的复习主题。在自适应自动化中，监控用户的注意力尤为重要，脑电图被选为注意力监控组件的基础，因为有研究表明，在实验室、模拟和现实环境中，利用神经信号识别用户警觉性、注意力、感知和工作量的微妙变化是有希望的，我们可以利用它来推断教材的难度。研究结果表明，自适应复习课程内容能够提升学生的记忆力，并且能够在更短的时间内达到完整复习课程所获得的记忆效果。
+
+针对阅读辅助也有类似的自适应系统。儿童阅读时，注意力难以集中往往是一大难题，为此FOCUS\[52\]应运而生。FOCUS是一种脑电图增强阅读系统，可以实时监控孩子的阅读投入水平，并提供相关的脑机接口(BCI)训练项目来提高孩子的阅读投入。如图3.5所示，其硬件部分包含3个部分：书本、商业BCI设备和微投影仪。书本是专门为课程和BCI训练项目设计的。孩子们在阅读时会带上BCI设备，如果系统检测到低参与度，则系统将触发BCI训练模式，并将BCI训练项目投影到书本上。BCI训练的设计采用脑电生物反馈训练的方法，关键原则是通过让孩子们集中注意力来提高参与度，并想象一个与课程相关的物体的状态转变。值得注意的是，BCI训练项目与课程内容高度相关。例如，在关于春季季节特征的阅读部分，BCI的训练项目是想象花朵开放的过程。为了达到这一目的，孩子们必须集中精力来想象“开放”的动作，从而增加脑电图的参与。一旦达到了所需的参与级别，则任务的目标就完成了。这一过程能够显著提高儿童的阅读参与度。
+
+## 3. 实时监测
+
+生理数据提供了一个人情感、认知和身体状态的信息。随着各种软硬件技术的发展，人们采集自己的生理数据变得非常简单便捷，并且可以和家人、朋友、医生分享这些数据。人们的生理数据也可以被自动收集，并且将结果数据集成到互联网应用程序中，形成个性化的生理日志。比如健身应用，收集健身的状态，与他人分享这些信息，朋友之间可以对彼此的健身情况有所了解，互相鼓励和学习，这为人们提供了改善健康和生活方式的机会。
+
+![img](Images/txt003_6.jpg)
+
+图3.5　FOCUS系统硬件
+
+生理数据的实时监测可以广泛应用于各种领域，包括跟踪心理身体健康、运动表现和自我量化。Gilleade和Fairclough在2010年的实验\[12\]中，让用户的实时生理信息在一年里一直公布在在线网站上。其中在Twitter上，允许公众非正式地解释数据所有者的生理和心理状态\[13\]。感兴趣的人都可以访问这些数据，并且从这些数据中找到不同的解释。数据的拥有者了解了他们的生理如何对不同的生活事件做出反应。这些事件通常不会被察觉到，例如重大的假期对身体健康的影响\[14\]。由于生理数据可以在不同的测量环境中被解释为不同的状态，因此单一的生理测量可以用于多种应用。比如病人佩戴心电图监视设备，数据可以随时提供给医生，一旦病人心脏异常就会被监测到，以便及时被发现。
+
+MIT设计了Medical Mirror\[53\]系统，以提供隐式的交互界面,如图3.6所示。通过使用带有内置网络摄像头的LCD显示器来提供交互式显示，在显示屏的前部安装双向镜子。 这样用户在面对镜子时是无法看到LCD监视器和网络摄像头的。但是，用户对网络摄像头却是可见的，并且LCD监视器可用于将信息投影到镜子的反射表面上。显示器和网络摄像头则连接到一台运行实时分析软件的笔记本电脑上，它可以对采集到的数据做即时处理。每次只能有单个用户与Medical Mirror交互。当观察镜子时，用户将看到脸的周围出现一个框，并且盒子的顶角会显示一个计时器。当计时器倒计时时，将要求用户保持相对位置。15秒后，用户的心率将显示在镜子上，同时还会显示身体外观和生理状态。而这个过程中，心率测量将持续更新显示，直到用户走出监测范围。
+
+![img](Images/txt003_7.jpg)
+
+图3.6　Medical Mirror系统
+
+## 参考文献
+
+\[1\]FAIRCLOUGH S H, GILLEADE K. Advances in physiological computing\[M\]. Springer Science & Business Media, 2014.
+
+\[2\]TAN D S, NIJHOLT A.Brain-computer interfaces\[M\]. Springer-Verlag London Limited, 2010.
+
+\[3\]ALLISON B Z, DUNNE S, LEEB R, et al. Towards practical brain-computer interfaces: bridging the gap from research to real-world applications\[M\]. Springer Science & Business Media, 2012.
+
+\[4\]FAIRCLOUGH S H. Fundamentals of physiological computing\[J\]. Interacting with computers, 2009, 21(1-2): 133-145.
+
+\[5\]KAPOOR A, BURLESON W, PICARD R W. Automatic prediction of frustration\[J\]. International journal of human-computer studies, 2007, 65(8): 724-736.
+
+\[6\]WILSON G F, RUSSELL C A. Performance enhancement in an uninhabited air vehicle task using psychophysiologically determined adaptive aiding\[J\]. Human factors, 2007, 49(6): 1005-1018.
+
+\[7\]KLEIN J, MOON Y, PICARD R W. This computer responds to user frustration: Theory, design, and results\[J\]. Interacting with computers, 2002, 14(2): 119-140.
+
+\[8\]KABER D B, WRIGHT M C, PRINZEL III L J, et al. Adaptive automation of human-machine system information-processing functions\[J\]. Human factors, 2005, 47(4): 730-741.
+
+\[9\]GILLEADE K, DIX A, ALLANSON J. Affective videogames and modes of affective gaming: assist me, challenge me, emote me\[J\]. DiGRA 2005: Changing Views-Worlds in Play, 2005.
+
+\[10\]POPE A T, BOGART E H, BARTOLOME D S. Biocybernetic system evaluates indices of operator engagement in automated task\[J\]. Biological psychology, 1995, 40(1-2): 187-195.
+
+\[11\]PRINZEL III L J. Research on hazardous states of awareness and physiological factors in aerospace operations\[J\]. 2002.
+
+\[12\]HUANG D, ZHANG X, SAPONAS T S, et al. Leveraging dual-observable input for fine-grained thumb interaction using forearm EMG\[C\]//Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology. 2015: 523-528.
+
+\[13\]AMMA C, KRINGS T, BÖER J, et al. Advancing muscle-computer interfaces with high-density electromyography\[C\]//Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems. 2015: 929-938.
+
+\[14\]DEMENTYEV A, PARADISO J A. WristFlex: low-power gesture input with wrist-worn pressure sensors\[C\]//Proceedings of the 27th annual ACM symposium on User interface software and technology. 2014: 161-166.
+
+\[15\]ZHANG Y, XIAO R, HARRISON C. Advancing hand gesture recognition with high resolution electrical impedance tomography\[C\]//Proceedings of the 29th Annual Symposium on User Interface Software and Technology. 2016: 843-850.
+
+\[16\]LESHENG H . A Portable Electromyograph (EMG) Collection Method and Circuit Realization\[J\]. Journal of Electronic Measurement and Instrument, 2006.
+
+\[17\]ZHANG X, CHEN X, LI Y, et al. A framework for hand gesture recognition based on accelerometer and EMG sensors\[J\]. IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and Humans, 2011, 41(6): 1064-1076.
+
+\[18\]CHEN Y, SU X, TIAN F, et al. Pactolus: A method for mid-air gesture segmentation within EMG\[C\]//Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems. 2016: 1760-1765.
+
+\[19\]BAIG M Z, KAVAKLI M. A Survey on Psycho-Physiological Analysis & Measurement Methods in Multimodal Systems\[J\]. Multimodal Technologies and Interaction, 2019, 3(2): 37.
+
+\[20\]CACIOPPO J T,TASSINARY L G,BERNTSON G. Handbook of psychophysiology\[M\]. Cambridge university press, 2007.
+
+\[21\]BRADLEY M M, LANG P J. Measuring emotion: the self-assessment manikin and the semantic differential\[J\]. Journal of behavior therapy and experimental psychiatry, 1994, 25(1): 49-59.
+
+\[22\]EKMAN P. Facial expression and emotion\[J\]. American psychologist, 1993, 48(4): 384.
+
+\[23\]HOLMQVIST K, NYSTRÖM M, ANDERSSON R, et al. Eye tracking: A comprehensive guide to methods and measures\[M\]. OUP Oxford, 2011.
+
+\[24\]MCKEE M G,BIOFEEDBACK D. Biofeedback: An overview in the context of heart-brain medicine\[J\]. Cleveland Clinic journal of medicine, 2008, 75: S31.
+
+\[25\]STERELNY K. Thought in a hostile world: The evolution of human cognition\[J\]. 2003.
+

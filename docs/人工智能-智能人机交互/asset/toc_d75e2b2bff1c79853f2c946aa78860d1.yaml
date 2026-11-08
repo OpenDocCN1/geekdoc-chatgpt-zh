@@ -1,0 +1,62 @@
+level_changes:
+- line: 137
+  before: 2
+  after: 3
+- line: 256
+  before: 2
+  after: 3
+- line: 260
+  before: 2
+  after: 3
+- line: 412
+  before: 2
+  after: 3
+- line: 436
+  before: 2
+  after: 3
+- line: 1840
+  before: 2
+  after: 3
+- line: 1870
+  before: 2
+  after: 3
+- line: 2017
+  before: 2
+  after: 3
+- line: 2026
+  before: 2
+  after: 3
+- line: 2861
+  before: 2
+  after: 3
+- line: 3375
+  before: 2
+  after: 3
+- line: 3387
+  before: 2
+  after: 3
+- line: 3433
+  before: 2
+  after: 3
+text_changes:
+- line: 137
+  before: 4.研究框架
+  after: 1.1.4　研究框架
+- line: 149
+  before: 1.1.4　人机交互的新进展
+  after: 1.1.5　人机交互的新进展
+- line: 205
+  before: 1.2 人机交互与人工智能的演进
+  after: 1.2.2 人机交互与人工智能的演进
+- line: 211
+  before: 1.2.2 相互驱动的当下
+  after: 1.2.3 相互驱动的当下
+- line: 229
+  before: 1.2.3 协同共进的未来
+  after: 1.2.4 协同共进的未来
+- line: 256
+  before: 5. 智能人机合作心理模型
+  after: 1.3.5　智能人机合作心理模型
+- line: 260
+  before: 6. 人类智能增强
+  after: 1.3.6　人类智能增强
