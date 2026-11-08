@@ -1,0 +1,132 @@
+GraphRAG：用图谱给 RAG 增添结构骨架
+
+微软开源的 GraphRAG 提出了一个思路：把散落在多份材料里的事实连成图，让检索式生成不再把知识库当成一组孤立的片段。系统先为料库生成实体与关系的网络，检索时除读取节点自带的描述外，还会顺着边的方向去触达邻近节点，从而拿到更宽阔的语义视野，答案因此更连贯、推理链条也更清楚。
+
+整体可分为建库与问答两个阶段。
+
+建库环节主要完成两件事。切分与要素抽取，把原文按段落或句子拆开，借助大模型识别人物、地名、事件等要素及其关联，用以搭建初始图谱。分层聚类与社区提炼，利用 Leiden 方法对图谱做层次聚类，把紧密相连的节点聚成社区，并自底向上生成社区概括。例如在学术语料里，数学与物理常各自构成独立社区，每个社区都会产出主题归纳。
+
+问答环节提供两种模式。全局检索面向整体性问题，例如“近五年生成式 AI 研究脉络”，系统汇总多个社区概括分批整合后给出综合回应。局部检索聚焦特定对象，例如“微软 Cosmos DB 的新特性”，先依靠向量库定位相关节点，再结合社区报告提炼精准答案。
+
+GraphRAG 的收益与代价都很明显。它能明显拓宽覆盖面，显露出检索对象与其关联节点之间的链路，但计算开销大，且生成时容易混入无关信息。针对这些痛点，业界已给出多条轻量化路径。
+
+LazyGraphRAG 简化了建图流程。它不依赖大模型抽取关系，而是基于名词短语与共现统计构建轻量图谱，索引成本约为传统方案的千分之一。检索时才动态调用大模型评估相关性，并结合最佳优先与广度优先搜索，最终质量接近全量版本，检索开销显著下降。
+
+OG-RAG 引入领域本体，把文档映射成超图，利用贪心策略挑选覆盖最多相关节点的超边，生成紧凑的上下文片段。例如在农业场景预定义“作物-土壤”关联，可提升垂直领域的查准率。
+
+HyBGRAG 融合向量查找与图结构查找，通过路由器与反思模块动态调整策略。若首轮结果不佳，大模型评论器会反馈并切换模块，提升可靠性。
+
+总体而言，GraphRAG 把结构化图谱与大模型深度结合，正在重塑查找与生成的范式。随着效率与质量的平衡，医疗、金融等场景已开始落地。未来配合多模态扩展与自适应架构，GraphRAG 有望成为 AI 感知的核心底座，支撑更可信的生成应用。
+
+### 10.2 语境补强检索：破解分块带来的语义割裂
+
+语境补强检索由 Anthropic 团队提出，目的在于解决传统 RAG 因文本切分导致语义隔离的问题。思路是在向量化之前为每个单元补上解释性描述，提升召回率与生成质量。
+
+检索时系统不仅看查询本身，还会融合对话历史、使用者偏好、任务目标等语境因素。连续对话中，使用者问“公司在 2025 年 Q2 的营收增速”，若块里只有“营收增长 3%”而缺少公司与时间，就难以匹配。语境补强检索会自动把这些缺失要素纳入检索范围。
+
+落地方式主要有两类。语境向量化，利用大模型为每块生成约 50 到 100 个 token 的描述，例如把“营收增长 3%”扩展为“该片段出自公司 2025 年第二季度财报，上季营收 3.14 亿美元，本季增长 3%”。语境 BM25，则把原始文本与描述合并建索引，增强术语匹配能力。
+
+Anthropic 团队的测试显示，采用混合策略结合向量语义与 BM25，前 20 条相关块的失败率下降约 49%，再加入重排可额外降低 67%。借助 Prompt Caching，可一次性把文档载入缓存，减少重复调用大模型的 token 占用。面对动态更新的挑战，可结合增量图谱构建或滑动窗口策略进行优化。
+
+### 10.3 模块化 RAG：从固化管道到积木式组装
+
+随着需求膨胀，传统 RAG 的复杂度上升，灵活性受限。同济大学高云帆等人提出的模块化 RAG 框架，把系统拆解为可独立替换的组件，形成类似积木的可重构体系。
+
+图10-3 Modular RAG把传统的RAG系统拆分成多个组件
+
+模块化RAG技术图谱
+
+- 模块与操作符
+- 典型RAG流程模式
+- RAG流程实现
+- 最佳行业案例
+
+模块类型-模块-操作符
+
+| 模块类型 | 索引构建 | 预检索 | 检索 | 后检索 | 生成 | 协调 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 模块 | Chunk Optimization, Structural Organization | Query Routing, Query Expansion | Method Selection, Method Tuning | Repack, Compression/Refinement | Generator Selection, Generator Tuning | Scheduling, Fusion |
+| 操作符 | Split, Merge, Embedding, Indexing | Query Transformation, Query Formulation | Search, Retrieval, Reranking | Filtering, Aggregation, Summarization | Prompting, Decoding, Post-processing | Routing, Orchestration, Feedback |
+
+RAG流程模式及实现
+
+推理阶段
+
+调优阶段
+
+- 顺序型
+- 条件分支型
+- 多路分支型
+- 循环型
+
+[PRE0]
+[PRE1]
+[PRE2]
+[PRE3]
+[PRE4]
+
+最佳行业案例
+
+[PRE5]
+
+这种设计跳出了线性的查找-生成路径，引入路由、调度与融合，支持条件分支、循环等复杂模式。论文列出了顺序型、条件分支型、多路分支型、循环型等常见模式并分析了实现细节。
+
+主要挑战在于组件间协作复杂。常用对策是引入 Agent 协作，多智能体分工或自适应决策模型来优化交互。Corrective RAG 的自我纠正循环可根据反馈自动调整查找与生成，提升准确率与效率。
+
+### 10.4 代理式 RAG：让系统主动规划查找与决策
+
+从 RAG 到 Agentic RAG 的演进，标志着系统从被动应答转向主动参与查找与决策。它不仅响应查询，还能自主制定查找计划、挑选信息源、质疑结果并迭代优化，逐渐演化为具备策略思考的智能信息交互体。
+
+核心模式可归纳为四类。
+
+- 反思模式：代理通过迭代评估自身决策和输出质量来优化策略。例如医疗诊断中，根据患者反馈调整查找范围，提高诊断准确性。
+- 规划模式：把复杂查询拆解为子任务实现多步推理。金融分析代理可按“数据查找→趋势分析→风险评估”流程生成投资建议。
+- 工具使用模式：接入外部 API、数据库等工具扩展能力。法律代理可调用合同库与合规规则库生成法律意见书。
+- 多智能体协作模式：多个专业代理协同完成复杂任务。客服场景下，FAQ 查找、工单处理、情感分析代理可协同提升效率与体验。
+
+CRAG、Self-RAG、RRR 等改进也可视作迈向 Agentic RAG 的阶梯。其典型特征包括对查找到的文档进行相关性打分、必要时重写查询、利用网络查找补充信息。当初始查找不充分时，系统可根据查询复杂度切换单步或多步查找，显著增强复杂问题的回答能力。
+
+### 10.5 多模态 RAG：突破文本局限的跨模态查找
+
+当信息扩展到图像、音频、视频等多种模态，Multi-Modal RAG 成为必要。它能从图像提取特征、从视频截取片段、从音频提取关键词，并与文本查找结果融合，提供更全面的知识支撑。
+
+技术架构主要包括三层。多模态编码器，如 CLIP，把跨模态语义对齐，例如将“红色跑车”文本与对应图像关联。动态查找策略根据查询类型优先处理模态，视觉问答中优先查找图像并辅以文本。跨模态融合则借助注意力机制整合异构信息，医疗报告分析时同时考虑影像与文本。
+
+代表框架有阿里巴巴的 OmniSearch 和 HyBGRAG，均支持文本、表格、图像混合查找，减少幻觉并增强复杂推理。典型场景包括医疗影像分析结合 CT 与病历生成诊断建议、工业质检整合产品图像与缺陷库实时报警、教育实现视频与原理文本联动查找、零售推荐融合评论、图片与购买记录实现定制化推荐。
+
+未来轻量化多模态模型将降低算力门槛，使消费级硬件也能高效运行。动态路由机制可按任务自动选择最优模态组合，例如优先语音输入后转为文本。Agentic RAG 与 Multi-Modal RAG 的融合更具潜力，自动驾驶中多模态代理可实时整合路况图像、传感器数据与交通规则库进行动态路径规划；医疗、制造等垂直领域的专用 MM-RAG 框架也前景广阔。
+
+### 10.6 小结：RAG 正走向全能信息中枢
+
+除本章所述进展外，RAG 生态仍在快速演化。
+
+- 图灵完备 RAG，TC-RAG：让查找流程可编程，通过嵌入算子和逻辑，动态组合查询与数据处理，完成复杂推理。
+- 迭代式查找，如 ITER、CRAG、Self-RAG、RRR：多次调用查找模块，利用上轮结果与生成器反馈修正查询，逐步逼近使用者期望。
+- 自适应查找，如 FLARE：依据系统状态、使用者反馈和语境变化动态调整策略，通过在线学习持续改进准确性。
+- IRCoT：将思维链引入查找，不仅返回文档，还呈现查找路径与中间推理，降低盲目性。
+- PlanRAG：在查找阶段加入规划，先查领域核心知识再拓展上下游，使结果更条理，便于生成利用。
+- T-RAG：引入任务分解与角色分工，多查找器分别处理子任务后汇总，供给生成器多维度材料。
+- AutoRAG：自动化优化流程，自动选择策略与参数并闭环调优，减少人工干预。
+- RAFT：把查找知识融入大模型微调训练，使推理时具备“知识植入”特性，提升回答实用性。
+
+小冰：这些策略让 RAG 不再只是海量内容里捞信息，而是具备分层思考、灵活适配与多模态融合的能力。未来的 RAG 更像全能信息经纪人，自动筛选、分析并整合有价值信息。
+
+咖哥：没错，这些复杂范式的加入，把 RAG 从单一查找升级为多维度、多策略的知识获取与利用框架。它将与 AI Agent、MCP 等技术协同，为更高阶的智能交互铺路。
+
+## 参考文献
+
+[1] FAN W, DING Y, NING L, et al. A survey on RAG meeting LLMs: Towards retrieval-augmented large language models[C]//Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. New York: ACM, 2024: 6491-6501.
+
+[2] LIN X V, CHEN X, CHEN M, et al. RADIT: Retrieval-augmented dual instruction tuning[EB/OL]. (2023-10-02)[2025-04-07]. https://arxiv.org/abs/2310.01352.
+
+[3] GAO L, MA X, LIN J, et al. Precise zero-shot dense retrieval without relevance labels[EB/OL]. (2022-12-20)[2025-04-07]. https://doi.org/10.48550/arXiv.2212.10496. DOI: 10.48550/arXiv.2212.10496.
+
+[4] KIM G, KIM S, JEON B, et al. Tree of clarifications: Answering ambiguous questions with retrieval-augmented large language models[C]//Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. Stroudsburg: ACL, 2023: 1046-1062.
+
+[5] SARTHI P, ABDULLAH S, TULI A, et al. RAPTOR: Recursive abstractive processing for tree-organized retrieval[EB/OL]. (2024-01-18)[2025-04-07]. https://arxiv.org/abs/2401.18059.
+
+[6] NOGUEIRA R, CHO K. Passage re-ranking with BERT[EB/OL]. (2019-01-14)[2025-04-07]. https://arxiv.org/abs/1901.04085.
+
+[7] XU F, SHI W, CHOI E, et al. RECOMP: Improving retrieval-augmented LMs with compression and selective augmentation[EB/OL]. (2023-10-06)[2025-04-07]. https://arxiv.org/abs/2310.04408.
+
+[8] JIANG H, WU Q, LIN C Y, et al. LLMLingua: Compressing prompts for accelerated inference of large language models[C]//Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. Stroudsburg: Association for Computational Linguistics, 2023: 13358-13376.
