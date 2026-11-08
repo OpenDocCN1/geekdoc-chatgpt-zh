@@ -1,0 +1,59 @@
+level_changes:
+- line: 438
+  before: 1
+  after: 2
+- line: 664
+  before: 1
+  after: 2
+- line: 901
+  before: 1
+  after: 2
+- line: 1044
+  before: 1
+  after: 2
+- line: 1194
+  before: 1
+  after: 2
+- line: 1564
+  before: 1
+  after: 2
+- line: 1618
+  before: 1
+  after: 2
+- line: 1762
+  before: 1
+  after: 2
+- line: 1804
+  before: 1
+  after: 2
+- line: 1926
+  before: 1
+  after: 2
+- line: 2096
+  before: 1
+  after: 2
+- line: 2124
+  before: 1
+  after: 2
+- line: 2306
+  before: 1
+  after: 2
+- line: 2592
+  before: 1
+  after: 2
+- line: 2713
+  before: 1
+  after: 2
+- line: 2761
+  before: 1
+  after: 2
+text_changes:
+- line: 212
+  before: “广义歌德尔^((6))定理”
+  after: “广义哥德尔定理”
+- line: 3126
+  before: 02　從神經網絡到機器學習，誰都不是最後的解藥
+  after: 02　从神经网络到机器学习，谁都不是最后的解药
+- line: 3136
+  before: 03　從圖靈測試到奇點之爭，我們無法預測智能將帶領我們去往何處
+  after: 03　从图灵测试到奇点之争，我们无法预测智能将带领我们去往何处
