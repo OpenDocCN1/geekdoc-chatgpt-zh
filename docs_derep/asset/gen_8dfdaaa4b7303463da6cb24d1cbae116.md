@@ -1,0 +1,291 @@
+[PRE0]
+
+图 3-2-7 DeepSeek 深度思考应用
+
+#### 3. 联网搜索启用
+
+再次在提问区输入同样的问题“如何有效地学习 AI”，先点亮“深度思考”按钮再打开“联网搜索”，最后点发送或敲回车，让 DeepSeek 开始处理，如图 3-2-8 所示。
+
+这种组合响应最慢，因为模型要先完成内部推理，再去抓取最新的网络资料。等它返回后，你能得到一份资料更齐全、论述更深入的答案。需要留意，联网搜索模式下无法上传文件分析。面对需要深度推敲且知识库里没有时效性内容的提问，这个组合最合适。虽然耗时最长，但它是获取最全最新资料的办法。
+
+[PRE1]
+
+图 3-2-8 DeepSeek 深度思考与联网搜索
+
+对应的输出见图 3-2-9 至图 3-2-12。可以明显看出本次结果附带了思考链，调用了网络检索，还做了资源汇总并给出长期规划。三类用法里，这次的答案覆盖面最广。
+
+046 一本书读懂 DeepSeek
+
+[PRE2]
+
+图 3-2-9 DeepSeek 综合回答（例 1）
+
+[PRE3]
+
+图 3-2-10 DeepSeek 综合回答（例 2）
+
+# 第3章 DeepSeek 实操入门通关
+
+[PRE4]
+
+图 3-2-11 DeepSeek 综合回答（例 3）
+
+[PRE5]
+
+图 3-2-12 DeepSeek 综合回答（例 4）
+
+#### 4. 文件分析功能
+
+点击“上传文件”按钮即可导入本地文档或图片。系统只读取文字内容，单次最多传 50 个，每个文件上限 100MB，以本书定稿时为准。
+
+这里以一份表格为例，里面有标题、点赞数、帖子链接三列，如图 3-2-13 所示。在对话框输入“分析表格中热门点赞标题的共同特点”，等待回复，如图 3-2-14 所示。需要提醒，联网搜索模式下不支持文件上传。
+
+> 当问题需要细致推理，且想基于你提供的材料给出精准结论时，文件分析模式更合适。虽然同样会经过深度思考，但它聚焦在你上传的内容上，得到的答案会更贴合实际。
+
+| A | B | C |
+
+|---|---|---|
+
+| 标题 | 点赞数 | 链接 |
+
+| DeepSeek官方信息 | 57000 | https://www.xiaohc |
+
+| 用DeepSeek抽盲盒 | 53000 | https://www.xiaohc |
+
+| 我没有想到有一天 | 39000 | https://www.xiaohc |
+
+| DeepSeek有太极 | 29000 | https://www.xiaohc |
+
+| 码一下DeepSeek的 | 26000 | https://www.xiaohc |
+
+| 达到什么条件才能 | 18000 | https://www.xiaohc |
+
+| DeepSeek不好用 | 18000 | https://www.xiaohc |
+
+| 我的天DeepSeek | 16000 | https://www.xiaohc |
+
+| 还得是清华！名校 | 15000 | https://www.xiaohc |
+
+| DeekSeek教师指令 | 15000 | https://www.xiaohc |
+
+| 苹果粉狂喜！Dee | 14000 | https://www.xiaohc |
+
+| DeepSeek真的好会 | 10000 | https://www.xiaohc |
+
+| 教师版DeepSeek | 10000 | https://www.xiaohc |
+
+| 第一次深刻感受到 | 8146 | https://www.xiaohc |
+
+| 给我妈装完DeepS | 8560 | https://www.xiaohc |
+
+| 【教程】两段话让 | 8118 | https://www.xiaohc |
+
+| DeepSeek大半夜 | 8643 | https://www.xiaohc |
+
+| 不要去官网挤着用 | 7397 | https://www.xiaohc |
+
+| 关于我和DeepSee | 6839 | https://www.xiaohc |
+
+| 人类对于未来的恐 | 7105 | https://www.xiaohc |
+
+| 人们还在热议 Dee | 6694 | https://www.xiaohc |
+
+| 如题 | 6877 | https://www.xiaohc |
+
+| DeepSeek让美国 | 6620 | https://www.xiaohc |
+
+| 问DeepSeek异地 | 6514 | https://www.xiaohc |
+
+| DeepSeek喂饭级 | 6364 | https://www.xiaohc |
+
+| 帮大家总结了超全 | 6872 | https://www.xiaohc |
+
+| 突然发现清华Dee | 6400 | https://www.xiaohc |
+
+| DeepSeek好用的 | 6000 | https://www.xiaohc |
+
+| DS告诉我的人生 | 5960 | https://www.xiaohc |
+
+图 3-2-13 上传文件
+
+[PRE6]
+
+图 3-2-14 DeepSeek 文件分析案例
+
+回复截图在图3-2-15。可以看到模型保留了思考过程，并对上传表格做了细致拆解，结合提问给出综合结论。
+
+[PRE7]
+
+图 3-2-15 DeepSeek 深度思考与文件分析结果
+
+分析完成后就可以在同一对话里继续追问或定制需求，示例见图 3-2-16 所示。
+
+050 一本书读懂 DeepSeek
+
+[PRE8]
+
+图 3-2-16 用户需求定制示例
+
+## 3.3 官方API接入：Cherry Studio 实战
+
+### 3.3.1 获取 DeepSeek 官方 API
+
+进入 DeepSeek 官网，点击右侧的“API 开放平台”入口即可开始获取官方接口。
+
+[PRE9]
+
+图 3-3-1 获取 DeepSeek 官方 API 操作
+
+在左侧菜单打开“API keys”，点“创建 API key”。列表会展示你名下的全部密钥，密钥仅在生成瞬间可见可复制，请妥善保管，不要外泄或写入前端代码。一旦密钥泄露，官方可能自动封禁。为了避免业务受影响，目前官方已暂停API充值，现有余额仍可使用，默认赠送10元。API本质上是一串字符，让其他程序能调用DeepSeek能力。因为官网近期负载高，可能出现不可用，通过客户端调用更稳定。唯一限制是官方API暂不支持联网搜索。
+
+[PRE10]
+
+图 3-3-2 DeepSeek API key 管理界面
+
+### 3.3.2 下载 Cherry Studio
+
+Cherry Studio 是一款跨平台的桌面客户端，兼容 Windows、Mac、Linux，开箱即用。内置30多个行业智能助手，集成主流大模型API，也支持本地模型。功能涵盖多模型对话、知识库管理、AI绘画、翻译等，高度可定制，适合专业用户和爱好者。前往官网 https://cherry-ai.com/ 点击“下载客户端”，如图 3-3-3 所示。
+
+[PRE11]
+
+图 3-3-3 Cherry Studio 下载页面
+
+### 3.3.3 安装 Cherry Studio
+
+打开下载好的安装包，双击运行后一路点“下一步”即可完成安装，如图 3-3-4 所示。
+
+[PRE12]
+
+图 3-3-4 Cherry Studio 安装页面
+
+### 3.3.4 配置 Cherry Studio
+
+安装完成后打开软件，点击左下角“设置”，进入“模型服务”，选择“深度求索”，在右上角点绿色启动按钮填入前面获取的官方API key，点击“检查”确认连通，如图 3-3-5 所示。
+
+### 3.3.5 在 Cherry Studio 中使用 DeepSeek
+
+启动后点左上角“助手”，选用“默认助手”，在输入区写下问题或提示词即可调用DeepSeek，如图 3-3-6 所示。
+
+054 一本书读懂 DeepSeek
+
+[PRE13]
+
+图 3-3-5 Cherry Studio 配置步骤详情
+
+[PRE14]
+
+图 3-3-6 在 Cherry Studio 中使用 DeepSeek
+
+顶部栏可以切换不同的DeepSeek模型，见图 3-3-7 所示。
+
+## 3.3.6 获取 DeepSeek 官方 API 使用情况
+
+使用官方API时要定期查看用量。
+
+打开 https://cloud.siliconflow.cn/bills 可查看 DeepSeek-V3 和 DeepSeek-R1 的使用记录及余额，如图 3-3-11 所示。
+
+[PRE15]
+
+图 3-3-11 DeepSeek API 用量和消费分析
+
+> 截至定稿，官方已停止API充值，现有余额还能用，赠送的10元很快会用完，不建议长期依赖官方接口，仅作备用。更推荐使用第三方API，可随时充值更省心。
+
+## 3.4 第三方API方案：硅基流动 + Chatbox
+
+### 3.4.1 获取 DeepSeek 第三方硅基流动 API
+
+截至2025年2月14日，市场上已有34家云平台提供DeepSeek第三方API。硅基流动提供多款模型，操作简单，适合新手。进阶用户可参考章节3.4.7的汇总表挑选。
+
+先登录 https://www.siliconflow.cn/，未注册会自动创建账号，如图 3-4-1 所示。
+
+[PRE16]
+
+图 3-4-1 硅基流动网站界面
+
+进入API密钥页面 https://cloud.siliconflow.cn/account/ak，新建或复制已有密钥，如图 3-4-2 所示。
+
+[PRE17]
+
+图 3-4-2 硅基流动的 API 密钥页面
+
+建议提前充一点余额，平台默认赠送14元，如图 3-4-3 所示。
+
+[PRE18]
+
+图 3-4-3 硅基流动的余额充值页面
+
+### 3.4.2 下载 Chatbox
+
+Chatbox AI是一款多平台AI客户端，支持众多模型和API，可在Windows、MacOS、Android、iOS、Linux及网页版使用。相比Cherry Studio，平台覆盖更广，支持网页和手机，如图 3-4-4 所示。
+
+[PRE19]
+
+图 3-4-4 Chatbox 多平台智能助手介绍
+
+### 3.4.3 安装 Chatbox
+
+选择对应平台下载安装包，如图 3-4-5 所示。以Windows为例，双击运行后点“下一步”完成安装，如图 3-4-6 所示。
+
+[PRE20]
+
+图 3-4-5 Chatbox 多平台安装页面
+
+[PRE21]
+
+图 3-4-6 Chatbox 的 Windows 安装界面
+
+### 3.4.4 配置 Chatbox
+
+打开Chatbox，点击左下角“设置”，进入“模型”选项卡，将模型提供方设为硅基流动“siliconflow API”，填入API密钥，选择模型“DeepSeek-R1”，保存，如图 3-4-7 所示。
+
+### 3.4.5 在 Chatbox 中使用 DeepSeek
+
+打开Chatbox，点击左上角“对话”，在输入区输入问题即可，如图 3-4-8 所示。
+
+[PRE22]
+
+图 3-4-7 修改 Chatbox 配置界面
+
+[PRE23]
+
+图 3-4-8 在 Chatbox 中使用 DeepSeek 的操作
+
+注意，截至定稿时，DeepSeek-R1的API暂不提供联网搜索功能，见图 3-4-9。
+
+[PRE24]
+
+图 3-4-9 DeepSeek-R1 模型的 API 暂时不支持联网搜索
+
+Chatbox内置的“做图表”智能体可快速生成各类图表，见图 3-4-10，方便数据可视化。
+
+Chatbox的“翻译助手”智能体可中英文互译，见图 3-4-11。
+
+点击“我的搭档”可挑选不同智能体，见图 3-4-12。
+
+[PRE25]
+
+图 3-4-10 Chatbox 生成图表功能展示
+
+[PRE26]
+
+图 3-4-11 Chatbox 翻译助手功能展示
+
+[PRE27]
+
+图 3-4-12 Chatbox AI 智能体选择界面
+
+### 3.4.6 获取 DeepSeek 第三方 API 使用情况
+
+为保证稳定，建议定期查看第三方API消耗。打开硅基流动官网账单页 https://cloud.siliconflow.cn/bills，点“查看详情”可看到月度消费总额，如图 3-4-13 所示。
+
+点开后能看到各API及各大模型的具体消耗，如图 3-4-14 所示。
+
+[PRE28]
+
+图 3-4-13 硅基流动账单界面示例
+
+[PRE29]
+
+图 3-4-14 不同 API 和模型的消耗详情
+
+### 3.4.7 DeepSeek 第三方 API 汇总
