@@ -1,0 +1,29 @@
+level_changes:
+- line: 1338
+  before: 1
+  after: 2
+- line: 2287
+  before: 1
+  after: 2
+- line: 2952
+  before: 1
+  after: 3
+- line: 2980
+  before: 1
+  after: 2
+- line: 3014
+  before: 1
+  after: 2
+- line: 3040
+  before: 1
+  after: 2
+- line: 3106
+  before: 1
+  after: 2
+- line: 3134
+  before: 1
+  after: 2
+text_changes:
+- line: 196
+  before: 罗布纳奖竞赛
+  after: 洛布纳奖竞赛
