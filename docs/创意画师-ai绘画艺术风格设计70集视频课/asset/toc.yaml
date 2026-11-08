@@ -1,0 +1,131 @@
+level_changes:
+- line: 226
+  before: 2
+  after: 3
+- line: 254
+  before: 2
+  after: 3
+- line: 281
+  before: 2
+  after: 3
+- line: 312
+  before: 2
+  after: 3
+- line: 347
+  before: 2
+  after: 3
+- line: 397
+  before: 2
+  after: 3
+- line: 447
+  before: 2
+  after: 3
+- line: 611
+  before: 2
+  after: 3
+- line: 650
+  before: 1
+  after: 2
+- line: 651
+  before: 2
+  after: 3
+- line: 685
+  before: 2
+  after: 3
+- line: 716
+  before: 1
+  after: 2
+- line: 717
+  before: 2
+  after: 3
+- line: 772
+  before: 2
+  after: 3
+- line: 824
+  before: 2
+  after: 3
+- line: 2042
+  before: 3
+  after: 2
+- line: 2094
+  before: 3
+  after: 2
+- line: 2144
+  before: 3
+  after: 2
+- line: 2196
+  before: 3
+  after: 2
+- line: 2248
+  before: 3
+  after: 2
+- line: 2969
+  before: 3
+  after: 2
+- line: 3143
+  before: 1
+  after: 2
+- line: 3195
+  before: 1
+  after: 2
+- line: 3247
+  before: 1
+  after: 2
+- line: 3305
+  before: 1
+  after: 2
+text_changes:
+- line: 62
+  before: 第一章　第 1 章　绘画艺术风格　绘画艺术风格
+  after: 第一章 绘画艺术风格
+- line: 70
+  before: AI 绘画欣赏　AI 绘画欣赏
+  after: AI 绘画欣赏
+- line: 80
+  before: 文艺复兴绘画风格的主要特点　文艺复兴绘画风格的主要特点
+  after: 文艺复兴绘画风格的主要特点
+- line: 96
+  before: 案例欣赏　案例欣赏
+  after: 案例欣赏
+- line: 110
+  before: 大师档案　大师档案
+  after: 大师档案
+- line: 126
+  before: AI 绘画欣赏　AI 绘画欣赏
+  after: AI 绘画欣赏
+- line: 136
+  before: 巴洛克绘画风格的主要特点　巴洛克绘画风格的主要特点
+  after: 巴洛克绘画风格的主要特点
+- line: 148
+  before: 案例欣赏　案例欣赏
+  after: 案例欣赏
+- line: 162
+  before: 大师档案　大师档案
+  after: 大师档案
+- line: 178
+  before: AI 绘画欣赏　AI 绘画欣赏
+  after: AI 绘画欣赏
+- line: 188
+  before: 洛可可绘画风格的主要特点　洛可可绘画风格的主要特点
+  after: 洛可可绘画风格的主要特点
+- line: 200
+  before: 案例欣赏　案例欣赏
+  after: 案例欣赏
+- line: 218
+  before: 大师档案 大师档案
+  after: 大师档案
+- line: 227
+  before: AI 绘画欣赏 AI 绘画欣赏
+  after: AI 绘画欣赏
+- line: 232
+  before: 印象主义绘画风格的主要特点 印象主义绘画风格的主要特点
+  after: 印象主义绘画风格的主要特点
+- line: 239
+  before: 案例欣赏 案例欣赏
+  after: 案例欣赏
+- line: 246
+  before: 大师档案 大师档案
+  after: 大师档案
+- line: 2038
+  before: 第五章　第 5 章　摄影艺术风格　摄影艺术风格
+  after: 第五章 摄影艺术风格
