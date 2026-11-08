@@ -1,0 +1,220 @@
+
+
+```
+from neo4j.v1 import GraphDatabase, basic_auth
+kg_driver = GraphDatabase.driver("bolt://192.168.1.110:7687", auth=basic_auth(username, pwd))
+kg_session = kg_driver.session()
+def get_association_by_kg(topic, sent):
+    candidate_list = []
+    node_id = entity_linking(topic, sent)
+    cql = "MATCH p=(n)-[r]-(e) WHERE ID(n)={} RETURN e.name".format(node_id)
+    cql_result = kg_session.run(cql)
+    for record in cql_result:
+        candidate_list.append(record["e.name"])
+    return candidate_list
+```
+
+此处假设图谱数据被存储于一个Neo4j数据库中，并建立与该数据库的链接`kg_session`。在通过实体链接方法`entity_linking`得到实体对应的id后，创建一个`cql`查询语句，以查询该实体结点所有相连结点的名称，即`e.name`。根据实体链接的设定返回id的不同类型，以及实体结点名称存储的变量名称，可自定义修改`cql`语句中的判断条件及返回结果。
+
+基于词向量的方法，是基于知识图谱联想方法的补充，若知识图谱联想结果较少，则可以利用词汇在大规模语料中的相似上下文，使得语义相近的词汇的词向量之间的距离也相对较小。具体实现代码如下：
+
+```
+from gensim.models import KeyedVectors  
+model = KeyedVectors.load_word2vec_format("vec.bin", binary=True)  
+def get_association_by_embedding (topic, top_k=5):  
+    candidate_list = []  
+    try:  
+        candidate_list = model.most_similar(positive=[topic], topn=top_k)  
+    except Exception as e:  
+        logger.exception(e)  
+    return candidate_list  
+```
+
+这里采用了`gensim`的`KeyedVectors`对象，调用它的`load_word2vec_format`方法，用于加载路径为“`vec.bin`”的加载预训练词向量。而获取与某个话题最相似的其他词汇，则调用了`most_similar`方法。注意到该方法有两个传入参数：一个是`list`类型的词汇列表，这里即话题`topic`；另一个参数则为`topn`，即取最相近的`n`个结果。同时，调动`most_similar`方法时加入了异常判断，如果话题词汇`topic`不在词向量的词汇表中，则会抛出一个异常。此外，此处还可以人为设置相似度阈值，以增强筛选效果。
+
+### 6.4.4 候选话题排序
+
+正如前文所提到的，人与人在闲聊的时候，话题的空间非常大，但最终话题总是会围绕两个人自身范围展开，或者近期的一些热点事件展开。与真实世界相似，上一阶段生成的候选话题数量通常也会非常大，此时，便需要利用一些约束条件进行话题的剪枝和排序，选择出最适合当前聊天的话题。本节分别介绍基于热点话题事件、用户画像图谱、bot图谱和对话上下文的话题排序策略。
+
+#### 1. 热点话题事件
+
+基于热点话题事件的排序策略是指，近期发生的热门事件信息对于对话更加有价值，更有信息量，所以与热门事件相关的话题应当优先返回。
+
+图6-41是若干热点事件的示例，如第三条事件信息为“女篮大胜波多黎各”，事件的报道时间为“2019-08-19 05:17:25”。从这条事件中可以发现“女篮”和“波多黎各”是两个关联话题。同时“女篮”的关联概念为“运动”，在图6-40的热点子图中，可以清晰地看到该条热点事件相关的话题，以及它们在热点子图中的构成。因此在8月19日女篮大胜事件发生前后的时间内，当提及“运动”这一话题时，可以自然地联想到“女篮”，从而展开相关的事件描述。
+
+![000](images/00180.jpeg)
+
+图6-41 热点事件示例
+
+对于一个候选话题，可以检验其能否关联到热点子图中，匹配逻辑如下：
+
+```
+def filter_by_hot_event(topic):  
+    event_list = topic_event_mapping.get(topic, None)  
+    if event_list:  
+        event_detail = ''  
+        max_score = 0  
+        for event_info in event_list:  
+            time_interval = time.time() - event_info[1]  
+            if time_interval < 3600*24*2:  
+                score = 1  
+            elif time_interval < 3600*24*4:  
+                score = 0.6  
+            elif time_interval < 3600*24*5:  
+                score = 0.4  
+            else:  
+                score = 0.2  
+            if score >= max_score:  
+                max_score = score  
+                event_detail = event_info[0]  
+        return [event_detail, max_score]  
+```
+
+这里定义一个名为`filter_by_hot_event`的函数，输入话题`topic`，输出关联上的热点事件，若没有关联上则返回`None`。
+
+第二行的`topic_event_mapping`为存储话题映射到事件的`dict`对象，由于多个事件可能同属于一个话题，因此`key`为话题名称，`value`为多个事件组成的`list`，列表中的每一项由某个事件的具体信息和事件发生时间（时间戳）构成，如以下示例：
+
+```
+topic_event_mapping = {  
+    "女篮": [  
+        ["女篮积极备战", 1565929940],  
+        ["女篮大胜波多黎各", 1566163045]  
+    ],  
+    "波多黎各": [  
+        ["女篮大胜波多黎各", 1566163045]  
+    ]  
+}  
+```
+
+同时，由于事件往往具有时效性，事件发生时间距离当前越近，时间的价值越大。反之若事件已发生较长时间，如5天前，则会失去话题联想的价值。这里，事件的价值用`score`进行衡量。如上例中的“女篮积极备战”事件，若当前为8月16日，则该事件是在三天前发生，根据代码逻辑，`score`=0.6。而“女篮大胜波多黎各”事件则是当天发生的新鲜事，因此`score`=1。第4～18行的代码逻辑是最终选择`score`最大的事件返回。
+
+除了候选话题的关联匹配，由于事件的时效性特点，热点事件图谱的维护也是一大要点。
+
+对于热点事件的获取，可以采用爬虫周期性地（例如每隔15分钟）抓取互联网上公开的热门话题，例如微博热搜、搜索引擎的趋势等。
+
+对于热点事件的话题抽取，可以复用6.4.2节介绍的话题抽取技术，并存储到数据库中，形成事件图谱。
+
+此外，对于线上系统的低延时需求，可以采用定时任务，保持本地数据与数据库数据同步，如以下代码所示：
+
+```
+def update_hot_event():  
+    topic_event_mapping.clear()  
+    update_rst = synchronize_from_db("hot_event")  
+    topic_event_mapping.update(update_rst)  
+```
+
+其中`synchronize_from_db`函数负责从图谱拉取热点事件数据到本地。将`update_hot_event`函数设置为定时任务入口，便可以保持`topic_event_mapping`对象的数据持续更新。
+
+#### 2. 用户画像图谱
+
+基于用户画像图谱的排序策略是指，与用户密切相关的实体自然应当被优先返回，因此可基于用户画像图谱对候选联想实体进行剪枝。
+
+前文5.3节已经介绍过用户画像图谱，即在对话的场景下，系统可以不断积累对于用户的认知，或者主动记忆用户的信息，形成用户画像图谱。用户画像的来源可以是用户言语中传达的信息，也可以是显式的系统操作。
+
+如图6-42所示，这里记录了四条用户与聊天机器人“琥珀”进行的交互。其中，第一条和第三条是用户设置的闹钟提醒，第二条使用了音乐播放功能，第四条是和琥珀打招呼。基于上述信息，可以刻画出用户近期在进行“运动健身”的画像信息，同时也表明用户可能喜欢“七里香”这首“音乐”。以上便是图6-40中用户子图中主要的构成部分。
+
+![000](images/00181.jpeg)
+
+图6-42 用户事件示例
+
+候选话题与用户子图中的话题匹配，具体实现逻辑如下：
+
+```
+user_related_topic_dict = {}  
+def update_user_related_entity():  
+    update_rst = synchronize_from_db("user_related_entity")  
+    user_related_topic_dict.update(update_rst)  
+def filter_by_user_profile(user_id, topic):  
+    related_topic_dict = user_related_topic_dict.get(user_id, None) 
+    topic_detail = related_topic_dict.get(topic, None)  
+    return [topic_detail, 1]  
+```
+
+这里定义了一个`filter_by_user_profile`函数，用于匹配话题。与热点话题图谱不同的是，利用用户子图时，还需要传入用户的id，即`user_id`。在保存各个用户画像信息的`dict`对象`user_related_topic_dict`中，基于`user_id`和话题`topic`，匹配满足的画像值。以下为`user_related_topic_dict`的一个示例：
+
+```
+user_related_topic_dict = {  
+    "user_id": {  
+        "性别": "男",  
+        "运动": "健身房运动两天",  
+        "音乐": "七里香"  
+    }  
+}  
+```
+
+注意到如果`filter_by_user_profile`匹配到话题，则返回的结果由两部分构成。第一个返回值为`topic_detail`，即具体的匹配结果值。第二个参数为`score`，与话题图谱中的`score`相对应，用于表示当前匹配结果的得分，这部分将在步骤5中用到。
+
+同时，`update_user_related_entity`用于和图谱数据库进行同步，这里同热点话题图谱部分的逻辑一致。在随着人机交互的进行过程中，用户画像图谱的信息会不断更新，因此需要同步机制，保证匹配时的数据信息是最新的。
+
+#### 3. bot图谱
+
+闲聊对话系统的一个终极目标是让用户在和机器人聊天时，感觉如同在与人类聊天一般自然有趣，bot图谱便是其中一种实现手段。
+
+bot图谱是与用户图谱非常类似的，其中的人物属性、关系信息可以完全沿用一套图谱模式，不同点在于用户画像是基于真实人物刻画出的，而bot人设画像则是凭空虚构的。基于bot图谱构建出的对话机器人拥有自己的基本属性、爱好设定，同时包含每日24小时生活轴的动态事件，同战场人类相似。如图6-43所示，这是一个机器人一天生活的事件示例，分别进行了锻炼“跑步”、弹“钢琴”、吃“海鲜大餐”、练“瑜伽”、下“围棋”等一系列事件。相关的话题在前面图6-40中的bot子图已展示。
+
+![000](images/00182.jpeg)
+
+图6-43 bot事件示例
+
+基于bot图谱的基本思想也与前两个图谱类似，即与bot相关的实体应当优先返回。具体的代码逻辑如下：
+
+```
+bot_related_topic_dict = {}  
+def update_bot_related_entity():  
+    update_rst = synchronize_from_db('bot_related_entity')  
+    bot_related_topic_dict.update(update_rst)  
+def filter_by_bot_profile(bot_id, topic):  
+    related_topic_dict = bot_related_topic_dict.get(bot_id, {})  
+    topic_detail = related_topic_dict.get(topic, None)  
+    return [topic_detail, 1]  
+```
+
+这里定义了`filter_by_bot_profile`函数用于匹配话题，同时需要传入`bot_id`作为必要参数，通常情况下，bot的人设会有多个，例如男女两个不同性别等。不同bot的人设信息以及生活轴事件是不一样的，因此需要先通过`bot_id`，在存储所有bot图谱信息的`bot_related_topic_dict`对象中获取仅与当前`bot_id`相关的数据进行匹配。这里的数据更新逻辑也与前两部分相同，这里不再累述。
+
+同时，当匹配到bot相关信息时，匹配函数最终返回的结果中也由两部分构成，其中，`topic_detail`即具体的信息值，而第二部分与之前一致，即`score`分值，这部分将在步骤5中用到。
+
+#### 4. 上下文
+
+基于上下文的候选话题剪枝，本质上是沿用了推荐系统中的多样性衡量指标，即本轮选择的话题和该话题相关的信息，应尽可能不与前几轮已经讨论过的话题重合，尽可能将一些新鲜的话题加入新的对话中。在具体实践时，需要维护一个话题上下文状态，保存前几轮已经聊过的话题，并根据上下文对多次返回的联想实体降权。
+
+在整个闲聊的对话流程中，上下文的维护和筛选可以分为三个阶段。
+
+第一个阶段，检查上下文是否过期，代码逻辑如下所示：
+
+```
+def check_context(user_id):  
+    now_time = time.time()  
+    if user_id in user_context_topic_dict:  
+        context_topic_dict = user_context_topic_dict[user_id]  
+        for topic in context_topic_dict:  
+            update_time = context_topic_dict[topic][0]  
+            turn_past = context_topic_dict[topic][1]  
+            sent_past = context_topic_dict[topic][2]  
+            if now_time - update_time > time_window:  
+                context_topic_dict.pop(topic)  
+            else:  
+                context_topic_dict[topic] = [update_time, turn_past+1, sent_past]  
+```
+
+上下文话题状态，通过`dict`对象`user_context_topic_dict`进行存储。其中`key`为`user_id`，对于每一个用户再保存一个独立的历史话题状态`dict`对象`context_topic_dict`。`context_topic_dict`的`key`即`topic`，每一个`value`中则保存三个信息：
+
+* 话题触发的时间`update_time`；
+* 话题触发至今已经历的对话轮数`turn_past`；
+* 话题触发时用户的输入语句`sent_past`。
+
+这里设置一个上下文的时间窗口`time_window`，仅保存距离现在时间窗口范围内的历史话题，若超出则不进行降权惩罚。同时，对于时间窗口内有效的话题，则统一对`turn_past`值+1，表示当进入此轮对话时，历史对话的轮数都顺延加一。
+
+第二个阶段，基于上下文筛选，代码如下：
+
+```
+def filter_by_context(user_id, topic):  
+    context_topic_dict = user_context_topic_dict.get(user_id, {})  
+    data_tuple = context_topic_dict.get(topic, None)  
+    if data_tuple:  
+        turn_past = data_tuple[1]  
+        sent = data_tuple[2]  
+        score = 1 - (turn_past * 1.0 - 1) / 10  
+        if score < 0:  
+            score = 0  
+        return [sent, score]  
+```

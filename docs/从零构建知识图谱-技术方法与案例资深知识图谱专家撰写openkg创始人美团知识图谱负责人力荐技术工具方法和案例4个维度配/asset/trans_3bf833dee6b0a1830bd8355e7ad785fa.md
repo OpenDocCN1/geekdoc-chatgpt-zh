@@ -1,0 +1,241 @@
+
+
+实体识别与链接（NERL）是识别问句中实体并将其与知识库中实体进行映射的过程，通常分为实体识别与实体链接两个步骤。主要难点在于：一个知识库的实体可以有多种表述，同一个表述也可以对应多个知识库实体，换句话说，自然语言表达存在多样性和歧义性。由于NERL的主要方法均可以参考前文内容，此节不再赘述。具体的，实体识别的主要方法具体可参考本书7.2.2节基础NLU部分的内容，如果待识别的实体并非通用命名实体，可以参考本书5.3节的相关内容。实体链接的方法则可以参考本书6.2节中介绍的实体链接的工具开展，如Dexter\[1\]和AGDISTIS等。
+
+## 7.2.5　文本相似度与向量化
+
+文本相似度方法，可以做意图识别，也可以为后续基于检索的QA做辅助。文本相似度的计算方法有字符串相似度和语义相似度两种。
+
+### 1. 字符串相似度
+
+常见的字符串相似度算法有编辑距离、最大公共子串等。本节以序列相似度`SequenceMatch`算法为例，介绍如何求两个字符串的相似度。Python中有两个包都可以进行文本序列相似度的计算，`difflib`和`fuzzywuzzy`，但返回结果不同。`difflib.SequenceMatcher()`返回的相似度是一个0～1之间的概率，0表示两个句子完全不相似，1表示两个句子完全相同；`fuzzywuzzy`返回的是一个百分制分数，实际上结果与`difflib`一致，只是相差两个数量级。
+
+```
+import difflib  
+from fuzzywuzzy import fuzz  
+# 方法1  
+def similarity(sent1, sent2):  
+    ''' 
+    使用difflib包计算序列相似度
+    :param sent1: 
+    :param sent2: 
+    :return: 返回的是0～1之间的相似概率，0为完全不相似，1为完全相同 
+    '''  
+    score = difflib.SequenceMatcher(None, sent1, sent2).ratio()  
+    return score  
+  
+# 方法2  
+def fuzz_similarity(sent1, sent2):  
+    ''' 
+    使用fuzzy包计算序列相似度
+    :param sent1: 
+    :param sent2: 
+    :return: 返回的是百分制的分值，0为完全不相似，100为完全相同 
+    '''  
+    return fuzz.ratio(sent1, sent2)
+```
+
+在一个句子中，不同的词有不同的重要性，本文将介绍一个基于对`SequenceMatcher()`算法做改进的加权版本的序列相似度算法供读者参考。采用`pyltp`的词性标注结果作为权重的参考，例如可以使用`w_map`字典自定义权重，我们认为名词n比较重要、动词v其次，而代词r相对不重要。通过`get_weight()`函数可以获得一个句子的权重向量。
+
+```
+def get_weight(sent):  
+    w_l = []  
+    w_map = {  
+        'v': 0.8,  
+        'r': 0.1,  
+        'n': 1.0  
+    } # 根据词性设定权重表 
+    pos1 = ltp.pos_tag(sent)  
+    for w in pos1:  
+        w_l.extend(len(w[0]) * [w[1]])  
+    w_l = [w_map[w] for w in w_l]  
+    return w_l  
+```
+
+将权重向量作为计算相似度时的参考，则加权的序列相似度算法如下：
+
+```
+def weighted_match_similarity(sent1, sent2, w1=None, w2=None):  
+    ''' 
+    计算两个字符串的加权相似度 
+    :param sent1: 
+    :param sent2: 
+    :param w1: w1是一个与sent1长度相同的权重序列 
+    :param w2: w2是一个与sent2长度相同的权重序列 
+    '''  
+    mb = difflib.SequenceMatcher(None, sent1, sent2).get_matching_blocks()  
+    if not w1 and not w2:  # 如果均不加权重  
+        matches = sum(triple[-1] for triple in mb)  
+        return calculate_ratio(matches, len(sent1) + len(sent2))  
+    else:  
+        if not w1:  
+            w1 = len(sent1) * [1.0]  
+        if not w2:  
+            w2 = len(sent2) * [1.0]  
+        # 校验权重序列是否和字符串等长  
+        assert len(sent1)==len(w1)  
+        assert len(sent2)==len(w2)  
+        matches = sum((w1[tri[0] + i] + w2[tri[1] + i]) / 2 for tri in mb for i in range(tri[-1]))  
+        return calculate_ratio(matches, sum(w1) + sum(w2))  
+  
+def calculate_ratio(matches, length):  
+    if length:  
+        return 2.0 * matches / length  
+    return 1.0  
+```
+
+本文仅提供一个基于词性的启发式句子向量加权方法，读者可以根据实际任务设计不同的权重获取算法，例如参考词频（`TF`）、逆文档频率（`IDF`）等其他信息。
+
+### 2. 语义相似度
+
+#### （1）词向量
+
+可以采用`word2vec`、`GloVe`等主流词向量工具对自然语言进行向量化。近年来，随着神经网络研究的不断深入，`fastText`可以进行快速的词向量训练，`ELMo`\[2\]、`BERT`\[3\]等模型可以根据上下文语义获取动态的词向量表示。一般而言，需要基于大规模高质量的数据训练，才可以得到效果比较好的模型，可以使用腾讯AILab开源的中文词向量\[4\][\[9\]](#part0040.html#note_9)。完整的文件较大，其压缩包为`Tencent_AILab_ChineseEmbedding.tar.gz`，大小为6.3G，解压后为`Tencent_AILab_ChineseEmbedding.txt`格式，大小为16G，共8824330个词条，读者可以选取前10w行作为一个精简版本，记得将.txt文件第一行“8824330 200”改为“100000 200”，否则会报解析错误。建议使用时将.txt文件格式转为二进制格式，这样可以极大地提升模型加载速度，转换代码如下：
+
+```
+from gensim.models.keyedvectors import KeyedVectors  
+def word_embeding_txt_to_bin():  
+    # 加载通常需要25分钟~30分钟  
+    wv = KeyedVectors.load_word2vec_format(WORD_VECTOR_PATH,binary=False)
+    wv.load_word2vec_format('/Users/winnie/software_package/Tencent_AILab_ChineseEmbedding.bin', binary=True)  
+```
+
+加载模型时，可以直接通过`model[]`或者`model.wv[]`方式获取词的向量。注意，如有未登录词，则会报错。
+
+```
+WORD_VECTOR_PATH = 'Tencent_AILab_ChineseEmbedding.bin'  
+Model = KeyedVectors.load_word2vec_format(WORD_VECTOR_PATH, binary=True)
+# 获取一个词的向量方式1  
+print(model['中国'])  
+# 获取一个词的向量方式2  
+print(model.wv['中国'])  
+```
+
+#### （2）句向量
+
+句向量可以由句子中的词向量通过向量加和、向量加和平均、向量极值法等方法求得，改进的表示方法是向量加权平均方法。基于`word2vec`词向量模型表示句子时，会存在未登录词的问题，而词表中未出现的词的向量无法计算。一种解决方法是采用`fastText`训练包含`subword`的词向量模型。对于一个未登录词，如果其`subword`信息在训练语料中，则可以获取词向量。训练的代码如下。
+
+```
+from gensim.models import FastText  
+def read_corpus(filename):  
+    ''' 
+    读取语料并调用ltp分词工具 
+    :param filename: 语料文件 
+    :return: 
+    '''  
+    sent_list = []  
+    with open(filename, 'r', encoding='utf8') as fp:  
+        for line in fp:  
+            sent_list.append(ltp_seg_handler.segment(line.strip()))  
+    return sent_list  
+  
+def train_fasttext_embedding(corpus_file):  
+    ''' 
+    训练fastText基于subword信息的词向量模型 
+    :param corpus_file: 输入语料文本数据 
+    :return: 
+    '''  
+    sentences = read_corpus(corpus_file)  
+    model = FastText(sentences, size=200, sg=1, window=5, min_count=2, min_n=1, max_n=5, workers=4, iter=5)  
+    model.save('fasttext_wv_model.bin')  
+```
+
+首先准备一个训练词向量的语料集，中文纯文本格式，调用7.2.2节中实现的`pyltp`分词接口进行分词。输入训练的语料格式如下：
+
+```
+sentences = [['我', '是', '中国', '人'], ['我', '的', '家乡', '在', '北京']]
+```
+
+每个句子分词后以list格式存放，所有句子存放在一个大的list中。调用`gensim.models`中的`fastText`方法，传入训练语料与指定训练参数则可以进行词向量模型的训练，实际训练速度非常快。核心参数讲解如下。
+
+*   `sg`：训练算法，取值为int型 {1, 0}，取1时使用Skip-Gram模型，取0时使用CBOW模型，默认是使用CBOW模型训练。
+*   `size`：向量维度，int型。
+*   `window`：训练时当前词和预测词在句中相隔的最大距离，int型。
+*   `min_count`：词表的最低出现频次，int型或None，设置为None时，不做低频词裁剪。
+*   `sample`：高频词随机降采样的阈值设置，float型，范围在(0, 1e-5)。
+*   `workers`：多线程训练，线程数设置，int型。
+*   `iter`：训练迭代次数，相当于epochs，int型。
+*   `batch_words`：一个batch的最大词数限制，int型，默认为10000。
+*   `min_n`：训练时，ngram的最小字符长度，int型，在中文训练时建议设置小一些，在英文训练时，默认为3
+*   `max_n`：训练时，ngram的最大字符长度，int型，默认为6，当设置为小于`min_n`时，不采用ngram的词向量表示
+*   `word_ngrams`：int型，取值为{1,0}，设置为1时，采用subword(ngrams)的信息，设置为0时则等价于`word2vec`算法，默认为1
+
+训练后，模型加载调用`FastText.load`方法。获取词向量方法有两种，`model[]`和`model.wv[]`，二者结果一致，采用`subword`模型训练的模型，当输入一个未登录词时，同样可以共享`subword`的向量信息获得未登录词的向量，例如“奥利给222”。通过`model.wv.most_similar`方法可以获得一个与词最相近的topn个词的结果和对应概率。
+
+```
+# 模型加载  
+model = FastText.load('fasttext_wv_model.bin')  
+# 获取一个词的向量方式1  
+print(model['中国'])  
+# 获取一个词的向量方式2  
+print(model.wv['中国']) 
+# 获取一个OOV词向量的方式  
+print(model['奥利给222'])  
+print(model.wv['奥利给222'])  
+# 获取一个词最相近的topn个词  
+print(model.wv.most_similar("漂亮", topn=10)) 
+```
+
+本文提供两种实现方法计算两个词的相似度，分别是欧氏距离和余弦相似度。
+
+```
+def get_similarity(model, w1, w2):  
+    ''' 
+    求w1和w2之间的相似度 
+    :param model: model为加载进内存的词向量模型 
+    :param w1: 第一个词 
+    :param w2: 第二个词 
+    :return: 
+    '''  
+    try:  
+        sim = model.wv.similarity(w1, w2)  
+    except Exception as e:  
+        print(e)  
+        sim = 0  
+    return sim  
+  
+def euclidean_distance(model, w1, w2):  
+    # 欧氏距离计算两个词相似度  
+    vec1 = model[w1]  
+    vec2 = model[w2]  
+    dis = np.sqrt(np.sum(np.square(vec1-vec2)))  
+    return dis  
+```
+
+`gensim`包已经封装了相似度计算方法，该方法计算两个向量的余弦相似度作为相似度分值，加载模型后可以直接通过调用`model.wv.similarity`来计算。若采用欧氏距离计算方法，则需要将两个向量之间的平方和开方后进行计算，具体参考`euclidean_distance`函数。
+
+* * *
+
+\[1\]](#part0040.html#noteBack_1) http://pan.baidu.com/share/link?shareid=1988562907&uk=2738088569。
+
+\[2\]](#part0040.html#noteBack_2) https://pyltp.readthedocs.io/zh_CN/latest/。
+
+\[3\]](#part0040.html#noteBack_3) https://github.com/hankcs/pyhanlp。
+
+\[4\]](#part0040.html#noteBack_4) https://blog.csdn.net/FontThrone/article/details/82792377。
+
+\[5\]](#part0040.html#noteBack_5) https://ltp.readthedocs.io/zh_CN/latest/appendix.html#id5。
+
+\[6\]](#part0040.html#noteBack_6) https://pyltp.readthedocs.io/zh_CN/latest/api.html#id15。
+
+\[7\]](#part0040.html#noteBack_7) https://ltp.readthedocs.io/zh_CN/latest/appendix.html#id5。
+
+\[8\]](#part0040.html#noteBack_8) https://nlp.stanford.edu/software/stanford-dependencies.shtml。
+
+\[9\]](#part0040.html#noteBack_9) https://ai.tencent.com/ailab/nlp/en/data/Tencent_AILab_ChineseEmbedding.tar.gz。
+
+## 7.3　对话管理
+
+### 7.3.1　概述
+
+对话管理（`Dialogue Management`，`DM`）是整个知识图谱对话系统的总控部分，在前面的图7-1中可以看到，`DM`接收`NLU`的结果，并进行用户意图判断，选择不同的服务模块进行调用。同时，`DM`还需要管理多轮问答，并对最终结果进行排序输出。
+
+`DM`的主函数位于`ch7/dm/dm_handler.py`，接下来我们按步骤分析一下具体的执行流程。
+
+```
+from loguru import logger
+from qa import bot_qa, common_qa, medicine_qa, user_qa, ir_qa, mr_qa
+from chat import hello_chat, association_chat
+from dm.dst_manager import get_dst, add_dst
+from util.multi_thread_util import thread_factory
+```
