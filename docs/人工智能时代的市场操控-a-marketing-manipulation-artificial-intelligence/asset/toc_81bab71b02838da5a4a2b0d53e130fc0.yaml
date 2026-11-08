@@ -1,0 +1,158 @@
+level_changes:
+- line: 241
+  before: 3
+  after: 4
+- line: 253
+  before: 3
+  after: 4
+- line: 261
+  before: 3
+  after: 4
+- line: 281
+  before: 3
+  after: 4
+- line: 307
+  before: 2
+  after: 3
+- line: 311
+  before: 3
+  after: 4
+- line: 323
+  before: 3
+  after: 4
+- line: 337
+  before: 3
+  after: 4
+- line: 359
+  before: 2
+  after: 3
+- line: 363
+  before: 3
+  after: 4
+- line: 375
+  before: 3
+  after: 4
+- line: 403
+  before: 3
+  after: 4
+- line: 423
+  before: 3
+  after: 4
+- line: 691
+  before: 2
+  after: 3
+- line: 701
+  before: 3
+  after: 4
+- line: 715
+  before: 3
+  after: 4
+- line: 725
+  before: 3
+  after: 4
+- line: 815
+  before: 2
+  after: 3
+- line: 881
+  before: 3
+  after: 4
+- line: 893
+  before: 3
+  after: 4
+- line: 907
+  before: 3
+  after: 4
+- line: 1003
+  before: 3
+  after: 4
+- line: 1021
+  before: 2
+  after: 3
+- line: 1111
+  before: 2
+  after: 3
+- line: 1125
+  before: 3
+  after: 4
+- line: 1135
+  before: 3
+  after: 4
+- line: 1143
+  before: 2
+  after: 3
+text_changes:
+- line: 14
+  before: 简　介
+  after: 简介
+- line: 66
+  before: AI 是什么?
+  after: AI 是什么？
+- line: 179
+  before: 1.我们可以操控消费者对品牌的感受
+  after: 1. 我们可以操控消费者对品牌的感受
+- line: 183
+  before: 1)人是如何建立与品牌及产品的关系的?
+  after: 1) 人是如何建立与品牌及产品的关系的？
+- line: 211
+  before: 2)品牌创造 FOMO：错失恐惧症
+  after: 2) 品牌创造 FOMO：错失恐惧症
+- line: 223
+  before: 3)信任 AI 服务，信任品牌
+  after: 3) 信任 AI 服务，信任品牌
+- line: 601
+  before: 1.第四次工业革命的起源
+  after: 1. 第四次工业革命的起源
+- line: 615
+  before: 1)第一次及第二次工业革命
+  after: 1) 第一次及第二次工业革命
+- line: 621
+  before: 2)第三次及第四次工业革命
+  after: 2) 第三次及第四次工业革命
+- line: 633
+  before: 2.当今世界的第四次工业革命
+  after: 2. 当今世界的第四次工业革命
+- line: 635
+  before: 1)无人机与机器人将改变我们的生活
+  after: 1) 无人机与机器人将改变我们的生活
+- line: 645
+  before: 2)AI 赋能的 3D 打印
+  after: 2) AI 赋能的 3D 打印
+- line: 657
+  before: 3)虚拟现实收集个人信息
+  after: 3) 虚拟现实收集个人信息
+- line: 667
+  before: 4)部落及分享组群
+  after: 4) 部落及分享组群
+- line: 701
+  before: 1)教育的演变与未来
+  after: 1) 教育的演变与未来
+- line: 715
+  before: 2)个人助手：苹果语音助手 Siri、微软小娜 Cortana 及其他
+  after: 2) 个人助手：苹果语音助手 Siri、微软小娜 Cortana 及其他
+- line: 725
+  before: 3)人工智能的其他优点
+  after: 3) 人工智能的其他优点
+- line: 743
+  before: 1.AI 及数据收集兴起的原因
+  after: 1. AI 及数据收集兴起的原因
+- line: 751
+  before: 2.对人工智能的恐惧：我们能逃脱这个操控系统吗?
+  after: 2. 对人工智能的恐惧：我们能逃脱这个操控系统吗？
+- line: 861
+  before: 1.什么是隐性营销?
+  after: 1. 什么是隐性营销？
+- line: 875
+  before: 2.以离散的方式收集更多数据
+  after: 2. 以离散的方式收集更多数据
+- line: 933
+  before: 1.AI 策略用于发布产品
+  after: 1. AI 策略用于发布产品
+- line: 935
+  before: 1)如果产品免费，那么你就是产品
+  after: 1) 如果产品免费，那么你就是产品
+- line: 939
+  before: 2)价格：收集个人数据的新方法
+  after: 2) 价格：收集个人数据的新方法
+- line: 945
+  before: 3)用位置策略埋伏人工智能
+  after: 3) 用位置策略埋伏人工智能
