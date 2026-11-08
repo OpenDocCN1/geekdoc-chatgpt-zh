@@ -1,0 +1,329 @@
+# Transformer 编码解码器代码精读
+
+很多人在复现经典 Transformer 时，会在多头注意力、前馈网络以及编码器解码器的堆叠顺序上卡住。下面的实现把核心流程拆得很透，从 QKV 的投影、缩放点积注意力、残差与 LayerNorm，到位置wise 前馈、Encoder Layer、Decoder Layer 以及完整的 Encoder、Decoder 堆叠，数据形状和掩码处理都标注得十分清晰，跟着跑一遍就能理清每一层的输入输出逻辑。
+
+    def forward(self, input_Q, input_K, input_V, attn_mask):
+
+        '''
+
+        input_Q: [batch_size, len_q, d_model]
+
+        input_K: [batch_size, len_k, d_model]
+
+        input_V: [batch_size, len_v(=len_k), d_model]
+
+        attn_mask: [batch_size, seq_len, seq_len]
+
+        ...
+
+        '''
+
+        residual, batch_size = input_Q, input_Q.size(0)
+
+        # [batch_size, len_q, d_model]
+
+        # (W)-> [batch_size, len_q, d_k * n_heads]
+
+        # (view)->[batch_size, len_q, n_heads, d_k]
+
+        # (transpose)-> [batch_size, n_heads, len_q, d_k]
+
+        Q = self.W_Q(input_Q).view(batch_size, -1, n_heads, d_k).transpose(1, 2)
+
+        K = self.W_K(input_K).view(batch_size, -1, n_heads, d_k).transpose(1, 2)
+
+        V = self.W_V(input_V).view(batch_size, -1, n_heads, d_v).transpose(1, 2)
+
+        # 生成Q、K、V矩阵
+
+        attn_mask = attn_mask.unsqueeze(1)
+
+        # attn_mask : [batch_size, n_heads, seq_len, seq_len]
+
+        context, attn = ScaledDotProductAttention()(Q, K, V, attn_mask)
+
+        # context: [batch_size, n_heads, len_q, d_v],
+
+        # attn: [batch_size, n_heads, len_q, len_k]
+
+        context = context.transpose(1, 2).reshape(batch_size, -1, n_heads * d_v)
+
+        # context: [batch_size, len_q, n_heads * d_v]
+
+        output = self.fc(context)
+
+        # [batch_size, len_q, d_model]
+
+        return nn.LayerNorm(d_model).cuda()(output + residual), attn
+
+[PRE0]
+
+python
+
+# **************************************************
+
+class PoswiseFeedForwardNet(nn.Module):
+
+    def __init__(self):
+
+        super(PoswiseFeedForwardNet, self).__init__()
+
+        self.fc = nn.Sequential(
+
+            nn.Linear(d_model, d_ff, bias=False),
+
+            nn.ReLU(),
+
+            nn.Linear(d_ff, d_model, bias=False)
+
+        )
+
+    def forward(self, inputs):
+
+        '''
+
+        inputs: [batch_size, seq_len, d_model]
+
+        '''
+
+        residual = inputs
+
+        output = self.fc(inputs)
+
+        return nn.LayerNorm(d_model).cuda()(output + residual)  # [batch_size, seq_len, d_model]
+
+[PRE1]
+
+python
+
+# 也有残差连接和layer normalization
+
+[PRE2]
+
+python
+
+# **********************************
+
+class EncoderLayer(nn.Module):
+
+    def __init__(self):
+
+        super(EncoderLayer, self).__init__()
+
+        self.enc_self_attn = MultiHeadAttention()
+
+        # 多头注意力机制
+
+        self.pos_ffn = PoswiseFeedForwardNet()
+
+        # 提取特征
+
+    def forward(self, enc_inputs, enc_self_attn_mask):
+
+        '''
+
+        enc_inputs: [batch_size, src_len, d_model]
+
+        enc_self_attn_mask: [batch_size, src_len, src_len]
+
+        '''
+
+        # enc_outputs: [batch_size, src_len, d_model],
+
+        # attn: [batch_size, n_heads, src_len, src_len] 每一个投一个注意力矩阵
+
+        enc_outputs, attn = self.enc_self_attn(enc_inputs, enc_inputs, enc_inputs, enc_self_attn_mask)
+
+        # enc_inputs to same Q,K,V
+
+        # 乘以WQ、WK、WV生成QKV矩阵（由于此时是自注意力模型，因此传入的数据是相同内容。）
+
+        # 但在decoder-encoder的mulit-head中，
+
+        # 由于此时是交互注意力，因此需要传入的是解码器输入向量与编码器输出向量。
+
+        # 为了使用方便，我们在定义enc_self_attn函数的时候就定义的是有3个形参的
+
+        enc_outputs = self.pos_ffn(enc_outputs)
+
+        # enc_outputs: [batch_size, src_len, d_model]
+
+        # 输入和输出的维度是一样的
+
+        return enc_outputs, attn
+
+[PRE3]
+
+python
+
+# **********************************
+
+class DecoderLayer(nn.Module):
+
+    def __init__(self):
+
+        super(DecoderLayer, self).__init__()
+
+        self.dec_self_attn = MultiHeadAttention()
+
+        self.dec_enc_attn = MultiHeadAttention()
+
+        self.pos_ffn = PoswiseFeedForwardNet()
+
+    def forward(self, dec_inputs, enc_outputs, dec_self_attn_mask, dec_enc_attn_mask):
+
+        '''
+
+        dec_inputs: [batch_size, tgt_len, d_model]
+
+        enc_outputs: [batch_size, src_len, d_model]
+
+        dec_self_attn_mask: [batch_size, tgt_len, tgt_len]
+
+        dec_enc_attn_mask: [batch_size, tgt_len, src_len]
+
+        '''
+
+        # dec_outputs: [batch_size, tgt_len, d_model], dec_self_attn: [batch_size, n_heads, tgt_len, tgt_len]
+
+        dec_outputs, dec_self_attn = self.dec_self_attn(dec_inputs, dec_inputs, dec_inputs, dec_self_attn_mask)
+
+        # dec_outputs: [batch_size, tgt_len, d_model], dec_enc_attn: [batch_size, n_heads, tgt_len, src_len]
+
+        # 先是decoder的self-attention
+
+        # print(dec_outputs.shape)
+
+        # print(enc_outputs.shape)
+
+        #
+
+        # print(dec_enc_attn_mask.shape)
+
+        dec_outputs, dec_enc_attn = self.dec_enc_attn(dec_outputs, enc_outputs, enc_outputs, dec_enc_attn_mask)
+
+        # 再是encoder-decoder attention部分
+
+        dec_outputs = self.pos_ffn(dec_outputs)  # [batch_size, tgt_len, d_model]
+
+        # 特征提取
+
+        return dec_outputs, dec_self_attn, dec_enc_attn
+
+[PRE4]
+
+python
+
+class Encoder(nn.Module):
+
+    def __init__(self):
+
+        super(Encoder, self).__init__()
+
+        self.src_emb = nn.Embedding(src_vocab_size, d_model)
+
+        self.pos_emb = PositionalEncoding(d_model)
+
+        # 计算位置向量
+
+        self.layers = nn.ModuleList([EncoderLayer() for _ in range(n_layers)])
+
+        # 将6个Encoder Layer组成一个module
+
+    def forward(self, enc_inputs):
+
+        '''
+
+        enc_inputs: [batch_size, src_len]
+
+        '''
+
+        enc_outputs = self.src_emb(enc_inputs)
+
+        # 对每个单词进行词向量计算
+
+        # enc_outputs [batch_size, src_len, d_model]
+
+        enc_outputs = self.pos_emb(enc_outputs.transpose(0, 1)).transpose(0, 1)
+
+        # 添加位置编码
+
+        # enc_outputs [batch_size, src_len, d_model]
+
+        enc_self_attn_mask = creat_self_mask(enc_inputs, enc_inputs)
+
+        # enc_self_attn: [batch_size, src_len, seq_len]
+
+        # 计算得到输入到编码器注意力中的掩码矩阵
+
+        enc_self_attns = []
+
+        # 创建一个列表，保存接下来计算的attention score (query与key的相关性计算结果)
+
+        for layer in self.layers:
+
+            # enc_outputs: [batch_size, src_len, d_model]
+
+            # enc_self_attn: [batch_size, n_heads, src_len, src_len]
+
+            enc_outputs, enc_self_attn = layer(enc_outputs, enc_self_attn_mask)
+
+            enc_self_attns.append(enc_self_attn)
+
+            # 再传进来就不用positional decoding了
+
+            # 记录下每一次的attention
+
+        return enc_outputs, enc_self_attns
+
+[PRE5]
+
+python
+
+class Decoder(nn.Module):
+
+    def __init__(self):
+
+        super(Decoder, self).__init__()
+
+        self.tgt_emb = nn.Embedding(tgt_vocab_size, d_model)
+
+        self.pos_emb = PositionalEncoding(d_model)
+
+        self.layers = nn.ModuleList([DecoderLayer() for _ in range(n_layers)])
+
+    def forward(self, dec_inputs, enc_inputs, enc_outputs):
+
+        '''
+
+        dec_inputs: [batch_size, tgt_len]
+
+        enc_inputs: [batch_size, src_len]
+
+        enc_outputs: [batch_size, src_len, d_model] 经过6次encoder之后得到的东西
+
+        '''
+
+        dec_outputs = self.tgt_emb(dec_inputs)
+
+        # [batch_size, tgt_len, d_model]
+
+        # 同样地，对decoder_layer进行词向量的生成
+
+        dec_outputs = self.pos_emb(dec_outputs.transpose(0, 1)).transpose(0, 1).cuda()
+
+        # 计算其位置向量
+
+        # [batch_size, tgt_len, d_model]
+
+        dec_self_attn_mask = creat_self_mask(dec_inputs, dec_inputs)
+
+        # [batch_size, tgt_len, tgt_len]
+
+        #dec_self_attn_subsequence_mask = create_look_ahead_mask(dec_inputs).cuda()
+
+        # [batch_size, tgt_len, tgt_len]
+
+        # 当前时刻看不到未来时刻的东西
+
+        dec_enc_attn_mask = create_look_ahead_mask(enc_inputs, dec_inputs)
