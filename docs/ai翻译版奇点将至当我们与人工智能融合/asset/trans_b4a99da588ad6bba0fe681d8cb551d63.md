@@ -1,0 +1,114 @@
+
+
+[返回到注释参考 91](#11_Chapter_3_Who_Am_I_.xhtml#SuperscriptNumber276)
+
+92. 迈克尔·默岑尼奇，“大脑可塑性的增长证据”，TED 视频，2004 年 2 月，[https://www.ted.com/talks/michael_merzenich_on_the_elastic_brain](https://www.ted.com/talks/michael_merzenich_on_the_elastic_brain).
+
+[返回笔记参考 92](#11_Chapter_3_Who_Am_I_.xhtml#SuperscriptNumber277)
+
+## 第四章：生活正呈指数级好转
+
+1. 世界银行发展研究小组，“每日 2.15 美元贫困人口比例（2017 年购买力平价）（占人口百分比）”，世界银行，访问于 2023 年 3 月 25 日，[https://data.worldbank.org/indicator/SI.POV.DDAY](https://data.worldbank.org/indicator/SI.POV.DDAY)世界银行，“世界总人口 (SPPOPTOTLWLD)”，取自圣路易斯联邦储备银行 FRED，2023 年 7 月 4 日更新，[https://fred.stlouisfed.org/series/SPPOPTOTLWLD](https://fred.stlouisfed.org/series/SPPOPTOTLWLD).
+
+[返回到注释参考 1](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber278)
+
+2. 联合国教科文组织统计研究所，“成人识字率（占 15 岁及以上人口的百分比）”，取自 Worldbank.org，2022 年 10 月 24 日，[https://data.worldbank.org/indicator/SE.ADT.LITR.ZS](https://data.worldbank.org/indicator/SE.ADT.LITR.ZS).
+
+[返回注释参考 2](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber279)
+
+3. *2000-2020 年家庭饮用水、卫生和个人卫生进展：可持续发展目标实施五年*（日内瓦：世界卫生组织和联合国儿童基金会，2021 年），9，[https://apps.who.int/iris/rest/bitstreams/1369501/retrieve](https://apps.who.int/iris/rest/bitstreams/1369501/retrieve).
+
+[返回注释参考 3](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber280)
+
+4. 世界银行发展研究小组，“每日 2.15 美元贫困率”；世界银行，“世界总人口 (SPPOPTOTLWLD)”。
+
+[返回注释参考 4](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber281)
+
+5. 联合国教科文组织统计研究所，“成人识字率”。
+
+[返回注释参考 5](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber282)
+
+6. *2000-2020 年家庭饮用水、卫生和个人卫生进展*, 9.
+
+[返回注释参考 6](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber283)
+
+7. 雷·库兹韦尔，*精神机器时代：当计算机超越人类智能时*（纽约：维京出版社，1999年）。
+
+[返回注释参考 7](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber284)
+
+8. 雷·库兹韦尔，*奇点临近*（纽约：维京出版社，2005年）。
+
+[返回注释参考 8](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber285)
+
+9. 彼得·H·迪亚曼迪斯和史蒂文·科特勒，*富足：未来比你想象的更美好*（纽约：西蒙与舒斯特出版社，2012年）。
+
+[返回注释参考 9](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber286)
+
+10. 史蒂文·平克，*当下的启蒙：理性、科学、人文主义和进步的理由*（纽约：企鹅出版社，2018年）。
+
+[返回注释参考 10](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber287)
+
+11. 安德鲁·埃文斯，“第一次感恩节旅行”，*国家地理*，2011年11月24日，[https://www.nationalgeographic.com/travel/digital-nomad/2011/11/24/the-first-thanksgiving-travel](https://www.nationalgeographic.com/travel/digital-nomad/2011/11/24/the-first-thanksgiving-travel).
+
+[返回注释参考 11](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber288)
+
+12. 亨利·费尔利，“亨利·费尔利论欧洲人如何看待我们的革命”，*新共和国*，2014年7月3日，[https://newrepublic.com/article/118527/american-revolution-what-did-europeans-think](https://newrepublic.com/article/118527/american-revolution-what-did-europeans-think)；彼得·斯坦福，“纽约的船舶街”，*划船*21, no. 1 (1967年1月): 48,[https://books.google.com/books?id=VsMYj3YIKLcC](https://books.google.com/books?id=VsMYj3YIKLcC).
+
+[返回注释参考 12](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber289)
+
+13. 瓦茨拉夫·斯米尔，“横渡大西洋”，*IEEE Spectrum*, 2018年3月28日，[https://spectrum.ieee.org/transportation/marine/crossing-the-atlantic](https://spectrum.ieee.org/transportation/marine/crossing-the-atlantic).
+
+[返回注释参考 13](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber290)
+
+14. 弗兰克·W·吉尔斯，*技术转型与系统创新：一个共同进化与社会技术分析*（英国剑桥：爱德华·埃尔加出版社，2005），135，[https://books.google.com/books?id=SDfrb7TNX5oC](https://books.google.com/books?id=SDfrb7TNX5oC).
+
+[返回注释参考 14](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber291)
+
+15. 史蒂文·宇治富萨，*一个人和他的船：美国最伟大的海军建筑师和他建造S.S.的追求*美国号（纽约：西蒙与舒斯特出版社，2012），152，[https://books.google.com/books?id=H6KB4q7M938C](https://books.google.com/books?id=H6KB4q7M938C).
+
+[返回注释参考 15](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber292)
+
+16. 约翰·C·斯派查尔斯基，“交通运输”，在*《哥伦比亚二十世纪史》*, 理查德·W·布利特编 (纽约: 哥伦比亚大学出版社, 1998), 409, [https://books.google.com/books?id=9QsqpvR0nq0C](https://books.google.com/books?id=9QsqpvR0nq0C).
+
+[返回注释参考 16](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber293)
+
+17. 杰森·保尔，“1958年10月4日：‘彗星’开启跨大西洋喷气时代”*Wired*, 2010年10月4日，[https://www.wired.com/2010/10/1004first-transatlantic-jet-service-boac](https://www.wired.com/2010/10/1004first-transatlantic-jet-service-boac).
+
+[返回到注释参考 17](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber294)
+
+18. 霍华德·斯卢茨肯，“乘坐协和式飞机的真实感受”，美国有线电视新闻网，2019年3月2日，[https://www.cnn.com/travel/article/concorde-flying-what-was-it-like/index.html](https://www.cnn.com/travel/article/concorde-flying-what-was-it-like/index.html).
+
+[返回注释参考 18](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber295)
+
+19. “伦敦至纽约飞行时长”，Finance.co.uk，访问于2023年4月14日，[https://www.finance.co.uk/travel/flight-times-and-durations-calculator/london-to-new-york](https://www.finance.co.uk/travel/flight-times-and-durations-calculator/london-to-new-york).
+
+[返回注释参考 19](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber296)
+
+20. 有关冲突在故事讲述中的作用以及新闻中负面偏见证据的有用文章，请参见 Jerry Flattum，“什么是故事？冲突——故事讲述的基础”，*剧本*，2013年3月18日，[https://scriptmag.com/features/conflict-the-foundation-of-storytelling](https://scriptmag.com/features/conflict-the-foundation-of-storytelling)；斯图尔特·索罗卡、帕特里克·富尼耶和莉拉赫·尼尔，“对新闻心理生理反应中消极偏见的跨国证据”，*美国国家科学院院刊*116, no. 38 (2019年9月17日): 18888–92,[https://doi.org/10.1073/pnas.1908369116](https://doi.org/10.1073/pnas.1908369116).
+
+[返回注释参考 20](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber297)
+
+21. 有关社交媒体算法如何强调冲突并加剧两极分化的更多信息，请参见“乔纳森·海特：社交媒体如何驱动两极分化”，Amanpour and Company，YouTube 视频，2019 年 12 月 4 日，[https://www.youtube.com/watch?v=G9ofYEfewNE](https://www.youtube.com/watch?v=G9ofYEfewNE)；伊莱·帕里泽，“新闻推送算法如何增强确认偏差”，*大思考*，YouTube 视频，2018 年 12 月 18 日，[https://www.youtube.com/watch?v=prx9bxzns3g](https://www.youtube.com/watch?v=prx9bxzns3g); 杰里米·B·梅里尔和威尔·奥雷穆斯，“愤怒得五分，‘赞’得一分：脸书的公式如何助长愤怒和虚假信息”，*华盛顿邮报*, 2021年10月26日，[https://www.washingtonpost.com/technology/2021/10/26/facebook-angry-emoji-algorithm](https://www.washingtonpost.com/technology/2021/10/26/facebook-angry-emoji-algorithm); 达蒙·森托拉，“为什么社交媒体使我们更加两极分化以及如何解决它”，*《科学美国人》*, 2020年10月15日，[https://www.scientificamerican.com/article/why-social-media-makes-us-more-polarized-and-how-to-fix-it](https://www.scientificamerican.com/article/why-social-media-makes-us-more-polarized-and-how-to-fix-it).
+
+[返回注释参考 21](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber298)
+
+22. 马克斯·罗瑟，“经济增长”，我们的数据世界，访问于2021年10月11日，[https://ourworldindata.org/economic-growth](https://ourworldindata.org/economic-growth); 莱兰·托马斯和尼古拉斯·丁斯代尔，“英国千年数据”，英格兰银行OBRA数据集，2017年，[https://www.bankofengland.co.uk/-/media/boe/files/statistics/research-datasets/a-millennium-of-macroeconomic-data-for-the-uk.xlsx](https://www.bankofengland.co.uk/-/media/boe/files/statistics/research-datasets/a-millennium-of-macroeconomic-data-for-the-uk.xlsx)“通货膨胀计算器”，英格兰银行，访问于2023年4月14日，[https://www.bankofengland.co.uk/monetary-policy/inflation/inflation-calculator](https://www.bankofengland.co.uk/monetary-policy/inflation/inflation-calculator)斯蒂芬·布劳德伯里等人，*《英国经济增长，1270–1870》*（英国剑桥：剑桥大学出版社，2015年）。
+
+[返回注释参考 22](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber299)
+
+23. Roser，“经济增长”；Thomas and Dimsdale，“英国千年数据”；“通货膨胀计算器”，英格兰银行；Broadberry等人，*《英国经济增长》*.
+
+[返回注释参考 23](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber300)
+
+24. Roser，“经济增长”；Thomas and Dimsdale，“英国千年数据”；“通货膨胀计算器”，英格兰银行；Broadberry等人，*《英国经济增长》*.
+
+[返回注释参考 24](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber301)
+
+25. Roser，“经济增长”；Thomas and Dimsdale，“英国千年数据”；“通货膨胀计算器”，英格兰银行；Broadberry等人，*《英国经济增长》*.
+
+[返回注释参考 25](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber302)
+
+26. 彼得·诺瓦克，“社交媒体中刻薄世界综合症的兴起”，*《环球邮报》*，2014年11月6日，[https://www.theglobeandmail.com/life/relationships/the-rise-of-mean-world-syndrome-in-social-media/article21481089](https://www.theglobeandmail.com/life/relationships/the-rise-of-mean-world-syndrome-in-social-media/article21481089).
+
+[返回注释参考 26](#12_Chapter_4_Life_Is_Get.xhtml#SuperscriptNumber303)
+

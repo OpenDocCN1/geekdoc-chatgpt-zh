@@ -1,0 +1,115 @@
+
+
+# 参考注释
+
+### 31.
+弗朗索瓦丝·巴雷-西诺西等人，“从患有获得性免疫缺陷综合征（艾滋病）风险的患者身上分离出一种T淋巴细胞逆转录病毒”，*科学*220, no. 4599 (1983年5月20日): 868–71,[https://www.jstor.org/stable/1690359](https://www.jstor.org/stable/1690359); Jean K. Carr 等人，“来自泰国的人类免疫缺陷病毒1型分离株的全长序列和嵌合结构”，*病毒学杂志*70, no. 9 (1996年8月31日): 5935–43,[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC190613](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC190613); 克里斯汀·菲利普科斯基，“SARS基因序列揭晓”，*Wired*, 2003年4月15日,[https://www.wired.com/2003/04/sars-gene-sequence-unveiled](https://www.wired.com/2003/04/sars-gene-sequence-unveiled); 卡梅伦·沃克，“快速测序方法可在数小时内识别新病毒”，*发现*, 2013年12月11日，[https://web.archive.org/web/20201111180212](https://web.archive.org/web/20201111180212); “RNA病毒基因组的快速测序”，Nanopore Technologies，2018年，[https://nanoporetech.com/resource-centre/rapid-sequencing-rna-virus-genomes](https://nanoporetech.com/resource-centre/rapid-sequencing-rna-virus-genomes).
+[返回注释参考 31](#15_Chapter_7_Peril.xhtml#SuperscriptNumber896)
+
+### 32.
+Darren J. Obbard等，“RNAi作为防御病毒和转座因子的进化”，*英国皇家学会哲学汇刊B：生物科学*364, no. 1513 (99–115),[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2592633](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2592633).
+[返回注释参考 32](#15_Chapter_7_Peril.xhtml#SuperscriptNumber897)
+
+### 33.
+有关传统抗原疫苗如何发挥作用的简要说明，请参见“了解疫苗如何发挥作用”，疾病控制中心，2018年7月，[https://www.cdc.gov/vaccines/hcp/conversations/understanding-vacc-work.html](https://www.cdc.gov/vaccines/hcp/conversations/understanding-vacc-work.html).
+[返回注释参考 33](#15_Chapter_7_Peril.xhtml#SuperscriptNumber898)
+
+### 34.
+雷·库兹韦尔，“人工智能驱动的生物技术可以帮助在创纪录的时间内部署疫苗，”*Wired*, 2020年5月19日,[https://www.wired.com/story/opinion-ai-powered-biotech-can-help-deploy-a-vaccine-in-record-time](https://www.wired.com/story/opinion-ai-powered-biotech-can-help-deploy-a-vaccine-in-record-time).
+[返回注释参考 34](#15_Chapter_7_Peril.xhtml#SuperscriptNumber899)
+
+### 35.
+Asha Barbaschow，“Moderna 利用其‘人工智能工厂’来彻底改变疾病治疗方式”，*ZDNet*，2021 年 5 月 17 日，[https://www.zdnet.com/article/moderna-leveraging-its-ai-factory-to-revolutionise-the-way-diseases-are-treated](https://www.zdnet.com/article/moderna-leveraging-its-ai-factory-to-revolutionise-the-way-diseases-are-treated).
+[返回注释参考 35](#15_Chapter_7_Peril.xhtml#SuperscriptNumber900)
+
+### 36.
+Barbaschow，“Moderna 利用其‘人工智能工厂’”；“Moderna COVID-19 疫苗”，美国食品和药物管理局，2020 年 12 月 18 日，https://www.fda.gov/emergency-preparedness-and-response/coronavirus-disease-2019-covid-19/moderna-covid-19-vaccine \[已失效\]。
+[返回注释参考 36](#15_Chapter_7_Peril.xhtml#SuperscriptNumber901)
+
+### 37.
+Philip Ball，“COVID 疫苗的闪电式探索——以及它对其他疾病的意义”，*自然*589, no. 7840 (2020 年 12 月 18 日): 16–18，[https://www.nature.com/articles/d41586-020-03626-1](https://www.nature.com/articles/d41586-020-03626-1).
+[返回注释参考 37](#15_Chapter_7_Peril.xhtml#SuperscriptNumber902)
+
+### 38.
+有关支持和反对的证据的两个有用的概述，请参见 Amy Maxmen 和 Smriti Mallapaty，“COVID 实验室泄漏假说：科学家们知道和不知道什么”，*自然*594, no. 7863 (2021 年 6 月 8 日): 313–15，[https://www.nature.com/articles/d41586-021-01529-3](https://www.nature.com/articles/d41586-021-01529-3); 乔恩·科恩，“野性的呼唤”，*科学*373, no. 6559 (2021年9月2日): 1072–77,[https://www.science.org/content/article/why-many-scientists-say-unlikely-sars-cov-2-originated-lab-leak](https://www.science.org/content/article/why-many-scientists-say-unlikely-sars-cov-2-originated-lab-leak).
+[返回注释参考 38](#15_Chapter_7_Peril.xhtml#SuperscriptNumber903)
+
+### 39.
+詹姆斯·皮尔逊和朱敏·朴，“朝鲜以低价核武器克服贫困和制裁”，路透社，2016年1月11日，[https://www.reuters.com/article/us-northkorea-nuclear-money-idUSKCN0UP1G820160111](https://www.reuters.com/article/us-northkorea-nuclear-money-idUSKCN0UP1G820160111).
+[返回注释参考 39](#15_Chapter_7_Peril.xhtml#SuperscriptNumber904)
+
+### 40.
+莱尔勋爵，“化学和生物武器：穷人的炸弹”，科学和技术委员会（96）8号通用报告草案，北大西洋议会，1996年10月4日，[https://irp.fas.org/threat/an253stc.htm](https://irp.fas.org/threat/an253stc.htm).
+[返回到注释参考 40](#15_Chapter_7_Peril.xhtml#SuperscriptNumber905)
+
+### 41.
+联合国秘书长，“化学和细菌（生物）武器及其可能使用造成的影响：秘书长报告”，联合国，1969年8月；在格雷戈里·科布伦茨的“病原体作为武器：生物战的国际安全影响”中讨论，*国际安全*第28期，第3号（2003/2004年冬季）：88，[https://doi.org/10.1162/016228803773100084](https://doi.org/10.1162/016228803773100084).
+[返回注释参考 41](#15_Chapter_7_Peril.xhtml#SuperscriptNumber906)
+
+### 42.
+如需更深入、更清醒地了解纳米技术的潜在有害应用，请参阅 Louis A. Del Monte 的*纳米武器：对人类日益增长的威胁*（林肯：内布拉斯加大学出版社，2017 年）。
+[返回注释参考 42](#15_Chapter_7_Peril.xhtml#SuperscriptNumber907)
+
+### 43.
+K. 埃里克·德雷克斯勒，*《创造的引擎：纳米技术的未来时代》*（纽约：Anchor Press/Doubleday，1986 年），172 页。
+[返回注释参考 43](#15_Chapter_7_Peril.xhtml#SuperscriptNumber908)
+
+### 44.
+Ralph C. Merkle，“自我复制系统和低成本制造”，Zyvex.com，访问日期：2023 年 3 月 5 日，[http://www.zyvex.com/nanotech/selfRepNATO.html](http://www.zyvex.com/nanotech/selfRepNATO.html).
+[返回注释参考44](#15_Chapter_7_Peril.xhtml#SuperscriptNumber909)
+
+### 45.
+Yinon M. Bar-On、Rob Phillips 和 Ron Milo 估计地球上的生物总量包含 550 吉吨的碳，涵盖所有类型的生物（不包括像煤矿这样最初来自生物的地下碳）。这相当于 5.5 x 10^(17)克碳。平均原子量为 12.011，我们可以将原子数计算为 5.5 x 10^(17)/ 12.011 = 4.6 x 10^(16)摩尔。利用这个数字，我们可以估算 (4.6 x 10^(16)) x (6.022 x 10^(23)) (阿伏伽德罗常数) = 2.8 x 10^(40)地球可用生物质中的碳原子数。包括大气、土壤和地下碳氢化合物储量在内的有机碳总量可能要高得多，但很难判断在灰色粘稠物情景中，纳米机器人能轻易获取多少。参见 Yinon M. Bar-On 等人，《地球上的生物量分布》，*PNAS*115, no. 25 (2018年6月19日): 6506–11,[https://doi.org/10.1073/pnas.1711842115](https://doi.org/10.1073/pnas.1711842115).
+[返回注释参考 45](#15_Chapter_7_Peril.xhtml#SuperscriptNumber910)
+
+### 46.
+根据纳米技术专家 Rob Freitas 的说法，一个自我复制的纳米机器人可能含有约 7000 万个碳原子。这是一个推测性的数字，但它可能是目前最好的估计，可以作为思考这种情景的一般指南。参见 Robert A. Freitas Jr.，《生物吞噬型纳米复制器的全球生态吞噬的一些限制，以及公共政策建议》，Foresight Institute，2000年4月，[http://www.rfreitas.com/Nano/Ecophagy.htm](http://www.rfreitas.com/Nano/Ecophagy.htm).
+[返回注释参考 46](#15_Chapter_7_Peril.xhtml#SuperscriptNumber911)
+
+### 47.
+这是一个平均值，假设碳的分布或多或少是均匀和连续的，但在实际情况下，会因当地条件而异。在某些地方，可用碳的供应在较少的世代后就会耗尽。在其他地方，可能需要更多的世代才能转化所有碳，从而在一定程度上延长了时间。
+[返回注释参考 47](#15_Chapter_7_Peril.xhtml#SuperscriptNumber912)
+
+### 48.
+弗雷塔斯，《生物吞噬纳米复制器的全球生态吞噬的一些限制》。
+[返回到注释参考48](#15_Chapter_7_Peril.xhtml#SuperscriptNumber913)
+
+### 49.
+弗雷塔斯，《生物吞噬纳米复制器的全球生态吞噬的一些限制》。
+[返回到注释参考 49](#15_Chapter_7_Peril.xhtml#SuperscriptNumber914)
+
+### 50.
+Robert A. Freitas Jr. 和 Ralph C. Merkle,*运动学自复制机器*（奥斯汀，德克萨斯州：Landes Bioscience，2004），[http://www.molecularassembler.com/KSRM/4.11.3.3.htm](http://www.molecularassembler.com/KSRM/4.11.3.3.htm).
+[返回注释参考50](#15_Chapter_7_Peril.xhtml#SuperscriptNumber915)
+
+### 51.
+要阅读更新后的指南本身以及一些关于它们的启发性背景，请参阅 Neil Jacobstein，“负责任的纳米技术发展的前瞻性指南”，前瞻性研究所，2006年，[http://www.imm.org/policy/guidelines](http://www.imm.org/policy/guidelines).
+[返回注释参考 51](#15_Chapter_7_Peril.xhtml#SuperscriptNumber916)
+
+### 52.
+要了解更多关于诸如“蓝色粘液”和“灰色粘液”等色彩缤纷的术语，这些术语已经涌现出来描述各种纳米技术场景，请参阅 Chris Phoenix，“粘液与糊状物”，*纳米技术现在*，2002年9月，[http://www.nanotech-now.com/goo.htm](http://www.nanotech-now.com/goo.htm).
+[返回注释参考 52](#15_Chapter_7_Peril.xhtml#SuperscriptNumber917)
+
+### 53.
+弗雷塔斯，《生物吞噬纳米复制器的全球生态吞噬的一些限制》。
+[返回到注释参考 53](#15_Chapter_7_Peril.xhtml#SuperscriptNumber918)
+
+### 54.
+比尔·乔伊，“为什么未来不需要我们”，*Wired*, 2000年4月1日，[https://www.wired.com/2000/04/joy-2](https://www.wired.com/2000/04/joy-2).
+[返回注释参考 54](#15_Chapter_7_Peril.xhtml#SuperscriptNumber919)
+
+### 55.
+世界卫生组织，“世卫组织冠状病毒仪表板”，世界卫生组织，访问于2023年10月16日，[https://covid19.who.int](https://covid19.who.int).
+[返回注释参考 55](#15_Chapter_7_Peril.xhtml#SuperscriptNumber920)
+
+### 56.
+迈尔斯·布伦戴奇等人，*人工智能的恶意使用：预测、预防和缓解*（英国牛津：未来人类研究所，2018年2月），[https://img1.wsimg.com/blobby/go/3d82daa4-97fe-4096-9c6b-376b92c619de/downloads/MaliciousUseofAI.pdf?ver=1553030594217](https://img1.wsimg.com/blobby/go/3d82daa4-97fe-4096-9c6b-376b92c619de/downloads/MaliciousUseofAI.pdf?ver=1553030594217).
+[返回笔记参考 56](#15_Chapter_7_Peril.xhtml#SuperscriptNumber921)
+
+### 57.
+埃文·休宾格，“澄清内部对齐术语”，人工智能对齐论坛，2020年11月9日，[https://www.alignmentforum.org/posts/SzecSPYxqRa5GCaSF/澄清内部对齐术语](https://www.alignmentforum.org/posts/SzecSPYxqRa5GCaSF/clarifying-inner-alignment-terminology)；保罗·克里斯蒂亚诺，“人工智能对齐的当前工作”，有效利他主义，访问于2023年3月5日，[https://www.effectivealtruism.org/articles/paul-christiano-current-work-in-ai-alignment](https://www.effectivealtruism.org/articles/paul-christiano-current-work-in-ai-alignment).
+[返回到注释参考 57](#15_Chapter_7_Peril.xhtml#SuperscriptNumber922)
+
+### 58.
+Hubinger，“澄清内部对齐术语”；克里斯蒂亚诺，“人工智能对齐的当前工作”.
+
