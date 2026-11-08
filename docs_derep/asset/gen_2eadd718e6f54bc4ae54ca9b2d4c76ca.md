@@ -1,0 +1,168 @@
+| Linux | 1. 在技能配置文件中打开离线模式；2. 执行 chmod +x scripts/init_offline_cache.py && ./scripts/init_offline_cache.py；3. 关闭 SELinux 限制离线文件访问：sudo setenforce 0 |
+
+#### 2.4.6 报错六：离线模式记忆加载失败
+
+断网或重启后，OpenClaw 读不出用户历史记忆、业务规则与技能配置，报错 Memory Load Failed 或 Vector DB Not Found，个性化功能失效。
+
+◎ 核心原因
+① 本地向量数据库 Chroma/FAISS 的路径配置有误，重启后定位不到数据目录；
+② 记忆文件权限不足，例如 Docker 未正确挂载宿主机的记忆目录；
+③ 向量库版本不兼容，升级后数据格式变更导致索引损坏。
+
+表2-8
+
+| 平台 | 具体解决步骤 |
+| :--- | :--- |
+| MacBook | 1. 检查 config/vector_db.yaml，确认 persist_directory 为绝对路径；2. 执行 chmod -R 755 ~/Documents/OpenClaw/vector_db 修复权限；3. 若索引损坏，删除旧数据后重新运行 python scripts/init_memory.py 重建记忆库 |
+| Windows | 1. 以管理员身份运行终端，执行 icacls "C:\OpenClaw\vector_db" /grant Everyone:F 修复权限；2. 核对配置文件中路径是否使用双反斜杠 \\，避免转义问题；3. 若版本不兼容，降级安装：pip install chroma-core==0.4.3 |
+| Linux | 1. 确认 /opt/OpenClaw/vector_db 目录存在且属主为运行用户：chown -R $USER:$USER /opt/OpenClaw/vector_db；2. 检查 SELinux 规则，setenforce 0 临时关闭以免阻挡文件访问；3. 重建索引：python scripts/rebuild_index.py |
+
+#### 2.4.7 报错七：技能依赖库缺失
+
+调用特定技能如电商订单处理、文档 OCR 识别时提示 Module Not Found Error 或 Dependency Missing，技能无法执行。
+
+◎ 核心原因
+① 技能所需第三方库未安装，如 pandas、opencv-python、pdfplumber；
+② 虚拟环境与全局环境冲突，脚本加载了错误的 Python 环境；
+③ 技能配置的依赖版本与系统不匹配，如要求 pandas>=2.0 而系统为 1.5。
+
+表 2-9
+
+| 平台 | 具体解决步骤 |
+| :--- | :--- |
+| MacBook | 1. 激活虚拟环境：source venv/bin/activate；2. 按文档安装依赖：pip install -r skills/order_process/requirements.txt；3. 版本冲突时用 pip check 排查并升级至兼容版本 |
+| Windows | 1. 以管理员身份打开 PowerShell，激活虚拟环境：.\venv\Scripts\Activate.ps1；2. 执行 pip install -r skills\ocr_recognize\requirements.txt；3. 若提示 VC++ 运行库缺失，安装 Microsoft Visual C++ Redistributable |
+| Linux | 1. 激活虚拟环境：source venv/bin/activate；2. 安装系统依赖：sudo apt-get install -y libopencv-dev libpoppler-cpp-dev；3. 再安装 Python 依赖：pip install -r skills/document_parse/requirements.txt |
+
+#### 2.4.8 报错八：跨设备同步失败
+
+多设备使用 OpenClaw 时记忆、技能配置不同步，提示 Sync Failed 或 Conflict Detected，体验不一致。
+
+◎ 核心原因
+① 同步服务如 WebDAV、云存储的凭证过期或配置错误；
+② 设备间时间不同步导致版本冲突，如 B 设备基于旧版本覆盖 A 设备修改；
+③ 网络代理或防火墙拦截同步请求，数据无法上传下载。
+
+表 2-10
+
+| 平台 | 具体解决步骤 |
+| :--- | :--- |
+| MacBook | 1. 检查 config/sync.yaml，确认 WebDAV/云存储账号密码正确；2. 同步系统时间：sudo systemsetup -setnetworktimeserver time.apple.com；3. 关闭防火墙测试：sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate off，再逐步放行规则 |
+| Windows | 1. 打开日期和时间设置，开启自动设置时间；2. 检查防火墙规则，允许 OpenClaw 出站连接同步服务器；3. 重新生成同步密钥：python scripts/regenerate_sync_key.py，并在各设备重新配置 |
+| Linux | 1. 同步时间：sudo timedatectl set-ntp true；2. 检查 ufw 或 firewalld，放行同步端口如 443；3. 测试连接：curl -I https://sync.OpenClaw.ai，排查网络问题 |
+
+#### 2.4.9 报错九：GPU 加速未生效
+
+调用本地模型 Llama 时推理极慢，终端提示 Using CPU for inference，GPU 未被调用，响应延迟高。
+
+◎ 核心原因
+① GPU 驱动版本过低或未正确安装，如 NVIDIA 驱动、CUDA Toolkit 缺失；
+② 模型量化配置错误，使用了不支持 GPU 的量化格式如 GPTQ 而非 AWQ；
+③ 环境变量未指向 GPU 库，如 CUDA_VISIBLE_DEVICES 未设置。
+
+表 2-11
+
+| 平台 | 具体解决步骤 |
+| :--- | :--- |
+| MacBook | 1. 确认为 Apple Silicon，安装 Metal 加速依赖：pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu；2. 检查模型配置，使用 --quantize q4_k_m 等支持 Metal 的量化参数；3. 重启应用，日志应出现 Using Metal backend |
+| Windows | 1. 安装最新 NVIDIA 驱动和 CUDA Toolkit 12.1；2. 检查环境变量：echo %CUDA_PATH%，确保指向正确目录；3. 重新安装模型：python scripts/install_model.py --use-cuda，启用 GPU 推理 |
+| Linux | 1. 执行 nvidia-smi 确认 GPU 识别正常，驱动 ≥535；2. 安装对应 CUDA 版本的 PyTorch：pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121；3. 设置可见 GPU：export CUDA_VISIBLE_DEVICES=0，再启动 OpenClaw |
+
+#### 2.4.10 报错十：日志与监控数据丢失
+
+运行一段时间后日志文件为空，监控面板如 Prometheus/Grafana 无数据，难以排查问题或分析 Token 消耗。
+
+◎ 核心原因
+① 日志目录权限不足，应用无法写入；
+② 监控服务未正确配置，无法采集 OpenClaw 指标；
+③ 日志轮转配置错误，旧日志被覆盖或删除。
+
+表 2-12
+
+| 平台 | 具体解决步骤 |
+| :--- | :--- |
+| MacBook | 1. 修复日志目录权限：chmod -R 755 ~/Library/Logs/OpenClaw；2. 检查 config/logging.yaml，确认 file_path 为绝对路径；3. 重启应用，观察日志是否实时写入 |
+| Windows | 1. 以管理员身份运行 OpenClaw，确保可写 C:\ProgramData\OpenClaw\Logs；2. 检查防火墙，允许 Prometheus 抓取 9090 端口；3. 调整日志轮转，保留至少 7 天历史日志 |
+| Linux | 1. 执行 chown -R $USER:$USER /var/log/OpenClaw 修复权限；2. 配置 Prometheus 抓取目标：static_configs: [{targets: ['localhost:9090']}];3. 使用 logrotate 管理日志，避免磁盘耗尽 |
+
+## 第 3 章 多模型调度与意图识别：打造聪慧且省钱的智能大脑
+
+前文已拆解 OpenClaw 的基础架构与部署方法，要让智能体真正又聪明又省钱，关键在于大脑的精细化配置。本章聚焦多模型调度与意图识别，从模型路由、提示词工程、记忆系统和成本监控四个角度，教你如何构建既精准理解意图又避免算力浪费的大脑，实现用最少 Token 完成最多任务。
+
+### 3.1 模型路由：何时上 GPT-5，何时用本地 Llama
+
+在 OpenClaw 中，模型路由本质是任务与能力的匹配：复杂推理用昂贵的 GPT-5，轻量任务用本地 Llama，直接决定成本与速度。本节拆解路由核心逻辑，教你按任务复杂度、数据敏感度和成本预算构建高效调度策略。
+
+#### 3.1.1 模型路由的核心决策维度
+
+选型不是越贵越好，而是精准匹配需求。路由决策需综合四维度：任务复杂度、数据隐私敏感度、成本预算、响应延迟要求。
+
+1. 任务复杂度
+    - 高复杂度：需深度推理、多步规划、跨域知识整合，如营销战略制定、复杂数据分析、创意策划，优先 GPT-5。
+    - 低复杂度：规则明确流程固定的轻量任务，如邮件分类、日程提醒、简单文案，本地 Llama 即可。
+2. 数据隐私敏感度
+    - 敏感场景：涉及用户隐私、商业机密如订单数据、合作协议、研发资料，必须用本地 Llama，确保数据不出域。
+    - 非敏感场景：公开信息查询、通用问答，可灵活使用云端模型。
+3. 成本预算
+    - 高容忍：对效果要求极高的核心业务如大促策划、关键客户服务，优先 GPT-5。
+    - 低约束：高频标准化任务如数据整理、客服话术，优先本地 Llama 控制成本。
+4. 响应延迟要求
+    - 实时交互：直播互动、实时客服需毫秒级，优先本地 Llama。
+    - 非实时：报告生成、数据分析可容忍延迟，可用云端提升质量。
+
+#### 3.1.2 GPT-5 的适用场景：追求极致智能与质量
+
+GPT-5 拥有顶尖推理、知识储备与多模态能力，是应对复杂任务的王牌，但成本高且依赖云端。合适场景如下表3-1。
+
+表3-1
+
+| 适用场景分类 | 典型应用场景 | 核心价值 |
+| :--- | :--- | :--- |
+| 复杂推理与战略规划 | 营销战略制定、商业决策分析、复杂问题拆解 | 整合多维信息，产出深度洞察与可执行策略 |
+| 高创意内容生成 | 品牌故事创作、广告文案策划、KOC 种草内容定制 | 创意更贴合用户偏好与平台风格，提升转化 |
+| 多模态理解与跨域整合 | 图像分析、视频脚本创作、跨行业问答 | 支持多模态输入输出，满足复杂业务需求 |
+| 深度客户洞察与策略优化 | 用户画像分析、流失原因诊断、生命周期策略制定 | 整合多源数据，生成精准分层与个性化运营策略 |
+| 复杂问题排查与原因分析 | 系统故障诊断、流程瓶颈分析、异常数据溯源 | 快速定位根因，提供系统化解决方案 |
+| 行业合规与风险评估 | 法规解读、合同审核、业务风险评估 | 深度理解合规要求，输出风险与合规建议 |
+
+#### 3.1.3 本地 Llama 的适用场景：隐私、效率与成本可控
+
+本地 Llama 不依赖云端、数据不出机、成本极低，适合高频敏感实时场景。核心场景见表3-2。
+
+表3-2
+
+| 适用场景分类 | 典型应用场景 | 核心价值 |
+| :--- | :--- | :--- |
+| 敏感数据处理与私有化部署 | 订单数据整理、合作协议生成、内部文档分析、财务报表处理 | 数据全程本地，适配数据安全法等监管要求 |
+| 高频轻量任务自动化 | 邮件分类、日程提醒、简单客服话术、数据录入、报销单初审 | 响应快成本低，7×24小时处理重复工作 |
+| 离线与低延迟场景 | 断网文件处理、实时客服、IoT 交互、工业现场采集 | 离线稳定运行，实现毫秒级响应 |
+| 边缘计算与本地交互 | 门店 POS 辅助、车载信息系统、智能家居本地控制 | 部署在边缘设备，减少传输，保障隐私与延迟 |
+| 成本敏感型批量处理 | 批量合同生成、批量咨询处理、批量报表生成 | 无 Token 费用，大幅降低大规模处理成本 |
+
+#### 3.1.4 混合部署的最佳实践：效率与成本的平衡艺术
+
+单一模型难以满足全部需求，本地 Llama + 云端 GPT-5 混合部署是核心落地模式。
+
+1. 混合部署的核心设计原则
+    任务分层、数据分级、动态调度协同：
+    - 任务分层：重脑力推理创意交给 GPT-5，体力活高频轻量交给 Llama；
+    - 数据分级：敏感数据全程本地，非敏感公开数据可云端；
+    - 动态调度：Gateway 路由层实时感知任务属性、隐私等级与负载，自动分配最优模型。
+2. 混合部署的架构实现
+    - Gateway 路由层：接收请求，完成认证与协议转换，按复杂度、隐私等级、延迟要求路由；
+    - Brain 决策层：拆解复杂任务，子任务分派不同模型，如 Llama 清洗数据、GPT-5 做深度洞察，最后融合输出；
+    - Skills 执行层：根据模型输出调用工具，本地操作或云端 API 闭环。
+3. 成本与效率的量化评估
+    - Token 消耗：高频轻量转本地后，云端 Token 可降 40%～60%；
+    - 响应速度：实时任务本地化，响应从秒级压至毫秒级；
+    - 人力成本：自动化率提升，人力替代率可达 30%～50%。
+4. 实施步骤与避坑指南
+    - 试点先行：从邮件分类、数据录入等高频轻量任务开始验证稳定性；
+    - 逐步扩展：再覆盖内容创作、数据分析等复杂任务；
+    - 监控优化：跟踪调用频率、响应时间、成本，持续优化路由规则；
+    - 安全兜底：确保敏感数据始终本地，避免切换泄露风险。
+5. 典型业务场景的混合部署实践
+
+表3-3
+
+| 业务场景 | 模型分工 |
