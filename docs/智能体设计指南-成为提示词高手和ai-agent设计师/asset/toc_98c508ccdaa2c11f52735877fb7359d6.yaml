@@ -1,0 +1,140 @@
+level_changes:
+- line: 250
+  before: 2
+  after: 3
+- line: 387
+  before: 2
+  after: 3
+- line: 413
+  before: 2
+  after: 3
+- line: 477
+  before: 2
+  after: 3
+- line: 528
+  before: 3
+  after: 4
+- line: 531
+  before: 3
+  after: 4
+- line: 534
+  before: 3
+  after: 4
+- line: 537
+  before: 3
+  after: 4
+- line: 540
+  before: 3
+  after: 4
+- line: 890
+  before: 3
+  after: 4
+- line: 926
+  before: 3
+  after: 4
+- line: 938
+  before: 2
+  after: 3
+- line: 966
+  before: 3
+  after: 4
+- line: 1107
+  before: 3
+  after: 4
+- line: 1133
+  before: 3
+  after: 4
+- line: 1157
+  before: 2
+  after: 3
+- line: 1263
+  before: 2
+  after: 3
+- line: 1265
+  before: 3
+  after: 4
+- line: 1270
+  before: 3
+  after: 4
+- line: 1279
+  before: 3
+  after: 4
+- line: 1286
+  before: 3
+  after: 4
+- line: 1293
+  before: 3
+  after: 4
+- line: 1313
+  before: 3
+  after: 4
+- line: 1340
+  before: 3
+  after: 4
+- line: 1397
+  before: 3
+  after: 4
+- line: 1473
+  before: 3
+  after: 4
+- line: 2163
+  before: 3
+  after: 4
+- line: 2178
+  before: 3
+  after: 4
+- line: 2475
+  before: 1
+  after: 2
+- line: 2481
+  before: 2
+  after: 3
+- line: 2485
+  before: 3
+  after: 4
+- line: 2499
+  before: 3
+  after: 4
+- line: 2555
+  before: 3
+  after: 4
+- line: 2577
+  before: 2
+  after: 3
+- line: 2579
+  before: 3
+  after: 4
+text_changes:
+- line: 528
+  before: 3. 竞品分析
+  after: 1.5.3 竞品分析
+- line: 531
+  before: 4. 内部分析
+  after: 1.5.4 内部分析
+- line: 534
+  before: 5. 战略策略
+  after: 1.5.5 战略策略
+- line: 537
+  before: 6. 执行计划
+  after: 1.5.6 执行计划
+- line: 540
+  before: 7. 监测和评估
+  after: 1.5.7 监测和评估
+- line: 1265
+  before: 1. 概念误区：表达意图与模型的理解不一致
+  after: 1.11.1 概念误区：表达意图与模型的理解不一致
+- line: 1270
+  before: 2. 认知误区：许愿式提示词
+  after: 1.11.2 认知误区：许愿式提示词
+- line: 1279
+  before: 3. 内容误区：提示词自注入
+  after: 1.11.3 内容误区：提示词自注入
+- line: 1286
+  before: 4. 人称误区：谁是“你”，谁是“我”
+  after: 1.11.4 人称误区：谁是“你”，谁是“我”
+- line: 1293
+  before: 5. 流程误区：流程不可执行
+  after: 1.11.5 流程误区：流程不可执行
+- line: 1313
+  before: 6. 设置误区：可以通过文本提示词调整参数设置
+  after: 1.11.6 设置误区：可以通过文本提示词调整参数设置
