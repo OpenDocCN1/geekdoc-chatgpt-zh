@@ -1,0 +1,237 @@
+本节额外引入了知识图谱可视化手段，以更直观的方式呈现实体与关系网络的语义构成。学习完本部分后，既能实现 GraphRAG 在本地的完整部署与调试，也能把此技术方案灵活运用到大规模私有知识问答系统的搭建中。
+
+#### 4.3.1 GraphRAG 安装与项目创建
+
+##### 1. Python 环境安装及版本要求
+
+微软官方的 GraphRAG 开源仓库内置了一套 CLI，通过终端下发指令即可完成构建和检索。本次实践借助 Anaconda 管理隔离环境，Conda 在创建环境时支持指定解释器版本，官方兼容范围为 3.10 到 3.12。先按需新建指定版本的虚拟环境：
+
+[PRE0]
+
+name 用来定义环境名称，python=3.11 则固定解释器为 3.11。环境创建完成后切入其中：
+
+[PRE1]
+
+##### 2. 安装 Microsoft GraphRAG 的 CLI 工具
+
+进入隔离环境后即可安装 CLI 客户端，执行：
+
+[PRE2]
+
+执行结束后可参考图4.7 的输出。
+
+##### 3. 验证 Microsoft GraphRAG 的 CLI 工具是否安装成功
+
+安装完成后先做可用性校验，执行：
+
+[PRE3]
+
+##### 4. Microsoft GraphRAG 的 CLI 工具的基本使用方法
+
+CLI 自带帮助信息，可通过以下指令查看：
+
+[PRE4]
+
+返回示例见图4.9。
+
+[PRE5]
+
+图4.9 CLI命令参数
+
+`graphrag --help` 的返回面向构建与检索两大功能，具体包含：
+
+- init：生成 GraphRAG 的配置文件。
+- index：执行索引构建，即 Indexing。
+- query：执行检索，即 Querying。
+- update：对已有索引进行增量更新。
+
+##### 5. 创建检索项目文件夹并上传数据集
+
+先创建项目目录：
+
+[PRE6]
+
+创建成功后的界面如图4.10 所示。
+
+[PRE7]
+
+随后将数据集文件放入该目录，如图4.11 所示。
+
+[PRE8]
+
+##### 6. 初始化 GraphRAG 项目文件
+
+GraphRAG 的初始化本质是生成一套默认配置，后续索引流程据此运行。第一步执行：
+
+[PRE9]
+
+其中 `--root` 用于指定配置文件保存位置，`./` 表示当前目录。
+
+执行后会得到两份配置文件与一个目录，如图4.12，说明如下：
+
+- settings.yaml：主配置文件，覆盖从索引构建到检索的各项设定。
+- .env：环境变量文件，主要保存 API_KEY 等敏感信息，并在 settings.yaml 中引用。
+- prompts/：提示词目录，收纳 GraphRAG 默认使用的提示。
+
+[PRE10]
+
+打开 .env 填写 OpenAI API-KEY，填写效果如图4.13 所示。
+
+[PRE11]
+
+若需更换模型或代理地址，可编辑 settings.yaml 中的 model 与 api_base。修改后建议进行一次简单对话测试，确认大模型可正常调用并响应。
+
+#### 4.3.2 GraphRAG 索引过程执行
+
+完成 .env 与 settings.yaml 的配置并准备好数据后，即可启动索引构建，CLI 指令为：
+
+[PRE12]
+
+执行期间可观察到流程逐步推进，如图4.14 所示，最终会出现 All workflows completed successfully 的提示。
+
+[PRE13]
+
+构建完成后会在根目录下生成 cache、logs、output 三个目录，分别存放缓存、日志与输出文件，如图4.15 所示。
+
+[PRE14]
+
+output 目录下会产生多个 xxx.parquet 文件，它们即为 GraphRAG 的索引。Parquet 文件保存了知识图谱的核心组成部分，如实体、关系、社区信息及文本单元，共同构成完整图谱。如图4.16 所示。
+
+[PRE15]
+
+索引阶段的主要输出内容如表4.2 所示。
+
+表4.2 索引阶段的主要输出内容
+
+| 表名 | 文件名 | 内容 | 包含信息 |
+
+| :--- | :--- | :--- | :--- |
+
+| 实体表 (Nodes Table) | create_final_nodes.parquet | 知识图谱中的实体节点（如人、地点、组织） | 实体的名称（如 "John Doe"）、实体的类别（如 "PERSON"、"ORGANIZATION"、"LOCATION"）、社区相关的信息（如实体所属的社区）、实体的度数 (degree) |
+
+| 关系表 (Relationships Table) | create_final_relationships.parquet | 知识图谱中实体之间的关系（即图谱的边） | 两个实体之间的关系描述（例如 "works for"、"lives in"）、关系的强度（数值化，用于衡量关系的显著性或重要性） |
+
+| 实体嵌入表 (Entity Embedding Table) | create_final_entities.parquet | 实体的语义嵌入，用于表示实体的语义信息 | 支持语义搜索（通过嵌入计算实体之间的相似度） |
+
+| 社区报告表 (Community Reports Table) | create_final_community_reports.parquet | 社区的摘要信息 | 支持全局搜索（通过社区信息回答关于数据集整体的问题） |
+
+| 文本单元表 (Text Units Table) | create_final_text_units.parquet | 被切分的原始文本单元 (TextUnit) | 将知识图谱和原始文本结合，为 LLM 提供上下文支持 |
+
+| 社区表 (Community Table) | create_final_communities.parquet | 每个社区基本情况 | 社区成员列表、社区内实体的关系、社区特征等 |
+
+| 文件表 (Documents Table) | create_final_documents.parquet | 用于记录所有参与知识图谱构建的文件情况 | 文件 ID、文件标题、文本内容等 |
+
+> **说明**
+>
+> 为什么用Parquet格式保存知识图谱？
+>
+> (1) 高效存储。
+>
+> * 知识图谱中的数据通常是结构化的，包含大量的实体、关系、嵌入等。
+> * Parquet的列式存储能够显著减少磁盘占用，同时提高读取效率。
+>
+> (2) 快速读取。
+>
+> * 查询阶段需要快速加载实体、关系、嵌入等数据到内存中。
+> * Parquet支持按需加载所需的列，避免了不必要的数据读取。
+>
+> (3) 兼容性好。
+>
+> * Parquet是一个开放的标准，广泛支持各种数据处理工具（如Pandas、Spark、Hadoop）。
+> * GraphRAG可以在Python中使用Pandas或其他工具轻松读取这些文件。
+
+#### 4.3.3 查看知识图谱相关表格
+
+借助 Pandas 可以加载并浏览各项关键表格。以下给出核心内容与示例代码。
+
+##### 1. 文件表
+
+文件表记录了原始文档的基础信息以及对应的文本单元 id，是构建图谱的起点。运行如下代码：
+
+[PRE16]
+
+输出结果如图4.17 所示。
+
+##### 2. 文本单元表
+
+文本单元表展示切分后的文本片段，每条记录通常对应一个语义独立的知识单元，包含文本内容、长度、所属文档，以及关联实体与关系。运行如下代码：
+
+[PRE17]
+
+| | id | human_readable_id | title | text | text_unit_ids |
+
+|---|---|---|---|---|---|
+
+| 0 | c546fa97b72c8b72b7efb0c1ac45cb1d | 1 | D3、C4.5决策树的建模流程.txt | Lesson 8.3 ID3、C4.5决策树的建模流程 \nID3和C4.5作为的经典决策树算... | [0653a697b64dd8c029503ffc22af9ec3, b1fce21a45f... |
+
+图4.17 文件表查看结果
+
+输出结果如图4.18 所示。
+
+| | id | human_readable_id | text | n_tokens | document_ids | entity_ids | relationship_ids |
+
+|---|---|---|---|---|---|---|---|
+
+| 0 | 0653a697b64dd8c029503ffc22af9ec3 | 1 | Lesson 8.3 ID3、C4.5决策树的建模流程\nID3和C4.5作为的经典决策树算... | 1200 | [c546fa97b72c8b72b7efb0c1ac45cb1d] | [22113170e6c742ba940314e15c401dc1, 23e8813975c... | [813887b9c3f54445832a00a8d1b47264, 16f36977566... |
+
+| 1 | b1fce21a45f01c5ef14bafc9fe3bab1d | 2 | 8961919\n然后即可算出按照如此规则进行数据集划分，最终能够减少的不纯度数值：\n# ... | 1200 | [c546fa97b72c8b72b7efb0c1ac45cb1d] | None | None |
+
+图4.18 文本单元表查看结果
+
+##### 3. 实体嵌入表
+
+实体嵌入表记录了从文本抽取的实体及其描述、类型与向量，是构建图谱节点的基础。运行如下代码：
+
+[PRE18]
+
+输出结果如图4.19 所示。
+
+##### 4. 实体表
+
+实体表反映了实体在图谱结构中的网络属性，如社区归属、节点度，便于后续展示与聚类。运行如下代码：
+
+[PRE19]
+
+输出结果如图4.20 所示。
+
+| | id | human_readable_id | title | type | description | text_unit_ids |
+
+|---|---|---|---|---|---|---|
+
+| 0 | 22113170e6c742ba940314e15c401dc1 | 0 | ID3 | EVENT | ID3 is a classic decision tree algorithm used ... | [0653a697b64dd8c029503ffc22af9ec3, 08530861b09 ...] |
+
+| 1 | 23e8813975cc43d7921375da3c781c3c | 1 | C4.5 | EVENT | C4.5 is an improved version of the ID3 decisio... | [0653a697b64dd8c029503ffc22af9ec3, 08530861b09 ...] |
+
+图4.19 实体嵌入表查看结果
+
+| | id | human_readable_id | title | community | level | degree | x | y |
+
+|---|---|---|---|---|---|---|---|---|
+
+| 0 | 22113170e6c742ba940314e15c401dc1 | 0 | ID3 | 0 | 0 | 7 | 0 | 0 |
+
+| 1 | 23e8813975cc43d7921375da3c781c3c | 1 | C4.5 | 0 | 0 | 4 | 0 | 0 |
+
+图4.20 实体表查看结果
+
+##### 5. 关系表
+
+关系表定义了实体间的语义连接，例如“ID3 是 C4.5 的前身”，每条边记录起点、终点、关系描述及关联文本单元。运行如下代码：
+
+[PRE20]
+
+输出结果如图4.21 所示。
+
+##### 6. 社区表
+
+社区表由社区检测算法得到，社区内的实体与关系形成高内聚的知识集群，可作为查询阶段的重要组织单元。运行如下代码：
+
+[PRE21]
+
+输出结果如图4.22 所示。
+
+| id | human_readable_id | community | level | title | entity_ids | relationship_ids | text_unit_ids | period | size |
+
+|---|---|---|---|---|---|---|---|---|---|
+
+| 17bfead0-7ccc-438a-922b-5c06deea39ea | 0 | 0 | 0 | Community 0 | [221113170e6c742ba940314e15c401dc1, 23e8813975c...] | [813887b9c3f54445832a00a8d1b47264, 16f36977566...] | [0653a697b64dd8c029503ffc22af9ec3, 08530861b090...] | 2024-11-28 | 11 |
