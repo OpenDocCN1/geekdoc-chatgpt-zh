@@ -1,0 +1,83 @@
+level_changes:
+- line: 481
+  before: 2
+  after: 1
+- line: 1438
+  before: 2
+  after: 1
+- line: 3020
+  before: 2
+  after: 1
+- line: 3818
+  before: 2
+  after: 1
+- line: 4681
+  before: 2
+  after: 1
+- line: 3507
+  before: 2
+  after: 4
+- line: 4033
+  before: 2
+  after: 4
+- line: 4293
+  before: 2
+  after: 4
+- line: 4378
+  before: 2
+  after: 4
+- line: 553
+  before: 2
+  after: 4
+- line: 567
+  before: 2
+  after: 4
+- line: 4925
+  before: 2
+  after: 3
+- line: 4931
+  before: 2
+  after: 3
+- line: 4938
+  before: 2
+  after: 3
+- line: 4943
+  before: 2
+  after: 3
+- line: 4946
+  before: 2
+  after: 3
+- line: 4952
+  before: 2
+  after: 3
+- line: 4959
+  before: 2
+  after: 3
+- line: 4962
+  before: 2
+  after: 3
+- line: 4966
+  before: 2
+  after: 3
+- line: 4969
+  before: 2
+  after: 3
+- line: 4972
+  before: 2
+  after: 3
+text_changes:
+- line: 479
+  before: 第 2 章
+  after: 第 2 章 相似匹配
+- line: 1436
+  before: 第 3 章
+  after: 第 3 章 句词分类
+- line: 3018
+  before: 第 4 章
+  after: 第 4 章 文本生成
+- line: 3816
+  before: 第 5 章
+  after: 第 5 章 复杂推理
+- line: 4680
+  before: 第 7 章
+  after: 第 7 章 局限与不足
