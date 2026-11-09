@@ -1,0 +1,116 @@
+level_changes:
+- line: 51
+  before: 4
+  after: 1
+- line: 60
+  before: 4
+  after: 2
+- line: 62
+  before: 4
+  after: 2
+- line: 68
+  before: 3
+  after: 2
+- line: 73
+  before: 3
+  after: 2
+- line: 84
+  before: 2
+  after: 1
+- line: 85
+  before: 3
+  after: 2
+- line: 92
+  before: 3
+  after: 2
+- line: 107
+  before: 3
+  after: 2
+- line: 110
+  before: 3
+  after: 2
+- line: 113
+  before: 3
+  after: 2
+- line: 116
+  before: 3
+  after: 2
+- line: 119
+  before: 3
+  after: 2
+- line: 122
+  before: 2
+  after: 1
+- line: 123
+  before: 3
+  after: 2
+- line: 126
+  before: 3
+  after: 2
+- line: 129
+  before: 3
+  after: 2
+- line: 132
+  before: 3
+  after: 2
+- line: 135
+  before: 3
+  after: 2
+- line: 351
+  before: 1
+  after: 2
+- line: 483
+  before: 1
+  after: 2
+- line: 802
+  before: 1
+  after: 2
+- line: 950
+  before: 1
+  after: 2
+- line: 1028
+  before: 1
+  after: 2
+- line: 1148
+  before: 1
+  after: 2
+- line: 1282
+  before: 1
+  after: 2
+- line: 1380
+  before: 1
+  after: 2
+- line: 1573
+  before: 1
+  after: 2
+- line: 1715
+  before: 1
+  after: 2
+- line: 1795
+  before: 1
+  after: 2
+- line: 1908
+  before: 1
+  after: 2
+text_changes:
+- line: 0
+  before: AI到来 = 超人类创新 AI dao lai = 超人类创新
+  after: AI到来 = 超人类创新
+- line: 135
+  before: 16. 人工智能未来：变革世界
+  after: 16. 人工智能的未来：变革世界
+- line: 483
+  before: 4. 基础设施：基础需要
+  after: 4. 基础设施：基础需求
+- line: 802
+  before: 超级框架：超人类战略
+  after: 6. 超级框架：超人类策略
+- line: 950
+  before: 7\. 速度：推进工作流程
+  after: 7. 速度：推动工作流程
+- line: 1380
+  before: 11\. 结果：企业变革
+  after: 11. 结果：商业转变
+- line: 1455
+  before: 第三部分 人工智能的未来
+  after: 第三部分　人工智能的未来
