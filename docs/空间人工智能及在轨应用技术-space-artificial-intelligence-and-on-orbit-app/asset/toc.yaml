@@ -1,0 +1,71 @@
+level_changes:
+- line: 22
+  before: 1
+  after: 2
+- line: 24
+  before: 2
+  after: 3
+- line: 49
+  before: 2
+  after: 3
+- line: 51
+  before: 3
+  after: 4
+- line: 78
+  before: 3
+  after: 4
+- line: 115
+  before: 3
+  after: 4
+- line: 160
+  before: 2
+  after: 3
+- line: 162
+  before: 3
+  after: 4
+- line: 177
+  before: 3
+  after: 4
+- line: 194
+  before: 3
+  after: 4
+- line: 585
+  before: 1
+  after: 2
+- line: 810
+  before: 1
+  after: 2
+- line: 1107
+  before: 1
+  after: 2
+- line: 1372
+  before: 2
+  after: 1
+- line: 1414
+  before: 1
+  after: 2
+- line: 1445
+  before: 1
+  after: 2
+- line: 1615
+  before: 1
+  after: 2
+- line: 1795
+  before: 1
+  after: 2
+- line: 1887
+  before: 1
+  after: 2
+- line: 2375
+  before: 1
+  after: 2
+text_changes:
+- line: 2
+  before: 前　言
+  after: 前言
+- line: 14
+  before: 第一部分　概　论
+  after: 第一部分 概论
+- line: 385
+  before: “珞珈三号”01 星星上智能信息处理单元
+  after: “珞珈三号”01 星上智能信息处理单元
