@@ -1,0 +1,59 @@
+level_changes:
+- line: 83
+  before: 2
+  after: 4
+- line: 97
+  before: 2
+  after: 4
+- line: 105
+  before: 2
+  after: 3
+- line: 109
+  before: 3
+  after: 4
+- line: 115
+  before: 3
+  after: 4
+- line: 129
+  before: 3
+  after: 4
+- line: 135
+  before: 3
+  after: 4
+- line: 147
+  before: 2
+  after: 3
+- line: 157
+  before: 2
+  after: 4
+- line: 160
+  before: 2
+  after: 4
+- line: 163
+  before: 2
+  after: 4
+- line: 166
+  before: 2
+  after: 3
+- line: 169
+  before: 2
+  after: 3
+text_changes:
+- line: 47
+  before: 大语言模型时代的社会学[^(\[1\])](#chapter002.html#m1)
+  after: 大语言模型时代的社会学
+- line: 250
+  before: 婚姻的教育和民族匹配：基于 ChatGPT 的量化分析及文本生成[^(\[1\])](#chapter004.html#m1)
+  after: 婚姻的教育和民族匹配：基于 ChatGPT 的量化分析及文本生成
+- line: 597
+  before: 民族互嵌地区少数民族文化如何传承？[^(\[1\])](#chapter007.html#m1)
+  after: 民族互嵌地区少数民族文化如何传承？
+- line: 2749
+  before: 三 人机协作的论文生成[^(\[2\])](#chapter019.html#m2)
+  after: 三 人机协作的论文生成
+- line: 2988
+  before: 社区老年高血压患者疾病感知的叙事分析[^(\[1\])](#chapter021.html#m1)
+  after: 社区老年高血压患者疾病感知的叙事分析
+- line: 4052
+  before: 附录 A ChatGPT 生成论文 社交媒体平台抑郁群体的社会支持研究[^(\[1\])](#chapter028.html#m1)
+  after: 附录 A ChatGPT 生成论文 社交媒体平台抑郁群体的社会支持研究
