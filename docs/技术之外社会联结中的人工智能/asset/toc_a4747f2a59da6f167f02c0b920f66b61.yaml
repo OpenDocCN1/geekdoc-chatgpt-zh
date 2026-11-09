@@ -1,0 +1,32 @@
+level_changes:
+- line: 0
+  before: 1
+  after: 0
+- line: 350
+  before: 1
+  after: 2
+- line: 508
+  before: 1
+  after: 2
+text_changes:
+- line: 128
+  before: 地球 ^(⁵)
+  after: 地球
+- line: 182
+  before: 旧金山开创的攫取主义 ^(⁷)
+  after: 旧金山开创的攫取主义
+- line: 722
+  before: 偏见 ^(²²)
+  after: 偏见
+- line: 1002
+  before: 实施`Maven`计划
+  after: 实施 Maven 计划
+- line: 108
+  before: 提取，权力和政治
+  after: 提取、权力和政治
+- line: 258
+  before: AI 作为巨机器
+  after: AI 作为巨型机器
+- line: 444
+  before: 设置速率
+  after: 设定速率
