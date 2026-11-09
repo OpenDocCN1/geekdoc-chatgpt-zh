@@ -1,0 +1,128 @@
+level_changes:
+- line: 162
+  before: 3
+  after: 2
+- line: 171
+  before: 3
+  after: 2
+- line: 190
+  before: 3
+  after: 2
+- line: 949
+  before: 2
+  after: 3
+- line: 973
+  before: 2
+  after: 3
+- line: 1007
+  before: 2
+  after: 3
+- line: 1023
+  before: 2
+  after: 3
+- line: 1075
+  before: 2
+  after: 3
+- line: 1101
+  before: 2
+  after: 3
+- line: 1133
+  before: 2
+  after: 3
+- line: 1249
+  before: 3
+  after: 2
+- line: 1281
+  before: 3
+  after: 2
+- line: 1299
+  before: 3
+  after: 2
+- line: 1305
+  before: 3
+  after: 2
+- line: 1419
+  before: 2
+  after: 1
+- line: 1426
+  before: 3
+  after: 2
+- line: 1480
+  before: 3
+  after: 2
+- line: 1753
+  before: 2
+  after: 3
+- line: 1765
+  before: 2
+  after: 3
+- line: 1777
+  before: 2
+  after: 3
+- line: 1790
+  before: 2
+  after: 3
+- line: 1809
+  before: 2
+  after: 3
+- line: 2157
+  before: 3
+  after: 2
+- line: 2175
+  before: 3
+  after: 2
+- line: 2298
+  before: 3
+  after: 2
+- line: 2306
+  before: 3
+  after: 2
+- line: 2320
+  before: 3
+  after: 2
+- line: 2324
+  before: 3
+  after: 2
+- line: 2420
+  before: 2
+  after: 1
+- line: 2426
+  before: 3
+  after: 2
+- line: 2500
+  before: 3
+  after: 2
+- line: 2969
+  before: 2
+  after: 3
+- line: 3111
+  before: 3
+  after: 2
+- line: 3168
+  before: 2
+  after: 3
+text_changes:
+- line: 1419
+  before: '第 4 章  '
+  after: 第 4 章 机器学习
+- line: 741
+  before: 3.1.1 链表
+  after: 3.1.1.1 链表
+- line: 757
+  before: 1. 队列
+  after: 3.1.2.1 队列
+- line: 762
+  before: 2. 栈
+  after: 3.1.2.2 栈
+- line: 836
+  before: 1. 选择排序
+  after: 3.2.1.1 选择排序
+- line: 951
+  before: 1. 递归
+  after: 3.2.2.1 递归
+- line: 1027
+  before: 1. 弗洛伊德算法
+  after: 3.2.5.1 弗洛伊德算法
+- line: 2969
+  before: 7.2 Model-free 与 Model-based
+  after: 7.2.3 Model-free 与 Model-based
