@@ -1,0 +1,20 @@
+level_changes:
+- line: 367
+  before: 1
+  after: 2
+- line: 608
+  before: 1
+  after: 2
+- line: 761
+  before: 1
+  after: 2
+- line: 1011
+  before: 1
+  after: 2
+text_changes:
+- line: 395
+  before: 廷贝尔—希尔与职业转折
+  after: 廷伯—希尔与职业转折
+- line: 1013
+  before: 19 世纪到 20 世纪的奠基
+  after: 19世纪到20世纪的奠基
