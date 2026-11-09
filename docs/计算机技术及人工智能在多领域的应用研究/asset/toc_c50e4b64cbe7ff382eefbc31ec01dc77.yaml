@@ -1,0 +1,35 @@
+level_changes:
+- line: 131
+  before: 2
+  after: 4
+- line: 135
+  before: 2
+  after: 4
+- line: 139
+  before: 2
+  after: 4
+- line: 143
+  before: 3
+  after: 2
+- line: 147
+  before: 4
+  after: 3
+- line: 153
+  before: 4
+  after: 3
+- line: 157
+  before: 4
+  after: 3
+- line: 163
+  before: 4
+  after: 3
+- line: 313
+  before: 1
+  after: 6
+text_changes:
+- line: 313
+  before: DRAM
+  after: （2）DRAM 基本原理与操作
+- line: 373
+  before: 只读存储器的分类
+  after: （五）只读存储器的分类
