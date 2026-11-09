@@ -1,0 +1,101 @@
+level_changes:
+- line: 128
+  before: 2
+  after: 4
+- line: 292
+  before: 2
+  after: 3
+- line: 442
+  before: 2
+  after: 3
+- line: 461
+  before: 2
+  after: 3
+- line: 481
+  before: 2
+  after: 3
+- line: 528
+  before: 2
+  after: 3
+- line: 569
+  before: 2
+  after: 3
+- line: 641
+  before: 2
+  after: 3
+- line: 661
+  before: 2
+  after: 3
+- line: 687
+  before: 2
+  after: 3
+- line: 887
+  before: 2
+  after: 3
+- line: 959
+  before: 2
+  after: 3
+- line: 965
+  before: 2
+  after: 3
+- line: 1287
+  before: 2
+  after: 3
+- line: 1319
+  before: 2
+  after: 3
+- line: 1324
+  before: 2
+  after: 3
+- line: 1347
+  before: 2
+  after: 3
+- line: 1354
+  before: 2
+  after: 3
+- line: 1477
+  before: 1
+  after: 3
+- line: 1486
+  before: 1
+  after: 3
+- line: 1518
+  before: 1
+  after: 2
+- line: 1732
+  before: 2
+  after: 1
+- line: 2738
+  before: 1
+  after: 2
+- line: 2872
+  before: 1
+  after: 2
+- line: 4023
+  before: 3
+  after: 2
+text_changes:
+- line: 499
+  before: 讯 飞 医 疗
+  after: 讯飞医疗
+- line: 504
+  before: 云 知 声
+  after: 云知声
+- line: 922
+  before: 推 想 科 技
+  after: 推想科技
+- line: 932
+  before: 雅 森 科 技
+  after: 雅森科技
+- line: 941
+  before: 依 图 科 技
+  after: 依图科技
+- line: 951
+  before: 兰 丁 医 学
+  after: 兰丁医学
+- line: 1597
+  before: 妈 妈 帮
+  after: 妈妈帮
+- line: 1637
+  before: 糖 护 士
+  after: 糖护士
