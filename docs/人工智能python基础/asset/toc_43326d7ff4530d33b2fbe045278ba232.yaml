@@ -1,0 +1,41 @@
+level_changes:
+- line: 231
+  before: 2
+  after: 3
+- line: 233
+  before: 2
+  after: 3
+- line: 635
+  before: 2
+  after: 3
+- line: 774
+  before: 2
+  after: 3
+- line: 841
+  before: 2
+  after: 3
+- line: 904
+  before: 2
+  after: 3
+- line: 953
+  before: 1
+  after: 3
+text_changes:
+- line: 247
+  before: 活动二：`print（）`函数的运算功能
+  after: 活动二：print（）函数的运算功能
+- line: 463
+  before: ◎第一节　符串中的字符顺序
+  after: ◎第一节　字符串中的字符顺序
+- line: 980
+  before: 第二节　用随机文字编写猜字游戏
+  after: ◎第二节　用随机文字编写猜字游戏
+- line: 1036
+  before: 第一节　初级猜数游戏
+  after: ◎第一节　初级猜数游戏
+- line: 1073
+  before: 第二节　升级猜数游戏
+  after: ◎第二节　升级猜数游戏
+- line: 1125
+  before: 第三节　优化猜数游戏
+  after: ◎第三节　优化猜数游戏
