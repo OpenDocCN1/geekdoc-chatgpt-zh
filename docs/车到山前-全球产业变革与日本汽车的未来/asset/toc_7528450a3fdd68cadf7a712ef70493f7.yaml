@@ -1,0 +1,26 @@
+level_changes:
+- line: 919
+  before: 1
+  after: 2
+- line: 1241
+  before: 1
+  after: 2
+- line: 1285
+  before: 1
+  after: 2
+- line: 1325
+  before: 1
+  after: 2
+- line: 1375
+  before: 1
+  after: 2
+text_changes:
+- line: 356
+  before: 第二章 美国汽车行业的现状①三巨头的逆袭
+  after: 第二章 美国汽车行业的现状
+- line: 596
+  before: 第三章 美国汽车行业的现状②硅谷来势汹汹
+  after: 第三章 美国汽车行业的现状
+- line: 1241
+  before: 蔚来汽车
+  after: 案例研究 1 蔚来汽车
