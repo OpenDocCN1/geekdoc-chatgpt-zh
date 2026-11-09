@@ -1,0 +1,44 @@
+level_changes:
+- line: 48
+  before: 2
+  after: 1
+- line: 2175
+  before: 2
+  after: 1
+- line: 944
+  before: 1
+  after: 2
+- line: 1183
+  before: 1
+  after: 2
+- line: 2188
+  before: 3
+  after: 2
+text_changes:
+- line: 46
+  before: 第 1 章
+  after: 第 1 章 AI 助手：正确使用 ChatGPT
+- line: 2174
+  before: 第 4 章
+  after: 第 4 章 ChatGPT + Excel：智能加载 AI 助手
+- line: 2542
+  before: VBA 编辑器基本操作 ![](img/image_444.png)
+  after: VBA 编辑器基本操作
+- line: 2544
+  before: 用 ChatGPT 编写宏代码 ![](img/image_444.png)
+  after: 用 ChatGPT 编写宏代码
+- line: 3253
+  before: 用 ChatGPT 编写拆合代码 ![](img/image_572.png)
+  after: 用 ChatGPT 编写拆合代码
+- line: 3255
+  before: 用 ChatGPT 编写查找、筛选、排序代码 ![](img/image_572.png)
+  after: 用 ChatGPT 编写查找、筛选、排序代码
+- line: 3257
+  before: 用 ChatGPT 编写批量操作代码 ![](img/image_572.png)
+  after: 用 ChatGPT 编写批量操作代码
+- line: 4059
+  before: 制作员工工资查询表 ![](img/image_690.png)
+  after: 制作员工工资查询表
+- line: 4061
+  before: 用 ChatGPT 计算员工工资 ![](img/image_690.png)
+  after: 用 ChatGPT 计算员工工资
