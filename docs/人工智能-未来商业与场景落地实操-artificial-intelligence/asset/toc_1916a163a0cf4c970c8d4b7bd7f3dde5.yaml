@@ -1,0 +1,56 @@
+level_changes:
+- line: 321
+  before: 3
+  after: 4
+- line: 335
+  before: 2
+  after: 3
+- line: 475
+  before: 2
+  after: 3
+- line: 491
+  before: 2
+  after: 3
+- line: 1767
+  before: 2
+  after: 3
+- line: 1772
+  before: 3
+  after: 4
+- line: 1775
+  before: 3
+  after: 4
+- line: 1780
+  before: 3
+  after: 4
+- line: 2129
+  before: 3
+  after: 4
+- line: 2510
+  before: 2
+  after: 3
+- line: 2710
+  before: 2
+  after: 3
+- line: 2732
+  before: 2
+  after: 3
+- line: 2780
+  before: 2
+  after: 3
+text_changes:
+- line: 263
+  before: 1.2.3 百度：生迪智能音箱灯
+  after: 1.2.3 百度：小度智能音箱
+- line: 611
+  before: 2.2.2 `人工智能=云计算+大数据`
+  after: 2.2.2 人工智能=云计算+大数据
+- line: 1499
+  before: (1) 智能语音+`ERP`（企业资源规划）应用
+  after: (1) 智能语音+ERP（企业资源规划）应用
+- line: 1503
+  before: (2) 图像智能扫描认别
+  after: (2) 图像智能扫描识别
+- line: 1507
+  before: (3) `AR`技术
+  after: (3) AR技术
