@@ -1,0 +1,34 @@
+
+230.  [\[141\]](#Section09.xhtml#noteref-10-87)Jutta Bolt 和 Jan Luiten van Zanden，Maddison Project Database，版本 2020，Groningen Growth and Development Centre，2020年11月2日；Jutta Bolt 和 Jan Luiten van Zanden，“Maddison Style Estimates of the Evolution of the World Economy: A New 2020Update”，（工作论文 WP-15，Maddison Project，2020年10月）；美国能源信息署，“Real Gross Domestic Product per Capita(A939RX0Q048SBEA)”，检索自 FRED，圣路易斯联邦储备银行，2023年4月27日；“Consumer Price Index, 1913–”，明尼阿波利斯联邦储备银行；John J. McCusker，“Colonial Statistics”，载于 Historical Statistics of the United States: Earliest Times to the Present，编者 Susan G. Carter 等（Cambridge, UK: Cambridge University Press, 2006），V-671；Richard Sutch，“National Income and Product”，载于 Historical Statistics of the United States: Earliest Times to the Present，编者 Susan G. Carter 等（Cambridge, UK: Cambridge University Press, 2006），III-23–25；Leandro Prados de la Escosura，“Lost Decades? Economic Performance in Post-Independence Latin America”，Journal of Latin American Studies 41，期 2（2009年5月）：279–307；Jutta Bolt 等，“Rebasing ‘Maddison’: New Income Comparisons and the Shape of Long-Run Economic Development”（工作论文 10，Maddison Project，Groningen Growth and Development Centre，2018）。[↩](#fnref230)
+
+231.  [\[267\]](#Section09.xhtml#noteref-10-25)想要详细了解3D打印技术的早期发展历史，参见：Drew Turney，“History of 3D Printing: It’s Older Than You Think”，Design and Make with Autodesk，2021年8月31日；Leo Gregurić，“History of 3D Printing: When Was 3D Printing Invented?”，All3DP，2018年12月10日。[↩](#fnref231)
+
+232.  [\[143\]](#Section09.xhtml#noteref-10-24)Bolt and van Zanden，Maddison Project Database；Bolt and van Zanden，“Maddison Style Estimates of the Evolution of the World Economy”；美国经济分析局，“Real Gross Domestic Product Per Capita(A939RX0Q048SBEA)”；“Consumer Price Index, 1913”，明尼阿波利斯联邦储备银行；美国劳工统计局，“Consumer Price Index for All Urban Consumers”；McCusker，“Colonial Statistics”，V-671；Sutch，“National Income and Product”；Prados de la Escosura，“Lost Decades?”；Bolt et al.，“Rebasing ‘Maddison.’”[↩](#fnref232)
+
+233.  [\[144\]](#Section09.xhtml#noteref-10-141)指根据通货膨胀水平调整后的美元，用来反映在不同时间点上的相同购买力。[↩](#fnref233)
+
+234.  [\[145\]](#Section09.xhtml#noteref-10-51)Max Roser，“Working Hours”，Our World in Data，2013；Michael Huberman 和 Chris Minns，“The Times They Are Not Changin’: Days and Hours of Work in Old and New Worlds, 1870—2000”，Explorations in Economic History 44，期 4（2007年7月12日）：548；University of Groningen 和 University of California, Davis，“Average Annual Hours Worked by Persons Engaged for United States(AVHWPEUSA065N RUG)”，检索自 FRED，圣路易斯联邦储备银行，2021年1月21日。[↩](#fnref234)
+
+235.  [\[147\]](#Section09.xhtml#noteref-10-93)美国经济分析局，“Personal Income Per Capita(A792RC0A052NBEA)”；Huberman 和 Minns，“The Times They Are Not Changin’”，548；University of Groningen 和 University of California, Davis，“Average Annual Hours Worked by Persons Engaged for United States”；“Consumer Price Index, 1913–”，明尼阿波利斯联邦储备银行。[↩](#fnref235)
+
+236.  [\[148\]](#Section09.xhtml#noteref-10-31)Bolt and van Zanden，Maddison Project Database；美国经济分析局，“Population(B230RC0A052NBEA)”；美国经济分析局，“Personal Income(PI)”，检索自 FRED，圣路易斯联邦储备银行，更新于2023年2月24日；美国经济分析局，“Hours Worked by Full-Time and Part-Time Employees(B4701C0A222NBEA)”，检索自 FRED，圣路易斯联邦储备银行，更新于2022年10月12日；Stanley Lebergott，“Labor Force and Employment, 1800—1960”，载于 Output, Employment, and Productivity in the United States After 1800，编者 Dorothy S. Brady（Washington, DC: National Bureau of Economic Research, 1966），118；美国人口普查局，Statistical Abstract of the United States: 1999（Washington, DC: US Census Bureau, 1999）：879；Stanley Lebergott，“Labor Force, Employment, and Unemployment, 1929–39 Estimating Methods”，Monthly Labor Review 67，期 1（1948年7月）：51；Huberman 和 Minns，“The Times They Are Not Changin’”，548；美国劳工统计局，“Employment Level(CE16OV)”，检索自 FRED，圣路易斯联邦储备银行，更新于2023年3月10日；“Consumer Price Index, 1800–”，明尼阿波利斯联邦储备银行；美国劳工统计局，“Consumer Price Index for All Urban Consumers”。[↩](#fnref236)
+
+237.  [\[230\]](#Section09.xhtml#noteref-10-18)“Renewable Energy Generation, World”，Our World in Data；BP Statistical Review of World Energy 2022。[↩](#fnref237)
+
+238.  [\[150\]](#Section09.xhtml#noteref-10-39)Huberman 和 Minns，“The Times They Are Not Changin’”，548。[↩](#fnref238)
+
+239.  [\[230\]](#Section09.xhtml#noteref-10-18)“Renewable Energy Generation, World”，Our World in Data；BP Statistical Review of World Energy 2022。[↩](#fnref239)
+
+240.  [\[154\]](#Section09.xhtml#noteref-10-46)Huberman 和 Minns，“The Times They Are Not Changin’”，548。[↩](#fnref240)
+
+241.  [\[195\]](#Section09.xhtml#noteref-10-184)“People Living in Democracies and Autocracies, World”，Our World in Data，访问于2023年3月29日；“The V-Dem Dataset(v13)”，V-Dem(Varieties of Democracy)，访问于2023年3月25日；Bastian Herre，“Scripts and Datasets on Democracy”，GitHub，访问于2023年3月25日；Anna Lührmann 等，“Regimes of the World(RoW): Opening New Avenues for the Comparative Study of Political Regimes”，Politics and Governance 6，期 1（2018年3月19日）：60–77。[↩](#fnref241)
+
+242.  [\[177\]](#Section09.xhtml#noteref-10-105)有关AI在太阳能发电和储能材料发现方面的最新应用的详细摘要，参见：Elizabeth Montalbano，“AI Enables Design of Spray- on Coating That Can Generate Solar Energy”，Design News，2019年12月26日；Shinji Nagasawa，Eman Al-Naamani，和 Akinori Saeki，“Computer-Aided Screening of Conjugated Polymers for Organic Solar Cell: Classification by Random Forest”，Journal of Physical Chemistry Letters 9，期 10（2018年5月7日）：2639–46；Geun Ho Gu 等，“Machine Learning for Renewable Energy Materials”，Journal of Materials Chemistry A 7，期 29（2019年4月30日）：17096–117；Ziyi Luo 等，“A Survey of Artificial Intelligence Techniques Applied in Energy Storage Materials R& D”，Frontiers in Energy Research 8，期 116（2020年7月3日）；An Chen，Xu Zhang，和 Zhen Zhou，“Machine Learning: Accelerating Materials Development for Energy Storage and Conversion”，InfoMat 2，期 3（2020年2月23日）：553–76；Xinyi Yang 等，“Development Status and Prospects of Artificial Intelligence in the Field of Energy Conversion Materials”，Frontiers in Energy Research 8，期 167（2020年7月31日）；Teng Zhou，Zhen Song，和 Kai Sundmacher，“Big Data Creates New Opportunities for Materials Research: A Review on Methods and Applications of Machine Learning for Materials Design”，Engineering 5，期 6（2019年12月）：1017–26。[↩](#fnref242)
+
+243.  [\[246\]](#Section09.xhtml#noteref-10-15)美国能源信息署，Electric Power Annual 2021（Washington, DC: US Department of Energy，2022年11月），64；美国能源信息署，Electric Power Annual 2020（Washington, DC: US Department of Energy，2021年10月），64。[↩](#fnref243)
+
+244.  [\[243\]](#Section09.xhtml#noteref-10-109)Andy Colthorpe，“Behind the Numbers: The Rapidly Falling LCOE of Battery Storage”，Energy Storage News，2020年5月6日；“Levelized Costs of New Generation Resources in the Annual Energy Outlook 2022”，美国能源信息署，2022年3月。[↩](#fnref244)
+
+245.  [\[203\]](#Section09.xhtml#noteref-10-27)请参阅附录中关于本书中所有历史计算成本计算所使用的来源。[↩](#fnref245)
+
+246.  [\[265\]](#Section09.xhtml#noteref-10-131)Laura Reiley，“Indoor Farming Looks Like It Could Be the Answer to Feeding a Hot and Hungry Planet. It’s Not That Easy”，Washington Post，2019年11月19日。[↩](#fnref246)

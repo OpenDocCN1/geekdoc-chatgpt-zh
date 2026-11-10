@@ -1,0 +1,56 @@
+level_changes:
+- line: 64
+  before: 2
+  after: 1
+- line: 66
+  before: 3
+  after: 2
+- line: 114
+  before: 3
+  after: 2
+- line: 116
+  before: 4
+  after: 3
+- line: 122
+  before: 5
+  after: 4
+- line: 140
+  before: 5
+  after: 4
+- line: 156
+  before: 1
+  after: 2
+- line: 158
+  before: 2
+  after: 3
+- line: 1762
+  before: 1
+  after: 2
+- line: 2083
+  before: 1
+  after: 2
+text_changes:
+- line: 0
+  before: 奇点更近：雷·库兹韦尔新作,人工智能神预测
+  after: 奇点更近：雷·库兹韦尔新作，人工智能神预测
+- line: 114
+  before: 第 1 章
+  after: 第1章
+- line: 156
+  before: 第 2 章
+  after: 第2章
+- line: 695
+  before: 第 3 章
+  after: 第3章
+- line: 1022
+  before: 第 4 章
+  after: 第4章
+- line: 1762
+  before: 第 5 章
+  after: 第5章
+- line: 2083
+  before: 第 6 章
+  after: 第6章
+- line: 2707
+  before: 1973 LNTELLEC 8
+  after: 1973 INTELLEC 8
