@@ -1,0 +1,68 @@
+level_changes:
+- line: 190
+  before: 2
+  after: 5
+- line: 203
+  before: 1
+  after: 3
+- line: 349
+  before: 1
+  after: 2
+- line: 587
+  before: 1
+  after: 2
+- line: 804
+  before: 1
+  after: 2
+- line: 1048
+  before: 1
+  after: 2
+- line: 1168
+  before: 1
+  after: 2
+- line: 1306
+  before: 2
+  after: 1
+- line: 1528
+  before: 1
+  after: 2
+- line: 1817
+  before: 1
+  after: 2
+- line: 2482
+  before: 1
+  after: 2
+- line: 3089
+  before: 1
+  after: 2
+- line: 3692
+  before: 1
+  after: 2
+- line: 4231
+  before: 1
+  after: 2
+- line: 4461
+  before: 1
+  after: 2
+text_changes:
+- line: 55
+  before: 1.起始阶段
+  after: 1. 起始阶段
+- line: 62
+  before: 2.实际运用阶段
+  after: 2. 实际运用阶段
+- line: 66
+  before: 3.互联网时代
+  after: 3. 互联网时代
+- line: 72
+  before: 4.大数据时代
+  after: 4. 大数据时代
+- line: 78
+  before: 5.人工智能的大事记
+  after: 5. 人工智能的大事记
+- line: 892
+  before: 3.大数据分析与应用
+  after: 3. 大数据分析与应用
+- line: 896
+  before: 4.生态环境管理决策与支撑
+  after: 4. 生态环境管理决策与支撑
