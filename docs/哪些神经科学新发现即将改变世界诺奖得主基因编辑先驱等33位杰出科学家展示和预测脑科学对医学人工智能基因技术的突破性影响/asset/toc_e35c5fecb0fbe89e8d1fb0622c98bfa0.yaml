@@ -1,0 +1,65 @@
+level_changes:
+- line: 32
+  before: 1
+  after: 2
+- line: 426
+  before: 1
+  after: 2
+- line: 624
+  before: 3
+  after: 2
+- line: 853
+  before: 1
+  after: 2
+- line: 1037
+  before: 1
+  after: 2
+- line: 1261
+  before: 3
+  after: 2
+- line: 1323
+  before: 3
+  after: 2
+- line: 1331
+  before: 1
+  after: 2
+- line: 1743
+  before: 3
+  after: 2
+text_changes:
+- line: 6
+  before: 迎接大脑的 3 个挑战
+  after: 迎接大脑的3个挑战
+- line: 809
+  before: 大脑新趋势
+  after: 大脑的未来
+- line: 2180
+  before: 02 全脑神经成像与虚拟现实
+  after: 02　全脑神经成像与虚拟现实
+- line: 2194
+  before: 05 罗塞塔大脑
+  after: 05　罗塞塔大脑
+- line: 2211
+  before: 07 同时记录大量神经元
+  after: 07　同时记录大量神经元
+- line: 2225
+  before: 08 网络神经科学
+  after: 08　网络神经科学
+- line: 2235
+  before: 10 全脑模拟
+  after: 10　全脑模拟
+- line: 2247
+  before: 11 建立行为大脑
+  after: 11　建立行为大脑
+- line: 2253
+  before: 12 语言神经生物学
+  after: 12　语言神经生物学
+- line: 2267
+  before: 13 基因变异与神经遗传
+  after: 13　基因变异与神经遗传
+- line: 2279
+  before: 14 意识、大科学与概念澄清
+  after: 14　意识、大科学与概念澄清
+- line: 2311
+  before: 15 从神经回路到行为：跨度太大了吗
+  after: 15　从神经回路到行为：跨度太大了吗
