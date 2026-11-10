@@ -1,0 +1,38 @@
+level_changes:
+- line: 470
+  before: 2
+  after: 3
+- line: 1249
+  before: 2
+  after: 3
+- line: 2018
+  before: 3
+  after: 2
+- line: 2020
+  before: 4
+  after: 3
+- line: 3435
+  before: 2
+  after: 3
+- line: 3482
+  before: 2
+  after: 3
+- line: 1472
+  before: 2
+  after: 1
+- line: 2016
+  before: 2
+  after: 1
+text_changes:
+- line: 1470
+  before: 第 5 章
+  after: ''
+- line: 1472
+  before: 延伸扩展追问：对 ChatGPT“打破砂锅问到底”
+  after: 第 5 章 延伸扩展追问：对 ChatGPT“打破砂锅问到底”
+- line: 2014
+  before: 第 6 章
+  after: ''
+- line: 2016
+  before: 强化自洽追问：通过纠错让 ChatGPT 更聪明
+  after: 第 6 章 强化自洽追问：通过纠错让 ChatGPT 更聪明
