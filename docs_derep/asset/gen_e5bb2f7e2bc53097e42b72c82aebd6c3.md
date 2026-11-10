@@ -1,0 +1,153 @@
+收购 DA 三年后，上工集团与 DA 的经营表现都明显好转。上工集团的营业收入由 2005 年的 14.82 亿元人民币提升至 2007 年的 25.38 亿元人民币，2006 年实现扭亏为盈，2007 年净利润达到 3 233 万元人民币（见表 2）。DA 同样走出低谷，2005 年实现收支平衡，营收从当年 1.286 亿欧元增长到 2007 年的 1.513 亿欧元（见表 3）。值得注意的是，与行业普遍裁员的趋势相反，DA 的人头数不降反增，从 2005 年的 1 772 人增加到 2007 年的 1 817 人（见表 3）。
+
+在比勒费尔德的工厂里，并购后的变化感受相对平缓。起初不少员工担心新老板会把核心技术带回中国、德国岗位会流失，这一担忧很快被事实化解。两年后，员工对长期就业普遍持乐观态度，之前因不安而离职的部分人员也选择回归。员工家属对工作稳定性的疑虑转为对新机会的讨论。德国工会肯定了上工集团的履约表现，当地媒体对中国买家也给予正面评价。26
+
+表 2 上工集团的关键数据(2005—2013 年)单位：百万元人民币
+
+[PRE0]
+
+(续表)
+
+[PRE1]
+
+备注:2013 年为 1—6 月数据。
+
+资料来源:Wind Information Co,Ltd,“SGG Data 2005-2013,”Wind Database,accessed May 16,2014。
+
+表 3 DA 的关键数据 (2005—2013 年)单位：百万欧元
+
+[PRE2]
+
+备注：2013 年为 1—6 月数据；物料搬运部门于 2010 年 7 月被出售；2010 年的数据包含出售日期之前的销售额。
+
+资料来源：Dürkopp Adler AG, “ Geschäftsberichte 2005-2013,” https: //www. duer-kopp-adler. com/de/main/investor/business\_report. html, accessed August 26, 2015。
+
+## 不断演变的竞争和商业周期
+
+2008 年金融危机重创制造业，汽车产业链的萎缩令 DA 难以幸免。缝纫技术业务收入由 9 070 万欧元下滑至 2009 年的 5 180 万欧元（见表 3），当年净亏损 2 120 万欧元，而 2008 年尚有 20 万欧元的微利。27 上工集团抓住窗口期推动重组。在与工会的协商下，DA 裁减 150 人，主要集中在行政职能。物料搬运部门以 1 000 万欧元出售给奥地利 Knapp AG。张敏与 INA 及银行就 DA 债务进行重组，上工集团为提升净资产比率，核销了对 DA 的 1 000 万欧元借款。28 双方约定 DA 回到盈亏平衡后偿还剩余欠款，还款节奏为每年 300 万欧元，年息 6%。经此财务重塑，DA 债务降至 1 250 万欧元。
+
+危机期间，比勒费尔德普遍担心银行或德国投资者会抽贷。29 上工集团不仅减免债务，还基本保持每年 500 万至 600 万欧元的研发投入，将德国工厂持续打造为集团全球研发中心（见表 3）。重组后的战略聚焦汽车用原材料的工业缝纫机，例如座椅与内饰。研发路线围绕两个技术平台展开，即 M 型平台与 H 型平台，未来约 80% 的机器将基于此平台，零件实现标准化与规模效应。
+
+[PRE3]
+
+图 1 上工集团上海展示厅
+
+资料来源：中欧国际商学院案例中心。
+
+张敏曾这样总结：
+
+“欧洲和美国的汽车业在衰退，中国却在崛起。我们判断研发的两种机型前景很大。2010 年推出 M 型机时，中国已成为全球最大汽车市场。中重型缝纫机业务的销量挽救了集团，也为 DA 贡献了约 70% 的利润。”
+
+DA 在厚料缝纫机中端市场的占有率接近 90%，盈利能力稳健。即便经历裁员，上工集团在困难期给予支持，赢得 DA 员工的高度认可。德国新任 CEO Ditrich Eickhoff 称并购“从最初的恐慌走向了最佳局面”，而工厂理事会负责人则表示收购“是可能发生的最好选择”。30
+
+## 雄心勃勃的新收购
+
+### Pfaff Industrial
+
+2013 年，上工集团在国际化布局上迈出两步，同时收购两家德国高端品牌，分别是凯泽斯劳滕的 Pfaff Industrial，简称 Pfaff，以及法兰克福附近的 KSL Keilmann，简称 KSL。Pfaff 在欧洲深耕高端缝纫机，在自动化缝纫与胶缝领域技术领先，尤其在汽车高档缝纫机上长期与 DA 竞争。31 Pfaff 还在上海太仓生产鞋革用重型机器，但近年营收持续走低，2013 年规模仅为 DA 的三分之一。多年亏损使其背负 2 000 万欧元债务，银行启动破产程序并要求寻找新股东。
+
+上工集团对 Pfaff 的收购有双重意图：一是消除 Pfaff 与 DA 在欧洲的直接竞争，二是获取其产品与技术。尽调发现两大问题：其一，如同并购前的 DA，Pfaff 深信“德国制造”，坚持全线零部件在德国生产装配，成本偏高；其二，因聚焦高端而流失标准与中端客户，多次破产也削弱了客户信心，核心研发工程师大量流失。
+
+在 Pfaff 第三次破产后，上工集团正式接手。经与工会沟通，并购后裁员 60 人。部分关键零部件生产将转移至 DA 在捷克与罗马尼亚的基地，Pfaff 的销售渠道将与 DA 整合。
+
+名义上收购价仅 1 欧元，实际投入合计 2 410 万欧元，其中 1 000 万欧元用于偿还银行贷款，原债务 2 000 万欧元经重组降至 1 000 万，150 万作为运营资金，250 万用于安置离职人员，460 万投入太仓工厂及南亚销售网络，550 万设为发展基金。32
+
+### KSL Keilmann
+
+同期，上工集团将目光投向 KSL。这家 1964 年成立的家族企业是全球唯一的 3D 缝纫技术供应商。张敏视其为“缝纫机行业的隐形冠军”。KSL 的全自动机可为汽车安全气囊、机翼碳纤维等专业应用提供定制方案，也能在豪华车内饰等领域实现装饰性图案缝制。张敏认为其技术在航空航天、风电、高铁与地铁等交通领域具备广阔潜力。
+
+KSL 受困于资金，销售网络覆盖有限，多靠老客户回头。收购意向方不止一家，但最终选择上工集团，因其此前成功整合 DA。上工集团支付 1 850 万欧元收购全部股权，其中 1 295 万预付，余下 555 万两年后支付。技术人才被认定为最核心资产，公司推出高额人才保留计划，原业主仍留在管理层。
+
+## 2013 年的挑战
+
+### 将 Pfaff 和 KSL 与 DA 整合
+
+完成 2013 年两笔收购后，上工集团汇聚了工业缝纫机的尖端技术与全球销售网络，成为行业主要玩家。然而，如何整合收购标的、巩固中国市场领先地位、并寻找下一目标，成为新的考验。
+
+DA 与 Pfaff 已竞争 150 年，将研发、生产与销售融合难度不小。收购 Pfaff 的初衷之一是实现运营协同，但两边员工对品牌有强烈的自豪感，工程师更强调价值链掌控以保证品质。协同效应如何落地是个难题，专业制造商 KSL 又能为 DA 与 Pfaff 带来何种互补，也需厘清。
+
+运营层面需回答多个问题：DA、Pfaff、KSL 与上工四个品牌如何分工，避免同吃一块蛋糕；全球范围的研发、采购与生产如何统一协调；美国、欧洲与中国的销售子公司与渠道在多大程度上整合。组织架构上，上工(欧洲)长期担任集团德国子公司的财务控股角色，它是否应在三家标的整合中发挥实质性管理职能，若要发挥，德国子公司的管理团队应如何搭建才能高效运转。
+
+### 加强在中国的领导地位
+
+并购 DA 后，上工集团希望提升研发实力。但合资制造尝试失败后，集团认为研发中心不宜搬回上海。张敏表示：
+
+“产品可以在中国制造，但不能在中国创造。中国团队短期很难掌握核心研发。作为大股东，我们能把技术带到上海，但这等同于杀鸡取卵。我在国内另建研发团队，在德国团队指导下开展支持性研发，逐步提升能力。中国研发团队大概需要十年才能追上德国。”
+
+拥有德国研发中心与中国市场的双重资源后，张敏仍在探寻更贴近本地需求的产品定义方式。亚洲在工时、气候与电力供应上与德国差异明显，德国团队需为中国与东南亚设计“够用且有本地特征”的产品，但鲜有研发人员愿意驻场了解客户。张敏在用 DA 技术复兴“上工”中国品牌时也面临政治压力：同技术、同平台下，国产品牌售价通常比 DA 品牌低约 30%。他需要在德国品牌向中国市场适配与用上工品牌填补细分市场之间取得平衡，既发挥价格优势，又不稀释德国品牌的价值。
+
+### 雄心勃勃的新目标
+
+张敏的远景是实现年收入 100 亿元人民币，并于十年内跻身全球领先。他考虑再收购一家缝纫机企业，同时引入核心战略股东，如私募股权机构。在中国，上市民营企业中捷、杰克与方正电机在国内市场占据强势地位，是潜在对象。全球范围内，欧洲与美国的高绩效企业也在下一步收购的范围内。
+
+## 注释
+
+1．中文名称为“上工申贝”，在英文中该公司以缩写 SGSB Group 为人所知，后改为 SGG，为方便阅读，本文使用 SGG。
+
+2．截至 2015 年 5 月 26 日，1 元人民币=0. 15 欧元。
+
+3\. SGSB Group Co., Ltd., “ Annual Report 2004,” April 27, 2005, http://globaldocuments. morningstar. com/documentlibrary/document/07db9baab414 45af. msdoc/original, accessed May 7, 2014, p. 3.
+
+4\. Wind Information Co., Ltd., “SGSB Group Annual Report 2005,” Wind Da-tabase, accessed May 7, 2014.
+
+5\. O. Bönig, “ Nobody Trusted Us at That Time: Interview with Zhang Min, Chairman & CEO, SGSB ( Group) Co. Ltd,” M&A Dialogue, August 17, 2013, www. ma-dialogue. de/unternehmen/fallstudien/nobody-trusted-us-at-that-time, accessed August 26, 2015, pp. 42-43.
+
+6\. Dürkopp Adler AG, “ Annual Report 2004,” April 5, 2005, https://www. duerkopp-adler. com/de/main/investor/business\_report. html, accessed August 26, 2015.
+
+7\. S. Sohm, B. M. Linke and A. Klossek. “ Dürkopp Adler and ShangGong Hold-ing: Fit for the Future Together,” Chinese Companies in Germany: Chances and Challenges, www. gtai. de/GTAI/Content/CN/Invest/\_SharedDocs/Down-loads/Studies/chinese-companies-in-germany. pdf, accessed September 28, 2015, pp. 16-27.
+
+8\. Dürkopp Adler AG, “ Geschäftsbericht 2002,” May 6, 2003, https://www. duerkoppadler. com/export/sites/duerkoppadler/commons/download/down-load-text-attachments/DA\_GB2002. pdf, accessed August 26, 2015.
+
+9\. Sohm, Linke and Klossek, op. cit.
+
+10．正式名称为人民币特种股票，这些股份在中国的上海证券交易所和深圳证券交易所交易。
+
+11．如果上工集团收购了 DA 超过 95%的股权，将 DA 摘牌退市，那么上工集团需要支付 600 万欧元的财产税。截至 2015 年 5 月 27 日，1 欧元=6. 75 元人民币。
+
+12\. Bönig, op. cit.
+
+13\. Sohm, Linke and Klossek, op. cit.
+
+14\. Ibid.
+
+15\. Dürkopp Adler AG, “ Geschäftsbericht 2009,” April 12, 2010, https://www. duerkopp-adler. com/export/sites/duerkoppadler/commons/investor/downloads/DA\_GB\_2009\_DE. pdf, accessed September 29, 2015; Dürkopp Adler AG, “Geschäftsbericht 2010,” March 18, 2011, https://www. duerkopp-adler. com/export/sites/duerkoppadler/commons/investor/downloads/DA\_GB\_2010\_DE. PDF, accessed August 26, 2015.
+
+16\. Sohm, Linke and Klossek, op. cit.
+
+17\. Bönig, op. cit.
+
+18\. Sohm, Linke and Klossek, op. cit.
+
+19\. J. Klöckner, “ Freunde in der Krise,” Zeit Online, February 21, 2013, www. zeit. de/2013/09/Chinesen-Unternehmen-Duerkopp-Adler, accessed August 26, 2015.
+
+20\. Dürkopp Adler AG, “ Geschäftsbericht 2011,” 2012, www. duerkopp-ad-ler. com/export/sites/duerkoppadler/commons/investor/downloads/DA\_GB\_2011\_DE. pdf, accessed August 26, 2015.
+
+21\. Sohm, Linke and Klossek, op. cit.
+
+22\. Ibid.
+
+23\. Klöckner, op. cit.
+
+24\. Ibid.
+
+25\. Ibid.
+
+26\. Sohm, Linke & Klossek, op. cit.
+
+27\. Dürkopp Adler AG, “ Geschäftsbericht 2009,” op. cit.
+
+28\. Ibid.
+
+29\. Klöckner, op. cit.
+
+30\. Ibid.
+
+31\. Pfaff 也是家用缝纫机的知名品牌，但是被另一家公司持有其家用缝纫机的商标权。 Pfaff 仅有权使用工业缝纫机的品牌。收购 Pfaff 时，上工集团仅收购了 Pfaff 的工业缝纫机品牌。
+
+32．太仓工厂在之前的破产程序中被卖给一个投资者，后来在另一次交易中被上工集团收购。
+
+# 第 3 章 北京汽车集团有限公司收购瑞典萨博汽车公司的机会
+
+本案例由 Yang Wang 和 Ma Chunguang 在 Si-mon C. Parker 教授的指导下撰写。本案例仅作为课堂讨论材料，作者无意暗示某种管理行为是否有效。作者对真实姓名等信息进行了必要的掩饰性处理。
+
+北京汽车集团有限公司（简称北汽集团）是一家总部设在北京的国有汽车制造企业。2009 年秋季，北汽集团首席财务官马传骐坐在办公桌前审视一个颇具吸引力的新机会。瑞典豪华车制造商萨博汽车的所有者通用汽车，已释放出可能向北汽集团转让部分股权并允许其获取部分知识产权与生产设备的信号。
