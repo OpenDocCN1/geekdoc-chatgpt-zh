@@ -1,0 +1,145 @@
+| VideoBERT | 1. 设计了视频与文本对齐的样本构建思路<br>2. 对下一句预测任务进行改造，使视频与文本信息能够融合 | 视觉联想、图文生成类任务 | 拥有基础的视频语义理解能力 |
+
+| ALBERT | 1. 词嵌入层使用低秩分解<br>2. 多层之间共享参数<br>3. 用句子顺序预测替代下一句预测 | 自然语言理解类任务 | 模型体量被压缩，对硬件部署要求降低 |
+
+| RoBERTa | 1. 扩充训练语料规模<br>2. 采用动态掩码方式训练 | 自然语言理解类任务 | 整体性能明显增强 |
+
+| BART | 1. 基于编码器-解码器架构<br>2. 预训练时引入五类噪声 | 自然语言理解任务、自然语言生成任务 | 理解与生成能力都很突出 |
+
+| T5 | 1. 基于编码器-解码器架构<br>2. 在超大语料 C4 上训练<br>3. 用输入前缀来标识任务类型 | 全部自然语言处理任务 | 一套架构即可覆盖所有任务，无需改动结构 |
+
+第7章 评测与应用
+
+预训练语言模型能迁移到问答、情感分类、命名实体识别、机器翻译等众多下游场景。由此，如何在大规模基准上客观衡量模型水平就变得关键。7.1 节梳理了业界通用的评测任务，7.2 节介绍了开源库 Transformers 的代码实践，7.3 节和 7.4 节分别讨论预训练语言模型的压缩方法与扩展思路。
+
+### 7.1 评测任务
+
+#### 7.1.1 通用评测任务
+
+说到自然语言处理评测，2018 年发布的 GLUE 几乎是绕不开的里程碑。它把多个子任务打包成统一规范，自推出以来几乎所有预训练模型都以在 GLUE 上取得最佳成绩为目标。GLUE 这个名字也别有含义，字典里 glue 是“胶水”，而 GLUE 正是将来自斯坦福、微软、纽约大学等机构的多项任务粘合在一起。
+
+GLUE 共涵盖 9 项自然语言理解任务，具体情况见表 7.1 所示。
+
+| 任务名 | 全称 | 类型 | 指标 | 数量(条) |
+
+|---|---|---|---|---|
+
+| CoLA | The Corpus of Linguistic Acceptability | 单句任务 (Single-sentence Task) | 马修斯相关系数 (Matthews Correlation Coefficient) | 10657 |
+
+| SST-2 | The Stanford Sentiment Treebank | 单句任务 | 准确度 (Accuracy) | 11855 |
+
+| MRPC | Microsoft Research Paraphrase Corpus | 相似性和释义任务 (Similarity and Paraphrase Task) | F1 和准确度 | 5800 |
+
+| STS-B | Semantic Textual Similarity Benchmark | 相似性和释义任务 | 皮尔逊-斯皮尔曼相关系数 (Pearson-Spearman Correlation Coefficient) | 8628 |
+
+| QQP | Quora Question Pairs | 相似性和释义任务 | F1 和准确度 | >400000 |
+
+| MNLI | MultiNLI | 推理任务 (Inference Task) | 准确度 | 433000 |
+
+| QNLI | Question NLI | 问答任务 | 准确度 | >100000 |
+
+| RTE | Recognizing Textual Entailment | 推理任务 | 准确度 | - |
+
+| WNLI | Winograd NLI | 推理任务 | 准确度 | 635 |
+
+GLUE 还附带了一个由人工构建的小型诊断集，用于细化评估系统表现。诊断集预先划分了若干有价值的类别，能更精准地捕捉模型在特定能力上的优劣，如表 7.2 所示。
+
+| 粗分类 | 细分类 |
+
+|---|---|
+
+| 词汇语义 (Lexical Semantics) | 词汇蕴含 (Lexical Entailment)、形态否定 (Morphological Negation)、真实性 (Factivity)、对称/集合 (Symmetry/Collectivity)、冗余 (Redundancy)、命名实体 (Named Entities)、量词 (Quantifiers) |
+
+| 谓语论元结构 (Predicate-Argument Structure) | 核心论点 (Core Arguments)、介词短语 (Prepositional Phrases)、省略/暗示 (Ellipsis/Implicits)、回指/共指 (Anaphora/Coreference)、主动/被动 (Active/Passive)、名词化 (Nominalization)、所有格/部分格 (Genitives/Partitives)、使格 (Datives)、关系从句 (Relative Clauses)、并列范围 (Coordination Scope)、交叉性 (Intersectivity)、限制性 (Restrictivity) |
+
+| 逻辑 (Logic) | 否定 (Negation)、双重否定 (Double Negation)、间隔/数字 (Intervals/Numbers)、连接 (Conjunction)、析取 (Disjunction)、条件 (Conditionals)、通用 (Universal)、存在 (Existential)、时间 (Temporal)、向上单调 (Upward Monotone)、向下单调 (Downward Monotone)、非单调 (Non-Monotone) |
+
+| 知识 (Knowledge) | 常识 (Common Sense)、世界知识 (World Knowledge) |
+
+截至本书完稿时，GLUE 榜单前十的模型如图 7.1 所示。
+
+| Rank | Name | Model | CoLA | MNLI-m | MNLI-mm | QQP | QNLI | SST-2 | STS-B | MRPC | RTE | AX |
+
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+
+| 1 | HFL IFLYTEK | MacALBERT + DKM | 90.7 | 74.6 | 87.0 | 94.5/92.6 | 92.8/92.6 | 74.7/90.6 | 91.2 | 91.1 | 97.8 | 92.6 |
+
+| 2 | Alibaba DAMO NLP | StructBERT + TAPT | 90.6 | 76.3 | 87.3 | 93.9/91.9 | 93.2/92.7 | 74.8/91.0 | 90.9 | 90.7 | 97.4 | 91.2 |
+
+| 3 | PING-AN Omni-Sinic | ALBERT + DAAF + NAS | 90.6 | 73.5 | 87.2 | 94.0/92.0 | 93.0/92.4 | 76.1/91.6 | 91.6 | 91.5 | 97.5 | 91.7 |
+
+| 4 | ERNIE Team - Baidu | ERNIE | 90.4 | 74.4 | 87.5 | 93.5/91.4 | 93.0/92.6 | 75.2/90.9 | 91.4 | 91.6 | 96.6 | 90.9 |
+
+| 5 | TS Team - Google | TS | 90.3 | 71.6 | 87.5 | 92.8/90.4 | 93.1/92.8 | 75.1/90.6 | 92.2 | 91.9 | 96.5 | 92.6 |
+
+| 6 | Microsoft D365 AI & MSR AI & GATECHMT-DNN-SMART | | 89.9 | 69.5 | 87.5 | 93.7/91.6 | 93.0/92.5 | 73.8/90.2 | 91.0 | 90.8 | 99.2 | 89.7 |
+
+| 7 | Huawei Noah's Ark Lab | NEZHA-Large | 89.8 | 71.7 | 87.2 | 93.3/91.0 | 92.4/91.9 | 75.2/90.7 | 91.5 | 91.3 | 96.2 | 90.2 |
+
+| 8 | Zhang Dai | Funnel-Transformer (Ensemble B10-10-H1024) | 89.7 | 70.5 | 87.5 | 93.4/91.2 | 92.6/92.6 | 75.4/90.7 | 91.4 | 91.1 | 95.8 | 90.0 |
+
+| 9 | ELECTRA Team | ELECTRA-Large + Standard Tricks | 89.4 | 71.7 | 87.1 | 93.1/90.7 | 92.9/92.5 | 75.6/90.8 | 91.2 | 90.8 | 95.6 | 89.8 |
+
+| 10 | Microsoft D365 AI & UMD | FreeLB-RoBERTa (ensemble) | 89.4 | 68.0 | 86.8 | 93.1/90.6 | 92.3/92.1 | 74.8/90.3 | 91.1 | 90.7 | 95.6 | 88.7 |
+
+图 7.1 GLUE 评测中效果前 10 名的模型榜单
+
+GLUE 发布一年后，随着迁移学习与结构优化的推进，预训练模型的理解能力大幅提升，榜单被各大团队不断刷新。前十模型在各子任务上的分数差距已经非常微小，说明 GLUE 为算法改进留下的空间越来越有限。参考文献 [38] 中将人类表现设为 1.0 来对比各模型，如图 7.2 所示，部分算法已接近甚至超过人类水平。
+
+| Rank | Name | Model | CoLA | MNLI-m | MNLI-mm | QQP | QNLI | SST-2 | STS-B | MRPC | RTE | AX |
+
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+
+| 1 | ERNIE Team - Baidu | ERNIE | 92.9 | 74.4 | 87.5 | 94.9/91.8 | 93.0/92.6 | 75.2/90.9 | 91.9 | 91.4 | 97.3 | 92.0 |
+
+| 2 | DeBERTa Team - Microsoft | DeBERTa: TuringNLP-J | 92.8 | 71.5 | 87.5 | 94.0/92.9 | 92.9/92.8 | 75.2/90.8 | 91.9 | 91.6 | 99.2 | 90.5 |
+
+| 3 | HFL IFLYTEK | MacALBERT + UCM | 90.7 | 72.9 | 87.0 | 94.5/92.6 | 92.8/92.6 | 74.7/90.6 | 91.3 | 91.1 | 97.8 | 92.0 |
+
+| 4 | Alibaba DAMO NLP | StructBERT + TAPT | 90.6 | 75.3 | 87.3 | 93.9/91.9 | 93.2/92.7 | 74.8/91.9 | 90.8 | 90.7 | 97.2 | 91.2 |
+
+| 5 | PING-AN Omni-Sinic | ALBERT + DAAF + NAS | 90.6 | 73.5 | 87.2 | 94.0/92.0 | 93.0/92.4 | 75.1/91.0 | 91.6 | 91.3 | 97.5 | 91.7 |
+
+| 6 | TS Team - Google | TS | 90.3 | 71.6 | 87.5 | 92.8/90.4 | 93.1/92.8 | 75.1/90.6 | 92.2 | 91.9 | 96.0 | 92.6 |
+
+| 7 | Microsoft D365 AI & MSR AI & GATECHMT-DNN-SMART | | 89.6 | 69.5 | 87.5 | 93.7/91.6 | 93.0/92.5 | 73.9/90.2 | 91.0 | 90.8 | 99.2 | 89.7 |
+
+| 8 | Huawei Noah's Ark Lab | NEZHA-Large | 89.8 | 71.7 | 87.0 | 93.3/91.0 | 92.4/91.6 | 75.2/90.7 | 91.5 | 91.3 | 96.2 | 90.5 |
+
+| 9 | Zhang Dai | Funnel-Transformer (Ensemble B10-10-H1024) | 89.7 | 70.5 | 87.5 | 93.4/91.2 | 92.6/92.6 | 75.4/90.7 | 91.4 | 91.1 | 95.8 | 90.0 |
+
+| 10 | ELECTRA Team | ELECTRA-Large + Standard Tricks | 89.4 | 71.7 | 87.1 | 93.1/90.7 | 92.9/92.5 | 75.6/90.8 | 91.2 | 90.8 | 95.6 | 89.8 |
+
+图 7.2 不同模型在 GLUE 上的表现对比
+
+2019 年，SuperGLUE 作为 GLUE 的升级版被提出，任务难度更高、资源整合更完善，并设立了新的排行榜。SuperGLUE 的任务列表见表 7.3。
+
+| 任务名 | 全称 | 训练集数量 (条) | 验证集数量 (条) | 测试集数量 (条) | 类型 | 指标 |
+
+|---|---|---|---|---|---|---|
+
+| BoolQ | Boolean Questions | 9427 | 3270 | 3245 | 问答任务 | 准确度 |
+
+| CB | Commitment Bank | 250 | 57 | 250 | 自然语言推理 (Natural Language Inference) 任务 | F1 和准确度 |
+
+| COPA | Choice of Plausible Alternatives | 400 | 100 | 500 | 问答任务 | 准确度 |
+
+| MultiRC | Multi-Sentence Reading Comprehension | 5100 | 953 | 1800 | 问答任务 | F1 和精准匹配 |
+
+| ReCoRD | Reading Comprehension with Commonsense Reasoning Dataset | 101000 | 10000 | 10000 | 问答任务 | F1 和精准匹配 |
+
+| RTE | Recognizing Textual Entailment | 2500 | 278 | 300 | 自然语言推理任务 | 准确度 |
+
+| WiC | Word-in-Context | 6000 | 638 | 1400 | 词义消歧 (Word Sense Disambiguation) 任务 | 准确度 |
+
+| WSC | Winograd Schema Challenge | 554 | 104 | 146 | 共指消解 (Coreference Resolution) 任务 | 准确度 |
+
+截至本书完稿时，SuperGLUE 榜单前十如图 7.3 所示。
+
+[PRE0]
+
+2021 年 1 月 5 日到 6 日，谷歌大脑与微软先后发布新模型，平均总分首次突破人类基准 89.8 分。谷歌大脑的组合是参数 110 亿的 T5 加上参数 26 亿的 Meena，平均分 90.2 分；微软的 DeBERTa 参数 15 亿，平均分 90.3 分。尽管整体超越人类，但在 COPA 这类特定任务上，人类得分为 100 分，最佳算法仅 98.4 分，仍有差距。下面以 COPA 的一个例子说明：
+
+[PRE1]
+
+在这个例中，前提 premise 为“I lost my patience.”，中文意为“我失去耐心了”，需要据此推断导致失去耐心的缘由。两个备选分别是“My friend kept me waiting（我的朋友让我等了很久）”和“My friend arrived on time（我的朋友准时到达）”。对人而言判断很直观，而算法要解决这个问题，需要具备很强的常识推理能力。
