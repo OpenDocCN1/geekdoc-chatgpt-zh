@@ -1,0 +1,62 @@
+level_changes:
+- line: 10
+  before: 2
+  after: 1
+- line: 178
+  before: 2
+  after: 1
+- line: 180
+  before: 3
+  after: 2
+- line: 485
+  before: 3
+  after: 1
+- line: 541
+  before: 3
+  after: 1
+- line: 587
+  before: 3
+  after: 1
+- line: 670
+  before: 2
+  after: 1
+- line: 2935
+  before: 1
+  after: 2
+- line: 5437
+  before: 2
+  after: 1
+text_changes:
+- line: 447
+  before: 020 拐 點
+  after: 拐点
+- line: 465
+  before: 022 拐 點
+  after: 拐点
+- line: 485
+  before: 第一章 ChatGPT 究竟是什麼 021
+  after: 第一章 ChatGPT 究竟是什麼
+- line: 527
+  before: 024 拐 點
+  after: 拐点
+- line: 541
+  before: 第一章 ChatGPT 究竟是什麼 025
+  after: 第一章 ChatGPT 究竟是什麼
+- line: 567
+  before: 026 拐 點
+  after: 拐点
+- line: 587
+  before: 第一章 ChatGPT 究竟是什麼 027
+  after: 第一章 ChatGPT 究竟是什麼
+- line: 617
+  before: 030 拐 點
+  after: 拐点
+- line: 631
+  before: 甸 山甫
+  after: 问 山甫
+- line: 649
+  before: 032 拐 點
+  after: 拐点
+- line: 2545
+  before: 170 拐点
+  after: 拐点
