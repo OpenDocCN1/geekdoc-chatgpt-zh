@@ -1,0 +1,68 @@
+level_changes:
+- line: 9
+  before: 2
+  after: 1
+- line: 329
+  before: 3
+  after: 4
+- line: 334
+  before: 2
+  after: 3
+- line: 339
+  before: 3
+  after: 4
+- line: 559
+  before: 3
+  after: 4
+- line: 1162
+  before: 2
+  after: 3
+- line: 2713
+  before: 1
+  after: 2
+- line: 2731
+  before: 2
+  after: 3
+- line: 2745
+  before: 2
+  after: 3
+- line: 2835
+  before: 1
+  after: 2
+- line: 2861
+  before: 2
+  after: 3
+- line: 2922
+  before: 2
+  after: 3
+- line: 2981
+  before: 1
+  after: 2
+- line: 3790
+  before: 1
+  after: 2
+- line: 3812
+  before: 1
+  after: 2
+- line: 4696
+  before: 3
+  after: 2
+- line: 5613
+  before: 2
+  after: 3
+text_changes:
+- line: 0
+  before: AI时代项目经理成长之道 ： ChatGPT让项目经理插上翅膀
+  after: AI时代项目经理成长之道：ChatGPT让项目经理插上翅膀
+- line: 55
+  before: 1.2 项目经理新技能与`ChatGPT`的最佳协作模式
+  after: 1.2 项目经理新技能与ChatGPT的最佳协作模式
+- line: 295
+  before: 第 2 章 如何使用`ChatGPT`编写各种文档
+  after: 第 2 章 如何使用ChatGPT编写各种文档
+- line: 301
+  before: 2.1 使用`ChatGPT`生成文档模板与内容
+  after: 2.1 使用ChatGPT生成文档模板与内容
+- line: 1162
+  before: 2.4 Markdown 表格
+  after: 2.4.2 Markdown 表格
