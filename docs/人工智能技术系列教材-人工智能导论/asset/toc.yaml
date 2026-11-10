@@ -1,0 +1,95 @@
+level_changes:
+- line: 467
+  before: 3
+  after: 5
+- line: 472
+  before: 2
+  after: 4
+- line: 479
+  before: 2
+  after: 4
+- line: 482
+  before: 2
+  after: 4
+- line: 810
+  before: 2
+  after: 3
+- line: 819
+  before: 2
+  after: 3
+- line: 825
+  before: 2
+  after: 3
+- line: 841
+  before: 1
+  after: 2
+- line: 844
+  before: 2
+  after: 3
+- line: 899
+  before: 2
+  after: 3
+- line: 1530
+  before: 2
+  after: 3
+- line: 1538
+  before: 2
+  after: 3
+- line: 1574
+  before: 2
+  after: 3
+- line: 1610
+  before: 2
+  after: 3
+- line: 1618
+  before: 2
+  after: 3
+- line: 1630
+  before: 2
+  after: 3
+- line: 1650
+  before: 2
+  after: 3
+- line: 1674
+  before: 2
+  after: 3
+- line: 1694
+  before: 2
+  after: 3
+- line: 2963
+  before: 2
+  after: 3
+- line: 3416
+  before: 2
+  after: 3
+- line: 3682
+  before: 2
+  after: 3
+- line: 3689
+  before: 2
+  after: 3
+- line: 3698
+  before: 2
+  after: 3
+text_changes:
+- line: 2469
+  before: 6.6.4 情感分析的应用 `../Text/contents.xhtml#z162`
+  after: 6.6.4 情感分析的应用
+- line: 2503
+  before: 6.6.5 情感分析面临的困难与挑战 `../Text/contents.xhtml#z163`
+  after: 6.6.5 情感分析面临的困难与挑战
+- line: 2518
+  before: 6.7 语音识别 `../Text/contents.xhtml#z164`
+  after: 6.7 语音识别
+- line: 2521
+  before: 6.7.1 语音识别的定义 `../Text/contents.xhtml#z165`
+  after: 6.7.1 语音识别的定义
+- line: 2526
+  before: 6.7.2 语音识别的发展历程 `../Text/contents.xhtml#z166`
+  after: 6.7.2 语音识别的发展历程
+- line: 2537
+  before: 6.7.3 语音识别的基本原理 `../Text/contents.xhtml#z167`
+  after: 6.7.3 语音识别的基本原理
+- line: 2544
+  before: 6.7.4 语音识别的应用 `../Text/contents.xhtml#z168`
+  after: 6.7.4 语音识别的应用
