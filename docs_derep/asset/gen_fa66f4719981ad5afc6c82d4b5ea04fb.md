@@ -1,0 +1,118 @@
+# TFLite 整数 Softmax 量化乘法实现全解析
+
+在 TensorFlow Lite 的 reference_integer_ops 里，整数版 Softmax 的参考实现把一整行输入先做行内归一，再用定点指数映射到 int8 范围。整体思路是先用该行最大值做中心化得到差值，差值过小的元素直接被压到 -128，有效的差值则先经量化乘法重标定，再转成 FixedPointScaledDiff 进入负值指数表，指数结果与缩放因子做乘法后通过定点右移实现除以 2 的幂，最后整体下移 128 并钳位到 -128~127。
+
+具体流程是：对每个通道 c 计算该位置输入减去行最大值得到 input_diff。若 input_diff 达到阈值 diff_min，就用 input_beta_multiplier 和 input_beta_left_shift 做一次大于 1 的量化乘法得到重标定后的整数，再包成 FixedPointScaledDiff 送入 exp_on_negative_values 得到指数中间值。随后把 shifted_scale 与指数原始值相乘，用 RoundingDivideByPOT 按 num_bits_over_unit+31-8 的位移做四舍五入除法，减去 128 完成零点对齐，最后用 std::max/min 限制在 int8 合法区间。未达到阈值的通道统一输出 -128。整个函数收敛在 tflite::reference_integer_ops 命名空间，并在文件末尾以 TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_INTEGER_OPS_SOFTMAX_H_ 作保护。
+
+支撑上述计算的核心是量化乘法与定点除法的一套工具，下面保留原始实现以便对照。
+
+[PRE0]
+inline int32 MultiplyByQuantizedMultiplier(int32 x, int32 quantized_multiplier,
+                                           int shift) {
+    using gemmlowp::RoundingDivideByPOT;
+    using gemmlowp::SaturatingRoundingDoublingHighMul;
+    int left_shift = shift > 0 ? shift : 0;
+    int right_shift = shift > 0 ? 0 : -shift;
+    return RoundingDivideByPOT(SaturatingRoundingDoublingHighMul(
+                                 x * (1 << left_shift), quantized_multiplier),
+                             right_shift);
+}
+[PRE1]
+319 template <typename IntegerType>
+320 IntegerType SaturatingRoundingDoublingHighMul(IntegerType a, IntegerType b) {
+321     static_assert(std::is_same<IntegerType, void>::value, "unimplemented");
+322     (void)b;
+323     return a;
+324 }
+325 
+326 // 该函数实现了与 ARMv7 NEON VQRDMULH 指令相同的
+327 // 计算功能
+328 template <>
+329 inline std::int32_t SaturatingRoundingDoublingHighMul(std::int32_t a,
+                                              std::int32_t b) {
+331     bool overflow = a == b && a == std::numeric_limits<std::int32_t>::min();
+332     std::int64_t a_64(a);
+333     std::int64_t b_64(b);
+334     std::int64_t ab_64 = a_64 * b_64;
+335     std::int32_t nudge = ab_64 >= 0 ? (1 << 30) : (1 - (1 << 30));
+336     std::int32_t ab_x2_high32 =
+             static_cast<std::int32_t>((ab_64 + nudge) / (1ll << 31));
+337     return overflow ? std::numeric_limits<std::int32_t>::max() : ab_x2_high32;
+338 }
+339 
+340 template <>
+341 inline std::int16_t SaturatingRoundingDoublingHighMul(std::int16_t a,
+                                                 std::int16_t b) {
+344     bool overflow = a == b && a == std::numeric_limits<std::int16_t>::min();
+345     std::int32_t a_32(a);
+346     std::int32_t b_32(b);
+347     std::int32_t ab_32 = a_32 * b_32;
+348     std::int16_t nudge = ab_32 >= 0 ? (1 << 14) : (1 - (1 << 14));
+349     std::int16_t ab_x2_high16 =
+             static_cast<std::int16_t>((ab_32 + nudge) / (1 << 15));
+351     return overflow ? std::numeric_limits<std::int16_t>::max() : ab_x2_high16;
+352 }
+[PRE2]
+356 template <typename IntegerType, typename ExponentType>
+357 inline IntegerType RoundingDivideByPOT(IntegerType x, ExponentType exponent) {
+358     assert(exponent >= 0);
+359     assert(exponent <= 31);
+360     const IntegerType mask = Dup<IntegerType>((1ll << exponent) - 1);
+361     const IntegerType zero = Dup<IntegerType>(0);
+362     const IntegerType one = Dup<IntegerType>(1);
+363     const IntegerType remainder = BitAnd(x, mask);
+364     const IntegerType threshold =
+365         Add(ShiftRight(mask, 1), BitAnd(MaskIfLessThan(x, zero), one));
+366     return Add(ShiftRight(x, exponent),
+367              BitAnd(MaskIfGreaterThan(remainder, threshold), one));
+368 }
+[PRE3]
+ 37 template <>
+ 38 inline int32x4_t BitAnd(int32x4_t a, int32x4_t b) {
+ 39     return vandq_s32(a, b);
+ 40 }
+41
+ 42 template <>
+ 43 inline int16x8_t BitAnd(int16x8_t a, int16x8_t b) {
+ 44     return vandq_s16(a, b);
+ 45 }
+[PRE4]
+ 77 template <>
+ 78 inline int32x4_t Add(int32x4_t a, int32x4_t b) {
+ 79     return vaddq_s32(a, b);
+ 80 }
+81
+ 82 template <>
+ 83 inline int16x8_t Add(int16x8_t a, int16x8_t b) {
+ 84     return vaddq_s16(a, b);
+ 85 }
+[PRE5]
+127 template <>
+128 inline int32x4_t ShiftRight(int32x4_t a, int offset) {
+129     return vshlq_s32(a, vdupq_n_s32(-offset));
+130 }
+131
+132 template <>
+133 inline int16x8_t ShiftRight(int16x8_t a, int offset) {
+134     return vshlq_s16(a, vdupq_n_s16(-offset));
+135 }
+[PRE6]
+189 template <>
+190 inline int32x4_t MaskIfGreaterThan(int32x4_t a, int32x4_t b) {
+191     return vreinterpretq_s32_u32(vcgtq_s32(a, b));
+192 }
+193
+194 template <>
+195 inline int16x8_t MaskIfGreaterThan(int16x8_t a, int16x8_t b) {
+196     return vreinterpretq_s16_u16(vcgtq_s16(a, b));
+197 }
+198
+199 template <>
+200 inline int32x4_t MaskIfGreaterThanOrEqual(int32x4_t a, int32x4_t b) {
+201     return vreinterpretq_s32_u32(vcgeq_s32(a, b));
+202 }
+203
+204 template <>
+205 inline int16x8_t MaskIfGreaterThanOrEqual(int16x8_t a, int16x8_t b) {
+206     return vreinterpretq_s16_u16(vcgeq_s16(a, b));
+207 }
