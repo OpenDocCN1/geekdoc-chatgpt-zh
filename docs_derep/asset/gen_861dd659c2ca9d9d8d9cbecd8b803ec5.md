@@ -1,0 +1,24 @@
+科贝特·S·斯坦伯格在《电视趣闻·档案中的事实》1980年版第142页的内容，其一部分被TVhistory.tv网站“电视事实与统计——1939年至2000年”栏目收录，本文于2022年3月31日通过网络档案访问，存档链接为 https://web.archive.org/web/20220331223237/http://www.tvhistory.tv/facts-stats.htm。参见注释86。
+
+### 87.
+斯坦伯格所著《电视趣闻》第142页为本条依据。见注释87。
+
+### 88.
+家庭收音机保有量下降以及移动媒体兴起的证明来自以下资料：兰斯·文塔在Radio Insight于2020年3月20日刊发的《无限拨号：自2008年起家庭无线电平均数减半》，链接 https://radioinsight.com/headlines/184900/infinite-dial-mean-number-of-radios-in-home-drops-in-half-since-2008；皮尤研究中心2021年4月7日发布的《移动情况说明书》，链接 https://www.pewresearch.org/internet/fact-sheet/mobile；美国人口普查局《精选通讯媒体：1920年至1998年》第885页；道格拉斯·B·克雷格《炉边政治：1920-1940年美国广播与政治文化》巴尔的摩约翰·霍普金斯大学出版社2000年初版、2006年平装本第12页，图书链接 https://www.google.com/books/edition/Fireside_Politics/haWh203m7aIC；美国人口普查局《美国统计摘要：2008》华盛顿特区2007年版第704页“精选媒体的使用情况：1980年至2005年”，链接 https://www.census.gov/library/publications/2007/compendia/statab/127ed/information-communications.html；美国人口普查局《美国统计摘要：2012》华盛顿特区2011年版第712页“精选媒体的使用和数量：2000年至2009年”，图书链接 https://www.google.com/books/edition/Statistical_Abstract_of_the_United_State/pW9NAQAAMAAJ。见注释88。
+
+### 89.
+依据包括斯坦伯格《电视趣闻》第142页；美国人口普查局“家庭总数（TTLHH）”数据；杰克·W·普伦凯特编著《Plunkett’s Entertainment & Media Industry Almanac 2006》休斯顿德州普伦凯特研究公司2006年版第35页。见注释89。
+
+### 90.
+本文写于2023年时，尼尔森最新的官方估算只涵盖到2021年上半年。参考普伦凯特《Plunkett’s Entertainment & Media Industry Almanac 2006》第35页；尼尔森公司2020年8月28日发布的《尼尔森估计美国2020-2021电视季有1.21亿个电视家庭》，链接 https://www.nielsen.com/us/en/insights/article/2020/nielsen-estimates-121-million-tv-homes-in-the-u-s-for-the-2020-2021-tv-season。见注释90。
+
+### 91.
+网络收视率持续走低的背景可参阅瑞克·波特在《好莱坞报道》2019年9月21日刊发的《电视长镜头：网络收视率下降五年的背景》，链接 https://www.hollywoodreporter.com/live-feed/five-years-network-ratings-declines-explained-1241524；萨普娜·马赫什瓦里与约翰·科布林在《纽约时报》2018年5月13日发表的《传统电视为何陷入困境》，链接 https://www.nytimes.com/2018/05/13/business/media/television-advertising.html。见注释91。
+
+### 92.
+有关Altair 8800变革性影响的补充信息可看Jason Fitzpatrick于2015年5月15日在Computerphile频道发布的视频《改变一切的计算机（Altair 8800）》，链接 https://www.youtube.com/watch?v=cwEmnfy2BhI；以及ColdFusion于2016年3月18日发布的视频《启动微软和苹果的PC！（Altair 8800）》，链接 https://www.youtube.com/watch?v=X5lpOskKF9I。见注释92。
+
+### 93.
+长序列的电视家庭数量与历史背景依据如下：美国人口普查局《美国历史统计，殖民时代至1957年》华盛顿特区1960年版第491页，图书链接 https://www.google.co.uk/books/edition/Historical_Statistics_of_the_United_Stat/hyI1AAAAIAAJ；美国人口普查局“家庭总数（TTLHH）”；斯坦伯格《电视趣闻》第142页；普伦凯特《Plunkett’s Entertainment & Media Industry Almanac 2006》第35页；HispanicAd.com2004年7月30日报道《尼尔森：美国有1.096亿个电视家庭》，链接 http://hispanicad.com/blog/news-article/had/research/nielsen-1096-million-tv-households-us；AdAge2005年8月29日《晚间新闻》，链接 https://adage.com/article/late-news/late-news/104427；TVTechnology2006年8月28日《尼尔森报告电视家庭略有增加》，链接 https://www.tvtechnology.com/news/nielsen-reports-slight-increase-in-tv-households；Variety2007年8月23日《电视国家：1.128亿强》，链接 https://variety.com/2007/tv/opinion/tv-nation-1128-22127/?jwsource=cl；尼尔森公司2008年8月28日《尼尔森报告称2008-2009电视季美国亚裔家庭增长4.4%，西班牙裔家庭增长4.3%》，链接 https://www.nielsen.com/wp-content/uploads/sites/3/2019/04/press_release34.pdf 已失效；尼尔森公司2009年8月29日《2009-2010季度美国电视家庭数量估计为1.149亿户》，链接 https://www.nielsen.com/us/en/insights/article/2009/1149-million-us-television-homes-estimated-for-2009-2010-season；尼尔森公司2010年8月27日《2010-11电视季美国电视家庭数量增加100万户》，链接 https://www.nielsen.com/us/en/insights/article/2010/number-of-u-s-tv-households-climbs-by-one-million-for-2010-11-tv-season；辛西娅·利特尔顿在Variety2013年2月25日发表的《尼尔森着手网络观看》，链接 https://variety.com/2013/digital/news/nielsen-tackles-web-viewing-1118066529；尼尔森公司2013年5月7日《尼尔森估计美国有1.156亿电视家庭，增长1.2%》，链接 https://www.nielsen.com/us/en/insights/article/2013/nielsen-estimates-115-6-million-tv-homes-in-the-u-s-up-1-2；尼尔森公司2014年8月29日《尼尔森估计美国有超过1.16亿户电视家庭》，链接 https://www.nielsen.com/us/en/insights/article/2014/nielsen-estimates-more-than-116-million-tv-homes-in-the-us；尼尔森公司2015年8月28日《尼尔森估计2015-16电视季美国有1.164亿户电视家庭》，链接 https://www.nielsen.com/us/en/insights/article/2015/nielsen-estimates-116-4-million-tv-homes-in-the-us-for-the-2015-16-tv-season；尼尔森公司2016年8月26日《尼尔森估计2016-17电视季美国有1.184亿户电视家庭》，链接 https://www.nielsen.com/us/en/insights/article/2016/nielsen-estimates-118-4-million-tv-homes-in-the-us-for-the-2016-17-season；尼尔森公司2017年8月25日《尼尔森估计2017-18电视季美国有1.196亿户电视家庭》，链接 https://www.nielsen.com/us/en/insights/article/2017/nielsen-estimates-119-6-million-us-tv-homes-2017-2018-tv-season；尼尔森公司2018年9月7日《尼尔森估计2018-2019电视季美国有1.199亿户电视家庭》，链接 https://www.nielsen.com/us/en/insights/article/2018/nielsen-estimates-119-9-million-tv-homes-in-the-us-for-the-2018-19-season；尼尔森公司2019年8月27日《尼尔森估计2019-2020年美国电视季有1.206亿个电视家庭》，链接 https://www.nielsen.com/us/en/insights/article/2019/nielsen-estimates-120-6-million-tv-homes-in-the-u-s-for-the-2019-202-tv-season；以及前述尼尔森估计2020-2021年电视季有1.21亿个电视家庭。见注释93。
+
+### 94
