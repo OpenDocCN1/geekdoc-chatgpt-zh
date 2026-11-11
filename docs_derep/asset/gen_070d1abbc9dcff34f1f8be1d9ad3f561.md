@@ -1,0 +1,96 @@
+照片质量的好坏，构图是关键影响因素。如今市面上已出现不少构图推荐算法来辅助取景。但构图本质上带有很强的主观色彩，不同审美的人对好构图的偏好各不相同，现有算法多是通用做法，并未纳入个人喜好。SmartEye 就是为解决这一问题而设计的，它在构图推荐之上叠加了一套用户偏好学习机制，让推荐逐渐贴合使用者本人的审美。
+
+使用时，用户用手机按下快门，系统会基于构图推荐模型一次性给出若干取景方案。用户从中挑选最满意的一张保存下来，看似只是正常的“拍照-保存”流程，实际上每次保存都在为偏好模型提供信号。实现上，系统额外引入偏好学习模块对推荐模型的输出进行校准。每当用户保存一张照片，模型就会提取该图的构图相关特征，把这张图作为正例，其余备选图作为负例，去更新一个逻辑回归构建的用户偏好模型。一次保存后模型就能快速迭代，新的模型立刻作用于下一次拍摄，随着使用次数增加，推荐结果会越来越符合个人的口味。
+
+SmartEye 的交互式学习流程如图 9.10 所示。面对同一场景，系统会并排呈现几种不同的构图建议，用户每做一次选择，系统便从中汲取信息，迅速刷新背后偏好模型的权重。长期使用下来，系统对用户的构图喜好会形成稳定的刻画。
+
+[PRE0]
+图 9.10　SmartEye 系统的交互式学习示意图
+
+用户输入：用户对当前推荐构图的喜好程度，喜欢或不喜欢。
+系统反馈：在后续的推荐中呈现经过偏好学习后的新方案。
+交互模式：用户输入-系统反馈循环。
+
+值得注意的是，SmartEye 采用了隐式交互。标注行为被自然地融合进拍照应用的必经步骤——从多个构图候选里保存最中意的那一张，用户往往意识不到自己正在参与模型训练，大大降低了使用负担。
+
+### 9.4.7 ReGroup[26]：基于交互学习的群成员推荐
+ReGroup 是一款帮助用户搭建群组的助手。通常被拉入一个讨论群的人都会具备某些共同点，例如同属一家公司或拥有共同好友。ReGroup 会在用户邀请成员的过程中捕捉群内成员的特征相似性，并据此给出最可能的候选人。
+
+举例来说，Sally 想为华盛顿大学的一些朋友办一场小规模线下分享，并用 ReGroup 建立一个私人群组。她先想到一位可能感兴趣的朋友，通过搜索框按姓名检索到后，点击添加按钮将其收入群组。ReGroup 从这一实例开始学习，尝试为 Sally 挖掘其他潜在成员。它会对朋友列表进行重排，把更有可能被邀请的人置顶。Sally 随后看到几位同样可能感兴趣的朋友，也一并加入。随着新成员不断进入，ReGroup 对正在创建的群组画像的认识也在加深，并再次整理朋友列表以便她找到更多合适人选。
+
+[PRE1]
+图 9.11　ReGroup 系统使用交互式机器学习帮助用户在在线社交网络中创建自定义的群组
+
+当系统对 Sally 正在组建的群组有了判断后，还会展示可作为过滤条件的相关特征。以当前已选好友为依据，ReGroup 推测 Sally 希望引入更多居住在华盛顿州的人，这些人通常与她有若干共同好友，并在华盛顿大学任职。虽然并非所有目标好友都在华盛顿大学工作，部分可能是学生，但她默认这些人多居住在华盛顿。她点选“当前状态：华盛顿”过滤器后，ReGroup 会把不住在华盛顿的人剔除出推荐列表，减少筛选负担，让建群更高效。
+
+Sally 可以持续以这种方式与 ReGroup 互动，也能自行设定筛选条件，直至把所有想邀请的人加入完毕。
+
+用户输入：已加入群组的成员、采用或放弃的约束条件。
+系统反馈：剩余好友被拉入群组的可能性，以及从已加入成员中学到的约束线索。
+交互模式：用户输入-系统反馈循环，混合主导交互。
+
+该系统不仅能从用户操作中吸取知识，还会把学到的知识回显给用户供其挑选，丰富了交互形态，使模型更新与迭代更为有效。
+
+### 9.4.8 小结
+本节回顾了若干交互式机器学习的典型案例，重点落在如何通过界面设计丰富人机交互。从这些案例可见，用户向机器传递的信息已远不止传统机器学习中的标注数据，还包括交互式地设定各特征的重要性、指定实例间的相似关系、移动决策边界、调节集成分类器中各子模型权重等。相应地，系统反馈也不再局限于对未标注数据的预测可视化，还涵盖用户操作带来的影响说明、算法内部参数的展示、用户数据中冲突的提醒等。从交互模式看，用户标注-系统反馈的循环最为常见，而引入主动学习构建混合主动界面，以帮助用户更快找到更有价值的数据，已成为该方向的发展趋势。
+
+## 9.5 讨论与展望
+交互式机器学习让终端用户能够深度参与机器学习系统的构建，在大数据时代潜力巨大。但相关研究起步不久，仍存在大量开放问题。本章所及的案例显示，交互式机器学习已应用于信息检索、推荐过滤等多个领域，然而不同领域往往使用不同术语来指称类似系统，如相关反馈、演示式编程、调试机器学习等。术语分化阻碍了共识形成，也容易导致重复工作。如何抽离出领域无关的工作流程与系统模块，并以统一的描述语言加以表述，是一个重要研究机会。
+
+除统一语言外，归纳交互式机器学习界面设计的原则与指导也是关键。它可为未来系统设计提供参考，正如传统人机交互原则那样。例如，Schneiderman 的黄金法则指出用户应是系统的控制者，系统需在每次交互中提供详尽反馈。但并非所有传统原则都适用。研究表明，当用户能准确理解系统运作并预判下一步行为时，交互效率更高，然而大多数机器学习系统难以做到这一点，因为让普通用户理解底层学习算法非常困难。如何对现有界面设计原则进行调整以适配交互式机器学习，是值得深入的方向。
+
+另一大难题是评估标准。交互式机器学习同时牵涉人机交互与机器学习算法，二者紧密耦合，传统的人机交互评估方法和算法评估方法都难以直接使用。系统表现不佳时，很难判断根源在于交互设计、算法本身，还是二者的结合。因此，建立合理的评估标准亟待解决。
+
+交互式机器学习的交互周期比传统机器学习更快、更集中、增量更小，这进一步凸显了高效人机沟通的重要性。本章以案例研究的方式梳理了该领域的发展，并围绕用户输入、系统反馈与交互模式探讨如何丰富交互设计，实现人与机器的有效理解与高效学习。同时也指出了当前面临的挑战与机遇，包括建立统一描述语言、提炼界面交互设计原则、制定合理评估标准等。我们相信，针对这些问题的探索将推动该领域长远而快速的发展。
+
+## 参考文献
+
+\[1\] FAILS J A, OLSEN J D R. Interactive machine learning \[C\]//Proceedings of the 8th international conference on Intelligent user interfaces,2003: 39-45.
+
+\[2\] AMERSHI S, CAKMAK M, KNOX W B,et al. Power to the people: The role of humans in interactive machine learning\[J\].AI Magazine, 2014,35(4):105-120.
+
+\[3\] LESH N, RICH C,SIDNER C L.Using plan recognition in human-computer collaboration\[J\]. In UM99 User Modeling . Vienna:Springer, 1999: 23-32.
+
+\[4\] ADOMAVICIUS G,TUZHILIN A.Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions\[J\].IEEE Transactions on Knowledge & Data Engineering, 2005 (6): 734-749.
+
+\[5\] KONSTAN J A,RIEDL J. Recommender systems: from algorithms to user experience\[J\]. User modeling and user-adapted interaction, 2012,22(1-2):101-123.
+
+\[6\] STAMOU S,NTOULAS A. Search personalization through query and page topical analysis\[J\].User Modeling and User-Adapted Interaction, 2009,19(1-2): 5-33.
+
+\[7\] SHEN X, TAN B, ZHAI C. Implicit user modeling for personalized search \[C\]//Proceedings of the 14th ACM international conference on Information and knowledge management,2005:824-831.
+
+\[8\] RUVINI J D. Adapting to the user’s internet search strategy \[C\]//International Conference on User Modeling,2003:55-64.
+
+\[9\] HARMAN D. Relevance feedback and other query modification techniques \[M\]//Information retrieval:data structure and algorithms.Englewood Cliff:Prentice-Hall，1992.
+
+\[10\] GAUCH S, SPERETTA M, CHANDRAMOULI A,et al. User profiles for personalized information access\[J\]. The adaptive web,2007: 54-89.
+
+\[11\] WHITE R W.Implicit feedback for interactive information retrieval\[D\]. Scotland，UK：University of Glasgow，2004.
+
+\[12\] SEGAL R B, KEPHART J O. MailCat: An Intelligent Assistant for Organizing E-Mail\[J\]. AAAI/IAAI,1999:925-926.
+
+\[13\] ABOWD G, ATKESON C G, HONG J,et al. Cyberguide: A mobile context-aware tour guide\[J\]. Wireless networks, 1997,3(5):421-433.
+
+\[14\] [PRE2] M A, GONZALEZ V M, RODR[PRE3]GUEZ M,et al. Supporting context-aware collabo-ration in a hospital: an ethnographic informed design \[C\]//International Conference on Collaboration and Technology,2003: 330-344.
+
+\[15\] DEY A K, HAMID R, BECKMANN C,et al. Acappella: programming by demonstration of context-aware applications \[C\]//Proceedings of the SIGCHI conference on Human factors in computing systems,2004: 33-40.
+
+\[16\] FOGARTY J,HUDSON S E. Toolkit support for developing and deploying sensor-based statistical models of human situations \[C\]//Proceedings of the SIGCHI Conference on Human Factors in Computing Systems,2007:135-144.
+
+\[17\] FOGARTY J, TAN D, KAPOOR A,et al. Cueflik: interactive concept learning in image search \[C\]//Proceedings of the sigchi conference on human factors in computing systems,2008:29-38.
+
+\[18\] AMERSHI S, FOGARTY J, KAPOOR A,et al. Overview based example selection in end user interactive concept learning \[C\]//Proceedings of the 22nd annual ACM symposium on User interface software and technology,2009:247-256.
+
+\[19\] AMERSHI S, FOGARTY J, KAPOOR A,et al. Examining multiple potential models in end-user interactive concept learning \[C\]//Proceedings of the SIGCHI Conference on Human Factors in Computing Systems,2010:1357-1360.
+
+\[20\] KAPOOR A, LEE B, TAN D,et al. Interactive optimization for steering machine classification\[C\]//Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 2010:1343-1352.
+
+\[21\] FREUND Y,SCHAPIRE R E. A decision-theoretic generalization of on-line learning and an application to boosting \[C\]//Journal of computer and system sciences, 1997,55(1):119-139.
+
+\[22\] TALBOT J, LEE B, KAPOOR A,et al. EnsembleMatrix: interactive visualization to support machine learning with multiple classifiers \[C\]//Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 2009:1283-1292.
+
+\[23\] FAN X, LIU Y, CAO N,et al. Mindminer: A mixed-initiative interface for interactive distance metric learning \[C\]//IFIP Conference on Human-Computer Interaction,2015:611-628.
+
+\[24\] SHNEIDERMAN B,PLAISANT C.Designing the user interface: strategies for effective human-computer interaction\[M\]. Pearson Education India，2010.
+
+\[25\] MA S, WEI Z, TIAN F,et al. SmartEye: Assisting Instant Photo Taking via Integrating User Preference with Deep View Proposal Network \[C\]//Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, 2019:471.
