@@ -1,0 +1,17 @@
+level_changes:
+- line: 312
+  before: 1
+  after: 2
+- line: 1291
+  before: 1
+  after: 2
+text_changes:
+- line: 27
+  before: 第 1 课　小巧的`Micro：bit`
+  after: 第 1 课　小巧的 Micro：bit
+- line: 62
+  before: 动手实践
+  after: 动手操作
+- line: 312
+  before: 第 5 课
+  after: 动手操作

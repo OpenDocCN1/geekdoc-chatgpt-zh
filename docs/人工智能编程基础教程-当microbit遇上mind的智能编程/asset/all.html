@@ -1,0 +1,1011 @@
+<p><span id="cov001.html"></span></p>
+<p>﻿</p>
+<p><img src="images/cov001_1.jpg" title="pagenumber_ebook=1,pagenumber_book=0" id="image_1_20_13_2068_2882" class="picture_figure" width="862" height="1208" /></p>
+<p><span id="bok001.html"></span></p>
+<p>﻿</p>
+<p><img src="images/bok001_1.jpg" title="pagenumber_ebook=2,pagenumber_book=0" id="image_2_10_13_2063_2885" class="picture_figure" width="864" height="1210" /></p>
+<p><span id="fow001.html"></span></p>
+<p>﻿</p>
+<p>序</p>
+<p>2013年秋天的一个夜晚，我和DFrobot公司（以下简称“DF”）的首席执行官叶琛在上海一家星巴克聊天。我们认识已经半年了，但面对面地认真讨论还是第一次。我们各自交换了对人工智能教育和开源硬件发展的看法，发现我们的观点颇为一致。话题还没有聊完，星巴克已经要打烊了，我们只好边走边聊，在上海的街头足足走了一个多小时。</p>
+<p>我已经不记得那天晚上我们讨论的具体细节了，但有一点非常肯定，那就是我们共同决定了Mind+编程软件（以下简称“Mind+”）的结局——停止开发。因为当时的Mind+采用基于数据流的编程形式，而实际上Arduino（一种开源硬件）的大部分应用，很难用“流”去规划。更重要的是，学生哪怕能用Mind+做出很酷的作品，也很难将这种能力迁移到其他的编程软件上去，所以它对青少年的编程教育来说没有太大的价值。</p>
+<p>Mind+项目停止后，原来的项目负责人Rex也离职去做电动滑板车了。这几年，我偶尔还会在聚会上听到或在论坛上看到有人表达对Mind+的怀念之情，毕竟那是国内第一个完全自主设计的Arduino的图形化编程工具。作为决定了Mind+命运的“幕后黑手”之一，我常常会假装没听到，也不好意思解释太多。DF随后开发的WhenDo虽然也是很好的图形化编程工具，可惜只能在iPad中运行，知道的人甚少。</p>
+<p>2017年，听说Mind+项目重新启动了，我不禁有些激动。果然，到了12月，DF的网站上挂出了“Mind+图形化编程软件重装归来”的广告标语。“重装归来”这个词颇能让一些老用户红了眼圈。四年多，说长不长，说短也不短，但Mind+恰好是刚刚接触开源硬件的人工智能教育者们的心路印记。看到Mind+，不仅会想起初见Arduino和Mind+的惊喜，还会想起这一路的磕磕碰碰，想起共同走过的众多朋友。</p>
+<p>Mind+支持Micro：bit开源硬件（以下简称“Micro：bit”），这让我惊喜。我和Micro：bit的缘分来自2016年的“创客嘉年华”，因为喜欢它就开始推广，后来Micro：bit基金会还给我一个“中国推广大使”的名号。目前Micro：bit在中小学得到了很好的普及，包括DF在内的几家人工智能教育企业做了大量的工作。虽然微软公司开发的MakeCode是很好的编程平台，但在与扩展模块的连接方面，Mind+会做得更好。另外，DF还为Python编程开发了一款易用的IDE（针对硬件进行编程的软件），叫做BXY，BXY也很值得推荐。</p>
+<p>最后，要说说余凡老师了。我和余老师在2017年全国机器人教学及创客教育展评活动中相识。他在这个活动中得了特等奖，而我有幸担任了活动的评委。随着了解的深入，我发现他最初的身份居然是设计师！Arduino缘起于意大利的设计学院，“STEAM教育”中的“A”（Arts）越来越受到重视，余老师的设计师身份无疑为他的教学和书带来与众不同的亮点。他在人工智能教育方面的突出成绩告诉我们：只要喜欢，就能成功；只有喜欢，才能成功。</p>
+<p>感谢余老师给我写序的机会，人工智能教育需要Micro：bit和Mind+，更需要像余老师一样的跨学科人才。</p>
+<p>谢作如</p>
+<p>温州中学创客空间</p>
+<p><span id="fow002.html"></span></p>
+<p>﻿</p>
+<p>自序</p>
+<p>2017年，我参加了全国机器人教学及创客教育展评活动，在这次活动中我获得了特等奖。因为活动的赞助方是DFrobot公司（以下简称“DF”），所以我总觉得DF像是我的幸运标志。有次出差去上海，我还特地参观了DF的蘑菇云创客空间。</p>
+<p>2018年10月，我去深圳参加培训，带队的是武汉市教育科学研究院的雷刚主任。雷刚主任在谈到人工智能教育时说，课程的有效实施，可能是推进人工智能教育最有效的手段。于是我开始不断思考，选择什么样的数字化工具才能更有效地培养孩子们的编程能力和计算思维，能够更好地开展教学。有一天DF的余静工程师对我说：“现在Micro：bit很火，它还可以和不少数字化工具组合使用，你写一本关于Micro：bit的书吧！”</p>
+<p>在此之前，我从没想过要为Micro：bit写本书，因为我曾经很鄙视不带电池的Micro：bit，觉得它不会有长久的生命力。但是，既然朋友谈到，我还是把放在抽屉角落的那两块Micro：bit拿了出来。没想到我的兴趣就此被开发出来了，加速度计、罗盘、光线传感器、温度传感器……每一个项目都有值得研究之处，而且Micro：bit的确可以和不少数字化工具组合使用，对培养编程能力和计算思维有很大帮助。</p>
+<p>于是就有了这本书，它包含三个板块：Micro：bit和Mind+的互动智能、Micro：mate在Mind+环境下的智能创意、Micro：bit电机驱动扩展板与Mind+智能机器人搭建。把这三个板块学完了，就可以编程设计体感游戏，可以搭建智能装置，最重要的是可以自己做机器人了。这就是Micro：bit与Mind+相结合的神奇之处！</p>
+<p><span id="toc001.html"></span></p>
+<p>﻿</p>
+<p>目　录</p>
+<p><a href="#fow001.html#fow001_1">序</a></p>
+<p><a href="#fow002.html#fow002_1">自序</a></p>
+<p><a href="#txt001.html#txt001_1">第1课　小巧的Micro：bit</a></p>
+<p><a href="#txt001.html#txt001_2">活动目标</a></p>
+<p><a href="#txt001.html#txt001_3">学习内容</a></p>
+<p><a href="#txt001.html#txt001_4">动手实践</a></p>
+<p><a href="#txt001.html#txt001_5">活动记录</a></p>
+<p><a href="#txt001.html#txt001_6">自我评价</a></p>
+<p><a href="#txt001.html#txt001_7">延伸探索</a></p>
+<p><a href="#txt002.html#txt002_1">第2课　Micro：bit的花样姿态</a></p>
+<p><a href="#txt002.html#txt002_2">活动目标</a></p>
+<p><a href="#txt002.html#txt002_3">学习内容</a></p>
+<p><a href="#txt002.html#txt002_4">动手操作</a></p>
+<p><a href="#txt002.html#txt002_5">活动记录</a></p>
+<p><a href="#txt002.html#txt002_6">自我评价</a></p>
+<p><a href="#txt002.html#txt002_7">延伸探索</a></p>
+<p><a href="#txt003.html#txt003_1">第3课　神奇的电子罗盘</a></p>
+<p><a href="#txt003.html#txt003_2">活动目标</a></p>
+<p><a href="#txt003.html#txt003_3">学习内容</a></p>
+<p><a href="#txt003.html#txt003_4">动手操作</a></p>
+<p><a href="#txt003.html#txt003_5">活动记录</a></p>
+<p><a href="#txt003.html#txt003_6">自我评价</a></p>
+<p><a href="#txt003.html#txt003_7">延伸探索</a></p>
+<p><a href="#txt004.html#txt004_1">第4课　小猫跳一跳</a></p>
+<p><a href="#txt004.html#txt004_2">活动目标</a></p>
+<p><a href="#txt004.html#txt004_3">学习内容</a></p>
+<p><a href="#txt004.html#txt004_4">动手操作</a></p>
+<p><a href="#txt004.html#txt004_5">活动记录</a></p>
+<p><a href="#txt004.html#txt004_6">自我评价</a></p>
+<p><a href="#txt004.html#txt004_7">延伸探索</a></p>
+<p><a href="#txt005.html#txt005_1">第5课　发射子弹的小游戏</a></p>
+<p><a href="#txt005.html#txt005_2">活动目标</a></p>
+<p><a href="#txt005.html#txt005_3">学习内容</a></p>
+<p><a href="#txt005.html#txt005_4">动手操作</a></p>
+<p><a href="#txt005.html#txt005_5">活动记录</a></p>
+<p><a href="#txt005.html#txt005_6">自我评价</a></p>
+<p><a href="#txt005.html#txt005_7">延伸探索</a></p>
+<p><a href="#txt006.html#txt006_1">第6课　发送和接收信息</a></p>
+<p><a href="#txt006.html#txt006_2">活动目标</a></p>
+<p><a href="#txt006.html#txt006_3">学习内容</a></p>
+<p><a href="#txt006.html#txt006_4">动手操作</a></p>
+<p><a href="#txt006.html#txt006_5">活动记录</a></p>
+<p><a href="#txt006.html#txt006_6">自我评价</a></p>
+<p><a href="#txt006.html#txt006_7">延伸探索</a></p>
+<p><a href="#txt007.html#txt007_1">第7课　翻译传感器的语言</a></p>
+<p><a href="#txt007.html#txt007_2">活动目标</a></p>
+<p><a href="#txt007.html#txt007_3">学习内容</a></p>
+<p><a href="#txt007.html#txt007_4">动手操作</a></p>
+<p><a href="#txt007.html#txt007_5">活动记录</a></p>
+<p><a href="#txt007.html#txt007_6">自我评价</a></p>
+<p><a href="#txt007.html#txt007_7">延伸探索</a></p>
+<p><a href="#txt008.html#txt008_1">第8课　音乐响起来</a></p>
+<p><a href="#txt008.html#txt008_2">活动目标</a></p>
+<p><a href="#txt008.html#txt008_3">学习内容</a></p>
+<p><a href="#txt008.html#txt008_4">动手操作</a></p>
+<p><a href="#txt008.html#txt008_5">活动记录</a></p>
+<p><a href="#txt008.html#txt008_6">自我评价</a></p>
+<p><a href="#txt008.html#txt008_7">延伸探索</a></p>
+<p><a href="#txt009.html#txt009_1">第9课　制作光控灯</a></p>
+<p><a href="#txt009.html#txt009_2">活动目标</a></p>
+<p><a href="#txt009.html#txt009_3">学习内容</a></p>
+<p><a href="#txt009.html#txt009_4">动手操作</a></p>
+<p><a href="#txt009.html#txt009_5">活动记录</a></p>
+<p><a href="#txt009.html#txt009_6">自我评价</a></p>
+<p><a href="#txt009.html#txt009_7">延伸探索</a></p>
+<p><a href="#txt010.html#txt010_1">第10课　红外接收和发射</a></p>
+<p><a href="#txt010.html#txt010_2">活动目标</a></p>
+<p><a href="#txt010.html#txt010_3">学习内容</a></p>
+<p><a href="#txt010.html#txt010_4">动手操作</a></p>
+<p><a href="#txt010.html#txt010_5">活动记录</a></p>
+<p><a href="#txt010.html#txt010_6">自我评价</a></p>
+<p><a href="#txt010.html#txt010_7">延伸探索</a></p>
+<p><a href="#txt011.html#txt011_1">第11课　智能浇水提醒装置</a></p>
+<p><a href="#txt011.html#txt011_2">活动目标</a></p>
+<p><a href="#txt011.html#txt011_3">学习内容</a></p>
+<p><a href="#txt011.html#txt011_4">动手操作</a></p>
+<p><a href="#txt011.html#txt011_5">活动记录</a></p>
+<p><a href="#txt011.html#txt011_6">自我评价</a></p>
+<p><a href="#txt011.html#txt011_7">延伸探索</a></p>
+<p><a href="#txt012.html#txt012_1">第12课　电机驱动扩展板</a></p>
+<p><a href="#txt012.html#txt012_2">活动目标</a></p>
+<p><a href="#txt012.html#txt012_3">学习内容</a></p>
+<p><a href="#txt012.html#txt012_4">动手操作</a></p>
+<p><a href="#txt012.html#txt012_5">活动记录</a></p>
+<p><a href="#txt012.html#txt012_6">自我评价</a></p>
+<p><a href="#txt012.html#txt012_7">延伸探索</a></p>
+<p><a href="#txt013.html#txt013_1">第13课　舵机转起来</a></p>
+<p><a href="#txt013.html#txt013_2">活动目标</a></p>
+<p><a href="#txt013.html#txt013_3">学习内容</a></p>
+<p><a href="#txt013.html#txt013_4">动手操作</a></p>
+<p><a href="#txt013.html#txt013_5">活动记录</a></p>
+<p><a href="#txt013.html#txt013_6">自我评价</a></p>
+<p><a href="#txt013.html#txt013_7">延伸探索</a></p>
+<p><a href="#txt014.html#txt014_1">第14课　打开物联网大门</a></p>
+<p><a href="#txt014.html#txt014_2">活动目标</a></p>
+<p><a href="#txt014.html#txt014_3">学习内容</a></p>
+<p><a href="#txt014.html#txt014_4">动手操作</a></p>
+<p><a href="#txt014.html#txt014_5">活动记录</a></p>
+<p><a href="#txt014.html#txt014_6">自我评价</a></p>
+<p><a href="#txt014.html#txt014_7">延伸探索</a></p>
+<p><a href="#txt015.html#txt015_1">第15课　超声波倒车雷达</a></p>
+<p><a href="#txt015.html#txt015_2">活动目标</a></p>
+<p><a href="#txt015.html#txt015_3">学习内容</a></p>
+<p><a href="#txt015.html#txt015_4">动手操作</a></p>
+<p><a href="#txt015.html#txt015_5">活动记录</a></p>
+<p><a href="#txt015.html#txt015_6">自我评价</a></p>
+<p><a href="#txt015.html#txt015_7">延伸探索</a></p>
+<p><a href="#txt016.html#txt016_1">第16课　智能小车</a></p>
+<p><a href="#txt016.html#txt016_2">活动目标</a></p>
+<p><a href="#txt016.html#txt016_3">学习内容</a></p>
+<p><a href="#txt016.html#txt016_4">动手操作</a></p>
+<p><a href="#txt016.html#txt016_5">活动记录</a></p>
+<p><a href="#txt016.html#txt016_6">自我评价</a></p>
+<p><a href="#txt016.html#txt016_7">延伸探索</a></p>
+<p><span id="txt001.html"></span></p>
+<p>﻿</p>
+<p>第1课　小巧的Micro：bit</p>
+<p>活动目标</p>
+<p>1.了解Micro：bit是什么。</p>
+<p>2.了解Mind+编程软件的基本界面和功能。</p>
+<p>学习内容</p>
+<p>Micro：bit是一款由英国广播电视公司（BBC）推出的专为青少年编程教育设计的微型电脑开发板，是一种小巧的开源硬件。如图1-1所示，Micro：bit上设置了蓝牙天线、加速度计与电子罗盘、可编程按钮、可编程LED点阵等。Micro：bit可以用于编写电子游戏程序、声光互动、机器人控制、科学实验、可穿戴装置开发等。为了增加Micro：bit的功能，英国广播电视公司还配套开发出各种扩展板，用于快速搭建电子项目。</p>
+<p><img src="images/txt001_1.jpg" title="pagenumber_ebook=8,pagenumber_book=1" id="image_8_237_1680_1835_2472" class="picture_figure" width="672" height="333" /></p>
+<p>图1-1</p>
+<p>我们可以在Windows或Mac操作系统中使用各种编程软件来为Micro：bit编写程序，其中，Mind+编程软件（以下简称“Mind+”）只需要拖拽图形化程序模块（指令积木块），即可完成编程。</p>
+<p>Mind+有两种工作模式：实时模式和上传模式。</p>
+<p>Mind+的实时模式界面如图1-2所示。</p>
+<p><img src="images/txt001_2.jpg" title="pagenumber_ebook=9,pagenumber_book=2" id="image_9_316_778_1848_1667" class="picture_figure" width="645" height="373" /></p>
+<p>图1-2</p>
+<p>我们采用图形化编程方式为Micro：bit编写程序，拖拽指令积木块即可编程。鼠标单击<img src="images/txt001_3.png" title="pagenumber_ebook=9,pagenumber_book=2" class="picture_character" />按钮，加载<img src="images/txt001_4.png" title="pagenumber_ebook=9,pagenumber_book=2" class="picture_character" />后进行扩展，然后直接编写程序，与电脑连接的Micro：bit就能显示编程结果，这样便于实时查看程序设计的效果。</p>
+<p>Mind+的上传模式界面如图1-3所示。</p>
+<p>在上传模式中，我们可以使用程序上传按钮，将程序上传到Micro：bit，使Micro：bit脱离电脑，单独运行，做一些智能作品时就需要采取这样的方式。</p>
+<p><img src="images/txt001_5.jpg" title="pagenumber_ebook=10,pagenumber_book=3" id="image_10_249_376_1782_1336" class="picture_figure" width="646" height="404" /></p>
+<p>图1-3</p>
+<p>动手实践</p>
+<p>现在我们要通过编程，使Micro：bit的LED灯显示心形图案。</p>
+<p>（1）将Micro：bit通过数据线和电脑连接，电源指示灯发光（见图1-4）。</p>
+<p><img src="images/txt001_6.jpg" title="pagenumber_ebook=10,pagenumber_book=3" id="image_10_558_1783_1448_2515" class="picture_figure" width="374" height="308" /></p>
+<p>图1-4</p>
+<p>（2）打开Mind+，鼠标单击<img src="images/txt001_7.png" title="pagenumber_ebook=11,pagenumber_book=4" class="picture_character" />，加载主控板，然后鼠标双击“micro：bit”，如图1-5所示。</p>
+<p><img src="images/txt001_8.jpg" title="pagenumber_ebook=11,pagenumber_book=4" id="image_11_343_605_1774_1231" class="picture_figure" width="602" height="263" /></p>
+<p>图1-5</p>
+<p>（3）鼠标单击“连接设备”下拉列表中的“一键安装串口驱动”，如图1-6所示。驱动程序安装向导对话框弹出，根据提示安装驱动程序。</p>
+<p><img src="images/txt001_9.jpg" title="pagenumber_ebook=11,pagenumber_book=4" id="image_11_572_1470_1539_2511" class="picture_figure" width="407" height="438" /></p>
+<p>图1-6</p>
+<p>（4）鼠标单击“连接设备”下拉列表中的“COM7-Microbit”，Micro：bit连接成功，如图1-7所示。</p>
+<p><img src="images/txt001_10.jpg" title="pagenumber_ebook=12,pagenumber_book=5" id="image_12_509_550_1533_1072" class="picture_figure" width="431" height="219" /></p>
+<p>图1-7</p>
+<p>（5）手持Micro：bit，顺时针转动360度，Micro：bit的LED灯在转动中亮起来，亮光形成一个圆圈（可以点击“教程”菜单中的“视频教程”，观看相关视频）。如果电源指示灯一直在不停地闪烁，则表示初始化完成。</p>
+<p>（6）在实时模式中，鼠标单击编程模块栏中的<img src="images/txt001_11.jpg" title="pagenumber_ebook=12,pagenumber_book=5" id="image_12_1208_1379_1305_1470" class="picture_line_figure" width="40" height="37" />，右侧出现指令积木块列表。鼠标单击<img src="images/txt001_12.jpg" title="pagenumber_ebook=12,pagenumber_book=5" id="image_12_577_1480_820_1561" class="picture_line_figure" width="102" height="33" />（见图1-6），Micro：bit上的LED灯亮了起来，显示心形图案。</p>
+<p>如果将指令积木块<img src="images/txt001_13.jpg" title="pagenumber_ebook=12,pagenumber_book=5" id="image_12_705_1639_908_1704" class="picture_line_figure" width="85" height="26" />和<img src="images/txt001_14.jpg" title="pagenumber_ebook=12,pagenumber_book=5" id="image_12_948_1640_1186_1702" class="picture_line_figure" width="100" height="25" />与“事件”模块中的指令积木块组合在一起，如图1-8所示，鼠标单击绿旗，则LED灯循环显示心形图案。我们还可以修改等待时间的长短以改变LED灯闪烁的频率。</p>
+<p><img src="images/txt001_15.jpg" title="pagenumber_ebook=12,pagenumber_book=5" id="image_12_654_1921_1355_2543" class="picture_figure" width="295" height="262" /></p>
+<p>图1-8</p>
+<p>活动记录</p>
+<p><img src="images/txt001_16.jpg" title="pagenumber_ebook=13,pagenumber_book=6" id="table_13_336_592_1805_1174" class="picture_table" width="618" height="244" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt001_17.jpg" title="pagenumber_ebook=13,pagenumber_book=6" id="table_13_338_1476_1801_1627" class="picture_table" width="616" height="63" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>除了心形图案，我还能通过编程，使Micro：bit的LED灯显示其他图案。</p>
+<p><span id="txt002.html"></span></p>
+<p>﻿</p>
+<p>第2课　Micro：bit的花样姿态</p>
+<p>活动目标</p>
+<p>1.了解Micro：bit的互动特性。</p>
+<p>2.掌握使LED灯显示不同图案的程序设计方法。</p>
+<p>学习内容</p>
+<p>打开Mind+，鼠标单击编程模块栏中的<img src="images/txt002_1.jpg" title="pagenumber_ebook=14,pagenumber_book=7" id="image_14_1101_1245_1196_1330" class="picture_line_figure" width="39" height="35" />，右侧出现指令积木块列表。鼠标单击<img src="images/txt002_2.jpg" title="pagenumber_ebook=14,pagenumber_book=7" id="image_14_441_1346_683_1429" class="picture_line_figure" width="101" height="34" />，将其拖拽至编程区。然后，鼠标单击指令积木块中倒置的三角形符号，下拉列表显示了该指令积木块可以设置的动作，如图2-1所示，可见Micro：bit有丰富的姿态选项。</p>
+<p>Micro：bit执行的程序动作与Micro：bit的徽标放置的位置有关系，如图2-2所示，徽标是朝上放置的。</p>
+<p><img src="images/txt002_3.jpg" title="pagenumber_ebook=14,pagenumber_book=7" id="image_14_317_1709_805_2477" class="picture_figure" width="204" height="323" /></p>
+<p>图2-1</p>
+<p><img src="images/txt002_4.jpg" title="pagenumber_ebook=14,pagenumber_book=7" id="image_14_1052_1991_1690_2483" class="picture_figure" width="267" height="207" /></p>
+<p>图2-2</p>
+<p>动手操作</p>
+<p>（1）LED灯显示较大的心形图案。</p>
+<p>将Micro：bit和电脑连接，然后将Micro：bit竖起来，徽标朝上，在编程区组合如图2-3所示的编程指令，Micro：bit的LED灯显示的图案如图2-4所示。</p>
+<p><img src="images/txt002_5.jpg" title="pagenumber_ebook=15,pagenumber_book=8" id="image_15_402_1079_935_1382" class="picture_figure" width="224" height="127" /></p>
+<p>图2-3</p>
+<p><img src="images/txt002_6.jpg" title="pagenumber_ebook=15,pagenumber_book=8" id="image_15_1145_846_1809_1398" class="picture_figure" width="279" height="232" /></p>
+<p>图2-4</p>
+<p>（2）LED灯显示较小的心形图案。</p>
+<p>将Micro：bit的徽标朝下，在编程区组合如图2-5所示的编程指令，Micro：bit的LED灯显示的图案如图2-6所示。</p>
+<p><img src="images/txt002_7.jpg" title="pagenumber_ebook=15,pagenumber_book=8" id="image_15_397_1965_956_2237" class="picture_figure" width="234" height="113" /></p>
+<p>图2-5</p>
+<p><img src="images/txt002_8.jpg" title="pagenumber_ebook=15,pagenumber_book=8" id="image_15_1139_1727_1735_2232" class="picture_figure" width="250" height="212" /></p>
+<p>图2-6</p>
+<p>（3）LED灯显示箭头图案。</p>
+<p>将Micro：bit的徽标向左、向右倾斜，在编程区组合如图2-7所示的编程指令，Micro：bit的LED灯显示的图案如图2-8所示。</p>
+<p><img src="images/txt002_9.jpg" title="pagenumber_ebook=16,pagenumber_book=9" id="image_16_386_507_1620_836" class="picture_figure" width="519" height="138" /></p>
+<p>图2-7</p>
+<p><img src="images/txt002_10.jpg" title="pagenumber_ebook=16,pagenumber_book=9" id="image_16_332_967_1636_1526" class="picture_figure" width="549" height="234" /></p>
+<p>图2-8</p>
+<p>（4）LED灯显示英文字母。</p>
+<p>组合如图2-9所示的编程指令，当Micro：bit的徽标朝上时，LED灯依次显示“HELLO”的英文字母，如图2-10所示。</p>
+<p><img src="images/txt002_11.jpg" title="pagenumber_ebook=16,pagenumber_book=9" id="image_16_444_1834_1589_2430" class="picture_figure" width="481" height="250" /></p>
+<p>图2-9</p>
+<p><img src="images/txt002_12.jpg" title="pagenumber_ebook=17,pagenumber_book=10" id="image_17_614_412_1544_1084" class="picture_figure" width="392" height="282" /></p>
+<p>图2-10</p>
+<p>我们可以设置在徽标朝上的时候，LED灯依次显示“OK”的英文字母；徽标向左倾斜时，LED灯依次显示“YES”的英文字母；徽标向右倾斜时，LED灯依次显示“NO”的英文字母；徽标处于水平方向（即Micro：bit处于水平方向）时，LED灯依次显示“SLEEP”的英文字母；此外还可以设置等待一秒后，LED屏幕周边的方框变成红色。</p>
+<p>编程指令如图2-11所示，上传程序后，观察LED灯显示的图案。</p>
+<p><img src="images/txt002_13.jpg" title="pagenumber_ebook=17,pagenumber_book=10" id="image_17_724_1599_1477_2564" class="picture_figure" width="317" height="405" /></p>
+<p>图2-11</p>
+<p>活动记录</p>
+<p><img src="images/txt002_14.jpg" title="pagenumber_ebook=18,pagenumber_book=11" id="table_18_266_593_1733_1176" class="picture_table" width="617" height="244" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt002_15.jpg" title="pagenumber_ebook=18,pagenumber_book=11" id="table_18_266_1471_1733_1628" class="picture_table" width="617" height="65" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我可以将Micro：bit的不同姿态在程序设计中组合起来，从而使Micro：bit的LED灯显示更复杂的图案。</p>
+<p><span id="txt003.html"></span></p>
+<p>﻿</p>
+<p>第3课　神奇的电子罗盘</p>
+<p>活动目标</p>
+<p>1.了解电子罗盘的功能。</p>
+<p>2.学习通过Mind+使用Micro：bit的电子罗盘。</p>
+<p>学习内容</p>
+<p>指南针是中国古代四大发明之一，它在很多方面都起过重要的作用。司南是最早的指南仪器，人们利用磁石的指向性制成了司南（见图3-1）。后来经过不断改造，罗盘出现了，如图3-2所示，它被应用于航海。世界上最早利用指南仪器进行海上导航的国家是中国。</p>
+<p><img src="images/txt003_1.jpg" title="pagenumber_ebook=19,pagenumber_book=12" id="image_19_640_1536_1490_2185" class="picture_figure" width="357" height="272" /></p>
+<p>图3-1</p>
+<p>Micro：bit自带一个电子罗盘。Micro：bit背面有个集成电路，标示着“COMPASS”，它就是电子罗盘传感器模块，如图3-3所示。打开Mind+，鼠标单击编程模块栏中的<img src="images/txt003_2.jpg" title="pagenumber_ebook=19,pagenumber_book=12" id="image_19_839_2440_939_2528" class="picture_line_figure" width="41" height="36" />，右侧出现指令积木块列表。将列表中的<img src="images/txt003_3.jpg" title="pagenumber_ebook=19,pagenumber_book=12" id="image_19_339_2546_660_2619" class="picture_line_figure" width="134" height="29" />和指令积木块<img src="images/txt003_4.jpg" title="pagenumber_ebook=19,pagenumber_book=12" id="image_19_921_2548_1146_2622" class="picture_line_figure" width="94" height="31" />结合使用，读取当前所在的方位角度，编程指令如图3-4所示。</p>
+<p><img src="images/txt003_5.jpg" title="pagenumber_ebook=20,pagenumber_book=13" id="image_20_650_411_1390_995" class="picture_figure" width="311" height="246" /></p>
+<p>图3-2</p>
+<p><img src="images/txt003_6.jpg" title="pagenumber_ebook=20,pagenumber_book=13" id="image_20_517_1172_1546_1813" class="picture_figure" width="433" height="270" /></p>
+<p>图3-3</p>
+<p><img src="images/txt003_7.jpg" title="pagenumber_ebook=20,pagenumber_book=13" id="image_20_645_1909_1413_2185" class="picture_figure" width="323" height="116" /></p>
+<p>图3-4</p>
+<p>将Micro：bit和电脑连接，在Mind+的实时模式中，将Micro：bit的徽标朝上，就可以看到LED屏幕上滚动显示数值。这些数值就是罗盘中的角度，正北方向为“0”（360），正南方向为“180”。</p>
+<p>动手操作</p>
+<p>要让Micro：bit具备指南针的功能并且方便人们使用，我们还是需要借助Mind+。现设定当电子罗盘的角度小于30度或大于330度时，Micro：bit通过LED屏幕表示北方；当电子罗盘的角度在160度和210度之间时，表示南方；当电子罗盘的角度在30度和160度之间时，表示东方；当电子罗盘的角度在210度和330度之间时，表示西方。因为要使指南和指北更精确，所以指南和指北的角度取值范围相比指东和指西的取值范围要小。我们需要使用“运算符”模块中的指令积木块<img src="images/txt003_8.jpg" title="pagenumber_ebook=21,pagenumber_book=14" id="image_21_843_1037_1062_1115" class="picture_line_figure" width="92" height="32" />，表示电子罗盘的角度取值范围，编程指令如图3-5所示。</p>
+<p><img src="images/txt003_9.jpg" title="pagenumber_ebook=21,pagenumber_book=14" id="image_21_288_1244_1854_1889" class="picture_figure" width="660" height="271" /></p>
+<p>图3-5</p>
+<p>在实时模式中，当Micro：bit的LED屏幕朝上，徽标对着北方时，LED屏幕显示“1”；徽标对着东方时，LED屏幕显示“2”；徽标对着南方时，LED屏幕显示“3”；徽标对着西方时，LED屏幕显示“4”（见图3-6）。完整程序如图3-7所示。</p>
+<p>在使用的过程中，Micro：bit可能会受到附近的电子设备的干扰，或者由于环境的原因，Micro：bit的电子罗盘可能会受到影响。</p>
+<p><img src="images/txt003_10.jpg" title="pagenumber_ebook=22,pagenumber_book=15" id="image_22_380_413_1611_1491" class="picture_figure" width="518" height="454" /></p>
+<p>图3-6</p>
+<p><img src="images/txt003_11.jpg" title="pagenumber_ebook=22,pagenumber_book=15" id="image_22_358_1548_1646_2503" class="picture_figure" width="542" height="402" /></p>
+<p>图3-7</p>
+<p>活动记录</p>
+<p><img src="images/txt003_12.jpg" title="pagenumber_ebook=23,pagenumber_book=16" id="table_23_335_592_1805_1176" class="picture_table" width="619" height="246" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt003_13.jpg" title="pagenumber_ebook=23,pagenumber_book=16" id="table_23_337_1474_1805_1629" class="picture_table" width="618" height="64" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>对于如何设置电子罗盘的角度范围，我有更好的建议。</p>
+<p><span id="txt004.html"></span></p>
+<p>﻿</p>
+<p>第4课　小猫跳一跳</p>
+<p>活动目标</p>
+<p>1.了解Micro：bit的按钮。</p>
+<p>2.学习设计通过按钮控制的小游戏。</p>
+<p>学习内容</p>
+<p>将Micro：bit和电脑连接，打开Mind+，在实时模式中，我们可以选择精灵角色，比如精灵猫，同时为角色设定相关属性，并通过Micro：bit的按钮控制精灵角色。</p>
+<p>鼠标单击编程模块栏中的<img src="images/txt004_1.jpg" title="pagenumber_ebook=24,pagenumber_book=17" id="image_24_861_1471_957_1555" class="picture_line_figure" width="40" height="34" />，右侧出现指令积木块列表。鼠标单击<img src="images/txt004_2.jpg" title="pagenumber_ebook=24,pagenumber_book=17" id="image_24_270_1577_558_1667" class="picture_line_figure" width="120" height="37" />，将其拖拽至编程区。然后，鼠标单击编程模块栏中的“动作”，右侧出现指令积木块列表。鼠标单击<img src="images/txt004_3.jpg" title="pagenumber_ebook=24,pagenumber_book=17" id="image_24_973_1682_1127_1749" class="picture_line_figure" width="64" height="27" />，将其拖拽至编程区。将这两个指令积木块组合在一起（见图4-1），再按下Micro：bit的A按钮，精灵猫就开始动起来，离开了舞台。</p>
+<p>按下Micro：bit的B按钮，精灵猫反方向移动10步，又回到了舞台，编程指令如图4-2所示。交替按下A按钮和B按钮，精灵猫就能在舞台中灵活地前后跑动了。</p>
+<p><img src="images/txt004_4.jpg" title="pagenumber_ebook=24,pagenumber_book=17" id="image_24_347_2152_886_2402" class="picture_figure" width="226" height="104" /></p>
+<p>图4-1</p>
+<p><img src="images/txt004_5.jpg" title="pagenumber_ebook=24,pagenumber_book=17" id="image_24_1148_2149_1652_2405" class="picture_figure" width="211" height="106" /></p>
+<p>图4-2</p>
+<p>通过精灵属性面板，我们可以调整精灵猫的相关属性，比如位置、比例、方向，我们还可以为精灵猫添加合适的活动背景，让游戏画面更美观，如图4-3所示。</p>
+<p><img src="images/txt004_6.jpg" title="pagenumber_ebook=25,pagenumber_book=18" id="image_25_651_542_1538_1642" class="picture_figure" width="373" height="463" /></p>
+<p>图4-3</p>
+<p>动手操作</p>
+<p>（1）设定精灵猫上下移动。</p>
+<p>①调整精灵猫的比例大小，使精灵猫活动的范围更大。</p>
+<p>②组合如图4-4所示的编程指令，通过改变y坐标的位置使精灵猫上下移动，如果数字前面加了“-”号则表示向下或向相反方向移动。</p>
+<p>③为了表现精灵猫下落时速度逐渐加快，需要变量的协助。鼠标单击“变量”模块中的指令积木块<img src="images/txt004_7.jpg" title="pagenumber_ebook=25,pagenumber_book=18" id="image_25_799_2277_1049_2337" class="picture_line_figure" width="104" height="25" />，创建变量“zhongli”（见图4-5）。</p>
+<p>④鼠标单击“变量”模块中的指令积木块<img src="images/txt004_8.jpg" title="pagenumber_ebook=25,pagenumber_book=18" id="image_25_1296_2360_1750_2444" class="picture_line_figure" width="190" height="34" />和<img src="images/txt004_9.jpg" title="pagenumber_ebook=25,pagenumber_book=18" id="image_25_344_2472_773_2558" class="picture_line_figure" width="180" height="35" />，将其拖拽至编程区，初始化精灵猫下落的重力参数，并制造精灵猫下落时速度逐渐加快的效果。编程指令如图4-6所示。</p>
+<p><img src="images/txt004_10.jpg" title="pagenumber_ebook=26,pagenumber_book=19" id="image_26_731_411_1299_886" class="picture_figure" width="239" height="200" /></p>
+<p>图4-4</p>
+<p><img src="images/txt004_11.jpg" title="pagenumber_ebook=26,pagenumber_book=19" id="image_26_566_1003_1444_1521" class="picture_figure" width="369" height="217" /></p>
+<p>图4-5</p>
+<p><img src="images/txt004_12.jpg" title="pagenumber_ebook=26,pagenumber_book=19" id="image_26_633_1640_1417_2266" class="picture_figure" width="330" height="263" /></p>
+<p>图4-6</p>
+<p>⑤设定“zhongli”的值为15时，按下A按钮，精灵猫向上跳，编程指令如图4-7所示。完整程序如图4-8所示。</p>
+<p>在实时模式中，运行程序，精灵猫下落。如果按下A按钮，则精灵猫向上跳。</p>
+<p><img src="images/txt004_13.jpg" title="pagenumber_ebook=27,pagenumber_book=20" id="image_27_694_394_1501_658" class="picture_figure" width="339" height="110" /></p>
+<p>图4-7</p>
+<p><img src="images/txt004_14.jpg" title="pagenumber_ebook=27,pagenumber_book=20" id="image_27_662_790_1533_1507" class="picture_figure" width="366" height="301" /></p>
+<p>图4-8</p>
+<p>（2）设置舞台背景。</p>
+<p>鼠标单击“背景库”（见图4-9），为舞台加载一个漂亮的场景，本例选择“蓝天”，如图4-10所示。</p>
+<p><img src="images/txt004_15.jpg" title="pagenumber_ebook=27,pagenumber_book=20" id="image_27_678_1821_1531_2544" class="picture_figure" width="358" height="304" /></p>
+<p>图4-9</p>
+<p><img src="images/txt004_16.jpg" title="pagenumber_ebook=28,pagenumber_book=21" id="image_28_274_429_1735_1476" class="picture_figure" width="615" height="440" /></p>
+<p>图4-10</p>
+<p>（3）设定精灵猫自动弹跳。</p>
+<p>鼠标单击“侦测”模块中的指令积木块<img src="images/txt004_17.jpg" title="pagenumber_ebook=28,pagenumber_book=21" id="image_28_1072_1650_1392_1729" class="picture_line_figure" width="134" height="32" />，将其拖拽至编程区，单击指令积木块上的默认色块，在弹出的色彩面板中调色，并确定颜色（见图4-11）。</p>
+<p><img src="images/txt004_18.jpg" title="pagenumber_ebook=28,pagenumber_book=21" id="image_28_664_1895_1392_2434" class="picture_figure" width="305" height="226" /></p>
+<p>图4-11</p>
+<p>组合如图4-12所示的编程指令，上传程序后，精灵猫碰到舞台底部的色块就能自动跳起来（见图4-13），画面的动感增强了。</p>
+<p><img src="images/txt004_19.jpg" title="pagenumber_ebook=29,pagenumber_book=22" id="image_29_564_494_1619_1648" class="picture_figure" width="443" height="486" /></p>
+<p>图4-12</p>
+<p><img src="images/txt004_20.jpg" title="pagenumber_ebook=29,pagenumber_book=22" id="image_29_707_1764_1454_2338" class="picture_figure" width="313" height="241" /></p>
+<p>图4-13</p>
+<p>（4）添加角色。</p>
+<p>①打开角色库，鼠标双击“老鼠”，将其加载到精灵属性面板中（见图4-14）。有了精灵老鼠做伴，精灵猫可以跳起来和精灵老鼠玩耍，还可以在碰到精灵老鼠后得分。</p>
+<p><img src="images/txt004_21.jpg" title="pagenumber_ebook=30,pagenumber_book=23" id="image_30_611_505_1411_1166" class="picture_figure" width="336" height="278" /></p>
+<p>图4-14</p>
+<p>②设定精灵老鼠碰到舞台边缘后反弹，旋转模式为左右翻转，编程指令如图4-15所示。</p>
+<p><img src="images/txt004_22.jpg" title="pagenumber_ebook=30,pagenumber_book=23" id="image_30_605_1417_1444_2258" class="picture_figure" width="353" height="354" /></p>
+<p>图4-15</p>
+<p>③精灵猫跳起来碰到精灵老鼠后，得分是不断变化的，因此需要添加一个得分的变量，并将相应的指令积木块嵌入到编程指令中，如图4-16所示。精灵猫与精灵老鼠碰撞后得分的编程指令如图4-17所示。需要注意的是，在程序开始的时候，要将得分的变量初始化。</p>
+<p><img src="images/txt004_23.jpg" title="pagenumber_ebook=31,pagenumber_book=24" id="image_31_686_409_1492_725" class="picture_figure" width="339" height="132" /></p>
+<p>图4-16</p>
+<p><img src="images/txt004_24.jpg" title="pagenumber_ebook=31,pagenumber_book=24" id="image_31_609_852_1562_2148" class="picture_figure" width="401" height="546" /></p>
+<p>图4-17</p>
+<p>④由于程序执行时速度非常快，所以会出现精灵猫与精灵老鼠触碰一次却多次得分的情况。针对这个问题，需要增添指令积木块<img src="images/txt004_25.jpg" title="pagenumber_ebook=31,pagenumber_book=24" id="image_31_1413_2323_1607_2403" class="picture_line_figure" width="81" height="33" />。</p>
+<p>最后，我们还需要为程序增加一些功能，比如按下不同的按钮后，精灵猫可以左右移动等，以增加游戏的趣味性。</p>
+<p>在实时模式中，完整程序如图4-18所示。</p>
+<p><img src="images/txt004_26.jpg" title="pagenumber_ebook=32,pagenumber_book=25" id="image_32_284_470_1759_2433" class="picture_figure" width="621" height="826" /></p>
+<p>图4-18</p>
+<p>活动记录</p>
+<p><img src="images/txt004_27.jpg" title="pagenumber_ebook=33,pagenumber_book=26" id="table_33_334_593_1809_1173" class="picture_table" width="621" height="243" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt004_28.jpg" title="pagenumber_ebook=33,pagenumber_book=26" id="table_33_337_1471_1806_1631" class="picture_table" width="618" height="66" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>当精灵猫碰到精灵老鼠后，我可以改变精灵老鼠的大小或者颜色。</p>
+<p><span id="txt005.html"></span></p>
+<p>﻿</p>
+<p>第5课　发射子弹的小游戏</p>
+<p>活动目标</p>
+<p>1.了解Mind+的克隆（复制）功能。</p>
+<p>2.学习设计发射子弹的小游戏。</p>
+<p>学习内容</p>
+<p>本课我们学习设计发射子弹的游戏。将Micro：bit和电脑连接，打开Mind+，选择精灵吉伽为编程对象，通过“控制”模块中的指令积木块<img src="images/txt005_1.jpg" title="pagenumber_ebook=34,pagenumber_book=27" id="image_34_268_1382_490_1470" class="picture_line_figure" width="93" height="36" />实现子弹连续发射的效果，编程指令如图5-1所示。</p>
+<p><img src="images/txt005_2.jpg" title="pagenumber_ebook=34,pagenumber_book=27" id="image_34_713_1509_1331_1807" class="picture_figure" width="259" height="125" /></p>
+<p>图5-1</p>
+<p>当按下Micro：bit的A按钮时，精灵吉伽复制自己，虽然我们在屏幕上看不到变化，但是当用鼠标拖动舞台中的精灵吉伽时，会发现已经复制了多个精灵吉伽（见图5-2）。</p>
+<p>要使复制出来的精灵吉伽按照程序设计的要求移动，还需要增添指令积木块<img src="images/txt005_3.jpg" title="pagenumber_ebook=34,pagenumber_book=27" id="image_34_354_2181_692_2303" class="picture_line_figure" width="141" height="50" />。组合如图5-3所示的编程指令，鼠标单击绿旗图标，程序开始运行。按下A按钮，复制出来的精灵吉伽会飞到舞台的顶端（见图5-4）。</p>
+<p><img src="images/txt005_4.jpg" title="pagenumber_ebook=35,pagenumber_book=28" id="image_35_599_378_1535_1389" class="picture_figure" width="394" height="425" /></p>
+<p>图5-2</p>
+<p><img src="images/txt005_5.jpg" title="pagenumber_ebook=35,pagenumber_book=28" id="image_35_417_1705_868_2109" class="picture_figure" width="189" height="170" /></p>
+<p>图5-3</p>
+<p><img src="images/txt005_6.jpg" title="pagenumber_ebook=35,pagenumber_book=28" id="image_35_1001_1456_1774_2087" class="picture_figure" width="325" height="265" /></p>
+<p>图5-4</p>
+<p>动手操作</p>
+<p>本游戏的设定是：作为地球卫士的精灵吉伽要消灭来自外太空的精灵骑士，精灵吉伽发射出无数个飞弹，消灭了精灵骑士，维护了地球的和平。</p>
+<p>（1）设置舞台背景。</p>
+<p>删掉默认的精灵猫，在角色库里找到“吉伽”并将其加载到舞台中。在背景库中，选择太空的背景，如图5-5所示。</p>
+<p><img src="images/txt005_7.jpg" title="pagenumber_ebook=36,pagenumber_book=29" id="image_36_597_482_1413_1607" class="picture_figure" width="343" height="473" /></p>
+<p>图5-5</p>
+<p>（2）设计发射子弹的程序。</p>
+<p>设定在按下A按钮时，精灵吉伽复制自己作为子弹。为了避免连续复制，还需要增添指令积木块<img src="images/txt005_8.jpg" title="pagenumber_ebook=36,pagenumber_book=29" id="image_36_705_1827_855_1895" class="picture_line_figure" width="62" height="27" />优化程序，编程指令如图5-6所示。</p>
+<p>为了呈现子弹发射的效果，需要将复制出的精灵吉伽的比例修改为10%，编程指令如图5-7所示。</p>
+<p><img src="images/txt005_9.jpg" title="pagenumber_ebook=36,pagenumber_book=29" id="image_36_339_2164_868_2503" class="picture_figure" width="221" height="142" /></p>
+<p>图5-6</p>
+<p><img src="images/txt005_10.jpg" title="pagenumber_ebook=36,pagenumber_book=29" id="image_36_1229_2070_1668_2513" class="picture_figure" width="184" height="186" /></p>
+<p>图5-7</p>
+<p>组合如图5-8所示的编程指令，使子弹发射到舞台边缘就消失。</p>
+<p><img src="images/txt005_11.jpg" title="pagenumber_ebook=37,pagenumber_book=30" id="image_37_656_513_1505_872" class="picture_figure" width="357" height="150" /></p>
+<p>图5-8</p>
+<p>组合如图5-9所示的编程指令，当我们把Micro：bit向左或向右倾斜时，精灵吉伽就能在舞台中向左或向右移动。</p>
+<p><img src="images/txt005_12.jpg" title="pagenumber_ebook=37,pagenumber_book=30" id="image_37_513_1135_1670_1887" class="picture_figure" width="487" height="316" /></p>
+<p>图5-9</p>
+<p>（3）设置精灵骑士。</p>
+<p>在角色库里找到“骑士”并将其加载到舞台中。我们设定精灵骑士在程序中随机出现，同时为了让程序更合理，需要限定精灵骑士的活动范围（见图5-10），编程指令如图5-11所示。</p>
+<p>（4）设计得分程序。</p>
+<p>我们要设计子弹打中精灵骑士后增加分数的程序。同时为了优化程序，可以增添指令积木块<img src="images/txt005_13.jpg" title="pagenumber_ebook=37,pagenumber_book=30" id="image_37_733_2405_951_2503" class="picture_line_figure" width="90" height="40" />，减少程序运行时占用的资源，编程指令如图5-12所示。</p>
+<p>在实时模式中，完整程序如图5-13所示。</p>
+<p><img src="images/txt005_14.jpg" title="pagenumber_ebook=38,pagenumber_book=31" id="image_38_507_445_1492_1093" class="picture_figure" width="415" height="272" /></p>
+<p>图5-10</p>
+<p><img src="images/txt005_15.jpg" title="pagenumber_ebook=38,pagenumber_book=31" id="image_38_280_1248_1719_1723" class="picture_figure" width="606" height="200" /></p>
+<p>图5-11</p>
+<p><img src="images/txt005_16.jpg" title="pagenumber_ebook=38,pagenumber_book=31" id="image_38_586_1876_1439_2319" class="picture_figure" width="358" height="186" /></p>
+<p>图5-12</p>
+<p><img src="images/txt005_17.jpg" title="pagenumber_ebook=39,pagenumber_book=32" id="image_39_348_384_1778_1846" class="picture_figure" width="602" height="616" /></p>
+<p>图5-13</p>
+<p>活动记录</p>
+<p><img src="images/txt005_18.jpg" title="pagenumber_ebook=39,pagenumber_book=32" id="table_39_339_2099_1805_2536" class="picture_table" width="617" height="184" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt005_19.jpg" title="pagenumber_ebook=40,pagenumber_book=33" id="table_40_270_662_1739_813" class="picture_table" width="618" height="63" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我可以设计程序，使精灵吉伽左右移动时，速度逐渐加快。</p>
+<p><span id="txt006.html"></span></p>
+<p>﻿</p>
+<p>第6课　发送和接收信息</p>
+<p>活动目标</p>
+<p>1.了解Micro：bit之间的无线通信方式。</p>
+<p>2.掌握在两个Micro：bit之间进行信息传递的方法。</p>
+<p>学习内容</p>
+<p>我们可以通过Micro：bit的蓝牙天线发送和接收信息（见图6-1）。</p>
+<p><img src="images/txt006_1.jpg" title="pagenumber_ebook=41,pagenumber_book=34" id="image_41_625_1329_1552_1907" class="picture_figure" width="389" height="242" /></p>
+<p>图6-1</p>
+<p>打开Mind+，鼠标单击编程模块栏中的<img src="images/txt006_2.jpg" title="pagenumber_ebook=41,pagenumber_book=34" id="image_41_1173_2009_1270_2096" class="picture_line_figure" width="40" height="35" />，右侧出现指令积木块列表，其中有<img src="images/txt006_3.jpg" title="pagenumber_ebook=41,pagenumber_book=34" id="image_41_472_2111_830_2201" class="picture_line_figure" width="150" height="37" />和<img src="images/txt006_4.jpg" title="pagenumber_ebook=41,pagenumber_book=34" id="image_41_867_2115_1144_2198" class="picture_line_figure" width="116" height="34" />。如果要使一个Micro：bit向另一个Micro：bit发送信号，需要将两个Micro：bit的蓝牙通信状态设置为打开状态，并且将两个Micro：bit的无线通信频道设置为相同频道，以方便相互通信，编程指令如图6-2所示。</p>
+<p>（1）Micro：bit发送信息。</p>
+<p>①将Micro：bit和电脑连接，在上传模式中，选择Micro：bit对应的端口。</p>
+<p>②鼠标单击<img src="images/txt006_5.jpg" title="pagenumber_ebook=41,pagenumber_book=34" id="image_41_645_2537_733_2631" class="picture_line_figure" width="36" height="39" />，加载主控板，然后鼠标双击“micro：bit”。</p>
+<p><img src="images/txt006_6.jpg" title="pagenumber_ebook=42,pagenumber_book=35" id="image_42_721_445_1297_829" class="picture_figure" width="242" height="161" /></p>
+<p>图6-2</p>
+<p><img src="images/txt006_7.jpg" title="pagenumber_ebook=42,pagenumber_book=35" id="image_42_699_980_1309_1597" class="picture_figure" width="256" height="259" /></p>
+<p>图6-3</p>
+<p>③组合如图6-3所示的编程指令，使Micro：bit能够重复地通过蓝牙天线发送“hello”的信息。上传程序后，等待另一个Micro：bit接收信息。</p>
+<p>（2）Micro：bit接收信息。</p>
+<p>另一个Micro：bit在接收到指定信息后，可以在LED屏幕上显示对应的信息。现设定Micro：bit接收到“hello”的信息后，LED屏幕上显示符号“√”。</p>
+<p>①对Micro：bit进行通信初始化，将接收信息的Micro：bit的无线频道设置为与发送信息的Micro：bit相同的频道，编程指令如图6-4所示。</p>
+<p>②当Micro：bit收到“hello”的信息，LED屏幕显示符号“√”。完整程序如图6-5所示。</p>
+<p><img src="images/txt006_8.jpg" title="pagenumber_ebook=43,pagenumber_book=36" id="image_43_743_443_1441_874" class="picture_figure" width="293" height="181" /></p>
+<p>图6-4</p>
+<p><img src="images/txt006_9.jpg" title="pagenumber_ebook=43,pagenumber_book=36" id="image_43_568_995_1592_1885" class="picture_figure" width="431" height="374" /></p>
+<p>图6-5</p>
+<p>动手操作</p>
+<p>（1）Micro：bit发送信息。</p>
+<p>组合如图6-6所示的编程指令。当我们按下Micro：bit的A按钮，Micro：bit发送“hello”的信息；当我们按下B按钮，Micro：bit发送“all”的信息；当我们同时按下A按钮和B按钮，Micro：bit发送“heart”的信息。</p>
+<p>我们也可以设定在Micro：bit发送信息的同时，LED屏幕上显示一个字符（如A），编程指令如图6-7所示。</p>
+<p><img src="images/txt006_10.jpg" title="pagenumber_ebook=44,pagenumber_book=37" id="image_44_378_403_1637_1393" class="picture_figure" width="530" height="417" /></p>
+<p>图6-6</p>
+<p><img src="images/txt006_11.jpg" title="pagenumber_ebook=44,pagenumber_book=37" id="image_44_556_1487_1472_2215" class="picture_figure" width="385" height="305" /></p>
+<p>图6-7</p>
+<p>（2）Micro：bit接收信息。</p>
+<p>组合如图6-8所示的编程指令，当Micro：bit接收到“hello”的信息时，LED屏幕显示符号“√”；当接收到“all”的信息时，LED屏幕上所有的LED灯亮起来；当接收到“heart”的信息时，LED屏幕显示心形图案。</p>
+<p><img src="images/txt006_12.jpg" title="pagenumber_ebook=45,pagenumber_book=38" id="image_45_399_388_1744_1838" class="picture_figure" width="566" height="610" /></p>
+<p>图6-8</p>
+<p>活动记录</p>
+<p><img src="images/txt006_13.jpg" title="pagenumber_ebook=45,pagenumber_book=38" id="table_45_341_2089_1799_2572" class="picture_table" width="614" height="203" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt006_14.jpg" title="pagenumber_ebook=46,pagenumber_book=39" id="table_46_270_664_1735_811" class="picture_table" width="617" height="60" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我可以设计程序，使多个Micro：bit互相发送和接收信息。</p>
+<p><span id="txt007.html"></span></p>
+<p>﻿</p>
+<p>第7课　翻译传感器的语言</p>
+<p>活动目标</p>
+<p>1.学习在串口监视器窗口查看传感器的实时数据。</p>
+<p>2.学习通过串口监视器向Micro：bit发送信息。</p>
+<p>学习内容</p>
+<p>Micro：bit上的温度传感器可以感知周围环境的温度。Mind+的串口监视器具有数据打印功能，它能将温度传感器感知的温度在电脑上显示出来。</p>
+<p>打开Mind+，鼠标单击编程模块栏中的<img src="images/txt007_1.jpg" title="pagenumber_ebook=47,pagenumber_book=40" id="image_47_1171_1385_1269_1467" class="picture_line_figure" width="40" height="34" />，右侧出现指令积木块列表。鼠标单击<img src="images/txt007_2.jpg" title="pagenumber_ebook=47,pagenumber_book=40" id="image_47_519_1487_924_1573" class="picture_line_figure" width="170" height="35" />，将其拖拽至编程区。然后，鼠标单击屏幕右下侧的<img src="images/txt007_3.jpg" title="pagenumber_ebook=47,pagenumber_book=40" id="image_47_473_1592_535_1658" class="picture_line_figure" width="25" height="27" />，设置串口波特率（见图7-1）。</p>
+<p><img src="images/txt007_4.jpg" title="pagenumber_ebook=47,pagenumber_book=40" id="image_47_460_1689_1657_2496" class="picture_figure" width="503" height="339" /></p>
+<p>图7-1</p>
+<p>串口波特率设置完成后，还需要打开串口监视器才能让串口监视器显示和发送数据。鼠标单击<img src="images/txt007_5.jpg" title="pagenumber_ebook=48,pagenumber_book=41" id="image_48_733_466_869_552" class="picture_line_figure" width="56" height="35" />，打开串口监视器（见图7-2）。</p>
+<p><img src="images/txt007_6.jpg" title="pagenumber_ebook=48,pagenumber_book=41" id="image_48_377_585_1621_1420" class="picture_figure" width="524" height="351" /></p>
+<p>图7-2</p>
+<p>动手操作</p>
+<p>（1）组合如图7-3所示的编程指令，其中指令积木块<img src="images/txt007_7.jpg" title="pagenumber_ebook=48,pagenumber_book=41" id="image_48_1326_1704_1686_1795" class="picture_line_figure" width="151" height="37" />可以使串口监视器窗口显示温度传感器读取的温度数值。</p>
+<p><img src="images/txt007_8.jpg" title="pagenumber_ebook=48,pagenumber_book=41" id="image_48_369_1895_1654_2512" class="picture_figure" width="541" height="259" /></p>
+<p>图7-3</p>
+<p>（2）将Micro：bit和电脑连接，鼠标单击<img src="images/txt007_9.jpg" title="pagenumber_ebook=49,pagenumber_book=42" id="image_49_1284_404_1471_463" class="picture_line_figure" width="78" height="24" />，将程序上传至Micro：bit。</p>
+<p>（3）鼠标单击<img src="images/txt007_10.png" title="pagenumber_ebook=49,pagenumber_book=42" class="picture_character" />，在串口监视器窗口读取当前温度传感器感知的温度数值，其显示的频率与设置的等待时间长短有关系。</p>
+<p>（4）将手指放在温度传感器上（见图7-4），串口监视器窗口显示的温度数值会变大，如图7-5所示。</p>
+<p><img src="images/txt007_11.jpg" title="pagenumber_ebook=49,pagenumber_book=42" id="image_49_636_849_1546_1354" class="picture_figure" width="382" height="212" /></p>
+<p>图7-4</p>
+<p><img src="images/txt007_12.jpg" title="pagenumber_ebook=49,pagenumber_book=42" id="image_49_457_1461_1685_2475" class="picture_figure" width="517" height="426" /></p>
+<p>图7-5</p>
+<p>（5）通过串口监视器窗口底部的输入框，我们可以向Micro：bit发送信息（见图7-6）。指令积木块<img src="images/txt007_13.jpg" title="pagenumber_ebook=50,pagenumber_book=43" id="image_50_738_461_1035_538" class="picture_line_figure" width="124" height="32" />可以帮助Micro：bit接收我们在输入框发送的信息。现设定Micro：bit收到“hello”的信息后，LED屏幕上显示跳动的红色心形图案；如果没有接收信息，则依次显示WAIT的各个字母，编程指令如图7-7所示。</p>
+<p><img src="images/txt007_14.jpg" title="pagenumber_ebook=50,pagenumber_book=43" id="image_50_395_755_1598_907" class="picture_figure" width="507" height="63" /></p>
+<p>图7-6</p>
+<p><img src="images/txt007_15.jpg" title="pagenumber_ebook=50,pagenumber_book=43" id="image_50_533_1033_1464_2086" class="picture_figure" width="392" height="443" /></p>
+<p>图7-7</p>
+<p>我们通过串口监视器读取并显示了温度传感器感知的温度数值，而且通过串口监视器向Micro：bit发送指令，实现了人与机器的对话。</p>
+<p>活动记录</p>
+<p><img src="images/txt007_16.jpg" title="pagenumber_ebook=51,pagenumber_book=44" id="table_51_341_595_1801_1174" class="picture_table" width="615" height="243" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt007_17.jpg" title="pagenumber_ebook=51,pagenumber_book=44" id="table_51_338_1480_1802_1624" class="picture_table" width="616" height="59" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我还可以通过串口监视器，读取其他传感器的数据。</p>
+<p><span id="txt008.html"></span></p>
+<p>﻿</p>
+<p>第8课　音乐响起来</p>
+<p>活动目标</p>
+<p>1.了解Micro：mate的基本构造。</p>
+<p>2.学习使用Micro：mate播放音乐的功能。</p>
+<p>学习内容</p>
+<p>Micro：mate（见图8-1）是与Micro：bit配套的一款多功能I/O扩展板，扩展板上的多个3Pin接口支持上百款电子元件，它还有一个3.5mm的音频输出接口，背面附带防反接的胶垫。Micro：mate安装很方便，只用两个黄铜螺母就可以安装。</p>
+<p><img src="images/txt008_1.jpg" title="pagenumber_ebook=52,pagenumber_book=45" id="image_52_605_1505_1404_1996" class="picture_figure" width="335" height="207" /></p>
+<p>图8-1</p>
+<p>动手操作</p>
+<p>（1）连接硬件。</p>
+<p>①将Micro：bit和Micro：mate固定在一起（本书后面提到的Micro：mate都是与Micro：bit固定在一起的），如图8-2所示。</p>
+<p>②将组合了Micro：mate的Micro：bit和电脑连接，并且将喇叭或者耳机通过数据线与Micro：mate的P0接口相连接（见图8-3）。P0接口可以输出声音信号。</p>
+<p><img src="images/txt008_2.jpg" title="pagenumber_ebook=53,pagenumber_book=46" id="image_53_351_579_1045_1161" class="picture_figure" width="292" height="244" /></p>
+<p>图8-2</p>
+<p><img src="images/txt008_3.jpg" title="pagenumber_ebook=53,pagenumber_book=46" id="image_53_1191_460_1835_1173" class="picture_figure" width="271" height="300" /></p>
+<p>图8-3</p>
+<p>（2）设计程序。</p>
+<p>①打开Mind+，鼠标单击编程模块栏中的<img src="images/txt008_4.jpg" title="pagenumber_ebook=53,pagenumber_book=46" id="image_53_1223_1342_1327_1430" class="picture_line_figure" width="43" height="36" />，右侧出现指令积木块列表。鼠标单击<img src="images/txt008_5.jpg" title="pagenumber_ebook=53,pagenumber_book=46" id="image_53_608_1445_1204_1532" class="picture_line_figure" width="250" height="35" />和<img src="images/txt008_6.jpg" title="pagenumber_ebook=53,pagenumber_book=46" id="image_53_1244_1446_1802_1529" class="picture_line_figure" width="234" height="34" />（见图8-4），将其拖拽至编程区。</p>
+<p><img src="images/txt008_7.jpg" title="pagenumber_ebook=53,pagenumber_book=46" id="image_53_474_1677_1701_2434" class="picture_figure" width="516" height="318" /></p>
+<p>图8-4</p>
+<p>②鼠标再次单击<img src="images/txt008_8.jpg" title="pagenumber_ebook=54,pagenumber_book=47" id="image_54_789_401_886_494" class="picture_line_figure" width="40" height="39" />，从指令积木块列表中拖拽8个<img src="images/txt008_9.jpg" title="pagenumber_ebook=54,pagenumber_book=47" id="image_54_269_496_992_605" class="picture_line_figure" width="304" height="44" />至编程区。</p>
+<p>③鼠标单击<img src="images/txt008_10.jpg" title="pagenumber_ebook=54,pagenumber_book=47" id="image_54_595_626_1399_741" class="picture_line_figure" width="338" height="48" />上的“低C/C3”，虚拟琴键弹出（见图8-5）。鼠标在琴键上移动，琴键底部显示对应的标记，如“中C/C4”。“C/C4”中的“C”与“C4”分别表示音符与音高。“C3”中的“3”表示低音，“C4”中的“4”表示中音，“C5”中的“5”表示高音。C、D、E、F、G、A、B则分别表示简谱中的Do、Re、Mi、Fa、So、La、Si。</p>
+<p><img src="images/txt008_11.jpg" title="pagenumber_ebook=54,pagenumber_book=47" id="image_54_392_1046_1635_1527" class="picture_figure" width="523" height="202" /></p>
+<p>图8-5</p>
+<p>④鼠标单击琴键，系统会自动设置琴键上面的指令积木块的相应参数。鼠标依次单击琴键上的Do、Re、Mi、Fa、So、La、Si、Do（高音），8个指令积木块的参数也就设置好了。</p>
+<p>⑤音乐是需要节拍的，在Mind+中，可以设置1、1/2、1/4、2、4几种节拍，在实际运用中可以根据不同的音乐节奏来调试并设置程序中的节拍（见图8-6）。</p>
+<p><img src="images/txt008_12.jpg" title="pagenumber_ebook=54,pagenumber_book=47" id="image_54_605_2033_1404_2542" class="picture_figure" width="335" height="213" /></p>
+<p>图8-6</p>
+<p>⑥上传程序到Micro：bit，我们就可以听到悦耳的音阶了。</p>
+<p>⑦将显示内置图案的指令积木块和播放音符的指令积木块组合到一起，上传程序后，Micro：bit的LED灯会随着音符的播放变换出不同的图案。</p>
+<p>⑧分别组合如图8-7、图8-8所示的编程指令，插上耳机，按下Micro：bit的A按钮，就可以听到音乐了。</p>
+<p><img src="images/txt008_13.jpg" title="pagenumber_ebook=55,pagenumber_book=48" id="image_55_639_741_1504_2168" class="picture_figure" width="364" height="601" /></p>
+<p>图8-7</p>
+<p><img src="images/txt008_14.jpg" title="pagenumber_ebook=56,pagenumber_book=49" id="image_56_255_536_1757_1479" class="picture_figure" width="632" height="396" /></p>
+<p>图8-8</p>
+<p>活动记录</p>
+<p><img src="images/txt008_15.jpg" title="pagenumber_ebook=56,pagenumber_book=49" id="table_56_267_1774_1735_2349" class="picture_table" width="618" height="241" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt008_16.jpg" title="pagenumber_ebook=57,pagenumber_book=50" id="table_57_336_661_1804_810" class="picture_table" width="618" height="62" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我可以设计程序，使Micro：bit在Micro：mate的帮助下，播放一首音乐。</p>
+<p><span id="txt009.html"></span></p>
+<p>﻿</p>
+<p>第9课　制作光控灯</p>
+<p>活动目标</p>
+<p>1.了解光线传感器的基本原理。</p>
+<p>2.学习通过光线传感器控制LED灯。</p>
+<p>学习内容</p>
+<p>光线传感器（见图9-1）可以将光线的明暗程度转换为数据，我们可以通过Mind+的串口监视器查看光线传感器转换的数据。然后，我们通过程序设计，可以用这些数据控制LED灯。</p>
+<p><img src="images/txt009_1.jpg" title="pagenumber_ebook=58,pagenumber_book=51" id="image_58_361_1484_1646_2165" class="picture_figure" width="541" height="286" /></p>
+<p>图9-1</p>
+<p>通过串口监视器查看光线传感器数据的步骤如下。</p>
+<p>（1）将光线传感器通过数据线与Micro：mate的P2接口相连接。</p>
+<p>（2）将组合了Micro：mate的Micro：bit和电脑连接。</p>
+<p>（3）打开Mind+，在上传模式中，串口监视器窗口可以显示光线传感器的数据，编程指令如图9-2所示。</p>
+<p><img src="images/txt009_2.jpg" title="pagenumber_ebook=59,pagenumber_book=52" id="image_59_460_398_1724_951" class="picture_figure" width="532" height="232" /></p>
+<p>图9-2</p>
+<p>（4）将程序上传到Micro：bit，鼠标单击<img src="images/txt009_3.png" title="pagenumber_ebook=59,pagenumber_book=52" class="picture_character" />，打开串口监视器，串口监视器窗口显示一串数据。如果我们转动光线传感器，串口监视器窗口显示的数据也会同时发生变化（见图9-3）。</p>
+<p><img src="images/txt009_4.jpg" title="pagenumber_ebook=59,pagenumber_book=52" id="image_59_329_1274_1849_2151" class="picture_figure" width="640" height="369" /></p>
+<p>图9-3</p>
+<p>动手操作</p>
+<p>（1）设计程序。</p>
+<p>我们设定在不同的光照环境中，不同颜色的LED灯发光：在强光环境中，红灯亮；在背光环境中，黄灯亮；在无光环境中，绿灯亮。</p>
+<p>在强光环境中，鼠标单击“控制”模块中的指令积木块<img src="images/txt009_5.jpg" title="pagenumber_ebook=60,pagenumber_book=53" id="image_60_1352_396_1661_573" class="picture_line_figure" width="129" height="73" />，将其拖拽至编程区，设定当接收到的光线传感器数据大于100时，与Micro：mate的P8接口相连接的红色LED灯亮，否则就熄灭，编程指令如图9-4所示。</p>
+<p><img src="images/txt009_6.jpg" title="pagenumber_ebook=60,pagenumber_book=53" id="image_60_392_718_1649_1248" class="picture_figure" width="529" height="223" /></p>
+<p>图9-4</p>
+<p>在背光环境中，设定当接收到的光线传感器数据大于20并且小于100时，与Micro：mate的P12接口相连接的黄色LED灯亮，否则就熄灭，编程指令如图9-5所示。</p>
+<p><img src="images/txt009_7.jpg" title="pagenumber_ebook=60,pagenumber_book=53" id="image_60_264_1561_1746_1942" class="picture_figure" width="624" height="159" /></p>
+<p>图9-5</p>
+<p>在无光环境中，设定当接收到的光线传感器数据小于10时，与Micro：mate的P16接口相连接的绿色LED灯亮，否则就熄灭，编程指令如图9-6所示。</p>
+<p>完整程序如图9-7所示。</p>
+<p>（2）组建硬件套件。</p>
+<p>如图9-8所示，将三个不同颜色的LED灯、光线传感器与组合了Micro：mate的Micro：bit相连接。上传程序后，可以看到LED灯在不同的光照环境下有规律地闪烁起来。</p>
+<p><img src="images/txt009_8.jpg" title="pagenumber_ebook=61,pagenumber_book=54" id="image_61_495_508_1671_1020" class="picture_figure" width="495" height="215" /></p>
+<p>图9-6</p>
+<p><img src="images/txt009_9.jpg" title="pagenumber_ebook=61,pagenumber_book=54" id="image_61_332_1155_1805_2333" class="picture_figure" width="621" height="495" /></p>
+<p>图9-7</p>
+<p><img src="images/txt009_10.jpg" title="pagenumber_ebook=62,pagenumber_book=55" id="image_62_570_391_1505_963" class="picture_figure" width="393" height="240" /></p>
+<p>图9-8</p>
+<p>活动记录</p>
+<p><img src="images/txt009_11.jpg" title="pagenumber_ebook=62,pagenumber_book=55" id="table_62_266_1192_1735_1696" class="picture_table" width="618" height="211" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt009_12.jpg" title="pagenumber_ebook=62,pagenumber_book=55" id="table_62_267_1999_1733_2145" class="picture_table" width="617" height="60" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>与Micro：bit相连接的LED灯依次点亮后，我能使这些灯随着光线变化，闪烁的频率也发生相应变化。</p>
+<p><span id="txt010.html"></span></p>
+<p>﻿</p>
+<p>第10课　红外接收和发射</p>
+<p>活动目标</p>
+<p>1.了解红外传感器的特点和作用。</p>
+<p>2.学习通过红外接收传感器和红外发射传感器进行远距离控制。</p>
+<p>学习内容</p>
+<p>我们在生活中经常会用到遥控器，遥控器就是一种红外发射装置。在实际运用中，我们需要将红外接收装置和红外发射装置配合使用。红外传感器是红外发射装置和红外接收装置的核心部件。红外发射传感器（见图10-1（a））和红外接收传感器（见图10-1（b））之间通常为单对单控制，形成点对点的遥控应用。</p>
+<p><img src="images/txt010_1.jpg" title="pagenumber_ebook=63,pagenumber_book=56" id="image_63_466_1579_1673_2112" class="picture_figure" width="508" height="224" /></p>
+<p>图10-1</p>
+<p>那么，遥控器是怎么发出指令的呢？红外接收传感器又是怎么接收指令的呢？我们先将红外接收传感器与Micro：mate的P8接口相连接，然后通过Mind+的串口监视器来探索红外接收与发射的秘密。</p>
+<p>（1）硬件连接。</p>
+<p>①打开Mind+，鼠标单击<img src="images/txt010_2.jpg" title="pagenumber_ebook=63,pagenumber_book=56" id="image_63_920_2450_1033_2556" class="picture_line_figure" width="47" height="43" />，加载通信模块鼠标双击“红外发射模块”和“红外接收模块”，如图10-2所示。</p>
+<p><img src="images/txt010_3.jpg" title="pagenumber_ebook=64,pagenumber_book=57" id="image_64_252_395_1757_1130" class="picture_figure" width="633" height="309" /></p>
+<p>图10-2</p>
+<p>②将红外接收传感器与Micro：mate的P8接口相连接，如图10-3所示。</p>
+<p><img src="images/txt010_4.jpg" title="pagenumber_ebook=64,pagenumber_book=57" id="image_64_648_1302_1345_2071" class="picture_figure" width="293" height="323" /></p>
+<p>图10-3</p>
+<p>（2）编写程序。</p>
+<p>①设置串口波特率，编程指令如图10-4所示。</p>
+<p><img src="images/txt010_5.jpg" title="pagenumber_ebook=64,pagenumber_book=57" id="image_64_732_2303_1264_2531" class="picture_figure" width="224" height="95" /></p>
+<p>图10-4</p>
+<p>②鼠标单击“变量”模块中的指令积木块<img src="images/txt010_6.jpg" title="pagenumber_ebook=65,pagenumber_book=58" id="image_65_1269_410_1452_460" class="picture_line_figure" width="77" height="20" />，创建变量“红外值”，如图10-5所示，该变量用于装载红外接收传感器接收到的数据。</p>
+<p><img src="images/txt010_7.jpg" title="pagenumber_ebook=65,pagenumber_book=58" id="image_65_704_564_1452_986" class="picture_figure" width="315" height="177" /></p>
+<p>图10-5</p>
+<p>③将“红外值”设置为红外接收传感器接收到的数据，编程指令如图10-6所示。</p>
+<p><img src="images/txt010_8.jpg" title="pagenumber_ebook=65,pagenumber_book=58" id="image_65_535_1207_1610_1335" class="picture_figure" width="453" height="52" /></p>
+<p>图10-6</p>
+<p>④鼠标单击“模块”下拉列表中的“运算符”，在右侧出现的指令积木块列表中将<img src="images/txt010_9.jpg" title="pagenumber_ebook=65,pagenumber_book=58" id="image_65_474_1477_699_1542" class="picture_line_figure" width="94" height="26" />和<img src="images/txt010_10.jpg" title="pagenumber_ebook=65,pagenumber_book=58" id="image_65_736_1484_944_1549" class="picture_line_figure" width="87" height="26" />组合，编程指令如图10-7所示。完整程序如图10-8所示。</p>
+<p><img src="images/txt010_11.jpg" title="pagenumber_ebook=65,pagenumber_book=58" id="image_65_567_1648_1574_1952" class="picture_figure" width="424" height="127" /></p>
+<p>图10-7</p>
+<p><img src="images/txt010_12.jpg" title="pagenumber_ebook=65,pagenumber_book=58" id="image_65_629_2014_1549_2570" class="picture_figure" width="387" height="233" /></p>
+<p>图10-8</p>
+<p>（3）查看串口监视器。</p>
+<p>上传程序到Micro：bit后，按下遥控器上的按键，串口监视器窗口就会显示一串数据，如图10-9所示。</p>
+<p><img src="images/txt010_13.jpg" title="pagenumber_ebook=66,pagenumber_book=59" id="image_66_390_652_1625_1687" class="picture_figure" width="519" height="435" /></p>
+<p>图10-9</p>
+<p>按下遥控器上的不同按键，串口监视器窗口会显示不同的数据，在后面的实践活动中，我们需要依据每个按键发出的不同指令，进行程序的编写。</p>
+<p>动手操作</p>
+<p>如图10-10所示，将红外发射传感器与Micro：mate的P12接口相连接，将红外接收传感器与Micro：mate的P8接口相连接，将LED灯与Micro：mate的P16接口相连接。</p>
+<p>我们设置数据“OxFD00FF”代表开灯指令，数据“OxFD8877”代表关灯指令。当按下Micro：bit的A按钮时，红外发射传感器向红外接收传感器发射开灯指令；当按下Micro：bit的B按钮时，红外发射传感器向红外接收传感器发射关灯指令。编程指令如图10-11所示。</p>
+<p><img src="images/txt010_14.jpg" title="pagenumber_ebook=67,pagenumber_book=60" id="image_67_492_386_1652_1278" class="picture_figure" width="488" height="376" /></p>
+<p>图10-10</p>
+<p><img src="images/txt010_15.jpg" title="pagenumber_ebook=67,pagenumber_book=60" id="image_67_554_1409_1611_1836" class="picture_figure" width="445" height="179" /></p>
+<p>图10-11</p>
+<p>完整程序如图10-12所示。</p>
+<p>上传程序到Micro：bit后，按下A按钮，LED灯亮；按下B按钮，LED灯熄灭。</p>
+<p>鼠标单击“红外发射NEC”下拉按钮，可以看到红外发射支持非常多的协议，如图10-13所示。</p>
+<p>如果某一种家用电器的通信协议和图10-13所示的通信协议列表中的一项一致，我们就可以用Micro：bit和Micro：mate制作一个微型遥控器控制该家用电器。</p>
+<p><img src="images/txt010_16.jpg" title="pagenumber_ebook=68,pagenumber_book=61" id="image_68_433_437_1692_1609" class="picture_figure" width="530" height="493" /></p>
+<p>图10-12</p>
+<p><img src="images/txt010_17.jpg" title="pagenumber_ebook=68,pagenumber_book=61" id="image_68_362_1760_1699_2350" class="picture_figure" width="563" height="248" /></p>
+<p>图10-13</p>
+<p>活动记录</p>
+<p><img src="images/txt010_18.jpg" title="pagenumber_ebook=69,pagenumber_book=62" id="table_69_337_595_1801_1172" class="picture_table" width="616" height="242" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt010_19.jpg" title="pagenumber_ebook=69,pagenumber_book=62" id="table_69_339_1476_1805_1631" class="picture_table" width="617" height="64" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我可以用Micro：bit做一个控制家用电器的遥控器。</p>
+<p><span id="txt011.html"></span></p>
+<p>﻿</p>
+<p>第11课　智能浇水提醒装置</p>
+<p>活动目标</p>
+<p>1.了解土壤湿度传感器的功能。</p>
+<p>2.学习搭建智能浇水提醒装置。</p>
+<p>学习内容</p>
+<p>很多人都喜欢在家里种花种草，却常常忘了给它们浇水。我们可以将一个土壤湿度传感器（见图11-1）与Micro：mate相连接，然后设计提醒给植物浇水的程序。</p>
+<p><img src="images/txt011_1.jpg" title="pagenumber_ebook=70,pagenumber_book=63" id="image_70_697_1452_1313_1830" class="picture_figure" width="258" height="158" /></p>
+<p>图11-1</p>
+<p>（1）将土壤湿度传感器与Micro：mate的P0接口相连接（见图11-2）。</p>
+<p><img src="images/txt011_2.jpg" title="pagenumber_ebook=70,pagenumber_book=63" id="image_70_643_1972_1368_2560" class="picture_figure" width="304" height="247" /></p>
+<p>图11-2</p>
+<p>（2）组合如图11-3所示的编程指令，通过Mind+的串口监视器读取土壤湿度传感器传输的数据。</p>
+<p><img src="images/txt011_3.jpg" title="pagenumber_ebook=71,pagenumber_book=64" id="image_71_345_546_1813_1123" class="picture_figure" width="618" height="242" /></p>
+<p>图11-3</p>
+<p>（3）将土壤湿度传感器竖着插入水中，串口监视器窗口显示的数据如图11-4所示。需要注意的是，不要将土壤湿度传感器全部插入水或土壤中，只插入1/2即可，以免造成短路或者元器件损坏。</p>
+<p><img src="images/txt011_4.jpg" title="pagenumber_ebook=71,pagenumber_book=64" id="image_71_666_1433_1525_2248" class="picture_figure" width="361" height="342" /></p>
+<p>图11-4</p>
+<p>（4）将土壤湿度传感器置于湿度较高的植物根部附近，串口监视器窗口显示的数据如图11-5所示。</p>
+<p>（5）将土壤湿度传感器置于较干燥的植物根部附近，串口监视器窗口显示的数据如图11-6所示。</p>
+<p><img src="images/txt011_5.jpg" title="pagenumber_ebook=72,pagenumber_book=65" id="image_72_376_364_1623_1023" class="picture_figure" width="525" height="277" /></p>
+<p>图11-5</p>
+<p><img src="images/txt011_6.jpg" title="pagenumber_ebook=72,pagenumber_book=65" id="image_72_368_1101_1621_1731" class="picture_figure" width="527" height="264" /></p>
+<p>图11-6</p>
+<p>动手操作</p>
+<p>在了解了土壤湿度传感器的基本原理之后，我们可以尝试做一个简单的浇水提醒装置。操作步骤如下。</p>
+<p>（1）将土壤湿度传感器与Micro：mate的P2接口相连接。土壤湿度传感器传输的数据是模拟数据，取值在0～1023之间，Micro：mate的三个模拟接口（P0、P1、P2）都可以传输模拟数据。</p>
+<p>（2）将三个不同颜色的LED灯分别与Micro：mate的P16接口、P12接口、P8接口相连接，如图11-7所示。</p>
+<p>（3）组合如图11-8所示的编程指令，设定三个LED灯表示盆栽植物三种不同的湿度状态：绿灯表示湿度合适，黄灯表示需要适当浇水，红灯表示需要立即浇水。</p>
+<p><img src="images/txt011_7.jpg" title="pagenumber_ebook=73,pagenumber_book=66" id="image_73_458_368_1727_1246" class="picture_figure" width="534" height="369" /></p>
+<p>图11-7</p>
+<p><img src="images/txt011_8.jpg" title="pagenumber_ebook=73,pagenumber_book=66" id="image_73_460_1325_1705_2472" class="picture_figure" width="524" height="483" /></p>
+<p>图11-8</p>
+<p>活动记录</p>
+<p><img src="images/txt011_9.jpg" title="pagenumber_ebook=74,pagenumber_book=67" id="table_74_268_595_1735_1174" class="picture_table" width="617" height="243" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt011_10.jpg" title="pagenumber_ebook=74,pagenumber_book=67" id="table_74_270_1478_1739_1629" class="picture_table" width="618" height="63" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>为了更好地起到警示作用，在LED灯亮的同时，我可以进一步完善设计。</p>
+<p><span id="txt012.html"></span></p>
+<p>﻿</p>
+<p>第12课　电机驱动扩展板</p>
+<p>活动目标</p>
+<p>1.了解电机驱动扩展板的功能。</p>
+<p>2.学习搭建模拟计步装置。</p>
+<p>学习内容</p>
+<p>电机驱动扩展板（见图12-1）上有电机接口、舵机接口、输入输出接口等多个接口，其中舵机接口、输入输出接口为针脚式接口，方便连接其他设备，可以帮助Micro：bit开发更多功能。</p>
+<p><img src="images/txt012_1.jpg" title="pagenumber_ebook=75,pagenumber_book=68" id="image_75_462_1444_1695_2201" class="picture_figure" width="519" height="318" /></p>
+<p>图12-1</p>
+<p>电机驱动扩展板可驱动普通小型马达和微型金属电机（N20）。电机驱动扩展板的电机接口旁还有状态指示灯，以显示电机运行的状态。舵机接口直接与输入电源相连，增加了供电电流，可支持多个舵机同时工作。</p>
+<p>电机驱动扩展板上有一个插槽，使用前先将Micro：bit插入插槽，插入时注意将Micro：bit上标示的“GND”对准电机驱动扩展板上标示的“GND”，然后稍稍用力向下压，即可成功插入，如图12-2所示。</p>
+<p><img src="images/txt012_2.jpg" title="pagenumber_ebook=76,pagenumber_book=69" id="image_76_596_466_1405_1211" class="picture_figure" width="340" height="313" /></p>
+<p>图12-2</p>
+<p>我们可以将电机驱动扩展板与其他设备相连接，为Micro：bit开发更多的功能，例如搭建机器人、驱动多个电机（需要单独为电机驱动扩展板提供电源）等。将电机驱动扩展板的IIC接口与液晶显示屏连接，可以将数据直观地显示出来。</p>
+<p>图12-3（a）所示为1602A液晶显示屏（以下简称为“液晶显示屏”），它能够显示两排字符，每排显示16个字符。图12-3（b）为液晶显示屏和电机驱动扩展板的电路连接示意图。使用时先在Mind+中将液晶显示屏的通信编码地址设置为“0x20”，然后设置在液晶显示屏第1行（或第2行）显示内容即可，编程指令如图12-4所示。</p>
+<p><img src="images/txt012_3.jpg" title="pagenumber_ebook=76,pagenumber_book=69" id="image_76_284_1883_1752_2568" class="picture_figure" width="618" height="288" /></p>
+<p>图12-3</p>
+<p><img src="images/txt012_4.jpg" title="pagenumber_ebook=77,pagenumber_book=70" id="image_77_566_425_1574_768" class="picture_figure" width="424" height="143" /></p>
+<p>图12-4</p>
+<p>动手操作</p>
+<p>Micro：bit自带三轴加速度传感器，加速度传感器具有体积小、重量轻等特点，可用于汽车安全气囊设计中的汽车状态检测、导航仪中汽车行驶状态的检测等，它还可以测量空间加速度，能够全面、准确地反映物体的运动性质，在航空航天、汽车和医学等领域有广泛的应用。</p>
+<p>现在我们用Micro：bit和电机驱动扩展板做一个模拟计步装置。物体在运动的过程中，前一个状态和后一个状态是有区别的，加速度传感器会记录物体状态的变化。在编程指令中，我们可将前一个状态设定为变量x1，后一个状态设定为变量x2，如果前后两个值相差不大，则模拟计步装置判定物体为静止状态，产生的变化忽略不计；如果两个值相差比较大，则模拟计步装置判定物体在运动中，并会将变化记录下来。搭建模拟计步装置的具体步骤如下。</p>
+<p>（1）硬件连接。</p>
+<p>将Micro：bit插在电机驱动扩展板的插槽上，将液晶显示屏与电机驱动扩展板的IIC接口相连接。</p>
+<p>（2）对液晶显示屏的参数进行初始化。</p>
+<p>打开Mind+，将液晶显示屏的通信编码地址设置为“0x20”，然后设置在液晶显示屏第1行显示“number：”，编程指令如图12-5所示。</p>
+<p><img src="images/txt012_5.jpg" title="pagenumber_ebook=77,pagenumber_book=70" id="image_77_450_2140_1684_2446" class="picture_figure" width="519" height="128" /></p>
+<p>图12-5</p>
+<p>（3）新建3个变量。</p>
+<p>新建2个变量——x1、x2，以记录运动中前一个状态和后一个状态的加速度数据，然后通过计算前后两个数据的差值判断动作是否发生变化。此外，还需要新建变量“num”，以记录动作状态发生变化的次数。</p>
+<p>（4）编写程序。</p>
+<p>首先为变量x1、x2赋值，编程指令如图12-6所示。由于两个变量之差可能会是负数，所以需要通过指令积木块<img src="images/txt012_6.jpg" title="pagenumber_ebook=78,pagenumber_book=71" id="image_78_1013_788_1546_876" class="picture_line_figure" width="224" height="36" />获得变量x1和变量x2的数值差，这样就可以在程序运行中始终保持运行结果为自然数。本例中设置差值绝对值大于200，编程指令如图12-7所示（可以根据具体情况设置绝对值）。</p>
+<p><img src="images/txt012_7.jpg" title="pagenumber_ebook=78,pagenumber_book=71" id="image_78_386_1121_1617_1466" class="picture_figure" width="518" height="144" /></p>
+<p>图12-6</p>
+<p><img src="images/txt012_8.jpg" title="pagenumber_ebook=78,pagenumber_book=71" id="image_78_388_1599_1643_2017" class="picture_figure" width="529" height="175" /></p>
+<p>图12-7</p>
+<p>上传程序后，按下Micro：bit的A按钮，液晶显示屏显示当前动作变化的有效数值。</p>
+<p>完整程序如图12-8所示。</p>
+<p>当我们携带模拟计步装置行走时，按下Micro：bit的A按钮，液晶显示屏就能准确地显示当前走路的步数。</p>
+<p><img src="images/txt012_9.jpg" title="pagenumber_ebook=79,pagenumber_book=72" id="image_79_476_411_1676_1717" class="picture_figure" width="504" height="549" /></p>
+<p>图12-8</p>
+<p>活动记录</p>
+<p><img src="images/txt012_10.jpg" title="pagenumber_ebook=79,pagenumber_book=72" id="table_79_341_2025_1803_2597" class="picture_table" width="616" height="240" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt012_11.jpg" title="pagenumber_ebook=80,pagenumber_book=73" id="table_80_264_658_1733_815" class="picture_table" width="618" height="65" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我还可以使液晶显示屏显示更多传感器的数据。</p>
+<p><span id="txt013.html"></span></p>
+<p>﻿</p>
+<p>第13课　舵机转起来</p>
+<p>活动目标</p>
+<p>1.了解舵机的基本工作原理。</p>
+<p>2.学习控制舵机的角度。</p>
+<p>学习内容</p>
+<p>舵机最早仅用于船舶的转向控制，经过不断发展，目前舵机在生活中的应用非常广泛，小区的道闸栏杆（见图13-1）、高铁检票口的闸口、飞机机翼的减速板都应用了舵机原理。舵机在机器人领域也应用得很多，在工业上用的机械手臂使用了舵机技术，人形机器人四肢的结构设计（见图13-2）也应用了舵机技术。</p>
+<p><img src="images/txt013_1.jpg" title="pagenumber_ebook=81,pagenumber_book=74" id="image_81_380_1597_1762_2346" class="picture_figure" width="581" height="315" /></p>
+<p>图13-1</p>
+<p>现在我们用Micro：bit和电机驱动扩展板控制舵机转动。</p>
+<p>（1）将舵机与电机驱动扩展板的S8接口、S8（GND）接口、S8（VIN）接口相连接（见图13-3），将Micro：bit插到电机驱动扩展板的插槽上。</p>
+<p><img src="images/txt013_2.jpg" title="pagenumber_ebook=82,pagenumber_book=75" id="image_82_388_417_1572_1127" class="picture_figure" width="499" height="299" /></p>
+<p>图13-2</p>
+<p><img src="images/txt013_3.jpg" title="pagenumber_ebook=82,pagenumber_book=75" id="image_82_313_1240_1729_2079" class="picture_figure" width="596" height="353" /></p>
+<p>图13-3</p>
+<p><img src="images/txt013_4.jpg" title="pagenumber_ebook=82,pagenumber_book=75" id="image_82_664_2226_1282_2328" class="picture_figure" width="259" height="42" /></p>
+<p>（2）打开Mind+，鼠标单击编程模块栏中的“motorbit”，右侧出现指令积木块列表。鼠标单击，将其拖拽至编程区（见图13-4），组合如图13-5所示的编程指令，控制舵机在0度至90度之间转动。</p>
+<p>（3）上传程序到Micro：bit，打开电机驱动扩展板的开关，观察舵机转动情况。</p>
+<p><img src="images/txt013_5.jpg" title="pagenumber_ebook=83,pagenumber_book=76" id="image_83_390_484_1648_2417" class="picture_figure" width="530" height="814" /></p>
+<p>图13-4</p>
+<p><img src="images/txt013_6.jpg" title="pagenumber_ebook=84,pagenumber_book=77" id="image_84_452_401_1572_1211" class="picture_figure" width="471" height="341" /></p>
+<p>图13-5</p>
+<p>动手操作</p>
+<p>现在我们用Micro：bit和电机驱动扩展板进一步控制舵机。</p>
+<p>（1）组合如图13-6所示的编程指令，设定在按下Micro：bit的A按钮时，舵机旋转到0度；在按下B按钮时，舵机旋转到90度。</p>
+<p><img src="images/txt013_7.jpg" title="pagenumber_ebook=84,pagenumber_book=77" id="image_84_641_1682_1433_2321" class="picture_figure" width="333" height="269" /></p>
+<p>图13-6</p>
+<p>（2）将液晶显示屏与电机驱动扩展板的IIC接口相连接。</p>
+<p>（3）组合如图13-7所示的编程指令，舵机旋转到指定角度后，液晶显示屏上显示出旋转角度的数值，这样我们就可以了解当前舵机转动的角度。在实际运用中，我们还可以将舵机的旋转角度设置为180度，以完成一些特定的功能。</p>
+<p><img src="images/txt013_8.jpg" title="pagenumber_ebook=85,pagenumber_book=78" id="image_85_613_550_1584_1511" class="picture_figure" width="409" height="404" /></p>
+<p>图13-7</p>
+<p>（4）将LED灯与电机驱动扩展板的P8接口、P8（GND）接口、P8（3V3）接口相连接（见图13-8）。</p>
+<p><img src="images/txt013_9.jpg" title="pagenumber_ebook=85,pagenumber_book=78" id="image_85_458_1756_1662_2491" class="picture_figure" width="507" height="309" /></p>
+<p>图13-8</p>
+<p>（5）组合如图13-9所示的编程指令，设定当舵机旋转到180度时，LED灯亮起来；舵机旋转到0度时，LED灯熄灭。</p>
+<p><img src="images/txt013_10.jpg" title="pagenumber_ebook=86,pagenumber_book=79" id="image_86_560_537_1462_1652" class="picture_figure" width="379" height="469" /></p>
+<p>图13-9</p>
+<p>活动记录</p>
+<p><img src="images/txt013_11.jpg" title="pagenumber_ebook=86,pagenumber_book=79" id="table_86_272_1915_1733_2493" class="picture_table" width="615" height="242" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt013_12.jpg" title="pagenumber_ebook=87,pagenumber_book=80" id="table_87_339_660_1807_817" class="picture_table" width="618" height="65" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我可以借助Micro：bit和电机驱动扩展板，用舵机设计一个道闸装置。</p>
+<p><span id="txt014.html"></span></p>
+<p>﻿</p>
+<p>第14课　打开物联网大门</p>
+<p>活动目标</p>
+<p>1.了解OBLOQ的功能。</p>
+<p>2.学习向物联网开放平台发送和接收消息。</p>
+<p>学习内容</p>
+<p>物联网是在互联网基础上延伸和扩展的网络，它将各种信息传感设备与互联网结合起来，形成一个巨大的实用网络，其目标是在任何时间、任何地点，实现人、机、物的互联互通。</p>
+<p>物联网主要的组成部分是一个网络平台，以及可以和这个网络平台进行通信且能够无线联网的硬件设备。</p>
+<p>OBLOQ是一款基于ESP8266芯片设计的串口转WIFI物联网模块（见图14-1），它可以依托Easy IoT物联网开放平台接收和发送数据与通信指令（见图14-2）。我们通过电机驱动扩展板将OBLOQ和Micro：bit相连接，再借助Mind+，就能迅速搭建出一套物联网智能装置。</p>
+<p><img src="images/txt014_1.jpg" title="pagenumber_ebook=88,pagenumber_book=81" id="image_88_627_1850_1368_2452" class="picture_figure" width="311" height="253" /></p>
+<p>图14-1</p>
+<p><img src="images/txt014_2.jpg" title="pagenumber_ebook=89,pagenumber_book=82" id="image_89_413_388_1729_1160" class="picture_figure" width="554" height="325" /></p>
+<p>图14-2</p>
+<p>动手操作</p>
+<p>（1）登录Easy IoT物联网开放平台。</p>
+<p>①在浏览器地址栏输入http：//iot.dfrobot.com.cn，打开网页，鼠标单击网页右上角的<img src="images/txt014_3.jpg" title="pagenumber_ebook=89,pagenumber_book=82" id="image_89_602_1546_946_1654" class="picture_line_figure" width="144" height="44" />，在登录界面（见图14-3）中选择使用账号或者微信、QQ登录（本例使用QQ登录平台）。</p>
+<p><img src="images/txt014_4.jpg" title="pagenumber_ebook=89,pagenumber_book=82" id="image_89_454_1746_1688_2566" class="picture_figure" width="519" height="345" /></p>
+<p>图14-3</p>
+<p>②鼠标单击“QQ登陆”，进入“快速安全登录”界面，如图14-4所示。如果已经在电脑上登录了QQ，单击自己的QQ头像就可以顺利登录；如果没有在电脑上登录QQ，用手机扫描二维码，或者输入QQ账号和密码，都可以登录Easy IoT物联网开放平台。登录后，屏幕右下角会弹出“QQ登录安全提醒”，如图14-5所示，这表示我们已经成功登录了Easy IoT物联网开放平台。</p>
+<p><img src="images/txt014_5.jpg" title="pagenumber_ebook=90,pagenumber_book=83" id="image_90_268_754_1729_1607" class="picture_figure" width="615" height="358" /></p>
+<p>图14-4</p>
+<p><img src="images/txt014_6.jpg" title="pagenumber_ebook=90,pagenumber_book=83" id="image_90_635_1758_1386_2281" class="picture_figure" width="316" height="219" /></p>
+<p>图14-5</p>
+<p>③鼠标单击<img src="images/txt014_7.png" title="pagenumber_ebook=90,pagenumber_book=83" class="picture_character" />，用户名（user）和密码（password）的信息会显示出来，如图14-6所示。</p>
+<p><img src="images/txt014_8.jpg" title="pagenumber_ebook=91,pagenumber_book=84" id="image_91_550_392_1597_1395" class="picture_figure" width="440" height="422" /></p>
+<p>图14-6</p>
+<p>④鼠标单击，可以增加一个物联网的项目，并且会随之产生一个与OBLOQ进行对话的Topic通信码，一个OBLOQ对应一个Topic通信码，如图14-7所示。</p>
+<p><img src="images/txt014_9.jpg" title="pagenumber_ebook=91,pagenumber_book=84" id="image_91_735_1732_1448_2360" class="picture_figure" width="300" height="264" /></p>
+<p>图14-7</p>
+<p>（2）连接OBLOQ和Micro：bit。</p>
+<p>①将Micro：bit插在电机驱动扩展板上。</p>
+<p>②OBLOQ使用的是Gravity标准的4pin线，其中黑色的线和红色的线分别连接到电机驱动扩展板的P2接口（GND）和P2接口（3V3），蓝色的线连接到P12接口，绿色的线连接到P13接口，如图14-8所示。连接完成后，OBLOQ上的红色指示灯会亮起来。</p>
+<p><img src="images/txt014_10.jpg" title="pagenumber_ebook=92,pagenumber_book=85" id="image_92_401_670_1635_1993" class="picture_figure" width="519" height="557" /></p>
+<p>图14-8</p>
+<p>③打开Mind+，鼠标单击<img src="images/txt014_11.jpg" title="pagenumber_ebook=92,pagenumber_book=85" id="image_92_842_2140_948_2253" class="picture_line_figure" width="43" height="47" />，加载通信模块。鼠标双击“OBLOQ物联网模块”（见图14-9），系统会显示已加载，如图14-10所示。</p>
+<p>④编程模块栏中出现<img src="images/txt014_12.jpg" title="pagenumber_ebook=92,pagenumber_book=85" id="image_92_754_2343_848_2431" class="picture_line_figure" width="39" height="36" />，如图14-11所示。</p>
+<p>（3）连接Micro：bit和Easy IoT物联网开放平台。</p>
+<p>①鼠标单击<img src="images/txt014_13.jpg" title="pagenumber_ebook=92,pagenumber_book=85" id="image_92_705_2520_789_2592" class="picture_line_figure" width="34" height="29" />，　右侧出现指令积木块列表。单击<img src="images/txt014_14.jpg" title="pagenumber_ebook=93,pagenumber_book=86" id="image_93_341_2356_1255_2455" class="picture_line_figure" width="385" height="41" />（见图14-12），将其拖拽至编程区。鼠标单击指令积木块中间的齿轮图标，在弹出的选项单中，填写“WIFI”和“物联网平台参数”的相关信息，完成物联网编程环境的初始化。</p>
+<p><img src="images/txt014_15.jpg" title="pagenumber_ebook=93,pagenumber_book=86" id="image_93_323_437_1803_1191" class="picture_figure" width="623" height="317" /></p>
+<p>图14-9</p>
+<p><img src="images/txt014_16.jpg" title="pagenumber_ebook=93,pagenumber_book=86" id="image_93_537_1309_1623_2256" class="picture_figure" width="457" height="399" /></p>
+<p>图14-10</p>
+<p><img src="images/txt014_17.jpg" title="pagenumber_ebook=94,pagenumber_book=87" id="image_94_364_403_1713_1333" class="picture_figure" width="568" height="392" /></p>
+<p>图14-11</p>
+<p><img src="images/txt014_18.jpg" title="pagenumber_ebook=94,pagenumber_book=87" id="image_94_347_1436_1703_2070" class="picture_figure" width="571" height="266" /></p>
+<p>图14-12</p>
+<p>②组合如图14-13所示的编程指令，OBLOQ自动连接到当前可用WIFI。设定在按下Micro：bit的A按钮时，Micro：bit向Easy IoT物联网开放平台发送字符“hello”。</p>
+<p>③程序成功上传后，OBLOQ的指示灯由红色变为蓝色，这说明OBLOQ正在自动联网。当指示灯显示为绿色时，表明联网成功。</p>
+<p>④按下Micro：bit的A按钮，登录Easy IoT物联网开放平台，就可以看到发送到平台的信息（见图14-14）。</p>
+<p><img src="images/txt014_19.jpg" title="pagenumber_ebook=95,pagenumber_book=88" id="image_95_343_411_1799_1091" class="picture_figure" width="612" height="286" /></p>
+<p>图14-13</p>
+<p><img src="images/txt014_20.jpg" title="pagenumber_ebook=95,pagenumber_book=88" id="image_95_703_1223_1546_2060" class="picture_figure" width="355" height="351" /></p>
+<p>图14-14</p>
+<p>（4）传输温湿度传感器的数据。</p>
+<p>①将一个温湿度传感器与电机驱动扩展板的P16接口、P16（GND）接口、P16（3V3）接口相连接。</p>
+<p>②鼠标单击<img src="images/txt014_21.jpg" title="pagenumber_ebook=95,pagenumber_book=88" id="image_95_651_2378_747_2474" class="picture_line_figure" width="40" height="40" />，加载传感器模块。鼠标双击“DHT11/22温湿度传感器”（见图14-15），系统会显示已加载（见图14-16）。</p>
+<p><img src="images/txt014_22.jpg" title="pagenumber_ebook=96,pagenumber_book=89" id="image_96_254_415_1746_1017" class="picture_figure" width="629" height="253" /></p>
+<p>图14-15</p>
+<p><img src="images/txt014_23.jpg" title="pagenumber_ebook=96,pagenumber_book=89" id="image_96_509_1146_1564_2127" class="picture_figure" width="443" height="412" /></p>
+<p>图14-16</p>
+<p>③编程模块栏中出现<img src="images/txt014_24.jpg" title="pagenumber_ebook=96,pagenumber_book=89" id="image_96_764_2248_854_2334" class="picture_line_figure" width="37" height="35" />（见图14-17）。</p>
+<p>④鼠标单击　<img src="images/txt014_25.jpg" title="pagenumber_ebook=96,pagenumber_book=89" id="image_96_666_2374_760_2466" class="picture_line_figure" width="39" height="37" />，右侧出现指令积木块列表。鼠标单击<img src="images/txt014_26.jpg" title="pagenumber_ebook=96,pagenumber_book=89" id="image_96_258_2485_856_2566" class="picture_line_figure" width="251" height="33" />，将其拖拽至编程区。</p>
+<p>⑤设置一个读取温度数据的变量，编程指令如图14-18所示。</p>
+<p><img src="images/txt014_27.jpg" title="pagenumber_ebook=97,pagenumber_book=90" id="image_97_550_419_1570_1405" class="picture_figure" width="430" height="415" /></p>
+<p>图14-17</p>
+<p><img src="images/txt014_28.jpg" title="pagenumber_ebook=97,pagenumber_book=90" id="image_97_467_1510_1691_1636" class="picture_figure" width="515" height="52" /></p>
+<p>图14-18</p>
+<p>⑥鼠标单击<img src="images/txt014_29.jpg" title="pagenumber_ebook=97,pagenumber_book=90" id="image_97_737_1756_829_1840" class="picture_line_figure" width="37" height="34" />，右侧出现指令积木块列表。鼠标单击<img src="images/txt014_30.jpg" title="pagenumber_ebook=97,pagenumber_book=90" id="image_97_331_1854_703_1934" class="picture_line_figure" width="156" height="33" />，将其拖拽至编程区。</p>
+<p>⑦组合如图14-19所示的编程指令，将变量发送到Easy IoT物联网开放平台。</p>
+<p><img src="images/txt014_31.jpg" title="pagenumber_ebook=97,pagenumber_book=90" id="image_97_570_2056_1572_2230" class="picture_figure" width="422" height="72" /></p>
+<p>图14-19</p>
+<p>⑧设定当按下Micro：bit的B按钮时，Micro：bit向Easy IoT物联网开放平台发送温度的数据，编程指令如图14-20所示。Micro：bit向Easy IoT物联网开放平台发送温度数据的完整程序如图14-21所示。</p>
+<p>⑨上传程序到Micro：bit，分别按下A按钮和B按钮，Easy IoT物联网开放平台显示相应的数据信息，如图14-22所示。</p>
+<p><img src="images/txt014_32.jpg" title="pagenumber_ebook=98,pagenumber_book=91" id="image_98_496_415_1595_729" class="picture_figure" width="462" height="132" /></p>
+<p>图14-20</p>
+<p><img src="images/txt014_33.jpg" title="pagenumber_ebook=98,pagenumber_book=91" id="image_98_454_805_1570_1484" class="picture_figure" width="470" height="285" /></p>
+<p>图14-21</p>
+<p><img src="images/txt014_34.jpg" title="pagenumber_ebook=98,pagenumber_book=91" id="image_98_307_1615_1723_2219" class="picture_figure" width="596" height="254" /></p>
+<p>图14-22</p>
+<p>（5）控制LED灯。</p>
+<p>①如图14-23所示，将LED灯与电机驱动扩展板的P1接口、P1（GND）接口、P1（3V3）接口相连接。</p>
+<p>②鼠标单击“变量”模块中的指令积木块<img src="images/txt014_35.jpg" title="pagenumber_ebook=98,pagenumber_book=91" id="image_98_1176_2503_1329_2556" class="picture_line_figure" width="64" height="21" />，创建变量“order”（见图14-24），编程指令栏同步增加了相应的指令积木块，如图14-25所示。</p>
+<p><img src="images/txt014_36.jpg" title="pagenumber_ebook=99,pagenumber_book=92" id="image_99_384_466_1784_1723" class="picture_figure" width="589" height="529" /></p>
+<p>图14-23</p>
+<p><img src="images/txt014_37.jpg" title="pagenumber_ebook=99,pagenumber_book=92" id="image_99_664_1897_1474_2375" class="picture_figure" width="341" height="201" /></p>
+<p>图14-24</p>
+<p><img src="images/txt014_38.jpg" title="pagenumber_ebook=100,pagenumber_book=93" id="image_100_599_409_1403_954" class="picture_figure" width="338" height="228" /></p>
+<p>图14-25</p>
+<p>③将变量“order”设置为要接收的物联网指令，编程指令如图14-26所示。只要是Easy IoT物联网开放平台发送的数据都会记录在变量中，并可以在后面的程序中显示出来。</p>
+<p><img src="images/txt014_39.jpg" title="pagenumber_ebook=100,pagenumber_book=93" id="image_100_625_1246_1395_1384" class="picture_figure" width="324" height="57" /></p>
+<p>图14-26</p>
+<p>④组合如图14-27所示的编程指令，设定当OBLOQ接收到“开”的指令，LED灯亮起来。</p>
+<p><img src="images/txt014_40.jpg" title="pagenumber_ebook=100,pagenumber_book=93" id="image_100_496_1631_1533_2066" class="picture_figure" width="437" height="182" /></p>
+<p>图14-27</p>
+<p>⑤组合如图14-28所示的编程指令，设定当OBLOQ接收到“关”的指令，LED灯熄灭。完整程序如图14-29所示。</p>
+<p>⑥登录Easy IoT物联网开放平台，当输入“开”并发送信息后（见图14-30），LED灯亮；当输入“关”并发送信息后，LED灯熄灭。</p>
+<p><img src="images/txt014_41.jpg" title="pagenumber_ebook=101,pagenumber_book=94" id="image_101_564_468_1590_823" class="picture_figure" width="432" height="149" /></p>
+<p>图14-28</p>
+<p><img src="images/txt014_42.jpg" title="pagenumber_ebook=101,pagenumber_book=94" id="image_101_523_948_1648_2105" class="picture_figure" width="473" height="487" /></p>
+<p>图14-29</p>
+<p><img src="images/txt014_43.jpg" title="pagenumber_ebook=101,pagenumber_book=94" id="image_101_456_2242_1697_2444" class="picture_figure" width="523" height="85" /></p>
+<p>图14-30</p>
+<p>活动记录</p>
+<p><img src="images/txt014_44.jpg" title="pagenumber_ebook=102,pagenumber_book=95" id="table_102_268_593_1735_1174" class="picture_table" width="617" height="244" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt014_45.jpg" title="pagenumber_ebook=102,pagenumber_book=95" id="table_102_264_1474_1733_1627" class="picture_table" width="618" height="64" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我还可以将OBLOQ与其他传感器组合，通过物联网开放平台，进一步完善对物联网智能装置的设计。</p>
+<p><span id="txt015.html"></span></p>
+<p>﻿</p>
+<p>第15课　超声波倒车雷达</p>
+<p>活动目标</p>
+<p>1.了解超声波的基本知识。</p>
+<p>2.学习设计模拟倒车雷达装置。</p>
+<p>学习内容</p>
+<p>超声波传感器是汽车倒车雷达的主要部件。驾驶员在倒车时，如果车后有物体，倒车雷达上的超声波传感器会将距离信息传送给报警设备，并发出提示声音。</p>
+<p>超声波传感器在工作时，通过超声波发射器发射超声波，在发射的同时开始计时。超声波在空气中传播，途中碰到障碍物就立即反射回来，超声波接收器收到反射波就立即停止计时。根据记录的时间，就可以计算出发射点与障碍物间的距离。</p>
+<p>超声波传感器（见图15-1）上的“TRIG”对应的是发射端，“ECHO”对应的是接收端。现在我们将超声波传感器与电机驱动扩展板的P8接口（GND）、P8接口（3V3）、P8接口、P12接口相连接，如图15-2所示。</p>
+<p><img src="images/txt015_1.jpg" title="pagenumber_ebook=103,pagenumber_book=96" id="image_103_709_1905_1450_2366" class="picture_figure" width="311" height="194" /></p>
+<p>图15-1</p>
+<p>通过编写程序，超声波检测出的距离能够显示在Mind+的串口监视器窗口中，编程指令如图15-3所示。</p>
+<p><img src="images/txt015_2.jpg" title="pagenumber_ebook=104,pagenumber_book=97" id="image_104_360_384_1644_1205" class="picture_figure" width="540" height="346" /></p>
+<p>图15-2</p>
+<p><img src="images/txt015_3.jpg" title="pagenumber_ebook=104,pagenumber_book=97" id="image_104_260_1246_1715_1583" class="picture_figure" width="612" height="141" /></p>
+<p>图15-3</p>
+<p>动手操作</p>
+<p>将喇叭与电机驱动扩展板的P0接口、P0（GND）接口、P0（3V3）接口相连接（注意接线的颜色要与电机驱动扩展板接口的颜色对应），将Micro：bit插在电机驱动扩展板上（见图15-4）。</p>
+<p><img src="images/txt015_4.jpg" title="pagenumber_ebook=104,pagenumber_book=97" id="image_104_454_2017_1562_2583" class="picture_figure" width="466" height="238" /></p>
+<p>图15-4</p>
+<p>现设定当某个障碍物和超声波传感器的距离小于10 cm时，喇叭发出急促的嘀嘀声；当距离在10～20 cm之间时，喇叭发出低而缓的声音。距离越远，声音频率越低。</p>
+<p>（1）距离小于10 cm时的情况。</p>
+<p>组合如图15-5所示的编程指令，设定当障碍物和超声波传感器的距离小于10 cm时，喇叭连续发出短促的高音。</p>
+<p><img src="images/txt015_5.jpg" title="pagenumber_ebook=105,pagenumber_book=98" id="image_105_343_846_1805_1323" class="picture_figure" width="616" height="200" /></p>
+<p>图15-5</p>
+<p>（2）距离在10～20 cm之间时的情况。</p>
+<p>在计算机语言中，两种或多种条件同时符合才可执行的情况，称之为“与”；满足两个条件中的任意一个条件即可执行，称之为“或”；除了当前条件，满足其他条件都可执行，称之为“非”。</p>
+<p>本例要求超声波检测的距离同时满足“大于10 cm”和“小于20 cm”两个条件，所以我们就使用“运算符”模块中的指令积木块<img src="images/txt015_6.jpg" title="pagenumber_ebook=105,pagenumber_book=98" id="image_105_1348_1772_1550_1846" class="picture_line_figure" width="85" height="31" />来进行编程。组合如图15-6所示的编程指令，设定当超声波检测的距离在10 cm到20 cm之间时，喇叭发出较为低缓的声音。</p>
+<p><img src="images/txt015_7.jpg" title="pagenumber_ebook=105,pagenumber_book=98" id="image_105_319_2021_1821_2309" class="picture_figure" width="632" height="120" /></p>
+<p>图15-6</p>
+<p>完整程序如图15-7所示。</p>
+<p><img src="images/txt015_8.jpg" title="pagenumber_ebook=106,pagenumber_book=99" id="image_106_274_419_1752_1058" class="picture_figure" width="622" height="269" /></p>
+<p>图15-7</p>
+<p>活动记录</p>
+<p><img src="images/txt015_9.jpg" title="pagenumber_ebook=106,pagenumber_book=99" id="table_106_266_1360_1735_1940" class="picture_table" width="618" height="243" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt015_10.jpg" title="pagenumber_ebook=106,pagenumber_book=99" id="table_106_266_2240_1733_2395" class="picture_table" width="617" height="64" /></p>
+<p>我对自己的评价：</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>如果将超声波传感器紧贴物体，就无法获得正常的数据，我能试着探索一下其中的原因。</p>
+<p><span id="txt016.html"></span></p>
+<p>﻿</p>
+<p>第16课　智能小车</p>
+<p>活动目标</p>
+<p>1.了解如何通过编程控制智能小车。</p>
+<p>2.学习通过连接传感器使智能小车具备更多功能。</p>
+<p>学习内容</p>
+<p>本课我们要将智能小车和一些传感器元件相连接，然后通过编程，使智能小车具备一定的判断能力，能完成一些基本动作。</p>
+<p>图16-1展示了电机驱动扩展板控制的智能小车，它们有不同的底盘。</p>
+<p><img src="images/txt016_1.jpg" title="pagenumber_ebook=108,pagenumber_book=101" id="image_108_396_1485_1631_2125" class="picture_figure" width="519" height="269" /></p>
+<p>图16-1</p>
+<p>首先将智能小车底盘上的两个电机分别与电机驱动扩展板的M1和M2接口相连接，如图16-2所示。然后，打开Mind+，鼠标单击<img src="images/txt016_2.jpg" title="pagenumber_ebook=108,pagenumber_book=101" id="image_108_1385_2280_1485_2377" class="picture_line_figure" width="41" height="40" />，加载电机驱动扩展板模块，上传如图16-3所示的编程指令到Micro：bit，设定智能小车向前跑，8秒后停止。</p>
+<p><img src="images/txt016_3.jpg" title="pagenumber_ebook=109,pagenumber_book=102" id="image_109_394_490_1752_1362" class="picture_figure" width="571" height="366" /></p>
+<p>图16-2</p>
+<p><img src="images/txt016_4.jpg" title="pagenumber_ebook=109,pagenumber_book=102" id="image_109_586_1474_1592_2023" class="picture_figure" width="423" height="231" /></p>
+<p>图16-3</p>
+<p>如果想让智能小车向后运行，可以将电机转动的方向由逆时针修改为顺时针（注意电机转动的方向和智能小车搭建时的连线方式有关），编程指令如图16-4所示。如果想让智能小车转弯，可以修改两个电机的速度，编程指令如图16-5所示。</p>
+<p><img src="images/txt016_5.jpg" title="pagenumber_ebook=110,pagenumber_book=103" id="image_110_501_407_1554_993" class="picture_figure" width="443" height="246" /></p>
+<p>图16-4</p>
+<p><img src="images/txt016_6.jpg" title="pagenumber_ebook=110,pagenumber_book=103" id="image_110_513_1095_1533_1650" class="picture_figure" width="430" height="233" /></p>
+<p>图16-5</p>
+<p>动手操作</p>
+<p>（1）安装超声波传感器。</p>
+<p>将超声波传感器与电机驱动扩展板的P15接口、P16接口、P16接口（3V3）、P16接口（GND）相连接，其中绿线连接到P15接口，蓝线连接到P16接口，红线连接到P16接口（3V3），黑线连接到P16接口（GND）。组合如图16-6所示的编程指令，设定智能小车在前进时，如果与障碍物之间的距离小于10 cm就停下来，否则继续保持前进状态。</p>
+<p>将程序上传到Micro：bit，打开智能小车的开关，在遇到障碍之前，智能小车保持前进状态；遇到障碍后，智能小车就会停止前进。</p>
+<p><img src="images/txt016_7.jpg" title="pagenumber_ebook=111,pagenumber_book=104" id="image_111_331_419_1833_1056" class="picture_figure" width="632" height="267" /></p>
+<p>图16-6</p>
+<p>（2）安装声音传感器。</p>
+<p>将声音传感器（见图16-7）固定在智能小车上，并将声音传感器与电机驱动扩展板的P0接口、P0（GND）接口、P0（3V3）接口相连接。</p>
+<p><img src="images/txt016_8.jpg" title="pagenumber_ebook=111,pagenumber_book=104" id="image_111_543_1370_1639_2262" class="picture_figure" width="461" height="376" /></p>
+<p>图16-7</p>
+<p>组合如图16-8所示的编程指令，上传程序后，试着拍手或者大声说话，智能小车会持续后退10秒钟。</p>
+<p>（3）安装光线传感器。</p>
+<p><img src="images/txt016_9.jpg" title="pagenumber_ebook=112,pagenumber_book=105" id="image_112_503_401_1605_1033" class="picture_figure" width="464" height="265" /></p>
+<p>图16-8</p>
+<p>将光线传感器（见图16-9）固定在智能小车上，并将其与电机驱动扩展板的P1接口、P1（GND）接口、P1（3V3）接口相连接（见图16-10）。设定当周围光线的亮度达到一定程度时，与M1接口相连接的电机的转动方向和与M2接口相连接的电机的转动方向相反，编程指令如图16-11所示。</p>
+<p><img src="images/txt016_10.jpg" title="pagenumber_ebook=112,pagenumber_book=105" id="image_112_613_1350_1458_2113" class="picture_figure" width="355" height="320" /></p>
+<p>图16-9</p>
+<p>上传程序后，用光照射智能小车，智能小车开始旋转；将光源移除，智能小车又恢复静止状态。</p>
+<p>（4）智能传感器的应用整合。</p>
+<p>组合如图16-12所示的编程指令，上传程序后，智能小车向前进时，当超声波传感器检测到智能小车与障碍物之间的距离小于10 cm，电机停止运行1秒，接着智能小车向后退，再向左转弯，完成规避障碍物的完整动作。</p>
+<p><img src="images/txt016_11.jpg" title="pagenumber_ebook=113,pagenumber_book=106" id="image_113_499_413_1664_1485" class="picture_figure" width="491" height="451" /></p>
+<p>图16-10</p>
+<p><img src="images/txt016_12.jpg" title="pagenumber_ebook=113,pagenumber_book=106" id="image_113_441_1646_1766_2509" class="picture_figure" width="557" height="363" /></p>
+<p>图16-11</p>
+<p><img src="images/txt016_13.jpg" title="pagenumber_ebook=114,pagenumber_book=107" id="image_114_380_388_1721_2528" class="picture_figure" width="564" height="901" /></p>
+<p>图16-12</p>
+<p>智能小车向前进时，当声音传感器检测到声音超过条件值时，电机停止运行1秒，接着智能小车持续后退2秒钟。</p>
+<p>智能小车向前进时，当光线传感器检测到环境的亮度超过条件值时，电机停止运行1秒，接着两个电机往相反方向转动，智能小车原地打转。</p>
+<p>如果我们将更多传感器和编程结合，如火焰传感器、红外传感器，灰度传感器等，智能小车就会具备更多功能，能够完成更多任务。</p>
+<p>活动记录</p>
+<p><img src="images/txt016_14.jpg" title="pagenumber_ebook=115,pagenumber_book=108" id="table_115_335_986_1803_1570" class="picture_table" width="618" height="246" /></p>
+<p>自我评价</p>
+<p>我在本次活动中如下方面表现良好：</p>
+<p><img src="images/txt016_15.jpg" title="pagenumber_ebook=115,pagenumber_book=108" id="table_115_341_1868_1809_2023" class="picture_table" width="618" height="64" /></p>
+<p>我对自己的评价</p>
+<p>☆☆☆☆☆</p>
+<p>延伸探索</p>
+<p>我可以将更多传感器与智能小车组合，使智能小车的功能更强大。</p>
