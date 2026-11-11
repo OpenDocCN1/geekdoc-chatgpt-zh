@@ -1,0 +1,119 @@
+level_changes:
+- line: 125
+  before: 1
+  after: 3
+- line: 145
+  before: 2
+  after: 3
+- line: 1151
+  before: 3
+  after: 2
+- line: 1157
+  before: 4
+  after: 3
+- line: 1221
+  before: 4
+  after: 3
+- line: 1285
+  before: 4
+  after: 3
+- line: 1313
+  before: 3
+  after: 2
+- line: 1325
+  before: 4
+  after: 3
+- line: 1426
+  before: 3
+  after: 2
+- line: 1446
+  before: 3
+  after: 2
+- line: 1505
+  before: 3
+  after: 2
+- line: 1511
+  before: 4
+  after: 3
+- line: 1654
+  before: 3
+  after: 2
+- line: 1660
+  before: 4
+  after: 3
+- line: 1684
+  before: 4
+  after: 3
+- line: 1718
+  before: 4
+  after: 3
+- line: 1832
+  before: 4
+  after: 3
+- line: 1879
+  before: 4
+  after: 3
+- line: 1898
+  before: 3
+  after: 2
+- line: 1909
+  before: 3
+  after: 2
+- line: 1917
+  before: 4
+  after: 3
+- line: 1934
+  before: 4
+  after: 3
+- line: 1991
+  before: 4
+  after: 3
+- line: 2008
+  before: 4
+  after: 3
+- line: 2024
+  before: 4
+  after: 3
+- line: 2318
+  before: 3
+  after: 2
+- line: 2332
+  before: 1
+  after: 2
+- line: 3825
+  before: 2
+  after: 3
+- line: 3873
+  before: 2
+  after: 3
+- line: 4298
+  before: 2
+  after: 3
+- line: 4505
+  before: 2
+  after: 3
+- line: 4517
+  before: 3
+  after: 2
+text_changes:
+- line: 125
+  before: 自然语言处理
+  after: 1.1.2 自然语言处理
+- line: 640
+  before: 第 2 章
+  after: 第 2 章 TensorFlow 与 Keras 基础
+- line: 1902
+  before: '第 4 章  '
+  after: 第 4 章 卷积神经网络
+- line: 2866
+  before: 第 6 章
+  after: 第 6 章 ResNet 与 ResNeXt
+- line: 3556
+  before: '第 7 章  '
+  after: 第 7 章 文本处理与词嵌入
+- line: 4167
+  before: 第一... 标题文本的读取与转化
+  after: 第一步：标题文本的读取与转化
+- line: 5279
+  before: 第 10 章
+  after: 第 10 章 解码器与机器翻译

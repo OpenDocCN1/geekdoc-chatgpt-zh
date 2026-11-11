@@ -1,0 +1,259 @@
+
+
+ResNet的出现彻底改变了VGG系列所带来的固定思维，破天荒地提出了采用模块化的思维来替代整体的卷积层，通过一个个模块的堆叠来替代不断增加的卷积层。对ResNet的研究和不断改进成为过去几年中计算机视觉和深度学习领域最具突破性的工作。由于其表征能力强，ResNet在图像分类任务以外的许多计算机视觉应用上取得了巨大的性能提升，例如对象检测和人脸识别。
+
+### 6.1.1 ResNet诞生的背景
+卷积神经网络的实质就是无限拟合一个符合对应目标的函数。根据泛逼近定理（`universal approximation theorem`），如果给定足够的容量，一个单层的前馈网络就足以表示任何函数。这个层可能是非常大的，而且容易过拟合数据。因此，学术界有一个共同的认识，就是网络架构需要更深。
+
+研究发现只是简单地将层堆叠在一起，增加网络的深度并不会起太大的作用。这是由于难搞的梯度消失（`vanishing gradient`）问题，深层的网络很难训练。因为梯度反向传播到前一层，重复相乘可能使梯度无穷小。结果就是随着网络的层数更深，其性能趋于饱和，甚至开始迅速下降，如图6.1所示。
+
+![](OEBPS/Images/Figure-P133_14605.jpg)
+图6.1　随着网络的层数更深，其性能趋于饱和，甚至开始迅速下降
+
+在ResNet之前，已经出现好几种处理梯度消失问题的方法，但是没有一个方法能够真正解决这个问题。何恺明等人于2015年发表的论文“*Deep Residual Learning for Image Recognition*”（用于图像识别的深度残差学习）中，认为堆叠的层不应该降低网络的性能，可以简单地在当前网络上堆叠映射层（不处理任何事情的层），并且所得到的架构性能不变。
+
+![](OEBPS/Images/Figure-P133_39605.jpg)
+当`f(x)`为0时，`f'(x)`等于`x`；当`f(x)`不为0时，所获得的`f'(x)`性能要优于单纯地输入`x`。公式表明，较深的模型所产生的训练误差不应比较浅的模型误差更高。假设让堆叠的层拟合一个残差映射（residual mapping）要比让它们直接拟合所需的底层映射更容易。
+
+从图6.2可以看到，残差映射与传统的直接相连的卷积网络相比，最大的变化是加入了一个恒等映射层`y=x`层。其主要作用是使得网络随着深度的增加而不会产生权重衰减、梯度衰减或者消失这些问题。
+
+![](OEBPS/Images/Figure-P134_14661.jpg)
+图6.2　残差框架模块
+
+其中，`F(x)`表示的是残差，`F(x)+x`是最终的映射输出，因此可以得到网络的最终输出为`H(x)=F(x)+x`。由于网络框架中有2个卷积层和2个relu函数，因此最终的输出结果可以表示为：
+
+`H[1](x)=relu[1](w[1]×x)`
+
+`H[2](x)=relu[2](w[2]×h[1](x))`
+
+`H(x)=H[2](x)+x`
+
+其中，`H[1]`是第一层的输出，`H[2]`是第二层的输出。这样在输入与输出有相同维度时，可以使用直接输入的形式将数据传递到框架的输出层。
+
+ResNet整体结构图及与VGGNet的比较如图6.3所示。
+
+图6.3展示了VGGNet19以及一个34层的普通结构神经网络和一个34层的ResNet网络的对比效果。通过验证可以知道，在使用了ResNet的结构后发现层数不断加深导致的训练集上误差增大的现象被消除了，ResNet网络的训练误差会随着层数增大而逐渐减小，并且在测试集上的表现也会变好。
+
+除了用以讲解的二层残差学习单元，实际上更多的是使用`[1,1]`结构的三层残差学习单元，如图6.4所示。
+
+这是借鉴了NIN模型的思想，在二层残差单元中包含1个`[3,3]`卷积层的基础上更包含了2个`[1,1]`大小的卷积，放在`[3,3]`卷积层的前后，执行先降维再升维的操作。
+
+无论采用哪种连接方式，ResNet的核心都是引入一个“身份捷径连接”（identity shortcut connection），直接跳过一层或多层将输入层与输出层进行连接。实际上，ResNet并不是第一个利用shortcut connection的方法，较早期有相关研究人员就在卷积神经网络中引入了“门控短路电路”，即参数化的门控系统允许何种信息通过网络通道，如图6.5所示。
+
+并不是所有加入了shortcut的卷积神经网络都会提高传输效果。在后续的研究中，有不少研究人员对残差块进行了改进，但是很遗憾并不能获得性能上的提高。
+
+![](OEBPS/Images/Figure-P135_14668.jpg)
+图6.3　ResNet模型结构及比较
+
+![](OEBPS/Images/Figure-P135_14669.jpg)
+图6.4　二层（左）以及三层（右）残差单元的比较
+
+![](OEBPS/Images/Figure-P136_14729.jpg)
+图6.5　门控短路电路
+
+**注意**
+目前图6.5(a)的性能最好。
+
+### 6.1.2 模块工具的TensorFlow实现——不要重复造轮子
+“工欲善其事，必先利其器。”在构建自己的残差网络之前，需要准备好相关的程序设计工具。这里的工具是指那些已经设计好结构、直接可以使用的代码。
+
+首先最重要的是卷积核的创建方法。从模型上看，需要更改的内容很少，即卷积核的大小、输出通道数以及所定义的卷积层的名称，代码如下：
+
+```
+tf.keras.layers.Conv2D
+```
+
+这里直接调用了TensorFlow中对卷积层的实现，只需要输入对应的卷积核数目、卷积核大小以及补全方式即可。
+
+此外，还有一个非常重要的方法，即获取数据的BatchNormalization，使用批量正则化对数据进行处理，代码如下：
+
+```
+tf.keras.layers.BatchNormalization
+```
+
+其他的还有最大池化层：
+
+```
+tf.keras.layers.MaxPool2D
+```
+
+平均池化层：
+
+```
+tf.keras.layers.AveragePooling2D
+```
+
+这些是在模型单元中所需要使用的基本工具。有了这些工具，就可以直接构建ResNet模型单元了。
+
+### 6.1.3 TensorFlow高级模块layers用法简介
+在上一节中，我们使用自定义的方法实现了ResNet模型的功能单元，能够极大地帮助我们完成搭建神经网络的工作，而且除了搭建ResNet网络模型，基本结构的模块化编写还包括其他神经网络的搭建。
+
+TensorFlow 2.0同样提供了原生的、可供直接使用的卷积神经网络模块layers。它是用于深度学习的更高层次封装的API，程序设计者可以利用它轻松地构建模型。
+
+表6.1展示了layers封装好的多种卷积神经网络API，基本上所有常用的神经网络处理“层”都已提供可供直接调用的接口。表中列举了部分层及其对应的中文名称。
+
+**表6.1　多种卷积神经网络API**
+
+![](OEBPS/Images/Figure-T137_38247.jpg)
+
+#### 1. convolution简介
+实际上Layers中提供了多个卷积的实现方法，例如`conv1d()`、`conv2d()`、`conv3d()`，分别代表一维、二维、三维卷积，另外还有`conv2d_transpose()`、`conv3d_transpose()`，分别代表二维和三维反卷积，还有`separable_conv2d()`方法代表二维深度可分离卷积。在这里以`conv2d()`方法为例进行说明。
+
+```
+def __init__(self,
+filters,
+kernel_size,
+strides=(1, 1),
+padding='valid',
+data_format=None,
+dilation_rate=(1, 1),
+activation=None,
+use_bias=True,
+kernel_initializer='glorot_uniform',
+bias_initializer='zeros',
+kernel_regularizer=None,
+bias_regularizer=None,
+activity_regularizer=None,
+kernel_constraint=None,
+bias_constraint=None,
+**kwargs):
+```
+
+参数说明如下：
+
+· `filters`：必需，是一个数字，代表了输出通道的个数，即`output_channels`。
+· `kernel_size`：必需，卷积核大小，必须是一个数字（高和宽都是此数字）或者长度为2的列表（分别代表高、宽）。
+· `strides`：可选，默认为`(1,1)`，卷积步长，必须是一个数字（高和宽都是此数字）或者长度为2的列表（分别代表高、宽）。
+· `padding`：可选，padding的模式，有valid和same两种，默认为valid，大小写不区分。
+· `data_format`：可选，分为`channels_last`和`channels_first`两种模式，代表了输入数据的维度类型，默认`channels_last`。如果是`channels_last`，那么输入数据的shape为(`batch`,`height`,`width`,`channels`)。如果是`channels_first`，那么输入数据的shape为(`batch`,`channels`,`height`,`width`)。
+· `dilation_rate`：可选，默认为`(1,1)`，卷积的扩张率。当扩张率为2时，卷积核内部就会有边距，3×3的卷积核就会变成5×5。
+· `activation`：可选，默认为None。若为None，则是线性激活。
+· `use_bias`：可选，默认为True，表示是否使用偏置。
+· `kernel_initializer`：可选，默认为None，即权重的初始化方法。若为None，则使用默认的Xavier初始化方法。
+· `bias_initializer`：可选，默认为零值初始化，即偏置的初始化方法。
+· `kernel_regularizer`：可选，默认为None，施加在权重上的正则项。
+· `bias_regularizer`：可选，默认为None，施加在偏置上的正则项。
+· `activity_regularizer`：可选，默认为None，施加在输出上的正则项。
+· `kernel_constraint`：可选，默认为None，施加在权重上的约束项。
+· `bias_constraint`：可选，默认为None，施加在偏置上的约束项。
+· `trainable`：可选，默认为True，布尔类型。若为True，则将变量添加到`GraphKeys.TRAINABLE_VARIABLES`中。
+· `name`：可选，默认为None，卷积层的名称。
+· `reuse`：可选，默认为None，布尔类型。若为True，则在name相同时会重复利用。
+· 返回值：卷积后的Tensor。
+
+使用方法与自定义的卷积层方法类似，这里我们通过一个小例子予以说明。
+
+**【程序6-1】**
+
+![](OEBPS/Images/Figure-P139_38250.jpg)
+
+例子中首先定义了一个`[50, 32, 32, 32]`的输入数据，之后传给`conv2d`函数，`filter`是输出的维度，设置成32。选择的卷积核大小为3×3，`strides`为步进距离，这里采用1个步进距离，也就是采用默认的步进设置。`padding`为补全设置，这里设置为根据卷积核大小对输入值进行补全。输入结果如下：
+
+`(50, 32, 32, 64)`
+
+此时如果将`strides`设置成`[2,2]`，结果如下：
+
+`(50, 16, 16, 64)`
+
+当然此时的`padding`也可以变化，读者可以将其设置成`"VALID"`，看看结果如何。
+
+**提示**
+TensorFlow中`padding`被设置成`"SAME"`时，其实是先对输入数据进行补全之后再进行卷积计算。
+
+此外，还可以传入激活函数，或者设定kernel的格式化方式，或禁用bias等操作，这些操作请读者自行尝试。
+
+```
+out = tf.keras.layers.Conv2D(64,3,strides=[2,2],padding="SAME",activation=tf.nn.relu)(xs)
+```
+
+#### 2. batch_normalization简介
+`batch_normalization`是目前最常用的数据标准化方法，也是批量标准化方法。输入数据经过处理之后能够显著加速训练速度，并且减少过拟合出现的可能性。
+
+```
+def __init__(self,
+axis=-1,
+momentum=0.99,
+epsilon=1e-3,
+center=True,
+scale=True,
+beta_initializer='zeros',
+gamma_initializer='ones',
+moving_mean_initializer='zeros',
+moving_variance_initializer='ones',
+beta_regularizer=None,
+gamma_regularizer=None,
+beta_constraint=None,
+gamma_constraint=None,
+renorm=False,
+renorm_clipping=None,
+renorm_momentum=0.99,
+fused=None,
+trainable=True,
+virtual_batch_size=None,
+adjustment=None,
+name=None,
+**kwargs):
+```
+
+参数说明如下：
+
+· `axis`：可选，进行标注化操作时操作数据的哪个维度，默认为-1。
+· `momentum`：可选，动态均值的动量，默认为0.99。
+· `epsilon`：可选，大于0的小浮点数，用于防止除0错误，默认为0.01。
+· `center`：可选，若设为True，则会将`beta`作为偏置加上去，否则忽略参数`beta`，默认为True。
+· `scale`：可选，若设为True，则会乘以`gamma`，否则不使用`gamma`，默认为True。当下一层是线性的时，可以设为False，因为scaling的操作将被下一层执行。
+· `beta_initializer`：可选，`beta`权重的初始方法，默认为`zeros_initializer`。
+· `gamma_initializer`：可选，`gamma`的初始化方法，默认为`ones_initializer`。
+· `moving_mean_initializer`：可选，动态均值的初始化方法，默认为`zeros_initializer`。
+· `moving_variance_initializer`：可选，动态方差的初始化方法，默认为`ones_initializer`。
+· `beta_regularizer`：可选，`beta`的正则化方法，默认为None。
+· `gamma_regularizer`：可选，`gamma`的正则化方法，默认为None。
+· `beta_constraint`：可选，加在`beta`上的约束项，默认为None。
+· `gamma_constraint`：可选，加在`gamma`上的约束项，默认为None。
+· `training`：可选，返回结果是`training`模式，默认为False。
+· `trainable`：可选，布尔类型。若为True，则将变量添加到`GraphKeys.TRAINABLE_VARIABLES`中，默认为True。
+· `name`：可选，层名称，默认为None。
+· `fused`：可选，根据层名判断是否重复利用，默认为None。
+· `renorm`：可选，是否要用BatchRenormalization，默认为False。
+· `renorm_clipping`：可选，默认为None。
+· `renorm_momentum`：可选，用来更新动态均值和标准差的Momentum值，默认为0.99。
+· `fused`：可选，是否使用一个更快、融合的实现方法，默认为None。
+· `virtual_batch_size`：可选，是一个int数字，指定一个虚拟batchsize，默认为None。
+· `adjustment`：可选，对标准化后的结果进行适当调整的方法，默认为None。
+
+其用法也很简单，直接在`tf.layers.batch_normalization`函数中输入`xs`即可。
+
+**【程序6-2】**
+
+![](OEBPS/Images/Figure-P141_38255.jpg)
+
+输出结果如下：
+
+`(50, 32, 32, 32)`
+
+#### 3. dense简介
+`dense`是全连接层。layers中提供了一个专门的函数来实现此操作，即`tf.layers.dense`，其结构如下：
+
+```
+def __init__(self,
+units,
+activation=None,
+use_bias=True,
+kernel_initializer='glorot_uniform',
+bias_initializer='zeros',
+kernel_regularizer=None,
+bias_regularizer=None,
+activity_regularizer=None,
+kernel_constraint=None,
+bias_constraint=None,
+**kwargs):
+```
+
+参数说明如下：
+
+· `units`：必需，神经元的数量。
+· `activation`：可选，默认为None。若为None，则是线性激活。
+· `use_bias`：可选，是否使用偏置，默认为True。
+· `kernel_initializer`：可选，权重的初始化方法，默认为None。
+· `bias_initializer`：可选，偏置的初始化方法，默认为零值初始化。
+
