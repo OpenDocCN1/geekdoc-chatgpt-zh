@@ -1,0 +1,63 @@
+161. 想进一步掌握全球暴力长期下滑的证据，可查阅以下资料：Max Roser 与 Hannah Ritchie 于 2019 年 12 月在 Our World in Data 刊载的《凶杀案》，网址 [`ourworldindata.org/homicides`](https://ourworldindata.org/homicides)；Manuel Eisner 的《从刀剑到言语：宏观层面的自我控制变化是否能预测凶杀案水平的长期变化？》，载《犯罪与司法》第 43 卷第 1 期，2014 年 9 月，页 80-81；联合国毒品和犯罪问题办公室自 World Bank 收录的“故意杀人（每 10 万人）——法国、荷兰、瑞典、德国、瑞士、意大利、英国、西班牙”，访问时间 2023 年 4 月 20 日，[`data.worldbank.org/indicator/VC.IHR.PSRC.P5?end=2020&locations=FR-NL-SE-DE-CH-IT-GB-ES&start=2020&view=bar`](https://data.worldbank.org/indicator/VC.IHR.PSRC.P5?end=2020&locations=FR-NL-SE-DE-CH-IT-GB-ES&start=2020&view=bar)；英国国家统计局 2023 年 2 月 9 日发布的“附录表格：英格兰和威尔士的凶杀案”，[`www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/appendixtableshomicideinenglandandwales/current/homicideyemarch22appendixtables.xlsx`](https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/appendixtableshomicideinenglandandwales/current/homicideyemarch22appendixtables.xlsx)；欧盟委员会《投资于欧洲的未来：第五份关于经济、社会和领土凝聚力的报告》，卢森堡欧盟出版局 2010 年，[`ec.europa.eu/regional_policy/en/information/publications/reports/2010/fifth-report-on-economic-social-and-territorial-cohesion-investing-in-europe-s-future`](https://ec.europa.eu/regional_policy/en/information/publications/reports/2010/fifth-report-on-economic-social-and-territorial-cohesion-investing-in-europe-s-future)；联合国毒品和犯罪问题办公室《全球凶杀案研究》2019 年版，[`www.unodc.org/documents/data-and-analysis/gsh/Booklet1.pdf`](https://www.unodc.org/documents/data-and-analysis/gsh/Booklet1.pdf)；同机构 2011 年版《全球凶杀案研究》，[`www.unodc.org/documents/data-and-analysis/statistics/Homicide/Globa_study_on_homicide_2011_web.pdf`](http://www.unodc.org/documents/data-and-analysis/statistics/Homicide/Globa_study_on_homicide_2011_web.pdf)；史蒂文·平克《人性中的善良天使：为什么暴力已经减少》，纽约企鹅出版社 2011 年。
+
+返回注释参考 161
+
+162. 欲了解平克对该论点的展开，可观看 2011 年 11 月 1 日上传的谷歌演讲 YouTube 视频《史蒂文·平克：我们本性的善良天使》，[`www.youtube.com/watch?v=_gGf7fXM3jQ`](https://www.youtube.com/watch?v=_gGf7fXM3jQ)。
+
+返回注释参考 162
+
+163. 我在 1990 年出版的《智能机器时代》中已提出相当一部分预测，见雷蒙德·库兹韦尔《智能机器时代》，麻省理工学院出版社剑桥 1990 年，第 429–434 页。
+
+返回注释参考 163
+
+164. 库兹韦尔《智能机器时代》第 432–434 页。
+
+返回注释参考 164
+
+165. 亚历克斯·沙什克维奇在《斯坦福新闻》2019 年 8 月 21 日的报道《斯坦福大学社会学家发现，在线约会已成为美国情侣联系的最流行方式》，[`news.stanford.edu/2019/08/21/online-dating-popular-way-u-s-couples-meet`](https://news.stanford.edu/2019/08/21/online-dating-popular-way-u-s-couples-meet)；Michael J. Rosenfeld、Ruben J. Thomas 与 Sonia Hausen 的《疏远你的朋友：美国的在线约会如何取代其他见面方式》，《美国国家科学院院刊》第 116 卷第 36 期，2019 年 9 月 3 日，17753–17758，[`doi.org/10.1073/pnas.1908630116`](https://doi.org/10.1073/pnas.1908630116)。
+
+返回注释参考 165
+
+166. 即便 2024 年的手机无法连上当年的蜂窝网络，其本地存储仍可容纳全部英文维基百科文本。按常用估算，维基百科离线包约 150GB，而最新 iPhone 已提供最高 1TB 容量。参考 Nick Lewis 与 Matt Klein《如何下载维基百科以供离线、触手可及的阅读》，How-To Geek，2022 年 3 月 25 日，[`www.howtogeek.com/260023/how-to-download-wikipedia-for-offline-at-your-fingertips-reading`](https://www.howtogeek.com/260023/how-to-download-wikipedia-for-offline-at-your-fingertips-reading)；苹果官网“购买 iPhone 14 Pro”，访问于 2023 年 4 月 20 日，[`www.apple.com/shop/buy-iphone/iphone-14-pro/6.7-inch-display-1tb-space-black-unlocked`](https://www.apple.com/shop/buy-iphone/iphone-14-pro/6.7-inch-display-1tb-space-black-unlocked)。
+
+返回注释参考 166
+
+167. 这里所指是人类与人工智能日益共生、物质极大丰裕的阶段。与此同时，如本章前文所述，因人工智能在现有经济模式中替代大量人类任务与工作，混乱与竞争在所难免；正因人工智能取代了当前经济范式中诸多人类的劳动，混乱与竞争将出现。
+
+返回注释参考 167
+
+第六章：未来三十年 健康与福祉的跃迁
+1. Insilico Medicine 作为全球领先的生物模拟企业之一，自主研发了 Pharma.AI 平台，并在此平台上端到端设计出小分子药物 INS018_055。该药目前正开展 II 期临床试验，适应症为罕见肺病特发性肺纤维化，体现的是从靶点发现到分子设计的全流程 AI 驱动。想更直观了解 Insilico 的做法，可观看 2023 年 4 月 3 日的 YouTube 视频《人工智能如何加速药物发现》，[`www.youtube.com/watch?v=mqB`](https://www.youtube.com/watch?v=mqB)vitxD05M；Hayden Field 在 CNBC 2023 年 6 月 29 日的报道《首个完全由人工智能生成的药物进入人体临床试验》，[`www.cnbc.com/2023/06/29/ai-generated-drug-begins-clinical-trials-in-human-patients.html`](https://www.cnbc.com/2023/06/29/ai-generated-drug-begins-clinical-trials-in-human-patients.html)。
+
+返回到注释参考 1
+
+2. 关于 AI 驱动药物发现的延伸阅读：Vanessa Bates Ramirez《药物发现人工智能可以在一天内完成目前需要数月才能完成的工作》，SingularityHub，2017 年 5 月 7 日，[`singularityhub.com/2017/05/07/drug-discovery-ai-can-do-in-a-day-what-currently-takes-months`](https://singularityhub.com/2017/05/07/drug-discovery-ai-can-do-in-a-day-what-currently-takes-months)；麻省理工学院 YouTube 视频《麻省理工学院智能探索启动：人工智能驱动的药物发现》，2018 年 3 月 9 日，[`www.youtube.com/watch?v=aqMRrRS_0JY`](https://www.youtube.com/watch?v=aqMRrRS_0JY)；NVIDIA 开发者频道视频《开发者聚焦：使用 Amber 开启药物发现的新纪元》，2019 年 7 月 29 日，[`www.youtube.com/watch?v=FqnPGHdh7iM`](https://www.youtube.com/watch?v=FqnPGHdh7iM)；SciShow 视频《我们正在教机器人和人工智能设计新药》，2021 年 9 月 30 日，[`www.youtube.com/watch?v=eRXqD-7FANg`](https://www.youtube.com/watch?v=eRXqD-7FANg)；Francesca Properzi 等《智能药物发现：人工智能驱动》，德勤健康解决方案中心 2019 年，[`www2.deloitte.com/content/dam/insights/us/articles/32961_intelligent-drug-discovery/DI_Intelligent-Drug-Discovery.pdf`](https://www2.deloitte.com/content/dam/insights/us/articles/32961_intelligent-drug-discovery/DI_Intelligent-Drug-Discovery.pdf)；Nic Fleming《人工智能如何改变药物发现》，《自然》557 卷 7707 期，2018 年 5 月 31 日，S55–S57，[`doi.org/10.1038/d41586-018-05267-x`](https://doi.org/10.1038/d41586-018-05267-x)；David H. Freedman《利用人工智能寻找新药》，《自然》576 卷 7787 期，2019 年 12 月 18 日，S49–S53，[`www.nature.com/articles/d41586-019-03846-0`](https://www.nature.com/articles/d41586-019-03846-0)。
+
+返回注释参考 2
+
+### 3.
+Abhimanyu S. Ahuja、Vineet Pasam Reddy 与 Oge Marques《人工智能与 COVID-19：一种多学科方法》，《整合医学研究》9 卷 3 期，文章 100434，2020 年 5 月 27 日，[`doi.org/10.1016/j.imr.2020.100434`](https://doi.org/10.1016/j.imr.2020.100434)；Jared Sagoff《阿贡国家实验室的研究人员和设施在对抗 COVID-19 中发挥关键作用》，阿贡国家实验室，2020 年 4 月 27 日，[`www.anl.gov/article/argonnes-researchers-and-facilities-playing-a-key-role-in-the-fight-against-covid19`](https://www.anl.gov/article/argonnes-researchers-and-facilities-playing-a-key-role-in-the-fight-against-covid19)。
+
+返回注释参考 3
+
+### 4.
+Jean-Louis Reymond 与 Mahendra Awale《利用化学宇宙数据库探索药物发现的化学空间》，《ACS 化学神经科学》3 卷 9 期，2012 年 4 月 25 日，649–657，[`doi.org/10.1021/cn3000422`](https://doi.org/10.1021/cn3000422)。
+
+返回注释参考 4
+
+### 5.
+Chi Heem Wong、Kien Wei Siah 与 Andrew W. Lo《临床试验成功率和相关参数的估计》，《生物统计学》20 卷 2 期，2018 年 1 月 31 日，273-286，[`doi.org/10.1093/biostatistics/kxx069`](https://doi.org/10.1093/biostatistics/kxx069)。
+
+返回注释参考 5
+
+### 6.
+美国 FDA《药物开发过程：步骤 3：临床研究》，2022 年 10 月 20 日访问，[`www.fda.gov/patients/drug-development-process/step-3-clinical-research`](https://www.fda.gov/patients/drug-development-process/step-3-clinical-research)；Stuart A. Thompson《疫苗到底需要多长时间？》，《纽约时报》，2020 年 4 月 30 日，[`www.nytimes.com/interactive/2020/04/30/opinion/coronavirus-covid-vaccine.html`](https://www.nytimes.com/interactive/2020/04/30/opinion/coronavirus-covid-vaccine.html)；医学研究所药物发现、开发和转化论坛《美国临床研究现状：概述》，载《变革美国的临床研究》，华盛顿国家科学院出版社 2010 年，[`www.ncbi.nlm.nih.gov/books/NBK50886`](https://www.ncbi.nlm.nih.gov/books/NBK50886)；Thomas J. Moore 等《美国食品和药物管理局批准的新型治疗药物的关键试验的估计成本，2015-2016》，《JAMA 内科医学》178 卷 11 期，2018 年 11 月，1451–1457，[`doi.org/10.1001/jamainternmed.2018.3931`](https://doi.org/10.1001/jamainternmed.2018.3931)；Olivier J. Wouters、Martin McKee、Jeroen Luyten《将一种新药推向市场所需的估计研发投资，2009-2018》，《美国医学会杂志》323 卷 9 期，2020 年 3 月 3 日，844–853，[`doi.org/10.1001/jama.2020.1166`](https://doi.org/10.1001/jama.2020.1166)；PHRMA《生物制药研究与开发：新药背后的过程》，2022 年 10 月 20 日访问，[`web.archive.org/web/20230306041340/http://phrma-docs.phrma.org/sites/default/files/pdf/rd_brochure_022307.pdf`](https://web.archive.org/web/20230306041340/http://phrma-docs.phrma.org/sites/default/files/pdf/rd_brochure_022307.pdf)。
+
+返回注释参考 6
+
+### 7.
+David Sparks 与 Rhett Burne《人工智能在世界首创中发明了更有效的流感疫苗，阿德莱德研究人员说》，澳大利亚广播公司，2019 年 7 月 2 日，[`www.abc.net.au/news/2019-07-02/computer-invents-flu-vaccine-in-world-first/11271170`](https://www.abc.net.au/news/2019-07-02/computer-invents-flu-vaccine-in-world-first/11271170)；Andrew Tarantola《人工智能如何阻止下一次大流感爆发》，Engadget，2020 年 2 月 14 日，[`www.engadget.com/2020/02/14/how-ai-is-helping-halt-the-flu-of-the-future`](https://www.engadget.com/2020/02/14/how-ai-is-helping-halt-the-flu-of-the-future)。
+
+返回注释参考 7
+
+### 8.
