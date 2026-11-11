@@ -1,0 +1,107 @@
+level_changes:
+- line: 2
+  before: 2
+  after: 1
+- line: 91
+  before: 2
+  after: 4
+- line: 97
+  before: 1
+  after: 3
+- line: 101
+  before: 2
+  after: 4
+- line: 109
+  before: 2
+  after: 4
+- line: 113
+  before: 2
+  after: 4
+- line: 117
+  before: 3
+  after: 5
+- line: 121
+  before: 3
+  after: 5
+- line: 125
+  before: 3
+  after: 5
+- line: 129
+  before: 1
+  after: 2
+- line: 131
+  before: 2
+  after: 3
+- line: 135
+  before: 3
+  after: 4
+- line: 141
+  before: 3
+  after: 4
+- line: 147
+  before: 2
+  after: 3
+- line: 151
+  before: 2
+  after: 3
+- line: 155
+  before: 2
+  after: 3
+- line: 159
+  before: 2
+  after: 3
+- line: 163
+  before: 2
+  after: 3
+- line: 167
+  before: 1
+  after: 2
+- line: 171
+  before: 2
+  after: 3
+- line: 175
+  before: 3
+  after: 4
+- line: 181
+  before: 3
+  after: 4
+- line: 192
+  before: 3
+  after: 4
+- line: 196
+  before: 3
+  after: 4
+- line: 200
+  before: 3
+  after: 4
+- line: 204
+  before: 2
+  after: 3
+- line: 208
+  before: 3
+  after: 4
+- line: 477
+  before: 2
+  after: 1
+- line: 485
+  before: 1
+  after: 2
+- line: 489
+  before: 2
+  after: 3
+text_changes:
+- line: 2
+  before: 导　论
+  after: 导论
+- line: 91
+  before: （三）基于智能体（`agent`）的分布式人工智能
+  after: （三）基于智能体（agent）的分布式人工智能
+- line: 240
+  before: （2）为智能机器设置伦理规则，防范其出现道德风险，使之成为道德机器（`moral machine`）
+  after: （2）为智能机器设置伦理规则，防范其出现道德风险，使之成为道德机器（moral machine）
+- line: 782
+  before: 2. 技术失控逻辑：将人工智能的自主性解释为人工智能创造性（`creativity`）
+  after: 2. 技术失控逻辑：将人工智能的自主性解释为人工智能创造性（creativity）
+- line: 129
+  before: 第二节　人工智能技术的主要应用场景
+  after: 第二节 人工智能技术的主要应用场景
