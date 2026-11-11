@@ -1,0 +1,76 @@
+
+4.  [\[4\]](#Chapter4_3#ref4) 2022 年关于人工智能进展的专家调查。 https://aiimpacts.org/2022-expert-survey-on-progress-in-a. 注意：在收到问卷的 4 271人中，只有162人对这个问题做出了回应，回复率还不到4%。参见 https://www.warpnews.org/artificial-intelligence/no-50-of-ai-researchers-dont-believe-there-is-a-10-risk-that-ai-will-kill-us/.
+
+5.  [\[5\]](#Chapter4_3#ref5) Nature 社论，《停止谈论明天的人工智能末日，当人工智能今天就带来风险时》。Nature, 2023 年 6 月 27 日, https://www.nature.com/articles/d41586-023-02094-7.
+
+6.  [\[6\]](#Chapter4_3#ref6) Benson, Thor.‘这份虚假信息只为你定制’。Wired, 2023 年 8 月 1 日, https://www.wired.com/story/generative-ai-custom-disinformation/.
+
+7.  [\[7\]](#Chapter4_3#ref7) Robins-Early, Nick. ‘虚假信息再造：人工智能如何侵蚀 2024 年美国大选中的民主’。The Guardian,2023 年 7 月 19 日,https://www.theguardian.com/us-news/2023/jul/19/ai-generated-disinformation-us-elections.
+
+8.  [\[8\]](#Chapter4_3#ref8) The Diary of a CEO, ‘谷歌 DeepMind 联合创始人：人工智能变得更加危险和威胁！——穆斯塔法·苏莱曼’。YouTube, 2023 年 9 月 4 日, https://www.youtube.com/watch?v=CTxnLsYHWuI.
+
+9.  [\[9\]](#Chapter4_3#ref9) Urbina, Fabio, Lentzos, Filippa, Invernizzi, Cédric, Ekins, Sean. ‘人工智能驱动药物发现的双重用途’。Nature Machine Intelligence, 第 4 卷 第 3 期 (2022), 第 189-91 页, doi:10.1038/s42256-022-00465-9.
+
+## 设计上的偏见
+
+AI被包装为超级智能，能够跨越人类局限和偏见。以前由反复无常的人类做出的抉择，现在可以交给由机器学习驱动的算法来决定了。AI好像有魔法，我们每次都能得到正确答案，也不用担心人为错误。与人类相比，AI能够更准确地理解海量数据，并且不会带有任何下意识的偏见。使用AI就像是手握游戏外挂，每次都能顺利通关。
+
+然而遗憾的是，现实中AI的制造并非像宣传的那样。与古希腊人的观念不同，技术并不是神的恩赐。
+
+从根本上说，大语言模型的开发很大程度上依赖训练数据集。许多数据集中都包含从互联网上抓取的非结构化数据，其内容往往含有社会偏见。这样一来，生成式AI就会以一种新的数字形式再现这些偏见。维基百科、Reddit和YouTube（视频社交网站）等大型数字平台的用户主要是年轻人、白人、男性和美国人，平台存在明显的种族主义、性别歧视和年龄歧视观点。这些观点在数据中占比过大，导致许多其他观点完全被忽视。
+
+心理学和神经科学教授史蒂文·皮安塔多西（Steven Piantadosi）曾让聊天机器人帮他设计一个程序——根据种族和性别来判断一个人是否有可能成为优秀科学家。机器人的回答是：“白人”和“男性”应该属于优秀科学家要素。
+
+除了数据集里的偏见，机器学习工程师的观点也会影响众多重要决策，包括如何调整模型、优化目标，以及处理公平性和偏见问题等。
+
+机器学习工程师和AI政策学者所处的地理位置和意识形态背景也会限制AI的视角。许多大型和知名AI实验室都在硅谷，那里是技术乌托邦，到处弥漫着新自由主义经济、自由至上主义、激进个人主义的气息和反工会情绪。英国威斯敏斯特大学社会学者理查德·巴布鲁克（Richard Barbrook）和安迪·卡梅隆（Andy Cameron）早在1995年就称硅谷具有一种“加州意识形态”
+
+因此，在网络参与程度、数据集创建、训练数据整理、训练模型决策和AI相关政策制定等领域，霸权主义占据上风。在设计和调整AI系统方面，以白人男性为主的科技精英，尤其是美国人，拥有极大发言权。这使得AI习惯采用特权阶层的视角解答问题，意味着AI只关注这一特定群体所关心的特定问题。
+
+正如人们所预料的那样，AI系统设计中的偏见问题随后转化为AI产品在福利、住房和警务等决策领域的歧视性做法。这通常并非出于恶意，而仅仅是因为设计者存在意识形态盲点，忽略了某些问题。最引人关注的偏见案例包括黑人的面部识别成功率较低，搜索引擎有时会给出带有性别歧视或种族歧视的搜索结果。
+
+抛开这些直接危害和人类学家对AI设计者将自己的文化观念植入产品的观察，我们发现AI奉西方世界观为圭臬。AI被设计成根据欧洲文化和知识体系的最新发展成果来对事物进行分类和辨别。虽然西方科学项目声称它们的研究具有客观性和普适性，但实际上，欧洲始终将其价值观和生活方式强加给殖民地区的民族。这种知识特权可以追溯到17世纪启蒙运动，其中包括以西方为中心的人类学研究和对其他民族的数据收集实践。这些理论体系试图将世界描述为一套普遍而有序的真理。它们虽然把自己包装成全球普适的客观真理，但实际上表达的是充满局限性的欧洲世界观。这就是拉美反殖民主义学者阿尼巴·奎加诺（Aníbal Quijano）所定义的“知识的殖民性”，指的是一种欧洲中心论，认为欧洲的世界观具有普适性，且优于其他地区民族的世界观。
+
+随着大语言模型迅速进入知识生产领域，人们越来越依赖聊天机器人来获取关于世界的准确信息。我们是时候反思生成式AI所提供的知识和信息的准确性和可靠性了。AI的权威性使人们觉得它的角色是观察者，没有立场，只是在记录事件，且没有偏见。
+
+以AI为例，这个概念往往被包装在白人种族框架中。当你搜索AI的形象时，搜索引擎会弹出数百个白人模样的人形机器人，这些形象被用于营销材料和投资者推介。在电影、电视、图片库、虚拟助手和聊天机器人中，AI的形象也主要是白人。剑桥大学“AI叙事”项目负责人坎塔·迪哈尔（Kanta Dihal）和斯蒂芬·凯夫（Stephen Cave）认为，这远远超出了单纯的外形描绘范畴。他们明确指出：“想象一台智能（自主、能动、强大）的机器，就是想象一台白人机器，因为在白人种族观念中，只有白人才具有这些特质。”
+
+基础模型是近年来AI革命的核心引擎。作为一名机器学习工程师，李在基础模型开发中扮演着微小却关键的角色。她亲眼见证这些模型被广泛应用，也知道她的公司获利颇丰。她所在的AI初创公司，在成立三年后就获得了数千万美元的A轮融资，现在公司估值已达数亿美元。许多大型科技公司都向她所在的公司抛出了橄榄枝，迫切地想与其签约，为其提供计算基础设备。目前，该公司从亚马逊云计算服务租用了运算资源，但如果投资人变了，合作方也会发生变化。公司高管希望在2024年年底之前，公司市值能够像行业领头的200多家企业一样，超过10亿美元。
+
+AI这一新兴营利产业的根本基础是人类劳动和智慧，它们体现在数据集中。AI公司经常谈论自己开发这项技术是为了更好地服务人类，但其实它们的主要动机是赢利，是靠产品变现。大语言模型是基于人类几个世纪积累的知识宝库建成的，汇集了各种书籍、文章、杂志、维基百科网页、线上社区和网络论坛的信息数据。就像第一代社交媒体平台利用技术靠线上社交活动获利一样，如今的AI公司正将自由共享的知识私有化，再包装成产品卖给公众。像Meta和谷歌这样的数字平台通过创造网络环境，观察用户在平台上的活动，然后再利用算法推销广告获利。大语言模型通过海量数据习得人类智能模式，推动集体智慧私有化，延续了科技公司长期以来将人类经验商品化的趋势。
+
+李工作努力，报酬丰厚，但她始终觉得，在某种程度上，她也只不过是庞大机器中的一个齿轮。这台机器正以惊人的速度处理文本数据，但如果想要扩大模型的规模并提升其能力，很快就需要更多数据。她怀疑公司现有的模型存在巨大的偏见和局限性，但与安全和伦理道德相比，经济利益永远是王道。
+
+1.  [\[1\]](#Chapter4_4#ref1) 在希腊神话中，普罗米修斯违抗奥林匹斯众神，从他们那里盗取火种并赐予人类，代表知识和技术的馈赠。
+
+2.  [\[2\]](#Chapter4_4#ref2) 参见 Graham, Mark and Dittus, Martin. 《数字排斥的地理学：数据与不平等》。伦敦：Pluto,2022.
+
+3.  [\[3\]](#Chapter4_4#ref3) Steven T. Piantadosi (@spiantado), 推文, 2022 年 12 月 4 日, https://twitter.com/spiantado/status/1599462375887114240.
+
+4.  [\[4\]](#Chapter4_4#ref4) 关于大语言模型中的偏见的文献综述，参见 Gallegos, Isabel, Rossi, Ryan,Barrow, Joe, Tanjim, Md, Kim, Sungchul, Dernoncourt, Franck, Yu, Tong, Zhang, Ruiyi, Ahmed, Nesreen. ‘大型语言模型中的偏见与公平：综述’。2023 年。在：https://arxiv.org/pdf/2309.00770.pdf.
+
+5.  [\[5\]](#Chapter4_4#ref5) Crowell, Rachel. ‘为什么人工智能的多样性危机很重要，以及如何应对它’。Nature.在：https://www.nature.com/articles/d41586-023-01689-4.
+
+6.  [\[6\]](#Chapter4_4#ref6) \[cite\_start\]斯坦福人工智能指数报告 2023. https://aiindex.stanford.edu/report/. \[cite: 6\]
+
+7.  [\[7\]](#Chapter4_4#ref7) West, Sarah Myer, Whittaker, Meredith and Crawford, Kate. ‘歧视性系统：人工智能中的性别、种族与权力’。AI Now Institute, 2019 年 4 月, https://cdn.vox-cdn.com/uploads/chorus\_asset/file/16125391/discriminating\_systems\_041519\_2.pdf.
+
+8.  [\[8\]](#Chapter4_4#ref8) \[cite\_start\]2022 年 Taulbee 调查. https://cra.org/crn/wp-content/uploads/sites/7/2023/05/2022-Taulbee-Survey-Final.pdf. \[cite: 8\]
+
+9.  [\[9\]](#Chapter4_4#ref9) Barbrook, Richard and Cameron,Andy.‘加州意识形态’。Mute, 1995 年 9 月 1 日, https://www.metamute.org/editorial/articles/californian-ideology.
+
+10.  [\[10\]](#Chapter4_4#ref10) Miceli, Milagros, Posada, Julian, Yang, Tianling. ‘研究机器学习数据：当我们谈论权力时为何谈论偏见？’。Proceedings of the ACM on Human-Computer Interaction,第 6 卷 第 34 篇,第 1-14 页, doi. org/10.1145/3492853.
+
+11.  [\[11\]](#Chapter4_4#ref11) Johnson, Thadeus L., and Johnson, Natasha. ‘警察面部识别技术无法区分黑人’。Scientific American,2023 年 5 月 18 日, https://www.scientificamerican.com/article/police-facial-recognition-technology-cant-tell-black-people-apart/;Noble,Safiya.《压迫的算法：搜索引擎如何强化种族主义》。纽约：NYU Press, 2018.
+
+12.  [\[12\]](#Chapter4_4#ref12) Giorno, Taylor. ‘联邦监管机构警告人工智能、机器学习可能在贷款中助长偏见’。The Hill, 2023 年 7 月 18 日, https://thehill.com/business/housing/4103358-fed-watchdog-warns-ai-machine-learning-may-perpetuate-bias-in-lending/.
+
+13.  [\[13\]](#Chapter4_4#ref13) Hao, Karen. ‘人工智能正在把人送进监狱——而且出错了’。MIT Technology Review, 2019 年 1 月 21 日, https://www.technologyreview.com/2019/01/21/137783/algorithms-criminal-justice-ai/.
+
+14.  [\[14\]](#Chapter4_4#ref14) Burgess, Matt, Schot, Evlaine, Geiger, Gabriel. ‘这台机器可能会毁掉你的生活’。Wired,2023 年 3 月 6 日,https://www.wired.com/story/welfare-algorithms-discrimination/.
+
+15.  [\[15\]](#Chapter4_4#ref15) Quijano, Anibal and Ennis, Michael. ‘权力的殖民性、欧洲中心主义与拉丁美洲’，Nepantla:Views from South, 第 1 卷 第 3 期(2000),第 533-80 页.
+
+16.  [\[16\]](#Chapter4_4#ref16) 参见 Nagel,Thomas.《无处之见》。牛津：Oxford University Press,1986.
+
+17.  [\[17\]](#Chapter4_4#ref17) 关于女性主义立场理论，参见 Harding,Sandra(编),《女性主义立场理论读本》。纽约和伦敦：Routledge, 2004; Smith, Dorothy.‘女性视角作为对社会学的激进批判’。Sociological Inquiry, 第 44 卷 (1974), 第 7-13 页; Hartstock, Nancy C. M. ‘女性主义立场：发展一种专门的女性主义历史唯物主义的基础’。In Sandra Harding and Merrill B.Hintikka(编),《发现现实：女性主义视角下的认识论、形而上学、方法论与科学哲学》。阿姆斯特丹：Kluwer Academic Publishers, 1983. 另见 Collins, Patricia Hill. ‘向内部的局外人学习：黑人女性主义思想的社会学意义’。Social Problems,第 33 卷 第 6 期(1986), S14-S32.

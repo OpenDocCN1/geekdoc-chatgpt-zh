@@ -1,0 +1,64 @@
+
+19.  [\[19\]](#Chapter7_2#ref19) Barrett, Jonathan, and Convery, Stephanie. ‘Robot recruiters: can bias be banished from AI hiring?’. The Guardian, 26 March 2023, https://www.theguardian.com/technology/2023/mar/27/robot-recruiters-can-bias-be-banished-from-ai-recruitment-hiring-artificial-intelligence; Ayoub, Sarah.‘Recruitment by robot:how AI is changing the way Australians get jobs’.The Guardian, 22 October 2023, https://www.theguardian.com/technology/2023/oct/23/ai-recruitment-job-search-artificial-intelligence-employment.
+
+20.  [\[20\]](#Chapter7_2#ref20) Weissmann, Jordan. ‘Amazon Created a Hiring Tool Using A. I. It Immediately Started Discriminating Against Women’.Slate,10 October 2018,https://slate. com/business/2018/10/amazon-artificial-intelligence-hiring-discrimination-women.html.
+
+21.  [\[21\]](#Chapter7_2#ref21) Dastin, Jeffery. ‘Insight—Amazon scraps secret AI recruiting too that showed bias against women’. Reuters, 28 October 2018, https://www.reuters.com/article/idUSKCN1MK0AG/.
+
+22.  [\[22\]](#Chapter7_2#ref22) Drage, Eleanor, and Mackereth, Kerry. ‘Does AI Debias Recruitment? Race, Gender,and AI's“Eradication of Difference”’.Philosophy＆Technology 35 (2022), doi.org/10.1007/s13347-022-0543-1.
+
+23.  [\[23\]](#Chapter7_2#ref23) Fergus, J., ‘A bookshelf in your job screening video makes you more hirable to AI’.Input,18 February 2021,https://www.inverse.com/input/culture/a-bookshelf-in-your-job-screening-video-makes-you-more-hirable-to-ai; Schellmann, Hilke, and Wall, Sheridan. ‘We tested AI interview tools. Here's what we found’. MIT Technology Review, 7 July 2021, https://www.technologyreview. com/2021/07/07/1027916/we-tested-ai-interview-tools.
+
+24.  [\[24\]](#Chapter7_2#ref24) ModernHire. ‘Automated Interview Creator’. https://modernhire.com/platform/automated-interview-creator/.
+
+25.  [\[25\]](#Chapter7_2#ref25) Barnes, Patricia. ‘EPIC Asks Federal Trade Commission To Regulate Use Of Artificial Intelligence In Pre-Employment Screenings’. Forbes, 3 February 2022, https://www.forbes.com/sites/patriciagbarnes/2020/02/03/group-asks-federal-trade-commission-to-regulate-use-of-artificial-intelligence-in-pre-employment-screenings/.
+
+26.  [\[26\]](#Chapter7_2#ref26) Ryan-Mosley, Tate. ‘Why everyone is mad about New York's AI hiring law’. MIT Technology Review, 10 July 2023, https://www.technologyreview.com/2023/07/10/1076013/new-york-ai-hiring-law/.
+
+27.  [\[27\]](#Chapter7_2#ref27) European Comission. ‘Regulatory framework proposal on artificial intelligence’. https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai.
+
+28.  [\[28\]](#Chapter7_2#ref28) Ghaffary, Shirin, and Del Rey, Jason. ‘Amazon employees fear HR is targeting minority and activism groups in email monitoring program’.Vo x,24 September 2020, https://www.vox.com/recode/2020/9/24/21455196/amazon-employees-listservs-minorities-underrepresented-groups-worker-dissent-unionization.
+
+## 罢工
+
+或许，有人认为像亚马逊这样的监控系统将权力的天平倾向于管理者，从根本上改变了权力的平衡，这种想法是可以理解的。数字监控系统积累了大量数据和信息，AI推动了复杂管理体系的形成，这些似乎并没有给员工留下任何还击的机会。就连研究人员也得出结论：亚马逊实行的是“技术经济专制”。这一切不免让我们感到有些绝望。
+
+平台经济中劳动者的斗争预演了即将来临的劳动者与AI管理的抗争。英国外卖平台Deliveroo和优步等公司的员工发起了游击式抗争活动，以争取更高的工资和更好的工作条件。他们组织了多种形式的反抗活动，包括自发罢工、抗议、加入工会以及其他更隐蔽的抵制形式。这一系列行动的传播速度几乎与这些平台本身的扩张速度一样快。
+
+多年来，工会一直断断续续地在BHX4仓库外活动。工会成员站在通往仓库的路上，试图与驾车进入仓库的员工交谈，但无人理会。亚历克斯从没有停下来与他们交谈，因为他担心跟在后面的经理会找自己麻烦。他会从车窗接过传单，匆匆看一眼，就扔进座位旁的口袋里。一张张传单堆在那里，等着哪天他终于想起来把它们扔掉。但2022年夏天，亚历克斯开始对工会有了一些想法。俄乌冲突导致物价迅速上涨，他的工资开始不够花。商品价格都在上涨，工资却没有变化。同事们加班的次数越来越多，有些人一周要多上两个班次。最多的每周要工作60个小时才能维持生计。有些人下了班，坐进自己的车里，马上就登录优步开始接单。慢慢地，越来越多同事的车贴上了优步的标志。每个人的压力都很大，以前能一笑了之的分歧，现在可能会升级为激烈的争吵。
+
+一件意想不到的事导致了情况恶化。2022年8月，新闻里说通货膨胀率达到了10%。公司宣布要加薪，员工们的期待是时薪至少涨2英镑。但最后只涨了50便士（0.5英镑）。新冠肺炎疫情期间，亚马逊的利润上涨了220%，创造这些利润的员工却还在为生计发愁。因此，亚马逊的两个仓库爆发了抗议活动，埃塞克斯郡蒂尔伯里仓库的抗议视频开始疯传。在那里，数百名员工一起罢工，找总经理讨公道。 团队领导惊慌失措，急忙让员工到食堂进行正式的对话。食堂里，一群紧张的经理试图安抚众人情绪。他们声称对新的工资标准一无所知，但会进行调查，随后要求员工都回去工作，否则就扣工资。员工断然拒绝了这个提议，开始自发罢工。晚班员工陆续到来后，也毫不犹豫地加入了罢工的行列。
+
+第二天，从蒂尔伯里到布里斯托尔，共有5家仓库发生了罢工，还有另外4个仓库也受到影响。在BHX4，罢工的烽火在上午10点半的休息时间被点燃。一群员工聚在一起，观看社交平台TikTok上流传的罢工视频。他们商定在午餐时段发起罢工行动。亚历克斯在工位上听到了动静，也加入其中。几分钟之后，就有300位员工离开工位，拒绝工作。他们坐在食堂里，一边聊天，一边分享其他仓库的罢工视频。
+
+接下来的3天里，BHX4的员工多次罢工。转天，总经理要求与员工代表对话。员工们拒绝了，他们提出管理层只能与所有人公开对话。场面僵持了一会儿，总经理答应了员工们的要求。员工们询问只加薪50便士的原因，并要求提高加薪幅度。总经理答应帮他们请示上层，再给出回复。接着他再次要求员工们回去工作，否则谁也拿不到工资。但人们断然拒绝了，总经理的命令对他们完全不起作用。同样的情况在全英各地上演。到了第八天和第九天，英国斯温顿大型园区的员工也加入了罢工。2020年，亚马逊以两亿英镑的价格买下了这座仓库，这是当时英国有史以来采购价格最高的物流地产，后来又用了约两亿英镑装修。但现在，仓库闲置了，因为没人工作，一切都无法运转。到了第十天，又有四个仓库加入罢工。第十一天，又新增一个仓库。然而，罢工浪潮还没有结束，在接下来的几天，罢工又蔓延了几千千米。在美国南加利福尼亚州圣贝纳迪诺市的一个亚马逊仓库，员工因工资和工作场所温度问题也罢工了。在位于土耳其科贾埃利的亚马逊主仓库，有600名员工发起了静坐罢工。在德国，员工因生活成本上涨而发起了正式罢工。
+
+罢工结束时，仅英国就有11个仓库进行了22次罢工行动。这样的罢工力度是前所未有的。波兰、法国和美国的亚马逊仓库都曾发生过自发罢工，
+
+这次罢工表明，亚马逊的员工势不可当。多年以来，他们一直被视为无法自主决策、只能被动接受管理者的安排和决定的受害者，如今终于有了发言权。罢工浪潮开启了新的征程。BHX4之前就有一些工会成员，现在工会逐步壮大。自发的罢工运动遭到打击，没有争取到加薪，员工们开始相信工会可以帮助他们赢下加薪斗争。这些罢工事件开始被人们赋予特殊的意义，被看作一个标志劳动者开始积极反抗、争取自身权益的转折点。但亚历克斯还不确定。他父亲当年也是工会成员，曾积极参与争取劳动者权益的活动，但最终失败了。现在看来，那个时代似乎已经远去。时任英国首相撒切尔夫人推行了经济改革，关闭矿井，关停工厂。亚历克斯觉得现在已经没有什么值得去斗争的了。他寄望于升职加薪，也期待在某个制造业巨头回迁考文垂时找到一份更好的工作。
+
+真正让亚历克斯下决心加入工会的是 一位老人。那位老人大概60岁，和亚历克斯的叔叔年龄相仿。他们经常在早上聊天。一个周五早上，他们又在一起聊天。亚历克斯问老人周末有没有什么计划。老人静静地坐了一会儿。“没什么计划。”老人挪了一下椅子，低头盯着茶杯。老人解释说，自己以前每周工作40个小时，一周工作4天，花一天去钓鱼，还有两天可以跟家人待在一起。但现在，他每周需要工作五六天才能维持基本生计。老人说按照目前的情况，他没法去钓鱼了。就在那天晚上，亚历克斯下班后，在手机上加入了工会。
+
+自发罢工证明了一个事实：尽管亚马逊仓库的控制系统错综复杂，但员工并非完全无能为力。罢工接连不断，工会也持续壮大。亚历克斯参与了第一次正式罢工，接着是第二次，不久之后，罢工就成了家常便饭。到2023年年底，BHX4仓库员工的总罢工时长超过了30天。他们的工会组织GMB开始讨论利用法定机制迫使亚马逊就工资问题与工会展开集体谈判。
+
+在本章开篇的时候，我们提到有一天亚历克斯和工友们要处理140多万件货物。在那之后没几天，亚历克斯再次参与了罢工。早上6点半，天还是黑的，亚历克斯站在路上，瓢泼大雨瞬间将他浇透。在仓库外，印着巨大的亚马逊标志的浅蓝色货车被堵在路上。车流中还夹杂着一些想穿过罢工线去上班的员工的车辆。亚历克斯沿着车辆队伍行走，注意到警察们为平息事端而来回奔跑。远处传来雷鬼乐歌手鲍勃·马利（Bob Marley）的音乐，还有人在用扩音器喊话。这条路是通向仓库的唯一道路，大概有400名员工在游行，他们都是工会的中坚力量，无论发生什么情况都会参加罢工游行。亚历克斯认识其中大多数人，虽然他不是和每个人都合得来，但至少他们在为同一件事努力。工会成员早些时候给了他一些传单，但倾盆大雨已经把这些传单浇成了浆糊。他向右边车辆看去，发现车里坐的是他认识的人，于是他示意对方摇下车窗，说道：
+
+“伙计，罢工，了解一下？”
+
+1.  [\[1\]](#Chapter7_3#ref1) Vallas, Steven P., Hannah Johnston, and Mommadova, Yana. ‘Prime Suspect:Mechanisms of Labor Control at Amazon's Warehouses’.Work and Occupations, Vol. 49 No. 4 (2022), pp. 421-56, doi. org/10.1177/07308884221106922.
+
+2.  [\[2\]](#Chapter7_3#ref2) 关于客服中心和工人抵抗的辩论，see Bain, Peter, and Phil Taylor. ‘Entrapped by the“Electronic Panopticon”?Worker Resistance in the Call Centre’.New Technology, Work and Employment, Vol. 15 No. 1 (2000), pp. 2-18, doi. org/10.1111/1468-005X.00061;Woodcock,Jamie.Working the Phones.London:Pluto Press, 2017; Ferrari, Fabian, and Graham, Mark. ‘Fissures in algorithmic power:platforms,code,and contestation’.Cultural Studies(2021),doi.org/10. 1080/09 502386.2021.1895250.
+
+3.  [\[3\]](#Chapter7_3#ref3) Silver,Beverly. Forces of Labour: Workers’ Movements and Globalisation since 1870.Cambirdge:Cambridge University Press,2003.
+
+4.  [\[4\]](#Chapter7_3#ref4) Fine, Sidney. Sit-down: The General Motors Strike of 1936-1937. Ann Arbor: University of Michigan Press, 1959; Rawick, George. ‘Notes on the American Working Class’.Speak Out,1968.https://www.marxists.org/archive/rawick/1968/06/us-working-class.htm.
+
+5.  [\[5\]](#Chapter7_3#ref5) Cant, Callum. Riding for Deliveroo: Resistance in the New Economy. Cambridge: Polity Press, 2019.
+
+6.  [\[6\]](#Chapter7_3#ref6) Delfanti,Alessandro.The Warehouse:Workers and Robots at Amazon.London:Pluto Press, 2021.
+
+7.  [\[7\]](#Chapter7_3#ref7) Chua, Charmaine, and Cox, Spencer. ‘Battling the Behemoth: Amazon and the Rise of America's New Working Class’.Socialist Register(2023),https://socialistregister.com/index.php/srv/article/view/39597; Moody, Kim. On New Terrain: How Capital Is Reshaping the Battleground of Class War.Chicago:Haymarket Books, 2017.
+
+8.  [\[8\]](#Chapter7_3#ref8) Anon. ‘Wildcat Strike at Amazon’. Notes From Below, 2022, https://notesfrombelow.org/article/wildcat-strike-amazon.
+
+9.  [\[9\]](#Chapter7_3#ref9) Anon. ‘How the Amazon Wildcat Spread’. Notes From Below, 2022,https://notesfrombelow.org/article/how-amazon-wildcat-spread.

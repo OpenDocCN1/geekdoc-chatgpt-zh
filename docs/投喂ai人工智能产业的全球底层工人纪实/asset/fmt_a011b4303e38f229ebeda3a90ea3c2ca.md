@@ -1,0 +1,78 @@
+
+18.  [\[18\]](#Chapter4_4#ref18) Harding, Sandra. ‘Rethinking Standpoint Epistemology: What is Strong Objectivity?’.in L.Alcoff and E.Potter(eds.),Feminist Epistemologies.New York and London: Routledge, 1993, pp. 49-82.
+
+19.  [\[19\]](#Chapter4_4#ref19) Cave,Stephen,Dihal,Kanta.‘The Whiteness of AI’.Philosophy＆Technology, Vol. 33 No. 4 (2020), pp. 685-703, doi.org/10.1007/s13347-020-00415-6.
+
+20.  [\[20\]](#Chapter4_4#ref20) Crunchbase. ‘Current Unicorns Tagged with AI’. https://www.crunchbase.com/lists/current-unicorns-tagged-with-ai/f296fc53-ac45-44e0-88eb-2979f7857fe2/organization.companies.
+
+# 第3章 技术员的故事
+
+一个阳光明媚的春日，数据中心里忙碌依旧。今天有新客户要将服务器迁入数据中心大楼，埃纳尔正忙着监督准备工作。这次的客户是欧洲最大的银行之一，总部在巴黎，他们希望实现数据存储的多元化并降低成本。埃纳尔是冰岛北部一家刚成立的数据中心的设施经理，中心还有另外两位工作人员，一位是电工约翰，一位是维修技术员哈尔多尔。整个早上，埃纳尔在数据中心里四处奔忙，指导工人安装客户要求的新服务器机架。数据中心经营主机托管服务，企业可以租用数据中心的空间放置服务器，并享受其提供的电力能源、基础设施和相关维护等服务。埃纳尔的时间非常紧张。他们能否按时完成所有新设备的安装，要到最后一刻才能见分晓。如果不能如期准备就绪，数据中心将损失一大笔钱，并可能失去这位客户。所以，他必须确保能够按时完成任务。
+
+埃纳尔的家乡是冰岛北部的一个海边小镇布伦迪欧斯，镇上住了不到900人。数据中心在这里成立后，他从冰岛首都雷克雅未克搬了回来，担任该中心的经理。冰岛大多数沿海城镇都发展传统渔业，但布伦迪欧斯不一样，这里的大部分居民靠给当地农民提供服务来谋生。之前从来没有一家能提供大量就业岗位的大公司在此落脚，反倒是各种各样的小公司，如建筑、纺织和商业咨询公司不断涌现，支撑着当地人的生计。几十年间，小镇发展平稳。数据中心落户后，不仅拉动了小镇的发展，还吸引了一部分投资。小镇坐落于“电力重镇”，拥有大型水电站，可以为全冰岛供电。
+
+数据中心建在小镇外的一座小雪山旁，出于安全考虑，其具体位置需要保密。数据中心能够为众多高端客户存储关键任务数据，这些客户包括政府、银行、医院和安全部队。这些数据一旦泄露，后果不堪设想，所以安全问题是重中之重。数据中心离市区不远，附近还有一大片草坪，冰岛马会在这里吃草，成群的鲑鱼在布兰达河里畅游，河水经布伦度湖流入丹麦海峡。中心共由整整齐齐的七排斜坡灰顶的白色建筑组成，周围被铁丝网围着。在冰岛这样安全的国家，铁丝网围栏显得格格不入。
+
+数据中心装有冷却系统，可以将外部冷空气吸入，并通过排气管道将服务器产生的热气排出。 其中两栋建筑里放满了比特币挖矿机，它们是冰岛数据中心市场的历史遗物。这些机器有好几百排，每排高度将近两米。行走在两排机器之间能感受到强烈的热浪，听到巨大的机器噪声。如今，数据中心专注于高性能计算，即高速处理数据和执行复杂计算，并自称“在大自然的心脏赋能AI”。
+
+今天，埃纳尔忙于回复施工人员的各种问题，以确保新设备搬入前各项工作顺利交接。电缆很快也将连到服务器上。中心的总体供电量为50兆瓦，可给10万户家庭供电。与世界上其他数据中心不同，这里的电力来自附近的布兰达水电站，是100%可再生能源。与大多数欧盟数据中心相比，这座超高效建筑的日常管理能耗低90%，能源使用效率高至1.03，而欧洲平均值为1.57。
+
+埃纳尔通常把工作安排得井井有条，按照日程表有条不紊地完成。他的工作内容包括对设备进行预防性维修，完成客户要求的远程工作，以及根据客户的要求完成一些临时性工作。日常工作基本上是例行公事，这份工作的主要挑战是按时完成任务和按照承诺给客户提供足够的租用空间。如果无法按时完成任务，就要向客户支付违约金。埃纳尔深知，这个行业是建立在信任之上的，不能按时完成任务不仅要付违约金，更会损害公司声誉。
+
+中心刚开始建设的时候，大概有50名当地的合同工。比起全球大多数数据工作者，埃纳尔很幸运，他是正式员工。很多大型科技公司数据中心的工作人员都是临时工或是由承包商雇用的，他们无法享受正式员工的待遇和福利。
+
+埃纳尔就职的数据中心承诺元旦前客户能够连上中心设备，技术员们已经为此奋战了几个月，但他们一直得干到12月31日下午6点，以保证数据中心能如期上线。在这个行业中，守时比任何事都重要。今天，埃纳尔的团队要为明天上午9点的客户到访做好准备。这份工作的压力不小，但埃纳尔觉得其他对时间要求严格的行业也都大同小异。公司还想继续扩大规模，目标是将供电量从50兆瓦发展到120兆瓦以上。能否实现这样的目标要看冰岛和北欧数据中心产业的命运了，还要看未来10年它们的发展情况。
+
+1.  [\[1\]](#Chapter5#ref1) TechTarget解释说：“能源使用效率是用于评估数据中心能源效率的重要指标，通过将数据中心总电量除以用于运行内部IT设备的电量来计算。”See https://www.techtarget.com/searchdatacenter/definition/power-usage-effectiveness-PUE.
+
+2.  [\[2\]](#Chapter5#ref2) See Moss, Sebastian. ‘Underpaid and overworked: Behind the scenes with Google's data center contractors’.Data Center Dynamics, 2 December 2021, https://www.datacenterdynamics.com/en/analysis/underpaid-and-overworked-behind-the-scenes-with-googles-data-center-contractors/.
+
+## 在冰与火的国度涌动的数据流
+
+全球云计算市场规模大概是5 000亿美元，冰岛期待能在其中占据更大的市场份额。冰岛位于北大西洋中部，距离北美或欧洲大陆都有约2 000千米。这里人烟稀少，没有近邻，处于全球经济比较边缘的位置。然而，高速光缆将冰岛拉入了数字经济网络，彻底改变了它的发展前景。
+
+全球数据中心网络是互联网的基础，也是AI产业的重要基础设施，而想要了解全球数据中心网络，冰岛是个很好的切入点。关于数据中心的新一轮讨论聚焦于三个问题：AI的环境成本、数据中心能源使用以及劳动标准。针对这三点，冰岛的主要营销策略是强调自己能在稳定条件下提供可再生能源。冰岛认为自己可以成为数据中心的理想选址，这表明随着AI的发展和气候变化的影响日益显著，科技公司对数据中心作用的认知正在发生改变。冰岛地处边缘地带，提供了一个独特的视角来观察AI生产网络在全球更大范围内的运作，并突显了一个重要论点，即权力正日益集中到科技巨头手中。
+
+作为实地考察的一部分，我们在2023年年末参加了雷克雅未克数据中心论坛，了解当地数据中心行业的情况。时任冰岛总统古德尼·索尔拉修斯·约翰内松（Guðni Thorlacius Jóhannesson）为会议致开幕词，他提醒与会者，数据中心会在冰岛长期存在，而将数字基础设施向冰岛迁移是因为这里拥有大量绿色能源。冰岛数据中心的代表也出席了该会议。这个中心由冰岛政府管理，专门负责数据中心产业的宣传。他们以低温为卖点，称冰岛是数据中心产业的天然家园。中心还用航拍镜头记录下了冰岛纯净的自然环境，以此进行宣传，吸引投资，同时还配上了通俗广告语：冰岛——最“冷酷”的数据中心天堂。
+
+冰岛这种营销自然环境的策略，可以追溯到它是丹麦殖民地的时期，那时人人都觉得这里是荒凉偏远、人迹罕至的神秘国度。
+
+1994年，冰岛的第一条海底光缆CANTAT-3投入使用，此后冰岛吸引了大量投资，在2003年和2009年又分别铺设了FARICE-1和DANICE光缆。光缆的传输速度是普通铜质电缆的20倍以上，凭借更高的耐用性和更清晰的信号，光缆有效增强了冰岛与世界的联系。2022年，一条新的大容量光缆IRIS连接了爱尔兰戈尔韦和冰岛，它建立了冰岛通往欧洲其他地区的新连接，使得冰岛不再依赖英国或丹麦的电缆与欧洲其他地区联通。冰岛数据中心主席比约恩·布利约尔弗松（Björn Brynjúlfsson）指出：“这条新光缆让我们离市场更近了……在爱尔兰，可以找到所有的云服务提供商，这条光缆意味着把项目转移到冰岛变得更加容易了。”雷克雅未克Borealis数据中心的营销总监布莱克·E.格雷（Blake E. Greene）也调侃道：“新光缆让冰岛成了‘都柏林的数字后花园’。”
+
+冰岛在全球市场所占份额不大，只有10个数据中心，而英国和德国各有500多个，爱尔兰也有80多个。
+
+因此，北极地区愈发引起数据中心产业的关注。这里凉爽稳定的气候是一种宝贵资产，稍加包装就可以吸引外国投资者。冰岛位于北极圈边缘，其沿海地区冬季平均气温约为0℃，夏季平均气温为10℃～13℃，没有极端寒冷天气。这里的气候条件使得免费的自然风冷成为可能，从而能够大幅降低数据中心的运行成本。更高速的运算能力和更新型的芯片提高了服务器的功率，也增加了能耗，对冷却功能提出了更高要求。随着AI的发展，单个服务器机架的耗电量在过去7年里增加了一倍多。比约恩·布利约尔弗松表示，之前他的数据中心单个机架消耗的能量不到10千瓦，现在要消耗到44千瓦，有时甚至会达到66千瓦。
+
+可再生能源是冰岛的另一大卖点。据国际能源机构统计，2022年数据中心和数据传输网络消耗了全球2%～3%的能源，相当于法国或者德国一年的总耗电量。
+
+冰岛通过恒定可靠的水力发电（70%）和地热能（30%）来提供100%的可再生能源，这些能源不像风能或太阳能那样存在间歇性发电的问题。
+
+冰岛的另一个优势是国内政治和经济稳定，劳动者精通英语。除了偶尔出现的火山爆发可能会导致全球大量航班停飞，其他时间冰岛是世界上最安全、最稳定的国家之一。俄乌冲突引发各国对能源供应和重要基础设施控制权的担忧，一国的能源安全性和稳定性成了外国投资者日益重视的因素。冰岛还为企业和政府提供数据异地备份服务，以便客户在网络受到攻击时能够访问数据的备份副本。
+
+原本地理位置偏远是冰岛的劣势，现在冰岛正努力将它转变为优势。欧洲初代数据中心一般建在客户终端附近，如伦敦、巴黎、阿姆斯特丹和法兰克福等地，这些地方都聚集着大型数据中心。当时人们认为，数据中心越靠近客户终端，数据传输的延误越小。银行和金融机构投入巨额资金用于优化计算机架构，将连接耗时缩短至毫秒级，从而得以在全球资本市场中利用微小的信息不对称进行套利。
+
+Farice电信服务公司首席执行官索尔瓦杜尔·斯维恩松（Thorvardur Sveinsson）说：“AI需要大量数据分析，这些处理并不一定非要在伦敦金融城进行。我们可以建立稳定的传输通道，将数据汇集到冰岛处理，再传回人口稠密地区使用。”另一位支持将数字中心建在冰岛的是地质勘探公司英国分部的图像处理经理安德鲁·布伦顿（Andrew Brunton），他主要负责将公司的部分服务器迁至冰岛，随后表示数据中心不需要建在公司附近。据其报告，服务器搬到冰岛后，公司节省了84%的成本，二氧化碳排放量下降了92%。他还表示：“如果明天就能把公司的所有数据业务都转移到冰岛，我会毫不犹豫。”
+
+随着企业愈发关注经营成本和可持续发展问题，它们开始寻找能够减少碳排放并提高设施效率的地方设置数据中心。冰岛具有设施先进、租金和维护成本低廉的优势，政府想利用这些优势与传统的选址地形成竞争，吸引下一轮投资。然而，许多企业还是非常在意数据传输延迟的问题，因此长距离传输的数据总量可能存在上限。
+
+1.  [\[1\]](#Chapter5_1#ref1) 对冰岛文化历史的分析以及将冰岛构建为数据中心的 “天然家园”，see Johnson, Alix. ‘Emplacing Data Within Imperial Histories: Imagining Iceland as Data Centers’“Natural”Home’. Culture Machine,Vol. 18 (2019), https://culturemachine.net/vol-18-the-nature-of-data-centers/emplacing-data/. See also Johnson,Alix.Where Cloud is Ground:Placing Data and Making Place in Iceland.Oakland,California:University of California Press,2023.
+
+2.  [\[2\]](#Chapter5_1#ref2) Statista. ‘Number of data centers worldwide in 2023, by country’. https://www.statista.com/statistics/1228433/data-centers-worldwide-by-country/.
+
+3.  [\[3\]](#Chapter5_1#ref3) OECD. ‘OECD Economic Surveys: Iceland’. https://www.oecd.org/economy/surveys/Iceland-2021-OECD-economic-survey-overview. pdf.
+
+4.  [\[4\]](#Chapter5_1#ref4) McKinsey ＆ Company. ‘Investing in the rising data center economy’. McKinsey, 13 January 2023, https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/investing-in-the-rising-data-center-economy.
+
+5.  [\[5\]](#Chapter5_1#ref5) Keane, Daniel. ‘More than 260 “overheating incidents”in London NHS hospitals amid climate change fears’.The Standard,23 June 2023,https://www.standard.co.uk/news/health/nhs-overheating-incidents-heatwave-london-hospitals-climate-change-b1089712.html.
+
+6.  [\[6\]](#Chapter5_1#ref6) International Energy Agency. ‘Data Centres and Data Transmission Networks’. https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks.
+
+7.  [\[7\]](#Chapter5_1#ref7) KPMG. ‘The Icelandic Data Center Industry’. March 2018, http://www.si.is/media/\_eplica-uppsetning/The-Icelandic-Data-Center-Industry-FINAL.pdf.
+
+8.  [\[8\]](#Chapter5_1#ref8) Mallonee, Laura. ‘Inside the Icelandic Facility Where Bitcoin Is Mined’. Wired,3 November 2019,https://www.wired.com/story/iceland-bitcoin-mining-gallery/.
+
+9.  [\[9\]](#Chapter5_1#ref9) Bjarnason, Egill. ‘Iceland is a bitcoin miner's haven, but not everyone is happy’. Al Jazeera, 15 April 2019, https://www.aljazeera.com/features/2019/4/15/iceland-is-a-bitcoin-miners-haven-but-not-everyone-is-happy.
+
+10.  [\[10\]](#Chapter5_1#ref10) Le Page, Michael. ‘The green tech that could help Iceland become carbon neutral by 2040’. New Scientist, 4 January 2023, https://www.newscientist. com/article/mg25634202-900-the-green-tech-that-could-help-iceland-become-carbon-neutral-by-2040/.
+
+11.  [\[11\]](#Chapter5_1#ref11) 这还不包括通过冰岛大型铝冶炼厂生产的铝条间接出口的能源，2022年这部分收入达到了30 亿美元。CEIC, ‘Iceland Aluminum: Exports’, https://www.ceicdata.com/en/indicator/iceland/aluminum-exports.
