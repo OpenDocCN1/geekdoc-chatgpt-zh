@@ -1,0 +1,17 @@
+transfer learning via common signature subgraphs. IEEE Transactions on Knowledge and Data Engineering. 27(9), 2536–2549.
+Ferguson, Kimberly, and Mahadevan, Sridhar. 2006. Proto-transfer learning in Markov decision processes using spectral methods. Proceedings of ICML Workshop on Transfer Learning.
+Ferns, Norm, Panangaden, Prakash, and Precup, Doina. 2004. Metrics for finite Markov decision processes. Pages 162–169 of: Proceedings of the 20th Conference in Uncertainty in Artificial Intelligence.
+Feurer, Matthias, Klein, Aaron, Eggensperger, Katharina, et al. 2015. Efficient and robust automated machine learning. Pages 2962–2970 of: Advances in Neural Information Processing Systems 28.
+Firat, Orhan, Sankaran, Baskaran, Al-Onaizan, Yaser, et al. 2016. Zero-resource translation with multi-lingual neural machine translation. Pages 268–277 of: Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing.
+Fong, Pui Kuen, and Weber-Jahnke, Jens H. 2012. Privacy preserving decision tree learning using unrealized data sets. IEEE Transactions on Knowledge and Data Engineering, 24(2), 353–364.
+Forbus, Kenneth D., Gentner, Dedre, Markman, Arthur B., and Ferguson, Ronald W. 1998. Analogy just looks like high level perception: Why a domain-general approach to analogical mapping is right. Journal of Experimental and Theoretical Artificial Intelligence, 10(2), 231–257.
+Friedman, Jerome, Hastie, Trevor, and Tibshirani, Robert. 2001. The Elements of Statistical Learning. Springer.
+Frome, Andrea, Corrado, Gregory S., Shlens, Jonathon, et al. 2013. DeViSE: A deep visual-semantic embedding model. Pages 2121–2129 of: Advances in Neural Information Processing Systems.
+Ganguly, Soumyajit, and Pudi, Vikram. 2017. Paper2vec: Combining graph and text information for scientific paper representation. Pages 383–395 of: Proceedings of European Conference on Information Retrieval.
+Ganin, Yaroslav, and Lempitsky, Victor. 2015. Unsupervised domain adaptation by backpropagation. Pages 1180–1189 of: Proceedings of the 32nd International Conference on Machine Learning.
+Ganin, Yaroslav, Ustinova, Evgeniya, Ajakan, Hana, et al. 2016. Domain-adversarial training of neural networks. Journal of Machine Learning Research, 17, 2096–2030.
+Gao, Chen, Chen, Xiangning, Feng, Fuli, et al. 2019. Cross-domain recommendation without sharing user-relevant data. Pages 491–502 of: Proceedings of the 2019 World Wide Web Conference on World Wide Web.
+Gao, Sheng, Luo, Hao, Chen, Da, et al. 2013. Cross-domain recommendation via cluster-level latent factor model. Pages 161–176 of: Proceedings of the European Conference on Machine Learning and Practice of Knowledge Discovery in Databases.
+Gašić, M., Kim, Dongho, Tsiakoulis, Pirros, and Young, Steve. 2015a. Distributed dialogue policies for multi-domain statistical dialogue management. Pages 5371–5375 of: Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing.
+Gašić, M., Mrkšić, N., Barahona, L. Rojas, et al. 2015b. Multi-agent learning in multi-domain spoken dialogue systems. In: Proceedings of NIPS workshop on Spoken Language Understanding and Interaction.
+Gašić, Milica, Breslin, Catherine, Henderson, Matthew, et al. 2013. POMDP-based dialogue

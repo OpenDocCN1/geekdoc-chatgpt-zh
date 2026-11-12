@@ -1,0 +1,17 @@
++   Distributed representations of words and phrases and their compositionality. Pages 3111–3119 of: Advances in Neural Information Processing Systems.
++   Min, Sewon, Seo, Minjoon, and Hajishirzi, Hannaneh. 2017. Question answering through transfer learning from large fine-grained supervision data. Pages 510–517 of: Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics.
++   Misra, Ishan, Shrivastava, Abhinav, Gupta, Abhinav, and Hebert, Martial. 2016. Cross-stitch networks for multi-task learning. Pages 3994–4003 of: Proceedings of IEEE Conference on Computer Vision and Pattern Recognition.
++   Mitchell, T., Cohen, W., Hruschka, E., et al. 2015. Never-ending learning. Pages 2302–2310 of: Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence.
++   Mitra, Pabitra, Murthy, C. A., and Pal, Sankar K. 2002. Unsupervised feature selection using feature similarity. IEEE Transactions on Pattern Analysis and Machine Intelligence, 24(3), 301–312.
++   Mitzlaff, Folke, Atzmueller, Martin, Hotho, Andreas, and Stumme, Gerd. 2014. The social distributional hypothesis: A pragmatic proxy for homophily in online social networks. Social Network Analysis and Mining, 4(1), 216.
++   Mnih, Volodymyr, Kavukcuoglu, Koray, Silver, David, et al. 2013. Playing Atari with deep reinforcement learning. CoRR, abs/1312.5602.
++   Mnih, Volodymyr, Kavukcuoglu, Koray, Silver, David, et al. 2015. Human-level control through deep reinforcement learning. Nature, 518(7540), 529–533.
++   Mo, Kaixiang, Zhang, Yu, Yang, Qiang, and Fang, Pascale. 2017. Fine grained knowledge transfer for personalized task-oriented dialogue systems. CoRR, abs/1711.04079.
++   Mo, Kaixiang, Zhang, Yu, Li, Shuangyi, Li, Jiajun, and Yang, Qiang. 2018. Personalizing a dialogue system with transfer reinforcement learning. Pages 5317–5324 of: Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence.
++   Moore, Andrew W. 1991. Variable resolution dynamic programming: Efficiently learning action maps in multivariate real-valued state-spaces. Pages 333–337 of: Proceedings of the Eighth International Conference on Machine Learning.
++   Mou, Lili, Meng, Zhao, Yan, Rui, et al. 2016. How transferable are neural networks in NLP applications? Pages 479–489 of: Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing.
++   Mrkšić, Nikola, Séaghdha, Diarmuid Ó., Thomson, Blaise, et al. 2015. Multi-domain dialog state tracking using recurrent neural networks. Pages 794–799 of: Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics.
++   Nassar, Marcel, Abdullah, Rami, Zeineddine, Hady Ali, Yaacoub, Elias, and Dawy, Zaber. 2008. A new multitask learning method for multiorganism gene network estimation. Pages 2287–2291 of: Proceedings of IEEE International Symposium on Information Theory.
++   Ng, Andrew Y., Jordan, Michael I., and Weiss, Yair. 2002. On spectral clustering: Analysis and an algorithm. Pages 849–856 of: Advances in Neural Information Processing Systems.
++   Nguyen, Hien Van, Ho, Huy To, Patel, Vishal M., and Chellappa, Rama. 2015. DASH-N: Joint hierarchical domain adaptation and feature learning. IEEE Transactions on Image Processing, 24(12), 5479–5491.
++   Nguyen, Khanh, III, Hal Daumé, and Boyd-Graber, Jordan L. 2017. Reinforcement learning for bandit neural machine translation with simulated human feedback. Pages 1464–1474 of: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing.

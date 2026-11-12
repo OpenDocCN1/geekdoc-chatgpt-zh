@@ -1,0 +1,17 @@
+bers: Learning categories from few examples with multi model knowledge transfer. Pages 3081-3088 of: Proceedings of IEEE Conference on Computer Vision and Pattern Recognition.
+Tommasi, Tatiana, Orabona, Francesco, and Caputo, Barbara. 2014. Learning categories from few examples with multi model knowledge transfer. IEEE Transactions on Pattern Analysis and Machine Intelligence, 36(5), 928-941.
+Tompson, Jonathan, Stein, Murphy, Lecun, Yann, and Perlin, Ken. 2014. Real-time continuous pose recovery of human hands using convolutional networks. ACM Transactions on Graphics, 33(5), 169:1-169:10.
+Topin, Nicholay, Haltmeyer, Nicholas, Squire, Shawn, et al. 2015. Portable option discovery for automated learning transfer in object-oriented Markov decision processes. Pages 3532-3536 of: Pages 3856-3864 of: Proceedings of the Twenty-Fourth International Joint Conference on Artificial Intelligence.
+Toshniwal, Shubham, Tang, Hao, Lu, Liang, and Livescu, Karen. 2017. Multitask learning with low-level auxiliary tasks for encoder-decoded based speech recognition. Proceedings of the 18th Annual Conference of the International Speech Communication Association.
+Tsuboi, Yuta, Kashima, Hisashi, Hido, Shohei, Bickel, Steffen, and Sugiyama, Masashi. 2009. Direct density ratio estimation for large-scale covariate shift adaptation. Journal of Information Processing, 17, 138-155.
+Tür, Gökhan. 2005. Model adaptation for spoken language understanding. Pages 41-44 of: Proceedings of IEEE International Conference on Acoustics, Speech, and Signal Processing.
+Tür, Gökhan. 2006. Multitask learning for spoken language understanding. Pages 585-588 of: Proceedings of IEEE International Conference on Acoustics Speech and Signal Processing.
+Tzeng, Eric, Hoffman, Judy, Zhang, Ning, Saenko, Kate, and Darrell, Trevor. 2014. Deep domain confusion: Maximizing for domain invariance. CoRR, abs/1412.3474.
+Tzeng, Eric, Hoffman, Judy, Darrell, Trevor, and Saenko, Kate. 2015. Simultaneous deep transfer across domains and tasks. Pages 4068-4076 of: Proceedings of IEEE International Conference on Computer Vision.
+Tzeng, Eric, Hoffman, Judy, Saenko, Kate, and Darrell, Trevor. 2017. Adversarial discriminative domain adaptation. Pages 2962-2971 of: Proceedings of IEEE Conference on Computer Vision and Pattern Recognition.
+Vail, Douglas L., Veloso, Manuela M., and Lafferty, John D. 2007. Conditional random fields for activity recognition. In: Proceedings of the Sixth International Joint Conference on Autonomous Agents and Multiagent Systems.
+van Haaren, Jan, Kolobov, Andrey, and Davis, Jesse. 2015. TODTLER: Two-order-deep transfer learning. Pages 3007-3015 of: Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence.
+van Kasteren, Tim, Noulas, Athanasios K., Englebienne, Gwenn, and Kröse, Ben J. A. 2008. Accurate activity recognition in a home setting. Pages 1-9 of: Proceedings of the 10th International Conference on Ubiquitous Computing.
+Vapnik, Vladimir. 1995. The Nature of Statistical Learning Theory. Springer.
+Vapnik, Vladimir N. 1998. Statistical Learning Theory. Wiley-Interscience.
+Venuogopalan, Subhashini, Rohrbach, Marcus, Donahue, Jeffrey, et al. 2015a. Sequence to sequence – Video to text. Pages 4534-4542 of: Proceedings of the IEEE International
