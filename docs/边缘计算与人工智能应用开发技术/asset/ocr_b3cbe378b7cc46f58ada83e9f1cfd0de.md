@@ -1,0 +1,49 @@
+```
+def inference(self, image, param_data):
+    #code: 识别成功返回 200
+    #msg: 相关提示信息
+    #origin_image: 原始图像
+    #result_image: 处理之后的图像
+    #result_data: 结果数据
+    return_result = {'code': 200, 'msg': None, 'origin_image': None, 'result_image': None,
+                     'result_data': None}
+
+    #应用请求接口： @__app.route('/file/<action>', methods=["POST"])
+    #image: 应用传递过来的数据 （根据实际应用可能为图像、音频、视频、文本）
+    #param_data: 应用传递过来的参数，不能为空
+    if param_data != None:
+        #读取应用传递过来的图像
+        image = np.asarray(bytearray(image), dtype="uint8")
+        image = cv.imdecode(image, cv.IMREAD_COLOR)
+        #保留原始图像数据
+        origin = image.copy()
+
+        #type=0 表示注册
+        if param_data["type"] == 0:
+            try:
+                image_encoding = face_recognition.face_encodings(image)[0]
+                if len(image_encoding) != 0:
+                    flag = True
+                else:
+                    return_result["code"] = 404
+                    return_result["msg"] = "未检测到人脸！ "
+            except:
+                return_result["code"] = 500
+                return_result["msg"] = "注册失败！ "
+            if flag:
+                feature_name = param_data["reg_name"] + ".npy"
+                feature_path = os.path.join(self.dir_path, feature_name)
+                np.save(feature_path, image_encoding)
+                print("已保存人脸")
+                return_result["code"] = 200
+                return_result["msg"] = "注册成功！ "
+        #type=1 表示识别
+        if param_data["type"] == 1:
+            #调用接口进行人脸比对
+            rects = self.face_id(image, self.face_cascade)
+            for x, y, w, h in rects:
+                crop = image[y: y + h, x: x + w]
+                #视频流中人脸特征编码
+                img_encoding = face_recognition.face_encodings(crop)
+                if len(img_encoding) != 0:
+```

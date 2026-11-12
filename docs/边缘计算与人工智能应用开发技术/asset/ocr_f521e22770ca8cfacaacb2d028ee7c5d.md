@@ -1,0 +1,1 @@
+(3) 在SSH终端输入以下命令，将yolov5s-mask.onnx转换为RKNN框架模型，代码如下：
