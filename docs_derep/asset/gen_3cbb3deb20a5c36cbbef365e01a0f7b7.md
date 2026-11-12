@@ -1,0 +1,19 @@
+# 知识考古与文明图谱：一份跨学科的深度阅读清单
+
+此份书目梳理了涵盖科学史、技术演进、生态人类学、经济制度、认知科学及古代文明等核心领域的学术经典与前沿成果，旨在为探究人类知识体系演变与文明进程的读者提供一张详尽的导航图。
+
+## 基石与经典：科学史与技术演进的奠基之作
+
+1999 年，Glenn W. Most 主编汇编了《评注—评论：Aporemata—文献学史批判研究》，由哥廷根 Vandenhoeck & Ruprecht 出版，深度剖析文献学发展的脉络。同年，Yann Moulier-Boutang 推出《认知资本主义》（剑桥 Polity Press），为理解知识经济时代的资本形态提供了关键理论框架。David C. Mowery 与 Nathan Rosenberg 合著的《创新的路径：20 世纪美国的技术变革》（剑桥大学出版社），系统梳理了美国技术腾飞的制度逻辑。
+
+在建模与模拟领域，Finn Müller-Hansen 等学者 2017 年于《地球系统动力学》发表论文，综述了在地球系统模型中表征人类行为与决策的技术路径。Staffan Müller-Wille 1999 年的专著《植物学与全球贸易》（柏林 Verlag für Wissenschaft und Bildung）聚焦林奈自然体系的论证背景，后又携手 Hans-Jörg Rheinberger 于 2012 年推出《遗传学的文化史》（芝加哥大学出版社），追溯遗传学概念的演变。Patrick Mulvany 2005 年在《IDS 公报》撰文，揭示企业种子控制对农民权利的限制。Richard Münch 2016 年在《牛津政治研究百科全书》条目中剖析“学术资本主义”现象。美国国家人类基因组研究所官网长期更新“人类基因组计划（HGP）全解读”，为生命科学史提供权威一手资料。
+
+Zev Naveh 1982 年在《生态学研究进展》中确立景观生态学作为人类生态系统科学分支的地位。Joseph Needham 毕生钜作《中国科学技术史》（剑桥大学出版社，共 26 卷）及其相关论著（如 1964 年《技术与文化》论铸铁冶金、1986 年《火药史诗》），奠定了中西科学比较研究的宏大基石。Henk Nellen 1990 年于《LIAS》探讨十七世纪学术通信编辑实践。Anitra Nelson 2001 年在《生态经济学》从生态经济学视角重读马克思“货币贫困”思想。Richard R. Nelson 1959 年《政治经济学杂志》奠定基础科学研究经济学分析范式，1986 年《美国经济评论》再论支持工业技术进步的制度安排。Sara Nelson、Christoph Rosol 与 Jürgen Renn 2017 年联合编辑《人类世评论》特刊“技术圈的视角”。Winifried Nerdinger 2012 年主编《建筑师：一个职业群体的历史与现状》（慕尼黑 Prestel-Verlag）。Walther Nernst 1907 年早期在《电化学杂志》发表氨平衡研究。Reviel Netz 1999 年《希腊数学中演绎的塑造》（剑桥大学出版社）从认知史角度解读古希腊数学突破。John von Neumann 1927 年三连发于《哥廷根科学院院刊》，奠定量子力学数学基础、热力学诠释与概率论构建。Nora S. Newcombe 与 Janellen Huttenlocher 2003 年《创造空间》（MIT Press）探究空间表征发展心理机制。Mark E. J. Newman 与 Duncan J. Watts 1999 年《物理评论 E》构建小世界网络模型。Isaac Newton 经典巨著《自然哲学的数学原理》（2016 年加州大学出版社权威译本）与《光学》（1952 年 Dover 版）永置案头。Daniel Niles 2018 年在《牛津公共遗产理论与实践手册》及《Technosphere Magazine》（联合 Sander van der Leeuw）探讨超越人类世的农业遗产与物质秩序。Nils J. Nilsson 2010 年《人工智能的探索》（剑桥大学出版社）梳理 AI 思想与成就史。Hans Jörg Nissen 1988 年《古代近东早期历史》（芝加哥大学出版社）及 1993 年合著《古式记账》（芝加哥大学出版社）解读早期文字与经济管理起源。Douglass C. North 《经济史的结构与变迁》（1981，Norton）与《交易成本、制度与经济绩效》（1992，ICS Press）确立新制度经济学里程碑。John Norton 2014 年在《剑桥爱因斯坦伴侣》中还原狭义相对论发现路径。Winfried Nöth 1995 年《符号学手册》（印第安纳大学出版社）构建符号学百科全书。Geoffrey Nunberg 1996 年《书籍的未来》中宣告“信息时代”终结。Angela Nuovo 2013 年《意大利文艺复兴时期的图书贸易》（Brill）重现早期印刷商业图景。Mary Jo Nye 2003 年主编《现代物理与数学科学》（剑桥科学史丛书）。Julius K. Nyerere 1968 年《乌贾马：社会主义论文集》（牛津大学出版社）展现非洲社会主义思想。Patricia J. O'Brien 1972 年《美国人类学家》追溯甘薯起源传播。Patrick K. O'Brien 2009 年在《技术史》卷中重释“李约瑟问题”。
+
+## 延伸书目：对话与拓展的前沿视野
+
+Eiichiro Ochiai 2007 年《亚太期刊》以江户时代日本为例论证可持续发展模式的全球意义。F. John Odling-Smee 等 2013 年《生物学季刊评论》系统阐释“生态位构建理论”。David Oldroyd 1996 年《思考地球》（Athlone Press）勾勒地质学思想史。Leonardo Olschki 早期三部曲（1919《技术与应用科学文献》、1922《文艺复兴时期意大利的教育与科学》、1927《伽利略及其时代》）开辟科学文献学研究先河。Pietro D. Omodeo 系列成果令人瞩目：2014 年《文艺复兴文化争论中的哥白尼》（Brill），2016 年在《范式转移》论文集中重读库恩“哥白尼革命”，2017 年《Stvar》探讨“人类世的内在超越”，2018 年《Studi Culturali》剖析历史认识论中的政治文化问题，2019 年主编《贝纳尔迪诺·泰莱西奥与文艺复兴自然科学》（Brill）及《政治认识论：科学研究中的意识形态问题》（Springer），2021 年新作聚焦文艺复兴宇宙心理学中亚历山大·阿夫罗狄西亚的在场与缺席。Omodeo 与 Massimiliano Badino 2020 年合编《科学世界中的文化霸权》（Brill），引入葛兰西概念深化科学史研究。Omodeo 与 Jürgen Renn 2019 年合作《宫廷社会中的科学》（Edition Open Access），聚焦贝内代蒂 1585 年著作。Nuccio Ordine 2017 年《无用的用处》（Paul Dry Books）为人文主义精神辩护。Tim O’Reilly 2013 年在《超越透明》论文集中倡导“开放数据与算法监管”。Naomi Oreskes 1999 年《大陆漂移说的拒绝》（牛津大学出版社）与 2004 年《Science》确立气候变化共识，后合作 Erik M. Conway 2010 年《怀疑的商人》（Bloomsbury）揭露科学否认机制，2018 年又联合多位学者在《气候史帕尔格雷夫手册》综述“全球变暖的否认”。Nicolas Oresme 中世纪经典《性状与运动构形论》（1968 年威斯康星大学出版社版）奠定坐标几何萌芽。Fairfield Osborn 1948 年《我们掠夺的星球》（Little, Brown）早启环保警钟。Mathieu Ossendrijver 2011 年在《巴比伦》论文集中以网络视角解读巴比伦天文学实践。Jürgen Osterhammel 2009 年《世界的转变：19 世纪史》（C. H. Beck）构建全球史宏大叙事。Wilhelm Osthues 2014 年在《建筑知识史》第二卷（Edition Open Access）分上下篇详解古希腊与古罗马建筑知识体系。
+
+[PRE0]
+
+Johan Östling 等编《知识的流通：知识史探索》（隆德 Nordic Academic Press）聚焦知识传播动态。Elinor Ostrom 2012 年《公地未来》（Institute of Economic Affairs）与 2015 年《治理公地》（剑桥大学出版社）确立公地治理理论范式，其 1999 年联合 Burger 等在《Science》发表“重访公地”综述地方经验与全球挑战。Martin Ostwald 1992 年在《剑桥古代史》第五卷中定位雅典作为文化中心的地位。
