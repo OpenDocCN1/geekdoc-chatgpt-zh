@@ -1,0 +1,13 @@
+[77] Shan J H, Wang J, Qi Z C, et al. Improved method to generate path-wise test data[J]. Journal of Computer Science and Technology, 2003, 18(2): 235-240.
+[78] Harman M, Jones B. Search-based software engineering[J]. Information and Software Technology, 2001, 43(14): 833-839.
+[79] Clark J, Dolado J J, Harman M, et al. Reformulating software engineering as a search problem[J]. IEEE Proceedings-Software, 2003, 150(3): 161-175.
+[80] Harman M. The current state and future of search based software engineering [C]//Proceedings of 2007 Future of Software Engineering. IEEE Computer Society, 2007: 342-357.
+[81] Harman M, McMinn P. A theoretical and empirical study of search-based testing: local, global, and hybrid search[J]. IEEE Transactions on Software Engineering, 2010, 36(2): 226-247.
+[82] Zhao R, Harman M, Zheng L. Empirical study on the efficiency of search based test generation for EFSM models[C]//Proceedings of the Third International Conference on Software Testing, Verification, and Validation Workshops (ICSTW'10), 2010: 222-231.
+[83] McMinn P. Search-based software testing: past, present and future[C]// Proceedings of the 4th International Workshop on Search-Based Software Testing (SBST'11), in conjunction with the 4th IEEE International Conference on Software Testing (ICST' 11), 2011: 153-163.
+[84] Ali S, Briand L C. A systematic review of the application and empirical investigation of search-based test case generation[J]. IEEE Transactions on Software Engineering, 2010, 36(6): 742-762.
+[85] Goldfeld S M, Quandt R E, Trotter H F. Maximization by quadratic hill-climbing[J]. Econometrica: Journal of the Econometric Society, 1966, 34(3): 541-551.
+[86] Tsamardinos I, Brown L E, Aliferis C F. The max-min hill-climbing Bayesian network structure learning algorithm [J]. Machine learning, 2006, 65 (1): 31-78.
+[87] Yuret D, De La Maza M. Dynamic hill climbing: overcoming the limitations of optimization techniques[C]//Proceedings of The Second Turkish Symposium on Artificial Intelligence and Neural Networks, 1993: 208-212.
+[88] Hoffmann J. A heuristic for domain independent planning and its use in an enforced hill-climbing algorithm[C]//International Symposium on Methodologies for Intelligent Systems. Heidelberg: Springer, 2000: 216-227. https://doi.org/10.1007/3-540-39963-1_23.
+[89] Choi S, Yeung D. Learning-based SMT processor resource distribution via hill-climbing[J]. ACM SIGARCH Computer Architecture News, 2006, 34(2): 239-
