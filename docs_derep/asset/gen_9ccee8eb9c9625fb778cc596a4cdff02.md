@@ -1,0 +1,164 @@
+### 核心公式与优化建模：从卷积到全连接的访存极简法则
+
+**卷积层的存储开销与基础访存量**
+
+先看卷积层权重在片上存储（SPM）的占用：
+$$ \text{SPM}_{\text{CONV-w}} = \text{Tm} \times \text{Tn} \times K \times K \tag{7-2} $$
+
+若不做任何数据复用调度，每个循环分块都得从片外存“搬运”一次输入、一次权重，输出则要读一次、写一次。总的片外访存量（MA）自然就是各部分之和乘以分块总数：
+$$ \text{MA}_{\text{CONV-Original}} = (\text{SPM}_{\text{CONV-i}} + 2 \times \text{SPM}_{\text{CONV-o}} + \text{SPM}_{\text{CONV-w}}) \times N_{\text{Tile}} \tag{7-3} $$
+
+**三种互斥复用模式的访存博弈**
+
+引入复用机制后，情况大不同：**输入复用（IR）** 或 **权重复用（WR）** 下，对应数据只进片外存“刷脸”一次，随后常驻片上缓存直到用完；**输出复用（OR）** 则让部分和留在片上累加完成再落盘。这三种模式互斥，每层只能二选一，训练开销分别为：
+
+$$
+\begin{cases} 
+\text{MA}_{\text{CONV-ir}} = R \times C \times N + (2 \times \text{SPM}_{\text{CONV-o}} + \text{SPM}_{\text{CONV-w}}) \times N_{\text{Tile}} \\ 
+\text{MA}_{\text{CONV-or}} = R \times C \times M + (\text{SPM}_{\text{CONV-i}} + \text{SPM}_{\text{CONV-w}}) \times N_{\text{Tile}} \\ 
+\text{MA}_{\text{CONV-wr}} = M \times N \times K \times K + (\text{SPM}_{\text{CONV-i}} + 2 \times \text{SPM}_{\text{CONV-o}}) \times N_{\text{Tile}} 
+\end{cases} \tag{7-4}
+$$
+
+给定分块系数，算出哪种模式访存最小即可。卷积层极小化片外访存的优化目标很清晰：在片上存储预算（$\text{SPM}_{\text{ConvNet}}$）约束下，取三种模式的最小值。
+
+$$
+\begin{cases} 
+\min \text{MA}_{\text{CONV}} = \min(\text{MA}_{\text{CONV-ir}}, \text{MA}_{\text{CONV-or}}, \text{MA}_{\text{CONV-wr}}) \\ 
+\text{s.t. } \text{SPM}_{\text{CONV-i}} + \text{SPM}_{\text{CONV-o}} + \text{SPM}_{\text{CONV-w}} \leqslant \text{SPM}_{\text{ConvNet}} 
+\end{cases} \tag{7-5}
+$$
+
+**全连接/循环层的建模：批处理带来的新变量**
+
+全连接层（含循环层）引入批处理（Tb）让权重可复用，分块参数变为 (Tb, Ti, To)。分块数量：
+$$ N_{\text{Tile}} = \left\lceil \frac{B}{\text{Tb}} \right\rceil \times \left\lceil \frac{I}{\text{Ti}} \right\rceil \times \left\lceil \frac{O}{\text{To}} \right\rceil \tag{7-6} $$
+
+片上存储需求里，稀疏度（SPA）和稀疏存储系数（3）登场了：
+$$
+\begin{align*}
+\text{SPM}_{\text{FC-i}} &= \text{Ti} \times \text{Tb} \\
+\text{SPM}_{\text{FC-o}} &= \text{To} \times \text{Tb} \\
+\text{SPM}_{\text{FC-w}} &= \text{Ti} \times \text{To} \times \text{SPA} \times 3 
+\end{align*} \tag{7-7}
+$$
+
+三种复用模式下的访存量：
+$$
+\begin{cases} 
+\text{MA}_{\text{FC-ir}} = I \times B + (2 \times \text{SPM}_{\text{FC-o}} + \text{SPM}_{\text{FC-w}}) \times N_{\text{Tile}} \\ 
+\text{MA}_{\text{FC-or}} = O \times B + (\text{SPM}_{\text{FC-i}} + \text{SPM}_{\text{FC-w}}) \times N_{\text{Tile}} \\ 
+\text{MA}_{\text{FC-wr}} = I \times O \times \text{SPA} \times 3 + (\text{SPM}_{\text{FC-i}} + 2 \times \text{SPM}_{\text{FC-o}}) \times N_{\text{Tile}} 
+\end{cases} \tag{7-8}
+$$
+
+优化问题同理，受限于全连接/RNN专用存储预算 $\text{SPM}_{\text{FCNetRNN}}$：
+$$
+\begin{cases} 
+\min \text{MA}_{\text{FC}} = \min(\text{MA}_{\text{FC-ir}}, \text{MA}_{\text{FC-or}}, \text{MA}_{\text{FC-wr}}) \\ 
+\text{s.t. } \text{SPM}_{\text{FC-i}} + \text{SPM}_{\text{FC-o}} + \text{SPM}_{\text{FC-w}} \leqslant \text{SPM}_{\text{FCNetRNN}} 
+\end{cases} \tag{7-9}
+$$
+
+---
+
+### 空间分割映射（SDM）：让多子网并行跑，带宽曲线更丝滑
+
+**资源划分与性能建模**
+
+空间分割映射把算力（PE）和片上存储（SPM）切分给不同子网（卷积部分、全连接/RNN部分），实现并行执行，抹平时间维度上的带宽毛刺。考虑到全连接和循环层本质同构，二者共享一个分区。
+
+卷积层前向耗时与带宽需求：
+$$ T_{\text{CONV}} = \frac{R \times C \times M \times N \times K^2}{\text{PE}_{\text{CONV}} \times f} \tag{7-10} $$
+$$ \text{BW}_{\text{CONV}} = \frac{\text{MA}_{\text{CONV}}}{T_{\text{CONV}}} \tag{7-11} $$
+
+全连接层同理（考虑稀疏度 SPA）：
+$$ T_{\text{FC}} = \frac{M \times N \times \text{SPA}}{\text{PE}_{\text{FC}} \times f} \tag{7-12} $$
+$$ \text{BW}_{\text{FC}} = \frac{\text{MA}_{\text{FC}}}{T_{\text{FC}}} \tag{7-13} $$
+
+各部分总耗时为各层之和。任意时刻 $t$，卷积层与全连接/循环层并行，瞬时总带宽即二者之和：
+$$ \text{BW}(t) = \text{BW}_{\text{CONV}(t)} + \text{BW}_{\text{FC}(t)} $$
+
+**联合优化目标：吞吐、峰值带宽、温度的三角博弈**
+
+最终资源划分建模为多目标优化：
+$$
+\begin{cases} 
+\min T_{\text{NN}} = \max(T_{\text{CONV}}, T_{\text{FC}} + T_{\text{RNN}}) \\ 
+\min \text{BW}_{\text{Peak}} = \max \{ \text{BW}(t) \mid 0 \leqslant t \leqslant T_{\text{Hybrid-NN}} \} \\ 
+\text{s.t. } \text{PE}_{\text{CONV}} + \text{PE}_{\text{FC}} \leqslant \text{PE} \\ 
+\qquad \text{SPM}_{\text{CONV}} + \text{SPM}_{\text{FC}} \leqslant \text{SPM} 
+\end{cases}
+$$
+
+**关键提示**：$T_{\text{NN}}$（吞吐）、$\text{BW}_{\text{Peak}}$（3D存储峰值温度）、总访存量 MA（稳定温度）三者相互牵制，**无法同时最优**。编译器需联合前文“单层访存极小化模型”，按实际需求设定优先级，搜索最优资源划分与调度组合。
+
+[PRE0]
+**图 7.9 编译与执行双流程速览**
+
+**编译期**：输入网络参数（Caffe转）+ 芯片配置 → 输出资源分配与调度方案。核心三大模型：SDM资源划分、ConvNet分块调度、FCNet/RNN分块调度。按优先级搜索最优配置。
+
+**执行期**：
+1. 载入配置
+2. 控制器按资源配置切分PE阵列、分配SPM、配置PE功能
+3. 调度配置驱动片内/片外数据流
+4. 并行加速：ConvNet + FCNet/RNN
+
+---
+
+### 7.2 高密度片上存储技术：eDRAM的密度红利与刷新账单
+
+**SRAM撑不起大模型，eDRAM登场**
+
+主流AI芯片（DianNao、Eyeriss等）受限面积，65nm下片上存储普遍≤500KB，跑常规网络免不了频繁访DRAM，能耗高企。eDRAM单元（1晶体管+1电容）存储密度碾压SRAM：65nm下32KB面积仅为SRAM的**26%**（表7.2），已用于寒武纪DaDianNao（片上36MB）。
+
+[PRE1]
+**图 7.10 eDRAM 结构示意**
+
+| 特性 | SRAM | eDRAM |
+| :--- | :--- | :--- |
+| 存储介质 | 锁存器 | 电容 |
+| 面积 (32KB) | 0.181mm² | **0.047mm²** |
+| 存取延迟 | 1.730ns | 1.541ns |
+| 存取能耗 | 1.139pJ/bit | 0.662pJ/bit |
+| 刷新能耗 | 无 | 0.788 µJ/Bank |
+| 数据维持 | 无需 | **< 100µs** (IBM 65nm典型45µs) |
+| 核心痛点 | 面积大 | **必须周期性刷新** |
+
+**刷新能耗：隐形杀手**
+
+研究表明，刷新能耗是eDRAM总能耗主力，占系统能耗大头。高密度虽减少片外访存，但省下的能耗极易被刷新抵消。
+
+**破局思路：数据生存时间 < 维持时间 = 免刷新**
+
+优化两大方向：**缩短数据生存时间**、**拉长维持时间**。由此诞生 **RANA（Retention-Aware Neural Acceleration）** 框架，从训练、调度、架构三层联合降刷新能耗。
+
+[PRE2]
+**图 7.11 RANA 工作流程**
+
+1.  **训练层：抗噪重训练**
+    训练中按概率向输入/权重注入错误，在精度约束下推导**最大可容忍错误率**，映射得出**最大可容忍维持时间**（通常远超标称45µs）。
+2.  **调度层：分层混合计算模式**
+    按层调度，探索系统能耗最小化（计算+片上访存+刷新+片外访存），输出分层配置：可容忍维持时间、计算模式、刷新标志。
+3.  **架构层：可编程刷新控制器**
+    增加可编程时钟分频器、分区独立刷新触发器与标志位，实现**分区级精细刷新控制**。
+
+前两层编译期生成配置，第三层运行期重构执行方式，决定各分区存什么、刷不刷、刷多久。
+
+#### 7.2.1 实验平台与优化切入点
+
+**基准平台（SRAM版）**：256 PE (16x16), 200MHz, 384KB SRAM (核心36KB联合缓存), 5.682mm², 65nm。
+**eDRAM升级版**：1.454MB, 维持时间45µs, 65nm。
+**测试层**：
+*   Layer-A (res4a_branch1): M=1024, N=256, R=C=14, K=1, S=2
+*   Layer-B (vgg_conv9): M=512, N=256, R=C=28, K=3, S=1
+
+[PRE3]
+**图 7.12 验证平台配置参数**
+
+**以 Layer-A 为例，算笔账**：
+假设循环分块（图7.13伪代码），16bit精度下缓存需求：
+$$ \text{BS}_i = N \times H \times L, \quad \text{BS}_o = \text{Tm} \times \text{Tr} \times \text{Tc}, \quad \text{BS}_w = N \times \text{Tm} \times K^2 \tag{7-17} $$
+$$ \text{BS}_i + \text{BS}_o + \text{BS}_w = \textbf{785KB} $$
+
+**结论**：这已超SRAM基准缓存（384KB）上限；虽eDRAM（1.454MB）能装下，但面对更大层依然会溢出产生片外访存。这正是后续优化的切入点——**如何在有限片上存储里，通过调度与数据生存时间感知，把刷新开销和片外访存一起压下去。**
