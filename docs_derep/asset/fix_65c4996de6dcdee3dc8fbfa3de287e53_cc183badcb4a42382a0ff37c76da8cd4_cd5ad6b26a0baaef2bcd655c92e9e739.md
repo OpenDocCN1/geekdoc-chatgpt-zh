@@ -1,0 +1,105 @@
+- [6] Brown N, Ganzfried S, Sandholm T. Hierarchical abstraction, distributed equilibrium computation, and post-processing, with application to a champion no-limit Texas Hold'em agent[C]//Proceedings of the 2015 International Conference on Autonomous Agents and Multiagent Systems. Istanbul, 2015: 7-15.
+- [7] Brown N, Sandholm T. Safe and nested subgame solving for imperfect-information games[C]//Proceedings of the 31st International Conference on Neural Information Processing Systems. Los Angeles, 2017: 689-699.
+- [8] Hart S, Mas-Colell A. A simple adaptive procedure leading to correlated equilibrium[J]. Econometrica, 2000, 68(5): 1127-1150.
+- [9] Li H, Hu K L, Ge Z B, et al. Double neural counterfactual regret minimization[EB/OL]. https://arxiv.org/abs/1812.10607, 2021-10-01.
+- [10] Schmid M, Burch N, Lanctot M, et al. Variance reduction in Monte Carlo counterfactual regret minimization (VR-MCCFR) for extensive form games using baselines[C]//Proceedings of the AAAI Conference on Artificial Intelligence. Hawaii, 2019: 2157-2164.
+- [11] Jackson E G. Targeted CFR[C]//Workshops at the 31st AAAI Conference on Artificial Intelligence. San Francisco, 2017: 1-3.
+- [12] Nesterov Y. Excessive gap technique in nonsmooth convex minimization[J]. SIAM Journal of Optimization, 2005, 16(1): 235-249.
+- [13] Billings D, Burch N, Davidson A, et al. Approximating game-theoretic optimal strategies for full-scale poker[C]//Proceedings of the 8th International Joint Conference on Artificial Intelligence. Acapulco, 2003: 661-668.
+- [14] Sturtevant N R, Bowling M H. Robust game play against unknown opponents[C]//Proceedings of the 5th International Joint Conference on Autonomous Agents and Multiagent Systems. Hakodate, 2006: 713-719.
+- [15] Johanson M B. Robust strategies and counter-strategies: Building a champion level computer poker player[D]. Edmonton: University of Alberta, 2007.
+- [16] Zinkevich M A, Johanson M, Bowling M H, et al. Regret minimization in games with incomplete information[J]. Advances in Neural Information Processing Systems, 2007, 20: 1-8.
+- [17] Risk N A, Szafron D. Using counterfactual regret minimization to create competitive multiplayer poker agents[C]//Proceedings of the 9th International Conference on Autonomous Agents and Multi-agent Systems. Toronto, 2010: 159-166.
+- [18] Bowling M, Burch N, Johanson M, et al. Heads-up limit hold'em poker is solved[J]. Science, 2015, 347(6218): 145-149.
+- [19] Lockhart E, Lanctot M, Pérolat J, et al. Computing approximate equilibria in sequential adversarial games by exploitability descent[EB/OL]. https://arxiv.org/abs/1903.05614, 2021-10-01.
+- [20] Li J J, Koyamada S, Ye Q W, et al. Suphx: Mastering mahjong with deep reinforcement learning[EB/OL]. https://arxiv.org/abs/2003.13590, 2021-10-01.
+- [21] Brown N, Sandholm T. Superhuman AI for heads-up no-limit poker: Libratus beats top professionals[J]. Science, 2018, 359(6374): 418-424.
+- [22] Brown N, Sandholm T, Amos B. Depth-limited solving for imperfect-information games[C]//Advances in Neural Information Processing Systems. Montreal, 2018: 7663-7674.
+- [23] Brown N, Lerer A, Gross S, et al. Deep counterfactual regret minimization[C]//International Conference on Machine Learning. Long Beach, 2019: 793-802.
+- [24] Blair A, Saffidine A. AI surpasses humans at six-player poker[J]. Science, 2019, 365(6456): 864-865.
+- [25] Passos N M D S. Poker learner: Reinforcement learning applied to Texas Hold'em poker[D]. Porto: University of Porto, 2011.
+- [26] Zhang L, Wang W, Li S J, et al. Monte Carlo neural fictitious self-play: Approach to approximate Nash equilibrium of imperfect-information games[EB/OL]. https://arxiv.org/abs/1903.09569, 2021-10-01.
+- [27] Zhang J J, Wang X, Yao L, et al. Using risk dominance strategy in poker[J]. Journal of Information Hiding and Multimedia Signal Processing, 2014, 5(3): 546-554.
+- [28] 滕雯娟. 基于虚拟遗憾最小化算法的德州扑克机器博弈研究[D]. 哈尔滨: 哈尔滨工业大学, 2015.
+- [29] 代佳宇. 基于虚拟遗憾最小化算法的非完备信息机器博弈研究[D]. 哈尔滨: 哈尔滨工业大学, 2017.
+- [30] Johanson M, Waugh K, Bowling M H, et al. Accelerating best response calculation in large extensive games[C]//The 22nd International Joint Conference on Artificial Intelligence. Macao, 2011: 258-269.
+- [31] Yuan W L, Hu Z Z, Luo J, et al. Imperfect information game in multiplayer no-limit Texas Hold'em based on mean approximation and deep CFVnet[C]//China Automation Congress. Beijing, 2022: 2459-2466.
+
+## 第 7 章 混合博弈智能体架构：竞争与协作的统一建模
+
+### 7.1 引言：跨越纯对抗的边界
+
+第 6 章已深度剖析了以德州扑克为范式的不完全信息序贯博弈中的纯竞争型决策范式。然而，现实博弈图景远比单向对抗更为立体。桥牌、斗地主等经典场景构成了典型的“混合式序贯博弈”图谱：多智能体间既交织着零和博弈的刀光剑影，又暗含非零和协作的默契配合。此类环境下，智能体不仅须精进个体决策技艺，更需通过协同策略释放团队合力。决策瞬间，既要推演对手意图，又要揣摩队友心思。如何在合作约束下，高效破解信息状态集规模爆炸的不完全信息博弈难题，已成为人工智能领域亟待攻克的核心高地。纵观技术演进脉络，短期内 AI 欲在竞技层面与人类顶尖高手过招，仍非易事。本章将以斗地主、桥牌为双核切入点层层推进：7.2 节解构斗地主规则与计算硬骨头；7.3 节复盘斗地主 AI 进化脉络；7.4 节拆解桥牌规则与复杂度内核；7.5 节聚焦桥牌 AI 现状及叫牌系统落地。
+
+### 7.2 面向斗地主的序贯博弈决策建模
+
+#### 7.2.1 规则机制：三人非对称阵营博弈
+
+斗地主作为国民级三人扑克竞技（见下图），其核心机制在于“单挑双”的非对称阵营结构。三名玩家分属地主与农民两大阵营，两农民需在全程禁语、不透牌的“迷雾”中默契配合、联合压制地主。一局博弈跨越发牌、叫牌、出牌三大阶段。
+
+[PRE0]
+
+图 7.1 斗地主界面①
+
+- **发牌环节**：标准 54 张牌（含双王）随机抽 3 张作底牌，余下 51 张均分三家。地主身份确立前，底牌对全体不可见。
+- **叫牌环节**：随机指定首叫者，单轮逆时针轮流竞叫（可弃权）。叫分需严格递增，叫至 3 分直接锁定地主；若无人达 3 分，最高分者得地主；全弃则重新洗牌发牌。
+- **出牌环节**：底牌归地主并公开亮出。地主享有首出权，三家逆时针轮流行动。可选择“过”，若出牌则牌力必须压制上家。牌型体系极其丰富，涵盖单张（大王>小王>2>A...>3）、对子、三条、三带一/一对、单张/对子/三条顺子、飞机带翼、炸弹、火箭及四带二等，构成庞大离散动作空间。
+
+#### 7.2.2 复杂度剖析：为何斗地主是“硬骨头”？
+
+本节聚焦打牌阶段（以地主视角为例）的计算难点。
+
+**状态空间呈天文级爆炸**：信息集数量高达 $10^{83}$ 量级，平均信息集规模达 $10^{23}$，且极难实施有效抽象。根源在于**每一张牌的边际价值均不可忽视**。以历史动作中的“2”为例（忽略花色），其剩余张数直接决定玩家手牌是否会被压制。状态的微小扰动往往引发结果的剧烈偏移，迫使智能体必须精准区分海量相似状态，策略学习难度指数级上升。
+
+**动作空间同样“深不见底”**：共计 **27,472** 种合法出牌组合（详见下表），远超麻将与德州扑克，且抗抽象。以“三带一”为例，带错单张可能直接拆散潜在顺子，酿成大错。这种动作间的强耦合特性，让动作空间压缩举步维艰，直面巨大离散空间成为核心拦路虎。
+
+| 动作类型   | 动作数量 |
+|------------|----------|
+| 单牌       | 15       |
+| 对子       | 13       |
+| 三条       | 13       |
+| 三带一     | 182      |
+| 三带一对   | 156      |
+| 单牌顺子   | 36       |
+| 对子顺子   | 52       |
+| 三条顺子   | 45       |
+| 飞机带单牌 | 21822    |
+| 飞机带一对 | 2939     |
+| 四带一     | 1326     |
+| 四带一对   | 858      |
+| 炸弹       | 13       |
+| 火箭       | 1        |
+| 过牌       | 1        |
+| **总计**   | **27472** |
+
+#### 7.2.3 核心算法架构：FPMCTS 与贝叶斯推断的双重奏
+
+作为首个触达人类专家水平的斗地主 AI，**DeltaDou** 的破局之道在于两大技术支柱：**自博弈蒙特卡罗树搜索（FPMCTS）** 与 **贝叶斯推理**。
+
+##### 1. FPMCTS：双层树搜索与动作编码解耦
+
+FPMCTS 在动作选择阶段采用如下策略：
+
+$$\pi_{tree}(u^i) = \arg \max_{a \in A(u^i)} \left[ Q(u^i, a) + \pi^i(u^i, a) \sqrt{\frac{\ln N(u^i)}{1 + N(u^i, a)}} \right] \tag{7.1}$$
+
+其中，$A(u^i)$ 为当前节点可用动作集；$Q$ 为策略价值估计；$N(u^i)$ 与 $N(u^i, a)$ 分别为节点访问总数与动作执行计数。节点价值由评估函数 $v^j$ 给出。
+
+**创新点在于“双层扩展”机制**（区别于标准 MCTS 单层展开）。如图 7.2 所示，每个节点代表一个信息集，存储价值与访问统计。空心节点边代表农民 D 的决策分支，箭头指向其最优选择。搜索流程为：先评估农民 D 的决策概率分布，继而模拟对局至终局记录胜负，最后回溯更新树结构。以某实战局面为例：农民 D 手持 JJ555443（8张），农民 E 仅剩 3 张。初期模拟倾向于出单张 3，但随着模拟次数逼近 200 次，D 精准推断 E 手握一对 A，果断修正策略为出对 4，逼迫 E 出牌从而锁定胜局。
+
+[PRE1]
+
+图 7.2 DeltaDou 搜索算法流程
+
+面对动辄上万的动作空间，策略网络直接输出具体执行动作极不现实。DeltaDou 采用**“牌力+牌型”双编码压缩策略**：网络输出抽象指导（如“三带一”意图），再结合启发式规则映射为具体执行动作（如 333-4 或 333-5）。每个席位单独训练一网络，损失函数融合均方差与交叉熵，并引入 L2 正则抑制过拟合。整体迭代流程与 AlphaZero 异曲同工。
+
+##### 2. 贝叶斯推理：精准定位隐牌分布
+
+为规避非局部性难题，搜索启动前需在根节点选定确定性场景。随机采样虽简但失准。DeltaDou 引入贝叶斯框架，**融合公开历史动作推演对手/队友手牌分布**，精准筛选确定节点扩展，大幅提升搜索效率。
+
+给定状态 $s \in S$，先验概率 $p(s)$，历史动作序列 $H(s) = a_1, a_2, ..., a_k$。状态集 $\{s_1, ..., s_k\}$ 的后验概率按贝叶斯法则计算：
+
+$$p(s|H) = \frac{p(s)p(s|H)}{\sum_{s'\in S} p(s')p(H|Hs')} \tag{7.2}$$
+
+动作序列在给定状态下的似然概率，假设对概率超阈值 $x$ 的状态 $s^j$ 条件独立：
+
+$$p(a_1, a_2, \cdots, a_k|s) = \prod_{s^j, p(s^j)_s > x} Pr(a_j|s_j) \tag{7.3}$$
