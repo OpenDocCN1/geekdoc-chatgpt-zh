@@ -1,0 +1,380 @@
+level_changes:
+- line: 31
+  before: 3
+  after: 4
+- line: 41
+  before: 3
+  after: 4
+- line: 55
+  before: 3
+  after: 4
+- line: 67
+  before: 3
+  after: 4
+- line: 73
+  before: 3
+  after: 4
+- line: 89
+  before: 3
+  after: 4
+- line: 97
+  before: 3
+  after: 5
+- line: 101
+  before: 3
+  after: 5
+- line: 107
+  before: 3
+  after: 4
+- line: 109
+  before: 3
+  after: 5
+- line: 113
+  before: 3
+  after: 5
+- line: 119
+  before: 3
+  after: 4
+- line: 121
+  before: 3
+  after: 5
+- line: 125
+  before: 3
+  after: 5
+- line: 129
+  before: 3
+  after: 5
+- line: 133
+  before: 3
+  after: 4
+- line: 135
+  before: 3
+  after: 5
+- line: 141
+  before: 3
+  after: 5
+- line: 147
+  before: 3
+  after: 5
+- line: 152
+  before: 2
+  after: 3
+- line: 154
+  before: 3
+  after: 4
+- line: 162
+  before: 3
+  after: 4
+- line: 172
+  before: 3
+  after: 5
+- line: 190
+  before: 3
+  after: 4
+- line: 192
+  before: 3
+  after: 5
+- line: 204
+  before: 3
+  after: 4
+- line: 210
+  before: 3
+  after: 4
+- line: 214
+  before: 3
+  after: 5
+- line: 248
+  before: 3
+  after: 5
+- line: 256
+  before: 3
+  after: 4
+- line: 270
+  before: 3
+  after: 4
+- line: 284
+  before: 3
+  after: 4
+- line: 288
+  before: 2
+  after: 3
+- line: 290
+  before: 3
+  after: 4
+- line: 296
+  before: 3
+  after: 4
+- line: 308
+  before: 3
+  after: 4
+- line: 314
+  before: 3
+  after: 4
+- line: 320
+  before: 2
+  after: 3
+- line: 322
+  before: 3
+  after: 4
+- line: 330
+  before: 3
+  after: 4
+- line: 336
+  before: 3
+  after: 4
+- line: 340
+  before: 3
+  after: 4
+- line: 344
+  before: 3
+  after: 4
+- line: 348
+  before: 3
+  after: 4
+- line: 484
+  before: 3
+  after: 4
+- line: 490
+  before: 3
+  after: 5
+- line: 492
+  before: 3
+  after: 4
+- line: 498
+  before: 3
+  after: 5
+- line: 500
+  before: 3
+  after: 4
+- line: 506
+  before: 3
+  after: 4
+- line: 510
+  before: 3
+  after: 4
+- line: 514
+  before: 3
+  after: 4
+- line: 518
+  before: 3
+  after: 4
+- line: 522
+  before: 3
+  after: 4
+- line: 526
+  before: 3
+  after: 4
+- line: 859
+  before: 3
+  after: 4
+- line: 863
+  before: 3
+  after: 4
+- line: 889
+  before: 3
+  after: 4
+- line: 903
+  before: 3
+  after: 4
+- line: 909
+  before: 3
+  after: 4
+- line: 929
+  before: 3
+  after: 4
+- line: 935
+  before: 2
+  after: 3
+- line: 943
+  before: 3
+  after: 4
+- line: 949
+  before: 3
+  after: 4
+- line: 962
+  before: 3
+  after: 4
+- line: 970
+  before: 2
+  after: 3
+- line: 978
+  before: 3
+  after: 4
+- line: 986
+  before: 3
+  after: 4
+- line: 1000
+  before: 3
+  after: 4
+- line: 1008
+  before: 2
+  after: 3
+- line: 1016
+  before: 3
+  after: 4
+- line: 1020
+  before: 3
+  after: 4
+- line: 1032
+  before: 3
+  after: 4
+- line: 1042
+  before: 2
+  after: 3
+- line: 1050
+  before: 3
+  after: 4
+- line: 1060
+  before: 3
+  after: 4
+- line: 1066
+  before: 3
+  after: 4
+- line: 1078
+  before: 2
+  after: 3
+- line: 1086
+  before: 3
+  after: 4
+- line: 1090
+  before: 3
+  after: 4
+- line: 1096
+  before: 3
+  after: 4
+- line: 1102
+  before: 2
+  after: 3
+- line: 1119
+  before: 2
+  after: 3
+- line: 1127
+  before: 3
+  after: 4
+- line: 1133
+  before: 3
+  after: 4
+- line: 1147
+  before: 3
+  after: 4
+- line: 1161
+  before: 2
+  after: 3
+- line: 1167
+  before: 3
+  after: 4
+- line: 1173
+  before: 3
+  after: 4
+text_changes:
+- line: 192
+  before: (1) 美国：不断加强政策对标准的引领
+  after: （1）美国：不断加强政策对标准的引领
+- line: 196
+  before: (2) 欧盟：通过标准和立法加强监管
+  after: （2）欧盟：通过标准和立法加强监管
+- line: 200
+  before: (3) 日本：注重顶层设计和战略引导
+  after: （3）日本：注重顶层设计和战略引导
+- line: 484
+  before: (2) 《信息技术 人工智能 资源管理规范 第1部分：计算虚拟化》
+  after: （2）《信息技术 人工智能 资源管理规范 第1部分：计算虚拟化》
+- line: 492
+  before: (3)《信息技术 人工智能 服务器系统性能测试规范》
+  after: （3）《信息技术 人工智能 服务器系统性能测试规范》
+- line: 500
+  before: (4)《信息技术 人工智能 风险评估模型》
+  after: （4）《信息技术 人工智能 风险评估模型》
+- line: 518
+  before: (8) 《信息技术 人工智能 面向机器学习的数据标注规程》
+  after: （8）《信息技术 人工智能 面向机器学习的数据标注规程》
+- line: 522
+  before: (9) 《人工智能 隐私保护机器学习技术要求》
+  after: （9）《人工智能 隐私保护机器学习技术要求》
+- line: 526
+  before: (10) 《信息技术 神经网络表示与模型压缩 第1部分：卷积神经网络》
+  after: （10）《信息技术 神经网络表示与模型压缩 第1部分：卷积神经网络》
+- line: 554
+  before: (4) 打造事实标准，提升行业竞争能力
+  after: （4）打造事实标准，提升行业竞争能力
+- line: 558
+  before: (5) 强化国际交流，推动中国智慧走出去
+  after: （5）强化国际交流，推动中国智慧走出去
+- line: 859
+  before: (1) 客户需求与方案简介
+  after: （1）客户需求与方案简介
+- line: 863
+  before: (2) 具体解决方案介绍
+  after: （2）具体解决方案介绍
+- line: 889
+  before: (3) 方案实施后的价值或成果
+  after: （3）方案实施后的价值或成果
+- line: 903
+  before: (1) 客户需求与方案简介
+  after: （1）客户需求与方案简介
+- line: 909
+  before: (2) 具体解决方案介绍
+  after: （2）具体解决方案介绍
+- line: 929
+  before: (3) 方案实施后的价值或成果
+  after: （3）方案实施后的价值或成果
+- line: 943
+  before: (1) 客户需求与方案简介
+  after: （1）客户需求与方案简介
+- line: 949
+  before: (2) 具体解决方案介绍
+  after: （2）具体解决方案介绍
+- line: 962
+  before: (3) 方案实施后的价值或成果
+  after: （3）方案实施后的价值或成果
+- line: 978
+  before: (1) 客户需求与方案简介
+  after: （1）客户需求与方案简介
+- line: 986
+  before: (2) 具体解决方案介绍
+  after: （2）具体解决方案介绍
+- line: 1000
+  before: (3) 方案实施后的价值或成果
+  after: （3）方案实施后的价值或成果
+- line: 1016
+  before: (1) 客户需求与方案简介
+  after: （1）客户需求与方案简介
+- line: 1020
+  before: (2) 具体解决方案介绍
+  after: （2）具体解决方案介绍
+- line: 1032
+  before: (3) 方案实施后的价值或成果
+  after: （3）方案实施后的价值或成果
+- line: 1050
+  before: (1) 客户需求与方案简介
+  after: （1）客户需求与方案简介
+- line: 1060
+  before: (2) 具体解决方案介绍
+  after: （2）具体解决方案介绍
+- line: 1066
+  before: (3) 方案实施后的价值或成果
+  after: （3）方案实施后的价值或成果
+- line: 1086
+  before: (1) 客户需求与方案简介
+  after: （1）客户需求与方案简介
+- line: 1090
+  before: (2) 具体解决方案介绍
+  after: （2）具体解决方案介绍
+- line: 1096
+  before: (3) 方案实施后的价值或成果
+  after: （3）方案实施后的价值或成果
+- line: 1127
+  before: (1) 客户需求与方案简介
+  after: （1）客户需求与方案简介
+- line: 1133
+  before: (2) 具体解决方案介绍
+  after: （2）具体解决方案介绍
+- line: 1147
+  before: (3) 方案实施后的价值或成果
+  after: （3）方案实施后的价值或成果
+- line: 1167
+  before: (1) 客户需求和方案简介
+  after: （1）客户需求与方案简介
+- line: 1173
+  before: (2) 具体解决方案介绍
+  after: （2）具体解决方案介绍
