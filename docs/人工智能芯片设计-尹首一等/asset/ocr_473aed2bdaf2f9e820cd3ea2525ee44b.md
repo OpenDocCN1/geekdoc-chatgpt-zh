@@ -1,0 +1,3 @@
++   [44] Ando K, Ueyoshi K, Orimo K, et al. BRein Memory: A 13-layer 4.2K neuron/0.8M synapse binary/ternary reconfigurable in-memory deep neural network accelerator in 65nm CMOS[C].Symposiumuon VLSI, Kyoto, 2017.
+
++   [45] Liu R, Peng X, Sun X, et al. Parallelizing SRAM arrays with customized bit-cell for binary neural networks[C]. The IEEE 55th ACM/ESDA/IEEE Design Automation Conference (DAC), San Francisco, 2018:1-6.
