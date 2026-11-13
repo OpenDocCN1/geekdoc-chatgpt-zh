@@ -1,2 +1,2 @@
 +   [Excel+AI在会计与财务日常工作中的应用](README.md)
-+   [Excel+AI在会计与财务日常工作中的应用](Excel+AI-在会计与财务日常工作中的应用.md)
++   [Excel+AI在会计与财务日常工作中的应用](Excel+AI-在会计与财务日常工作中的应用_derep.md)

@@ -1,2 +1,2 @@
 +   [ChatGPT营销实践](README.md)
-+   [ChatGPT营销实践](ChatGPT-营销实践.md)
++   [ChatGPT营销实践](ChatGPT-营销实践_derep.md)

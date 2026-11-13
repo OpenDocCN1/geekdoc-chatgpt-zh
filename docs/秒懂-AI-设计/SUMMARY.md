@@ -1,2 +1,2 @@
 +   [秒懂AI设计](README.md)
-+   [秒懂AI设计](秒懂-AI-设计.md)
++   [秒懂AI设计](秒懂-AI-设计_derep.md)

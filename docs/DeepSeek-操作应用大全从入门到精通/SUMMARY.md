@@ -1,2 +1,2 @@
 +   [DeepSeek 操作应用大全：从入门到精通](README.md)
-+   [DeepSeek 操作应用大全：从入门到精通](DeepSeek-操作应用大全从入门到精通.md)
++   [DeepSeek 操作应用大全：从入门到精通](DeepSeek-操作应用大全从入门到精通_derep.md)

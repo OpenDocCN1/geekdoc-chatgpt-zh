@@ -1,2 +1,2 @@
 +   [DeepSeek零基础入门（视频教学版）](README.md)
-+   [DeepSeek零基础入门（视频教学版）](DeepSeek-零基础入门（视频教学版）.md)
++   [DeepSeek零基础入门（视频教学版）](DeepSeek-零基础入门（视频教学版）_derep.md)

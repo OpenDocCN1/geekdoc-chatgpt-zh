@@ -1,2 +1,2 @@
 +   [AI 一人单干](README.md)
-+   [AI 一人单干](AI-一人单干.md)
++   [AI 一人单干](AI-一人单干_derep.md)

@@ -1,2 +1,2 @@
 +   [智慧办公与创新实践（ChatGPT版）](README.md)
-+   [智慧办公与创新实践（ChatGPT版）](智慧办公与创新实践（ChatGPT-版）.md)
++   [智慧办公与创新实践（ChatGPT版）](智慧办公与创新实践（ChatGPT-版）_derep.md)

@@ -1,2 +1,2 @@
 +   [DeepSeek 高效辅助论文写作](README.md)
-+   [DeepSeek 高效辅助论文写作](DeepSeek-高效辅助论文写作.md)
++   [DeepSeek 高效辅助论文写作](DeepSeek-高效辅助论文写作_derep.md)
