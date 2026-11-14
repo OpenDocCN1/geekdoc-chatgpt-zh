@@ -1,0 +1,16 @@
++   formation Processing Systems 30, 2017: 5998-6008.
++   [2] BAHDANAU D, CHO K H, BENGIO Y. Neural machine translation by jointly learning to align and translate [C]. Proceedings of the 3rd International Conference on Learning Representations, 2015.
++   [3] LUONG T, PHAM H, MANNING C D. Effective approaches to attention-based neural machine translation [C]. Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, 2015: 1412-1421.
++   [4] HE K, ZHANG X, REN S, et al. Deep residual learning for image recognition [C]. Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, 2016: 770-778.
++   [5] BA L J, KIROS J R, HINTON, G E. Layer normalization [J]. arXiv, preprint arXiv: 1607.06450, 2016.
++   [6] RADFORD A, NARASIMHAN K, SALIMANS T, et al. Improving language understanding by generative pretraining [ EB/OL]. https://cdn. openai. com/research-covers/language-unsupervised/language_ understanding_ paper. pdf, 2018.
++   [7] RADFORD A, WU J, CHILD R, et al. Language models are unsupervised multitask learners [ EB/OL]. https://d4mucfpksywv. cloudfront. net/better-language-models/language-models. pdf, 2019.
++   [8] BROWN T B, MANN B, RYDER N, et al. Language models are few-shot learners [ C]. Advances in Neural Information Processing Systems 33, 2020.
++   [9] OUYANG L, WU J, JIANG X, et al. Training language models to follow instructions with human feedback [C]. Advances in Neural Information Processing Systems 35, 2022: 27730-27744.
++   [10] DEVLIN J, CHANG M, LEE K, et al. BERT: pre-training of deep bidirectional transformers for language understanding [C]. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2019: 4171-4186.
++   [11] PETERS M E, NEUMANN M, IYYER M, et al. Deep contextualized word representations [C]. Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2018: 2227-2237.
++   [12] LIU Y, OTT M, GOYAL N, et al. RoBERTa: a robustly optimized BERT pretraining approach [J]. arXiv, preprint arXiv: 1907. 11692, 2019.
++   [13] LAN Z, CHEN M, GOODMAN S, et al. ALBERT: a lite BERT for self-supervised learning of language representations [C]. Proceedings of the 8th International Conference on Learning Representations, 2020.
++   [14] LEWIS M, LIU Y, GOYAL N, et al. BART: denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension [C]. Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020: 7871-7880.
++   [15] SUN Y, WANG S, LI Y, et al. ERNIE: enhanced representation through knowledge integration [J]. arXiv, preprint arXiv: 1904. 09223, 2019.
++   [16] DOSOVITSKIY A, BEYER L, KOLESNIKOV A, et al. An image is worth 16x16 words: transformers for image recognition at scale [C]. Proceedings of the 9th International Conference on Learning Representations, 2021.
