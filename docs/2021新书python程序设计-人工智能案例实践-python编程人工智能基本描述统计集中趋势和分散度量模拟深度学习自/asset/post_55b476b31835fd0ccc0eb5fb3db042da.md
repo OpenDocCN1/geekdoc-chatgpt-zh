@@ -1,0 +1,201 @@
+
+- custom indices（自定义索引），180
+- describe method（describe方法），179
+- descriptive statistics（描述性统计），179
+- dictionary initializer（字典初始化器），180
+- dtype attribute（dtype属性），181
+- index keyword argument（index关键字参数），180
+- integer indices（整数索引），178
+- map method（map方法），213
+- match method（match方法），212
+- square bracket（方括号），180
+- str attribute（set属性），181，212
+- string indices（字符串索引），180
+- values attribute（values属性），181
+- server in a client/server app（客户端/服务器端应用程序中的服务器端），551
+- service documentation（IBM Watson）（服务文档（IBM Watson）），394
+- service-oriented architecture（SOA）（面向服务架构（SOA）），504
+- set built-in type（集合内置类型），138，147
+  - add，152
+  - clear, 152
+  - difference, 150
+  - difference_update, 151
+  - discard, 152
+  - disjoint（不相交）, 151
+  - empty set（空集合）, 148
+  - improper subset（非真子集）, 149
+  - improper superset（非真超集）, 149
+  - intersection, 150
+  - intersection_update, 151
+  - isdisjoint, 151
+  - issubset method（issubset方法）, 149
+  - issuperset method（issuperset方法）, 149
+  - mathematical operators（数学运算符）, 150
+  - pop, 152
+  - proper subset（真子集）, 149
+  - proper superset（真超级）, 149
+  - remove, 152
+  - symmetric_difference, 150
+  - symmetric_difference_update, 151
+  - union, 150
+  - update, 151
+- set built-in function（set内置函数）, 148
+- set comprehension (集合推导式), 95
+- set method of Axes (Matplotlib) (Axes的set方法 (Matplotlib) ), 131
+- SET SQL clause (SET SQL子句), 515
+- set_access_token method of class OAuthHandler (OAuthHandler类的set_access_token方法), 341
+- set_option function (pandas) (set_option函数 (pandas) ), 186
+- set_options function (tweetprocessor library) (set_options函数 (tweetprocessor库) ), 354
+- set_ylim method of Axes (Matplotlib) (Axes的set_ylim方法 (Matplotlib) ), 132
+- setAppName method of class SparkConf (SparkConf类的setAppName方法), 546
+- setMaster method of class SparkConf (SparkConf类的setMaster方法), 546
+- set of synonym (synset) (同义词集合 (synset) ), 315
+- setter method (setter方法)
+  - decorator (装饰器), 253
+  - of a property (属性的), 253
+- shadow (屏蔽)
+  - a built-in identifier（内置标识符）, 291
+  - a built-in or imported function（内置或导入的函数）, 88
+  - shadow a function name（shadow函数名）, 88
+- Shakespeare, 306, 314, 327
+- shallow copy（浅拷贝）, 111, 173
+- shape attribute of ndarray（ndarray的shape属性）, 162
+- Shape class hierarchy（Shape类层次结构）, 267
+- sharing economy（共享经济）, 24
+- short-circuit evaluation（短路求值）, 66
+- show function of Matplotlib（Matplotlib的show函数）, 135
+- ShuffleSplit class from sklearn.model_selection（sklearn.model_selection的ShuffleSplit类）, 411
+- side effect（副作用）, 95, 96
+- sigmoid activation function（sigmoid激活函数）, 496
+- signal value（信号值）, 59
+- signature of a function（函数签名）, 74
+- similarity detection（相似性检测）, 24, 327
+- similarity method of class Doc（Doc类的similarity方法）, 328
+- simple condition（简单条件）, 66
+- simple linear regression（简单线性回归）, 293, 370, 420, 421
+- Simple Measure of Gobbledygook (SMOG) readability formula (SMOG可读性公式), 324, 325
+- simplified Chinese (简体中文), 312
+- simulate an Internet-connected device (模拟Internet连接设备), 503, 561
+- simulation (模拟), 76
+- sin (sine) function of module math (math模块的sin (正弦) 函数), 83
+- sin universal function (NumPy) (sin通用函数 (NumPy) ), 171
+- single inheritance (单一继承), 266, 269, 270
+- single leading underscore naming convention (单前导下划线命名约定), 253
+- single quote (') (单引号 (') ), 37
+- singleton tuple (单元素元组), 107
+- singular noun (单数名词), 308
+- singularizing words (奇异词), 305, 309
+- size attribute of ndarray (ndarray的size属性), 162
+- sklearn (scikit-learn), 399, 426
+- sklearn.cluster module (sklearn.cluster模块)
+  - KMeansClassifier estimator (KMeansClassifier估计器), 450
+- sklearn.datasets module (sklearn.datasets模块), 406, 426
+  - fetch_california_housing function (fetch_california_housing函数), 426
+  - load_digits function (load_digits函数), 406
+  - load_iris function (load_iris函数), 444
+- sklearn.decomposition module (sklearn.decomposition模块)
+  - PCA estimator (PCA估计器), 452
+- sklearn.linear_model module (sklearn.linear_model模块), 421
+  - ElasticNet estimator (ElasticNet估计器), 438
+  - Lasso estimator (Lasso估计器), 438
+  - LinearRegression estimator (LinearRegression估计器), 421, 422, 434
+  - Ridge estimator (Ridge估计器), 438
+- sklearn.manifold module (sklearn.manifold模块)
+  - TSNE estimator (TSNE估计器), 439
+- sklearn.metrics module (sklearn.metrics模块), 414
+  - classification_report function (classification_report函数), 415
+  - confusion_matrix function (confusion_matrix函数), 414
+  - r2_score function (r2_score函数), 437
+- sklearn.model_selection module (sklearn.model_selection模块), 411
+  - cross_val_score function (cross_val_score函数), 417, 418, 419, 438
+  - KFold class (KFold类), 417, 419, 438
+  - ShuffleSplit class (ShuffleSplit类), 411
+  - train_test_split function (train_test_split函数), 411, 434, 494
+- sklearn.naive_bayes module (sklearn.naive_bayes模块)
+  - GaussianNB estimator (GaussianNB估计器), 419
+- sklearn.neighbors module (sklearn.neighbors模块), 412, 450
+  - KNeighborsClassifier estimator (KNeighborsClassifier估计器), 412
+- sklearn.preprocessing module (sklearn.preprocessing模块), 408
+- sklearn.svm module (sklearn.svm模块)
+  - SVC estimator (SVC估计器), 419
+- sklearn.utils module (sklearn.utils模块)
+  - Bunch class (Bunch类), 426
+- slice (切片), 110
+  - end index (结束索引), 111
+  - indexing in pandas (pandas中的索引), 184
+  - ndarray, 171
+  - start index (开始索引), 110
+- step （步长）, 111
+- slope （斜率）, 295, 298
+- smart city （智慧城市）, 24
+- smart home （智能家居）, 24
+- smart meter （智能电表）, 24
+- smart thermostat （智能恒温器）, 24
+- smart traffic control （智能交通控制）, 24
+- snippet （代码段）
+  - navigate backward and forward in IPython（在IPython中前后浏览）, 53
+  - snippet in IPython（IPython中的代码段）, 9
+- SnowNLP, 328
+- social analytics（社交分析）, 24
+- social graph（社交图谱）, 519
+- social graph analysis（社交图谱分析）, 24
+- socket（套接字）, 551, 552
+  - accept method（accept方法）, 554
+  - bind method（bind方法）, 554
+  - close method（close方法）, 554
+  - listen method（listen方法）, 554
+  - send method（send方法）, 552
+- socket function (socket函数), 554
+- socket module (socket模块), 552
+- socketTextStream method of class StreamingContext (StreamingContext类的socketTextStream方法), 559
+- softmax activation function (softmax激活函数), 478
+- Software as a Service (SaaS) (软件即服务 (SaaS) ), 504
+- solid-state drive (固态硬盘), 218
+- sort (排序), 115
+  - ascending order (升序), 115, 146
+  - descending order (降序), 115, 116
+- sort method of a list (列表的sort方法), 115
+- sort_index method of a pandas DataFrame (pandas DataFrame的sort_index方法), 187
+- sort_values method of a pandas DataFrame (pandas DataFrame的sort_values方法), 188
+- sorted built-in function (sorted内置函数), 115, 143, 345
+- sorted function (sorted函数), 68
+- source code (源代码), 10
+- SourceForge, 245
+- spacy module (spacy模块)
+  - load function (load函数), 326
+- spaCy NLP library（spaCy NLP库）, 326
+  - Doc class（Doc类）, 326
+  - ents property（ents属性）, 327
+  - label_ property of a Span（Span的label_属性）, 327
+  - load function of the spacy module（spacy模块的load函数）, 326
+  - similarity method（similarity方法）, 328
+  - Span class（Span类）, 327
+- spam detection（垃圾邮件检测）, 24
+- Span class（spaCy）（Span类（spaCy））, 327
+  - label_ property（label_属性）, 327
+  - text property（text属性）, 327
+- Spark（Apache）, 503, 530
+  - as a Service（SaaS）（即服务（SaaS））, 504
+  - batches of streaming data（批量流数据）, 558
+  - checkpointing（检查点）, 558
+  - fault-tolerance in streaming（流媒体中的容错）, 558
+  - PySpark library（PySpark库）, 541
+  - Spark SQL, 503, 517, 555, 557
+    - query（查询）, 557
+- stateful transformations in streaming (流中的状态转换), 558
+- streaming (流), 503, 542
+  - streaming batch interval (流式批处理时间间隔), 558
+- table view of a DataFrame (DataFrame的表视图), 557
+- SparkConf class from the pyspark module (pyspark模块的SparkConf类), 546
+  - setAppName method (setAppName方法), 546
+  - setMaster method (setMaster方法), 546
+- SparkContext class (SparkContext类), 546
+  - textFile method (textFile方法), 546
+- sparkline (迷你图), 563
+- SparkSession class from the pyspark.sql module (pyspark.sql模块的SparkSession类), 555
+- spatial data analysis (空间数据分析), 24
+- special method (特殊方法), 249, 276
+  - __eq__, 282
+  - __init__, 281
+  - __ne__, 282
+  - __repr__, 281

@@ -1,0 +1,1 @@
+Python标准库的io模块（见 https://docs.python.org/3/library/io.html）定义了Python用于创建文件对象的类。

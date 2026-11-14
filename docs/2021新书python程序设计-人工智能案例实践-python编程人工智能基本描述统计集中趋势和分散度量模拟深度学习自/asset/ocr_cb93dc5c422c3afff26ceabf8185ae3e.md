@@ -1,0 +1,15 @@
+```
+cursor = tweepy.Cursor(api.followers, screen_name='nasa', count=200)
+```
+
+如果没有为items方法指定参数，则Cursor会尝试获取该账户的所有关注者。对于有大量关注者的账户，由于Twitter的速率限制，这个过程可能会花费大量时间。Twitter API的followers/list方法一次最多可以返回200个关注者，每15分钟最多允许15次调用。因此，使用Twitter的免费API，每15分钟最多只能获得3000个关注者。前面已经将API对象配置为在达到速率限制时自动等待，因此如果尝试获取所有关注者且关注者数超过3000，则Tweepy将在每获取3000个关注者后自动暂停15分钟并显示通知消息。在撰写本书时，NASA拥有超过2950万关注者。按每小时可以获取12,000个关注者计算，则需要100多天才能获得NASA的所有关注者。
+
+请注意，这里主要是为了展示如何通过Cursor完成followers方法调用。在该示例中，只是获得少量的关注者，因此也可以直接调用followers方法，而不必使用Cursor。在后面的一些示例中，将不使用Cursor，而是直接调用API方法以获取仅包含少量数据项的结果。
+
+# 获取关注者ID
+
+虽然可以一次获得最多200个关注者的完整User对象，但也可以通过调用API对象的followers_ids方法获得更多的Twitter ID号。followers_ids方法会调用Twitter API的followers/ids方法，一次最多可返回5000个ID号（同样，这些速率限制有更改的可能）。每15分钟最多可以调用15次，这样在每个速率限制间隔中就可以获得75,000个账户的ID号。followers_ids方法常与API对象的lookup_users方法结合使用，以获取更多的关注者信息。lookup_users方法会调用Twitter API的users/lookup方法，一次最多可返回100个用户对象，每15分钟最多可调用300次。因此，通过结合使用followers_ids和lookup_users，每个速率限制间隔最多可以获得30,000个User对象。
+
+# 12. 9. 2 确定一个账户的关注对象
+
+API对象的friends方法调用Twitter API的friends/list方法，以获取表示一个账户的朋友信息的User对象列表。Twitter默认以20个数据项为一组返回结果，但也可以一次获取最多200个朋友（与前面讨论
