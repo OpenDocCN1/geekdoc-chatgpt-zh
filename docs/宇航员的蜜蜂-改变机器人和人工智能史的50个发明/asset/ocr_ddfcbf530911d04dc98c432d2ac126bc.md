@@ -1,0 +1,40 @@
+著作权合同登记号：图字 02-2023-043
+NASA's Bees: And 49 Other Inventions That Revolutionized Robotics and AI by Rob Waugh
+Copyright © Elwin Street Limited 2023
+Conceived by Elwin Street Productions
+10 Elwin Street
+London E2 7BU
+United Kingdom
+Simplified Chinese edition copyright © 2023 by United Sky (Beijing) New Media Co., Ltd.
+All rights reserved.
+
+# 图书在版编目（CIP）数据
+
+宇航员的蜜蜂：改变机器人和人工智能史的50个发明 / (英) 罗布·沃著 ; 傅力译. -- 天津 : 天津科学技术出版社, 2023.4
+书名原文: Nasa's Bees: And 49 Other Inventions That Revolutionized Robotics and AI
+ISBN 978-7-5742-1011-0
+I. ①宇… II. ①罗… ②傅… III. ①人工智能－普及读物 IV. ①TP18-49
+中国国家版本馆CIP数据核字(2023)第053484号
+
+![](bbox=[0.72, 0.48, 0.83, 0.51])
+
+宇航员的蜜蜂：改变机器人和人工智能史的50个发明
+YUHANGYUAN DE MIFENG: GAIBIAN JIQIREN HE RENGONGZHINENGSHI DE 50 GE FAMING
+选题策划：联合天际·边建强
+责任编辑：胡艳杰
+审校：冯尤嘉
+出版：天津出版传媒集团 天津科学技术出版社
+地址：天津市西康路35号
+邮编：300051
+电话：（022）23332695
+网址：www.tjkjcbs.com.cn
+发行：未读（天津）文化传媒有限公司
+印刷：北京雅图新世纪印刷科技有限公司
+
+![](bbox=[0.77, 0.6, 0.84, 0.64])
+
+![](bbox=[0.78, 0.77, 0.84, 0.82])
+
+开本 880 × 1230 1/32 印张5.375 字数125 000
+2023年4月第1版第1次印刷
+定价：49.80元
