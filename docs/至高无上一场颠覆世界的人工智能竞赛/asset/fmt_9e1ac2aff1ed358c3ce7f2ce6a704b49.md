@@ -1,0 +1,124 @@
+
+## 7. 入局
+
+Aron, Jacob. “How to Build the Global Mathematics Brain.” *New Scientist*, May 4, 2011.
+
+Byford, Sam. “Google's AlphaGo AI Defeats World Go Number One Ke Jie.” *The Verge*, May 23, 2017.
+
+Gallagher, Ryan. “Google's Secret China Project ‘Effectively Ended’ after Internal Confrontation.” *The Intercept*, December 17, 2018.
+
+Gallagher, Ryan. “Private Meeting Contradicts Google's Official Story on China.” *The Intercept*, October 9, 2018.
+
+“Has Anyone Actually Tried to Convince Terry Tao or Other Top Mathematicians to Work on Alignment?” *www.lesswrong.com*, June 8, 2022.
+
+“How to Play.” *British Go Association*, updated October 26, 2017, `https://www.britgo.org/intro/intro2.html`.
+
+Metz, Cade. *Genius Makers: The Mavericks Who Brought A.I. to Google, Facebook, and the World*. New York: Random House Business, 2021.
+
+Metz, Cade. “Google Is Already Late to China's AI Revolution.” *Wired*, June 2, 2017.
+
+Rogin, Josh. “Eric Schmidt: The Great Firewall of China Will Fall.” *Foreign Policy*, July 9, 2012.
+
+Suleyman, Mustafa, with Michael Bhaskar. *The Coming Wave*. New York: Crown, 2023.
+
+Temperton, James. “DeepMind's New AI Ethics Unit Is the Company's Next Big Move.” *Wired*, October 4, 2017.
+
+Yang, Yuan. “Google's AlphaGo Is World's Best Go Player.” *Financial Times*, May 25, 2017.
+
+## 8. 一切都很美好
+
+Angwin, Julia, Jeff Larson, Surya Mattu, and Lauren Kirchner. “Machine Bias.” *ProPublica*, May 23, 2016.
+
+Buolamwini, Joy, and Timnit Gebru. “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification.” *Proceedings of Machine Learning Research* 81 (2018): 1-15.
+
+Dastin, Jeffrey. “Amazon Scraps Secret AI Recruiting Tool That Showed Bias against Women.” *Reuters*, October 10, 2018.
+
+Devlin, Hannah, and Alex Hern. “Why Are There So Few Women in Tech? The Truth behind the Google Memo.” *The Guardian*, August 8, 2017.
+
+Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford. “Datasheets for Datasets.” *Communications of the ACM* 64, no. 12 (2021): 86-92.
+
+Grant, Nico, and Kashmir Hill. “Google's Photo App Still Can’t Find Gorillas. And Neither Can Apple's.” *New York Times*, May 22, 2023.
+
+Harris, Josh. “There Was All Sorts of Toxic Behaviour’: Timnit Gebru on Her Sacking by Google, AI's Dangers and Big Tech's Biases.” *The Guardian*, May 22, 2023.
+
+Horwitz, Jeff. “The Facebook Files.” *Wall Street Journal*, October 1, 2021.
+
+Payton, L’Oreal Thompson. “Americans Check Their Phones 144 Times a Day. Here's How to Cut Back.” *Fortune*, July 19, 2023.
+
+Simonite, Tom. “What Really Happened When Google Ousted Timnit Gebru.” *Wired*, June 8, 2021.
+
+“The Social Atrocity: Meta and the Right to Remedy for the Rohingya.” *Amnesty International* report, September 29, 2022.
+
+Wakabayashi, Daisuke, and Katie Benner. “How Google Protected Andy Rubin, the ‘Father of Android.’” *New York Times*, October 25, 2018.
+
+## 9. 歌利亚悖论
+
+de Vynck, Gerrit. “Google's Cloud Unit Won’t Sell a Type of Facial Recognition Tech.” *Bloomberg*, December 13, 2018.
+
+“Google Duplex: A.I. Assistant Calls Local Businesses to Make Appointments.” *Jeff Grubb's Game Mess's YouTube channel*, May 8, 2018.
+
+Kruppa, Miles, and Sam Schechner. “How Google Became Cautious of AI and Gave Microsoft an Opening.” *Wall Street Journal*, March 7, 2023.
+
+Love, Julia. “Google Says Over Half of Generative AI Startups Use Its Cloud.” *Bloomberg*, August 29, 2023.
+
+Nylen, Leah. “Google Paid $26 Billion to Be Default Search Engine in 2021.” *Bloomberg*, October 17, 2021.
+
+Uszkoreit, Jakob. “Transformer: A Novel Neural Network Architecture for Language Understanding.” *blog.research.google*, August 31, 2017.
+
+Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. “Attention Is All You Need.” *Advances in Neural Information Processing Systems* 30 (2017).
+
+## 10. 规模很重要
+
+Brockman, Greg (@gdb). “Held our civil ceremony in the @OpenAI office last week. Officiated by @ilyasut, with the robot hand serving as ring bearer. Wedding planning to commence soon.” *Twitter*, November 12, 2019, 9:39 a.m. `https://twitter.com/gdb/status/1194293590979014657?lang=en`.
+
+Brockman, Greg. “Microsoft Invests in and Partners with OpenAI to Support Us Building Beneficial AGI.” *www.openai.com*, July 22, 2019.
+
+“Greg Brockman: OpenAI and AGI.” *Lex Fridman Podcast* (podcast), April 3, 2019.
+
+Hao, Karen. “The Messy, Secretive Reality behind OpenAI's Bid to Save the World.” *MIT Technology Review*, February 17, 2020.
+
+Hao, Karen, and Charlie Warzel. “Inside the Chaos at OpenAI.” *The Atlantic*, November 19, 2023.
+
+Jin, Berber, and Keach Hagey. “The Contradictions of Sam Altman, AI Crusader.” *Wall Street Journal*, March 31, 2023.
+
+Kraft, Amy. “Microsoft Shuts Down AI Chatbot after It Turned into a Nazi.” *CBS News*, March 25, 2016.
+
+Levy, Steven. “What OpenAI Really Wants.” *Wired*, September 5, 2023.
+
+Metz, Cade. “A.I. Researchers Are Making More Than $1 Million, Even at a Non-profit.” *New York Times*, April 19, 2018.
+
+Metz, Cade. “The ChatGPT King Isn’t Worried, but He Knows You Might Be.” *New York Times*, March 31, 2023.
+
+“OpenAI Charter.” *www.openai.com/charter*, April 9, 2018.
+
+Radford, Alec, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. “Improving Language Understanding by Generative Pre-Training.” *www.openai.com*, June 11, 2018.
+
+Radford, Alec, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. “Language Models Are Unsupervised Multitask Learners.” *www.openai.com*, February 14, 2019.
+
+## 11. 与科技巨头绑定
+
+Ahmed, Nur, Muntasir Wahed, and Neil C. Thompson. “The Growing Influence of Industry in AI Research.” *Science*, March 2, 2023.
+
+Amodei, Dario, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and Dan Mané. “Concrete Problems in AI Safety.” *www.arxiv.org*, July 25, 2016.
+
+Copeland, Rob. “Google Management Shuffle Points to Retreat from Alphabet Experiment.” *Wall Street Journal*, December 5, 2019.
+
+Coulter, Martin, and Hugh Langley. “DeepMind's Cofounder Was Placed on Leave after Employees Complained about Bullying and Humiliation for Years. Then Google Made Him a VP.” *Business Insider*, August 7, 2021.
+
+Friend, Tad. “Sam Altman's Manifest Destiny.” *New Yorker*, October 3, 2016.
+
+Hodson, Hal. “Revealed: Google AI Has Access to Huge Haul of NHS Patient Data.” *New Scientist*, April 29, 2016.
+
+Ludlow, Edward, Matt Day, and Dina Bass. “Amazon to Invest Up to $4 Billion in AI Startup Anthropic.” *Bloomberg*, September 25, 2023.
+
+Piper, Kelsey. “Exclusive: Google Cancels AI Ethics Board in Response to Outcry.” *Vox*, April 4, 2019.
+
+Primack, Dan. “Google Is Investing $2 Billion into Anthropic, a Rival to OpenAI.” *Axios*, October 30, 2023.
+
+Waters, Richard. “DeepMind Co-founder Leaves Google for Venture Capital Firm.” *Financial Times*, January 21, 2022.
+
+## 12. 流言终结者
+
+Abid, Abubakar, Maheen Farooqi, and James Zou. “Large Language Models Associate Muslims with Violence.” *Nature Machine Intelligence* 3 (2021): 461-63.
+
+Barrett, Paul, Justin Hendrix, and Grant Sims. “How Tech Platforms Fuel U.S. Political Polarization and What Government Can Do about It.” *www.brookings.edu*, September 27, 2021.
