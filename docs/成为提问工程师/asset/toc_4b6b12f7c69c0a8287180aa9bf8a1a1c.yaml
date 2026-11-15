@@ -1,0 +1,20 @@
+level_changes:
+- line: 155
+  before: 1
+  after: 2
+- line: 291
+  before: 1
+  after: 2
+- line: 692
+  before: 1
+  after: 2
+- line: 1350
+  before: 1
+  after: 2
+- line: 1457
+  before: 1
+  after: 2
+text_changes:
+- line: 2221
+  before: Organiz Structure Design
+  after: Organizational Structure Design
