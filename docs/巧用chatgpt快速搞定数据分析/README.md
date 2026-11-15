@@ -1,0 +1,7 @@
+# 巧用ChatGPT快速搞定数据分析
+
+> 原文：[巧用ChatGPT快速搞定数据分析]()
+> 
+> 译者：[飞龙](https://github.com/wizardforcel)
+> 
+> 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
