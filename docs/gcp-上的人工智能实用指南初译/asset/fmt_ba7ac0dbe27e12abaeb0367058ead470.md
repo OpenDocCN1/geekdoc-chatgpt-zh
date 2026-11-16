@@ -1,0 +1,282 @@
+
+## 模型管理
+
+| `etag` | | 字符串 | 是 | 该标志用于防止两个独立模型更新之间的竞争状况。需要在各种请求和响应之间以链接的方式使用`etag`参数，以确保对模型进行顺序更新。建议有效使用`etag`，以避免模型版本不一致。 |
+
+除了创建模型之外，相同的请求主体对象还可用于以下函数：
+
+*   `delete`：删除模型
+*   `get`：获取有关模型的所有信息，包括版本
+*   `getIamPolicy`：获取资源的访问控制策略
+*   `list`：提供项目中存在的所有模型的列表
+*   `patch`：更新模型资源
+*   `setIamPolicy`：设置 AI 平台内特定资源的访问控制
+*   `testIamPermissions`：列出调用用户帐户对特定资源拥有的所有权限
+
+为了执行在线预测，需要以值列表形式或 JSON 对象的形式对输入数据进行结构化和格式化。以下是可以在 AI 平台上传递给张量模型的输入张量的示例：
+
+```json
+{"values":["one","two","three"], "key":123}
+```
+
+需要将该对象格式化为以下格式，才能发送到 REST API 端点：
+
+```json
+{"instances": [
+    {"values": ["one","two","three"], "key": 1},
+    {"values": ["five","six","seven"], "key": 2}
+]}
+```
+
+```python
+def predict(project, model, instances, version=None):
+    GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
+    service = googleapiclient.discovery.build('ml', 'v1')
+    name = 'projects/{}/models/{}'.format(project, model)
+
+    if version is not None:
+        name += '/versions/{}'.format(version)
+
+    response = service.projects().predict(
+        name=name,
+        body={'instances': instances}
+    ).execute()
+
+    if 'error' in response:
+        raise RuntimeError(response['error'])
+
+    return response['predictions']
+```
+
+如我们所见，可以通过使用对项目的引用来对 JSON 格式的输入结构化数据进行建模来获得在线预测。我们使用`googleapiclient`创建机器学习服务的实例，并在服务实例上调用`predict`方法。
+
+## 笔记本
+
+The AI Platform provides an intuitive way of working with it in terms of notebooks. These are pre-packaged online interfaces that can be used for effective collaboration among team members and can be quickly configured to have the latest versions of Python libraries in the backend. The notebooks enable the developers to create and manage virtual machines on the GCP that can utilize TensorFlow and PyTorch frameworks, along with R and Python deep learning packages.
+
+可以配置工作流和管道，以真正无服务器的方式利用 CPU 和 GPU。笔记本电脑可以使用的图像经过测试和优化，以实现最佳表现和易用性。GCP 的认证层用于访问笔记本，并且可以与任何其他 GCP 资源相同的方式配置 IAM 策略。与 GCP 上托管的 GitHub 存储库无缝集成。
+
+AI Platform 笔记本支持以下运行时和包：
+
+![](Images/36e82c5a51dbc00c4ef8fd05e2e2a1a3.png)
+
+图 8.9-AI 平台支持的运行时和包
+
+为了在 AI 平台上使用笔记本，需要选择一个项目，并且需要启用 Compute Engine API 才能导航到笔记本页面。让我们创建笔记本的新实例：
+
+1.  从导航菜单转到 AI 平台内的`Notebooks`笔记本菜单。
+2.  单击顶部菜单栏上的`NEW INSTANCE`链接。
+3.  从可用选项中选择用于创建实例，或单击“自定义实例”以对新实例的各种参数和容量进行精细控制。
+4.  选择具有或不具有 GPU 的实例。如果实例是使用 GPU 创建的，请选择选项以自动安装 GPU 驱动。创建实例后，可以在以后修改 GPU 计数。以下屏幕快照描述了创建笔记本新实例的步骤：
+
+![](Images/b3fcd052cf96bfbff88dbe63079840e2.png)
+
+图 8.10-创建新笔记本实例的步骤（1）
+
+让我们使用不带 GPU 的 TensorFlow 2.0 创建一个新的笔记本实例。
+
+5.  AI 平台分配默认实例名称。可以根据用例上下文修改此名称。建议使用日期时间戳作为实例名称，以提高可维护性。
+6.  环境：AI 平台使用带有英特尔®MKL-DNN 和 CUDA 10.0 的 TensorFlow 2.0 创建图像，并且默认情况下包括 Python 2/3，scikit-learn，pandas 和 NLTK。
+7.  机器配置：AI 平台使用默认区域（us-west1-b），具有 15 GB RAM 的 4 个 vCPU 和 100 GB 的启动磁盘创建机器。
+8.  联网：子网是默认设置（10.138.0.0/20）。
+9.  估计成本：AI 平台根据持续使用折扣提供估计成本。
+10. 单击“创建”按钮分配笔记本实例。
+
+以下屏幕截图显示了使用 TensorFlow 2.0 而不使用 GPU 创建新笔记本实例的步骤：
+
+![](Images/48e4105771abf038dd5607dfd0707844.png)
+
+图 8.11-创建新笔记本实例的步骤（2）
+
+11. 使用设定的配置创建笔记本后，您可以通过单击`OPEN JUPYTERLAB`超链接来打开 JupyterLab 界面，如以下屏幕截图所示：
+
+![](Images/06d2045ea29440e097545bab5bf08904.png)
+
+图 8.12-打开 Jupyter 笔记本
+
+## 数据标签服务
+
+AI 平台提供了**数据标注服务**，该服务可以在人类标记者的帮助下轻松、高效地标注训练数据。模型训练需要大量数据，有时无法获得人工为训练和评估数据加上标签的努力。可以利用数据标签服务进行连续评估，这有助于基于一组新的输入数据来改进模型，以提高准确率。
+
+使用数据标签服务的一般过程始于创建一个数据集，其中包含样本，这些样本将作为人类标签的指南。与样本数据集一起，需要提供一个标注规范集，其中包含用例上下文中训练数据的所有可能的分类类别。我们还可以向贴标机提供一组额外的说明，以进行实际的贴标。一旦满足先决条件，就可以根据样本、标注规范集和说明生成服务请求，人工贴标人员可以导出训练数据以用于模型的训练和评估。
+
+以下屏幕快照显示了使用数据标签服务的一般过程：
+
+![](Images/23be98a310a882daaeac8972ae45eeb6.png)
+
+图 8.13-使用数据标记服务涉及的步骤
+
+## 深度学习容器
+
+这些容器提供了一个抽象的应用层，该层可以在各种环境中运行并且可以与基础操作系统无缝地协同工作。这有助于开发人员专注于应用开发，因为所有依赖项均由容器管理，而与部署应用的环境无关。
+
+AI 平台提供了一个现成的深度学习容器，其中包含关键的数据科学框架、库和工具。AI 平台上的深度学习容器包含 TensorFlow、PyTorch、scikit-learn 和 R 框架，以及 Python 和 R 运行时。容器中还包括最常用的 Python 包。
+
+## 训练和利用 TensorFlow 模型涉及的步骤
+
+在本部分中，我们将逐步介绍在 AI 平台上训练 TensorFlow 模型所涉及的所有步骤。本地机器学习管道以及 AI 平台上的核心组件是相似的，因此，应用开发人员很容易利用熟悉的过程在 AI 平台上构建和部署模型。以下屏幕截图中的流程图表示在 AI 平台上训练和使用 TensorFlow 模型的一般步骤：
+
+![](Images/fd5419cb9047f1712d5d3b1f82f6a5f4.png)
+
+图 8.14-在 AI 平台上训练和使用 TensorFlow 模型的通用步骤
+
+### 先决条件
+
+为了在 AI 平台上训练、部署和利用 TensorFlow 模型，我们需要考虑以下组件的成本：
+
+*   **AI 平台**：训练/部署/预测
+*   **云存储**：用于训练/分段应用包/训练工件的输入数据
+
+训练和部署 TensorFlow 模型的主要要求是创建一个项目。创建项目并启用计费后，我们需要启用 AI 平台和 Compute Engine API。此时，请安装云**软件开发套件**（**SDK**），并使用认证和授权对其进行初始化。
+
+至此，完成了与平台相关的先决条件。现在，我们需要为应用运行设置环境。
+
+在 GCP 控制台中，单击顶部菜单栏上的“激活 Cloud Shell”按钮。这将打开 Cloud Shell Web 界面。
+
+这是我们需要从 Cloud Shell 采取的步骤：
+
+1.  列出 AI 平台上存在的所有模型。
+2.  更新 AI 平台上的所有组件。
+3.  安装或升级 TensorFlow。
+
+您可以在控制台的以下屏幕截图中看到突出显示的上述步骤：
+
+![](Images/d63e9d1107fe84e0e4b5a146371adc4d.png)
+
+图 8.15-通过 GCP 控制台进行 AI 平台设置的要求
+
+至此，环境设置完成。现在，我们可以在本地开发和验证训练应用。在云上运行该应用之前，建议在本地运行该应用以进行快速调试，并确保所有程序都能按预期工作。在本地运行应用时，云资源不会产生任何费用。
+
+### 创建一个 TensorFlow 应用并在本地运行
+
+训练应用是根据开发人员的偏好和项目的上下文构造的。但是，有一个推荐的项目结构，可以确保各个项目之间的一致性，并且不需要进行上下文开发人员训练。
+
+#### 项目结构推荐
+
+让我们设置项目结构：
+
+1.  创建一个主项目目录，其中包含应用的所有代码。
+2.  在主项目目录中创建一个`setup.py`文件。`setup.py`文件确保所有子目录都包含在用于应用分发的存档包中。以下代码块显示了`setup.py`的典型实现：
+
+```python
+from setuptools import setup, find_packages
+import os
+
+NAME = 'preprocessing'
+VERSION = 'x.y'
+REQUIRED_PACKAGES = [COMMA_SEPARATED LIST OF PACKAGES]
+
+setup(
+    name=NAME,
+    version=VERSION,
+    packages=find_packages(),
+    install_requires=REQUIRED_PACKAGES, 
+)
+```
+
+3.  创建一个名为`trainer`的子目录。`trainer`目录包含应用模块代码，并且通常包含以下文件：
+    *   `task.py`：这是主要的应用模块，以及包含负责训练作业的编排的应用逻辑的文件。
+    *   `model.py`：这是包含模型逻辑以及模型的各种属性和配置参数的文件。
+4.  创建使应用模块化和逻辑可读的各种子目录。
+5.  建议在每个子目录中创建一个`__init__.py`文件。通常，`Setuptools`将这些用作包装应用的标记。
+6.  当调用`gcloud`命令进行训练时，`package-path`参数设置为`trainer`目录。运行时在父目录中搜索`setup.py`文件，并根据`trainer`目录中`task.py`和`model.py`文件中的代码训练模型。
+
+#### 训练数据
+
+在此示例中，我们将使用人口普查收入数据，它是公共可用的数据集之一。这是数据集的特征：
+
+*   **摘要**：基于 14 个属性的数据集，用于预测一个人的收入是低于还是大于 50,000 美元。
+*   **类型**：多变量。
+*   **实例数量**：48,842。
+*   **领域**：社交。
+*   **属性类型**：类别/整数。
+
+让我们继续进行模型训练。
+
+1.  在以下命令的帮助下，打开 Cloud Shell 并下载示例代码：
+
+```bash
+wget https://github.com/GoogleCloudPlatform/cloudml-samples/archive/master.zip
+unzip master.zip
+cd cloudml-samples-master/census/estimator
+```
+
+2.  在以下命令的帮助下获取训练数据：
+
+```bash
+mkdir data
+gsutil -m cp gs://cloud-samples-data/ai-platform/census/data/* data/
+TRAIN_DATA=$(pwd)/data/adult.data.csv
+EVAL_DATA=$(pwd)/data/adult.test.csv
+```
+
+3.  创建用于存储模型和中间文件的输出目录。
+4.  为了在本地运行模型，我们需要使用以下命令：
+
+```bash
+gcloud ai-platform local train \
+    --module-name trainer.task \
+    --package-path trainer/ \
+    --job-dir $MODEL_DIR \
+    -- \
+    --train-files $TRAIN_DATA \
+    --eval-files $EVAL_DATA \
+    --train-steps 1000 \
+    --eval-steps 100
+```
+
+这是模型输出目录的屏幕截图：
+
+![](Images/59e87953d41356ec5c88bbb441065492.png)
+
+图 8.16-模型输出目录
+
+训练和评估模型后，即可使用 TensorBoard 分析各种模型训练参数。TensorBoard 是 TensorFlow 打包的可视化工具包。它有助于在模型图中可视化和分析损失和准确率。以下命令用于将 TensorBoard 作为 Web 应用启动（默认在端口`8080`上）：
+
+```bash
+tensorboard --logdir=$MODEL_DIR --port=8080
+```
+
+前面的命令将返回以下输出。我们来看一下：
+
+![](Images/0938a6a9162404c4c4f58bf9cac03251.png)
+
+图 8.17 使用 TensorBoard 的模型视图
+
+正如我们从前面的屏幕截图中可以看到的那样，TensorBoard 可以通过直观的可视化工具轻松分析模型表现。
+
+在下一部分中，让我们看一下打包和部署训练应用所涉及的步骤。
+
+### 在 Cloud ML Engine 中打包和部署您的训练应用
+
+重要的是要了解在 ML Engine 中打包和部署应用的正确方法。在本节中，我们将讨论机器学习应用的打包和部署中的一些推荐方法和最佳实践。我们可以使用`gcloud`命令行工具来打包和上传应用。最简单的方法是使用以下命令进行打包以及上载应用，同时提交训练作业：
+
+```bash
+gcloud ai-platform jobs submit training
+```
+
+让我们定义打包和部署应用所需的全局环境变量，如下所示：
+
+*   `PATH_TRAINER_PACKAGE`：训练作业所需的所有源代码文件的标准路径。
+*   `TRAINER_MODULE`：这是`.task`文件的名称，该文件代表主应用模块，并且该文件包含负责训练作业的编排的应用逻辑。
+*   `STAGING_BUCKET`：这是训练作业运行时用于存储中间结果和临时文件的 Google 存储空间上的路径。
+
+除了这些之外，我们需要设置变量以表示作业名称、作业目录和区域。作业名称可用于跟踪与作业相关的数据和沿袭点；作业目录存储训练作业的中间结果和最终结果；并且需要该区域在适当的位置运行训练工作，以优化计算和存储成本并最小化开销。
+
+这是一个使用`gcloud ai-platform`命令负责打包和部署应用的命令：
+
+```bash
+gcloud ai-platform jobs submit training $JOB_NAME \
+    --staging-bucket $STAGING_BUCKET \
+    --job-dir $JOB_DIR \
+    --package-path $PATH_TRAINER_PACKAGE \
+    --module-name $TRAINER_MODULE \
+    --region $REGION \
+    -- \
+    --user_first_arg=first_arg_value \
+    --user_second_arg=second_arg_value
+```
+
+除了运行命令的必需参数之外，我们还可以将许多用户定义的和应用特定的参数传递给此脚本。参数值可用于运行时和特定于应用的逻辑的实现。
+
+训练作业还可能需要一些依赖关系才能成功运行训练作业。有两种类型的依赖关系需要解决：

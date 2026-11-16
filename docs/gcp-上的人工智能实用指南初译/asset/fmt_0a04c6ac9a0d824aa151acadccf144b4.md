@@ -1,0 +1,176 @@
+
+## AutoML 情感分析实验
+
+AutoML 接受 `CSV` 格式的训练数据，每行三个字段。第一个字段将行表示为`训练`、`验证`或`测试`样本。该字段在数据集中是可选的。如果数据文件中未提供，AutoML 会自动创建一个拆分，并将大约 80% 的样本分配给训练，每个样本分别分配 10% 进行验证和测试。
+
+第二个字段是模型需要分析的实际内容的占位符。第三个字段表示代表情感的实际分数，该分数以 0（最负数）开头，最大值为 10（最正数）：
+
+1. 让我们用标有 `Twitter 数据` 的示例数据集进行 `AutoML 情感分析` 实验。从导航菜单 > 人工智能 > 自然语言启动 `AutoML 情感分析`：
+
+![](Images/df9ce666d78a896ae13e58c081450a68.png)
+
+2. 启动应用后，单击顶部菜单栏上的 `新数据集` 按钮。
+
+3. 提供 `数据集名称`，然后选择 `情感分析` 选项，如以下屏幕快照所示：
+
+![](Images/35b8c10a0e0499c90190963df6ac07b3.png)
+
+存在用于上传文本内容的四个选项：
+
+* 从您的计算机上载 `CSV` 文件：`CSV` 文件可以是带有实际数据的文本文件，也可以是 `GCS` 路径列表。
+* 从您的计算机上载文本项。
+* 在 `Cloud Storage` 上选择一个 `CSV` 文件。
+* 稍后导入文本项：可以通过创建文本项集并将其直接标记在工作空间中来创建数据集。
+
+加载数据集后，AutoML 将在控制台上提供有关标记数据的统计信息：
+
+![](Images/85f40cc97ea7c913828cd59637c1e5c6.png)
+
+4. 在此阶段，模型已准备好进行训练。单击 `TRAIN` 选项卡，然后单击 `开始训练` 按钮。AutoML 将根据用户定义的分割或默认分割百分比来分割训练数据。训练完模型后，将基于评估样本对其进行评估，并在 `EVALUATE` 选项卡上提供详细的模型表现分析。该模型自动部署在平台上，可用于通过 Web 界面或 `API` 对新数据集执行情感分析。这是使用部署的模型执行情感分析的 Python 代码片段：
+
+```python
+project_id = 'ai-gcp-ch4'
+compute_region = 'us-central1'
+model_id = '[MODEL_ID]'
+file_path = '/local/path/to/file'
+
+from google.cloud import automl_v1beta1 as automl
+
+automl_client = automl.AutoMlClient()
+prediction_client = automl.PredictionServiceClient()
+
+model_full_id = automl_client.model_path(project_id, compute_region, model_id)
+
+with open(file_path, "rb") as content_file:
+    snippet = content_file.read()
+
+payload = {"text_snippet": {"content": snippet, "mime_type": "text/plain"}}
+params = {}
+response = prediction_client.predict(model_full_id, payload, params)
+print("Prediction results:")
+for result in response.payload:
+    print("Predicted sentiment label: {}".format(result.text_sentiment.sentiment))
+for key, data in response.metadata.items():
+    if key == 'sentiment_score':
+        print("Normalized sentiment score: {}".format(data))
+```
+
+该代码可用于通过应用边界调用 `API`，并且需要认证密钥才能访问服务。
+
+## 总结
+
+在本章中，我们了解了 GCP 如何通过 Web 界面和 `API` 轻松构建、部署和使用机器学习模型。我们已经根据一些最常见的用例展示了该平台的易用性和可伸缩性。可以以安全的方式公开 `API` 层，并且可以基于新的和标记的数据集不断升级模型。
+
+在下一章中，我们将了解如何构建基于云的机器学习引擎，并逐步介绍在生产环境中将机器学习即服务应用于服务的分步过程。
+
+# 五、构建大数据云机器学习引擎
+
+> 原文：[https://gitee.com/apachecn/apachecn-dl-zh/blob/master/docs/handson-ai-gcp/05.md](https://gitee.com/apachecn/apachecn-dl-zh/blob/master/docs/handson-ai-gcp/05.md)
+
+`机器学习`（`ML`）通过实现`人工智能`（`AI`）彻底改变了技术领域。在客户支持、欺诈检测和商业智能领域，`ML` 一直成为企业的最爱。`ML` 的重要性也影响着云计算领域。因此，包括谷歌在内的每个云提供商都在革新其平台上的 `AI` 服务方面发挥着重要作用。从新服务的开发到大型重组（在战略上将 `AI` 定位于其组织结构及其发展中）的重大重组中，他们在过去几年进行了大量投资。
+
+与其他基于云的本机服务相比，云上的 `ML` 和 `AI` 平台具有各种交付模型，例如语音重组、视频分析、其他形式的认知计算、`ML` 自动化、`ML` 模型管理、`ML` 模型服务和 `GPU` 基于计算。
+
+在本章中，我们将研究 `ML` 的各种元素，包括 Google Cloud ML 以及如何使用 Google Cloud 的机器学习引擎。Cloud Machine Learning Engine 也称为 Cloud AI Platform。因此，让我们从了解云中的 `ML` 开始。
+
+本章将涵盖以下主题：
+
+* 了解机器学习
+* 了解如何使用云机器学习引擎
+* Keras 框架概述
+* 使用 Keras 框架训练模型
+* 使用 Google AI 平台训练模型
+* 使用 Cloud Machine Learning Engine 的异步批量预测
+* 使用 Cloud Machine Learning Engine 进行实时预测
+
+## 了解机器学习
+
+几年来，人们一直在谈论 `ML`，好像它有望带来可影响人类生存各个方面的巨大优势。还已努力将 `ML` 开发到不需要人类参与的程度。在 `AI` 阶段可以看到 `ML` 的光明前景，该阶段利用 `ML` 模型并使他们从观察中学习。需要大量处理能力和存储空间才能正确评估所有适当信息，以在 `AI` 系统中获得准确的 `ML` 结果。希望将 `ML` 技术用于预测分析的公司必须在软件和硬件方面节省大量资金。由于云已经改变了一切，因此情况不再如此。在当今的大数据时代，云消除了对完全拥有物理硬件和软件的需求。许多公司可以轻松地对数据进行智能分析，因为这些复杂的系统可以在云中租用。只要他们可以访问 `ML` 的云，任何人都可以最大程度地使用该技术。
+
+要构建 `ML` 解决方案，您不需要云提供商。有现成的开源学习框架，例如 `TensorFlow`、`MXNet` 和 `CNTK`，这些框架允许企业在其硬件上进行操作并帮助他们构建 `ML` 模型。但是，内部开发的高级 `ML` 模型会遇到准确率问题。这是因为对实际大数据模型的训练通常涉及具有巨大计算和存储容量的大型集群。在将 `ML` 技能引入业务应用中的许多方面，进入的障碍很大。构造、训练和实现 `ML` 模型以及计算和硬件规范所需的专业知识，将导致更大的人工、生产和基础架构支出。这些问题可以通过云计算解决，因为主要的公共云平台旨在使企业能够利用 `ML` 技能来解决业务问题，而不会带来任何技术负担。总而言之，以下是在云上使用 `ML` 的一些优点：
+
+* 由于对必需硬件的短期要求，云的按使用付费模型对于 `AI` 或 `ML` 的繁重工作负载非常有用。
+* 云使公司可以轻松地在计算实例或存储空间方面试验 `ML` 的容量，并随着性能和需求目标的增加而扩展。
+* 可以在云中找到专用设备（`GPU` / `TPU`）的便捷可用性，可以帮助加快 `AI` 的增长。
+* 云提供了智能服务，无需用户具备 `AI` 或数据科学的先进能力。
+* 要开发 `AI` 框架，您必须从硬件、软件以及所有其他类型的必需框架开始使用云供应商。
+* 还允许您自己在云中部署某些成本控制策略。例如，仅使用硬件并使用开源软件开发自定义解决方案，就可以为组织节省资金。
+
+在下一节中，我们将专门研究 Google Cloud Platform 的 `AI` 平台产品以及如何使用它。我们还将简要介绍 Google Cloud 提供的某些 `ML` 服务。
+
+## 了解如何使用云机器学习引擎
+
+Cloud Machine Learning Engine 是一项由 Google Cloud 管理的服务，可让开发人员和信息研究人员为 `ML` 构建、操作和产生更好的模型。Cloud ML Engine（或 `AI` 平台）提供可以单独使用或一起使用的训练和预测服务。训练和预测服务现在称为 ML Engine 中的 `AI 平台训练` 和 `AI 平台预测`。下图表示 Google Cloud AI 平台：
+
+![](Images/38fbf8e357bc7be6ccc85cbaedf92d2f.png)
+
+三个步骤使用 Cloud AI Platform。如上图所示，您可以使用 Google AI Platform Notebooks、Google Cloud Machine Learning 模型训练以及 Google Cloud AI Platform Prediction 服务来构建项目。在本章中，我们将介绍如何利用 Google AI Platform Notebooks。我们在“第 8 章”、“使用 Cloud ML Engine 实现 TensorFlow 模型”和“第 9 章”、“构建预测应用”中介绍了 Google Cloud Machine Learning 模型的训练和预测服务。
+
+## Google Cloud AI Platform 笔记本
+
+`AI 平台笔记本` 是一项托管服务，可提供嵌入式 `JupyterLab` 环境，设计人员和信息研究人员只需单击一下最新信息研究和 `ML` 框架，即可构建 `JupyterLab` 案例。`BigQuery`、`Cloud Dataproc` 和 `Cloud Dataflow` 集成在笔记本中。这使得处理和预处理信息易于实现。最终，这会导致建模、训练和实现方面的信息获取更为简单。一键部署新的 `JupyterLab` 案例，即可立即分析您的信息。每个示例都预先配置了最常见的数据科学和 `ML` 库的优化变体。`JupyterLab` 接口利用笔记本电脑，并预先安装了优化的库变体，例如 `TensorFlow`、`PyTorch`、`sci-kit-learn`、`pandas`、`SciPy` 和 `Matplotlib`。通过添加 `CPU`、`RAM` 和 `GPU`，您可以从小处着手，然后进行扩展。如果您的信息对于一台计算机而言太大，则可以无缝迁移到 `BigQuery`、`Cloud Dataproc`、`Cloud Dataflow` 和 `AI Platform` 预测训练等服务。
+
+## Google AI Platform 深度学习映像
+
+Google AI 平台笔记本为您节省了创建专门用于运行深度学习算法的计算实例的麻烦。Google Cloud AI Platform 提供了深度学习虚拟机，这些虚拟机提供经过验证、优化和测试的操作系统映像，从而省去了为深度学习算法构建和配置计算实例的麻烦。AI 深度学习 VM 映像平台是一系列 VM 映像，这些映像已通过基于 `Debian9` 的 `Compute Engine` 针对数据科学和 `ML` 进行了优化。所有映像都预装了主要的 `ML` 框架和仪器，并且可以在 `GPU` 盒的盒子外面使用，以加快信息处理的速度。Google Cloud AI Platform 的深度学习 VM 映像是预打包的虚拟机图片的集合，这些图片提供了深刻的、随时可运行的 `ML` 平台结构。
+
+深度学习 VM 图片通过预配置依赖项、重要仪器的预安装和性能优化来帮助您为深度学习模型营造氛围。关于 Google 平台深度学习映像，您需要注意三个重要概念。让我们来看看。
+
+第一个概念称为 `映像系列`。映像族是为特定目的或特定架构预先配置的一系列映像。Google 云端提供了各种深度学习 VM 映像族。每个映像系列都特定于某个 `ML` 框架。Google 云提供的一些映像系列示例如下：
+
+* `TensorFlow` 系列，带有或不带有 `GPU`。
+* `PyTorch` 系列，带有或不带有 `GPU`。
+* `Chainer` 实验系列，带有或不带有 `GPU`。
+* 一个基本或通用映像系列，您可以在其中添加或不添加 `GPU` 来添加首选框架。
+
+第二个概念称为映像。映像是虚拟机的单个蓝图。深度学习 VM 图片是由公共计算引擎预先配置的虚拟机图片。映像类型有两种，如下所示：
+
+* `自定义映像`：只有您的项目可以查看自定义映像。这些映像是根据您正在处理的项目的需要专门定制的。可以创建启动驱动器中的自定义图片以及其他图片。然后，您可以使用此个性化图片生成示例。
+* `公共映像`：Google、开放源代码社区和第三方供应商提供并维护公共映像。默认情况下，所有项目都可以访问和使用这些映像来创建实例。
+
+您可以免费使用大多数公共映像，但也可以在项目中添加一些高级映像。您无需为 `Compute Engine` 的自定义图片付费，但在维护项目中的自定义图片时会产生存储费。
+
+第三个概念称为实例。实例是承载 Google 基础架构的虚拟机。预先配置的深度学习 VM 映像之一基于深度学习 VM 实例。使用 Google Cloud Platform 控制台或命令行工具，可以生成带有映像的实例。
+
+深度学习映像始终是使用 Google AI 平台笔记本的第一步。如果不选择这些深度学习映像，您将无法启动这些笔记本。在下一节中，我们将研究如何启动和运行这些笔记本。
+
+## 创建 Google Platform AI 笔记本
+
+让我们首先创建一个 Google Platform AI Notebook，如下所示：
+
+1. 创建一个新实例。以下屏幕截图显示了如何从 Google 云控制台的用户界面执行此操作：
+
+![](Images/a3ab0d8d6589ad8324dc90a231a6fc62.png)
+
+2. 接下来，您必须选择将在 AI Notebook 的计算实例中使用的可用自定义图像或公共图像：
+
+![](Images/422b5a1b631e396e5b8a1815164b15fa.png)
+
+3. 选择虚拟机映像后，将显示以下屏幕，其中包含一些重要的实例信息。您应该仔细检查它。如果您需要更改任何内容，可以单击 `CUSTOMIZE` 选项，如下所示：
+
+![](Images/bf712f4c422ac2bc3f026c9fcc023864.png)
+
+4. 自定义屏幕提供了用于更改 `RAM`、区域、区域等的选项，如以下屏幕截图所示：
+
+![](Images/3762e92b74115df9b46d80b01267d92e.png)
+
+5. 您还可以在 `GPU` 和启动磁盘周围进行其他自定义，如以下屏幕截图所示：
+
+![](Images/85588d49d27dc028eda9ca301fab312a.png)
+
+6. 创建笔记本后，它将显示在 Google Cloud AI Platform UI 的可用笔记本列表中，如以下屏幕截图所示：
+
+![](Images/d0360532feb32522db07e4f76702b2df.png)
+
+7. 运行以下命令以访问您创建的 VM 实例上的 `JupyterLab` 用户界面。以下命令设置端口转发：
+
+```bash
+export INSTANCE_NAME="<my-instance>"
+gcloud compute ssh $INSTANCE_NAME -- -L 8080:localhost:8080
+```
+
+8. 以下屏幕截图显示了 UI 的外观。您必须在网络浏览器中输入 `http://localhost:8080/lab?` 才能获得此信息：
+
+![](Images/a0733600f802c50a1f370349180faf84.png)
+
+您还可以使用以下 shell 脚本自动执行此操作：
