@@ -1,0 +1,77 @@
+level_changes:
+- line: 102
+  before: 1
+  after: 2
+- line: 106
+  before: 2
+  after: 3
+- line: 110
+  before: 3
+  after: 3
+- line: 114
+  before: 3
+  after: 3
+- line: 118
+  before: 3
+  after: 3
+- line: 122
+  before: 2
+  after: 3
+- line: 130
+  before: 2
+  after: 3
+- line: 237
+  before: 1
+  after: 2
+- line: 250
+  before: 2
+  after: 3
+- line: 266
+  before: 2
+  after: 3
+- line: 272
+  before: 2
+  after: 3
+- line: 296
+  before: 3
+  after: 3
+- line: 306
+  before: 3
+  after: 3
+- line: 384
+  before: 3
+  after: 3
+- line: 396
+  before: 1
+  after: 2
+- line: 400
+  before: 2
+  after: 3
+- line: 408
+  before: 1
+  after: 2
+- line: 410
+  before: 2
+  after: 3
+- line: 444
+  before: 2
+  after: 3
+- line: 498
+  before: 2
+  after: 3
+text_changes:
+- line: 19
+  before: Content Summary
+  after: Contents
+- line: 237
+  before: Chapter 1 Artificial Intelligence Business Models and Profit Models
+  after: 1.7 Chapter Summary
+- line: 396
+  before: Core Goals and Misconceptions of AI Product Development
+  after: 2.3 Cognitive Misunderstandings of AI Products
+- line: 400
+  before: 'Misconception 2: AI Products Are General Artificial Intelligence'
+  after: 'Misconception 2: AI Products Are General Artificial Intelligence'
+- line: 498
+  before: 2.3 Haidilao Smart Restaurant Case
+  after: 2.3 Haidilao Smart Restaurant Case

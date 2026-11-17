@@ -1,0 +1,173 @@
+
+# 6.1 Commodity Recommendation System Practice
+
+With the development of the Internet, the volume of information has grown dramatically. Although the growth of information volume meets users' demand for information content in the information age, with the explosive growth of the Internet, the speed of information growth has exceeded the speed at which people process information. Since everyone's time is limited and their ability to process information is also limited, this causes users to be unable to accurately filter out information that is truly useful to them when faced with massive amounts of information. Information usage efficiency actually decreases due to excessive information volume, a situation known as "information overload".
+
+## 6.1.1 Basic Principles of Recommendation Systems
+
+Faced with massive data, it is very difficult for consumers to find information that meets their needs from the vast sea of information; similarly, for information producers, it is also very difficult to make their produced information stand out in the torrent of information and attract users' attention. To effectively solve the information overload problem, the Internet generally adopts two methods: "search" and "recommendation".
+
+When users obtain information on the Internet, they can search by entering keywords into a search engine. The search engine matches information in the system backend based on the keywords entered by the user and displays information relevant to the user's query. However, when users cannot provide keywords that accurately describe their needs, the search engine becomes powerless. At this point, the recommendation system comes into play. The recommendation system does not require users to explicit state their needs; instead, it models users by analyzing their basic information and historical behavior information, and actively pushes information based on the user model to meet user needs. The differences between search and recommendation functions are shown in Table 6-1.
+
+Table 6-1
+
+![](converter-master/example/165201/content_633725_0.jpg)
+
+Search focuses on user-led operations, and the display of results focuses on the correlation of the data itself. The recommendation system, on the other hand, makes biased displays based on user information by the system; the displayed information is system-led, gradually guiding users to discover the data results they need through user behavior. Therefore, the recommendation system focuses more on researching users' preferences and interest characteristics.
+
+The recommendation system mainly needs to find the connection between users and data: on the one hand, helping users discover data valuable to them; on the other hand, presenting data to users who are interested in it.
+
+The recommendation system consists of three important parts: the user modeling module, the recommendation object modeling module, and the recommendation algorithm module. After the recommendation system obtains user preference data, it establishes the user model in the user modeling module, and matches the information the user is interested in or needs with the feature information of the recommendation object model completed in the recommendation object modeling module. It then uses the corresponding recommendation algorithm to calculate and filter, finding recommendation objects the user might be interested in, and recommends them to the user through the display interface. The basic recommendation system is shown in Figure 6-1.
+
+![](converter-master/example/165201/content_633725_1.jpg)
+
+Figure 6-1
+
+A successful recommendation system can only provide personalized, efficient, and accurate recommendations to users after understanding the user object, input data, changes in user interests and needs, and output data. Therefore, during the modeling process, it is necessary to understand user attributes, user browsing behavior and content, and the attribute characteristics of recommendation objects. A successful recommendation system must also have a deep understanding of the recommendation object's information, be able to extract features of the recommendation object, deeply analyze the extraction methods and purposes, be very familiar with the correlation between recommendation objects and users, and be able to perform recommendation calculations based on user interest preferences.
+
+The recommendation algorithm is the most core part of the entire recommendation system, determining its quality. Currently, recommendation algorithms mainly include collaborative filtering-based recommendation, content-based recommendation, association rule-based recommendation, knowledge-based recommendation, and hybrid recommendation, etc.
+
+(1) **Collaborative Filtering Recommendation** (`Collaborative Filtering Recommendation`): The basic idea of collaborative filtering recommendation borrows from the process of people purchasing goods in daily life. For example, the famous "beer and diapers" story: Walmart placed beer and diapers together for sale. This move seemed absurd, but this strange measure increased sales of both diapers and beer. The reason was that Walmart performed market basket analysis on customer shopping behavior, knowing which goods customers often bought together. Walmart used data mining methods to analyze and mine customer shopping data, discovering that the product most frequently bought with diapers was actually beer! Extensive actual investigation and analysis revealed that some young fathers in the US often went to supermarkets to buy baby diapers after work, and many of them also bought beer for themselves at the same time. The fact behind this phenomenon is that American wives often asked their husbands to buy diapers for the baby after work, and the husbands bought their favorite beer along with the diapers. This is a highly representative example of collaborative filtering recommendation. Besides associated purchases, if a user likes a certain type of product, the probability of purchase increases when they see similar products or see a product with high ratings. Collaborative filtering recommendation is divided into three types: user-based collaborative filtering, item-based collaborative filtering, and model-based collaborative filtering.
+
+① **User-based Collaborative Filtering** (`User-based Collaborative Filtering`): Obtains neighboring user information with similar hobbies or interests through statistical-like methods and makes recommendations. That is, first collect user information, then use nearest neighbor search to calculate user similarity, and finally generate recommendation results.
+
+② **Item-based Collaborative Filtering** (`Item-based Collaborative Filtering`): First collects user information, uses nearest neighbor search to calculate recommendation object similarity, uses similarity as weight to weight the scores of rated items, obtains predicted values for items to be predicted, and finally generates recommendation results.
+
+③ **Model-based Collaborative Filtering** (`Model-based Collaborative Filtering`): Uses historical data to induce and summarize a model, and makes predictions based on this model. Model-based collaborative filtering effectively solves the problem of user-based and item-based collaborative filtering being unable to handle massive data and having slow computation speeds.
+
+(2) **Content-based Recommendation**: First extracts content features of the recommendation object and matches them with user interest preferences in the user model; recommendation objects with higher matching degrees can be recommended to users as results. For example, in music recommendation, the system first analyzes the commonalities of music previously selected by the user to find the user's interest points, then recommends other music similar to the user's interest points. Content-based recommendation is simple and effective, with intuitive and easy-to-understand results, not requiring domain knowledge. Of course, content-based recommendation also has defects; it cannot extract features for some media resources, such as images, music, etc.
+
+(3) **Association Rule-based Recommendation**: Based on association rule mining algorithms, takes items already purchased (or liked) by the user as the rule head, and the rule body as candidate recommendation objects.
+
+(4) **Knowledge-based Recommendation**: Does not rely on customer rating data for goods, but makes recommendations by inferring user needs and preferences. The key to knowledge-based recommendation lies in the establishment of the knowledge base, to facilitate knowledge reasoning and case-based reasoning based on knowledge.
+
+(5) **Hybrid Recommendation**: Because various recommendation methods have their own advantages and disadvantages, in actual recommendation product applications, different recommendation algorithms can be combined for specific problems. Since there are many recommendation modes, there are also many combination methods, but the two most commonly used combination methods are as follows.
+
+① **Result-based Hybrid**: That is, after using multiple recommendation methods to produce results, the recommendation results are mixed through some algorithm to obtain the final recommendation. The focus of result-based hybrid is to synthesize numerous recommendation results into the final recommendation. For example, some products adopt a random method and score random results through user clicks, optimizing the combination results based on the scoring results.
+
+② **Algorithm-based Hybrid**: That is, combining two algorithms during computation. For example, mixing content-based recommendation algorithms into collaborative filtering algorithms, or mixing rule-based recommendation algorithms into content-based recommendation algorithms.
+
+## 6.1.2 Practical Operation
+
+The commodity recommendation system in this section is completed on the Alibaba Cloud `PAI` platform, implementing commodity recommendation through the user-based collaborative filtering algorithm. The dataset for this example comes from the Tianchi Competition, and readers can obtain it through the Alibaba Cloud `PAI` platform, as shown in Table 6-2.
+
+Table 6-2
+
+![](converter-master/example/165201/content_633725_2.jpg)
+
+Continued Table
+
+![](converter-master/example/165201/content_633725_3.jpg)
+
+Since the user-based collaborative filtering algorithm belongs to association rule algorithms, for this experiment's dataset, part of the user shopping behavior data is used as the training set to obtain commodity association relationships, and another part of the user purchase data is used as the validation set for recommendation, forming result evaluation.
+
+This example is divided into three steps: ① Train association rules based on user behavior data to generate a recommendation list; ② Import actual purchase behavior data from user purchase behavior data; ③ Analyze the number of recommendations and hits based on actual purchase behavior data, create the implementation on the Alibaba Cloud `PAI` platform, and then gradually drag in various components according to the designed steps and the process shown in Figure 6-2 to establish the workflow.
+
+![](converter-master/example/165201/content_633725_4.jpg)
+
+Figure 6-2
+
+Step 1: Import experimental data. The imported data table name is `pai_online_project.cf_data_train`. After data import is complete, obtain purchase behavior data from the data through `SQL` statements. The `SQL` statement is as follows:
+
+![](converter-master/example/165201/content_633725_5.jpg)
+
+After filtering data where the search purchase behavior is "1", drag it into the "`Collaborative Filtering etrec`" component. In the collaborative filtering component settings, set `Top N` to "1", indicating that the nearest `item` and its weight are returned for each `item`. Analyze which commodities have the highest probability of being purchased by the same user through purchase behavior, as shown in Figure 6-3.
+
+![](converter-master/example/165201/content_633725_6.jpg)
+
+Figure 6-3
+
+The collaborative filtering result represents commodity association. `itemid` represents the target commodity. The left side of the colon in the `similarity` field represents commodities with high association with the target, and the right side represents the association between the two commodities. The collaborative filtering result is shown in Figure 6-4.
+
+![](converter-master/example/165201/content_633725_7.jpg)
+
+Figure 6-4
+
+Step 2: First, format the collaborative filtering result information through `SQL` statements:
+
+![](converter-master/example/165201/content_633725_8.jpg)
+
+Then put the formatted data and training data together into the `JOIN` component for data merging. The `JOIN` component can merge two tables into one through association information (see Figure 6-5), and can set new fields for output. On the Alibaba Cloud `PAI` platform, the `JOIN` component supports join types including left join, inner join, right join, and full join.
+
+![](converter-master/example/165201/content_633725_9.jpg)
+
+Figure 6-5
+
+Step 3: After obtaining the association rules of user-purchased commodities, make recommendations for user purchase behavior and check if the recommendations hit. Filter and map the data. The filter conditions are as follows:
+
+![](converter-master/example/165201/content_633725_10.jpg)
+
+The mapped fields are `item_id` and `user_id`. The data after filtering and mapping is shown in Figure 6-6.
+
+![](converter-master/example/165201/content_633725_11.jpg)
+
+Figure 6-6
+
+Perform `JOIN` operation on user behavior data and purchase data. The process is shown in Figure 6-7.
+
+![](converter-master/example/165201/content_633725_12.jpg)
+
+Figure 6-7
+
+When performing `JOIN` operation on behavior data and purchase data, an inner join can be used. The association conditions are set as `user_id=user_id`, `similar_item=item_id`. After executing the `JOIN` operation, the data forms association results, as shown in Figure 6-8.
+
+![](converter-master/example/165201/content_633725_13.jpg)
+
+Figure 6-8
+
+## 6.1.3 Model Evaluation and Analysis
+
+Analyzing the data, it can be seen that many data entries have duplicate information, so data deduplication is needed. Deduplication can be executed via `SQL` statements, as follows:
+
+![](converter-master/example/165201/content_633725_14.jpg)
+
+The deduplicated data totals 18,065 records, as shown in Figure 6-9.
+
+![](converter-master/example/165201/content_633725_15.jpg)
+
+Figure 6-9
+
+View recommendation accuracy through recommended data from shopping behavior and purchase data. Results show a total of 60 hits, as shown in Figure 6-10.
+
+![](converter-master/example/165201/content_633725_16.jpg)
+
+Figure 6-10
+
+According to statistical results, with a sample size of approximately 10,000, the recommendation hit count is 60, and the hit rate is about 0.6%. The recommendation effect is not ideal, so tuning is needed for this recommendation. Since this experiment used a general collaborative filtering approach without considering e-commerce characteristics and commodity characteristics, recommendation conditions should be added to the recommendation model. For example, after a user purchases an electronic product, do not recommend the same type of product within 3 months, but recommend peripheral products of that commodity, such as recommending phone cases to users who bought mobile phones; daily consumables should consider purchase quantity and consumption cycle; clothing should consider climate factors, recommending relevant clothing types according to different months; some low-frequency purchase products should not be recommended again after purchase, etc.
+
+# 6.2 Image Recognition Practice
+
+With the promotion of online payment and corporate online banking, the frequency of cash usage is getting lower and lower, but in corporate business, the frequency of check usage is still relatively high. Checks need to be filled out manually. Currently, the recognition and recording of check content require a large amount of manual labor, and the work is tedious with much repetitive labor. Therefore, automatic check recognition through AI can not only achieve high recognition rates but also realize real-time reading and storage.
+
+For a counter operator to recognize a check, they need to identify and verify the authenticity of the check, issue date, payee, RMB uppercase amount, RMB lowercase amount, seal/signature, check number, etc., as shown in Figure 6-11. Among them, face information recognition is used to identify basic check information: bank information, check number, etc. In addition to recognizing basic face information, handwritten content and digital information can also be recognized through programs. Handwritten content mainly includes payee information, drawer information, uppercase amount, etc.; face digits mainly refer to the face amount. Both handwritten content and digital information can be recognized through artificial neural networks. Recognition can be implemented either through a Convolutional Neural Network trained based on `TensorFlow`, or with the help of enterprise open platforms. This book will take digital recognition in check recognition as an example for introduction.
+
+![](converter-master/example/165201/content_633726_0.jpg)
+
+Figure 6-11
+
+The `MNIST` dataset used in this example project is a dataset containing 60,000 labeled digits established by the American National Institute of Standards and Technology. The `MNIST` dataset consists of digital images handwritten by 250 different people. Among these 250 people, 50% are Census Bureau employees and 50% are high school students. Images are divided into 10 digits from 0 to 9. Each image has a printed label annotating the human recognition result for that image, as shown in Figures 6-12 and 6-13.
+
+![](converter-master/example/165201/content_633726_1.jpg)
+
+Figure 6-12
+
+![](converter-master/example/165201/content_633726_2.jpg)
+
+Figure 6-13
+
+Since the official dataset provided is encoded, if we want to view the images, we need to decode them. The author decoded the dataset in the `anaconda3` and `TensorFlow` environment. The code is as follows:
+
+![](converter-master/example/165201/content_633726_3.jpg)
+
+## 6.2.1 Indicator System Design
+
+The key to judging whether an AI product meets expectations is whether its indicators meet standards. The indicator design in this book is as follows.
+
+1. **Indicator 1: Accuracy**
+
+In the field of machine learning, there are many indicators for evaluating models. Common evaluation indicators include Accuracy, Precision, Recall, `AUC`, `F1`, `MSE`, etc. Because the current project focuses on accuracy, this book uses the simplest accuracy as the model evaluation indicator.
+
+Accuracy focuses on the results of all samples being correctly recognized. Its value is the number of correctly recognized samples divided by the total number of samples. In the financial industry, information recognition is very important. Therefore, we set the accuracy at 99.999%, meaning the model must achieve 99.999% accuracy.
+
+2. **Indicator 2: Top-5 Accuracy**
+
